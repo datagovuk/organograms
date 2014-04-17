@@ -1,0 +1,573 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Admiralty Pilot,43842,51862,Port Operations ,17.36,Operational Delivery
+1,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Admiralty Pilot (Trainee),40122,45838,Port Operations ,5.0,Operational Delivery
+2,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Adult Apprentice,18010,19107,Engineering Civ Apprentices,1.0,Science and Engineering
+3,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Apprentice ,13776,17712,Engineering Civ Apprentices,179.0,Science and Engineering
+4,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Apprentice ,13776,17712,Civilian HR Service Provider,8.0,Human Resources
+5,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Apprentice ,13776,17712,Technical [Trades] ,11.0,Science and Engineering
+6,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Apprentice ,13776,17712,Through Life Support,1.0,Operational Delivery
+7,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,AeroEng(Aero/Struct/Mech),2.0,Science and Engineering
+8,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,AeroEng(Electronics/Avionics),2.0,Science and Engineering
+9,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Audit and Assurance,1.0,Internal Audit
+10,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Business Management,27.94,Operational Delivery
+11,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Civilian HR Service Provider,1.0,Human Resources
+12,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Combat Systems Engineering,1.0,Science and Engineering
+13,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Commercial Analysis,4.0,Procurement
+14,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Commercial Operations,53.09,Procurement
+15,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Commercial Policy ,4.0,Procurement
+16,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Commercial Strategy,2.0,Procurement
+17,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Consultancy,4.0,Operational Delivery
+18,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Decision Support,16.0,Finance
+19,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Estate Planning ,1.0,Property and asset management
+20,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Estates Management ,1.0,Property and asset management
+21,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Government Quality Assurance,2.0,Programme and Project Management (PPM)
+22,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Information Assurance,1.0,Knowledge and Information Management (KIM)
+23,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Information Technology,5.0,Information Technology
+24,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Inventory Management,1.0,Operational Delivery
+25,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Investigative Accounting,1.0,Finance
+26,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Marine Engineering ,2.59,Science and Engineering
+27,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Naval Architecture ,6.0,Science and Engineering
+28,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Nuclear Propulsion ,5.0,Science and Engineering
+29,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Nuclear Weapons,1.0,Science and Engineering
+30,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Performance Management,1.0,Internal Audit
+31,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Programme Management,93.0,Programme and Project Management (PPM)
+32,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Project Management,34.0,Programme and Project Management (PPM)
+33,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Reporting and Controls,2.0,Finance
+34,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Safety Management ,5.0,Operational Delivery
+35,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Salvage and Marine Operations,3.0,Operational Delivery
+36,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Science & Engineering policy,4.0,Science and Engineering
+37,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Secretariat & Private Office,4.0,Operational Delivery
+38,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Security Policy,1.0,Operational Delivery
+39,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Senior Ownership ,1.0,Internal Audit
+40,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Statistics ,1.0,Statisticians
+41,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Systems Engineering,6.0,Science and Engineering
+42,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Teaching ,1.0,Operational Delivery
+43,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,Through Life Support,2.86,Operational Delivery
+44,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B1,56436,72185,WOME Safety ,1.0,Science and Engineering
+45,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Administrative Support,1.0,Operational Delivery
+46,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,AeroEng(Aero/Struct/Mech),9.0,Science and Engineering
+47,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,AeroEng(Electronics/Avionics),4.0,Science and Engineering
+48,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Audit and Assurance,5.0,Internal Audit
+49,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Business Management,78.27,Operational Delivery
+50,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Civilian HR Expert ,1.0,Human Resources
+51,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Combat Systems Engineering,4.0,Science and Engineering
+52,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Commercial Analysis,7.81,Procurement
+53,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Commercial Development,2.0,Procurement
+54,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Commercial Operations,90.12,Procurement
+55,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Commercial Policy ,15.93,Procurement
+56,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Commercial Strategy,5.67,Procurement
+57,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Communication Planning,1.0,Communications
+58,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Computer Science & Engineering,1.0,Information Technology
+59,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Consultancy,8.81,Operational Delivery
+60,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Customer Services ,1.0,Operational Delivery
+61,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Decision Support,82.57,Finance
+62,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Direct Military Support,1.0,Operational Delivery
+63,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Enterprise Architect,3.0,Information Technology
+64,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Estates Management ,1.0,Property and asset management
+65,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Government Quality Assurance,7.0,Programme and Project Management (PPM)
+66,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Information Assurance,2.0,Knowledge and Information Management (KIM)
+67,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Information Technology,25.72,Information Technology
+68,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Internal Communications,1.0,Communications
+69,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Inventory Management,16.94,Operational Delivery
+70,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Investigative Accounting,7.55,Finance
+71,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Knowledge Info Management,4.79,Knowledge and Information Management (KIM)
+72,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Land Sys Eng(Elect/Electronic),1.0,Science and Engineering
+73,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Land Sys Eng(Struct/Mech),2.0,Science and Engineering
+74,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Logistics Management ,1.0,Operational Delivery
+75,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Marine Engineering ,14.91,Science and Engineering
+76,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Naval Architecture ,9.48,Science and Engineering
+77,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Nuclear Propulsion ,16.0,Science and Engineering
+78,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Nuclear Weapons,5.0,Science and Engineering
+79,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Operational Analysis,1.0,Science and Engineering
+80,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Performance Management,1.67,Internal Audit
+81,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Port Operations ,2.0,Operational Delivery
+82,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Programme Management,193.1,Programme and Project Management (PPM)
+83,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Project Management,175.35,Programme and Project Management (PPM)
+84,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Quality Management ,3.0,Programme and Project Management (PPM)
+85,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Reporting and Controls,1.0,Finance
+86,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Risk Management ,1.0,Programme and Project Management (PPM)
+87,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Safety Management ,22.0,Operational Delivery
+88,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,"Safety,Health,Enviroment&Fire",1.0,Operational Delivery
+89,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Science & Engineering policy,1.0,Science and Engineering
+90,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Science&Technology Management,1.0,Science and Engineering
+91,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Secretariat & Private Office,12.0,Operational Delivery
+92,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Security Advice ,1.0,Operational Delivery
+93,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Security Policy,1.0,Operational Delivery
+94,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Site Estate ,1.0,Property and asset management
+95,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,SystemSafety&Enviromental Mgt,2.0,Programme and Project Management (PPM)
+96,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Systems Engineering,24.86,Science and Engineering
+97,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Teaching ,1.0,Operational Delivery
+98,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,Through Life Support,13.0,Operational Delivery
+99,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,WOME Assets ,1.0,Science and Engineering
+100,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,WOME Production ,3.0,Science and Engineering
+101,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,B2,47942,59535,WOME Safety ,8.0,Science and Engineering
+102,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Acoustics ,0.86,Science and Engineering
+103,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Administrative Support,7.64,Operational Delivery
+104,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,AeroEng(Aero/Struct/Mech),59.25,Science and Engineering
+105,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,AeroEng(Electronics/Avionics),15.0,Science and Engineering
+106,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Audit and Assurance,6.0,Internal Audit
+107,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Business Management,158.47,Operational Delivery
+108,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Chemical/Bio Science and Tech,2.0,Science and Engineering
+109,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Civilian HR Expert ,1.0,Human Resources
+110,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Civilian HR Service Provider,4.8,Human Resources
+111,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Civilian Training ,1.0,Operational Delivery
+112,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Combat Systems Engineering,19.0,Science and Engineering
+113,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Commercial Analysis,26.6,Procurement
+114,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Commercial Operations,249.11,Procurement
+115,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Commercial Policy ,26.0,Procurement
+116,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Commercial Strategy,7.0,Procurement
+117,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Communication Planning,2.0,Communications
+118,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Computer Science & Engineering,1.0,Information Technology
+119,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Configuration Management,2.0,Planning
+120,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Consultancy,22.64,Operational Delivery
+121,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Contract Perf Meas & Mgnt,2.0,Procurement
+122,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Customer Services ,2.0,Operational Delivery
+123,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Decision Support,167.36,Finance
+124,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Employee Representative,2.0,Human Resources
+125,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Enterprise Architect,6.0,Information Technology
+126,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,EnvironmentalManagementAssessm,1.0,Operational Delivery
+127,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Estate Advice ,4.0,Property and asset management
+128,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Estate Planning ,5.0,Property and asset management
+129,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Estates Management ,2.0,Property and asset management
+130,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,External Communications,1.0,Communications
+131,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Government Quality Assurance,39.16,Programme and Project Management (PPM)
+132,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,IT Security,5.0,Information Technology
+133,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Information Assurance,4.86,Knowledge and Information Management (KIM)
+134,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Information Technology,114.75,Information Technology
+135,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Internal Communications,4.0,Communications
+136,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Inventory Management,62.61,Operational Delivery
+137,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Investigative Accounting,44.06,Finance
+138,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Knowledge Info Management,22.91,Knowledge and Information Management (KIM)
+139,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Land Sys Eng(Elect/Electronic),2.0,Science and Engineering
+140,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Land Sys Eng(Struct/Mech),9.0,Science and Engineering
+141,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Land Systems Eng (Weapons),2.0,Science and Engineering
+142,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Logistics Management ,1.0,Operational Delivery
+143,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Marine Engineering ,63.97,Science and Engineering
+144,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Material Accounting,1.0,Operational Delivery
+145,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Naval Architecture ,15.0,Science and Engineering
+146,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Nuclear Propulsion ,52.44,Science and Engineering
+147,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Nuclear Weapons,28.0,Science and Engineering
+148,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Obsolete Security ,2.0,Operational Delivery
+149,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Operational Analysis,2.0,Science and Engineering
+150,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Performance Management,15.6,Internal Audit
+151,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Programme Management,170.86,Programme and Project Management (PPM)
+152,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Project Management,985.48,Programme and Project Management (PPM)
+153,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Project Security Officer,4.0,Operational Delivery
+154,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Protocol & Visits ,1.0,Policy
+155,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Quality Management ,16.0,Programme and Project Management (PPM)
+156,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Quantity Surveying ,0.86,Property and asset management
+157,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Reporting and Controls,6.64,Finance
+158,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Risk Management ,13.0,Programme and Project Management (PPM)
+159,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Safety Management ,77.51,Operational Delivery
+160,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,"Safety,Health,Enviroment&Fire",9.0,Operational Delivery
+161,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Science & Engineering policy,8.0,Science and Engineering
+162,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Science&Technology Policy,1.0,Science and Engineering
+163,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Secretariat & Private Office,33.48,Operational Delivery
+164,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Security Advice ,3.0,Operational Delivery
+165,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Security Audit ,1.0,Operational Delivery
+166,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Security Management,2.0,Operational Delivery
+167,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Service HR Expert ,1.0,Human Resources
+168,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Supply Chain Management,2.0,Operational Delivery
+169,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,SystemSafety&Enviromental Mgt,13.86,Programme and Project Management (PPM)
+170,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Systems Engineering,72.03,Science and Engineering
+171,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Technical [Trades] ,10.0,Science and Engineering
+172,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Technology Management,1.0,Programme and Project Management (PPM)
+173,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Through Life Support,114.22,Operational Delivery
+174,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Training Support,4.0,Operational Delivery
+175,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Transaction Processing,1.0,Finance
+176,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,Transport & Movement,6.0,Operational Delivery
+177,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,WOME Production ,11.0,Science and Engineering
+178,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1,35648,44268,WOME Safety ,34.64,Science and Engineering
+179,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1 MSF,35648,44268,Business Management,1.0,Operational Delivery
+180,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1 MSF,35648,44268,Direct Military Support,1.0,Operational Delivery
+181,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1 MSF,35648,44268,Information Technology,1.0,Information Technology
+182,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1 MSF,35648,44268,Obsolete Security ,2.0,Operational Delivery
+183,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1 MSF,35648,44268,Performance Management,0.4,Internal Audit
+184,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1 MSF,35648,44268,Security Advice ,1.0,Operational Delivery
+185,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1 MSF,35648,44268,Storekeeping/WarehouseOps,1.0,Operational Delivery
+186,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1 MSF,35648,44268,Systems Engineering,3.81,Science and Engineering
+187,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1 MSF,35648,44268,Through Life Support,2.0,Operational Delivery
+188,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1 MSF,35648,44268,WOME Safety ,3.0,Science and Engineering
+189,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1 STTO,35648,44268,AeroEng(Electronics/Avionics),1.0,Science and Engineering
+190,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1 STTO,35648,44268,Project Management,1.0,Programme and Project Management (PPM)
+191,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1 STTO,35648,44268,Safety Management ,1.0,Operational Delivery
+192,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1 STTO,35648,44268,Technical [Trades] ,1.0,Science and Engineering
+193,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C1 STTO,35648,44268,Through Life Support,1.8,Operational Delivery
+194,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Administrative Support,22.32,Operational Delivery
+195,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,AeroEng(Aero/Struct/Mech),93.72,Science and Engineering
+196,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,AeroEng(Electronics/Avionics),50.0,Science and Engineering
+197,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Audit and Assurance,3.0,Internal Audit
+198,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Business Continuity,0.94,Operational Delivery
+199,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Business Management,141.68,Operational Delivery
+200,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Civilian HR Expert ,3.0,Human Resources
+201,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Civilian HR Service Provider,8.0,Human Resources
+202,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Civilian Training ,2.0,Operational Delivery
+203,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Combat Systems Engineering,16.8,Science and Engineering
+204,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Commercial Analysis,20.48,Procurement
+205,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Commercial Operations,339.17,Procurement
+206,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Commercial Policy ,27.53,Procurement
+207,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Commercial Strategy,1.75,Procurement
+208,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Communication Planning,1.47,Communications
+209,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Configuration Management,6.67,Planning
+210,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Consultancy,1.0,Operational Delivery
+211,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Contract Perf Meas & Mgnt,5.0,Procurement
+212,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Customer Services ,10.61,Operational Delivery
+213,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Decision Support,238.45,Finance
+214,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Dental Support ,1.0,Medicine
+215,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Direct Military Support,1.0,Operational Delivery
+216,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Employee Representative,4.0,Human Resources
+217,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Engineering - CIS ,3.0,Science and Engineering
+218,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Enterprise Architect,6.89,Information Technology
+219,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Environmental Health,1.0,Operational Delivery
+220,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,EnvironmentalManagementAssessm,2.89,Operational Delivery
+221,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Estate Advice ,3.0,Property and asset management
+222,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Estate Planning ,4.87,Property and asset management
+223,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,External Communications,2.0,Communications
+224,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Geospatial Analyst,1.0,Operational Delivery
+225,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Government Quality Assurance,78.97,Programme and Project Management (PPM)
+226,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Historical ,1.0,Knowledge and Information Management (KIM)
+227,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,IT Security,9.09,Information Technology
+228,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Information Assurance,2.87,Knowledge and Information Management (KIM)
+229,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Information Technology,202.33,Information Technology
+230,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Internal Communications,1.0,Communications
+231,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Inventory Management,151.58,Operational Delivery
+232,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Investigative Accounting,19.5,Finance
+233,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Knowledge Info Management,43.11,Knowledge and Information Management (KIM)
+234,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Land Sys Eng(Struct/Mech),1.0,Science and Engineering
+235,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Logistics Management ,3.0,Operational Delivery
+236,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Logistics [Trades] ,1.0,Operational Delivery
+237,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Marine Engineering ,62.28,Science and Engineering
+238,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Marine Policing (MDP),1.0,Operational Delivery
+239,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Material Accounting,5.0,Operational Delivery
+240,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Medical Technical ,1.0,Medicine
+241,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Naval Architecture ,21.0,Science and Engineering
+242,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Nuclear Propulsion ,73.6,Science and Engineering
+243,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Nuclear Weapons,14.54,Science and Engineering
+244,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Obsolete Security ,9.0,Operational Delivery
+245,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Operational Analysis,4.6,Science and Engineering
+246,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Performance Management,22.55,Internal Audit
+247,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Photography,1.0,Communications
+248,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Port Operations ,1.0,Operational Delivery
+249,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Postal & Courier,1.0,Operational Delivery
+250,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Programme Management,84.17,Programme and Project Management (PPM)
+251,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Project Management,744.68,Programme and Project Management (PPM)
+252,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Project Planning & Scheduling,1.0,Programme and Project Management (PPM)
+253,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Project Security Officer,2.0,Operational Delivery
+254,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Quality Management ,27.6,Programme and Project Management (PPM)
+255,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Reporting and Controls,11.14,Finance
+256,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Risk Management ,13.0,Programme and Project Management (PPM)
+257,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Safety Management ,57.04,Operational Delivery
+258,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,"Safety,Health,Enviroment&Fire",25.62,Operational Delivery
+259,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Salvage and Marine Operations,2.0,Operational Delivery
+260,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Science & Engineering policy,5.0,Science and Engineering
+261,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Secretariat & Private Office,24.26,Operational Delivery
+262,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Security Advice ,10.0,Operational Delivery
+263,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Security Audit ,7.0,Operational Delivery
+264,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Security Management,3.0,Operational Delivery
+265,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Service HR Expert ,1.0,Human Resources
+266,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Service HR Service Provider,1.0,Human Resources
+267,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Site Estate ,1.0,Property and asset management
+268,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Soft Facilities Management,1.0,Property and asset management
+269,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Statistical Analysis,1.0,Statisticians
+270,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Storekeeping/WarehouseOps,11.0,Operational Delivery
+271,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,SystemSafety&Enviromental Mgt,11.0,Programme and Project Management (PPM)
+272,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Systems Engineering,37.42,Science and Engineering
+273,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Teaching ,1.0,Operational Delivery
+274,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Technical [Trades] ,14.0,Science and Engineering
+275,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Through Life Support,234.11,Operational Delivery
+276,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Training Support,5.72,Operational Delivery
+277,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Transaction Processing,8.8,Finance
+278,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,Transport & Movement,14.6,Operational Delivery
+279,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,WOME Assets ,4.0,Science and Engineering
+280,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,WOME Production ,28.0,Science and Engineering
+281,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2,29258,36333,WOME Safety ,30.2,Science and Engineering
+282,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2 HTTO,29258,38546,AeroEng(Aero/Struct/Mech),1.0,Science and Engineering
+283,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2 HTTO,29258,38546,Information Technology,1.0,Information Technology
+284,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2 HTTO,29258,38546,Project Management,2.0,Programme and Project Management (PPM)
+285,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2 HTTO,29258,38546,Teaching ,1.0,Operational Delivery
+286,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2 HTTO,29258,38546,Technical [Trades] ,3.0,Science and Engineering
+287,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2 HTTO,29258,38546,Through Life Support,11.0,Operational Delivery
+288,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2 MSF,29258,36333,Administrative Support,1.0,Operational Delivery
+289,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2 MSF,29258,36333,Business Management,2.0,Operational Delivery
+290,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2 MSF,29258,36333,Combat Systems Engineering,1.0,Science and Engineering
+291,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2 MSF,29258,36333,Direct Military Support,2.0,Operational Delivery
+292,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2 MSF,29258,36333,Information Technology,3.0,Information Technology
+293,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2 MSF,29258,36333,Inventory Management,1.0,Operational Delivery
+294,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2 MSF,29258,36333,Material Accounting,1.0,Operational Delivery
+295,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2 MSF,29258,36333,Obsolete Security ,1.0,Operational Delivery
+296,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2 MSF,29258,36333,Project Management,4.0,Programme and Project Management (PPM)
+297,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2 MSF,29258,36333,"Safety,Health,Enviroment&Fire",5.0,Operational Delivery
+298,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2 MSF,29258,36333,Security Advice ,1.0,Operational Delivery
+299,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,C2 MSF,29258,36333,Service HR Expert ,1.0,Human Resources
+300,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Chief Admiralty Pilot,47942,56666,Port Operations ,3.0,Operational Delivery
+301,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Civilian Medical Practitioner,65071,77303,Gen Practice Medical,9.0,Medicine
+302,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Administrative Support,66.37,Operational Delivery
+303,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,AeroEng(Aero/Struct/Mech),21.6,Science and Engineering
+304,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,AeroEng(Electronics/Avionics),12.0,Science and Engineering
+305,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Audit and Assurance,9.47,Internal Audit
+306,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Business Management,97.49,Operational Delivery
+307,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Civilian HR Expert ,2.01,Human Resources
+308,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Civilian HR Partner,0.64,Human Resources
+309,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Civilian HR Service Provider,1.0,Human Resources
+310,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Civilian Training ,4.0,Operational Delivery
+311,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Combat Systems Engineering,6.0,Science and Engineering
+312,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Commercial Analysis,10.36,Procurement
+313,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Commercial Development,55.0,Procurement
+314,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Commercial Operations,227.21,Procurement
+315,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Commercial Policy ,2.86,Procurement
+316,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Communication Planning,1.0,Communications
+317,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Configuration Management,4.0,Planning
+318,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Customer Services ,7.94,Operational Delivery
+319,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Decision Support,196.82,Finance
+320,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Design and Imagery,3.0,Communications
+321,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Driving ,1.0,Operational Delivery
+322,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,E-Communcations,1.0,Communications
+323,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Employee Representative,2.5,Human Resources
+324,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Engineering - CIS ,36.0,Science and Engineering
+325,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,EnvironmentalManagementAssessm,2.64,Operational Delivery
+326,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Estate Planning ,3.86,Property and asset management
+327,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Estates Management ,1.6,Property and asset management
+328,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,External Communications,1.0,Communications
+329,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Geospatial Analyst,3.0,Operational Delivery
+330,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,IT Security,1.0,Information Technology
+331,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Information Technology,154.69,Information Technology
+332,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Internal Communications,2.0,Communications
+333,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Inventory Management,231.39,Operational Delivery
+334,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Investigative Accounting,7.64,Finance
+335,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Knowledge Info Management,50.55,Knowledge and Information Management (KIM)
+336,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Logistics Management ,5.03,Operational Delivery
+337,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Logistics [Trades] ,4.0,Operational Delivery
+338,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Marine Engineering ,27.6,Science and Engineering
+339,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Material Accounting,11.0,Operational Delivery
+340,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Medical Technical ,1.0,Medicine
+341,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Naval Architecture ,4.0,Science and Engineering
+342,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Nuclear Propulsion ,12.0,Science and Engineering
+343,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Nuclear Weapons,3.0,Science and Engineering
+344,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Obsolete Security ,11.0,Operational Delivery
+345,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Performance Management,11.61,Internal Audit
+346,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Photography,1.0,Communications
+347,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Port Operations ,13.0,Operational Delivery
+348,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Postal & Courier,17.79,Operational Delivery
+349,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Programme Management,10.81,Programme and Project Management (PPM)
+350,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Project Management,125.46,Programme and Project Management (PPM)
+351,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Quality Management ,9.0,Programme and Project Management (PPM)
+352,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Reporting and Controls,9.64,Finance
+353,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Risk Management ,3.54,Programme and Project Management (PPM)
+354,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Safety Management ,13.0,Operational Delivery
+355,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,"Safety,Health,Enviroment&Fire",17.86,Operational Delivery
+356,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Salvage and Marine Operations,2.0,Operational Delivery
+357,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Science & Engineering policy,1.0,Science and Engineering
+358,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Secretarial ,32.67,Operational Delivery
+359,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Secretariat & Private Office,10.12,Operational Delivery
+360,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Security Advice ,6.0,Operational Delivery
+361,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Security Audit ,1.0,Operational Delivery
+362,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Security Management,5.0,Operational Delivery
+363,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Security Support ,2.0,Operational Delivery
+364,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Service HR Expert ,1.0,Human Resources
+365,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Service HR Service Provider,1.6,Human Resources
+366,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Specialist Instruction,1.0,Operational Delivery
+367,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Statistical Analysis,0.67,Statisticians
+368,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Storekeeping/WarehouseOps,43.87,Operational Delivery
+369,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Supply Chain Management,1.0,Operational Delivery
+370,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Sustainable Development,3.0,Operational Delivery
+371,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Systems Engineering,14.0,Science and Engineering
+372,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Technical [Trades] ,36.0,Science and Engineering
+373,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Through Life Support,115.24,Operational Delivery
+374,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Training Support,13.28,Operational Delivery
+375,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Transaction Processing,10.07,Finance
+376,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,Transport & Movement,26.37,Operational Delivery
+377,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,WOME Assets ,23.0,Science and Engineering
+378,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,WOME Production ,92.0,Science and Engineering
+379,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D,23427,29092,WOME Safety ,14.0,Science and Engineering
+380,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D MSF,23427,29092,Direct Military Support,2.0,Operational Delivery
+381,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D MSF,23427,29092,Information Technology,3.0,Information Technology
+382,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D MSF,23427,29092,Inventory Management,1.0,Operational Delivery
+383,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D MSF,23427,29092,Legal ,1.0,Law
+384,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D MSF,23427,29092,Medical Technical ,2.0,Medicine
+385,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D TTO,23427,32743,Engineering - CIS ,1.0,Science and Engineering
+386,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D TTO,23427,32743,Technical [Trades] ,13.6,Science and Engineering
+387,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,D TTO,23427,32743,Through Life Support,6.0,Operational Delivery
+388,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,DM SZ3,18010,22150,Audit and Assurance,1.0,Internal Audit
+389,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,DM SZ3,18010,22150,Configuration Management,1.0,Planning
+390,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,DM SZ3,18010,22150,Driving ,16.0,Operational Delivery
+391,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,DM SZ3,18010,22150,Logistics [Trades] ,1.0,Operational Delivery
+392,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,DM SZ3,18010,22150,Material Accounting,0.5,Operational Delivery
+393,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,DM SZ3,18010,22150,"Safety,Health,Enviroment&Fire",1.0,Operational Delivery
+394,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,DM SZ3,18010,22150,Storekeeping/WarehouseOps,19.0,Operational Delivery
+395,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,DM SZ3,18010,22150,Technical [Trades] ,77.0,Science and Engineering
+396,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,DM SZ3,18010,22150,Through Life Support,2.0,Operational Delivery
+397,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,DM SZ3,18010,22150,Transport & Movement,3.0,Operational Delivery
+398,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,DM SZ3,18010,22150,WOME Assets ,10.0,Science and Engineering
+399,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,DM SZ3,18010,22150,WOME Production ,105.64,Science and Engineering
+400,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Administrative Support,208.9,Operational Delivery
+401,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Business Management,57.66,Operational Delivery
+402,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Civilian HR Service Provider,2.67,Human Resources
+403,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Commercial Analysis,3.54,Procurement
+404,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Commercial Operations,36.78,Procurement
+405,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Commercial Policy ,5.07,Procurement
+406,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Community Service ,0.74,Operational Delivery
+407,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Customer Services ,14.41,Operational Delivery
+408,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Decision Support,39.87,Finance
+409,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Design and Imagery,2.78,Communications
+410,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Employee Representative,1.55,Human Resources
+411,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Engineering - CIS ,1.0,Science and Engineering
+412,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Engineering Civ Apprentices,16.0,Science and Engineering
+413,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,IT Security,1.0,Information Technology
+414,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Information Technology,133.31,Information Technology
+415,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Internal Communications,1.64,Communications
+416,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Inventory Management,260.51,Operational Delivery
+417,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Knowledge Info Management,31.18,Knowledge and Information Management (KIM)
+418,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Logistics Management ,2.0,Operational Delivery
+419,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Logistics [Trades] ,7.0,Operational Delivery
+420,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Material Accounting,52.9,Operational Delivery
+421,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Obsolete Security ,13.15,Operational Delivery
+422,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Performance Management,1.0,Internal Audit
+423,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Port Operations ,24.56,Operational Delivery
+424,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Postal & Courier,40.54,Operational Delivery
+425,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Programme Management,0.81,Programme and Project Management (PPM)
+426,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Project Management,14.55,Programme and Project Management (PPM)
+427,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Quality Management ,2.0,Programme and Project Management (PPM)
+428,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Reporting and Controls,2.6,Finance
+429,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,"Safety,Health,Enviroment&Fire",4.54,Operational Delivery
+430,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Secretarial ,30.66,Operational Delivery
+431,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Secretariat & Private Office,1.0,Operational Delivery
+432,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Security Advice ,11.0,Operational Delivery
+433,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Security Management,4.0,Operational Delivery
+434,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Security Support ,5.0,Operational Delivery
+435,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Service HR Expert ,1.0,Human Resources
+436,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Service HR Service Provider,6.62,Human Resources
+437,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Site Estate ,1.0,Property and asset management
+438,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Soft Facilities Management,1.0,Property and asset management
+439,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Storekeeping/WarehouseOps,14.54,Operational Delivery
+440,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,SystemSafety&Enviromental Mgt,1.0,Programme and Project Management (PPM)
+441,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Technical [Trades] ,3.64,Science and Engineering
+442,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Through Life Support,10.6,Operational Delivery
+443,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Training Support,6.64,Operational Delivery
+444,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Transaction Processing,12.24,Finance
+445,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,Transport & Movement,16.83,Operational Delivery
+446,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,WOME Assets ,20.0,Science and Engineering
+447,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,WOME Production ,34.04,Science and Engineering
+448,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E1,18370,22124,WOME Safety ,3.08,Science and Engineering
+449,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E2,15623,18815,Administrative Support,27.75,Operational Delivery
+450,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E2,15623,18815,Business Management,1.0,Operational Delivery
+451,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E2,15623,18815,Case Assessment,1.0,Operational Delivery
+452,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E2,15623,18815,Information Technology,3.0,Information Technology
+453,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E2,15623,18815,Inventory Management,4.35,Operational Delivery
+454,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E2,15623,18815,Logistics [Trades] ,1.0,Operational Delivery
+455,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E2,15623,18815,Material Accounting,1.0,Operational Delivery
+456,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E2,15623,18815,Obsolete Security ,3.62,Operational Delivery
+457,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E2,15623,18815,Performance Management,1.0,Internal Audit
+458,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E2,15623,18815,Port Operations ,1.0,Operational Delivery
+459,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E2,15623,18815,Postal & Courier,110.28,Operational Delivery
+460,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E2,15623,18815,Project Management,1.0,Programme and Project Management (PPM)
+461,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E2,15623,18815,Secretarial ,1.64,Operational Delivery
+462,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E2,15623,18815,Security Management,1.0,Operational Delivery
+463,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E2,15623,18815,Service HR Service Provider,1.81,Human Resources
+464,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E2,15623,18815,Storekeeping/WarehouseOps,0.59,Operational Delivery
+465,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,E2,15623,18815,Through Life Support,1.0,Operational Delivery
+466,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Fast Stream Grade Band C1,35648,44268,Business Continuity,0.62,Operational Delivery
+467,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Fast Stream Grade Band C1,35648,44268,Business Management,1.0,Operational Delivery
+468,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Fast Stream Grade Band C1,35648,44268,Nuclear Propulsion ,2.0,Science and Engineering
+469,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Fast Stream Grade Band C1,35648,44268,Project Management,4.0,Programme and Project Management (PPM)
+470,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Fast Stream Grade Band C2,29258,36333,Capability Management ,1.0,Operational Delivery
+471,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Fast Stream Grade Band C2,29258,36333,Commercial Policy ,1.0,Procurement
+472,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Fast Stream Grade Band C2,29258,36333,Defence Export Services,1.0,Operational Delivery
+473,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Fast Stream Grade Band C2,29258,36333,Project Management,1.0,Programme and Project Management (PPM)
+474,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Grade 7 (Health Physicist),62881,62881,Nuclear Propulsion ,1.0,Science and Engineering
+475,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Grade 7 (Health Physicist),62881,62881,Nuclear Weapons,1.0,Science and Engineering
+476,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Graduate Engineer,24130,25600,Engineering Civ Apprentices,98.0,Science and Engineering
+477,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,HPTO (Health Physicist),45838,45838,Nuclear Propulsion ,3.0,Science and Engineering
+478,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,HPTO (Health Physicist),45838,45838,Safety Management ,1.0,Operational Delivery
+479,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,MSO 1 (in Port Group) - 9543,47942,53158,Port Operations ,2.64,Operational Delivery
+480,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,MSO 2 (in Port Group) - 9546,40122,46984,Port Operations ,2.0,Operational Delivery
+481,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,MSO Gde 1 - Shore/HQ Staff - 9545,47942,53158,Port Operations ,1.0,Operational Delivery
+482,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,NHS Band 5,21176,27625,Medical Technical ,1.0,Medicine
+483,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,NHS Band 6,25528,34189,Medical Technical ,1.0,Medicine
+484,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,NHS Band 6,25528,34189,Nursing and Midwifery,2.0,Medicine
+485,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,NHS Band 6,25528,34189,Radiography ,1.64,Medicine
+486,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,NHS Band 7,30460,40157,Nursing and Midwifery,1.0,Medicine
+487,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,NHS Band 8A,38851,46621,Nursing and Midwifery,1.0,Medicine
+488,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,NHS Band 8A,38851,46621,Pharmacy,1.0,Medicine
+489,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,NHS Band 8B,45254,55945,Pharmacy,1.0,Medicine
+490,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Nurse (GP Practice),21176,27625,Nursing and Midwifery,0.6,Medicine
+491,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Nurse Specialist (GP Practice),25528,34189,Nursing and Midwifery,5.14,Medicine
+492,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Nurse Team Manager (Comm),30460,40157,Nursing and Midwifery,0.86,Medicine
+493,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,OF1,16305,33175,Military,7.0,Military
+494,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,OF2,38463,45741,Military,342.0,Military
+495,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,OF3,48450,58025,Military,587.0,Military
+496,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,OF4,67999,78737,Military,295.0,Military
+497,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,OF5,82381,90560,Military,116.0,Military
+498,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,OR1,17767,29357,Military,16.0,Military
+499,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,OR2,17767,29357,Military,139.0,Military
+500,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,OR3,17767,29357,Military,40.0,Military
+501,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,OR4,26786,33661,Military,349.0,Military
+502,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,OR6,30446,37462,Military,422.0,Military
+503,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,OR7,33702,43876,Military,583.0,Military
+504,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,OR8,33702,43876,Military,180.0,Military
+505,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,OR9,39157,47428,Military,206.0,Military
+506,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Pharmacy Techn Higher Level,21176,27625,Pharmacy,2.0,Medicine
+507,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Pharmacy Technician,18402,21798,Pharmacy,1.0,Medicine
+508,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Physiotherapist Advanced,30460,40157,Physiotherapy ,2.0,Medicine
+509,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Physiotherapy Team Mgr,30460,40157,Physiotherapy ,1.0,Medicine
+510,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Physiothrpst Specialist,25528,34189,Physiotherapy ,5.65,Medicine
+511,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Retired Offr 1,37819,44268,WOME Safety ,1.0,Science and Engineering
+512,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Retired Offr 2,30136,36333,Direct Military Support,1.0,Operational Delivery
+513,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,SALMO,42596,60144,Salvage and Marine Operations,12.0,Operational Delivery
+514,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Salvage Electrician,23789,32916,Salvage and Marine Operations,4.0,Operational Delivery
+515,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Salvage Engineer,27321,39126,Salvage and Marine Operations,1.0,Operational Delivery
+516,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Salvage Operations Manager,27321,39126,Salvage and Marine Operations,8.0,Operational Delivery
+517,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Salvage Supervisor,23789,32916,Salvage and Marine Operations,4.0,Operational Delivery
+518,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Second Officer RFA,28979,51644,Direct Military Support,39.0,Operational Delivery
+519,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 1,15083,16482,Administrative Support,2.0,Operational Delivery
+520,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 1,15083,16482,AeroEng(Aero/Struct/Mech),1.0,Science and Engineering
+521,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 1,15083,16482,Driving ,1.0,Operational Delivery
+522,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 1,15083,16482,Logistics [Trades] ,1.0,Operational Delivery
+523,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 1,15083,16482,Safety Management ,1.0,Operational Delivery
+524,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 1,15083,16482,Storekeeping/WarehouseOps,18.5,Operational Delivery
+525,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 1,15083,16482,Technical [Trades] ,3.5,Science and Engineering
+526,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 1,15083,16482,WOME Production ,2.89,Science and Engineering
+527,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 2,16482,18010,Administrative Support,2.0,Operational Delivery
+528,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 2,16482,18010,AeroEng(Aero/Struct/Mech),1.0,Science and Engineering
+529,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 2,16482,18010,Community Service ,3.0,Operational Delivery
+530,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 2,16482,18010,Driving ,15.0,Operational Delivery
+531,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 2,16482,18010,Information Technology,1.0,Information Technology
+532,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 2,16482,18010,Inventory Management,1.0,Operational Delivery
+533,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 2,16482,18010,Logistics Management ,1.0,Operational Delivery
+534,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 2,16482,18010,Logistics [Trades] ,25.0,Operational Delivery
+535,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 2,16482,18010,Material Accounting,6.5,Operational Delivery
+536,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 2,16482,18010,Postal & Courier,1.0,Operational Delivery
+537,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 2,16482,18010,"Safety,Health,Enviroment&Fire",4.0,Operational Delivery
+538,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 2,16482,18010,Site Estate ,2.0,Property and asset management
+539,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 2,16482,18010,Soft Facilities Management,1.0,Property and asset management
+540,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 2,16482,18010,Storekeeping/WarehouseOps,603.6,Operational Delivery
+541,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 2,16482,18010,Technical [Trades] ,21.0,Science and Engineering
+542,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 2,16482,18010,Transport & Movement,21.0,Operational Delivery
+543,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 2,16482,18010,WOME Production ,115.0,Science and Engineering
+544,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 2,16482,18010,WOME Assets ,33.0,Science and Engineering
+545,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 3,18010,22150,Postal & Courier,52.0,Operational Delivery
+546,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 3,18010,22150,Administrative Support,1.0,Operational Delivery
+547,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 3,18010,22150,AeroEng(Aero/Struct/Mech),1.0,Science and Engineering
+548,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 3,18010,22150,Direct Military Support,1.0,Operational Delivery
+549,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 3,18010,22150,Driving ,98.3,Operational Delivery
+550,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 3,18010,22150,Employee Representative,1.0,Human Resources
+551,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 3,18010,22150,Information Technology,2.0,Information Technology
+552,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 3,18010,22150,Inventory Management,1.0,Operational Delivery
+553,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 3,18010,22150,Logistics [Trades] ,2.0,Operational Delivery
+554,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 3,18010,22150,Material Accounting,1.0,Operational Delivery
+555,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 3,18010,22150,Port Operations ,1.0,Operational Delivery
+556,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 3,18010,22150,"Safety,Health,Enviroment&Fire",2.0,Operational Delivery
+557,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 3,18010,22150,Storekeeping/WarehouseOps,69.0,Operational Delivery
+558,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 3,18010,22150,Technical [Trades] ,51.3,Science and Engineering
+559,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 3,18010,22150,Through Life Support,7.6,Operational Delivery
+560,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 3,18010,22150,Transport & Movement,5.0,Operational Delivery
+561,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 3,18010,22150,WOME Assets ,14.0,Science and Engineering
+562,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 3,18010,22150,WOME Production ,37.0,Science and Engineering
+563,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 4,22150,24930,Information Technology,1.0,Information Technology
+564,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 4,22150,24930,Storekeeping/WarehouseOps,2.0,Operational Delivery
+565,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 4,22150,24930,Technical [Trades] ,14.6,Science and Engineering
+566,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Skill Zone 4,22150,24930,WOME Production ,1.0,Science and Engineering
+567,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,SPTO (Health Physicist) ,53158,55284,Environmental Health,1.0,Operational Delivery
+568,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,SPTO (Health Physicist) ,53158,55284,Nuclear Propulsion ,3.0,Science and Engineering
+569,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,SPTO (Health Physicist) ,53158,55284,Nuclear Weapons,2.0,Science and Engineering
+570,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,TUPE General,11352,60000,Logistics [Trades] ,1.0,Operational Delivery
+571,Ministry of Defence,Ministry of Defence,Defence Equipment and Support,9000,Locally Employed Civilian (LEC),0,0,Locally Employed Civilians,270.0,Operational Delivery

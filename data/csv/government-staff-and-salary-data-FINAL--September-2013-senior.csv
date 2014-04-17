@@ -1,0 +1,4 @@
+,Post Unique Reference,Name,Grade,Job Title,Job/Team Function,Parent Department,Organisation,Unit,Contact Phone,Contact E-mail,Reports to Senior Post,Salary Cost of Reports (£),FTE,Actual Pay Floor (£),Actual Pay Ceiling (£),,Professional/Occupational Group,Notes,Valid?
+0,1,Mike Waldock,SCS1,Acting Chief Executive,Science Director,"Department for Environment, Food and Rural Affairs",CEFAS,Corporate,1502524570.0,mike.waldock@cefas.co.uk,XX,0.0,1.0,80000,84999,0,Science and Engineering,,1
+1,2,Tim Green,SCS1,Finance Director,Finance Director,"Department for Environment, Food and Rural Affairs",CEFAS,Corporate,1502524217.0,tim.green@cefas.co.uk,1,0.0,1.0,70000,74999,0,Finance,,1
+2,3,Reg Eayrs,SCS1,Operations Director,Operations Director,"Department for Environment, Food and Rural Affairs",CEFAS,Corporate,1305206669.0,reg.eayrs@cefas.co.uk,1,0.0,1.0,70000,74999,0,Operational Delivery,,1

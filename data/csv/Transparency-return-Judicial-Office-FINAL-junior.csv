@@ -1,0 +1,41 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,Ministry of Justice,Judcial Office for England and Wales,Private Office Judicial Support,JO1001,Band A,42034,67969,Private Office,10.0,Operational Delivery
+1,Ministry of Justice,Judcial Office for England and Wales,Private Office Judicial Support,JO1001,Band B,29634,44964,Private Office,6.6,Operational Delivery
+2,Ministry of Justice,Judcial Office for England and Wales,Private Office Judicial Support,JO1001,Band C,21096,36061,Private Office,10.0,Operational Delivery
+3,Ministry of Justice,Judcial Office for England and Wales,Private Office Judicial Support,JO1001,Band D,17513,28000,Private Office,11.8,Operational Delivery
+4,Ministry of Justice,Judcial Office for England and Wales,Private Office Judicial Support,JO1001,Band E,15935,22250,Private Office,2.0,Operational Delivery
+5,Ministry of Justice,Judcial Office for England and Wales,Private Office Judicial Support,JO1001,Band A,42034,67969,Private Office,5.0,Law
+6,Ministry of Justice,Judcial Office for England and Wales,Communications,JO1002,Band B,29634,44964,"Communications, Coroners, and Core Support",1.0,Finance
+7,Ministry of Justice,Judcial Office for England and Wales,Communications,JO1002,Band C,21096,36061,"Communications, Coroners, and Core Support",2.0,Finance
+8,Ministry of Justice,Judcial Office for England and Wales,Communications,JO1002,Band D,17513,28000,"Communications, Coroners, and Core Support",1.0,Finance
+9,Ministry of Justice,Judcial Office for England and Wales,Communications,JO1002,Band A,42034,67969,"Communications, Coroners, and Core Support",3.7,Operational Delivery
+10,Ministry of Justice,Judcial Office for England and Wales,Communications,JO1002,Band B,29634,44964,"Communications, Coroners, and Core Support",1.7,Operational Delivery
+11,Ministry of Justice,Judcial Office for England and Wales,Communications,JO1002,Band C,21096,36061,"Communications, Coroners, and Core Support",3.0,Operational Delivery
+12,Ministry of Justice,Judcial Office for England and Wales,Communications,JO1002,Band D,17513,28000,"Communications, Coroners, and Core Support",5.0,Operational Delivery
+13,Ministry of Justice,Judcial Office for England and Wales,Communications,JO1002,Band A,42034,67969,"Communications, Coroners, and Core Support",1.0,Information Technology
+14,Ministry of Justice,Judcial Office for England and Wales,Communications,JO1002,Band B,29634,44964,"Communications, Coroners, and Core Support",1.0,Information Technology
+15,Ministry of Justice,Judcial Office for England and Wales,Communications,JO1002,Band C,21096,36061,"Communications, Coroners, and Core Support",2.0,Information Technology
+16,Ministry of Justice,Judcial Office for England and Wales,Communications,JO1002,Band D,17513,28000,"Communications, Coroners, and Core Support",1.0,Information Technology
+17,Ministry of Justice,Judcial Office for England and Wales,Communications,JO1002,Band A,42034,67969,"Communications, Coroners, and Core Support",1.9,Communications
+18,Ministry of Justice,Judcial Office for England and Wales,Communications,JO1002,Band B,29634,44964,"Communications, Coroners, and Core Support",3.9,Communications
+19,Ministry of Justice,Judcial Office for England and Wales,Communications,JO1002,Band C,21096,36061,"Communications, Coroners, and Core Support",1.0,Communications
+20,Ministry of Justice,Judcial Office for England and Wales,Communications,JO1002,Band D,17513,28000,"Communications, Coroners, and Core Support",1.0,Communications
+21,Ministry of Justice,Judcial Office for England and Wales,Communications,JO1002,Band A,42034,67969,"Communications, Coroners, and Core Support",1.0,Law
+22,Ministry of Justice,Judcial Office for England and Wales,Human Resources,JO1003,Band A,42034,67969,Judicial HR,6.0,Human Resources
+23,Ministry of Justice,Judcial Office for England and Wales,Human Resources,JO1003,Band B,29634,44964,Judicial HR,7.5,Human Resources
+24,Ministry of Justice,Judcial Office for England and Wales,Human Resources,JO1003,Band C,21096,36061,Judicial HR,12.6,Human Resources
+25,Ministry of Justice,Judcial Office for England and Wales,Human Resources,JO1003,Band D,17513,28000,Judicial HR,10.6,Human Resources
+26,Ministry of Justice,Judcial Office for England and Wales,Human Resources,JO1003,Band E,15935,22250,Judicial HR,5.0,Human Resources
+27,Ministry of Justice,Judcial Office for England and Wales,Human Resources,JO1003,Band D,17513,28000,Judicial HR,1.0,Operational Delivery
+28,Ministry of Justice,Judcial Office for England and Wales,Law,JO1004,Band A,42034,67969,Judicial College,8.0,Operational Delivery
+29,Ministry of Justice,Judcial Office for England and Wales,Law,JO1004,Band B,29634,44964,Judicial College,6.0,Operational Delivery
+30,Ministry of Justice,Judcial Office for England and Wales,Law,JO1004,Band C,21096,36061,Judicial College,13.6,Operational Delivery
+31,Ministry of Justice,Judcial Office for England and Wales,Law,JO1004,Band D,17513,28000,Judicial College,15.2,Operational Delivery
+32,Ministry of Justice,Judcial Office for England and Wales,Law,JO1004,Band E,15935,22250,Judicial College,15.7,Operational Delivery
+33,Ministry of Justice,Judcial Office for England and Wales,Law,JO1004,Band F,13894,18700,Judicial College,1.0,Operational Delivery
+34,Ministry of Justice,Judcial Office for England and Wales,Law,JO1004,Band A,42034,67969,Judicial College,3.1,Law
+35,Ministry of Justice,Judcial Office for England and Wales,Judicial Conduct,JO2001,Band A,42034,67969,Judicial Conduct Investigations Office,3.0,Operational Delivery
+36,Ministry of Justice,Judcial Office for England and Wales,Judicial Conduct,JO2001,Band B,29634,44964,Judicial Conduct Investigations Office,2.0,Operational Delivery
+37,Ministry of Justice,Judcial Office for England and Wales,Judicial Conduct,JO2001,Band C,21096,36061,Judicial Conduct Investigations Office,2.0,Operational Delivery
+38,Ministry of Justice,Judcial Office for England and Wales,Judicial Conduct,JO2001,Band D,17513,28000,Judicial Conduct Investigations Office,7.0,Operational Delivery
+39,Ministry of Justice,Judcial Office for England and Wales,Judicial Conduct,JO2001,Band E,15935,22250,Judicial Conduct Investigations Office,1.0,Operational Delivery

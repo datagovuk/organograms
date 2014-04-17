@@ -1,0 +1,336 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Retired Offr 2,30136,36333,Direct Military Support,2.0,Operational Delivery
+1,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Retired Offr 2,30136,36333,Estate Advice ,1.0,Property and asset management
+2,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Retired Offr 2,30136,36333,Range Management ,2.0,Property and asset management
+3,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Retired Offr 2,30136,36333,Reporting and Controls,1.0,Finance
+4,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Retired Offr 2,30136,36333,Soft Facilities Management,1.0,Property and asset management
+5,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Fast Stream Grade Band C1,35648,44268,Business Management,1.0,Operational Delivery
+6,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Fast Stream Grade Band C1,35648,44268,Decision Support,1.0,Finance
+7,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 4,22150,24930,Estate Advice ,2.0,Property and asset management
+8,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 4,22150,24930,Project Management,1.0,Programme and Project Management (PPM)
+9,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 4,22150,24930,Technical [Trades] ,85.39,Science and Engineering
+10,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,Administrative Support,2.0,Operational Delivery
+11,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,Audit and Assurance,1.0,Internal Audit
+12,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,Business Management,2.0,Operational Delivery
+13,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,Commercial Operations,6.0,Procurement
+14,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,Decision Support,2.0,Finance
+15,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,EnvironmentalManagementAssessm,1.0,Operational Delivery
+16,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,Estate Planning ,0.77,Property and asset management
+17,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,Estate Surveying ,1.0,Property and asset management
+18,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,Estates Management ,8.0,Property and asset management
+19,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,Heritage ,1.0,Operational Delivery
+20,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,Knowledge Info Management,2.0,Knowledge and Information Management (KIM)
+21,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,Legal ,1.8,Law
+22,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,Programme Management,5.0,Programme and Project Management (PPM)
+23,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,Project Management,10.0,Programme and Project Management (PPM)
+24,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,Reporting and Controls,1.0,Finance
+25,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,"Safety,Health,Enviroment&Fire",1.0,Operational Delivery
+26,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,Secretariat & Private Office,1.0,Operational Delivery
+27,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,Soft Facilities Management,2.0,Property and asset management
+28,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,Sustainable Development,0.81,Operational Delivery
+29,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B1,56436,72185,Technical [Trades] ,1.0,Science and Engineering
+30,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Administrative Support,1.0,Operational Delivery
+31,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Building ,1.0,Property and asset management
+32,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Building Surveying ,1.0,Property and asset management
+33,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Business Management,11.0,Operational Delivery
+34,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Commercial Operations,20.94,Procurement
+35,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Communication Planning,2.0,Communications
+36,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Decision Support,7.0,Finance
+37,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Energy Management ,2.0,Operational Delivery
+38,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,EnvironmentalManagementAssessm,4.0,Operational Delivery
+39,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Estate Advice ,5.0,Property and asset management
+40,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Estate Surveying ,7.4,Property and asset management
+41,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Estates Management ,20.0,Property and asset management
+42,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Housing Service Delivery,5.0,Property and asset management
+43,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Knowledge Info Management,1.0,Knowledge and Information Management (KIM)
+44,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Performance Management,1.0,Internal Audit
+45,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Programme Management,5.0,Programme and Project Management (PPM)
+46,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Project Management,46.5,Programme and Project Management (PPM)
+47,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Quantity Surveying ,3.0,Property and asset management
+48,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Reporting and Controls,1.0,Finance
+49,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Risk Management ,1.0,Programme and Project Management (PPM)
+50,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,"Safety,Health,Enviroment&Fire",1.0,Operational Delivery
+51,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Secretariat & Private Office,1.0,Operational Delivery
+52,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Sustainable Development,2.0,Operational Delivery
+53,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Technical [Trades] ,5.0,Science and Engineering
+54,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,B2,47942,59535,Training Support,1.0,Operational Delivery
+55,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Administrative Support,2.0,Operational Delivery
+56,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Building ,1.0,Property and asset management
+57,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Building Surveying ,1.0,Property and asset management
+58,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Business Management,12.82,Operational Delivery
+59,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Civilian HR Expert ,1.0,Human Resources
+60,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Commercial Operations,42.81,Procurement
+61,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Communication Planning,2.0,Communications
+62,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Consultancy,1.0,Operational Delivery
+63,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Contract Perf Meas & Mgnt,1.0,Procurement
+64,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Decision Support,15.0,Finance
+65,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Energy Management ,5.0,Operational Delivery
+66,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,IT App Dev ,1.0,Information Technology
+67,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,EnvironmentalManagementAssessm,15.0,Operational Delivery
+68,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Estate Advice ,31.5,Property and asset management
+69,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Estate Planning ,4.0,Property and asset management
+70,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Estate Surveying ,52.7,Property and asset management
+71,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Estates Management ,94.31,Property and asset management
+72,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,External Communications,2.0,Communications
+73,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Geospatial Analyst,2.0,Operational Delivery
+74,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Housing Service Delivery,20.0,Property and asset management
+75,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,IT Security,2.0,Information Technology
+76,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Information Technology,4.0,Information Technology
+77,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Knowledge Info Management,3.0,Knowledge and Information Management (KIM)
+78,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Legal ,2.72,Law
+79,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,MGS Unarmed Guarding,3.0,Operational Delivery
+80,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Performance Management,2.0,Internal Audit
+81,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Programme Management,13.0,Programme and Project Management (PPM)
+82,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Project Management,135.2,Programme and Project Management (PPM)
+83,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Quality Management ,1.0,Programme and Project Management (PPM)
+84,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Quantity Surveying ,23.6,Property and asset management
+85,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Range Management ,1.0,Property and asset management
+86,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Reporting and Controls,1.0,Finance
+87,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Risk Management ,3.0,Programme and Project Management (PPM)
+88,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Safety Management ,11.0,Operational Delivery
+89,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,"Safety,Health,Enviroment&Fire",2.0,Operational Delivery
+90,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Secretarial ,1.0,Operational Delivery
+91,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Secretariat & Private Office,5.78,Operational Delivery
+92,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Security Advice ,4.0,Operational Delivery
+93,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Soft Facilities Management,7.0,Property and asset management
+94,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Technical [Trades] ,10.0,Science and Engineering
+95,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Town & Country Planning,4.8,Property and asset management
+96,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Training Support,1.52,Operational Delivery
+97,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1,35648,44268,Transaction Processing,1.0,Finance
+98,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Administrative Support,4.89,Operational Delivery
+99,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Audit and Assurance,2.0,Internal Audit
+100,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Building Surveying ,1.0,Property and asset management
+101,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Business Continuity,1.0,Operational Delivery
+102,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Business Management,10.87,Operational Delivery
+103,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Case Assessment,1.0,Operational Delivery
+104,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Civilian Training ,1.0,Operational Delivery
+105,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Commercial Operations,50.29,Procurement
+106,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Communication Planning,1.64,Communications
+107,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Decision Support,20.0,Finance
+108,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Defence Export Services,0.68,Operational Delivery
+109,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,E-Communcations,1.0,Communications
+110,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Energy Management ,5.0,Operational Delivery
+111,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,IT App Dev ,1.0,Information Technology
+112,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,EnvironmentalManagementAssessm,23.48,Operational Delivery
+113,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Estate Advice ,37.68,Property and asset management
+114,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Estate Planning ,0.43,Property and asset management
+115,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Estate Surveying ,39.41,Property and asset management
+116,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Estates Management ,136.44,Property and asset management
+117,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,External Communications,1.0,Communications
+118,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Forestry ,3.0,Property and asset management
+119,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Geospatial Analyst,7.0,Operational Delivery
+120,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Housing Service Delivery,43.72,Property and asset management
+121,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Information Technology,5.0,Information Technology
+122,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Internal Communications,2.0,Communications
+123,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Accountant,1.0,Finance
+124,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Knowledge Info Management,11.91,Knowledge and Information Management (KIM)
+125,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Legal ,3.68,Law
+126,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,MGS Unarmed Guarding,19.8,Operational Delivery
+127,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Performance Management,3.0,Internal Audit
+128,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Programme Management,9.1,Programme and Project Management (PPM)
+129,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Project Management,51.19,Programme and Project Management (PPM)
+130,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Quantity Surveying ,4.91,Programme and Project Management (PPM)
+131,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Range Management ,10.0,Programme and Project Management (PPM)
+132,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Reporting and Controls,4.0,Finance
+133,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Risk Management ,2.0,Programme and Project Management (PPM)
+134,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Safety Management ,1.0,Operational Delivery
+135,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Secretarial ,3.0,Operational Delivery
+136,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Secretariat & Private Office,8.86,Operational Delivery
+137,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Security Advice ,1.0,Operational Delivery
+138,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Soft Facilities Management,18.0,Property and asset management
+139,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Sustainable Development,1.0,Operational Delivery
+140,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Technical [Trades] ,1.0,Science and Engineering
+141,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Training Support,1.0,Operational Delivery
+142,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2,29258,36333,Transaction Processing,2.0,Finance
+143,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Administrative Support,23.83,Operational Delivery
+144,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Business Management,11.11,Operational Delivery
+145,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Civilian Training ,1.0,Operational Delivery
+146,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Commercial Operations,16.92,Procurement
+147,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Computer Science & Engineering,2.81,Information Technology
+148,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Consultancy,0.81,Operational Delivery
+149,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Decision Support,23.45,Finance
+150,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Design and Imagery,1.0,Communications
+151,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Employee Representative,1.0,Human Resources
+152,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Energy Management ,4.59,Operational Delivery
+153,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,EnvironmentalManagementAssessm,6.0,Operational Delivery
+154,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Estate Advice ,36.67,Property and asset management
+155,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Estate Surveying ,5.22,Property and asset management
+156,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Estates Management ,64.31,Property and asset management
+157,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,External Communications,1.0,Communications
+158,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Geospatial Analyst,11.7,Operational Delivery
+159,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Housing Service Delivery,156.65,Property and asset management
+160,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Information Technology,4.54,Information Technology
+161,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Internal Communications,1.0,Communications
+162,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Inventory Management,4.0,Operational Delivery
+163,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Knowledge Info Management,6.49,Knowledge and Information Management (KIM)
+164,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Legal ,1.0,Law
+165,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,MGS Unarmed Guarding,87.31,Operational Delivery
+166,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Material Accounting,4.0,Operational Delivery
+167,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Obsolete Security ,1.0,Operational Delivery
+168,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Performance Management,1.0,Internal Audit
+169,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Programme Management,1.0,Programme and Project Management (PPM)
+170,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Project Management,28.86,Programme and Project Management (PPM)
+171,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Quantity Surveying ,1.0,Property and asset management
+172,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Range Management ,6.0,Property and asset management
+173,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Reporting and Controls,1.0,Finance
+174,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,"Safety,Health,Enviroment&Fire",1.0,Operational Delivery
+175,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Secretarial ,3.0,Operational Delivery
+176,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Secretariat & Private Office,0.64,Operational Delivery
+177,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Security Management,1.0,Operational Delivery
+178,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Security Support ,1.0,Operational Delivery
+179,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Site Estate ,3.0,Property and asset management
+180,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Soft Facilities Management,14.0,Property and asset management
+181,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Systems Engineering,1.0,Science and Engineering
+182,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Technical [Trades] ,5.81,Science and Engineering
+183,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Training Support,3.13,Operational Delivery
+184,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D,23427,29092,Transaction Processing,3.0,Finance
+185,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Administrative Support,105.43,Operational Delivery
+186,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Business Management,10.78,Operational Delivery
+187,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Commercial Operations,5.0,Procurement
+188,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Decision Support,15.85,Finance
+189,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,EnvironmentalManagementAssessm,1.0,Operational Delivery
+190,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Estate Advice ,6.6,Property and asset management
+191,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Estate Planning ,1.0,Property and asset management
+192,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Estate Surveying ,5.81,Property and asset management
+193,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Estates Management ,17.96,Property and asset management
+194,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,External Communications,1.0,Communications
+195,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Heritage ,7.45,Operational Delivery
+196,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Housing Service Delivery,51.24,Property and asset management
+197,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Information Technology,1.0,Information Technology
+198,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Knowledge Info Management,3.0,Knowledge and Information Management (KIM)
+199,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Legal ,1.0,Law
+200,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,MGS Dog Handling ,15.0,Operational Delivery
+201,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,MGS Unarmed Guarding,295.46,Operational Delivery
+202,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Material Accounting,1.0,Operational Delivery
+203,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Programme Management,2.0,Programme and Project Management (PPM)
+204,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Project Management,7.81,Programme and Project Management (PPM)
+205,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Range Management ,1.0,Property and asset management
+206,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,"Safety,Health,Enviroment&Fire",4.0,Operational Delivery
+207,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Secretarial ,1.0,Operational Delivery
+208,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Secretariat & Private Office,2.45,Operational Delivery
+209,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Site Estate ,1.0,Property and asset management
+210,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Soft Facilities Management,1.81,Property and asset management
+211,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Storekeeping/WarehouseOps,7.0,Operational Delivery
+212,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Technical [Trades] ,2.0,Science and Engineering
+213,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Administrative Support,1.67,Operational Delivery
+214,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E1,18370,22124,Transaction Processing,2.24,Finance
+215,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E2,15623,18815,Administrative Support,10.81,Operational Delivery
+216,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E2,15623,18815,Estate Surveying ,0.54,Property and asset management
+217,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E2,15623,18815,MGS Dog Handling ,124.0,Operational Delivery
+218,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E2,15623,18815,MGS Unarmed Guarding,2076.09,Operational Delivery
+219,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E2,15623,18815,Obsolete Security ,1.0,Operational Delivery
+220,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,E2,15623,18815,Soft Facilities Management,1.0,Property and asset management
+221,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 4,22150,24930,Technical [Trades] ,2.0,Science and Engineering
+222,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 3,18010,22150,Material Accounting,2.0,Operational Delivery
+223,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 3,18010,22150,Natural Environment,3.0,Operational Delivery
+224,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 3,18010,22150,Storekeeping/WarehouseOps,2.0,Operational Delivery
+225,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 3,18010,22150,Storekeeping/WarehouseOps,1.0,Operational Delivery
+226,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 3,18010,22150,Storekeeping/WarehouseOps,1.0,Operational Delivery
+227,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 3,18010,22150,Storekeeping/WarehouseOps,1.0,Operational Delivery
+228,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 3,18010,22150,Storekeeping/WarehouseOps,1.0,Operational Delivery
+229,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 3,18010,22150,Storekeeping/WarehouseOps,3.0,Operational Delivery
+230,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 3,18010,22150,Storekeeping/WarehouseOps,1.0,Operational Delivery
+231,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 3,18010,22150,Storekeeping/WarehouseOps,1.0,Operational Delivery
+232,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 3,18010,22150,Storekeeping/WarehouseOps,1.0,Operational Delivery
+233,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 3,18010,22150,Storekeeping/WarehouseOps,4.0,Operational Delivery
+234,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 3,18010,22150,Storekeeping/WarehouseOps,7.0,Operational Delivery
+235,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 3,18010,22150,Technical [Trades] ,1.0,Science and Engineering
+236,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 3,18010,22150,Technical [Trades] ,1.0,Science and Engineering
+237,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 3,18010,22150,Technical [Trades] ,4.0,Science and Engineering
+238,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Administrative Support,1.0,Operational Delivery
+239,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Business Management,2.0,Operational Delivery
+240,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Driving ,3.0,Operational Delivery
+241,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Material Accounting,6.0,Operational Delivery
+242,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Range Management ,12.0,Property and asset management
+243,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,"Safety,Health,Enviroment&Fire",1.0,Operational Delivery
+244,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Soft Facilities Management,2.0,Property and asset management
+245,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Soft Facilities Management,1.0,Property and asset management
+246,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Storekeeping/WarehouseOps,2.0,Operational Delivery
+247,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Storekeeping/WarehouseOps,40.0,Operational Delivery
+248,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Storekeeping/WarehouseOps,0.87,Operational Delivery
+249,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Storekeeping/WarehouseOps,17.0,Operational Delivery
+250,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Storekeeping/WarehouseOps,1.0,Operational Delivery
+251,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Storekeeping/WarehouseOps,29.0,Operational Delivery
+252,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Storekeeping/WarehouseOps,1.0,Operational Delivery
+253,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Technical [Trades] ,1.0,Science and Engineering
+254,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Technical [Trades] ,1.0,Science and Engineering
+255,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Technical [Trades] ,1.0,Science and Engineering
+256,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Technical [Trades] ,1.0,Science and Engineering
+257,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Administrative Support,1.0,Operational Delivery
+258,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Administrative Support,1.0,Operational Delivery
+259,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 2,16482,18010,Administrative Support,2.0,Operational Delivery
+260,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 1,15083,16482,Range Management ,0.4,Property and asset management
+261,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 1,15083,16482,Site Estate ,4.0,Property and asset management
+262,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 1,15083,16482,Site Estate ,5.0,Property and asset management
+263,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 1,15083,16482,Soft Facilities Management,1.54,Property and asset management
+264,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 1,15083,16482,Soft Facilities Management,1.0,Property and asset management
+265,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 1,15083,16482,Storekeeping/WarehouseOps,8.0,Operational Delivery
+266,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1 MSF,35648,44268,Estates Management ,1.0,Property and asset management
+267,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C1 MSF,35648,44268,Project Management,8.0,Programme and Project Management (PPM)
+268,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2 MSF,29258,36333,Administrative Support,1.0,Operational Delivery
+269,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2 MSF,29258,36333,Direct Military Support,6.0,Operational Delivery
+270,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2 MSF,29258,36333,Estate Advice ,3.0,Property and asset management
+271,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2 MSF,29258,36333,Estates Management ,10.81,Property and asset management
+272,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2 MSF,29258,36333,Performance Management,2.0,Internal Audit
+273,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2 MSF,29258,36333,Project Management,2.0,Programme and Project Management (PPM)
+274,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2 MSF,29258,36333,Range Management ,28.0,Property and asset management
+275,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2 MSF,29258,36333,Reporting and Controls,1.0,Finance
+276,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2 MSF,29258,36333,Secretarial ,5.0,Operational Delivery
+277,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,C2 MSF,29258,36333,Soft Facilities Management,2.0,Property and asset management
+278,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D MSF,23427,29092,Estates Management ,1.0,Property and asset management
+279,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,D MSF,23427,29092,Range Management ,12.0,Property and asset management
+280,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 4,22150,24930,Storekeeping/WarehouseOps,1.0,Operational Delivery
+281,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 4,22150,24930,Natural Environment,1.0,Operational Delivery
+282,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Skill Zone 3,18010,22150,Natural Environment,1.0,Operational Delivery
+283,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,Locally Employed Civilian (LEC),0,0,Locally Employed Civilians,409.0,Operational Delivery
+284,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF5,82381,90560,Training Area Support (provison of safe place to train),1.0,Military
+285,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF4,67999,78737,Training Area Support (provison of safe place to train),17.0,Military
+286,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF4,67999,78737,Programme Management,6.0,Military
+287,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF3,48450,58025,Training Area Support (provison of safe place to train),7.0,Military
+288,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF3,48450,58025,Overseas Estate Support Functions,6.0,Military
+289,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF3,48450,58025,Infrastructure Planner,3.0,Military
+290,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF3,48450,58025,Project Management,1.0,Military
+291,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF2,38463,45741,Training Area Support (provison of safe place to train),3.0,Military
+292,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF2,38463,45741,Overseas Estate Support Functions,7.0,Military
+293,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR9,41707,45088,Training Area Support (provison of safe place to train),12.0,Military
+294,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR9,41707,45088,Overseas Estate Support Functions,6.0,Military
+295,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR8,36921,40930,Catering,2.0,Military
+296,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR8,36921,40930,Training Area Support (provison of safe place to train),26.0,Military
+297,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR7,36921,40930,Overseas Estate Support Functions,15.0,Military
+298,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR7,36921,40930,Training Area Support (provison of safe place to train),7.0,Military
+299,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR6,32602,35426,Training Area Support (provison of safe place to train),7.0,Military
+300,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR6,32602,35426,Overseas Estate Support Functions,4.0,Military
+301,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR6,32602,35426,Administrative Support,1.0,Military
+302,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR4,29122,31219,Catering,1.0,Military
+303,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR4,29122,31219,Trainer,1.0,Military
+304,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR4,29122,31219,Overseas Estate Support Functions,1.0,Military
+305,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF5,82381,90560,Overseas Estate Support Functions,1.0,Military
+306,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF4,67999,78737,Overseas Estate Support Functions,1.0,Military
+307,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR9,41707,45088,Catering,1.0,Military
+308,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR8,36921,40930,Overseas Estate Support Functions,7.0,Military
+309,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF5,82381,90560,Project Management,4.0,Military
+310,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF4,67999,78737,Project Management,2.0,Military
+311,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF4,67999,78737,Estate Planning ,2.0,Military
+312,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF4,67999,78737,Customer Services ,1.0,Military
+313,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF4,67999,78737,Catering,1.0,Military
+314,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF3,48450,58025,Catering,3.0,Military
+315,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR7,36921,40930,Accountant,1.0,Military
+316,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF5,82381,90560,Programme Management,3.0,Military
+317,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF3,48450,58025,Programme Management,7.0,Military
+318,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF5,82381,90560,Strategic Planner,1.0,Military
+319,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF4,67999,78737,Strategic Planner,1.0,Military
+320,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF4,67999,78737,Infrastructure Planner,3.0,Military
+321,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF3,48450,58025,Site Estate ,2.0,Military
+322,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF2,38463,45741,Infrastructure Planner,7.0,Military
+323,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF1,16305,33175,Infrastructure Planner,3.0,Military
+324,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR8,36921,40930,Accountant,2.0,Military
+325,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR6,32602,35426,Facilities Management,1.0,Military
+326,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF3,48450,58025,Facilities Management,4.0,Military
+327,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF3,48450,58025,Estate Planning ,1.0,Military
+328,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR4,29122,31219,Training Area Support (provison of safe place to train),3.0,Military
+329,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR3,21019,23798,Training Area Support (provison of safe place to train),2.0,Military
+330,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR7,36921,40930,Trainer,1.0,Military
+331,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR7,36921,40930,Catering,1.0,Military
+332,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF4,67999,78737,Facilities Management,5.0,Military
+333,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OR6,32602,35426,Accountant,1.0,Military
+334,Ministry of Defence,Ministry of Defence,Defence Infrastructure Organisation,26677,OF3,48450,58025,Customer Services ,1.0,Military

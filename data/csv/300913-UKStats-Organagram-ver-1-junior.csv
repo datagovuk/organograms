@@ -1,0 +1,488 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,UK Statistics Authority,UK Statistics Authority,UK Statistics Authority,1,AO,15631,17767,Administrative Officer,1.0,Operational Delivery
+1,UK Statistics Authority,UK Statistics Authority,UK Statistics Authority,1,Grade 6,48867,67360,Grade 6,1.0,Operational Delivery
+2,UK Statistics Authority,UK Statistics Authority,UK Statistics Authority,1,Grade 7,43333,60342,Grade 7,2.0,Operational Delivery
+3,UK Statistics Authority,UK Statistics Authority,UK Statistics Authority,1,Grade 7,43333,60342,Grade 7,1.0,Statisticians
+4,UK Statistics Authority,UK Statistics Authority,UK Statistics Authority,1,HEO,25460,34680,Higher Executive Officer,2.0,Operational Delivery
+5,UK Statistics Authority,UK Statistics Authority,UK Statistics Authority,1,SEO,30995,41613,Senior Executive Officer,1.0,Operational Delivery
+6,UK Statistics Authority,UK Statistics Authority,Corporate Centre,2,EO,20239,29147,Executive Officer,4.0,Operational Delivery
+7,UK Statistics Authority,UK Statistics Authority,Corporate Centre,2,Grade 7,43333,60342,Grade 7,3.0,Operational Delivery
+8,UK Statistics Authority,UK Statistics Authority,Corporate Centre,2,HEO,25460,34680,Higher Executive Officer,1.0,Finance
+9,UK Statistics Authority,UK Statistics Authority,Corporate Centre,2,HEO,25460,34680,Higher Executive Officer,1.0,Operational Delivery
+10,UK Statistics Authority,UK Statistics Authority,Corporate Centre,2,HEO Specialist,25460,35333,Research Officer,1.0,Operational Delivery
+11,UK Statistics Authority,UK Statistics Authority,Corporate Centre,2,SEO,30995,41613,Senior Executive Officer,1.0,Operational Delivery
+12,UK Statistics Authority,UK Statistics Authority,Population and Demography Directorate,5,AO,15631,17767,Administrative Officer,0.65,Operational Delivery
+13,UK Statistics Authority,UK Statistics Authority,Population and Demography Directorate,5,EO,20239,29147,Executive Officer,3.0,Operational Delivery
+14,UK Statistics Authority,UK Statistics Authority,Population and Demography Directorate,5,Grade 7,43333,60342,Grade 7,1.0,Operational Delivery
+15,UK Statistics Authority,UK Statistics Authority,Population and Demography Directorate,5,HEO,25460,34680,Higher Executive Officer,1.0,Operational Delivery
+16,UK Statistics Authority,UK Statistics Authority,Population and Demography Directorate,5,SEO,30995,41613,Senior Executive Officer,2.0,Operational Delivery
+17,UK Statistics Authority,UK Statistics Authority,Analysis and Dissemination Directorate,6,EO,20239,29147,Executive Officer,1.81,Operational Delivery
+18,UK Statistics Authority,UK Statistics Authority,Analysis and Dissemination Directorate,6,Grade 6,48867,67360,Grade 6,1.0,Operational Delivery
+19,UK Statistics Authority,UK Statistics Authority,Analysis and Dissemination Directorate,6,Grade 7,43333,60342,Grade 7,1.0,Operational Delivery
+20,UK Statistics Authority,UK Statistics Authority,Stakeholder Management and Communication,12,AO,15631,17767,Administrative Officer,4.57,Operational Delivery
+21,UK Statistics Authority,UK Statistics Authority,Stakeholder Management and Communication,12,EO,20239,29147,Executive Officer,1.0,Communications
+22,UK Statistics Authority,UK Statistics Authority,Stakeholder Management and Communication,12,EO,20239,29147,Executive Officer,2.49,Operational Delivery
+23,UK Statistics Authority,UK Statistics Authority,Stakeholder Management and Communication,12,Grade 6,48867,67360,Grade 6,1.0,Operational Delivery
+24,UK Statistics Authority,UK Statistics Authority,Stakeholder Management and Communication,12,Grade 7,43333,60342,Grade 7,2.0,Communications
+25,UK Statistics Authority,UK Statistics Authority,Stakeholder Management and Communication,12,HEO,25460,34680,Higher Executive Officer,3.81,Communications
+26,UK Statistics Authority,UK Statistics Authority,Stakeholder Management and Communication,12,HEO,25460,34680,Higher Executive Officer,4.0,Operational Delivery
+27,UK Statistics Authority,UK Statistics Authority,Stakeholder Management and Communication,12,SEO,30995,41613,Senior Executive Officer,4.0,Communications
+28,UK Statistics Authority,UK Statistics Authority,Stakeholder Management and Communication,12,SEO,30995,41613,Senior Executive Officer,1.0,Operational Delivery
+29,UK Statistics Authority,UK Statistics Authority,National Statisticians Office,14,AO,15631,17767,Administrative Officer,2.95,Operational Delivery
+30,UK Statistics Authority,UK Statistics Authority,National Statisticians Office,14,HEO Specialist,25460,35333,Assistant Statistician,2.0,Operational Delivery
+31,UK Statistics Authority,UK Statistics Authority,National Statisticians Office,14,EO,20239,29147,Executive Officer,4.0,Operational Delivery
+32,UK Statistics Authority,UK Statistics Authority,National Statisticians Office,14,Grade 6,48867,67360,Grade 6,0.59,Operational Delivery
+33,UK Statistics Authority,UK Statistics Authority,National Statisticians Office,14,Grade 6,48867,67360,Grade 6,1.0,Social Research
+34,UK Statistics Authority,UK Statistics Authority,National Statisticians Office,14,Grade 7,43333,60342,Grade 7,1.0,Human Resources
+35,UK Statistics Authority,UK Statistics Authority,National Statisticians Office,14,Grade 7,43333,60342,Grade 7,2.81,Operational Delivery
+36,UK Statistics Authority,UK Statistics Authority,National Statisticians Office,14,Grade 7,43333,60342,Grade 7,1.0,Policy
+37,UK Statistics Authority,UK Statistics Authority,National Statisticians Office,14,Grade 7,43333,60342,Grade 7,1.0,Social Research
+38,UK Statistics Authority,UK Statistics Authority,National Statisticians Office,14,Grade 7,43333,60342,Grade 7,4.0,Statisticians
+39,UK Statistics Authority,UK Statistics Authority,National Statisticians Office,14,HEO,25460,34680,Higher Executive Officer,1.0,Human Resources
+40,UK Statistics Authority,UK Statistics Authority,National Statisticians Office,14,HEO,25460,34680,Higher Executive Officer,3.21,Operational Delivery
+41,UK Statistics Authority,UK Statistics Authority,National Statisticians Office,14,SEO Specialist,32754,42445,Methodologist,1.0,Statisticians
+42,UK Statistics Authority,UK Statistics Authority,National Statisticians Office,14,SEO,30995,41613,Senior Executive Officer,1.0,Human Resources
+43,UK Statistics Authority,UK Statistics Authority,National Statisticians Office,14,SEO,30995,41613,Senior Executive Officer,3.0,Operational Delivery
+44,UK Statistics Authority,UK Statistics Authority,OCEA Division,15,AO,15631,17767,Administrative Officer,4.0,Operational Delivery
+45,UK Statistics Authority,UK Statistics Authority,OCEA Division,15,Fast Stream,28960,35333,Economic Assistant,5.0,Economics
+46,UK Statistics Authority,UK Statistics Authority,OCEA Division,15,Fast Stream,28960,35333,Economic Assistant,4.0,Operational Delivery
+47,UK Statistics Authority,UK Statistics Authority,OCEA Division,15,Grade 7,43333,60342,Grade 7,4.69,Economics
+48,UK Statistics Authority,UK Statistics Authority,OCEA Division,15,HEO,25460,34680,Higher Executive Officer,1.0,Economics
+49,UK Statistics Authority,UK Statistics Authority,OCEA Division,15,HEO,25460,34680,Higher Executive Officer,1.0,Operational Delivery
+50,UK Statistics Authority,UK Statistics Authority,OCEA Division,15,HEO Specialist,25460,35333,Research Officer,1.0,Operational Delivery
+51,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,HEO Specialist,25460,35333,Assistant Methodologist,0.81,Operational Delivery
+52,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,AO,15631,17767,Administrative Officer,1.0,Economics
+53,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,AO,15631,17767,Administrative Officer,2.0,Operational Delivery
+54,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,Fast Stream,28960,35333,Economic Assistant,1.0,Economics
+55,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,EO,20239,29147,Executive Officer,12.03,Operational Delivery
+56,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,EO,20239,29147,Executive Officer,1.0,Statisticians
+57,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,Grade 6,48867,67360,Grade 6,2.0,Statisticians
+58,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,Grade 7,43333,60342,Grade 7,4.0,Operational Delivery
+59,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,Grade 7,43333,60342,Grade 7,1.0,Programme and Project Management (PPM)
+60,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,Grade 7,43333,60342,Grade 7,3.0,Statisticians
+61,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,HEO,25460,34680,Higher Executive Officer,1.0,Economics
+62,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,HEO,25460,34680,Higher Executive Officer,17.91,Operational Delivery
+63,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,HEO,25460,34680,Higher Executive Officer,1.0,Statisticians
+64,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,SEO Specialist,32754,42445,Methodologist,1.0,Statisticians
+65,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,HEO Specialist,25460,35333,Research Officer,3.0,Operational Delivery
+66,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,SEO,30995,41613,Senior Executive Officer,8.78,Operational Delivery
+67,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,SEO,30995,41613,Senior Executive Officer,1.0,Programme and Project Management (PPM)
+68,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,SEO,30995,41613,Senior Executive Officer,3.0,Statisticians
+69,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,SEO Specialist,32754,42445,Senior Research Officer,0.92,Operational Delivery
+70,UK Statistics Authority,UK Statistics Authority,National Accounts Coordination Division,16,SEO Specialist,32754,42445,Senior Research Officer,1.0,Social Research
+71,UK Statistics Authority,UK Statistics Authority,Measuring National Well-being,18,AO,15631,17767,Administrative Officer,4.97,Operational Delivery
+72,UK Statistics Authority,UK Statistics Authority,Measuring National Well-being,18,Fast Stream,28960,35333,Economic Assistant,1.0,Economics
+73,UK Statistics Authority,UK Statistics Authority,Measuring National Well-being,18,Fast Stream,28960,35333,Economic Assistant,3.0,Operational Delivery
+74,UK Statistics Authority,UK Statistics Authority,Measuring National Well-being,18,EO,20239,29147,Executive Officer,5.04,Operational Delivery
+75,UK Statistics Authority,UK Statistics Authority,Measuring National Well-being,18,Grade 6,48867,67360,Grade 6,0.6,Statisticians
+76,UK Statistics Authority,UK Statistics Authority,Measuring National Well-being,18,Grade 7,43333,60342,Grade 7,1.6,Economics
+77,UK Statistics Authority,UK Statistics Authority,Measuring National Well-being,18,Grade 7,43333,60342,Grade 7,1.0,Operational Delivery
+78,UK Statistics Authority,UK Statistics Authority,Measuring National Well-being,18,Grade 7,43333,60342,Grade 7,1.81,Programme and Project Management (PPM)
+79,UK Statistics Authority,UK Statistics Authority,Measuring National Well-being,18,Grade 7,43333,60342,Grade 7,1.0,Social Research
+80,UK Statistics Authority,UK Statistics Authority,Measuring National Well-being,18,Grade 7,43333,60342,Grade 7,1.17,Statisticians
+81,UK Statistics Authority,UK Statistics Authority,Measuring National Well-being,18,HEO,25460,34680,Higher Executive Officer,4.62,Operational Delivery
+82,UK Statistics Authority,UK Statistics Authority,Measuring National Well-being,18,HEO Specialist,25460,35333,Research Officer,1.6,Social Research
+83,UK Statistics Authority,UK Statistics Authority,Measuring National Well-being,18,SEO,30995,41613,Senior Executive Officer,1.0,Operational Delivery
+84,UK Statistics Authority,UK Statistics Authority,Measuring National Well-being,18,SEO,30995,41613,Senior Executive Officer,1.0,Programme and Project Management (PPM)
+85,UK Statistics Authority,UK Statistics Authority,Measuring National Well-being,18,SEO Specialist,32754,42445,Senior Research Officer,1.0,Operational Delivery
+86,UK Statistics Authority,UK Statistics Authority,Measuring National Well-being,18,SEO Specialist,32754,42445,Senior Research Officer,6.18,Social Research
+87,UK Statistics Authority,UK Statistics Authority,Business Indicators and Balance of Payments,19,HEO Specialist,25460,35333,Assistant Methodologist,1.0,Statisticians
+88,UK Statistics Authority,UK Statistics Authority,Business Indicators and Balance of Payments,19,AO,15631,17767,Administrative Officer,14.0,Operational Delivery
+89,UK Statistics Authority,UK Statistics Authority,Business Indicators and Balance of Payments,19,Fast Stream,28960,35333,Assistant Statistician,1.0,Statisticians
+90,UK Statistics Authority,UK Statistics Authority,Business Indicators and Balance of Payments,19,EO,20239,29147,Executive Officer,29.17,Operational Delivery
+91,UK Statistics Authority,UK Statistics Authority,Business Indicators and Balance of Payments,19,Grade 6,48867,67360,Grade 6,1.0,Operational Delivery
+92,UK Statistics Authority,UK Statistics Authority,Business Indicators and Balance of Payments,19,Grade 6,48867,67360,Grade 6,1.0,Statisticians
+93,UK Statistics Authority,UK Statistics Authority,Business Indicators and Balance of Payments,19,Grade 7,43333,60342,Grade 7,6.0,Operational Delivery
+94,UK Statistics Authority,UK Statistics Authority,Business Indicators and Balance of Payments,19,Grade 7,43333,60342,Grade 7,0.81,Operational Research
+95,UK Statistics Authority,UK Statistics Authority,Business Indicators and Balance of Payments,19,Grade 7,43333,60342,Grade 7,1.0,Social Research
+96,UK Statistics Authority,UK Statistics Authority,Business Indicators and Balance of Payments,19,Grade 7,43333,60342,Grade 7,5.0,Statisticians
+97,UK Statistics Authority,UK Statistics Authority,Business Indicators and Balance of Payments,19,HEO,25460,34680,Higher Executive Officer,17.78,Operational Delivery
+98,UK Statistics Authority,UK Statistics Authority,Business Indicators and Balance of Payments,19,HEO Specialist,25460,35333,Research Officer,3.0,Operational Delivery
+99,UK Statistics Authority,UK Statistics Authority,Business Indicators and Balance of Payments,19,HEO Specialist,25460,35333,Research Officer,1.0,Operational Research
+100,UK Statistics Authority,UK Statistics Authority,Business Indicators and Balance of Payments,19,HEO Specialist,25460,35333,Research Officer,2.0,Statisticians
+101,UK Statistics Authority,UK Statistics Authority,Business Indicators and Balance of Payments,19,SEO,30995,41613,Senior Executive Officer,11.62,Operational Delivery
+102,UK Statistics Authority,UK Statistics Authority,Business Indicators and Balance of Payments,19,SEO,30995,41613,Senior Executive Officer,2.0,Statisticians
+103,UK Statistics Authority,UK Statistics Authority,Business Indicators and Balance of Payments,19,SEO Specialist,32754,42445,Senior Research Officer,1.0,Operational Delivery
+104,UK Statistics Authority,UK Statistics Authority,Business Indicators and Balance of Payments,19,SEO Specialist,32754,42445,Senior Research Officer,2.0,Social Research
+105,UK Statistics Authority,UK Statistics Authority,Business Indicators and Balance of Payments,19,SEO Specialist,32754,42445,Senior Research Officer,3.0,Statisticians
+106,UK Statistics Authority,UK Statistics Authority,Labour Market,20,AO,15631,17767,Administrative Officer,7.57,Operational Delivery
+107,UK Statistics Authority,UK Statistics Authority,Labour Market,20,Fast Stream,28960,35333,Assistant Statistician,1.0,Statisticians
+108,UK Statistics Authority,UK Statistics Authority,Labour Market,20,EO,20239,29147,Executive Officer,1.0,Economics
+109,UK Statistics Authority,UK Statistics Authority,Labour Market,20,EO,20239,29147,Executive Officer,17.51,Operational Delivery
+110,UK Statistics Authority,UK Statistics Authority,Labour Market,20,EO,20239,29147,Executive Officer,1.0,Statisticians
+111,UK Statistics Authority,UK Statistics Authority,Labour Market,20,Grade 6,48867,67360,Grade 6,1.0,Statisticians
+112,UK Statistics Authority,UK Statistics Authority,Labour Market,20,Grade 7,43333,60342,Grade 7,1.0,Operational Delivery
+113,UK Statistics Authority,UK Statistics Authority,Labour Market,20,Grade 7,43333,60342,Grade 7,5.0,Statisticians
+114,UK Statistics Authority,UK Statistics Authority,Labour Market,20,HEO,25460,34680,Higher Executive Officer,7.86,Operational Delivery
+115,UK Statistics Authority,UK Statistics Authority,Labour Market,20,HEO Specialist,25460,35333,Research Officer,2.0,Statisticians
+116,UK Statistics Authority,UK Statistics Authority,Labour Market,20,SEO Specialist,32754,42445,Senior Statisticial Officer,2.0,Statisticians
+117,UK Statistics Authority,UK Statistics Authority,Labour Market,20,SEO,30995,41613,Senior Executive Officer,1.0,Operational Delivery
+118,UK Statistics Authority,UK Statistics Authority,Labour Market,20,SEO,30995,41613,Senior Executive Officer,1.0,Statisticians
+119,UK Statistics Authority,UK Statistics Authority,Labour Market,20,HEO Specialist,25460,35333,Statistical Officer,1.0,Statisticians
+120,UK Statistics Authority,UK Statistics Authority,Labour Market,20,SEO Specialist,32754,42445,Senior Research Officer,1.0,Statisticians
+121,UK Statistics Authority,UK Statistics Authority,ONS Social Survey,21,HEO Specialist,25460,35333,Assistant Methodologist,0.81,Statisticians
+122,UK Statistics Authority,UK Statistics Authority,ONS Social Survey,21,AO,15631,17767,Administrative Officer,37.27,Operational Delivery
+123,UK Statistics Authority,UK Statistics Authority,ONS Social Survey,21,EO,20239,29147,Executive Officer,102.88,Operational Delivery
+124,UK Statistics Authority,UK Statistics Authority,ONS Social Survey,21,Grade 6,48867,67360,Grade 6,3.0,Statisticians
+125,UK Statistics Authority,UK Statistics Authority,ONS Social Survey,21,Grade 7,43333,60342,Grade 7,5.52,Operational Delivery
+126,UK Statistics Authority,UK Statistics Authority,ONS Social Survey,21,Grade 7,43333,60342,Grade 7,1.0,Operational Research
+127,UK Statistics Authority,UK Statistics Authority,ONS Social Survey,21,Grade 7,43333,60342,Grade 7,8.31,Social Research
+128,UK Statistics Authority,UK Statistics Authority,ONS Social Survey,21,HEO,25460,34680,Higher Executive Officer,36.17,Operational Delivery
+129,UK Statistics Authority,UK Statistics Authority,ONS Social Survey,21,Interviewer,14335,21087,Interviewer,538.7,Operational Delivery
+130,UK Statistics Authority,UK Statistics Authority,ONS Social Survey,21,HEO Specialist,25460,35333,Research Officer,5.0,Operational Delivery
+131,UK Statistics Authority,UK Statistics Authority,ONS Social Survey,21,HEO Specialist,25460,35333,Research Officer,12.88,Social Research
+132,UK Statistics Authority,UK Statistics Authority,ONS Social Survey,21,HEO Specialist,25460,35333,Research Officer,1.0,Statisticians
+133,UK Statistics Authority,UK Statistics Authority,ONS Social Survey,21,SEO Specialist,32754,42445,Senior Statisticial Officer,1.0,Statisticians
+134,UK Statistics Authority,UK Statistics Authority,ONS Social Survey,21,SEO,30995,41613,Senior Executive Officer,11.14,Operational Delivery
+135,UK Statistics Authority,UK Statistics Authority,ONS Social Survey,21,SEO Specialist,32754,42445,Senior Research Officer,16.66,Social Research
+136,UK Statistics Authority,UK Statistics Authority,ONS Social Survey,21,SEO Specialist,32754,42445,Senior Research Officer,1.0,Statisticians
+137,UK Statistics Authority,UK Statistics Authority,ONS Social Survey,21,Team Leader,18608,22828,Team Leader,26.4,Operational Delivery
+138,UK Statistics Authority,UK Statistics Authority,Prices,22,AO,15631,17767,Administrative Officer,15.07,Operational Delivery
+139,UK Statistics Authority,UK Statistics Authority,Prices,22,Fast Stream,28960,35333,Economic Assistant,1.0,Operational Delivery
+140,UK Statistics Authority,UK Statistics Authority,Prices,22,EO,20239,29147,Executive Officer,19.84,Operational Delivery
+141,UK Statistics Authority,UK Statistics Authority,Prices,22,Grade 7,43333,60342,Grade 7,1.0,Information Technology
+142,UK Statistics Authority,UK Statistics Authority,Prices,22,Grade 7,43333,60342,Grade 7,3.0,Operational Delivery
+143,UK Statistics Authority,UK Statistics Authority,Prices,22,Grade 7,43333,60342,Grade 7,5.0,Statisticians
+144,UK Statistics Authority,UK Statistics Authority,Prices,22,HEO,25460,34680,Higher Executive Officer,9.81,Operational Delivery
+145,UK Statistics Authority,UK Statistics Authority,Prices,22,HEO,25460,34680,Higher Executive Officer,1.0,Programme and Project Management (PPM)
+146,UK Statistics Authority,UK Statistics Authority,Prices,22,SEO Specialist,32754,42445,Methodologist,1.0,Statisticians
+147,UK Statistics Authority,UK Statistics Authority,Prices,22,HEO Specialist,25460,35333,Research Officer,2.65,Statisticians
+148,UK Statistics Authority,UK Statistics Authority,Prices,22,SEO Specialist,32754,42445,Senior Statisticial Officer,1.0,Statisticians
+149,UK Statistics Authority,UK Statistics Authority,Prices,22,SEO,30995,41613,Senior Executive Officer,2.5,Operational Delivery
+150,UK Statistics Authority,UK Statistics Authority,Prices,22,HEO Specialist,25460,35333,Statistical Officer,1.0,Statisticians
+151,UK Statistics Authority,UK Statistics Authority,Prices,22,SEO Specialist,32754,42445,Senior Research Officer,2.6,Social Research
+152,UK Statistics Authority,UK Statistics Authority,Prices,22,SEO Specialist,32754,42445,Senior Research Officer,2.0,Statisticians
+153,UK Statistics Authority,UK Statistics Authority,Business Data,23,AO,15631,17767,Administrative Officer,250.54,Operational Delivery
+154,UK Statistics Authority,UK Statistics Authority,Business Data,23,AO,15631,17767,Administrative Officer,1.0,Social Research
+155,UK Statistics Authority,UK Statistics Authority,Business Data,23,EO,20239,29147,Executive Officer,64.07,Operational Delivery
+156,UK Statistics Authority,UK Statistics Authority,Business Data,23,Grade 7,43333,60342,Grade 7,4.0,Operational Delivery
+157,UK Statistics Authority,UK Statistics Authority,Business Data,23,HEO,25460,34680,Higher Executive Officer,18.97,Operational Delivery
+158,UK Statistics Authority,UK Statistics Authority,Business Data,23,SEO,30995,41613,Senior Executive Officer,1.87,Operational Delivery
+159,UK Statistics Authority,UK Statistics Authority,Business Outputs and Developments,25,HEO Specialist,25460,35333,Assistant Methodologist,1.0,Statisticians
+160,UK Statistics Authority,UK Statistics Authority,Business Outputs and Developments,25,AO,15631,17767,Administrative Officer,21.56,Operational Delivery
+161,UK Statistics Authority,UK Statistics Authority,Business Outputs and Developments,25,EO,20239,29147,Executive Officer,32.38,Operational Delivery
+162,UK Statistics Authority,UK Statistics Authority,Business Outputs and Developments,25,Grade 6,48867,67360,Grade 6,1.0,Statisticians
+163,UK Statistics Authority,UK Statistics Authority,Business Outputs and Developments,25,Grade 7,43333,60342,Grade 7,3.0,Programme and Project Management (PPM)
+164,UK Statistics Authority,UK Statistics Authority,Business Outputs and Developments,25,Grade 7,43333,60342,Grade 7,3.0,Statisticians
+165,UK Statistics Authority,UK Statistics Authority,Business Outputs and Developments,25,HEO,25460,34680,Higher Executive Officer,15.4,Operational Delivery
+166,UK Statistics Authority,UK Statistics Authority,Business Outputs and Developments,25,SEO Specialist,32754,42445,Methodologist,2.0,Statisticians
+167,UK Statistics Authority,UK Statistics Authority,Business Outputs and Developments,25,HEO Specialist,25460,35333,Research Officer,1.0,Operational Delivery
+168,UK Statistics Authority,UK Statistics Authority,Business Outputs and Developments,25,HEO Specialist,25460,35333,Research Officer,1.0,Social Research
+169,UK Statistics Authority,UK Statistics Authority,Business Outputs and Developments,25,HEO Specialist,25460,35333,Research Officer,1.41,Statisticians
+170,UK Statistics Authority,UK Statistics Authority,Business Outputs and Developments,25,SEO Specialist,32754,42445,Senior Statisticial Officer,1.0,Statisticians
+171,UK Statistics Authority,UK Statistics Authority,Business Outputs and Developments,25,SEO,30995,41613,Senior Executive Officer,3.0,Operational Delivery
+172,UK Statistics Authority,UK Statistics Authority,Business Outputs and Developments,25,SEO,30995,41613,Senior Executive Officer,3.0,Programme and Project Management (PPM)
+173,UK Statistics Authority,UK Statistics Authority,Business Outputs and Developments,25,SEO Specialist,32754,42445,Senior Research Officer,1.0,Statisticians
+174,UK Statistics Authority,UK Statistics Authority,Population Statistics Division,26,AO,15631,17767,Administrative Officer,1.0,Operational Delivery
+175,UK Statistics Authority,UK Statistics Authority,Population Statistics Division,26,Fast Stream,28960,35333,Assistant Statistician,1.0,Statisticians
+176,UK Statistics Authority,UK Statistics Authority,Population Statistics Division,26,EO,20239,29147,Executive Officer,8.86,Operational Delivery
+177,UK Statistics Authority,UK Statistics Authority,Population Statistics Division,26,Grade 6,48867,67360,Grade 6,1.95,Statisticians
+178,UK Statistics Authority,UK Statistics Authority,Population Statistics Division,26,Grade 7,43333,60342,Grade 7,3.0,Social Research
+179,UK Statistics Authority,UK Statistics Authority,Population Statistics Division,26,Grade 7,43333,60342,Grade 7,4.6,Statisticians
+180,UK Statistics Authority,UK Statistics Authority,Population Statistics Division,26,HEO,25460,34680,Higher Executive Officer,4.59,Operational Delivery
+181,UK Statistics Authority,UK Statistics Authority,Population Statistics Division,26,HEO Specialist,25460,35333,Research Officer,3.49,Operational Delivery
+182,UK Statistics Authority,UK Statistics Authority,Population Statistics Division,26,HEO Specialist,25460,35333,Research Officer,13.92,Social Research
+183,UK Statistics Authority,UK Statistics Authority,Population Statistics Division,26,HEO Specialist,25460,35333,Research Officer,1.0,Statisticians
+184,UK Statistics Authority,UK Statistics Authority,Population Statistics Division,26,SEO,30995,41613,Senior Executive Officer,0.81,Operational Delivery
+185,UK Statistics Authority,UK Statistics Authority,Population Statistics Division,26,SEO Specialist,32754,42445,Senior Research Officer,1.0,Operational Delivery
+186,UK Statistics Authority,UK Statistics Authority,Population Statistics Division,26,SEO Specialist,32754,42445,Senior Research Officer,16.46,Social Research
+187,UK Statistics Authority,UK Statistics Authority,Population Statistics Division,26,SEO Specialist,32754,42445,Senior Research Officer,2.0,Statisticians
+188,UK Statistics Authority,UK Statistics Authority,Life Events and Population Sources Division,28,SEO,30995,41613,Senior Executive Officer,1.0,Operational Delivery
+189,UK Statistics Authority,UK Statistics Authority,Life Events and Population Sources Division,28,AO,15631,17767,Administrative Officer,43.52,Operational Delivery
+190,UK Statistics Authority,UK Statistics Authority,Life Events and Population Sources Division,28,Fast Stream,28960,35333,Assistant Statistician,0.16,Social Research
+191,UK Statistics Authority,UK Statistics Authority,Life Events and Population Sources Division,28,EO,20239,29147,Executive Officer,21.85,Operational Delivery
+192,UK Statistics Authority,UK Statistics Authority,Life Events and Population Sources Division,28,EO,20239,29147,Executive Officer,1.0,Social Research
+193,UK Statistics Authority,UK Statistics Authority,Life Events and Population Sources Division,28,Grade 6,48867,67360,Grade 6,2.81,Social Research
+194,UK Statistics Authority,UK Statistics Authority,Life Events and Population Sources Division,28,Grade 7,43333,60342,Grade 7,2.0,Operational Delivery
+195,UK Statistics Authority,UK Statistics Authority,Life Events and Population Sources Division,28,Grade 7,43333,60342,Grade 7,5.0,Social Research
+196,UK Statistics Authority,UK Statistics Authority,Life Events and Population Sources Division,28,Grade 7,43333,60342,Grade 7,2.0,Statisticians
+197,UK Statistics Authority,UK Statistics Authority,Life Events and Population Sources Division,28,HEO,25460,34680,Higher Executive Officer,16.6,Operational Delivery
+198,UK Statistics Authority,UK Statistics Authority,Life Events and Population Sources Division,28,HEO Specialist,25460,35333,Research Officer,1.81,Operational Delivery
+199,UK Statistics Authority,UK Statistics Authority,Life Events and Population Sources Division,28,HEO Specialist,25460,35333,Research Officer,5.03,Social Research
+200,UK Statistics Authority,UK Statistics Authority,Life Events and Population Sources Division,28,HEO Specialist,25460,35333,Research Officer,1.0,Statisticians
+201,UK Statistics Authority,UK Statistics Authority,Life Events and Population Sources Division,28,SEO,30995,41613,Senior Executive Officer,7.6,Operational Delivery
+202,UK Statistics Authority,UK Statistics Authority,Life Events and Population Sources Division,28,SEO Specialist,32754,42445,Senior Research Officer,5.86,Social Research
+203,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,AO,15631,17767,Administrative Officer,3.0,Operational Delivery
+204,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,Fast Stream,28960,35333,Assistant Statistician,2.0,Operational Delivery
+205,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,Fast Stream,28960,35333,Economic Assistant,1.0,Economics
+206,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,EO,20239,29147,Executive Officer,1.78,Operational Delivery
+207,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,EO,20239,29147,Executive Officer,1.0,Operational Research
+208,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,EO,20239,29147,Executive Officer,2.0,Programme and Project Management (PPM)
+209,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,Grade 6,48867,67360,Grade 6,1.0,Communications
+210,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,Grade 6,48867,67360,Grade 6,2.0,Operational Delivery
+211,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,Grade 6,48867,67360,Grade 6,1.0,Statisticians
+212,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,Grade 7,43333,60342,Grade 7,4.92,Operational Delivery
+213,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,Grade 7,43333,60342,Grade 7,1.0,Policy
+214,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,Grade 7,43333,60342,Grade 7,1.0,Programme and Project Management (PPM)
+215,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,Grade 7,43333,60342,Grade 7,2.0,Statisticians
+216,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,HEO,25460,34680,Higher Executive Officer,1.0,Communications
+217,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,HEO,25460,34680,Higher Executive Officer,3.81,Operational Delivery
+218,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,HEO,25460,34680,Higher Executive Officer,3.6,Programme and Project Management (PPM)
+219,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,HEO Specialist,25460,35333,Research Officer,0.27,Operational Delivery
+220,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,HEO Specialist,25460,35333,Research Officer,4.0,Operational Research
+221,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,HEO Specialist,25460,35333,Research Officer,4.0,Social Research
+222,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,SEO,30995,41613,Senior Executive Officer,3.0,Operational Delivery
+223,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,SEO Specialist,32754,42445,Senior Research Officer,2.7,Operational Research
+224,UK Statistics Authority,UK Statistics Authority,Beyond 2011,29,SEO Specialist,32754,42445,Senior Research Officer,3.81,Social Research
+225,UK Statistics Authority,UK Statistics Authority,Applications Development and Support,35,AO,15631,17767,Administrative Officer,1.76,Operational Delivery
+226,UK Statistics Authority,UK Statistics Authority,Applications Development and Support,35,EO,20239,29147,Executive Officer,35.35,Information Technology
+227,UK Statistics Authority,UK Statistics Authority,Applications Development and Support,35,EO,20239,29147,Executive Officer,8.49,Operational Delivery
+228,UK Statistics Authority,UK Statistics Authority,Applications Development and Support,35,Grade 6,48867,67360,Grade 6,5.0,Information Technology
+229,UK Statistics Authority,UK Statistics Authority,Applications Development and Support,35,Grade 6,48867,67360,Grade 6,1.0,Operational Delivery
+230,UK Statistics Authority,UK Statistics Authority,Applications Development and Support,35,Grade 7,43333,60342,Grade 7,23.33,Information Technology
+231,UK Statistics Authority,UK Statistics Authority,Applications Development and Support,35,Grade 7,43333,60342,Grade 7,4.0,Operational Delivery
+232,UK Statistics Authority,UK Statistics Authority,Applications Development and Support,35,Grade 7,43333,60342,Grade 7,1.0,Programme and Project Management (PPM)
+233,UK Statistics Authority,UK Statistics Authority,Applications Development and Support,35,HEO,25460,34680,Higher Executive Officer,70.14,Information Technology
+234,UK Statistics Authority,UK Statistics Authority,Applications Development and Support,35,HEO,25460,34680,Higher Executive Officer,12.0,Operational Delivery
+235,UK Statistics Authority,UK Statistics Authority,Applications Development and Support,35,SEO,30995,41613,Senior Executive Officer,1.0,Communications
+236,UK Statistics Authority,UK Statistics Authority,Applications Development and Support,35,SEO,30995,41613,Senior Executive Officer,33.41,Information Technology
+237,UK Statistics Authority,UK Statistics Authority,Applications Development and Support,35,SEO,30995,41613,Senior Executive Officer,3.0,Operational Delivery
+238,UK Statistics Authority,UK Statistics Authority,Applications Development and Support,35,SEO,30995,41613,Senior Executive Officer,1.0,Programme and Project Management (PPM)
+239,UK Statistics Authority,UK Statistics Authority,Census Methodology and Infrastructure,36,HEO Specialist,25460,35333,Assistant Methodologist,1.0,Operational Delivery
+240,UK Statistics Authority,UK Statistics Authority,Census Methodology and Infrastructure,36,HEO Specialist,25460,35333,Assistant Methodologist,8.0,Statisticians
+241,UK Statistics Authority,UK Statistics Authority,Census Methodology and Infrastructure,36,AO,15631,17767,Administrative Officer,14.11,Operational Delivery
+242,UK Statistics Authority,UK Statistics Authority,Census Methodology and Infrastructure,36,Fast Stream,28960,35333,Assistant Statistician,1.0,Operational Delivery
+243,UK Statistics Authority,UK Statistics Authority,Census Methodology and Infrastructure,36,EO,20239,29147,Executive Officer,13.62,Operational Delivery
+244,UK Statistics Authority,UK Statistics Authority,Census Methodology and Infrastructure,36,Grade 6,48867,67360,Grade 6,1.0,Social Research
+245,UK Statistics Authority,UK Statistics Authority,Census Methodology and Infrastructure,36,Grade 6,48867,67360,Grade 6,1.76,Statisticians
+246,UK Statistics Authority,UK Statistics Authority,Census Methodology and Infrastructure,36,Grade 7,43333,60342,Grade 7,1.78,Operational Delivery
+247,UK Statistics Authority,UK Statistics Authority,Census Methodology and Infrastructure,36,Grade 7,43333,60342,Grade 7,10.14,Statisticians
+248,UK Statistics Authority,UK Statistics Authority,Census Methodology and Infrastructure,36,HEO,25460,34680,Higher Executive Officer,14.27,Operational Delivery
+249,UK Statistics Authority,UK Statistics Authority,Census Methodology and Infrastructure,36,SEO Specialist,32754,42445,Methodologist,2.65,Statisticians
+250,UK Statistics Authority,UK Statistics Authority,Census Methodology and Infrastructure,36,HEO Specialist,25460,35333,Research Officer,1.0,Operational Delivery
+251,UK Statistics Authority,UK Statistics Authority,Census Methodology and Infrastructure,36,HEO Specialist,25460,35333,Research Officer,2.0,Social Research
+252,UK Statistics Authority,UK Statistics Authority,Census Methodology and Infrastructure,36,HEO Specialist,25460,35333,Research Officer,8.0,Statisticians
+253,UK Statistics Authority,UK Statistics Authority,Census Methodology and Infrastructure,36,SEO,30995,41613,Senior Executive Officer,6.35,Operational Delivery
+254,UK Statistics Authority,UK Statistics Authority,Census Methodology and Infrastructure,36,SEO,30995,41613,Senior Executive Officer,1.0,Statisticians
+255,UK Statistics Authority,UK Statistics Authority,Census Methodology and Infrastructure,36,SEO Specialist,32754,42445,Senior Research Officer,0.81,Programme and Project Management (PPM)
+256,UK Statistics Authority,UK Statistics Authority,Census Methodology and Infrastructure,36,SEO Specialist,32754,42445,Senior Research Officer,3.81,Social Research
+257,UK Statistics Authority,UK Statistics Authority,Census Methodology and Infrastructure,36,SEO Specialist,32754,42445,Senior Research Officer,9.11,Statisticians
+258,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,HEO Specialist,25460,35333,Assistant Methodologist,3.0,Operational Delivery
+259,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,HEO Specialist,25460,35333,Assistant Methodologist,1.0,Social Research
+260,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,HEO Specialist,25460,35333,Assistant Methodologist,5.0,Statisticians
+261,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,AO,15631,17767,Administrative Officer,4.0,Operational Delivery
+262,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,Fast Stream,28960,35333,Assistant Statistician,1.0,Operational Delivery
+263,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,Fast Stream,28960,35333,Assistant Statistician,2.0,Statisticians
+264,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,EO,20239,29147,Executive Officer,1.69,Operational Delivery
+265,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,EO,20239,29147,Executive Officer,0.79,Statisticians
+266,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,Grade 6,48867,67360,Grade 6,3.0,Statisticians
+267,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,Grade 7,43333,60342,Grade 7,1.0,Social Research
+268,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,Grade 7,43333,60342,Grade 7,10.0,Statisticians
+269,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,SEO Specialist,32754,42445,Methodologist,2.0,Operational Research
+270,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,SEO Specialist,32754,42445,Methodologist,6.51,Statisticians
+271,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,HEO Specialist,25460,35333,Research Officer,2.0,Operational Delivery
+272,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,HEO Specialist,25460,35333,Research Officer,1.0,Operational Research
+273,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,HEO Specialist,25460,35333,Research Officer,2.79,Social Research
+274,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,HEO Specialist,25460,35333,Research Officer,2.67,Statisticians
+275,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,HEO Specialist,25460,35333,Statistical Officer,1.33,Statisticians
+276,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,SEO Specialist,32754,42445,Senior Research Officer,4.19,Social Research
+277,UK Statistics Authority,UK Statistics Authority,Survey Methodology,37,SEO Specialist,32754,42445,Senior Research Officer,1.6,Statisticians
+278,UK Statistics Authority,UK Statistics Authority,Crime Regional and Data Access,41,HEO Specialist,25460,35333,Assistant Methodologist,1.0,Statisticians
+279,UK Statistics Authority,UK Statistics Authority,Crime Regional and Data Access,41,AO,15631,17767,Administrative Officer,3.38,Operational Delivery
+280,UK Statistics Authority,UK Statistics Authority,Crime Regional and Data Access,41,EO,20239,29147,Executive Officer,7.55,Operational Delivery
+281,UK Statistics Authority,UK Statistics Authority,Crime Regional and Data Access,41,Grade 6,48867,67360,Grade 6,1.0,Economics
+282,UK Statistics Authority,UK Statistics Authority,Crime Regional and Data Access,41,Grade 6,48867,67360,Grade 6,1.0,Knowledge and Information Management (KIM)
+283,UK Statistics Authority,UK Statistics Authority,Crime Regional and Data Access,41,Grade 6,48867,67360,Grade 6,2.0,Operational Delivery
+284,UK Statistics Authority,UK Statistics Authority,Crime Regional and Data Access,41,Grade 6,48867,67360,Grade 6,5.0,Social Research
+285,UK Statistics Authority,UK Statistics Authority,Crime Regional and Data Access,41,Grade 6,48867,67360,Grade 6,1.65,Statisticians
+286,UK Statistics Authority,UK Statistics Authority,Crime Regional and Data Access,41,HEO,25460,34680,Higher Executive Officer,8.89,Operational Delivery
+287,UK Statistics Authority,UK Statistics Authority,Crime Regional and Data Access,41,HEO Specialist,25460,35333,Research Officer,2.0,Economics
+288,UK Statistics Authority,UK Statistics Authority,Crime Regional and Data Access,41,HEO Specialist,25460,35333,Research Officer,2.0,Operational Delivery
+289,UK Statistics Authority,UK Statistics Authority,Crime Regional and Data Access,41,HEO Specialist,25460,35333,Research Officer,3.0,Social Research
+290,UK Statistics Authority,UK Statistics Authority,Crime Regional and Data Access,41,HEO Specialist,25460,35333,Research Officer,3.0,Statisticians
+291,UK Statistics Authority,UK Statistics Authority,Crime Regional and Data Access,41,SEO,30995,41613,Senior Executive Officer,2.0,Operational Delivery
+292,UK Statistics Authority,UK Statistics Authority,Crime Regional and Data Access,41,SEO Specialist,32754,42445,Senior Research Officer,0.65,Operational Delivery
+293,UK Statistics Authority,UK Statistics Authority,Crime Regional and Data Access,41,SEO Specialist,32754,42445,Senior Research Officer,6.06,Social Research
+294,UK Statistics Authority,UK Statistics Authority,Crime Regional and Data Access,41,SEO Specialist,32754,42445,Senior Research Officer,1.0,Statisticians
+295,UK Statistics Authority,UK Statistics Authority,2011 Census & Web Data Access,42,AO,15631,17767,Administrative Officer,10.32,Operational Delivery
+296,UK Statistics Authority,UK Statistics Authority,2011 Census & Web Data Access,42,EO,20239,29147,Executive Officer,23.5,Operational Delivery
+297,UK Statistics Authority,UK Statistics Authority,2011 Census & Web Data Access,42,EO,20239,29147,Executive Officer,0.59,Programme and Project Management (PPM)
+298,UK Statistics Authority,UK Statistics Authority,2011 Census & Web Data Access,42,Grade 6,48867,67360,Grade 6,3.0,Operational Delivery
+299,UK Statistics Authority,UK Statistics Authority,2011 Census & Web Data Access,42,Grade 6,48867,67360,Grade 6,1.59,Programme and Project Management (PPM)
+300,UK Statistics Authority,UK Statistics Authority,2011 Census & Web Data Access,42,Grade 7,43333,60342,Grade 7,8.24,Operational Delivery
+301,UK Statistics Authority,UK Statistics Authority,2011 Census & Web Data Access,42,Grade 7,43333,60342,Grade 7,1.0,Operational Research
+302,UK Statistics Authority,UK Statistics Authority,2011 Census & Web Data Access,42,Grade 7,43333,60342,Grade 7,2.0,Programme and Project Management (PPM)
+303,UK Statistics Authority,UK Statistics Authority,2011 Census & Web Data Access,42,HEO,25460,34680,Higher Executive Officer,18.7,Operational Delivery
+304,UK Statistics Authority,UK Statistics Authority,2011 Census & Web Data Access,42,HEO,25460,34680,Higher Executive Officer,2.68,Programme and Project Management (PPM)
+305,UK Statistics Authority,UK Statistics Authority,2011 Census & Web Data Access,42,HEO Specialist,25460,35333,Research Officer,7.28,Operational Delivery
+306,UK Statistics Authority,UK Statistics Authority,2011 Census & Web Data Access,42,HEO Specialist,25460,35333,Research Officer,2.3,Social Research
+307,UK Statistics Authority,UK Statistics Authority,2011 Census & Web Data Access,42,SEO,30995,41613,Senior Executive Officer,2.0,Communications
+308,UK Statistics Authority,UK Statistics Authority,2011 Census & Web Data Access,42,SEO,30995,41613,Senior Executive Officer,0.92,Information Technology
+309,UK Statistics Authority,UK Statistics Authority,2011 Census & Web Data Access,42,SEO,30995,41613,Senior Executive Officer,6.62,Operational Delivery
+310,UK Statistics Authority,UK Statistics Authority,2011 Census & Web Data Access,42,SEO,30995,41613,Senior Executive Officer,1.89,Programme and Project Management (PPM)
+311,UK Statistics Authority,UK Statistics Authority,2011 Census & Web Data Access,42,SEO Specialist,32754,42445,Senior Research Officer,2.0,Operational Delivery
+312,UK Statistics Authority,UK Statistics Authority,2011 Census & Web Data Access,42,SEO Specialist,32754,42445,Senior Research Officer,1.0,Social Research
+313,UK Statistics Authority,UK Statistics Authority,Organisational Capability and Performance Directorate,43,HEO,25460,34680,Higher Executive Officer,1.0,Operational Delivery
+314,UK Statistics Authority,UK Statistics Authority,Organisational Capability and Performance Directorate,43,EO,20239,29147,Executive Officer,1.0,Operational Delivery
+315,UK Statistics Authority,UK Statistics Authority,Organisational Capability and Performance Directorate,43,Grade 7,43333,60342,Grade 7,1.0,Finance
+316,UK Statistics Authority,UK Statistics Authority,Strategy and Standards Directorate,45,Grade 7,43333,60342,Grade 7,1.0,Operational Delivery
+317,UK Statistics Authority,UK Statistics Authority,Strategy and Standards Directorate,45,SEO,30995,41613,Senior Executive Officer,1.0,Operational Delivery
+318,UK Statistics Authority,UK Statistics Authority,Strategy,46,EO,20239,29147,Executive Officer,1.0,Information Technology
+319,UK Statistics Authority,UK Statistics Authority,Strategy,46,Grade 6,48867,67360,Grade 6,2.0,Information Technology
+320,UK Statistics Authority,UK Statistics Authority,Strategy,46,Grade 7,43333,60342,Grade 7,7.0,Information Technology
+321,UK Statistics Authority,UK Statistics Authority,Strategy,46,SEO,30995,41613,Senior Executive Officer,1.0,Information Technology
+322,UK Statistics Authority,UK Statistics Authority,Assurance,47,AO,15631,17767,Administrative Officer,2.0,Operational Delivery
+323,UK Statistics Authority,UK Statistics Authority,Assurance,47,EO,20239,29147,Executive Officer,2.81,Operational Delivery
+324,UK Statistics Authority,UK Statistics Authority,Assurance,47,Grade 7,43333,60342,Grade 7,1.0,Information Technology
+325,UK Statistics Authority,UK Statistics Authority,Assurance,47,Grade 7,43333,60342,Grade 7,1.86,Operational Delivery
+326,UK Statistics Authority,UK Statistics Authority,Assurance,47,Grade 7,43333,60342,Grade 7,1.0,Programme and Project Management (PPM)
+327,UK Statistics Authority,UK Statistics Authority,Assurance,47,HEO,25460,34680,Higher Executive Officer,2.0,Information Technology
+328,UK Statistics Authority,UK Statistics Authority,Assurance,47,HEO,25460,34680,Higher Executive Officer,3.68,Operational Delivery
+329,UK Statistics Authority,UK Statistics Authority,Assurance,47,HEO,25460,34680,Higher Executive Officer,1.0,Programme and Project Management (PPM)
+330,UK Statistics Authority,UK Statistics Authority,Assurance,47,SEO,30995,41613,Senior Executive Officer,2.0,Information Technology
+331,UK Statistics Authority,UK Statistics Authority,Assurance,47,SEO,30995,41613,Senior Executive Officer,1.0,Operational Delivery
+332,UK Statistics Authority,UK Statistics Authority,Assurance,47,SEO,30995,41613,Senior Executive Officer,1.0,Programme and Project Management (PPM)
+333,UK Statistics Authority,UK Statistics Authority,National Accounts Methods and Development,48,HEO Specialist,25460,35333,Assistant Methodologist,1.0,Statisticians
+334,UK Statistics Authority,UK Statistics Authority,National Accounts Methods and Development,48,AO,15631,17767,Administrative Officer,3.0,Operational Delivery
+335,UK Statistics Authority,UK Statistics Authority,National Accounts Methods and Development,48,Fast Stream,28960,35333,Assistant Statistician,1.0,Statisticians
+336,UK Statistics Authority,UK Statistics Authority,National Accounts Methods and Development,48,EO,20239,29147,Executive Officer,2.0,Operational Delivery
+337,UK Statistics Authority,UK Statistics Authority,National Accounts Methods and Development,48,Grade 6,48867,67360,Grade 6,1.0,Operational Delivery
+338,UK Statistics Authority,UK Statistics Authority,National Accounts Methods and Development,48,Grade 6,48867,67360,Grade 6,1.0,Statisticians
+339,UK Statistics Authority,UK Statistics Authority,National Accounts Methods and Development,48,Grade 7,43333,60342,Grade 7,1.0,Economics
+340,UK Statistics Authority,UK Statistics Authority,National Accounts Methods and Development,48,Grade 7,43333,60342,Grade 7,2.65,Statisticians
+341,UK Statistics Authority,UK Statistics Authority,National Accounts Methods and Development,48,HEO,25460,34680,Higher Executive Officer,1.0,Economics
+342,UK Statistics Authority,UK Statistics Authority,National Accounts Methods and Development,48,HEO,25460,34680,Higher Executive Officer,7.36,Operational Delivery
+343,UK Statistics Authority,UK Statistics Authority,National Accounts Methods and Development,48,HEO,25460,34680,Higher Executive Officer,1.0,Statisticians
+344,UK Statistics Authority,UK Statistics Authority,National Accounts Methods and Development,48,HEO Specialist,25460,35333,Research Officer,1.0,Operational Research
+345,UK Statistics Authority,UK Statistics Authority,National Accounts Methods and Development,48,SEO Specialist,32754,42445,Senior Statisticial Officer,1.0,Statisticians
+346,UK Statistics Authority,UK Statistics Authority,National Accounts Methods and Development,48,SEO,30995,41613,Senior Executive Officer,3.49,Operational Delivery
+347,UK Statistics Authority,UK Statistics Authority,National Accounts Methods and Development,48,SEO,30995,41613,Senior Executive Officer,1.0,Programme and Project Management (PPM)
+348,UK Statistics Authority,UK Statistics Authority,National Accounts Methods and Development,48,HEO Specialist,25460,35333,Statistical Officer,1.0,Operational Delivery
+349,UK Statistics Authority,UK Statistics Authority,National Accounts Methods and Development,48,SEO Specialist,32754,42445,Senior Research Officer,1.0,Statisticians
+350,UK Statistics Authority,UK Statistics Authority,Public Sector and Households,49,HEO,25460,34680,Higher Executive Officer,1.0,Operational Delivery
+351,UK Statistics Authority,UK Statistics Authority,Public Sector and Households,49,AO,15631,17767,Administrative Officer,1.0,Operational Delivery
+352,UK Statistics Authority,UK Statistics Authority,Public Sector and Households,49,EO,20239,29147,Executive Officer,11.36,Operational Delivery
+353,UK Statistics Authority,UK Statistics Authority,Public Sector and Households,49,EO,20239,29147,Executive Officer,0.92,Statisticians
+354,UK Statistics Authority,UK Statistics Authority,Public Sector and Households,49,Grade 7,43333,60342,Grade 7,2.0,Economics
+355,UK Statistics Authority,UK Statistics Authority,Public Sector and Households,49,Grade 7,43333,60342,Grade 7,5.0,Operational Delivery
+356,UK Statistics Authority,UK Statistics Authority,Public Sector and Households,49,Grade 7,43333,60342,Grade 7,1.64,Social Research
+357,UK Statistics Authority,UK Statistics Authority,Public Sector and Households,49,Grade 7,43333,60342,Grade 7,3.0,Statisticians
+358,UK Statistics Authority,UK Statistics Authority,Public Sector and Households,49,HEO,25460,34680,Higher Executive Officer,0.9,Finance
+359,UK Statistics Authority,UK Statistics Authority,Public Sector and Households,49,HEO,25460,34680,Higher Executive Officer,8.65,Operational Delivery
+360,UK Statistics Authority,UK Statistics Authority,Public Sector and Households,49,HEO,25460,34680,Higher Executive Officer,1.0,Statisticians
+361,UK Statistics Authority,UK Statistics Authority,Public Sector and Households,49,HEO Specialist,25460,35333,Research Officer,5.86,Operational Delivery
+362,UK Statistics Authority,UK Statistics Authority,Public Sector and Households,49,HEO Specialist,25460,35333,Research Officer,2.0,Social Research
+363,UK Statistics Authority,UK Statistics Authority,Public Sector and Households,49,HEO Specialist,25460,35333,Research Officer,1.0,Statisticians
+364,UK Statistics Authority,UK Statistics Authority,Public Sector and Households,49,SEO Specialist,32754,42445,Senior Statisticial Officer,1.0,Operational Delivery
+365,UK Statistics Authority,UK Statistics Authority,Public Sector and Households,49,SEO,30995,41613,Senior Executive Officer,4.0,Operational Delivery
+366,UK Statistics Authority,UK Statistics Authority,Public Sector and Households,49,SEO Specialist,32754,42445,Senior Research Officer,2.0,Social Research
+367,UK Statistics Authority,UK Statistics Authority,Public Sector and Households,49,SEO Specialist,32754,42445,Senior Research Officer,1.0,Statisticians
+368,UK Statistics Authority,UK Statistics Authority,Collection and Production Operations,50,AO,15631,17767,Administrative Officer,29.71,Operational Delivery
+369,UK Statistics Authority,UK Statistics Authority,Collection and Production Operations,50,EO,20239,29147,Executive Officer,17.06,Operational Delivery
+370,UK Statistics Authority,UK Statistics Authority,Collection and Production Operations,50,EO,20239,29147,Executive Officer,1.0,Operational Research
+371,UK Statistics Authority,UK Statistics Authority,Collection and Production Operations,50,Grade 7,43333,60342,Grade 7,2.0,Operational Delivery
+372,UK Statistics Authority,UK Statistics Authority,Collection and Production Operations,50,Grade 7,43333,60342,Grade 7,2.0,Programme and Project Management (PPM)
+373,UK Statistics Authority,UK Statistics Authority,Collection and Production Operations,50,Grade 7,43333,60342,Grade 7,1.81,Statisticians
+374,UK Statistics Authority,UK Statistics Authority,Collection and Production Operations,50,HEO,25460,34680,Higher Executive Officer,12.84,Operational Delivery
+375,UK Statistics Authority,UK Statistics Authority,Collection and Production Operations,50,SEO,30995,41613,Senior Executive Officer,2.41,Operational Delivery
+376,UK Statistics Authority,UK Statistics Authority,Collection and Production Operations,50,SEO,30995,41613,Senior Executive Officer,1.0,Operational Research
+377,UK Statistics Authority,UK Statistics Authority,Digital Publishing Division,51,AO,15631,17767,Administrative Officer,2.0,Operational Delivery
+378,UK Statistics Authority,UK Statistics Authority,Digital Publishing Division,51,EO,20239,29147,Executive Officer,2.0,Communications
+379,UK Statistics Authority,UK Statistics Authority,Digital Publishing Division,51,EO,20239,29147,Executive Officer,15.0,Operational Delivery
+380,UK Statistics Authority,UK Statistics Authority,Digital Publishing Division,51,Grade 6,48867,67360,Grade 6,2.0,Operational Delivery
+381,UK Statistics Authority,UK Statistics Authority,Digital Publishing Division,51,Grade 7,43333,60342,Grade 7,2.0,Operational Delivery
+382,UK Statistics Authority,UK Statistics Authority,Digital Publishing Division,51,HEO,25460,34680,Higher Executive Officer,4.0,Communications
+383,UK Statistics Authority,UK Statistics Authority,Digital Publishing Division,51,HEO,25460,34680,Higher Executive Officer,10.54,Operational Delivery
+384,UK Statistics Authority,UK Statistics Authority,Digital Publishing Division,51,SEO,30995,41613,Senior Executive Officer,4.0,Communications
+385,UK Statistics Authority,UK Statistics Authority,Digital Publishing Division,51,SEO,30995,41613,Senior Executive Officer,5.0,Operational Delivery
+386,UK Statistics Authority,UK Statistics Authority,Public Policy Analysis,52,AO,15631,17767,Administrative Officer,3.0,Operational Delivery
+387,UK Statistics Authority,UK Statistics Authority,Public Policy Analysis,52,Fast Stream,28960,35333,Assistant Statistician,1.0,Operational Delivery
+388,UK Statistics Authority,UK Statistics Authority,Public Policy Analysis,52,Fast Stream,28960,35333,Assistant Statistician,2.39,Statisticians
+389,UK Statistics Authority,UK Statistics Authority,Public Policy Analysis,52,Fast Stream,28960,35333,Economic Assistant,3.0,Economics
+390,UK Statistics Authority,UK Statistics Authority,Public Policy Analysis,52,EO,20239,29147,Executive Officer,2.81,Operational Delivery
+391,UK Statistics Authority,UK Statistics Authority,Public Policy Analysis,52,Grade 7,43333,60342,Grade 7,0.6,Economics
+392,UK Statistics Authority,UK Statistics Authority,Public Policy Analysis,52,Grade 7,43333,60342,Grade 7,3.0,Social Research
+393,UK Statistics Authority,UK Statistics Authority,Public Policy Analysis,52,Grade 7,43333,60342,Grade 7,5.0,Statisticians
+394,UK Statistics Authority,UK Statistics Authority,Public Policy Analysis,52,HEO,25460,34680,Higher Executive Officer,2.62,Operational Delivery
+395,UK Statistics Authority,UK Statistics Authority,Public Policy Analysis,52,HEO Specialist,25460,35333,Research Officer,1.0,Economics
+396,UK Statistics Authority,UK Statistics Authority,Public Policy Analysis,52,HEO Specialist,25460,35333,Research Officer,4.0,Operational Delivery
+397,UK Statistics Authority,UK Statistics Authority,Public Policy Analysis,52,HEO Specialist,25460,35333,Research Officer,5.0,Social Research
+398,UK Statistics Authority,UK Statistics Authority,Public Policy Analysis,52,SEO,30995,41613,Senior Executive Officer,0.54,Operational Delivery
+399,UK Statistics Authority,UK Statistics Authority,Public Policy Analysis,52,SEO,30995,41613,Senior Executive Officer,2.0,Social Research
+400,UK Statistics Authority,UK Statistics Authority,Public Policy Analysis,52,SEO Specialist,32754,42445,Senior Research Officer,5.0,Social Research
+401,UK Statistics Authority,UK Statistics Authority,Public Policy Analysis,52,SEO Specialist,32754,42445,Senior Research Officer,1.0,Statisticians
+402,UK Statistics Authority,UK Statistics Authority,Organisational Capability,54,AO,15631,17767,Administrative Officer,2.0,Operational Delivery
+403,UK Statistics Authority,UK Statistics Authority,Organisational Capability,54,EO,20239,29147,Executive Officer,2.0,Communications
+404,UK Statistics Authority,UK Statistics Authority,Organisational Capability,54,EO,20239,29147,Executive Officer,1.0,Human Resources
+405,UK Statistics Authority,UK Statistics Authority,Organisational Capability,54,EO,20239,29147,Executive Officer,2.65,Operational Delivery
+406,UK Statistics Authority,UK Statistics Authority,Organisational Capability,54,Grade 6,48867,67360,Grade 6,1.0,Programme and Project Management (PPM)
+407,UK Statistics Authority,UK Statistics Authority,Organisational Capability,54,Grade 7,43333,60342,Grade 7,0.81,Communications
+408,UK Statistics Authority,UK Statistics Authority,Organisational Capability,54,Grade 7,43333,60342,Grade 7,1.72,Human Resources
+409,UK Statistics Authority,UK Statistics Authority,Organisational Capability,54,Grade 7,43333,60342,Grade 7,1.0,Operational Delivery
+410,UK Statistics Authority,UK Statistics Authority,Organisational Capability,54,Grade 7,43333,60342,Grade 7,1.0,Statisticians
+411,UK Statistics Authority,UK Statistics Authority,Organisational Capability,54,HEO,25460,34680,Higher Executive Officer,0.81,Communications
+412,UK Statistics Authority,UK Statistics Authority,Organisational Capability,54,HEO,25460,34680,Higher Executive Officer,1.0,Human Resources
+413,UK Statistics Authority,UK Statistics Authority,Organisational Capability,54,HEO,25460,34680,Higher Executive Officer,3.0,Operational Delivery
+414,UK Statistics Authority,UK Statistics Authority,Organisational Capability,54,HEO Specialist,25460,35333,Research Officer,1.0,Social Research
+415,UK Statistics Authority,UK Statistics Authority,Organisational Capability,54,SEO,30995,41613,Senior Executive Officer,1.0,Communications
+416,UK Statistics Authority,UK Statistics Authority,Organisational Capability,54,SEO,30995,41613,Senior Executive Officer,3.41,Human Resources
+417,UK Statistics Authority,UK Statistics Authority,Organisational Capability,54,SEO,30995,41613,Senior Executive Officer,2.0,Operational Delivery
+418,UK Statistics Authority,UK Statistics Authority,Service Centre,55,HEO,25460,34680,Higher Executive Officer,1.0,Human Resources
+419,UK Statistics Authority,UK Statistics Authority,Service Centre,55,AA,13941,15164,Administrative Assistant,3.0,Knowledge and Information Management (KIM)
+420,UK Statistics Authority,UK Statistics Authority,Service Centre,55,AA,13941,15164,Administrative Assistant,0.5,Operational Delivery
+421,UK Statistics Authority,UK Statistics Authority,Service Centre,55,AO,15631,17767,Administrative Officer,1.0,Communications
+422,UK Statistics Authority,UK Statistics Authority,Service Centre,55,AO,15631,17767,Administrative Officer,3.45,Human Resources
+423,UK Statistics Authority,UK Statistics Authority,Service Centre,55,AO,15631,17767,Administrative Officer,19.29,Operational Delivery
+424,UK Statistics Authority,UK Statistics Authority,Service Centre,55,AO,15631,17767,Administrative Officer,1.0,Procurement
+425,UK Statistics Authority,UK Statistics Authority,Service Centre,55,AO,15631,17767,Administrative Officer,0.89,Property and asset management
+426,UK Statistics Authority,UK Statistics Authority,Service Centre,55,EO,20239,29147,Executive Officer,12.22,Human Resources
+427,UK Statistics Authority,UK Statistics Authority,Service Centre,55,EO,20239,29147,Executive Officer,4.59,Information Technology
+428,UK Statistics Authority,UK Statistics Authority,Service Centre,55,EO,20239,29147,Executive Officer,3.0,Knowledge and Information Management (KIM)
+429,UK Statistics Authority,UK Statistics Authority,Service Centre,55,EO,20239,29147,Executive Officer,10.56,Operational Delivery
+430,UK Statistics Authority,UK Statistics Authority,Service Centre,55,EO,20239,29147,Executive Officer,2.81,Procurement
+431,UK Statistics Authority,UK Statistics Authority,Service Centre,55,EO,20239,29147,Executive Officer,2.0,Property and asset management
+432,UK Statistics Authority,UK Statistics Authority,Service Centre,55,Grade 6,48867,67360,Grade 6,1.81,Human Resources
+433,UK Statistics Authority,UK Statistics Authority,Service Centre,55,Grade 6,48867,67360,Grade 6,2.0,Information Technology
+434,UK Statistics Authority,UK Statistics Authority,Service Centre,55,Grade 6,48867,67360,Grade 6,1.0,Operational Delivery
+435,UK Statistics Authority,UK Statistics Authority,Service Centre,55,Grade 6,48867,67360,Grade 6,1.0,Procurement
+436,UK Statistics Authority,UK Statistics Authority,Service Centre,55,Grade 6,48867,67360,Grade 6,1.0,Property and asset management
+437,UK Statistics Authority,UK Statistics Authority,Service Centre,55,Grade 7,43333,60342,Grade 7,4.0,Human Resources
+438,UK Statistics Authority,UK Statistics Authority,Service Centre,55,Grade 7,43333,60342,Grade 7,4.0,Information Technology
+439,UK Statistics Authority,UK Statistics Authority,Service Centre,55,Grade 7,43333,60342,Grade 7,1.0,Knowledge and Information Management (KIM)
+440,UK Statistics Authority,UK Statistics Authority,Service Centre,55,Grade 7,43333,60342,Grade 7,1.0,Operational Delivery
+441,UK Statistics Authority,UK Statistics Authority,Service Centre,55,Grade 7,43333,60342,Grade 7,2.0,Procurement
+442,UK Statistics Authority,UK Statistics Authority,Service Centre,55,Grade 7,43333,60342,Grade 7,1.0,Property and asset management
+443,UK Statistics Authority,UK Statistics Authority,Service Centre,55,HEO,25460,34680,Higher Executive Officer,10.49,Human Resources
+444,UK Statistics Authority,UK Statistics Authority,Service Centre,55,HEO,25460,34680,Higher Executive Officer,3.0,Information Technology
+445,UK Statistics Authority,UK Statistics Authority,Service Centre,55,HEO,25460,34680,Higher Executive Officer,1.81,Knowledge and Information Management (KIM)
+446,UK Statistics Authority,UK Statistics Authority,Service Centre,55,HEO,25460,34680,Higher Executive Officer,7.65,Operational Delivery
+447,UK Statistics Authority,UK Statistics Authority,Service Centre,55,HEO,25460,34680,Higher Executive Officer,3.0,Procurement
+448,UK Statistics Authority,UK Statistics Authority,Service Centre,55,HEO,25460,34680,Higher Executive Officer,3.86,Property and asset management
+449,UK Statistics Authority,UK Statistics Authority,Service Centre,55,SEO,30995,41613,Senior Executive Officer,1.0,Communications
+450,UK Statistics Authority,UK Statistics Authority,Service Centre,55,SEO,30995,41613,Senior Executive Officer,1.0,Finance
+451,UK Statistics Authority,UK Statistics Authority,Service Centre,55,SEO,30995,41613,Senior Executive Officer,2.39,Human Resources
+452,UK Statistics Authority,UK Statistics Authority,Service Centre,55,SEO,30995,41613,Senior Executive Officer,5.6,Information Technology
+453,UK Statistics Authority,UK Statistics Authority,Service Centre,55,SEO,30995,41613,Senior Executive Officer,2.81,Knowledge and Information Management (KIM)
+454,UK Statistics Authority,UK Statistics Authority,Service Centre,55,SEO,30995,41613,Senior Executive Officer,4.0,Operational Delivery
+455,UK Statistics Authority,UK Statistics Authority,Service Centre,55,SEO,30995,41613,Senior Executive Officer,4.0,Procurement
+456,UK Statistics Authority,UK Statistics Authority,Service Centre,55,SEO,30995,41613,Senior Executive Officer,5.0,Property and asset management
+457,UK Statistics Authority,UK Statistics Authority,Portfolio Delivery Unit,56,AO,15631,17767,Administrative Officer,0.81,Operational Delivery
+458,UK Statistics Authority,UK Statistics Authority,Portfolio Delivery Unit,56,EO,20239,29147,Executive Officer,1.0,Programme and Project Management (PPM)
+459,UK Statistics Authority,UK Statistics Authority,Portfolio Delivery Unit,56,Grade 7,43333,60342,Grade 7,1.0,Finance
+460,UK Statistics Authority,UK Statistics Authority,Portfolio Delivery Unit,56,Grade 7,43333,60342,Grade 7,2.0,Operational Delivery
+461,UK Statistics Authority,UK Statistics Authority,Portfolio Delivery Unit,56,HEO,25460,34680,Higher Executive Officer,1.92,Programme and Project Management (PPM)
+462,UK Statistics Authority,UK Statistics Authority,Portfolio Delivery Unit,56,SEO,30995,41613,Senior Executive Officer,1.0,Finance
+463,UK Statistics Authority,UK Statistics Authority,Finance Division,58,AA,13941,15164,Administrative Assistant,0.65,Operational Delivery
+464,UK Statistics Authority,UK Statistics Authority,Finance Division,58,AO,15631,17767,Administrative Officer,5.4,Finance
+465,UK Statistics Authority,UK Statistics Authority,Finance Division,58,EO,20239,29147,Executive Officer,13.57,Finance
+466,UK Statistics Authority,UK Statistics Authority,Finance Division,58,EO,20239,29147,Executive Officer,2.67,Operational Delivery
+467,UK Statistics Authority,UK Statistics Authority,Finance Division,58,Grade 6,48867,67360,Grade 6,3.0,Finance
+468,UK Statistics Authority,UK Statistics Authority,Finance Division,58,Grade 6,48867,67360,Grade 6,1.0,Internal Audit
+469,UK Statistics Authority,UK Statistics Authority,Finance Division,58,Grade 7,43333,60342,Grade 7,6.0,Finance
+470,UK Statistics Authority,UK Statistics Authority,Finance Division,58,HEO,25460,34680,Higher Executive Officer,7.0,Finance
+471,UK Statistics Authority,UK Statistics Authority,Finance Division,58,HEO,25460,34680,Higher Executive Officer,2.0,Internal Audit
+472,UK Statistics Authority,UK Statistics Authority,Finance Division,58,HEO,25460,34680,Higher Executive Officer,3.0,Operational Delivery
+473,UK Statistics Authority,UK Statistics Authority,Finance Division,58,SEO,30995,41613,Senior Executive Officer,2.59,Finance
+474,UK Statistics Authority,UK Statistics Authority,Finance Division,58,SEO,30995,41613,Senior Executive Officer,0.81,Internal Audit
+475,UK Statistics Authority,UK Statistics Authority,Finance Division,58,SEO,30995,41613,Senior Executive Officer,1.0,Operational Delivery
+476,UK Statistics Authority,UK Statistics Authority,Analysis and Dissemination Directorate,59,Grade 7,43333,60342,Grade 7,0.92,Social Research
+477,UK Statistics Authority,UK Statistics Authority,UK Statistics Authority,2UK,Grade 6,48867,67360,Grade 6,0.89,Operational Delivery
+478,UK Statistics Authority,UK Statistics Authority,UK Statistics Authority,2UK,Grade 7,43333,60342,Grade 7,3.0,Operational Delivery
+479,UK Statistics Authority,UK Statistics Authority,UK Statistics Authority,4UK,Fast Stream,28960,35333,Assistant Statistician,1.0,Statisticians
+480,UK Statistics Authority,UK Statistics Authority,UK Statistics Authority,4UK,EO,20239,29147,Executive Officer,1.0,Operational Delivery
+481,UK Statistics Authority,UK Statistics Authority,UK Statistics Authority,4UK,Grade 7,43333,60342,Grade 7,1.73,Operational Delivery
+482,UK Statistics Authority,UK Statistics Authority,UK Statistics Authority,4UK,Grade 7,43333,60342,Grade 7,1.0,Social Research
+483,UK Statistics Authority,UK Statistics Authority,UK Statistics Authority,4UK,SEO Specialist,32754,42445,Senior Research Officer,2.0,Operational Delivery
+484,UK Statistics Authority,UK Statistics Authority,UK Statistics Authority,5UK,Grade 7,43333,60342,Grade 7,2.0,Operational Delivery
+485,UK Statistics Authority,UK Statistics Authority,UK Statistics Authority,5UK,SEO,30995,41613,Senior Executive Officer,1.0,Statisticians
+486,UK Statistics Authority,UK Statistics Authority,UK Statistics Authority,5UK,SEO Specialist,32754,42445,Senior Research Officer,1.0,Operational Delivery

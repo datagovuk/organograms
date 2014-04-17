@@ -1,0 +1,145 @@
+,Post Unique Reference,Name,Grade,Job Title,Job/Team Function,Parent Department,Organisation,Unit,Contact Phone,Contact E-mail,Reports to Senior Post,Salary Cost of Reports (£),FTE,Actual Pay Floor (£),Actual Pay Ceiling (£),,Professional/Occupational Group,Notes,Valid?
+0,P1683,Swales James Dr.,SCS1,Accredited Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1682,0.0,1.0,0,0,0,Other,,1
+1,P1054,Hudson Ian Dr.,SCS2,Chief Executive,Operational Delivery,Department of Health,MHRA,Directorate,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,XX,0.0,1.0,80000,84999,150000,Operational Delivery,,1
+2,P1702,Commins Peter Mr.,SCS2,Chief Operating Officer,Operational Delivery,Department of Health,MHRA,Ops and Finance,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1054,0.0,1.0,80000,84999,0,Operational Delivery,,1
+3,P1703,Humphreys Richard Mr.,SCS1,Deputy Director,Finance,Department of Health,MHRA,Ops and Finance,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1702,535029.63,1.0,0,0,0,Finance,,1
+4,P3540,Parkinson John Dr.,SCS1,Director,Operational Delivery,Department of Health,MHRA,CPRD,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1702,461853.63,1.0,0,0,0,Operational Delivery,,1
+5,P1296,Davis Alison Mrs.,SCS1,Director,Operational Delivery,Department of Health,MHRA,IMD,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1054,771544.5,1.0,0,0,0,Operational Delivery,,1
+6,P1000,Billan Joanna Ms.,SCS1,Director,Operational Delivery,Department of Health,MHRA,HR,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1054,895371.74,0.94,0,0,0,Operational Delivery,,1
+7,P1034,Bosworth Rachel Ms.,SCS1,Director,Operational Delivery,Department of Health,MHRA,Comms ,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1054,570783.41,1.0,0,0,0,Operational Delivery,,1
+8,P1000,Starling Rebecca Mrs.,SCS1,Director,Operational Delivery,Department of Health,MHRA,HR,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1702,0.0,1.0,0,0,0,Operational Delivery,,1
+9,P1787,Raine June Dr.,SCS2,Director,Operational Delivery,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1054,0.0,1.0,80000,84999,0,Operational Delivery,,1
+10,P1070,Heddell Gerald Mr.,SCS2,Director,Operational Delivery,Department of Health,MHRA,IE&S,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1054,0.0,1.0,80000,84999,0,Operational Delivery,,1
+11,P1760,Mogford Jonathan Mr.,SCS2,Director,Operational Delivery,Department of Health,MHRA,Policy,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1054,0.0,1.0,80000,84999,0,Operational Delivery,,1
+12,P2096,Wilkinson John Mr.,SCS2,Director,Operational Delivery,Department of Health,MHRA,Devices,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1054,0.0,1.0,80000,84999,0,Operational Delivery,,1
+13,P1414,Lam Siu Dr.,SCS2,Director,Operational Delivery,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1054,0.0,1.0,80000,84999,0,Operational Delivery,,1
+14,P3100,Inglis Stephen Dr.,SCS2,Director of NIBSC,Other,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1054,0.0,1.0,80000,84999,161657,Other,,1
+15,P3060,Ord Kathryn Dr.,SCS1,Expert Assessor,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1796,131040.0,1.0,0,0,0,Other,,1
+16,P1639,Jones Sean Mr.,SCS1,Expert Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1644,0.0,1.0,0,0,0,Other,,1
+17,P1073,Francis Gail Mrs.,SCS1,Expert GCP Inspector,Inspector,Department of Health,MHRA,IE&S,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1078,0.0,1.0,0,0,0,Other,,1
+18,P1075,Thrussell Ian Mr.,SCS1,Expert GMP Inspector,Inspector,Department of Health,MHRA,IE&S,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1091,0.0,1.0,0,0,0,Other,,1
+19,P1075,Churchward David Mr.,SCS1,Expert GMP Inspector,Inspector,Department of Health,MHRA,IE&S,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1091,0.0,1.0,0,0,0,Other,,1
+20,P1074,Andrews Richard Mr.,SCS1,Expert GMP Inspector,Inspector,Department of Health,MHRA,IE&S,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1091,0.0,1.0,0,0,0,Other,,1
+21,P1076,Rees David Mr.,SCS1,Expert Inspector,Inspector,Department of Health,MHRA,IE&S,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1091,0.0,1.0,0,0,0,Other,,1
+22,P3583,Morgan Susan Dr.,SCS1,Expert Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1663,0.0,0.6,0,0,0,Other,,1
+23,P1901,Williams Gail Mrs.,SCS1,Expert Pharmaceutical Assessor,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1902,0.0,0.59,0,0,0,Other,,1
+24,P1875,Ambrose Anne Ms.,SCS1,Expert Pharmaceutical Assessor,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1793,0.0,1.0,0,0,0,Other,,1
+25,P3409,Dash Malcolm Mr.,SCS1,Expert Pharmaceutical Assessor & Deputy Unit Manager,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1682,584988.93,1.0,0,0,0,Other,,1
+26,P1077,Sookoo Anya Dr.,SCS1,Expert PV Inspector,Inspector,Department of Health,MHRA,IE&S,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1078,0.0,1.0,0,0,0,Other,,1
+27,P1418,French Andrew Dr.,SCS1,Group Manager,Operational Delivery,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1414,0.0,1.0,0,0,0,Operational Delivery,,1
+28,P1236,Atkinson Samantha Dr.,SCS1,Group Manager,Operational Delivery,Department of Health,MHRA,IE&S,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1070,272605.13,1.0,0,0,0,Operational Delivery,,1
+29,P1416,Baker Elizabeth Mrs.,SCS1,Group Manager,Operational Delivery,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1414,0.0,1.0,0,0,0,Operational Delivery,,1
+30,P1091,Birse Mark Mr.,SCS1,Group Manager,Operational Delivery,Department of Health,MHRA,IE&S,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1070,659910.39,1.0,0,0,0,Operational Delivery,,1
+31,P1078,Stanbrook Rebecca Mrs.,SCS1,Group Manager,Operational Delivery,Department of Health,MHRA,IE&S,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1070,574535.74,1.0,0,0,0,Operational Delivery,,1
+32,P1417,Mcdonald Keith Mr.,SCS1,Group Manager,Operational Delivery,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1054,154599.05,1.0,0,0,0,Operational Delivery,,1
+33,P1831,Foy Michael Mr.,SCS1,Group Manager,Operational Delivery,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1787,827972.52,1.0,0,0,0,Operational Delivery,,1
+34,P3037,Massam Margaret Mrs.,SCS1,Head of Business Development,Operational Delivery,Department of Health,MHRA,CPRD,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P3540,125175.0,1.0,0,0,0,Operational Delivery,,1
+35,P3032,Higgins Anna Miss,SCS1,Head of Clinical Trials,Operational Delivery,Department of Health,MHRA,CPRD,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P3540,0.0,1.0,0,0,0,Operational Delivery,,1
+36,P1202,Jeffrey Alastair Mr.,SCS1,Head Of Enforcement Unit,Enforcement Specialists,Department of Health,MHRA,IE&S,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1070,700723.25,1.0,0,0,0,Other,,1
+37,P2989,Ford Jonathan Mr.,SCS1,Head of Operations,Operational Delivery,Department of Health,MHRA,CPRD,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P3540,542972.0,1.0,0,0,0,Operational Delivery,,1
+38,P1788,Branch Sarah Dr.,SCS1,Head of Operations/Deputy Director,Operational Delivery,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1787,0.0,1.0,0,0,0,Operational Delivery,,1
+39,P3008,Van Staa Tjeerd-Pieter Prof.,SCS1,Head of Research,Operational Delivery,Department of Health,MHRA,CPRD,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P3540,0.0,1.0,0,0,0,Operational Delivery,,1
+40,P3562,Grumbridge Mark Mr.,SCS1,Interim Clinical Lead,Health Professionals,Department of Health,MHRA,Devices,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P2096,185454.18,1.0,0,0,0,Other,,1
+41,P1662,Page Michael Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1663,0.0,1.0,0,0,0,Other,,1
+42,P1929,Riegl Martina Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1930,0.0,1.0,0,0,0,Other,,1
+43,P1619,Singh Satish Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1437,0.0,0.4,0,0,0,Other,,1
+44,P1434,Kondowe Greevins Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1682,0.0,1.0,0,0,0,Other,,1
+45,P1659,Markey Greg Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1663,0.0,1.0,0,0,0,Other,,1
+46,P1459,Powell Mair Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1461,0.0,1.0,0,0,0,Other,,1
+47,P1556,Zuhrie Shadman Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1559,0.0,1.0,0,0,0,Other,,1
+48,P1552,Bielsky Marie-Christine Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1559,0.0,1.0,0,0,0,Other,,1
+49,P1480,O'Connor Daniel Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1482,0.0,1.0,0,0,0,Other,,1
+50,P1658,Lenton Sabine Mrs.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1663,0.0,1.0,0,0,0,Other,,1
+51,P1621,Johnston John Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1559,0.0,1.0,0,0,0,Other,,1
+52,P1553,Heelan Bridget Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1559,0.0,1.0,0,0,0,Other,,1
+53,P1457,Bhat Swati Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1461,0.0,1.0,0,0,0,Other,,1
+54,P1930,Siapkara Angeliki Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1932,767961.78,1.0,0,0,0,Other,,1
+55,P1804,Mee Sarah Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1806,0.0,0.8,0,0,0,Other,,1
+56,P1456,Assmann Nicole Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1461,0.0,1.0,0,0,0,Other,,1
+57,P1799,Mahoney Dervla Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1796,0.0,1.0,0,0,0,Other,,1
+58,P1665,Simic Zoran Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1663,0.0,1.0,0,0,0,Other,,1
+59,P1479,Hopper Shirley Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1482,0.0,0.81,0,0,0,Other,,1
+60,P1432,Bankole Oluwakemi Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1682,0.0,0.79,0,0,0,Other,,1
+61,P1560,Owusu-Agyemang Kofi Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1559,0.0,1.0,0,0,0,Other,,1
+62,P1532,Wydenbach Kirsty Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1535,0.0,0.6,0,0,0,Other,,1
+63,P1486,Daniel Benoy Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1482,0.0,1.0,0,0,0,Other,,1
+64,P1903,Wallington Andrea Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1814,0.0,1.0,0,0,0,Other,,1
+65,P1484,Parikh Seema Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1482,0.0,1.0,0,0,0,Other,,1
+66,P1623,Diaz Fernandez Maria Belen Miss,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1437,0.0,1.0,0,0,0,Other,,1
+67,P1897,Hilton Judith Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1797,0.0,1.0,0,0,0,Other,,1
+68,P1537,Steinberg Fredric Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1535,0.0,1.0,0,0,0,Other,,1
+69,P1537,Tseng Ming-Yuan Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1535,0.0,1.0,0,0,0,Other,,1
+70,P3482,Alonso Garcia Maria De Los Angeles Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1437,0.0,0.6,0,0,0,Other,,1
+71,P1641,Eyre-Brook Anne Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1644,0.0,0.75,0,0,0,Other,,1
+72,P1478,Flores De Laurnaga Beatriz Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1482,0.0,0.81,0,0,0,Other,,1
+73,P1640,Grimshaw Bronwyn Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1644,0.0,0.59,0,0,0,Other,,1
+74,P1681,Miall-Allen Vivienne Dr.,SCS1,Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1644,0.0,0.79,0,0,0,Other,,1
+75,P1826,Suvarna Jeremy Dr.,SCS1,Outreach Unit Manager,Operational Delivery,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1874,307383.33,1.0,0,0,0,Operational Delivery,,1
+76,P1533,Godfrey Elaine Dr.,SCS1,Pharmaceutical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1535,0.0,1.0,0,0,0,Other,,1
+77,P1481,Pugh William Dr.,SCS1,Pharmaceutical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1482,0.0,1.0,0,0,0,Other,,1
+78,P1558,Thomas Adrian Dr.,SCS1,Pharmaceutical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1559,0.0,0.5,0,0,0,Other,,1
+79,P1460,Anderson Linda Dr.,SCS1,Pharmaceutical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1461,0.0,1.0,0,0,0,Other,,1
+80,P1819,Thomson Andrew Dr.,SCS1,Pharmacoepidemiology Research & Intelligence Unit Manager,Statisticians,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1831,505522.27,1.0,0,0,0,Statisticians,,1
+81,P1424,Shepard Theresa Dr.,SCS1,Pharmacokineticist,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1425,0.0,1.0,0,0,0,Other,,1
+82,P1793,Morgan Sarah Miss,SCS1,Pharmacovigilance Risk Management Group Manager,Operational Delivery,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1787,117453.19,1.0,0,0,0,Operational Delivery,,1
+83,P1644,Fielden Krystyna Dr.,SCS1,PLAT Manager,Operational Delivery,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1416,1216520.14,1.0,0,0,0,Operational Delivery,,1
+84,P1482,Riach Maureen Ms.,SCS1,PLAT Manager,Operational Delivery,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1417,715896.85,1.0,0,0,0,Operational Delivery,,1
+85,P1461,Harris Suzannah Miss,SCS1,PLAT Manager,Operational Delivery,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1417,1734033.68,1.0,0,0,0,Operational Delivery,,1
+86,P1437,Prasad Krishna Dr.,SCS1,PLAT Manager,Operational Delivery,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1417,1725110.0,1.0,0,0,0,Operational Delivery,,1
+87,P1663,Tomlinson Ryan Dr.,SCS1,PLAT Manager,Operational Delivery,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1416,1332718.4,1.0,0,0,0,Operational Delivery,,1
+88,P1682,Abass Uchenna Mrs.,SCS1,PLAT Manager,Operational Delivery,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1416,1264755.67,1.0,0,0,0,Operational Delivery,,1
+89,P3479,Williams Julie Dr.,SCS1,PRAC Delegate,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1793,0.0,1.0,0,0,0,Other,,1
+90,P1483,Stemplewski Henry Mr.,SCS1,Pre-Clinical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1482,0.0,1.0,0,0,0,Other,,1
+91,P1570,Mcblane James Dr.,SCS1,Pre-Clinical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1559,0.0,1.0,0,0,0,Other,,1
+92,P1534,Jones David Mr.,SCS1,Pre-Clinical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1535,0.0,1.0,0,0,0,Other,,1
+93,P1168,Taylor John Mr.,SCS1,Quality Systems & Standards Manager,Operational Delivery,Department of Health,MHRA,IE&S,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1070,0.0,1.0,0,0,0,Operational Delivery,,1
+94,P1807,Henderson Leigh Mrs.,SCS1,Scientific Assessor,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1806,0.0,1.0,0,0,0,Other,,1
+95,P1815,King Bridget Dr.,SCS1,Scientific Assessor,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1797,0.0,0.92,0,0,0,Other,,1
+96,P1902,Mccreedy Grimshaw Colette Ms.,SCS1,Self Medicated Unit Manager VRMM,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1874,245458.82,1.0,0,0,0,Other,,1
+97,P1203,Hargreaves David Mr.,SCS1,Senior Inspectorate Adviser,Inspector,Department of Health,MHRA,IE&S,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1202,0.0,1.0,0,0,0,Other,,1
+98,P1898,Lee Paul Dr.,SCS1,Senior Medical Assessor,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1797,0.0,0.6,0,0,0,Other,,1
+99,P1900,Steen Jillian Dr.,SCS1,Senior Medical Assessor,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1902,0.0,0.33,0,0,0,Other,,1
+100,P1813,Richardson William Dr.,SCS1,Senior Medical Assessor,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1814,0.0,1.0,0,0,0,Other,,1
+101,P1805,Parikh Camilla Dr.,SCS1,Senior Medical Assessor,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1806,0.0,1.0,0,0,0,Other,,1
+102,P1617,Sisson Jonathan Dr.,SCS1,Senior Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1437,0.0,1.0,0,0,0,Other,,1
+103,P1622,Zouridakis Emmanouil Dr.,SCS1,Senior Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1437,0.0,1.0,0,0,0,Other,,1
+104,P1531,Nagercoil Nithyanandan Mr.,SCS1,Senior Medical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1644,0.0,1.0,0,0,0,Other,,1
+105,P1798,Beynon Julie Dr.,SCS1,Senior Medical Assessor,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1796,0.0,1.0,0,0,0,Other,,1
+106,P1932,Dunne Julia Dr.,SCS1,Special Populations Group Manager,Operational Delivery,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1787,0.0,1.0,0,0,0,Operational Delivery,,1
+107,P1423,Brown David Mr.,SCS1,Statistical Assessor,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1425,0.0,1.0,0,0,0,Other,,1
+108,P1425,Hemmings Robert Mr.,SCS1,Statistics Unit Manager,Operational Delivery,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1417,0.0,1.0,0,0,0,Operational Delivery,,1
+109,P1426,Wright David Dr.,SCS1,Temp Dept Stats Unit Mgr,Assessor,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1425,519224.69,1.0,0,0,0,Other,,1
+110,P1874,Mean Jeremy Mr.,SCS1,Therapeutic Reviews Group Manager,Operational Delivery,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1787,144835.48,1.0,0,0,0,Operational Delivery,,1
+111,P2897,Woodfield Richard Mr.,SCS1,Unit Head,Policy Delivery,Department of Health,MHRA,Policy,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1760,271427.06,1.0,0,0,0,Policy,,1
+112,P2906,Currado Gian Marco Dr.,SCS1,Unit Head,Policy Delivery,Department of Health,MHRA,Policy,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1760,230080.0,1.0,0,0,0,Policy,,1
+113,P1796,Woolley Jane Dr.,SCS1,Unit Manager,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1793,679715.95,1.0,0,0,0,Other,,1
+114,P1535,Ward Martyn Dr.,SCS1,Unit Manager,Operational Delivery,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1418,1007120.81,1.0,0,0,0,Operational Delivery,,1
+115,P1806,Fazal Abidali Dr.,SCS1,Unit Manager,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1793,709300.28,1.0,0,0,0,Other,,1
+116,P1814,Shaw Alison Dr.,SCS1,Unit Manager,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1793,811466.92,1.0,0,0,0,Other,,1
+117,P1578,Guest David Dr.,SCS1,Unit Manager,Operational Delivery,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1418,479399.45,1.0,0,0,0,Operational Delivery,,1
+118,P1559,Bonnerjea Julian Dr.,SCS1,Unit Manager,Operational Delivery,Department of Health,MHRA,Licensing,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1418,1672781.22,1.0,0,0,0,Operational Delivery,,1
+119,P1797,Bryan Philip Dr.,SCS1,Unit Manager,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1793,404589.8,0.79,0,0,0,Other,,1
+120,P1910,Macdonald Janet Mrs.,SCS1,Unit Manager of PIQ,Assessor,Department of Health,MHRA,VRMM,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P1874,125747.93,1.0,0,0,0,Other,,1
+121,P3127,Bolgiano Barbara Dr.,SCS1,Principal Scientist ,Principal Scientist,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,XX,164958.0,0.83,0,0,0,Science and Engineering,,1
+122,P3182,Burns Chris Dr.,SCS1,"Leader, Endocrinology Section ",Scientist,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,XX,201888.43,1.0,0,0,0,Science and Engineering,,1
+123,P3108,Carter Penelope Mrs.,SCS1,Head of Quality ,Operational Manager,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P3100,128202.0,1.0,0,0,0,Science and Engineering,,1
+124,P3174,Gray Elaine Dr.,SCS1,Principal Scientist ,Principal Scientist,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,XX,161101.0,1.0,0,0,0,Science and Engineering,,1
+125,P3252,Heath Alan Mr.,SCS1,Principal Scientist / Head of Biostatistics ,Principal Scientist,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,XX,133349.0,0.61,0,0,0,Statisticians,,1
+126,P3169,Hubbard Anthony Dr.,SCS1,"Leader, Haemostasis Section ",Scientist,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,XX,395344.0,1.0,0,0,0,Science and Engineering,,1
+127,P3276,Jones Christopher Dr.,SCS1,Principal Scientist ,Principal Scientist,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,XX,233018.5,1.0,0,0,0,Science and Engineering,,1
+128,P3177,Longstaff Colin Dr.,SCS1,Principal Scientist ,Principal Scientist,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,XX,131970.0,1.0,0,0,0,Science and Engineering,,1
+129,P3333,Martin-Gonzalez Javier Dr.,SCS1,Principal Scientist ,Principal Scientist,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,XX,264924.0,1.0,0,0,0,Science and Engineering,,1
+130,P3158,Metcalfe Paul Dr.,SCS1,"Leader, Transfusion Medicine Section ",Scientist,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,XX,220800.0,1.0,0,0,0,Science and Engineering,,1
+131,P3121,Sesardic Dorothea Dr.,SCS1,Principal Scientist ,Principal Scientist,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,XX,243180.0,1.0,0,0,0,Science and Engineering,,1
+132,P3257,Stacey Glyn Dr.,SCS1,Principal Scientist / Head of CBI ,Principal Scientist,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,XX,344427.0,1.0,0,0,0,Science and Engineering,,1
+133,P3190,Thorpe Susan Dr.,SCS1,Principal Scientist ,Principal Scientist,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,XX,420902.0,1.0,0,0,0,Science and Engineering,,1
+134,P3197,Wadhwa Meenu Dr.,SCS1,"Leader, Cytokine and Growth Factors Section ",Scientist,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,XX,249324.53,1.0,0,0,0,Science and Engineering,,1
+135,P3123,Xing Dorothy Mrs.,SCS1,Principal Scientist ,Principal Scientist,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,XX,194627.0,1.0,0,0,0,Science and Engineering,,1
+136,P3580,Almond Neil Dr.,SCS1,Head of BTPAAD ,Operational Manager,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,XX,460281.0,1.0,0,0,0,Science and Engineering,,1
+137,P3107,Bristow Adrian Dr.,SCS1,Principal Scientist / Head of TDI ,Principal Scientist,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P3100,1075710.0,1.0,0,0,0,Science and Engineering,,1
+138,P3104,Feavers Ian Prof.,SCS1,Principal Scientist / Head of Bacteriology ,Principal Scientist,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P3100,648148.53,1.0,0,0,0,Science and Engineering,,1
+139,P3101,Minor Philip Dr.,SCS1,Principal Scientist / Head of Virology / Deputy Director ,Principal Scientist,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P3100,276356.0,1.0,0,0,0,Science and Engineering,,1
+140,P3106,Murray Stephen Mr.,SCS1,Head of Operations.NIBSC ,Operational Manager,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P3100,357372.27,1.0,0,0,0,Other,,1
+141,P3105,Thorpe Robin Dr.,SCS1,Principal Scientist / Head of Biotherapeutics.NIBSC ,Principal Scientist,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P3100,0.0,1.0,0,0,0,Science and Engineering,,1
+142,P3102,Jefferson Paul Dr.,SCS1,Head of SPD ,Operational Manager,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,P3100,272384.88,1.0,0,0,0,Science and Engineering,,1
+143,P3166,Stebbings Richard Prof.,SCS1,Principal Scientist ,Principal Scientist,Department of Health,MHRA,NIBSC,020 3080 6234,hr-enquiries@mhra.gsi.gov.uk,XX,153749.0,0.97,0,0,0,Science and Engineering,,1

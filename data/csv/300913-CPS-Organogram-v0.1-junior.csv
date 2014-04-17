@@ -1,0 +1,992 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Crown Advocate (Lon),50660,63814,Duty Prosecutor,3.86,Operational Delivery
+1,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Crown Advocate (Nat),47605,59285,Duty Prosecutor,5.0,Operational Delivery
+2,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Crown Advocate CPSD (Lon),50660,63752,Duty Prosecutor,3.0,Operational Delivery
+3,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Crown Advocate CPSD (Nat),47605,59285,Duty Prosecutor,8.89,Operational Delivery
+4,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Level A2 (Nat),15949,19684,Administrative Officer,8.0,Operational Delivery
+5,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Level B1 (Nat),20277,25888,Communications Officer,1.0,Operational Delivery
+6,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Level B1 (Nat),20277,25888,Finance Manager,2.0,Operational Delivery
+7,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Level B1 (Nat),20277,25888,Performance Manager,1.0,Operational Delivery
+8,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Level B1 (Nat),20277,25888,Senior Personal Assistant,1.0,Operational Delivery
+9,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Level B1 (Nat),20277,25888,Workforce Officer,1.0,Operational Delivery
+10,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Level B2 (Nat),25972,30616,HR Advisor,1.0,Operational Delivery
+11,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Level B3 (Nat),32228,39876,Area Operations Manager,1.0,Operational Delivery
+12,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Level D Admin (Nat),45191,58489,Business Change and Delivery Manager,1.0,Operational Delivery
+13,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Level D Legal (Lon),48665,63752,Legal Manager,4.0,Operational Delivery
+14,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Level D Legal (Nat),45191,58489,Legal Manager,15.0,Operational Delivery
+15,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Level D Legal (Nat),45191,58489,Strategic Manager,1.0,Operational Delivery
+16,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Level E Admin (Lon),65005,74445,Area Business Manager,0.76,Operational Delivery
+17,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Level E Legal (Lon),65005,74445,Head of Unit,1.0,Operational Delivery
+18,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Level E Legal (Nat),62437,72453,Head of Unit,1.0,Operational Delivery
+19,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,SCP Above Break Point (Lon),44453,57523,Duty Prosecutor,34.0,Operational Delivery
+20,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,SCP Above Break Point (Nat),42305,51113,Duty Prosecutor,105.67,Operational Delivery
+21,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Senior Crown Prosecutor (Lon),36791,44776,Duty Prosecutor,16.73,Operational Delivery
+22,Crown Prosecution Service,Crown Prosecution Service,CPS DIRECT,CPS-G-018,Senior Crown Prosecutor (Nat),35376,43157,Duty Prosecutor,65.91,Operational Delivery
+23,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Associate Prosecutor (Nat),26881,31688,Associate Prosecutor,23.0,Operational Delivery
+24,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Associate Prosecutor 2 (Nat),31296,36339,Associate Prosecutor,2.0,Operational Delivery
+25,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Crown Advocate (Nat),47605,59285,Crown Advocate,21.33,Operational Delivery
+26,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Crown Prosecutor (Nat),27722,31688,Crown Prosecutor,1.0,Operational Delivery
+27,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Legal Trainee B1 (Nat),20277,25888,Legal Trainee,2.0,Operational Delivery
+28,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level A1 (Nat),14033,16942,Receptionist,2.0,Operational Delivery
+29,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level A1 (Nat),14033,16942,Administrative Assistant,3.89,Operational Delivery
+30,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level A2 (Nat),15949,19684,Administrative Officer,23.28,Operational Delivery
+31,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level A2 (Nat),15949,19684,Casework Assistant,70.2,Operational Delivery
+32,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level A2 (Nat),15949,19684,Fees Clerk,2.5,Operational Delivery
+33,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level A2 (Nat),15949,19684,Witness Care Officer,3.27,Operational Delivery
+34,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B1 (Nat),20277,25888,Administrative Manager,0.95,Operational Delivery
+35,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B1 (Nat),20277,25888,Area Business Support Officer,1.0,Operational Delivery
+36,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B1 (Nat),20277,25888,Business Centre Support Officer,2.62,Operational Delivery
+37,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B1 (Nat),20277,25888,Business Support Manager,3.61,Operational Delivery
+38,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B1 (Nat),20277,25888,Case Progression Manager,8.0,Operational Delivery
+39,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B1 (Nat),20277,25888,Casework Administration Manager,2.0,Operational Delivery
+40,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B1 (Nat),20277,25888,Caseworker,2.0,Operational Delivery
+41,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B1 (Nat),20277,25888,Information Management Advisor,0.81,Operational Delivery
+42,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B1 (Nat),20277,25888,Paralegal Officer,1.47,Operational Delivery
+43,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B1 (Nat),20277,25888,Project Support Officer,1.0,Operational Delivery
+44,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B1 (Nat),20277,25888,Senior Personal Assistant,4.0,Operational Delivery
+45,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B1 (Nat),20277,25888,Witness Care Manager,1.0,Operational Delivery
+46,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B2 (Nat),25972,30616,Area Finance Manager,0.81,Operational Delivery
+47,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B2 (Nat),25972,30616,Area Performance Manager,1.0,Operational Delivery
+48,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B2 (Nat),25972,30616,Communications Officer,0.51,Operational Delivery
+49,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B2 (Nat),25972,30616,District Business Manager,1.0,Operational Delivery
+50,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B2 (Nat),25972,30616,HR Advisor,1.0,Operational Delivery
+51,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B2 (Nat),25972,30616,Paralegal Business Manager,1.0,Operational Delivery
+52,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B2 Paralegal BM (Nat),25972,30616,Paralegal Business Manager,4.0,Operational Delivery
+53,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B3 (Nat),32228,39876,Area Communications Manager,1.0,Operational Delivery
+54,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B3 (Nat),32228,39876,"Equality, Diversity and Community Engagement Manager",1.0,Operational Delivery
+55,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B3 (Nat),32228,39876,Senior District Business Manager,3.0,Operational Delivery
+56,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level D Admin (Nat),45191,58489,Business Change and Delivery Manager,1.0,Operational Delivery
+57,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level D Legal (Nat),45191,58489,District Crown Prosecutor,8.97,Operational Delivery
+58,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level E Admin (Nat),62437,72453,Area Business Manager,1.0,Operational Delivery
+59,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level E Legal (Nat),62437,72453,Head of Complex Casework Unit,1.0,Operational Delivery
+60,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level E Legal (Nat),62437,72453,Senior District Crown Prosecutor,1.86,Operational Delivery
+61,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Paralegal Assistant (Nat),16489,21050,Paralegal Assistant,12.0,Operational Delivery
+62,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,SCP Above Break Point (Nat),42305,51113,Senior Crown Prosecutor ,46.7,Operational Delivery
+63,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Senior Crown Advocate (Nat),61960,67255,Senior Crown Advocate,3.0,Operational Delivery
+64,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Senior Crown Prosecutor (Nat),35376,43157,Senior Crown Prosecutor ,37.57,Operational Delivery
+65,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Specialist Prosecutor (Nat),50560,63752,Specialist Prosecutor,1.0,Operational Delivery
+66,Crown Prosecution Service,Crown Prosecution Service,EAST MIDLANDS,CPS-G-002,Level B1 Paralegal Officer (Nat),20277,25888,Paralegal Officer,45.75,Operational Delivery
+67,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Associate Prosecutor (Lon),27847,33309,Associate Prosecutor,6.03,Operational Delivery
+68,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Associate Prosecutor (Nat),26881,31688,Associate Prosecutor,13.19,Operational Delivery
+69,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Associate Prosecutor 2 (Lon),32313,34718,Associate Prosecutor,1.95,Operational Delivery
+70,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Associate Prosecutor 2 (Nat),31296,36339,Associate Prosecutor,1.0,Operational Delivery
+71,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Crown Advocate (Lon),50660,63814,Crown Advocate,13.1,Operational Delivery
+72,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Crown Advocate (Nat),47605,59285,Crown Advocate,20.25,Operational Delivery
+73,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Legal Trainee B1 (Lon),21304,27403,Legal Trainee,1.0,Operational Delivery
+74,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level A1 (Lon),15015,18091,Administrative Assistant,1.0,Operational Delivery
+75,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level A1 (Nat),14033,16942,Administrative Assistant,1.05,Operational Delivery
+76,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level A2 (Lon),17275,21090,Administrative Officer,2.41,Operational Delivery
+77,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level A2 (Lon),17275,21090,Casework Assistant,25.5,Operational Delivery
+78,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level A2 (Lon),17275,21090,Fees Clerk,0.86,Operational Delivery
+79,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level A2 (Lon),17275,21090,Witness Care Officer,3.49,Operational Delivery
+80,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level A2 (Nat),15949,19684,Administrative Assistant,1.41,Operational Delivery
+81,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level A2 (Nat),15949,19684,Administrative Officer,5.84,Operational Delivery
+82,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level A2 (Nat),15949,19684,Casework Assistant,26.2,Operational Delivery
+83,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level A2 (Nat),15949,19684,Fees Clerk,1.86,Operational Delivery
+84,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level A2 (Nat),15949,19684,Finance Officer,1.0,Operational Delivery
+85,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level A2 (Nat),15949,19684,Witness Care Officer,1.61,Operational Delivery
+86,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B1 (Lon),21304,27403,Case Progression Manager,3.81,Operational Delivery
+87,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B1 (Lon),21304,27403,Casework Administration Manager,4.0,Operational Delivery
+88,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B1 (Lon),21304,27403,Office Manager,1.0,Operational Delivery
+89,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B1 (Lon),21304,27403,Senior Personal Assistant,1.81,Operational Delivery
+90,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B1 (Nat),20277,25888,Administrative Manager,2.22,Operational Delivery
+91,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B1 (Nat),20277,25888,Business Support Officer,1.0,Operational Delivery
+92,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B1 (Nat),20277,25888,Case Progression Manager,4.0,Operational Delivery
+93,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B1 (Nat),20277,25888,Casework Administration Manager,2.0,Operational Delivery
+94,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B1 (Nat),20277,25888,Facilities Management Officer,1.0,Operational Delivery
+95,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B1 (Nat),20277,25888,Office Manager,2.86,Operational Delivery
+96,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B1 (Nat),20277,25888,Paralegal Officer,1.32,Operational Delivery
+97,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B1 (Nat),20277,25888,Senior Personal Assistant,2.62,Operational Delivery
+98,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B2 (Lon),26905,32183,Finance Manager,1.0,Operational Delivery
+99,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B2 (Lon),26905,32183,HR Advisor,1.0,Operational Delivery
+100,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B2 (Lon),26905,32183,Paralegal Business Manager,2.0,Operational Delivery
+101,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B2 (Lon),26905,32183,Performance Manager,1.0,Operational Delivery
+102,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B2 (Lon),26905,32183,Senior Casework Manager,0.61,Operational Delivery
+103,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B2 (Nat),25972,30616,District Business Manager,1.74,Operational Delivery
+104,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B2 (Nat),25972,30616,Paralegal Business Manager,1.0,Operational Delivery
+105,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B2 Paralegal BM (Lon),26905,32183,Paralegal Business Manager,2.0,Operational Delivery
+106,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B2 Paralegal BM (Nat),25972,30616,Paralegal Business Manager,4.0,Operational Delivery
+107,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B3 (Lon),33239,41844,Area Office Manager,1.0,Operational Delivery
+108,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B3 (Lon),33239,41844,Communications Manager,1.22,Operational Delivery
+109,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B3 (Lon),33239,41844,Delivery Manager,1.0,Operational Delivery
+110,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B3 (Lon),33239,41844,"Equality, Diversity and Community Engagement Manager",1.0,Operational Delivery
+111,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level D Admin (Nat),45191,58489,Business Change and Delivery Manager,1.16,Operational Delivery
+112,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level D Legal (Lon),48665,63752,Advocacy and Projects Manager,1.0,Operational Delivery
+113,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level D Legal (Lon),48665,63752,District Crown Prosecutor,4.0,Operational Delivery
+114,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level D Legal (Nat),45191,58489,District Crown Prosecutor,5.0,Operational Delivery
+115,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level E Admin (Lon),65005,74445,Business Manager,1.0,Operational Delivery
+116,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level E Legal (Lon),65005,74445,Head of Complex Casework Unit,1.0,Operational Delivery
+117,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level E Legal (Lon),65005,74445,Senior District Crown Prosecutor,1.0,Operational Delivery
+118,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level E Legal (Nat),62437,72453,Senior District Crown Prosecutor,1.0,Operational Delivery
+119,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level E Legal (Nat),62437,72453,Special Casework Lawyer,1.0,Operational Delivery
+120,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Paralegal Assistant (Lon),17816,22050,Paralegal Assistant,6.15,Operational Delivery
+121,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Paralegal Assistant (Nat),16489,21050,Paralegal Assistant,8.24,Operational Delivery
+122,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Principal Crown Advocate (Lon),75252,82533,Principal Crown Advocate,1.0,Operational Delivery
+123,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,SCP Above Break Point (Lon),44453,57523,Senior Crown Prosecutor ,8.41,Operational Delivery
+124,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,SCP Above Break Point (Nat),42305,51113,Senior Crown Prosecutor ,14.68,Operational Delivery
+125,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Senior Crown Advocate (Lon),64649,69997,Senior Crown Advocate,1.0,Operational Delivery
+126,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Senior Crown Prosecutor (Lon),36791,44776,Senior Crown Prosecutor ,16.51,Operational Delivery
+127,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Senior Crown Prosecutor (Nat),35376,43157,Senior Crown Prosecutor ,14.12,Operational Delivery
+128,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B1 Paralegal Officer (Lon),21304,27403,Paralegal Officer,20.2,Operational Delivery
+129,Crown Prosecution Service,Crown Prosecution Service,EAST OF ENGLAND,CPS-G-007,Level B1 Paralegal Officer (Nat),20277,25888,Paralegal Officer,20.96,Operational Delivery
+130,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,Crown Advocate (Lon),50660,63814,Crown Advocate,76.58,Operational Delivery
+131,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,Level A2 (Lon),17275,21090,Administrative Officer,39.32,Operational Delivery
+132,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,Level B1 (Lon),21304,27403,Executive Officer,28.22,Operational Delivery
+133,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,Level B2 (Lon),26905,32183,Paralegal Business Manager,2.6,Operational Delivery
+134,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,Level B2 Paralegal BM (Lon),26905,32183,Paralegal Business Manager,2.5,Operational Delivery
+135,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,Level B3 (Lon),33239,41844,District Business Manager,1.0,Operational Delivery
+136,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,Level D Admin (Lon),48665,63752,Senior Business Manager,1.0,Operational Delivery
+137,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,Level D Legal (Lon),48665,63752,Legal Manager,2.0,Operational Delivery
+138,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,Level D Legal (Lon),48665,63752,Advocacy and Projects Manager,1.0,Operational Delivery
+139,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,Level D Legal (Lon),48665,63752,Legal Development Manager,1.0,Operational Delivery
+140,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,Level D Legal (Lon),48665,63752,District Crown Prosecutor,5.72,Operational Delivery
+141,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,Level E Legal (Lon),65005,74445,Senior Crown Advocate,1.0,Operational Delivery
+142,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,Level E Legal (Lon),65005,74445,Senior District Crown Prosecutor,1.0,Operational Delivery
+143,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,Paralegal Assistant (Lon),17816,22050,Paralegal Assistant,15.85,Operational Delivery
+144,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,Principal Crown Advocate (Lon),75252,82533,Principal Crown Advocate,1.0,Operational Delivery
+145,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,SCP Above Break Point (Lon),44453,57523,Senior Crown Prosecutor ,4.15,Operational Delivery
+146,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,Senior Crown Advocate (Lon),64649,69997,Senior Crown Advocate,4.0,Operational Delivery
+147,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,Senior Crown Prosecutor (Lon),36791,44776,Senior Crown Prosecutor ,17.51,Operational Delivery
+148,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,Specialist Prosecutor (Lon),54532,68518,Crown Advocate,1.0,Operational Delivery
+149,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-051,Level B1 Paralegal Officer (Lon),21304,27403,Paralegal Officer,41.37,Operational Delivery
+150,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-S-008,Level A2 (Lon),17275,21090,Administrative Officer,7.0,Operational Delivery
+151,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-S-008,Level B1 (Lon),21304,27403,Executive Officer,10.83,Operational Delivery
+152,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-S-008,Level B2 (Lon),26905,32183,Area Estates and Facilities Manager,1.0,Operational Delivery
+153,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-S-008,Level B2 (Lon),26905,32183,Area Performance Manager,1.0,Operational Delivery
+154,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-S-008,Level B2 (Lon),26905,32183,HR Advisor,2.4,Operational Delivery
+155,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-S-008,Level B2 (Lon),26905,32183,Press Officer,1.0,Operational Delivery
+156,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-S-008,Level B3 (Lon),33239,41844,Senior HR Consultant,1.33,Operational Delivery
+157,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-S-008,Level B3 (Lon),33239,41844,Senior Project Manager,4.61,Operational Delivery
+158,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-S-008,Level B3 (Nat),32228,39876,Senior Project Manager,1.0,Operational Delivery
+159,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-S-008,Level B3 (Nat),32228,39876,Senior Case Progession Manager,1.0,Operational Delivery
+160,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-S-008,Level D Admin (Lon),48665,63752,Area Finance Manager,1.0,Operational Delivery
+161,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-S-008,Level D Admin (Lon),48665,63752,Business Change and Delivery Manager,1.0,Operational Delivery
+162,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-S-008,Level D Admin (Lon),48665,63752,Business Manager,1.0,Operational Delivery
+163,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-S-008,Level D Admin (Lon),48665,63752,Head of Area Communications,1.0,Operational Delivery
+164,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-S-008,Level D Admin (Lon),48665,63752,Policy Advisor,1.0,Operational Delivery
+165,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-S-008,Level E Admin (Lon),65005,74445,Head of Equality and Diversity Team,1.0,Operational Delivery
+166,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-032,Crown Advocate (Lon),50660,63814,Crown Advocate,1.0,Operational Delivery
+167,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-032,Level A1 (Lon),15015,18091,Administrative Assistant,1.0,Operational Delivery
+168,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-032,Level A2 (Lon),17275,21090,Administrative Officer,9.39,Operational Delivery
+169,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-032,Level B1 (Lon),21304,27403,Executive Officer,3.65,Operational Delivery
+170,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-032,Level B2 (Lon),26905,32183,Paralegal Business Manager,1.0,Operational Delivery
+171,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-032,Level B2 Paralegal BM (Lon),26905,32183,Paralegal Business Manager,1.0,Operational Delivery
+172,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-032,Level B3 (Lon),33239,41844,District Business Manager,1.0,Operational Delivery
+173,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-032,Level D Legal (Lon),48665,63752,Legal Manager,2.0,Operational Delivery
+174,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-032,Level D Legal (Lon),48665,63752,District Crown Prosecutor,4.75,Operational Delivery
+175,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-032,Level E Legal (Lon),65005,74445,Senior District Crown Prosecutor,4.89,Operational Delivery
+176,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-032,Paralegal Assistant (Lon),17816,22050,Paralegal Assistant,3.0,Operational Delivery
+177,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-032,SCP Above Break Point (Lon),44453,57523,Senior Crown Prosecutor ,17.06,Operational Delivery
+178,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-032,Senior Crown Prosecutor (Lon),36791,44776,Senior Crown Prosecutor ,13.01,Operational Delivery
+179,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-032,Level B1 Paralegal Officer (Lon),21304,27403,Paralegal Officer,27.43,Operational Delivery
+180,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-039,Associate Prosecutor (Lon),27847,33309,Associate Prosecutor,46.87,Operational Delivery
+181,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-039,Associate Prosecutor 2 (Lon),32313,34718,Associate Prosecutor,5.87,Operational Delivery
+182,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-039,Crown Advocate (Lon),50660,63814,Crown Advocate,2.0,Operational Delivery
+183,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-039,Legal Trainee B1 (Lon),21304,27403,Legal Trainee,5.0,Operational Delivery
+184,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-039,Level A2 (Lon),17275,21090,Administrative Officer,142.83,Operational Delivery
+185,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-039,Level B1 (Lon),21304,27403,Executive Officer,18.82,Operational Delivery
+186,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-039,Level B2 (Lon),26905,32183,Paralegal Business Manager,1.0,Operational Delivery
+187,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-039,Level B2 Paralegal BM (Lon),26905,32183,Paralegal Business Manager,4.0,Operational Delivery
+188,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-039,Level D Admin (Lon),48665,63752,Senior Business Manager,1.0,Operational Delivery
+189,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-039,Level D Legal (Lon),48665,63752,Legal Manager,3.0,Operational Delivery
+190,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-039,Level D Legal (Lon),48665,63752,District Crown Prosecutor,11.0,Operational Delivery
+191,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-039,Level E Legal (Lon),65005,74445,Senior District Crown Prosecutor,3.0,Operational Delivery
+192,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-039,SCP Above Break Point (Lon),44453,57523,Senior Crown Prosecutor ,43.44,Operational Delivery
+193,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-039,Senior Crown Prosecutor (Lon),36791,44776,Senior Crown Prosecutor ,55.94,Operational Delivery
+194,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-039,Level B1 Paralegal Officer (Lon),21304,27403,Paralegal Officer,8.94,Operational Delivery
+195,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-050,Crown Advocate (Lon),50660,63814,Crown Advocate,1.6,Operational Delivery
+196,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-050,Level A2 (Lon),17275,21090,Administrative Officer,38.33,Operational Delivery
+197,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-050,Level B1 (Lon),21304,27403,Executive Officer,23.27,Operational Delivery
+198,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-050,Level B2 (Lon),26905,32183,Paralegal Business Manager,4.0,Operational Delivery
+199,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-050,Level B2 Paralegal BM (Lon),26905,32183,Paralegal Business Manager,4.0,Operational Delivery
+200,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-050,Level D Admin (Lon),48665,63752,Senior Business Manager,1.0,Operational Delivery
+201,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-050,Level D Legal (Lon),48665,63752,Legal Manager,1.0,Operational Delivery
+202,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-050,Level E Legal (Lon),65005,74445,Legal Manager,1.0,Operational Delivery
+203,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-050,Paralegal Assistant (Lon),17816,22050,Paralegal Assistant,11.97,Operational Delivery
+204,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-050,SCP Above Break Point (Lon),44453,57523,Senior Crown Prosecutor ,12.11,Operational Delivery
+205,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-050,Senior Crown Prosecutor (Lon),36791,44776,Senior Crown Prosecutor ,17.23,Operational Delivery
+206,Crown Prosecution Service,Crown Prosecution Service,LONDON,CPS-C-050,Level B1 Paralegal Officer (Lon),21304,27403,Paralegal Officer,62.12,Operational Delivery
+207,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Associate Prosecutor (Nat),26881,31688,Associate Prosecutor,15.0,Operational Delivery
+208,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Crown Advocate (Nat),47605,59285,Crown Advocate,18.41,Operational Delivery
+209,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level A1 (Nat),14033,16942,Administrative Assistant,2.81,Operational Delivery
+210,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level A2 (Nat),15949,19684,Administrative Officer,44.55,Operational Delivery
+211,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level A2 (Nat),15949,19684,Fees Clerk,2.0,Operational Delivery
+212,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level A2 (Nat),15949,19684,Witness Care Officer,4.18,Operational Delivery
+213,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B1 (Nat),20277,25888,Business Support Manager,2.81,Operational Delivery
+214,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B1 (Nat),20277,25888,Case Progression Manager,3.0,Operational Delivery
+215,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B1 (Nat),20277,25888,Case Progression Officer,0.65,Operational Delivery
+216,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B1 (Nat),20277,25888,Casework Administration Manager,3.81,Operational Delivery
+217,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B1 (Nat),20277,25888,Fees Manager,0.81,Operational Delivery
+218,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B1 (Nat),20277,25888,HR Officer,0.81,Operational Delivery
+219,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B1 (Nat),20277,25888,Paralegal Officer,1.0,Operational Delivery
+220,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B1 (Nat),20277,25888,Witness Care Manager,1.0,Operational Delivery
+221,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B1 (Nat),20277,25888,Senior Personal Assistant,1.0,Operational Delivery
+222,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B2 (Nat),25972,30616,Area Finance Manager,1.0,Operational Delivery
+223,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B2 (Nat),25972,30616,Area Performance Manager,1.0,Operational Delivery
+224,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B2 (Nat),25972,30616,District Business Manager,1.0,Operational Delivery
+225,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B2 (Nat),25972,30616,Facilities Manager,1.0,Operational Delivery
+226,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B2 (Nat),25972,30616,HR Advisor,1.0,Operational Delivery
+227,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B2 (Nat),25972,30616,Paralegal Business Manager,1.0,Operational Delivery
+228,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B2 Paralegal BM (Nat),25972,30616,Paralegal Business Manager,3.0,Operational Delivery
+229,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B3 (Nat),32228,39876,Administrative Officer,1.0,Operational Delivery
+230,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B3 (Nat),32228,39876,Area Communications Manager,1.0,Operational Delivery
+231,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B3 (Nat),32228,39876,Area Operations Manager,1.0,Operational Delivery
+232,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level D Legal (Nat),45191,58489,District Crown Prosecutor,6.92,Operational Delivery
+233,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level E Admin (Nat),62437,72453,Area Business Manager,1.0,Operational Delivery
+234,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level E Legal (Nat),62437,72453,Head of Complex Casework Unit,1.0,Operational Delivery
+235,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level E Legal (Nat),62437,72453,Senior District Crown Prosecutor,2.0,Operational Delivery
+236,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Paralegal Assistant (Nat),16489,21050,Paralegal Assistant,7.6,Operational Delivery
+237,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,SCP Above Break Point (Nat),42305,51113,Senior Crown Prosecutor ,34.22,Operational Delivery
+238,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Senior Crown Advocate (Nat),61960,67255,Senior Crown Advocate,1.0,Operational Delivery
+239,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Senior Crown Prosecutor (Nat),35376,43157,Senior Crown Prosecutor ,27.96,Operational Delivery
+240,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B1 Paralegal Officer (Nat),20277,25888,Case Progression Officer,2.0,Operational Delivery
+241,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B1 Paralegal Officer (Nat),20277,25888,Paralegal Officer,36.68,Operational Delivery
+242,Crown Prosecution Service,Crown Prosecution Service,MERSEYSIDE AND CHESHIRE,CPS-G-006,Level B1 Paralegal Officer (Nat),20277,25888,Victim and Witness Care Support Officer,0.81,Operational Delivery
+243,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Associate Prosecutor (Nat),26881,31688,Associate Prosecutor,11.54,Operational Delivery
+244,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Associate Prosecutor (Nat),26881,31688,Legal Trainee,1.0,Operational Delivery
+245,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Associate Prosecutor 2 (Nat),31296,36339,Associate Prosecutor,4.0,Operational Delivery
+246,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Crown Advocate (Nat),47605,59285,Crown Advocate,18.86,Operational Delivery
+247,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Legal Trainee B1 (Nat),20277,25888,Legal Trainee,2.0,Operational Delivery
+248,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level A1 (Nat),14033,16942,Administrative Assistant,3.04,Operational Delivery
+249,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level A1 (Nat),14033,16942,Driver,4.0,Operational Delivery
+250,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level A1 (Nat),14033,16942,Receptionist,1.0,Operational Delivery
+251,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level A2 (Nat),15949,19684,Administrative Officer,7.73,Operational Delivery
+252,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level A2 (Nat),15949,19684,Casework Assistant,79.51,Operational Delivery
+253,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level A2 (Nat),15949,19684,Fees Clerk,3.0,Operational Delivery
+254,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level A2 (Nat),15949,19684,Witness Care Officer,9.53,Operational Delivery
+255,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level B1 (Nat),20277,25888,Area Finance Manager,1.0,Operational Delivery
+256,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level B1 (Nat),20277,25888,Business Support Manager,13.89,Operational Delivery
+257,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level B1 (Nat),20277,25888,Case Progression Manager,7.75,Operational Delivery
+258,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level B1 (Nat),20277,25888,Paralegal Officer,20.61,Operational Delivery
+259,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level B1 (Nat),20277,25888,Senior Personal Assistant,2.73,Operational Delivery
+260,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level B1 (Nat),20277,25888,Victim and Witness Care Support Officer,1.61,Operational Delivery
+261,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level B1 (Nat),20277,25888,Witness Care Manager,1.65,Operational Delivery
+262,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level B2 (Nat),25972,30616,HR Advisor,0.86,Operational Delivery
+263,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level B2 (Nat),25972,30616,IT Manager,0.86,Operational Delivery
+264,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level B2 (Nat),25972,30616,Paralegal Business Manager,2.46,Operational Delivery
+265,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level B2 (Nat),25972,30616,Performance Manager,1.0,Operational Delivery
+266,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level B2 Paralegal BM (Nat),25972,30616,Paralegal Business Manager,3.0,Operational Delivery
+267,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level B3 (Nat),32228,39876,Area Communications Manager,1.0,Operational Delivery
+268,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level B3 (Nat),32228,39876,"Equality, Diversity and Community Engagement Manager",1.0,Operational Delivery
+269,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level B3 (Nat),32228,39876,Head of Group Operations Centre,1.0,Operational Delivery
+270,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level B3 (Nat),32228,39876,Project Implementation Manager,1.0,Operational Delivery
+271,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level B3 (Nat),32228,39876,Senior District Business Manager,2.0,Operational Delivery
+272,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level D Admin (Nat),45191,58489,Business Change and Delivery Manager,1.0,Operational Delivery
+273,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level D Legal (Nat),45191,58489,District Crown Prosecutor,10.0,Operational Delivery
+274,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level D Legal (Nat),45191,58489,Head of Complex Casework Unit,1.0,Operational Delivery
+275,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level E Admin (Nat),62437,72453,Area Business Manager,1.0,Operational Delivery
+276,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level E Legal (Nat),62437,72453,Senior District Crown Prosecutor,2.0,Operational Delivery
+277,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Paralegal Assistant (Nat),16489,21050,Paralegal Assistant,11.03,Operational Delivery
+278,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Principal Crown Advocate (Nat),71114,78355,Principal Crown Advocate,1.0,Operational Delivery
+279,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,SCP Above Break Point (Nat),42305,51113,Senior Crown Prosecutor ,38.0,Operational Delivery
+280,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Senior Crown Advocate (Nat),61960,67255,Senior Crown Advocate,2.0,Operational Delivery
+281,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Senior Crown Prosecutor (Nat),35376,43157,Senior Crown Prosecutor ,25.02,Operational Delivery
+282,Crown Prosecution Service,Crown Prosecution Service,NORTH EAST,CPS-G-015,Level B1 Paralegal Officer (Nat),20277,25888,Paralegal Officer,9.78,Operational Delivery
+283,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Associate Prosecutor (Nat),26881,31688,Associate Prosecutor,33.02,Operational Delivery
+284,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Crown Advocate (Nat),47605,59285,Crown Advocate,45.48,Operational Delivery
+285,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Legal Trainee B1 (Nat),20277,25888,Legal Trainee,7.0,Operational Delivery
+286,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level A1 (Nat),14033,16942,Administrative Assistant,1.57,Operational Delivery
+287,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level A2 (Nat),15949,19684,Administrative Officer,142.1,Operational Delivery
+288,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level A2 (Nat),15949,19684,Casework Assistant,3.0,Operational Delivery
+289,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B1 (Nat),20277,25888,Business Support Manager,4.22,Operational Delivery
+290,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B1 (Nat),20277,25888,Case Progression Manager,4.09,Operational Delivery
+291,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B1 (Nat),20277,25888,Casework Administration Manager,10.65,Operational Delivery
+292,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B1 (Nat),20277,25888,Caseworker,0.81,Operational Delivery
+293,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B1 (Nat),20277,25888,Communications Officer,1.0,Operational Delivery
+294,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B1 (Nat),20277,25888,"Equality, Diversity and Community Engagement Officer",1.0,Operational Delivery
+295,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B1 (Nat),20277,25888,Fees Manager,3.0,Operational Delivery
+296,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B1 (Nat),20277,25888,Paralegal Officer,37.3,Operational Delivery
+297,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B1 (Nat),20277,25888,Senior Personal Assistant,3.0,Operational Delivery
+298,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B1 (Nat),20277,25888,Witness Care Manager,2.0,Operational Delivery
+299,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B1 Paralegal Officer (Nat),20277,25888,Casework Administration Manager,1.0,Operational Delivery
+300,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B1 Paralegal Officer (Nat),20277,25888,Paralegal Officer,63.99,Operational Delivery
+301,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B2 (Nat),25972,30616,Area Estates and Facilities Manager,1.0,Operational Delivery
+302,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B2 (Nat),25972,30616,Area Finance Manager,1.0,Operational Delivery
+303,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B2 (Nat),25972,30616,Area Performance Manager,1.0,Operational Delivery
+304,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B2 (Nat),25972,30616,District Business Manager,1.0,Operational Delivery
+305,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B2 (Nat),25972,30616,HR Advisor,1.0,Operational Delivery
+306,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B2 (Nat),25972,30616,Senior Casework Manager,2.93,Operational Delivery
+307,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B2 Paralegal BM (Nat),25972,30616,Paralegal Business Manager,6.88,Operational Delivery
+308,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B3 (Nat),32228,39876,Area Communications Manager,1.0,Operational Delivery
+309,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B3 (Nat),32228,39876,Senior District Business Manager,5.0,Operational Delivery
+310,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level B3 (Nat),32228,39876,Delivery Manager,0.81,Operational Delivery
+311,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level D Admin (Nat),45191,58489,Business Change and Delivery Manager,1.86,Operational Delivery
+312,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level D Legal (Nat),45191,58489,District Crown Prosecutor,15.86,Operational Delivery
+313,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level E Admin (Nat),62437,72453,Area Business Manager,1.0,Operational Delivery
+314,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level E Legal (Nat),62437,72453,Legal Manager,1.0,Operational Delivery
+315,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Level E Legal (Nat),62437,72453,Senior District Crown Prosecutor,4.81,Operational Delivery
+316,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Paralegal Assistant (Nat),16489,21050,Paralegal Assistant,15.36,Operational Delivery
+317,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Principal Crown Advocate (Nat),71114,78355,Principal Crown Advocate,2.0,Operational Delivery
+318,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,SCP Above Break Point (Nat),42305,51113,Senior Crown Prosecutor ,57.56,Operational Delivery
+319,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Senior Crown Advocate (Nat),61960,67255,Senior Crown Advocate,8.0,Operational Delivery
+320,Crown Prosecution Service,Crown Prosecution Service,NORTH WEST,CPS-G-005,Senior Crown Prosecutor (Nat),35376,43157,Senior Crown Prosecutor ,69.96,Operational Delivery
+321,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Associate Prosecutor (Lon),27847,33309,Associate Prosecutor,18.91,Operational Delivery
+322,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Crown Advocate (Lon),50660,63814,Crown Advocate,24.35,Operational Delivery
+323,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level A1 (Lon),15015,18091,Administrative Assistant,1.0,Operational Delivery
+324,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level A2 (Lon),17275,21090,Administrative Officer,61.04,Operational Delivery
+325,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level A2 (Nat),15949,19684,Administrative Officer,1.0,Operational Delivery
+326,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level A2 Per Sec (Lon),18622,24217,Administrative Officer,1.43,Operational Delivery
+327,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level B1 (Lon),21304,27403,Administrative Manager,5.81,Operational Delivery
+328,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level B1 (Lon),21304,27403,Case Progression Officer,6.61,Operational Delivery
+329,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level B1 (Lon),21304,27403,Finance Officer,0.99,Operational Delivery
+330,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level B1 (Lon),21304,27403,Paralegal Officer,6.97,Operational Delivery
+331,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level B1 Paralegal Officer (Lon),21304,27403,Paralegal Officer,43.37,Operational Delivery
+332,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level B2 (Lon),26905,32183,Administrative Manager,2.0,Operational Delivery
+333,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level B2 (Lon),26905,32183,Area Finance Manager,1.0,Operational Delivery
+334,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level B2 (Lon),26905,32183,Area Performance Manager,1.47,Operational Delivery
+335,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level B2 (Lon),26905,32183,Communications Officer,1.61,Operational Delivery
+336,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level B2 (Lon),26905,32183,HR Advisor,1.0,Operational Delivery
+337,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level B2 (Lon),26905,32183,Project Support Officer,1.0,Operational Delivery
+338,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level B2 Paralegal BM (Lon),26905,32183,Paralegal Business Manager,1.0,Operational Delivery
+339,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level B3 (Lon),33239,41844,Area Communications Manager,1.0,Operational Delivery
+340,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level B3 (Lon),33239,41844,Area Operations Manager,1.0,Operational Delivery
+341,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level B3 (Lon),33239,41844,Delivery Manager,0.99,Operational Delivery
+342,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level D Admin (Lon),48665,63752,Business Change and Delivery Manager,1.0,Operational Delivery
+343,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level D Legal (Lon),48665,63752,Area Operations Manager,0.86,Operational Delivery
+344,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level D Legal (Lon),48665,63752,District Crown Prosecutor,7.81,Operational Delivery
+345,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level D Legal (Lon),48665,63752,Prosecutor,2.0,Operational Delivery
+346,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level E Admin (Lon),65005,74445,Area Business Manager,1.0,Operational Delivery
+347,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level E Legal (Lon),65005,74445,Senior District Crown Prosecutor,2.0,Operational Delivery
+348,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level E Legal (Lon),65005,74445,Senior Policy Advisor,1.0,Operational Delivery
+349,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Level E Legal (Lon),65005,74445,Head of Complex Casework Unit,1.0,Operational Delivery
+350,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Paralegal Assistant (Lon),17816,22050,Paralegal Assistant,7.42,Operational Delivery
+351,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Principal Crown Advocate (Ctrl Div),93095,114920,Principal Crown Advocate,1.0,Operational Delivery
+352,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,SCP Above Break Point (Lon),44453,57523,Senior Crown Prosecutor ,35.21,Operational Delivery
+353,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Senior Crown Advocate (Lon),64649,69997,Senior Crown Advocate,1.0,Operational Delivery
+354,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Senior Crown Prosecutor (Lon),36791,44776,Senior Crown Prosecutor ,31.49,Operational Delivery
+355,Crown Prosecution Service,Crown Prosecution Service,SOUTH EAST,CPS-G-014,Specialist Prosecutor (Lon),54532,68518,Crown Advocate,1.0,Operational Delivery
+356,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Associate Prosecutor (Nat),26881,31688,Associate Prosecutor,12.81,Operational Delivery
+357,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Crown Advocate (Nat),47605,59285,Crown Advocate,23.19,Operational Delivery
+358,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level A1 (Nat),14033,16942,Administrative Assistant,2.0,Operational Delivery
+359,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level A2 (Nat),15949,19684,Administrative Officer,19.3,Operational Delivery
+360,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level A2 (Nat),15949,19684,Casework Assistant,29.22,Operational Delivery
+361,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level A2 (Nat),15949,19684,Fees Clerk,0.65,Operational Delivery
+362,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level A2 (Nat),15949,19684,Witness Care Officer,0.66,Operational Delivery
+363,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level A2 Per Sec (Nat),17357,23590,Personal Assistant,2.0,Operational Delivery
+364,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level B1 (Nat),20277,25888,Administrative Manager,1.0,Operational Delivery
+365,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level B1 (Nat),20277,25888,Area Operations Manager,1.0,Operational Delivery
+366,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level B1 (Nat),20277,25888,Case Progression Manager,11.0,Operational Delivery
+367,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level B1 (Nat),20277,25888,Casework Administration Manager,3.0,Operational Delivery
+368,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level B1 (Nat),20277,25888,Caseworker,1.0,Operational Delivery
+369,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level B1 (Nat),20277,25888,Fees Manager,1.14,Operational Delivery
+370,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level B1 (Nat),20277,25888,Senior Personal Assistant,1.8,Operational Delivery
+371,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level B2 (Nat),25972,30616,Area Finance Manager,1.0,Operational Delivery
+372,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level B2 (Nat),25972,30616,Area Performance Manager,0.92,Operational Delivery
+373,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level B2 (Nat),25972,30616,HR Advisor,1.0,Operational Delivery
+374,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level B2 Paralegal BM (Nat),25972,30616,Paralegal Business Manager,8.0,Operational Delivery
+375,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level B3 (Nat),32228,39876,Area Communications Manager,1.0,Operational Delivery
+376,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level B3 (Nat),32228,39876,"Equality, Diversity and Community Engagement Manager",1.0,Operational Delivery
+377,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level B3 (Nat),32228,39876,Head of Group Operations Centre,1.0,Operational Delivery
+378,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level B3 (Nat),32228,39876,Project Implementation Manager,1.0,Operational Delivery
+379,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level D Admin (Nat),45191,58489,Business Change and Delivery Manager,1.0,Operational Delivery
+380,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level D Legal (Nat),45191,58489,District Crown Prosecutor,9.7,Operational Delivery
+381,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level D Legal (Nat),45191,58489,Prosecutor,1.0,Operational Delivery
+382,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level E Admin (Nat),62437,72453,Area Business Manager,1.0,Operational Delivery
+383,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Paralegal Assistant (Nat),16489,21050,Paralegal Assistant,12.86,Operational Delivery
+384,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,SCP Above Break Point (Nat),42305,51113,Senior Crown Prosecutor ,31.55,Operational Delivery
+385,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Senior Crown Advocate (Nat),61960,67255,Senior Crown Advocate,1.0,Operational Delivery
+386,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Senior Crown Prosecutor (Nat),35376,43157,Senior Crown Prosecutor ,24.81,Operational Delivery
+387,Crown Prosecution Service,Crown Prosecution Service,SOUTH WEST,CPS-G-008,Level B1 Paralegal Officer (Nat),20277,25888,Paralegal Officer,32.64,Operational Delivery
+388,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Associate Prosecutor (Lon),27847,33309,Associate Prosecutor,21.63,Operational Delivery
+389,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Associate Prosecutor (Lon),27847,33309,Legal Trainee,1.0,Operational Delivery
+390,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Crown Advocate (Lon),50660,63814,Crown Advocate,26.86,Operational Delivery
+391,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Crown Prosecutor (Lon),29648,34272,Crown Prosecutor,1.0,Operational Delivery
+392,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Legal Trainee B1 (Lon),21304,27403,Legal Trainee,2.0,Operational Delivery
+393,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level A1 (Lon),15015,18091,Casework Assistant,4.76,Operational Delivery
+394,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level A2 (Lon),17275,21090,Administrative Officer,3.61,Operational Delivery
+395,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level A2 (Lon),17275,21090,Casework Assistant,90.3,Operational Delivery
+396,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level A2 (Lon),17275,21090,Personal Assistant,1.0,Operational Delivery
+397,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level A2 (Lon),17275,21090,Witness Care Officer,3.06,Operational Delivery
+398,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B1 (Lon),21304,27403,Area Finance and Resources Officer,1.0,Operational Delivery
+399,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B1 (Lon),21304,27403,Business Support Manager,8.39,Operational Delivery
+400,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B1 (Lon),21304,27403,Case Progression Manager,10.56,Operational Delivery
+401,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B1 (Lon),21304,27403,Estates Officer,1.0,Operational Delivery
+402,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B1 (Lon),21304,27403,Health and Safety Advisor,1.0,Operational Delivery
+403,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B1 (Lon),21304,27403,Paralegal Officer,2.41,Operational Delivery
+404,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B1 (Lon),21304,27403,Project Manager,1.0,Operational Delivery
+405,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B1 (Lon),21304,27403,Project Support Officer,1.0,Operational Delivery
+406,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B1 (Lon),21304,27403,Senior Personal Assistant,1.0,Operational Delivery
+407,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B1 (Lon),21304,27403,District Business Manager,1.0,Operational Delivery
+408,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B2 (Lon),26905,32183,Area Finance Manager,1.0,Operational Delivery
+409,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B2 (Lon),26905,32183,Area Performance Manager,1.0,Operational Delivery
+410,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B2 (Lon),26905,32183,HR Advisor,1.0,Operational Delivery
+411,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B2 (Lon),26905,32183,Casework and Business Support Manager,1.0,Operational Delivery
+412,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B2 Paralegal BM (Lon),26905,32183,Paralegal Business Manager,7.67,Operational Delivery
+413,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B3 (Lon),33239,41844,Area Communications Manager,1.0,Operational Delivery
+414,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B3 (Lon),33239,41844,"Equality, Diversity and Community Engagement Manager",1.0,Operational Delivery
+415,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B3 (Lon),33239,41844,Business Manager,1.0,Operational Delivery
+416,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level D Admin (Lon),48665,63752,Business Change and Delivery Manager,1.0,Operational Delivery
+417,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level D Legal (Lon),48665,63752,District Crown Prosecutor,10.61,Operational Delivery
+418,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level D Legal (Lon),48665,63752,Divisional Crown Prosecutor,1.0,Operational Delivery
+419,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level E Admin (Lon),65005,74445,Area Business Manager,1.0,Operational Delivery
+420,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level E Legal (Lon),65005,74445,Head of Complex Casework Unit,1.0,Operational Delivery
+421,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level E Legal (Lon),65005,74445,Senior District Crown Prosecutor,1.0,Operational Delivery
+422,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Paralegal Assistant (Lon),17816,22050,Paralegal Assistant,12.81,Operational Delivery
+423,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Principal Crown Advocate (Lon),75252,82533,Principal Crown Advocate,1.0,Operational Delivery
+424,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,SCP Above Break Point (Lon),44453,57523,Senior Crown Prosecutor ,27.41,Operational Delivery
+425,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Senior Crown Advocate (Lon),64649,69997,Senior Crown Advocate,9.0,Operational Delivery
+426,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Senior Crown Prosecutor (Lon),36791,44776,Senior Crown Prosecutor ,36.86,Operational Delivery
+427,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Senior Crown Prosecutor (Nat),35376,43157,Senior Crown Prosecutor ,1.0,Operational Delivery
+428,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B1 Paralegal Officer (Lon),21304,27403,Paralegal Officer,34.35,Operational Delivery
+429,Crown Prosecution Service,Crown Prosecution Service,THAMES AND CHILTERN,CPS-G-012,Level B1 Paralegal Officer (Lon),21304,27403,Performance Officer,1.0,Operational Delivery
+430,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Associate Prosecutor (Nat),26881,31688,Associate Prosecutor,17.95,Operational Delivery
+431,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Associate Prosecutor 2 (Nat),31296,36339,Associate Prosecutor,6.46,Operational Delivery
+432,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Crown Advocate (Nat),47605,59285,Crown Advocate,20.32,Operational Delivery
+433,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level A1 (Nat),14033,16942,Administrative Assistant,2.0,Operational Delivery
+434,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level A2 (Nat),15949,19684,Administrative Officer,4.0,Operational Delivery
+435,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level A2 (Nat),15949,19684,Casework Assistant,61.57,Operational Delivery
+436,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level A2 (Nat),15949,19684,Fees Clerk,3.0,Operational Delivery
+437,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level A2 (Nat),15949,19684,Witness Care Officer,17.51,Operational Delivery
+438,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level A2 Per Sec (Nat),17357,23590,Fees Clerk,1.0,Operational Delivery
+439,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level A2 Per Sec (Nat),17357,23590,Witness Care Officer,1.0,Operational Delivery
+440,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B1 (Nat),20277,25888,Area Business Support Manager,1.0,Operational Delivery
+441,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B1 (Nat),20277,25888,Area Secretariat Officer,1.0,Operational Delivery
+442,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B1 (Nat),20277,25888,Business Support Manager,0.81,Operational Delivery
+443,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B1 (Nat),20277,25888,Case Progression Manager,6.65,Operational Delivery
+444,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B1 (Nat),20277,25888,Casework Administration Manager,6.76,Operational Delivery
+445,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B1 (Nat),20277,25888,Caseworker,3.0,Operational Delivery
+446,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B1 (Nat),20277,25888,Fees Manager,2.0,Operational Delivery
+447,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B1 (Nat),20277,25888,Paralegal Officer,2.61,Operational Delivery
+448,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B1 (Nat),20277,25888,Personal Assistant,2.0,Operational Delivery
+449,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B1 (Nat),20277,25888,Witness Care Manager,1.8,Operational Delivery
+450,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B1 Paralegal Officer (Nat),20277,25888,Casework Administration Manager,1.0,Operational Delivery
+451,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B1 Paralegal Officer (Nat),20277,25888,Fees Clerk,2.0,Operational Delivery
+452,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B1 Paralegal Officer (Nat),20277,25888,Paralegal Officer,19.77,Operational Delivery
+453,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B2 (Nat),25972,30616,Area Estates and Facilities Manager,1.0,Operational Delivery
+454,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B2 (Nat),25972,30616,Area Finance Manager,1.0,Operational Delivery
+455,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B2 (Nat),25972,30616,Area Performance Manager,1.0,Operational Delivery
+456,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B2 (Nat),25972,30616,Casework Administration Manager,1.0,Operational Delivery
+457,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B2 (Nat),25972,30616,District Business Manager,2.73,Operational Delivery
+458,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B2 (Nat),25972,30616,HR Advisor,1.0,Operational Delivery
+459,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B2 (Nat),25972,30616,Paralegal Business Manager,1.0,Operational Delivery
+460,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B2 (Nat),25972,30616,Senior Casework Manager,0.81,Operational Delivery
+461,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B2 Paralegal BM (Nat),25972,30616,Paralegal Business Manager,1.0,Operational Delivery
+462,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B3 (Nat),32228,39876,Area Communications Manager,1.0,Operational Delivery
+463,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B3 (Nat),32228,39876,"Equality, Diversity and Community Engagement Manager",1.51,Operational Delivery
+464,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level B3 (Nat),32228,39876,Head of Area Operations Centre ,1.0,Operational Delivery
+465,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level D Admin (Nat),45191,58489,Business Change and Delivery Manager,2.0,Operational Delivery
+466,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level D Legal (Nat),45191,58489,District Crown Prosecutor,14.28,Operational Delivery
+467,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level E Admin (Nat),62437,72453,Area Business Manager,1.0,Operational Delivery
+468,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Level E Legal (Nat),62437,72453,Head of Complex Casework Unit,1.0,Operational Delivery
+469,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Paralegal Assistant (Nat),16489,21050,Paralegal Assistant,12.01,Operational Delivery
+470,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,SCP Above Break Point (Nat),42305,51113,Senior Crown Prosecutor ,40.16,Operational Delivery
+471,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Senior Crown Advocate (Nat),61960,67255,Senior Crown Advocate,2.0,Operational Delivery
+472,Crown Prosecution Service,Crown Prosecution Service,WALES,CPS-G-001,Senior Crown Prosecutor (Nat),35376,43157,Senior Crown Prosecutor ,28.31,Operational Delivery
+473,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Associate Prosecutor (Lon),27847,33309,Associate Prosecutor,4.39,Operational Delivery
+474,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Associate Prosecutor (Lon),27847,33309,Legal Trainee,1.0,Operational Delivery
+475,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Associate Prosecutor (Nat),26881,31688,Associate Prosecutor,4.17,Operational Delivery
+476,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Associate Prosecutor (Nat),26881,31688,Legal Trainee,1.0,Operational Delivery
+477,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Associate Prosecutor 2 (Lon),32313,34718,Associate Prosecutor,4.6,Operational Delivery
+478,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Associate Prosecutor 2 (Lon),32313,34718,Legal Trainee,1.0,Operational Delivery
+479,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Associate Prosecutor 2 (Nat),31296,36339,Associate Prosecutor,1.0,Operational Delivery
+480,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Associate Prosecutor 2 (Nat),31296,36339,Legal Trainee,2.0,Operational Delivery
+481,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Crown Advocate (Lon),50660,63814,Crown Advocate,12.78,Operational Delivery
+482,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Crown Advocate (Nat),47605,59285,Crown Advocate,11.0,Operational Delivery
+483,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Legal Trainee B1 (Lon),21304,27403,Legal Trainee,1.0,Operational Delivery
+484,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level A1 (Lon),15015,18091,Administrative Assistant,1.0,Operational Delivery
+485,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level A1 (Lon),15015,18091,Reprographics Officer,2.0,Operational Delivery
+486,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level A2 (Lon),17275,21090,Casework Assistant,38.79,Operational Delivery
+487,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level A2 (Nat),15949,19684,Casework Assistant,18.86,Operational Delivery
+488,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B1 (Lon),21304,27403,Business Support Manager,2.0,Operational Delivery
+489,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B1 (Lon),21304,27403,Case Progression Manager,5.81,Operational Delivery
+490,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B1 (Lon),21304,27403,Correspondence Manager,1.0,Operational Delivery
+491,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B1 (Lon),21304,27403,Fees Manager,2.0,Operational Delivery
+492,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B1 (Lon),21304,27403,Finance Officer,1.0,Operational Delivery
+493,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B1 (Lon),21304,27403,HR Officer,0.8,Operational Delivery
+494,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B1 (Lon),21304,27403,Paralegal Officer,16.78,Operational Delivery
+495,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B1 (Lon),21304,27403,Performance Officer,1.0,Operational Delivery
+496,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B1 (Lon),21304,27403,Senior Personal Assistant,1.0,Operational Delivery
+497,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B1 (Nat),20277,25888,Business Support Manager,0.81,Operational Delivery
+498,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B1 (Nat),20277,25888,Case Progression Manager,1.0,Operational Delivery
+499,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B1 (Nat),20277,25888,Fees Manager,2.0,Operational Delivery
+500,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B1 (Nat),20277,25888,Paralegal Officer,0.81,Operational Delivery
+501,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B1 Paralegal Officer (Lon),21304,27403,Paralegal Officer,6.81,Operational Delivery
+502,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B1 Paralegal Officer (Nat),20277,25888,Paralegal Officer,6.86,Operational Delivery
+503,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B2 (Lon),26905,32183,Finance Manager,1.0,Operational Delivery
+504,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B2 (Lon),26905,32183,HR Advisor,1.0,Operational Delivery
+505,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B2 (Lon),26905,32183,Paralegal Business Manager,1.0,Operational Delivery
+506,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B2 (Lon),26905,32183,Performance Manager,1.0,Operational Delivery
+507,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B2 (Nat),25972,30616,Paralegal Business Manager,1.0,Operational Delivery
+508,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B2 Paralegal BM (Lon),26905,32183,Paralegal Business Manager,3.6,Operational Delivery
+509,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B3 (Lon),33239,41844,Area Communications Manager,1.0,Operational Delivery
+510,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B3 (Lon),33239,41844,Area Operations Manager,1.0,Operational Delivery
+511,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B3 (Lon),33239,41844,"Equality, Diversity and Community Engagement Manager",0.86,Operational Delivery
+512,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level B3 (Lon),33239,41844,Senior District Business Manager,1.92,Operational Delivery
+513,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level D Admin (Lon),48665,63752,Business Change and Delivery Manager,1.0,Operational Delivery
+514,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level D Legal (Lon),48665,63752,Crown Advocate,0.65,Operational Delivery
+515,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level D Legal (Lon),48665,63752,District Crown Prosecutor,6.54,Operational Delivery
+516,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level D Legal (Nat),45191,58489,District Crown Prosecutor,3.0,Operational Delivery
+517,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level E Admin (Lon),65005,74445,Area Business Manager,1.0,Operational Delivery
+518,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level E Legal (Lon),65005,74445,Head of Complex Casework Unit,1.0,Operational Delivery
+519,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Level E Legal (Lon),65005,74445,Senior District Crown Prosecutor,2.0,Operational Delivery
+520,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Paralegal Assistant (Lon),17816,22050,Paralegal Assistant,3.71,Operational Delivery
+521,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Paralegal Assistant (Nat),16489,21050,Paralegal Assistant,4.42,Operational Delivery
+522,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Principal Crown Advocate (Lon),75252,82533,Principal Crown Advocate,2.0,Operational Delivery
+523,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,SCP Above Break Point (Lon),44453,57523,Senior Crown Prosecutor ,23.01,Operational Delivery
+524,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,SCP Above Break Point (Nat),42305,51113,Senior Crown Prosecutor ,8.47,Operational Delivery
+525,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Senior Crown Advocate (Lon),64649,69997,Senior Crown Advocate,2.0,Operational Delivery
+526,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Senior Crown Prosecutor (Lon),36791,44776,Senior Crown Prosecutor ,16.24,Operational Delivery
+527,Crown Prosecution Service,Crown Prosecution Service,WESSEX,CPS-G-013,Senior Crown Prosecutor (Nat),35376,43157,Senior Crown Prosecutor ,7.81,Operational Delivery
+528,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Associate Prosecutor (Nat),26881,31688,Associate Prosecutor,35.04,Operational Delivery
+529,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Crown Advocate (Nat),47605,59285,Crown Advocate,42.93,Operational Delivery
+530,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Crown Prosecutor (Nat),27722,31688,Crown Prosecutor,1.41,Operational Delivery
+531,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Legal Trainee AP (Nat),26881,31688,Associate Prosecutor,1.0,Operational Delivery
+532,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Legal Trainee B1 (Nat),20277,25888,Legal Trainee,2.0,Operational Delivery
+533,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level A1 (Nat),14033,16942,Administrative Assistant,4.0,Operational Delivery
+534,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level A1 (Nat),14033,16942,Casework Assistant,1.0,Operational Delivery
+535,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level A2 (Nat),15949,19684,Administrative Officer,3.47,Operational Delivery
+536,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level A2 (Nat),15949,19684,Casework Assistant,112.57,Operational Delivery
+537,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level A2 (Nat),15949,19684,Driver,1.0,Operational Delivery
+538,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level A2 (Nat),15949,19684,Fees Clerk,1.0,Operational Delivery
+539,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level A2 (Nat),15949,19684,Receptionist,1.0,Operational Delivery
+540,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level A2 (Nat),15949,19684,Witness Care Officer,14.0,Operational Delivery
+541,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level A2 Per Sec (Nat),17357,23590,Casework Assistant,0.7,Operational Delivery
+542,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B1 (Nat),20277,25888,Area Finance and Resources Officer,1.0,Operational Delivery
+543,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B1 (Nat),20277,25888,Area Performance Manager,0.61,Operational Delivery
+544,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B1 (Nat),20277,25888,Business Support Manager,0.81,Operational Delivery
+545,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B1 (Nat),20277,25888,Case Progression Manager,16.38,Operational Delivery
+546,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B1 (Nat),20277,25888,Casework Administration Manager,7.81,Operational Delivery
+547,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B1 (Nat),20277,25888,Facilities Manager,1.0,Operational Delivery
+548,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B1 (Nat),20277,25888,Fees Manager,0.92,Operational Delivery
+549,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B1 (Nat),20277,25888,Personal Assistant,1.0,Operational Delivery
+550,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B1 (Nat),20277,25888,Senior Personal Assistant,3.0,Operational Delivery
+551,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B1 (Nat),20277,25888,Witness Care Manager,1.0,Operational Delivery
+552,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B1 Paralegal Officer (Nat),20277,25888,Paralegal Officer,54.48,Operational Delivery
+553,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B2 (Nat),25972,30616,Area Performance Manager,1.0,Operational Delivery
+554,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B2 (Nat),25972,30616,Business Manager,6.0,Operational Delivery
+555,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B2 (Nat),25972,30616,HR Advisor,1.0,Operational Delivery
+556,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B2 (Nat),25972,30616,Project Support Office Manager,1.0,Operational Delivery
+557,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B2 Paralegal BM (Nat),25972,30616,Paralegal Business Manager,2.0,Operational Delivery
+558,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B3 (Nat),32228,39876,Area Communications Manager,1.0,Operational Delivery
+559,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B3 (Nat),32228,39876,Area Operations Manager,1.0,Operational Delivery
+560,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B3 (Nat),32228,39876,"Equality, Diversity and Community Engagement Manager",1.0,Operational Delivery
+561,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level B3 (Nat),32228,39876,Sector Business Manager,2.0,Operational Delivery
+562,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level D Admin (Nat),45191,58489,Business Change and Delivery Manager,1.0,Operational Delivery
+563,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level D Legal (Nat),45191,58489,District Crown Prosecutor,14.86,Operational Delivery
+564,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level D Legal (Nat),45191,58489,Legal Advisor,1.0,Operational Delivery
+565,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level D Legal (Nat),45191,58489,Legal Manager,1.0,Operational Delivery
+566,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level E Admin (Nat),62437,72453,Area Business Manager,1.0,Operational Delivery
+567,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level E Legal (Nat),62437,72453,Senior District Crown Prosecutor,2.0,Operational Delivery
+568,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Level E Legal (Nat),62437,72453,Head of Complex Casework Unit,1.0,Operational Delivery
+569,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Paralegal Assistant (Nat),16489,21050,Paralegal Assistant,32.78,Operational Delivery
+570,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Principal Crown Advocate (Nat),71114,78355,Principal Crown Advocate,2.0,Operational Delivery
+571,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,SCP Above Break Point (Nat),42305,51113,Senior Crown Prosecutor ,57.45,Operational Delivery
+572,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Senior Crown Advocate (Nat),61960,67255,Senior Crown Advocate,3.0,Operational Delivery
+573,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Senior Crown Prosecutor (Nat),35376,43157,Senior Crown Prosecutor ,73.85,Operational Delivery
+574,Crown Prosecution Service,Crown Prosecution Service,WEST MIDLANDS,CPS-G-003,Principal Crown Advocate (Ctrl Div),93095,114920,Principal Crown Advocate,1.0,Operational Delivery
+575,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Associate Prosecutor (Nat),26881,31688,Associate Prosecutor,31.23,Operational Delivery
+576,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Associate Prosecutor 2 (Nat),31296,36339,Associate Prosecutor,8.0,Operational Delivery
+577,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Crown Advocate (Nat),47605,59285,Crown Advocate,46.72,Operational Delivery
+578,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Crown Advocate Ctrl Div (Nat),50560,63752,Crown Advocate,1.0,Operational Delivery
+579,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Crown Prosecutor (Nat),27722,31688,Crown Prosecutor,0.64,Operational Delivery
+580,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level A1 (Nat),14033,16942,Administrative Assistant,2.0,Operational Delivery
+581,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level A1 (Nat),14033,16942,Archivist,3.81,Operational Delivery
+582,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level A1 (Nat),14033,16942,Casework Assistant,5.0,Operational Delivery
+583,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level A1 (Nat),14033,16942,Driver,2.0,Operational Delivery
+584,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level A1 (Nat),14033,16942,Receptionist,1.0,Operational Delivery
+585,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level A1 (Nat),14033,16942,Reprographics Officer,1.0,Operational Delivery
+586,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level A2 (Nat),15949,19684,Administrative Officer,33.8,Operational Delivery
+587,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level A2 (Nat),15949,19684,Casework Assistant,72.39,Operational Delivery
+588,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level A2 (Nat),15949,19684,Driver,2.0,Operational Delivery
+589,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level A2 (Nat),15949,19684,Fees Clerk,5.0,Operational Delivery
+590,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level A2 (Nat),15949,19684,Victim and Witness Care Support Officer,1.0,Operational Delivery
+591,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level A2 (Nat),15949,19684,Witness Care Officer,8.95,Operational Delivery
+592,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B1 (Nat),20277,25888,Administrative Manager,9.8,Operational Delivery
+593,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B1 (Nat),20277,25888,Area Facilities Officer,2.0,Operational Delivery
+594,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B1 (Nat),20277,25888,Area Performance Officer,1.0,Operational Delivery
+595,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B1 (Nat),20277,25888,Case Progression Manager,8.85,Operational Delivery
+596,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B1 (Nat),20277,25888,Casework Administration Manager,2.0,Operational Delivery
+597,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B1 (Nat),20277,25888,Casework Assistant,1.86,Operational Delivery
+598,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B1 (Nat),20277,25888,Fees Manager,2.0,Operational Delivery
+599,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B1 (Nat),20277,25888,Finance Manager,1.0,Operational Delivery
+600,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B1 (Nat),20277,25888,HR Officer,1.0,Operational Delivery
+601,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B1 (Nat),20277,25888,Paralegal Officer,1.6,Operational Delivery
+602,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B1 (Nat),20277,25888,Senior Personal Assistant,4.68,Operational Delivery
+603,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B1 (Nat),20277,25888,Victim and Witness Care Support Officer,4.92,Operational Delivery
+604,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B1 (Nat),20277,25888,Witness Care Manager,1.21,Operational Delivery
+605,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B2 (Nat),25972,30616,Area Finance Manager,1.76,Operational Delivery
+606,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B2 (Nat),25972,30616,Area Performance Manager,1.0,Operational Delivery
+607,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B2 (Nat),25972,30616,District Business Manager,8.62,Operational Delivery
+608,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B2 (Nat),25972,30616,HR Advisor,2.0,Operational Delivery
+609,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B2 Paralegal BM (Nat),25972,30616,Paralegal Business Manager,8.18,Operational Delivery
+610,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B3 (Nat),32228,39876,Area Operations Manager,1.0,Operational Delivery
+611,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B3 (Nat),32228,39876,Communications Manager,1.8,Operational Delivery
+612,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B3 (Nat),32228,39876,"Equality, Diversity and Community Engagement Manager",1.0,Operational Delivery
+613,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level D Admin (Nat),45191,58489,Area Operations Manager,1.0,Operational Delivery
+614,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level D Admin (Nat),45191,58489,Business Change and Delivery Manager,1.0,Operational Delivery
+615,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level D Legal (Nat),45191,58489,District Crown Prosecutor,16.01,Operational Delivery
+616,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level E Admin (Nat),62437,72453,Area Business Manager,1.0,Operational Delivery
+617,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level E Legal (Nat),62437,72453,Head of Complex Casework Unit,1.0,Operational Delivery
+618,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level E Legal (Nat),62437,72453,Senior District Crown Prosecutor,4.0,Operational Delivery
+619,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level E Legal (Nat),62437,72453,Special Casework Lawyer,0.6,Operational Delivery
+620,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Paralegal Assistant (Nat),16489,21050,Paralegal Assistant,21.48,Operational Delivery
+621,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Principal Crown Advocate (Nat),71114,78355,Principal Crown Advocate,2.0,Operational Delivery
+622,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,SCP Above Break Point (Nat),42305,51113,Senior Crown Prosecutor ,60.23,Operational Delivery
+623,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Senior Crown Prosecutor (Nat),35376,43157,Senior Crown Prosecutor ,40.29,Operational Delivery
+624,Crown Prosecution Service,Crown Prosecution Service,YORKSHIRE AND HUMBERSIDE,CPS-G-004,Level B1 Paralegal Officer (Nat),20277,25888,Paralegal Officer,65.12,Operational Delivery
+625,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level A1 (Lon),15015,18091,Administrative Assistant,2.0,Operational Delivery
+626,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level A2 (Lon),17275,21090,Administrative Officer,5.0,Operational Delivery
+627,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level A2 (Nat),15949,19684,Administrative Officer,1.0,Operational Delivery
+628,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level B1 (Lon),21304,27403,Administrative Manager,1.0,Operational Delivery
+629,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level B1 (Lon),21304,27403,Fees Manager,1.0,Operational Delivery
+630,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level B1 (Lon),21304,27403,Paralegal Officer,22.52,Operational Delivery
+631,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level B1 (Lon),21304,27403,Senior Personal Assistant,1.0,Operational Delivery
+632,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level B1 (Nat),20277,25888,Administrative Manager,1.0,Operational Delivery
+633,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level B1 (Nat),20277,25888,Paralegal Officer,6.61,Operational Delivery
+634,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level B1 (Nat),20277,25888,Project Manager,1.0,Operational Delivery
+635,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level B1 (Nat),20277,25888,Senior Personal Assistant,1.0,Operational Delivery
+636,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level B2 (Lon),26905,32183,Area Finance Manager,1.0,Operational Delivery
+637,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level B2 (Lon),26905,32183,Business Manager,1.0,Operational Delivery
+638,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level B2 (Lon),26905,32183,Project Manager,2.0,Operational Delivery
+639,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level B2 (Lon),26905,32183,Executive Assistant,1.0,Operational Delivery
+640,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level B2 (Nat),25972,30616,Business Manager,1.0,Operational Delivery
+641,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level B2 (Nat),25972,30616,Paralegal Business Manager,1.0,Operational Delivery
+642,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level D Admin (Lon),48665,63752,Area Business Manager,1.0,Operational Delivery
+643,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level D Admin (Lon),48665,63752,Senior Policy Advisor,1.0,Operational Delivery
+644,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level E Legal (Lon),65005,74445,Head of Unit,3.0,Operational Delivery
+645,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level E Legal (Lon),65005,74445,Legal Advisor,7.75,Operational Delivery
+646,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level E Legal (Nat),62437,72453,Head of Unit,1.0,Operational Delivery
+647,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level E Legal (Nat),62437,72453,Legal Advisor,4.72,Operational Delivery
+648,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Paralegal Assistant (Lon),17816,22050,Paralegal Assistant,2.0,Operational Delivery
+649,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Paralegal Assistant (Nat),16489,21050,Paralegal Assistant,3.0,Operational Delivery
+650,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Senior Crown Prosecutor (Lon),36791,44776,Senior Crown Prosecutor ,1.0,Operational Delivery
+651,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Senior Crown Prosecutor (Nat),35376,43157,Senior Crown Prosecutor ,2.0,Operational Delivery
+652,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Specialist Prosecutor (Lon),54532,68518,Specialist Prosecutor,20.91,Operational Delivery
+653,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Specialist Prosecutor (Nat),50560,63752,Specialist Prosecutor,6.25,Operational Delivery
+654,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level B1 Paralegal Officer (Nat),20277,25888,Paralegal Officer,3.0,Operational Delivery
+655,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level B1 Paralegal Officer (Lon),21304,27403,Administrative Manager,1.0,Operational Delivery
+656,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Level B1 Paralegal Officer (Lon),21304,27403,Paralegal Officer,2.0,Operational Delivery
+657,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,RCPO - Executive Officer (Lon),24304,30132,Paralegal Officer,6.99,Operational Delivery
+658,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,RCPO - Higher Exec Officer (Lon),29905,36200,Senior Casework Manager,2.8,Operational Delivery
+659,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,RCPO - Admin Assistant (Lon),18015,20412,Casework Assistant,1.0,Operational Delivery
+660,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,RCPO - Admin Officer (Nat),15949,19300,Administrative Officer,0.41,Operational Delivery
+661,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,RCPO - Admin Officer (Lon),20275,23381,Administrative Officer,2.0,Operational Delivery
+662,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,RCPO - Admin Officer (Lon),20275,23381,Fees Clerk,1.0,Operational Delivery
+663,Crown Prosecution Service,Crown Prosecution Service,Central Fraud Group,CPS-C-042,Senior Legal Assistant (Lon),68751,70272,Senior Legal Advisor,1.0,Operational Delivery
+664,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Crown Advocate (Lon),50660,63814,Specialist Prosecutor,1.0,Operational Delivery
+665,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level A1 (Lon),15015,18091,Administrative Assistant,2.0,Operational Delivery
+666,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level A1 (Nat),14033,16942,Administrative Assistant,1.0,Operational Delivery
+667,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level A2 (Lon),17275,21090,Casework Assistant,10.9,Operational Delivery
+668,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level A2 (Nat),15949,19684,Casework Assistant,2.46,Operational Delivery
+669,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level B1 (Lon),21304,27403,Casework Administration Manager,1.0,Operational Delivery
+670,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level B1 (Lon),21304,27403,Caseworker,25.0,Operational Delivery
+671,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level B1 (Lon),21304,27403,Paralegal Officer,1.0,Operational Delivery
+672,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level B1 (Lon),21304,27403,Performance Officer,1.0,Operational Delivery
+673,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level B1 (Lon),21304,27403,Senior Personal Assistant,1.0,Operational Delivery
+674,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level B1 (Nat),20277,25888,Casework Administration Manager,1.0,Operational Delivery
+675,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level B2 (Lon),26905,32183,Examiner,2.64,Operational Delivery
+676,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level B2 (Lon),26905,32183,Paralegal Business Manager,2.0,Operational Delivery
+677,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level B2 (Lon),26905,32183,Senior Casework Manager,3.0,Operational Delivery
+678,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level B2 (Nat),25972,30616,Paralegal Business Manager,1.0,Operational Delivery
+679,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level B2 Paralegal BM (Lon),26905,32183,Paralegal Business Manager,1.0,Operational Delivery
+680,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level B3 (Lon),33239,41844,Project Manager,1.0,Operational Delivery
+681,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level B3 (Lon),33239,41844,Senior Business Manager,1.0,Operational Delivery
+682,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level D Legal (Lon),48665,63752,Prosecutor,1.0,Operational Delivery
+683,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level D Legal (Nat),45191,58489,Prosecutor,2.0,Operational Delivery
+684,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level E Legal (Lon),65005,74445,Head of Unit,5.0,Operational Delivery
+685,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level E Legal (Lon),65005,74445,Prosecutor,4.0,Operational Delivery
+686,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level E Legal (Nat),62437,72453,Head of Unit,2.0,Operational Delivery
+687,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level E Legal (Nat),62437,72453,Prosecutor,1.0,Operational Delivery
+688,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Paralegal Assistant (Lon),17816,22050,Paralegal Assistant,1.0,Operational Delivery
+689,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Paralegal Assistant (Nat),16489,21050,Paralegal Assistant,3.0,Operational Delivery
+690,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Principal Crown Advocate (Ctrl Div),93095,114920,Principal Crown Advocate,5.0,Operational Delivery
+691,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Senior Crown Advocate (Lon),64649,69997,Senior Crown Advocate,1.0,Operational Delivery
+692,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Senior Crown Prosecutor (Lon),36791,44776,Senior Crown Prosecutor ,0.6,Operational Delivery
+693,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Specialist Prosecutor (Lon),54532,68518,Specialist Prosecutor,36.62,Operational Delivery
+694,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Specialist Prosecutor (Nat),50560,63752,Specialist Prosecutor,10.5,Operational Delivery
+695,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level B1 Paralegal Officer (Lon),21304,27403,Paralegal Officer,9.83,Operational Delivery
+696,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Level B1 Paralegal Officer (Nat),20277,25888,Paralegal Officer,8.0,Operational Delivery
+697,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,Senior Legal Assistant (Lon),68751,70272,Senior Legal Advisor,1.0,Operational Delivery
+698,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,RCPO - Admin Officer (Lon),20275,23381,Casework Assistant,1.0,Operational Delivery
+699,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,RCPO - Executive Officer (Lon),24304,30132,Caseworker,0.44,Operational Delivery
+700,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,RCPO - Executive Officer (Lon),24304,30132,Paralegal Officer,1.0,Operational Delivery
+701,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-029,RCPO - Higher Exec Officer (Lon),29905,36200,Paralegal Business Manager,1.0,Operational Delivery
+702,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level A2 (Lon),17275,21090,Administrative Officer,2.33,Operational Delivery
+703,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level A2 (Lon),17275,21090,Casework Assistant,9.47,Operational Delivery
+704,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level A2 (Lon),17275,21090,Personal Assistant,1.0,Operational Delivery
+705,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level A2 (Lon),17275,21090,Witness Care Officer,2.0,Operational Delivery
+706,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level A2 (Nat),15949,19684,Casework Assistant,5.04,Operational Delivery
+707,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level B1 (Lon),21304,27403,Area Co-Ordinator,0.67,Operational Delivery
+708,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level B1 (Lon),21304,27403,Case Progression Manager,1.0,Operational Delivery
+709,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level B1 (Lon),21304,27403,Casework Administration Manager,1.0,Operational Delivery
+710,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level B1 (Lon),21304,27403,Communications Officer,1.0,Operational Delivery
+711,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level B1 (Lon),21304,27403,Fees Manager,1.0,Operational Delivery
+712,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level B1 (Lon),21304,27403,Finance Officer,0.6,Operational Delivery
+713,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level B1 (Lon),21304,27403,Paralegal Officer,1.0,Operational Delivery
+714,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level B1 (Lon),21304,27403,Senior Personal Assistant,0.83,Operational Delivery
+715,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level B1 (Nat),20277,25888,Paralegal Officer,1.0,Operational Delivery
+716,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level B1 Paralegal Officer (Lon),21304,27403,Paralegal Officer,20.5,Operational Delivery
+717,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level B1 Paralegal Officer (Nat),20277,25888,Paralegal Officer,4.8,Operational Delivery
+718,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level B2 (Lon),26905,32183,Group Finance Manager,1.0,Operational Delivery
+719,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level B2 (Lon),26905,32183,Group Performance Manager,1.0,Operational Delivery
+720,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level B2 (Lon),26905,32183,Paralegal Business Manager,1.0,Operational Delivery
+721,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level B2 (Lon),26905,32183,Senior Casework Manager,1.0,Operational Delivery
+722,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level B2 (Nat),25972,30616,Paralegal Business Manager,0.86,Operational Delivery
+723,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level B2 Paralegal BM (Lon),26905,32183,Paralegal Business Manager,2.0,Operational Delivery
+724,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level B3 (Lon),33239,41844,Senior Business Manager,1.0,Operational Delivery
+725,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level D Admin (Lon),48665,63752,Senior Business Manager,1.0,Operational Delivery
+726,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level E Legal (Lon),65005,74445,Head of Unit,5.0,Operational Delivery
+727,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level E Legal (Lon),65005,74445,Prosecutor,3.69,Operational Delivery
+728,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level E Legal (Nat),62437,72453,Head of Unit,1.0,Operational Delivery
+729,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Level E Legal (Nat),62437,72453,Prosecutor,4.0,Operational Delivery
+730,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Paralegal Assistant (Lon),17816,22050,Paralegal Assistant,8.29,Operational Delivery
+731,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Paralegal Assistant (Nat),16489,21050,Paralegal Assistant,1.61,Operational Delivery
+732,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,RCPO - Higher Exec Officer (Lon),29905,36200,Paralegal Business Manager,1.0,Operational Delivery
+733,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Senior Crown Advocate (Lon),64649,69997,Senior Crown Advocate,2.0,Operational Delivery
+734,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Senior Crown Prosecutor (Lon),36791,44776,Senior Crown Prosecutor ,6.0,Operational Delivery
+735,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Specialist Prosecutor (Lon),54532,68518,Specialist Prosecutor,30.03,Operational Delivery
+736,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Specialist Prosecutor (Nat),50560,63752,Specialist Prosecutor,12.61,Operational Delivery
+737,Crown Prosecution Service,Crown Prosecution Service,Serious Crime Group,CPS-C-046,Principal Crown Advocate (Ctrl Div),93095,114920,Principal Crown Advocate,2.0,Operational Delivery
+738,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Admin Assistant Nat DWP,14700,15540,Administrative Assistant,1.0,Operational Delivery
+739,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Admin Officer Lon DWP,20380,21970,Administrative Officer,4.44,Operational Delivery
+740,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Admin Officer Nat DWP,16420,19090,Administrative Officer,45.91,Operational Delivery
+741,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Admin Officer Nat DWP,16420,19090,Case Progression Manager,1.0,Operational Delivery
+742,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,DEFRA - Grade 6 Legal,58516,69680,Specialist Prosecutor,1.0,Operational Delivery
+743,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Executive Officer Nat DWP,21760,24730,Case Progression Manager,11.3,Operational Delivery
+744,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Executive Officer Lon DWP,24430,28710,Case Progression Manager,6.6,Operational Delivery
+745,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Executive Officer Lon DWP,24430,28710,Executive Officer,2.0,Operational Delivery
+746,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Grade 6 Nat DWP - Lawyer,54440,66770,Head of Unit,2.0,Operational Delivery
+747,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Grade 7 Lon DWP - Lawyer,48520,59250,Prosecutor,2.81,Operational Delivery
+748,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Grade 7 Nat DWP - Lawyer,44080,54570,Prosecutor,15.73,Operational Delivery
+749,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,HEO Nat DWP,25160,30410,Paralegal Business Manager,4.0,Operational Delivery
+750,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Legal Trainee B1 (Lon),21304,27403,Legal Trainee,2.0,Operational Delivery
+751,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Level A2 (Lon),17275,21090,Administrative Officer,4.0,Operational Delivery
+752,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Level A2 (Nat),15949,19684,Administrative Officer,8.0,Operational Delivery
+753,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Level B1 (Lon),21304,27403,Case Progression Manager,1.0,Operational Delivery
+754,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Level B1 (Lon),21304,27403,Senior Personal Assistant,1.0,Operational Delivery
+755,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Level B2 (Lon),26905,32183,Paralegal Business Manager,1.0,Operational Delivery
+756,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Level B2 Paralegal BM (Lon),26905,32183,Paralegal Business Manager,1.0,Operational Delivery
+757,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Level E Legal (Lon),65005,74445,Head of Unit,2.0,Operational Delivery
+758,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Senior Crown Prosecutor (Lon),36791,44776,Senior Crown Prosecutor ,2.0,Operational Delivery
+759,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Senior Crown Prosecutor (Nat),35376,43157,Senior Crown Prosecutor ,1.0,Operational Delivery
+760,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Specialist Prosecutor (Lon),54532,68518,Specialist Prosecutor,1.0,Operational Delivery
+761,Crown Prosecution Service,Crown Prosecution Service,"Welfare, Rural and Health Division",CPS-C-041,Executive Officer Nat DWP,21760,24730,Executive Officer,2.92,Operational Delivery
+762,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level A2 (Lon),17275,21090,Administrative Officer,2.8,Operational Delivery
+763,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level A2 (Nat),15949,19684,Administrative Officer,1.0,Operational Delivery
+764,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level A2 (Nat),15949,19684,Service Desk Analyst,1.0,Information Technology
+765,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B1 (Lon),21304,27403,Information Management Advisor,2.0,Information Technology
+766,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B1 (Lon),21304,27403,Programme Support Officer,2.0,Operational Delivery
+767,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B1 (Nat),20277,25888,Administrative Manager,0.61,Operational Delivery
+768,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B1 (Nat),20277,25888,Business Centre Support Officer,1.0,Operational Delivery
+769,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B1 (Nat),20277,25888,Finance Officer,2.0,Operational Delivery
+770,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B1 (Nat),20277,25888,HR Data Consultant,3.0,Operational Delivery
+771,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B1 (Nat),20277,25888,Performance Officer,3.0,Operational Delivery
+772,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B1 (Nat),20277,25888,Project Support Officer,2.0,Operational Delivery
+773,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B1 (Nat),20277,25888,Senior Service Desk Analyst,2.0,Information Technology
+774,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B1 (Nat),20277,25888,System Manager,1.0,Information Technology
+775,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B2 (Lon),26905,32183,Business Analyst,1.0,Information Technology
+776,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B2 (Lon),26905,32183,Business Manager,1.0,Operational Delivery
+777,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B2 (Lon),26905,32183,Practitioner,1.0,Information Technology
+778,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B2 (Lon),26905,32183,Project Implementation Manager,1.0,Operational Delivery
+779,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B2 (Lon),26905,32183,Senior Information Management Advisor,2.0,Information Technology
+780,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B2 (Nat),25972,30616,Business Analyst,2.0,Information Technology
+781,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B2 (Nat),25972,30616,Knowledge Information Management Support Officer,3.0,Information Technology
+782,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B2 (Nat),25972,30616,Practitioner,1.0,Information Technology
+783,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B2 (Nat),25972,30616,Project Implementation Manager,1.0,Information Technology
+784,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B2 (Nat),25972,30616,Project Support Office Manager,1.0,Operational Delivery
+785,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B2 (Nat),25972,30616,Senior Information Management Advisor,1.65,Information Technology
+786,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B2 (Nat),25972,30616,Senior Practitioner,2.0,Information Technology
+787,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B2 (Nat),25972,30616,System Manager,1.0,Information Technology
+788,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B3 (Lon),33239,41844,Business Continuity and Disaster Recovery Manager,1.0,Operational Delivery
+789,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B3 (Lon),33239,41844,Contracts Manager,0.58,Operational Delivery
+790,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B3 (Lon),33239,41844,Deputy Information Management Advisor,1.0,Information Technology
+791,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B3 (Lon),33239,41844,Knowledge Information Management Manager,1.0,Information Technology
+792,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B3 (Lon),33239,41844,Senior Business Analyst,2.0,Information Technology
+793,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B3 (Lon),33239,41844,Senior Information Manager,1.0,Information Technology
+794,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B3 (Lon),33239,41844,Senior Project Manager,1.0,Operational Delivery
+795,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B3 (Nat),32228,39876,Knowledge Information Management Manager,1.0,Information Technology
+796,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B3 (Nat),32228,39876,Performance Manager,1.0,Information Technology
+797,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B3 (Nat),32228,39876,Project Implementation Manager,2.0,Operational Delivery
+798,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B3 (Nat),32228,39876,Senior Project Manager,1.0,Operational Delivery
+799,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level B3 (Nat),32228,39876,System Manager,2.0,Information Technology
+800,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level D Admin (Lon),48665,63752,Delivery Manager,1.0,Operational Delivery
+801,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level D Admin (Lon),48665,63752,Principal Management Consultant,1.0,Operational Delivery
+802,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level D Admin (Lon),48665,63752,Senior Business Analyst,1.0,Information Technology
+803,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level D Admin (Lon),48665,63752,Senior Contract Manager,1.0,Operational Delivery
+804,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level D Admin (Lon),48665,63752,Senior Information Manager,1.0,Information Technology
+805,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level D Admin (Nat),45191,58489,Delivery Manager,2.0,Information Technology
+806,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level D Admin (Nat),45191,58489,Departmental Records and Security Officer,1.0,Operational Delivery
+807,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level D Admin (Nat),45191,58489,Head of HR Systems and Payroll Delivery,1.0,Information Technology
+808,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level D Admin (Nat),45191,58489,Project Manager,2.0,Operational Delivery
+809,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level E Admin (Lon),65005,74445,Head of Division Information Management,1.0,Information Technology
+810,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level E Admin (Lon),65005,74445,Senior Project Manager,1.0,Information Technology
+811,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level E Admin (Lon),65005,74445,Strategic Manager,1.0,Information Technology
+812,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,Level E Admin (Nat),62437,72453,Head of Technology Change ,1.0,Information Technology
+813,Crown Prosecution Service,Crown Prosecution Service,HQ Business Information Systems Directorate,CPS-S-025,SCP Above Break Point (Nat),42305,51113,Lead Practitioner Manager Expert,1.0,Information Technology
+814,Crown Prosecution Service,Crown Prosecution Service,HQ Communication Division,CPS-S-020,Level A1 (Lon),15015,18091,Administrative Assistant,1.0,Operational Delivery
+815,Crown Prosecution Service,Crown Prosecution Service,HQ Communication Division,CPS-S-020,Level A2 (Lon),17275,21090,Administrative Officer,1.0,Operational Delivery
+816,Crown Prosecution Service,Crown Prosecution Service,HQ Communication Division,CPS-S-020,Level B1 (Lon),21304,27403,Assistant Information Officer,0.83,Communications
+817,Crown Prosecution Service,Crown Prosecution Service,HQ Communication Division,CPS-S-020,Level B2 (Lon),26905,32183,Information Officer,3.0,Communications
+818,Crown Prosecution Service,Crown Prosecution Service,HQ Communication Division,CPS-S-020,Level B2 (Lon),26905,32183,Librarian,1.0,Communications
+819,Crown Prosecution Service,Crown Prosecution Service,HQ Communication Division,CPS-S-020,Level B2 (Lon),26905,32183,Press Officer,3.0,Communications
+820,Crown Prosecution Service,Crown Prosecution Service,HQ Communication Division,CPS-S-020,Level B3 (Lon),33239,41844,Senior Information Officer,2.0,Communications
+821,Crown Prosecution Service,Crown Prosecution Service,HQ Communication Division,CPS-S-020,Level B3 (Lon),33239,41844,Senior Press Officer,3.0,Communications
+822,Crown Prosecution Service,Crown Prosecution Service,HQ Communication Division,CPS-S-020,Level D Admin (Lon),48665,63752,Chief Press Officer,2.0,Communications
+823,Crown Prosecution Service,Crown Prosecution Service,HQ Communication Division,CPS-S-020,RCPO - Executive Officer (Lon),24304,30132,Assistant Information Officer,1.0,Communications
+824,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level A1 (Lon),15015,18091,Messenger,4.0,Operational Delivery
+825,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level A1 (Nat),14033,16942,Administrative Assistant,1.0,Operational Delivery
+826,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level A2 (Lon),17275,21090,Administrative Officer,1.29,Operational Delivery
+827,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level A2 (Lon),17275,21090,Finance Support Officer,1.0,Operational Delivery
+828,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level A2 (Lon),17275,21090,Mail Room Supervisor,1.0,Operational Delivery
+829,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level A2 (Lon),17275,21090,Payroll Administrator,1.0,Operational Delivery
+830,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level A2 (Nat),15949,19684,Administrative Officer,17.06,Operational Delivery
+831,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level A2 (Nat),15949,19684,Facilities Management Assistant,2.0,Operational Delivery
+832,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level A2 (Nat),15949,19684,Finance Support Officer,1.0,Operational Delivery
+833,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level A2 (Nat),15949,19684,Payroll Administrator,12.02,Operational Delivery
+834,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B1 (Lon),21304,27403,Finance Officer,2.89,Operational Delivery
+835,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B1 (Lon),21304,27403,Payroll Team Leader,0.64,Operational Delivery
+836,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B1 (Lon),21304,27403,Procurement Officer,1.0,Operational Delivery
+837,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B1 (Lon),21304,27403,Senior Personal Assistant,1.0,Operational Delivery
+838,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B1 (Nat),20277,25888,Business Centre Support Officer,3.65,Operational Delivery
+839,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B1 (Nat),20277,25888,Facilities Management Officer,1.0,Operational Delivery
+840,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B1 (Nat),20277,25888,Finance Officer,3.0,Operational Delivery
+841,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B1 (Nat),20277,25888,Payroll Team Leader,2.61,Operational Delivery
+842,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B1 (Nat),20277,25888,Practitioner,1.0,Operational Delivery
+843,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B2 (Lon),26905,32183,Estates Advisor,1.0,Operational Delivery
+844,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B2 (Lon),26905,32183,Facilities Manager,0.94,Operational Delivery
+845,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B2 (Lon),26905,32183,Finance Manager,2.0,Finance
+846,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B2 (Lon),26905,32183,Practitioner,1.0,Operational Delivery
+847,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B2 (Lon),26905,32183,Procurement Manager,2.0,Procurement
+848,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B2 (Nat),25972,30616,Business Centre Support Officer,1.0,Operational Delivery
+849,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B2 (Nat),25972,30616,Estates Advisor,3.0,Operational Delivery
+850,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B2 (Nat),25972,30616,Finance Manager,2.0,Finance
+851,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B2 (Nat),25972,30616,Operations Manager,1.0,Operational Delivery
+852,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B2 (Nat),25972,30616,Payroll Manager,2.0,Operational Delivery
+853,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B2 (Nat),25972,30616,Procurement Manager,1.0,Procurement
+854,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B3 (Lon),33239,41844,Business Centre Manager,1.0,Operational Delivery
+855,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B3 (Lon),33239,41844,Contracts Manager,0.83,Procurement
+856,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B3 (Lon),33239,41844,Health and Safety Senior Advisor,1.0,Operational Delivery
+857,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B3 (Lon),33239,41844,Senior Finance Manager,1.0,Finance
+858,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B3 (Lon),33239,41844,Senior Internal Auditor,3.0,Internal Audit
+859,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B3 (Lon),33239,41844,Senior Procurement Manager,1.0,Procurement
+860,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B3 (Nat),32228,39876,Business Centre Manager,1.0,Operational Delivery
+861,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B3 (Nat),32228,39876,Projects Delivery Manager,1.0,Operational Delivery
+862,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B3 (Nat),32228,39876,Senior Finance Manager,1.0,Finance
+863,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B3 (Nat),32228,39876,Senior Procurement Manager,1.0,Procurement
+864,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level B3 (Nat),32228,39876,Sustainable Development Senior Advisor,1.0,Operational Delivery
+865,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level D Admin (Lon),48665,63752,Business Change and Delivery Manager,1.0,Operational Delivery
+866,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level D Admin (Lon),48665,63752,Deputy Head of Financial Planning and Budgets,1.0,Finance
+867,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level D Admin (Lon),48665,63752,Head of Central Property Unit,0.9,Procurement
+868,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level D Admin (Lon),48665,63752,Head of Internal Audit,1.0,Internal Audit
+869,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level D Admin (Lon),48665,63752,Head of Procurement and Commercial Services,1.0,Procurement
+870,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level D Admin (Nat),45191,58489,Finance Manager,1.0,Finance
+871,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level E Admin (Lon),65005,74445,Head of Finance,1.0,Finance
+872,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level E Admin (Lon),65005,74445,Head of Financial Planning and Budgetary Control,1.0,Finance
+873,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level E Admin (Lon),65005,74445,Head of Procurement and Estates,1.0,Procurement
+874,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,Level E Admin (Lon),65005,74445,Head of Unit,1.0,Finance
+875,Crown Prosecution Service,Crown Prosecution Service,HQ Finance Directorate,CPS-S-013,RCPO - Executive Officer (Lon),24304,30132,Facilities Management Officer,1.0,Operational Delivery
+876,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level A2 (Lon),17275,21090,Administrative Officer,3.0,Operational Delivery
+877,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level A2 (Nat),15949,19684,Administrative Officer,0.86,Operational Delivery
+878,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level B1 (Lon),21304,27403,Business Support Officer,3.0,Operational Delivery
+879,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level B1 (Lon),21304,27403,Delivery Officer,0.67,Operational Delivery
+880,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level B1 (Lon),21304,27403,Senior Personal Assistant,1.0,Operational Delivery
+881,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level B2 (Lon),26905,32183,Business Manager,1.89,Operational Delivery
+882,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level B2 (Lon),26905,32183,Case Auditor,3.0,Operational Delivery
+883,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level B2 (Lon),26905,32183,Delivery Manager,1.0,Operational Delivery
+884,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level B2 (Lon),26905,32183,Information System Manager,1.0,Operational Delivery
+885,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level B2 (Lon),26905,32183,Performance Manager,2.0,Operational Delivery
+886,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level B2 (Lon),26905,32183,Project Manager,1.0,Operational Delivery
+887,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level B2 (Nat),25972,30616,Activity Based Costing Advisor,1.76,Operational Delivery
+888,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level B2 (Nat),25972,30616,Case Auditor,2.0,Operational Delivery
+889,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level B3 (Lon),33239,41844,Area Co-ordinator,4.0,Operational Delivery
+890,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level B3 (Lon),33239,41844,Delivery Manager,1.0,Operational Delivery
+891,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level B3 (Lon),33239,41844,Head of Fees,1.0,Operational Delivery
+892,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level B3 (Lon),33239,41844,Policy Advisor,1.0,Operational Delivery
+893,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level B3 (Lon),33239,41844,Project Implementation Manager,1.0,Operational Delivery
+894,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level B3 (Lon),33239,41844,Practitioner,4.0,Operational Delivery
+895,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level B3 (Nat),32228,39876,Senior Project Manager,1.0,Operational Delivery
+896,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level B3 (Nat),32228,39876,Practitioner,6.0,Operational Delivery
+897,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level D Admin (Lon),48665,63752,Business Change and Delivery Manager,1.0,Operational Delivery
+898,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level D Admin (Lon),48665,63752,Senior Policy Advisor,1.0,Operational Delivery
+899,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level D Admin (Lon),48665,63752,Business Planning and Programme Manager,1.0,Operational Delivery
+900,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level D Admin (Nat),45191,58489,Regional Operations Manager,4.0,Operational Delivery
+901,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level E Admin (Lon),65005,74445,Head of Unit,2.0,Operational Delivery
+902,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level E Admin (Nat),62437,72453,Head of Unit,2.0,Operational Delivery
+903,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level E Legal (Lon),65005,74445,Head of Unit,1.0,Operational Delivery
+904,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level E Legal (Lon),65005,74445,Senior Legal Advisor,2.4,Operational Delivery
+905,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Level E Legal (Nat),62437,72453,Senior Legal Advisor,1.0,Operational Delivery
+906,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Specialist Prosecutor (Lon),54532,68518,Legal Advisor,5.0,Operational Delivery
+907,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Specialist Prosecutor (Lon),54532,68518,Specialist Prosecutor,15.0,Operational Delivery
+908,Crown Prosecution Service,Crown Prosecution Service,HQ Operations Directorate,CPS-S-027,Specialist Prosecutor (Nat),50560,63752,Specialist Prosecutor,4.0,Operational Delivery
+909,Crown Prosecution Service,Crown Prosecution Service,HQ Public Accountability and Inclusion Directorate,CPS-S-015,Level A2 (Lon),17275,21090,Administrative Officer,1.0,Operational Delivery
+910,Crown Prosecution Service,Crown Prosecution Service,HQ Public Accountability and Inclusion Directorate,CPS-S-015,Level B1 (Lon),21304,27403,Correspondence Unit Executive Support,2.4,Operational Delivery
+911,Crown Prosecution Service,Crown Prosecution Service,HQ Public Accountability and Inclusion Directorate,CPS-S-015,Level B1 (Lon),21304,27403,Senior Personal Assistant,1.0,Operational Delivery
+912,Crown Prosecution Service,Crown Prosecution Service,HQ Public Accountability and Inclusion Directorate,CPS-S-015,Level B2 (Lon),26905,32183,Business Manager,1.0,Operational Delivery
+913,Crown Prosecution Service,Crown Prosecution Service,HQ Public Accountability and Inclusion Directorate,CPS-S-015,Level B2 (Lon),26905,32183,Head of Correspondence Unit,1.0,Operational Delivery
+914,Crown Prosecution Service,Crown Prosecution Service,HQ Public Accountability and Inclusion Directorate,CPS-S-015,Level D Admin (Lon),48665,63752,Domestic Violence Implementation Manager,2.24,Operational Delivery
+915,Crown Prosecution Service,Crown Prosecution Service,HQ Public Accountability and Inclusion Directorate,CPS-S-015,Level D Admin (Lon),48665,63752,Equality and Diversity Policy Advisor,3.0,Operational Delivery
+916,Crown Prosecution Service,Crown Prosecution Service,HQ Public Accountability and Inclusion Directorate,CPS-S-015,Level D Admin (Nat),45191,58489,Equality and Diversity Policy Advisor,2.52,Operational Delivery
+917,Crown Prosecution Service,Crown Prosecution Service,Private Office,CPS-S-001,Crown Advocate (Lon),50660,63814,Crown Advocate,1.0,Operational Delivery
+918,Crown Prosecution Service,Crown Prosecution Service,Private Office,CPS-S-001,Level B1 (Lon),21304,27403,Senior Personal Assistant,1.0,Operational Delivery
+919,Crown Prosecution Service,Crown Prosecution Service,Private Office,CPS-S-001,Level B1 (Lon),21304,27403,Diary Manager,1.0,Operational Delivery
+920,Crown Prosecution Service,Crown Prosecution Service,Private Office,CPS-S-001,Level B3 (Lon),33239,41844,Private Secretary,2.0,Operational Delivery
+921,Crown Prosecution Service,Crown Prosecution Service,Private Office,CPS-S-001,Level D Admin (Lon),48665,63752,Principal Private Secretary,1.0,Operational Delivery
+922,Crown Prosecution Service,Crown Prosecution Service,Private Office,CPS-S-001,Level E Legal (Lon),65005,74445,Senior District Crown Prosecutor,1.0,Operational Delivery
+923,Crown Prosecution Service,Crown Prosecution Service,Private Office,CPS-S-001,Specialist Prosecutor (Lon),54532,68518,Specialist Prosecutor,1.0,Operational Delivery
+924,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Crown Advocate Ctrl Div (Nat),50560,63752,Senior Policy Advisor,1.0,Operational Delivery
+925,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Grade 6 Nat DWP - Lawyer,54440,66770,Senior Policy Advisor,0.73,Operational Delivery
+926,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Grade 7 Nat DWP - Lawyer,44080,54570,Senior Legal Advisor,1.0,Operational Delivery
+927,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level A2 (Lon),17275,21090,Administrative Officer,0.8,Operational Delivery
+928,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level A2 Per Sec (Lon),18622,24217,Personal Assistant,1.0,Operational Delivery
+929,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level B1 (Lon),21304,27403,Business Support Manager,3.83,Operational Delivery
+930,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level B1 (Lon),21304,27403,Programme Support Officer,1.0,Operational Delivery
+931,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level B1 (Lon),21304,27403,Project Support Officer,1.0,Operational Delivery
+932,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level B1 (Nat),20277,25888,Business Support Manager,1.0,Operational Delivery
+933,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level B2 (Lon),26905,32183,Operational Researcher,1.0,Operational Delivery
+934,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level B2 (Nat),25972,30616,Programme Manager,1.0,Operational Delivery
+935,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level B3 (Lon),33239,41844,Govenance and Reporting Officer,1.0,Operational Delivery
+936,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level B3 (Lon),33239,41844,Operational Policy Advisor,1.0,Operational Delivery
+937,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level B3 (Lon),33239,41844,Programme Team Leader,1.0,Operational Delivery
+938,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level B3 (Lon),33239,41844,Senior Project Manager,1.0,Operational Delivery
+939,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level B3 (Nat),32228,39876,Operational Policy Advisor,3.0,Operational Delivery
+940,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level D Admin (Lon),48665,63752,Senior Operational Researcher,1.0,Operational Delivery
+941,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level D Admin (Lon),48665,63752,Senior Policy Advisor,2.0,Operational Delivery
+942,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level D Admin (Lon),48665,63752,Strategy and Planning Manager,2.0,Operational Delivery
+943,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level D Admin (Nat),45191,58489,Senior Project Manager,1.0,Operational Delivery
+944,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level D Legal (Lon),48665,63752,Senior Policy Advisor,4.0,Operational Delivery
+945,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level E Admin (Lon),65005,74445,Head of Unit,3.0,Operational Delivery
+946,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level E Admin (Lon),65005,74445,Senior Business Manager,1.0,Operational Delivery
+947,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level E Admin (Lon),65005,74445,Senior Policy Advisor,1.0,Operational Delivery
+948,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level E Legal (Lon),65005,74445,Head of Unit,2.0,Operational Delivery
+949,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Level E Legal (Lon),65005,74445,Senior Legal Advisor,2.0,Operational Delivery
+950,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Specialist Prosecutor (Lon),54532,68518,Senior Policy Advisor,4.81,Operational Delivery
+951,Crown Prosecution Service,Crown Prosecution Service,HQ Strategy and Policy Directorate,CPS-S-026,Specialist Prosecutor (Nat),50560,63752,Senior Policy Advisor,1.73,Operational Delivery
+952,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level A2 (Lon),17275,21090,Administrative Officer,2.0,Operational Delivery
+953,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level A2 (Nat),15949,19684,Administrative Officer,4.0,Operational Delivery
+954,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level A2 (Nat),15949,19684,HR Officer,1.0,Operational Delivery
+955,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level B1 (Lon),21304,27403,HR Advisor,0.6,Human Resources
+956,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level B1 (Lon),21304,27403,Recruitment Senior Consultant,1.0,Human Resources
+957,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level B1 (Lon),21304,27403,Senior Management Support Officer,1.0,Operational Delivery
+958,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level B1 (Nat),20277,25888,Learning Operations Manager,2.0,Human Resources
+959,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level B1 (Nat),20277,25888,Recruitment Officer,4.54,Human Resources
+960,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level B2 (Lon),26905,32183,HR Advisor,7.44,Human Resources
+961,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level B2 (Lon),26905,32183,Management Training Partner,1.6,Human Resources
+962,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level B2 (Lon),26905,32183,Learning and Development Manager,0.89,Human Resources
+963,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level B2 (Nat),25972,30616,HR Consultant,1.0,Human Resources
+964,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level B2 (Nat),25972,30616,Management Training Partner,1.0,Human Resources
+965,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level B2 (Nat),25972,30616,Recruitment Senior Consultant,1.92,Human Resources
+966,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level B2 (Nat),25972,30616,Learning and Development Manager,3.0,Human Resources
+967,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level B2 (Nat),25972,30616,Business Manager,0.86,Operational Delivery
+968,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level B3 (Lon),33239,41844,Assistant HR Business Partner,4.0,Human Resources
+969,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level B3 (Lon),33239,41844,Senior Executive Assistant,1.0,Operational Delivery
+970,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level B3 (Lon),33239,41844,Senior HR Consultant,2.0,Human Resources
+971,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level B3 (Nat),32228,39876,Assistant HR Business Partner,2.57,Human Resources
+972,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level B3 (Nat),32228,39876,Learning and Development Team Leader,1.0,Human Resources
+973,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level B3 (Nat),32228,39876,Senior HR Consultant,5.0,Human Resources
+974,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level D Admin (Lon),48665,63752,HR Business Partner,3.89,Human Resources
+975,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level D Admin (Lon),48665,63752,Senior Staffing Unit Manager,1.0,Human Resources
+976,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level D Admin (Lon),48665,63752,Project Manager,1.0,Operational Delivery
+977,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level D Admin (Lon),48665,63752,Head of Complex Casework Policy and Employee Relations,1.0,Human Resources
+978,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level D Admin (Lon),48665,63752,Head of Employee Relations,0.5,Human Resources
+979,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level D Admin (Nat),45191,58489,Head of Learning and Development Operations,1.0,Human Resources
+980,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level D Admin (Nat),45191,58489,HR Business Partner,2.0,Human Resources
+981,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level D Admin (Nat),45191,58489,Regional Operations Manager,1.0,Human Resources
+982,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level D Admin (Nat),45191,58489,Strategy Manager,1.0,Human Resources
+983,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level D Legal (Nat),45191,58489,Legal Development Manager,1.0,Human Resources
+984,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level D Legal (Nat),45191,58489,Advocacy and Projects Manager,1.0,Human Resources
+985,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level E Admin (Lon),65005,74445,Head of Corporate HR,1.0,Human Resources
+986,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level E Admin (Nat),62437,72453,Head of HR Operations,1.0,Human Resources
+987,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Level E Admin (Nat),62437,72453,Head of Leadership and Development,1.0,Human Resources
+988,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,RCPO - Higher Exec Officer (Lon),29905,36200,Recruitment Senior Consultant,1.0,Human Resources
+989,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,SCP Above Break Point (Nat),42305,51113,Senior Crown Prosecutor ,0.81,Operational Delivery
+990,Crown Prosecution Service,Crown Prosecution Service,HQ Human Resources Directorate,CPS-S-028,Senior Crown Prosecutor (Nat),35376,43157,Legal Development Manager,1.0,Operational Delivery

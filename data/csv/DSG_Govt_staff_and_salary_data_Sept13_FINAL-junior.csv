@@ -1,0 +1,27 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,Ministry of Defence,Defence Support Group (DSG),Human Resources,HRDIR,PB1/Band B,48500,69500,Senior HR Manager,4.0,Human Resources
+1,Ministry of Defence,Defence Support Group (DSG),Human Resources,HRDIR,PB2/Band C,29400,42400,HR Officer,6.0,Human Resources
+2,Ministry of Defence,Defence Support Group (DSG),Human Resources,HRDIR,PB3/Band D,20900,28200,HR Officer,17.0,Human Resources
+3,Ministry of Defence,Defence Support Group (DSG),Human Resources,HRDIR,PB4/Band E and equiv,15700,20800,HR Support Officer,14.0,Human Resources
+4,Ministry of Defence,Defence Support Group (DSG),Finance,FINDIR,PB1/Band B,48500,69500,Senior Finance  Manager,6.0,Finance
+5,Ministry of Defence,Defence Support Group (DSG),Finance,FINDIR,PB2/Band C,29400,42400,Finance Officer,16.0,Finance
+6,Ministry of Defence,Defence Support Group (DSG),Finance,FINDIR,PB3/Band D,20900,28200,Finance Officer,9.0,Finance
+7,Ministry of Defence,Defence Support Group (DSG),Finance,FINDIR,PB4/Band E and equiv,15700,20800,Finance Support Officer,8.0,Finance
+8,Ministry of Defence,Defence Support Group (DSG),Commercial,COMDIR,PB1/Band B,48500,69500,Senior Procurement Officer,3.0,Procurement
+9,Ministry of Defence,Defence Support Group (DSG),Commercial,COMDIR,PB2/Band C,29400,42400,Procurement Officer,46.0,Procurement
+10,Ministry of Defence,Defence Support Group (DSG),Commercial,COMDIR,PB3/Band D,20900,28200,Procurement Officer,16.0,Procurement
+11,Ministry of Defence,Defence Support Group (DSG),Commercial,COMDIR,PB4/Band E and equiv,15700,20800,Procurement Support Officer ,32.0,Procurement
+12,Ministry of Defence,Defence Support Group (DSG),Operations,COO,PB1/Band B,48500,69500,Senior Operational Manager,15.0,Operational Delivery
+13,Ministry of Defence,Defence Support Group (DSG),Operations,COO,PB2/Band C,29400,42400,Operational Manager,158.0,Operational Delivery
+14,Ministry of Defence,Defence Support Group (DSG),Operations,COO,PB3/Band D,20900,28200,Operational Manager,1463.0,Operational Delivery
+15,Ministry of Defence,Defence Support Group (DSG),Operations,COO,PB4/Band E and equiv,15700,20800,Operations Support Officer,571.0,Operational Delivery
+16,Ministry of Defence,Defence Support Group (DSG),Operations,COO,Apprentice Phase 1,13400,13400,Operations Support Officer,12.0,Operational Delivery
+17,Ministry of Defence,Defence Support Group (DSG),Operations,COO,Apprentice Phase 2,14200,14200,Operations Support Officer,8.0,Operational Delivery
+18,Ministry of Defence,Defence Support Group (DSG),Operations,COO,Apprentice Phase 3,17000,17000,Operations Support Officer,2.0,Operational Delivery
+19,Ministry of Defence,Defence Support Group (DSG),Operations,COO,Adult Apprentices Phase 1,17300,17300,Operations Support Officer,22.0,Operational Delivery
+20,Ministry of Defence,Defence Support Group (DSG),Operations,COO,Adult Apprentices Phase 2,18000,18000,Operations Support Officer,18.0,Operational Delivery
+21,Ministry of Defence,Defence Support Group (DSG),Operations,COO,Adult Apprentices Phase 3,18600,18600,Operations Support Officer,2.0,Operational Delivery
+22,Ministry of Defence,Defence Support Group (DSG),Operations,COO,Nurse,29400,42400,Operations Support Officer,2.0,Operational Delivery
+23,Ministry of Defence,Defence Support Group (DSG),Strategy,STRDIR,PB1/Band B,48500,69500,Senior Operational Researcher,2.0,Operational Research
+24,Ministry of Defence,Defence Support Group (DSG),Strategy,STRDIR,PB2/Band C,29400,42400,Operational Researcher,2.0,Operational Research
+25,Ministry of Defence,Defence Support Group (DSG),Strategy,STRDIR,PB3/Band D,20900,28200,Operational Researcher,1.0,Operational Research

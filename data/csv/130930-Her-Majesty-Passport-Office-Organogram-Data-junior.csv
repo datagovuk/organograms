@@ -1,0 +1,67 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,Home Office,Her Majesty's Passport Office,Chief Executive's Office,2IPS10,Grade 6,54705,70504,Chief of Staff,1.0,Operational Delivery
+1,Home Office,Her Majesty's Passport Office,Chief Executive's Office,2IPS10,Grade 7,44656,57553,Senior Communications Manager,3.0,Operational Delivery
+2,Home Office,Her Majesty's Passport Office,Chief Executive's Office,2IPS10,SEO,32602,39537,Board Secretary,1.0,Operational Delivery
+3,Home Office,Her Majesty's Passport Office,Chief Executive's Office,2IPS10,SEO,32602,39537,Communications Manager,8.0,Operational Delivery
+4,Home Office,Her Majesty's Passport Office,Chief Executive's Office,2IPS10,HEO,25297,30989,Deputy Head of PCMT,0.83,Operational Delivery
+5,Home Office,Her Majesty's Passport Office,Chief Executive's Office,2IPS10,EO,20235,24789,Personal Secretary,1.0,Operational Delivery
+6,Home Office,Her Majesty's Passport Office,Chief Executive's Office,2IPS10,HEO,25297,30989,Communications Officer,12.0,Operational Delivery
+7,Home Office,Her Majesty's Passport Office,Chief Executive's Office,2IPS10,EO,20235,24789,Communications Support,3.97,Operational Delivery
+8,Home Office,Her Majesty's Passport Office,Chief Executive's Office,2IPS10,AO,15386,18657,Communications Support Officer,2.58,Operational Delivery
+9,Home Office,Her Majesty's Passport Office,Finance and Performance,2IPS01,Grade 6,54705,70504,Senior Finance Manager,5.0,Finance
+10,Home Office,Her Majesty's Passport Office,Finance and Performance,2IPS01,Grade 7,44656,57553,Finance Manager,9.0,Finance
+11,Home Office,Her Majesty's Passport Office,Finance and Performance,2IPS01,SEO,32602,39537,Senior Finance Officer,22.9,Finance
+12,Home Office,Her Majesty's Passport Office,Finance and Performance,2IPS01,HEO,25297,30989,Finance Officer,26.0,Finance
+13,Home Office,Her Majesty's Passport Office,Finance and Performance,2IPS01,EO,20235,24789,Facilities Support Officer,25.54,Finance
+14,Home Office,Her Majesty's Passport Office,Finance and Performance,2IPS01,PO3 (AO),16776,17614,Junior Finance Officer,12.73,Finance
+15,Home Office,Her Majesty's Passport Office,Finance and Performance,2IPS01,AA,14043,15701,Junior Assistant Finance Officer,0.8,Finance
+16,Home Office,Her Majesty's Passport Office,Operations,1IPS23,Grade 6,54705,70504,Senior Operational Manager,4.0,Operational Delivery
+17,Home Office,Her Majesty's Passport Office,Operations,1IPS23,Grade 7,44656,57553,Operational Manager,8.0,Operational Delivery
+18,Home Office,Her Majesty's Passport Office,Operations,1IPS23,SEO,32602,39537,Senior Operational Officer,25.93,Operational Delivery
+19,Home Office,Her Majesty's Passport Office,Operations,1IPS23,HEO,25297,30989,Operational Officer,74.39,Operational Delivery
+20,Home Office,Her Majesty's Passport Office,Operations,1IPS23,EO,20235,24789,Operational Support Officer,292.91,Operational Delivery
+21,Home Office,Her Majesty's Passport Office,Operations,1IPS23,AO,15386,18657,Junior Operational Officer,700.66,Operational Delivery
+22,Home Office,Her Majesty's Passport Office,Operations,1IPS23,PO2,15177,0,Junior Operational Support Officer,2.0,Operational Delivery
+23,Home Office,Her Majesty's Passport Office,Operations,1IPS23,AA,14043,15701,Junior Assistant Operational Support Officer,354.99,Operational Delivery
+24,Home Office,Her Majesty's Passport Office,Operations,1IPS22,Grade 6,54705,70504,Senior Operational Manager,5.0,Operational Delivery
+25,Home Office,Her Majesty's Passport Office,Operations,1IPS22,Grade 7,44656,57553,Operational Manager,10.0,Operational Delivery
+26,Home Office,Her Majesty's Passport Office,Operations,1IPS22,SEO,32602,39537,Senior Operational Officer,20.0,Operational Delivery
+27,Home Office,Her Majesty's Passport Office,Operations,1IPS22,HEO,25297,30989,Operational Officer,59.52,Operational Delivery
+28,Home Office,Her Majesty's Passport Office,Operations,1IPS22,EO,20235,24789,Operational Support Officer,250.25,Operational Delivery
+29,Home Office,Her Majesty's Passport Office,Operations,1IPS22,PO3 (AO),16776,17614,Junior Operational Officer,269.7,Operational Delivery
+30,Home Office,Her Majesty's Passport Office,Operations,1IPS22,AA,14043,15701,Junior Operational Support Officer,64.38,Operational Delivery
+31,Home Office,Her Majesty's Passport Office,Human Resources,1IPS18,Grade 7,44656,57553,HR Manager,5.81,Human Resources
+32,Home Office,Her Majesty's Passport Office,Human Resources,1IPS18,SEO,32602,39537,Policy Adviser,8.8,Human Resources
+33,Home Office,Her Majesty's Passport Office,Human Resources,1IPS18,HEO,25297,30989,HR Higher Executiver Officer,4.0,Human Resources
+34,Home Office,Her Majesty's Passport Office,Human Resources,1IPS18,EO,20235,24789,HR Executive Officer,4.21,Human Resources
+35,Home Office,Her Majesty's Passport Office,Human Resources,1IPS18,PO3 (AO),16776,17614,HR Officer,1.0,Human Resources
+36,Home Office,Her Majesty's Passport Office,Corporate Strategy,1IPS05,Grade 6,54705,70504,Senior Strategy & Communication Manager,6.0,Planning
+37,Home Office,Her Majesty's Passport Office,Corporate Strategy,1IPS05,Grade 7,44656,57553,Strategy & Communication Manager,11.67,Planning
+38,Home Office,Her Majesty's Passport Office,Corporate Strategy,1IPS05,SEO,32602,39537,Senior Strategy & Communication Officer,23.17,Planning
+39,Home Office,Her Majesty's Passport Office,Corporate Strategy,1IPS05,HEO,25297,30989,Strategy & Communication Officer,24.0,Planning
+40,Home Office,Her Majesty's Passport Office,Corporate Strategy,1IPS05,EO,20235,24789,Strategy & Communication Support Officer,11.0,Planning
+41,Home Office,Her Majesty's Passport Office,Corporate Strategy,1IPS05,PO3 (AO),16776,17614,Junior Strategy & Communication Officer,3.65,Planning
+42,Home Office,Her Majesty's Passport Office,Organisation Transformation,1IPS03,Grade 6,54705,70504,Senior Organisation Transformation Manager,5.6,Planning
+43,Home Office,Her Majesty's Passport Office,Organisation Transformation,1IPS03,Grade 7,44656,57553,Organisation Transformation Manager,24.84,Planning
+44,Home Office,Her Majesty's Passport Office,Organisation Transformation,1IPS03,SEO,32602,39537,Senior Organisation Transformation Officer,37.2,Planning
+45,Home Office,Her Majesty's Passport Office,Organisation Transformation,1IPS03,HEO,25297,30989,Organisation Transformation Officer,40.39,Planning
+46,Home Office,Her Majesty's Passport Office,Organisation Transformation,1IPS03,EO,20235,24789,Organisation Transformation Support Officer,19.39,Planning
+47,Home Office,Her Majesty's Passport Office,Organisation Transformation,1IPS03,PO3 (AO),16776,17614,Junior Organisation Transformation Officer,4.0,Planning
+48,Home Office,Her Majesty's Passport Office,Director of Corporate Services,1IPS02,Grade 6,54705,70504,Estate Planning Executive,1.0,Information Technology
+49,Home Office,Her Majesty's Passport Office,Director of Corporate Services,1IPS02,Grade 7,44656,57553,IT Manager,9.81,Information Technology
+50,Home Office,Her Majesty's Passport Office,Director of Corporate Services,1IPS02,SEO,32602,39537,Senior IT Services manager,23.33,Information Technology
+51,Home Office,Her Majesty's Passport Office,Director of Corporate Services,1IPS02,HEO,25297,30989,IT Services manager,29.41,Information Technology
+52,Home Office,Her Majesty's Passport Office,Director of Corporate Services,1IPS02,EO,20235,24789,IT Support Officer,39.28,Information Technology
+53,Home Office,Her Majesty's Passport Office,Director of Corporate Services,1IPS02,PO3 (AO),16776,17614,IT Junior Support Officer,18.27,Information Technology
+54,Home Office,Her Majesty's Passport Office,Commercial,1FC27,Grade 6,54705,70504,Senior Procurement Manager,1.0,Procurement
+55,Home Office,Her Majesty's Passport Office,Commercial,1FC27,Grade 7,44656,57553,Procurement manager,5.0,Procurement
+56,Home Office,Her Majesty's Passport Office,Commercial,1FC27,SEO,32602,39537,Senior Procurement Officer,9.0,Procurement
+57,Home Office,Her Majesty's Passport Office,Commercial,1FC27,HEO,25297,30989,Procurement Officer,10.0,Procurement
+58,Home Office,Her Majesty's Passport Office,Commercial,1FC27,EO,20235,24789,Procurement Support Officer,9.0,Procurement
+59,Home Office,Her Majesty's Passport Office,Commercial,1FC27,PO3 (AO),16776,17614,Junior Procurement Officer,2.0,Procurement
+60,Home Office,Her Majesty's Passport Office,Operations,1FC27,Grade 7,44656,57553,Operational Manager,1.0,Operational Delivery
+61,Home Office,Her Majesty's Passport Office,Operations,1FC27,SEO,32602,39537,Senior Operational Officer,6.0,Operational Delivery
+62,Home Office,Her Majesty's Passport Office,Operations,1FC27,HEO,25297,30989,Operational Officer,19.17,Operational Delivery
+63,Home Office,Her Majesty's Passport Office,Operations,1FC27,EO,20235,24789,Operational Support Officer,108.64,Operational Delivery
+64,Home Office,Her Majesty's Passport Office,Operations,1FC27,PO3 (AO),16776,17614,Junior Operational Officer,329.98,Operational Delivery
+65,Home Office,Her Majesty's Passport Office,Operations,1FC27,AA,14043,15701,Junior Operational Support Officer,119.28,Operational Delivery

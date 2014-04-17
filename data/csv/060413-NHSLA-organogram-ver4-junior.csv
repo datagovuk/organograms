@@ -1,0 +1,80 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,Department of Health,NHS LA,FHSAU,1,Band 4,18838,22016,Case Administrator,3.5,Operational Delivery
+1,Department of Health,NHS LA,FHSAU,1,Band 6,25783,34530,Case Officer,5.0,Medicine
+2,Department of Health,NHS LA,FHSAU,1,Band 8C,54998,67805,Senior Operational Manager,1.0,Operational Delivery
+3,Department of Health,NHS LA,FHSAU,1,Band 6,25783,34530,Office Manager,1.0,Operational Delivery
+4,Department of Health,NHS LA,NHS LA Finance and IT Directorate,2,Band 2,14294,17425,Finance Support Officer,2.0,Operational Delivery
+5,Department of Health,NHS LA,NHS LA Finance and IT Directorate,2,Band 4,18838,22016,Finance Support Officer,2.0,Policy
+6,Department of Health,NHS LA,NHS LA Finance and IT Directorate,2,Band 4,18838,22016,IT Support Officer,1.0,Operational Delivery
+7,Department of Health,NHS LA,NHS LA Finance and IT Directorate,2,Band 5,21388,27901,Executive Assistant,1.0,Social Research
+8,Department of Health,NHS LA,NHS LA Finance and IT Directorate,2,Band 5,21388,27901,Finance Support Officer,1.0,Knowledge and Information Management (KIM)
+9,Department of Health,NHS LA,NHS LA Finance and IT Directorate,2,Band 5,21388,27901,IT Support Officer,3.0,Law
+10,Department of Health,NHS LA,NHS LA Finance and IT Directorate,2,Band 6,25783,34530,IT Support Officer,2.0,Operational Delivery
+11,Department of Health,NHS LA,NHS LA Finance and IT Directorate,2,Band 6,25783,34530,Statistician,1.0,Operational Delivery
+12,Department of Health,NHS LA,NHS LA Finance and IT Directorate,2,Band 7,30764,40558,IT Manager,1.0,Human Resources
+13,Department of Health,NHS LA,NHS LA Finance and IT Directorate,2,Band 5,21388,27901,Office Manager,1.0,Human Resources
+14,Department of Health,NHS LA,NHS LA Finance and IT Directorate,2,Band 8A,39239,47088,Finance Officer,1.0,Finance
+15,Department of Health,NHS LA,NHS LA Finance and IT Directorate,2,Band 8A,39239,47088,IT Manager,1.0,Finance
+16,Department of Health,NHS LA,NHS LA Finance and IT Directorate,2,Band 8C,54998,67805,Programme Manager,1.0,Finance
+17,Department of Health,NHS LA,NHS LA Finance and IT Directorate,2,Band 8C,54998,67805,IT Manager,1.0,Information Technology
+18,Department of Health,NHS LA,NHS LA Finance and IT Directorate,2,Band 7,30764,40558,Finance Support Officer,1.0,Communications
+19,Department of Health,NHS LA,Technical Claims,3,Band 5,21388,27901,Executive Assistant,1.0,Programme and Project Management (PPM)
+20,Department of Health,NHS LA,Technical Claims,3,Band 8B,45707,56504,Case Management,6.9,Programme and Project Management (PPM)
+21,Department of Health,NHS LA,Technical Claims,3,Band 8C,54998,67805,Case Management,1.0,Programme and Project Management (PPM)
+22,Department of Health,NHS LA,Non-clinical Claims,4,Band 2,14294,17425,Case Management,4.0,Procurement
+23,Department of Health,NHS LA,Non-clinical Claims,4,Band 2,14294,17425,Case Management,1.0,Other
+24,Department of Health,NHS LA,Clinical Claims,4,Band 4,18838,22016,Case Administrator,5.6,Other
+25,Department of Health,NHS LA,NHS LA Finance and IT Directorate,2,Band 5,21388,27901,Executive Assistant,1.0,Other
+26,Department of Health,NHS LA,Non-clinical Claims,4,Band 4,18838,22016,Case Administrator,3.0,Operational Delivery
+27,Department of Health,NHS LA,Non-clinical Claims,4,Band 6,25783,34530,Case Officer,1.0,Operational Delivery
+28,Department of Health,NHS LA,Non-clinical Claims,4,Band 6,25783,34530,Case Management,15.0,Operational Delivery
+29,Department of Health,NHS LA,Non-clinical Claims,4,Band 6,25783,34530,Case Management,5.0,Operational Delivery
+30,Department of Health,NHS LA,Non-clinical Claims,4,Band 7,30764,40558,Case Management,4.0,Operational Delivery
+31,Department of Health,NHS LA,Clinical Claims,4,Band 7,30764,40558,Case Management,29.2,Operational Delivery
+32,Department of Health,NHS LA,Clinical Claims,4,Band 8A,39239,47088,Case Management,14.05,Operational Delivery
+33,Department of Health,NHS LA,Clinical Claims,4,Band 8A,39239,47088,Case Management,6.0,Operational Delivery
+34,Department of Health,NHS LA,Non-clinical Claims,4,Band 7,30764,40558,Case Management,6.0,Operational Delivery
+35,Department of Health,NHS LA,Non-clinical Claims,4,Band 8A,39239,47088,Case Management,3.0,Operational Delivery
+36,Department of Health,NHS LA,Clinical Claims,4,Band 8B,45707,56504,Case Management,6.0,Operational Delivery
+37,Department of Health,NHS LA,Non-clinical Claims,4,Band 8B,45707,56504,Case Management,3.0,Operational Delivery
+38,Department of Health,NHS LA,Clinical Claims,4,Band 8C,54998,67805,Case Management,1.0,Operational Delivery
+39,Department of Health,NHS LA,Non-clinical Claims,4,Band 8C,54998,67805,Case Management,1.0,Operational Delivery
+40,Department of Health,NHS LA,"NHS LA Safety, Learning and People",5,Band 5,21388,27901,Administrator,1.0,Operational Delivery
+41,Department of Health,NHS LA,"NHS LA Safety, Learning and People",5,Band 8B,45707,56504,Risk Manager,2.0,Operational Delivery
+42,Department of Health,NHS LA,NCAS Business Development,7,Band 4,18838,22016,Not In Post,1.0,Operational Delivery
+43,Department of Health,NHS LA,NCAS Business Development,7,Band 4,18838,22016,Finance Support Officer,1.0,Operational Delivery
+44,Department of Health,NHS LA,NCAS Business Development,7,Band 4,18838,22016,Administrator,1.0,Law
+45,Department of Health,NHS LA,NCAS Business Development,7,Band 5,21388,27901,HR Officer,1.0,Law
+46,Department of Health,NHS LA,NCAS Business Development,7,Band 5,21388,27901,Finance Support Officer,2.0,Operational Delivery
+47,Department of Health,NHS LA,NCAS Business Development,7,Band 5,21388,27901,Executive Assistant,1.0,Operational Delivery
+48,Department of Health,NHS LA,NCAS Business Development,7,Band 6,25783,34530,Information Governance ,1.0,Operational Delivery
+49,Department of Health,NHS LA,NCAS Business Development,7,Band 7,30764,40558,IT Manager,1.0,Operational Delivery
+50,Department of Health,NHS LA,NCAS Business Development,7,Band 7,30764,40558,Project Manager,1.0,Operational Delivery
+51,Department of Health,NHS LA,NCAS Business Development,7,Band 7,30764,40558,Not In Post,1.0,Operational Delivery
+52,Department of Health,NHS LA,NCAS Business Development,7,Band 7,30764,40558,Business Manager,1.0,Other
+53,Department of Health,NHS LA,NCAS Business Development,7,Band 7,30764,40558,Information Governance ,1.0,Finance
+54,Department of Health,NHS LA,NCAS Business Development,7,Band 8A,39239,47088,Senior HR Manager,1.0,Finance
+55,Department of Health,NHS LA,NCAS Business Development,7,Band 8A,39239,47088,Case Administrator,1.0,Operational Delivery
+56,Department of Health,NHS LA,NCAS Business Development,7,Band 8B,45707,56504,Case Officer,1.0,Operational Delivery
+57,Department of Health,NHS LA,NCAS Business Development,7,Band 8B,45707,56504,Senior Operational Manager,1.0,Operational Delivery
+58,Department of Health,NHS LA,NCAS Business Development,7,Band 8C,54998,67805,Office Manager,1.0,Operational Delivery
+59,Department of Health,NHS LA,NCAS Business Development,7,Band 8C,54998,67805,Finance Support Officer,1.0,Finance
+60,Department of Health,NHS LA,Assessment,8,Band 8C,54998,67805,Finance Support Officer,1.4,Finance
+61,Department of Health,NHS LA,NCAS Evaluation and Engagement,8,Band 8C,54998,67805,IT Support Officer,0.5,Information Technology
+62,Department of Health,NHS LA,Assessment,8,Band 5,21388,27901,Executive Assistant,5.8,Operational Delivery
+63,Department of Health,NHS LA,Assessment,8,Band 6,25783,34530,Finance Support Officer,4.0,Finance
+64,Department of Health,NHS LA,Assessment,8,Band 7,30764,40558,IT Support Officer,2.81,Information Technology
+65,Department of Health,NHS LA,Assessment,8,Band 8A,39239,47088,IT Support Officer,1.0,Information Technology
+66,Department of Health,NHS LA,Assessment,8,Band 8C,54998,67805,Statistician,1.0,Statisticians
+67,Department of Health,NHS LA,NCAS Evaluation and Engagement,8,Band 8C,54998,67805,IT Manager,0.8,Information Technology
+68,Department of Health,NHS LA,NCAS Case Management Team,9,Band 4,18838,22016,Office Manager,2.0,Other
+69,Department of Health,NHS LA,NCAS Case Management Team,9,Band 5,21388,27901,Finance Officer,5.0,Finance
+70,Department of Health,NHS LA,NCAS Education,9,Band 6,25783,34530,IT Manager,4.0,Information Technology
+71,Department of Health,NHS LA,NCAS Case Management Team,9,Band 7,30764,40558,Programme Manager,3.0,Programme and Project Management (PPM)
+72,Department of Health,NHS LA,NCAS Education,9,Band 8B,45707,56504,IT Manager,1.0,Information Technology
+73,Department of Health,NHS LA,NCAS Adviser Team,11,Band 8C,54998,67805,Finance Support Officer,6.4,Finance
+74,Department of Health,NHS LA,NCAS Wales,12,Band 7,30764,40558,Executive Assistant,1.0,Operational Delivery
+75,Department of Health,NHS LA,NCAS Wales,12,Band 5,21388,27901,Case Management,1.0,Operational Delivery
+76,Department of Health,NHS LA,NCAS Nothern Ireland,13,Band 5,21388,27901,Case Management,1.0,Operational Delivery
+77,Department of Health,NHS LA,NCAS Nothern Ireland,13,Band 8C,54998,67805,Case Management,0.9,Operational Delivery
+78,Department of Health,NHS LA,NCAS Adviser Team,14,Band 8C,54998,67805,Case Management,6.4,Operational Delivery

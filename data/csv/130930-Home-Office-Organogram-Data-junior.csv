@@ -1,0 +1,1388 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,Home Office,Home Office,Private Office,1PO01,Grade 6,54705,70504,Private Secretary,1.0,Policy
+1,Home Office,Home Office,Private Office,1PO01,Grade 7,44656,57553,Private Secretary,6.0,Policy
+2,Home Office,Home Office,Private Office,1PO01,SEO,32602,39537,Policy Support Officer,1.0,Policy
+3,Home Office,Home Office,Private Office,1PO01,SEO,32602,39537,Assistant Private Secretary,3.0,Policy
+4,Home Office,Home Office,Private Office,1PO01,SEO,32602,39537,Business Support & Finance Manager,1.0,Other
+5,Home Office,Home Office,Private Office,1PO03,HEO,25297,30989,Assistant Private Secretary,3.0,Policy
+6,Home Office,Home Office,Private Office,1PO01,HEO,25297,30989,Assistant Private Secretary,5.0,Policy
+7,Home Office,Home Office,Private Office,1PO01,HEO,25297,30989,Policy Support Officer,3.0,Policy
+8,Home Office,Home Office,Private Office,1PO01,HEO,25297,30989,Diary Manager,2.0,Other
+9,Home Office,Home Office,Private Office,1PO03,HEO-D,23802,33953,Assistant Private Secretary,1.0,Policy
+10,Home Office,Home Office,Private Office,1PO01,HEO-D,23802,33953,Private Secretary,1.0,Policy
+11,Home Office,Home Office,Private Office,1PO01,HEO-D,23802,33953,Assistant Private Secretary,4.0,Policy
+12,Home Office,Home Office,Private Office,1PO01,EO,20235,24789,Assistant Private Secretary,3.0,Policy
+13,Home Office,Home Office,Private Office,1PO01,EO,20235,24789,Diary Manager ,4.0,Other
+14,Home Office,Home Office,Private Office,1PO01,EO,20235,24789,Communications Support,2.0,Communications
+15,Home Office,Home Office,Private Office,1PO01,EO,20235,24789,Business Support Officers,1.0,Other
+16,Home Office,Home Office,Private Office,1PO03,EO,20235,24789,Diary Manager,1.0,Other
+17,Home Office,Home Office,Private Office,1PO01,AO,15386,18657,Diary Manager ,1.0,Other
+18,Home Office,Home Office,Private Office,1PO01,AO,15386,18657,Correspondence Officer,4.0,Communications
+19,Home Office,Home Office,Private Office,1PO01,AO,15386,18657,Administrative Support,5.0,Other
+20,Home Office,Home Office,Private Office,1PO01,Personal Secretary,16023,19234,Personal Assistant,1.0,Other
+21,Home Office,Home Office,Private Office,1PO01,Grade 7,44656,57553,Head of Parliamentary and Correspondence Management Team,1.0,Policy
+22,Home Office,Home Office,Private Office,1PO04,Grade 6,54705,70504,Policy Adviser,3.0,Policy
+23,Home Office,Home Office,Private Office,1PO04,Grade 7,44656,57553,Policy Adviser,3.0,Policy
+24,Home Office,Home Office,Private Office,1PO04,HEO-D,23802,33953,Policy Support Officer,1.0,Policy
+25,Home Office,Home Office,Private Office,1PO04,EO,20235,24789,Diary Manager,1.0,Other
+26,Home Office,Home Office,Private Office,1PO01,HEO,25297,30989,Business Support Officers,1.0,Other
+27,Home Office,Home Office,Private Office,1PO03,Grade 7,44656,57553,Assistant Private Secretary,1.0,Policy
+28,Home Office,Home Office,Private Office,1PO03,EO,20235,24789,Business Support Officer,1.0,Other
+29,Home Office,Home Office,Private Office,2PO01,HEO,25297,30989,Diary Manager,1.0,Other
+30,Home Office,Home Office,Private Office,1PO04,SEO,32602,39537,Policy Adviser,1.0,Policy
+31,Home Office,Home Office,Private Office,1PO04,HEO,25297,30989,Policy Support Officer,3.0,Policy
+32,Home Office,Home Office,Border Force,3BF01,CIO,25816,31948,Operational Manager,1.0,Operational Delivery
+33,Home Office,Home Office,Border Force,3BF01,EO,20235,24789,Operational Officer,1.0,Operational Delivery
+34,Home Office,Home Office,Border Force,3BF01,Grade 6,54705,70504,Senior Operational Manager,1.83,Operational Delivery
+35,Home Office,Home Office,Border Force,3BF01,Grade 7,44656,57553,Senior Operational Manager,1.0,Operational Delivery
+36,Home Office,Home Office,Border Force,3BF01,HEO,25297,30989,Operational Manager,1.0,Operational Delivery
+37,Home Office,Home Office,Border Force,3BF01,SEO,32602,39537,Operational Manager,2.0,Operational Delivery
+38,Home Office,Home Office,e-Borders,2BF01,AO,15386,18657,Operational Manager,3.0,Information Technology
+39,Home Office,Home Office,e-Borders,2BF01,CIO,25816,31948,Operational Manager,1.0,Information Technology
+40,Home Office,Home Office,e-Borders,2BF01,EO,20235,24789,Operational Officer,13.66,Information Technology
+41,Home Office,Home Office,e-Borders,2BF01,Grade 6,54705,70504,Senior Information Manager,1.83,Information Technology
+42,Home Office,Home Office,e-Borders,2BF01,Grade 7,44656,57553,Senior Information Manager,9.83,Information Technology
+43,Home Office,Home Office,e-Borders,2BF01,HEO,25297,30989,Operational Manager,14.33,Information Technology
+44,Home Office,Home Office,e-Borders,2BF01,Immigration Inspector,32602,39537,Operational Officer,1.78,Information Technology
+45,Home Office,Home Office,e-Borders,2BF01,SEO,32602,39537,Information Technology Manager,14.5,Information Technology
+46,Home Office,Home Office,National Operations & Performance,1BF02,EO,20235,24789,Operational Officer,1.0,Operational Delivery
+47,Home Office,Home Office,National Operations & Performance,1BF02,Grade 7,44656,57553,Senior Operational Manager,1.0,Operational Delivery
+48,Home Office,Home Office,National Operations & Performance,1BF02,HEO,25297,30989,Operational Manager,1.0,Operational Delivery
+49,Home Office,Home Office,E-Borders,1BF11,EO,20235,24789,IT Services manager,1.0,Information Technology
+50,Home Office,Home Office,E-Borders,1BF11,Grade 6,54705,70504,Senior Information Manager,2.0,Information Technology
+51,Home Office,Home Office,E-Borders,1BF11,HEO,25297,30989,IT Services manager,0.89,Information Technology
+52,Home Office,Home Office,E-Borders,1BF11,SEO,32602,39537,Information Technology Manager,4.0,Information Technology
+53,Home Office,Home Office,E-Borders,1BF11,CIO,25816,31948,Operational Manager,3.0,Information Technology
+54,Home Office,Home Office,E-Borders,1BF11,EO,20235,24789,Operational Officer,2.0,Information Technology
+55,Home Office,Home Office,E-Borders,1BF11,Grade 6,54705,70504,Senior Information Manager,2.0,Information Technology
+56,Home Office,Home Office,E-Borders,1BF11,Grade 7,44656,57553,Senior Information Manager,4.0,Information Technology
+57,Home Office,Home Office,E-Borders,1BF11,HEO,25297,30989,IT Services manager,2.0,Information Technology
+58,Home Office,Home Office,E-Borders,1BF11,Immigration Inspector,32602,39537,IT Services manager,8.0,Information Technology
+59,Home Office,Home Office,E-Borders,1BF11,SEO,32602,39537,IT Services manager,6.4,Information Technology
+60,Home Office,Home Office,Automation Strategy and Delivery,1BF12,EO,20235,24789,Knowledge Information Management Manager,6.48,Information Technology
+61,Home Office,Home Office,Automation Strategy and Delivery,1BF12,Grade 6,54705,70504,Senior Information Manager,4.0,Information Technology
+62,Home Office,Home Office,Automation Strategy and Delivery,1BF12,Grade 7,44656,57553,Senior Information Manager,5.0,Information Technology
+63,Home Office,Home Office,Automation Strategy and Delivery,1BF12,HEO,25297,30989,IT Services manager,8.89,Information Technology
+64,Home Office,Home Office,Automation Strategy and Delivery,1BF12,Immigration Inspector,32602,39537,IT Services manager,1.0,Information Technology
+65,Home Office,Home Office,Automation Strategy and Delivery,1BF12,IO,21505,26614,Operational Officer,4.0,Information Technology
+66,Home Office,Home Office,Automation Strategy and Delivery,1BF12,SEO,32602,39537,Information Technology Manager,10.0,Information Technology
+67,Home Office,Home Office,Automation Strategy and Delivery,1BF12,Unknown,0,0,Unknown,15.0,Information Technology
+68,Home Office,Home Office,Border Force Chief Operating Officer,2BF03,EO,20235,24789,Operational Officer,1.0,Operational Delivery
+69,Home Office,Home Office,Border Force Chief Operating Officer,2BF03,Grade 7,44656,57553,Senior Operational Manager,2.0,Operational Delivery
+70,Home Office,Home Office,National Operations & Performance,1BF02,AO,15386,18657,Operational Support Officer,2.0,Operational Delivery
+71,Home Office,Home Office,National Operations & Performance,1BF02,CIO,25816,31948,Operational Manager,6.0,Operational Delivery
+72,Home Office,Home Office,National Operations & Performance,1BF02,EO,20235,24789,Operational Officer,7.8,Operational Delivery
+73,Home Office,Home Office,National Operations & Performance,1BF02,Grade 6,54705,70504,Senior Operational Manager,1.0,Operational Delivery
+74,Home Office,Home Office,National Operations & Performance,1BF02,Grade 7,44656,57553,Senior Operational Manager,5.0,Operational Delivery
+75,Home Office,Home Office,National Operations & Performance,1BF02,HEO,25297,30989,Operational Manager,9.0,Operational Delivery
+76,Home Office,Home Office,National Operations & Performance,1BF02,Immigration Inspector,32602,39537,Operational Manager,2.0,Operational Delivery
+77,Home Office,Home Office,National Operations & Performance,1BF02,IO,21505,26614,Operational Officer,1.0,Operational Delivery
+78,Home Office,Home Office,National Operations & Performance,1BF02,SEO,32602,39537,Operational Manager,12.69,Operational Delivery
+79,Home Office,Home Office,Heathrow,1BF01,AA,14043,15701,Operational Support Officer,20.89,Operational Delivery
+80,Home Office,Home Office,Heathrow,1BF01,AIO,15386,18657,Operational Support Officer,272.22,Operational Delivery
+81,Home Office,Home Office,Heathrow,1BF01,AO,15386,18657,Operational Support Officer,28.73,Operational Delivery
+82,Home Office,Home Office,Heathrow,1BF01,CIO,25816,31948,Operational Manager,171.78,Operational Delivery
+83,Home Office,Home Office,Heathrow,1BF01,EO,20235,24789,Operational Officer,19.24,Operational Delivery
+84,Home Office,Home Office,Heathrow,1BF01,Grade 6,54705,70504,Senior Operational Manager,2.0,Operational Delivery
+85,Home Office,Home Office,Heathrow,1BF01,Grade 7,44656,57553,Operational Officer,10.89,Operational Delivery
+86,Home Office,Home Office,Heathrow,1BF01,HEO,25297,30989,Operational Manager,9.06,Operational Delivery
+87,Home Office,Home Office,Heathrow,1BF01,Immigration Inspector,32602,39537,Operational Manager,53.6,Operational Delivery
+88,Home Office,Home Office,Heathrow,1BF01,IO,21505,26614,Operational Officer,1155.76,Operational Delivery
+89,Home Office,Home Office,Heathrow,1BF01,SEO,32602,39537,Operational Manager,5.06,Operational Delivery
+90,Home Office,Home Office,Border Force Intelligence,1BF18,AA,14043,15701,Administrative Support Officer,0.71,Planning
+91,Home Office,Home Office,Border Force Intelligence,1BF18,AIO,15386,18657,Administrative Support Officer,23.46,Planning
+92,Home Office,Home Office,Border Force Intelligence,1BF18,AO,15386,18657,Administrative Support Officer,10.12,Planning
+93,Home Office,Home Office,Border Force Intelligence,1BF18,CIO,25816,31948,Administration Team Manager,40.38,Planning
+94,Home Office,Home Office,Border Force Intelligence,1BF18,EO,20235,24789,Administrative Officer,28.73,Planning
+95,Home Office,Home Office,Border Force Intelligence,1BF18,Grade 6,54705,70504,Senior Knowledge Information Management Manager,2.0,Planning
+96,Home Office,Home Office,Border Force Intelligence,1BF18,Grade 7,44656,57553,Senior Knowledge Information Management Manager,8.0,Planning
+97,Home Office,Home Office,Border Force Intelligence,1BF18,HEO,25297,30989,Resourcing Manager,50.53,Planning
+98,Home Office,Home Office,Border Force Intelligence,1BF18,Immigration Inspector,32602,39537,Operational Manager,12.34,Planning
+99,Home Office,Home Office,Border Force Intelligence,1BF18,IO,21505,26614,Operational Officer,384.31,Planning
+100,Home Office,Home Office,Border Force Intelligence,1BF18,SEO,32602,39537,Resourcing Manager,19.89,Planning
+101,Home Office,Home Office,Border Force Intelligence,1BF18,Unknown,0,0,Unknown,3.0,Planning
+102,Home Office,Home Office,Border Force North Region,1BF10,AA,14043,15701,Operational Support Officer,4.51,Operational Delivery
+103,Home Office,Home Office,Border Force North Region,1BF10,AIO,15386,18657,Operational Support Officer,154.41,Operational Delivery
+104,Home Office,Home Office,Border Force North Region,1BF10,AO,15386,18657,Operational Support Officer,36.42,Operational Delivery
+105,Home Office,Home Office,Border Force North Region,1BF10,CIO,25816,31948,Operational Manager,42.23,Operational Delivery
+106,Home Office,Home Office,Border Force North Region,1BF10,EO,20235,24789,Operational Officer,18.39,Operational Delivery
+107,Home Office,Home Office,Border Force North Region,1BF10,Grade 7,44656,57553,Senior Operational Manager,10.0,Operational Delivery
+108,Home Office,Home Office,Border Force North Region,1BF10,HEO,25297,30989,Operational Manager,73.36,Operational Delivery
+109,Home Office,Home Office,Border Force North Region,1BF10,Immigration Inspector,32602,39537,Operational Manager,14.51,Operational Delivery
+110,Home Office,Home Office,Border Force North Region,1BF10,IO,21505,26614,Operational Officer,695.51,Operational Delivery
+111,Home Office,Home Office,Border Force North Region,1BF10,SEO,32602,39537,Operational Manager,13.5,Operational Delivery
+112,Home Office,Home Office,Border Force Central Region,1BF03,AA,14043,15701,Operational Support Officer,12.5,Operational Delivery
+113,Home Office,Home Office,Border Force Central Region,1BF03,AIO,15386,18657,Operational Support Officer,290.83,Operational Delivery
+114,Home Office,Home Office,Border Force Central Region,1BF03,AO,15386,18657,Operational Support Officer,40.9,Operational Delivery
+115,Home Office,Home Office,Border Force Central Region,1BF03,CIO,25816,31948,Operational Manager,45.74,Operational Delivery
+116,Home Office,Home Office,Border Force Central Region,1BF03,EO,20235,24789,Operational Officer,10.16,Operational Delivery
+117,Home Office,Home Office,Border Force Central Region,1BF03,Grade 6,54705,70504,Senior Operational Manager,2.0,Operational Delivery
+118,Home Office,Home Office,Border Force Central Region,1BF03,Grade 7,44656,57553,Senior Operational Manager,6.87,Operational Delivery
+119,Home Office,Home Office,Border Force Central Region,1BF03,HEO,25297,30989,Operational Manager,63.62,Operational Delivery
+120,Home Office,Home Office,Border Force Central Region,1BF03,Immigration Inspector,32602,39537,Operational Manager,9.61,Operational Delivery
+121,Home Office,Home Office,Border Force Central Region,1BF03,IO,21505,26614,Operational Officer,701.23,Operational Delivery
+122,Home Office,Home Office,Border Force Central Region,1BF03,SEO,32602,39537,Operational Manager,21.31,Operational Delivery
+123,Home Office,Home Office,Border Force South Region,1BF04,AA,14043,15701,Operational Support Officer,15.29,Operational Delivery
+124,Home Office,Home Office,Border Force South Region,1BF04,AIO,15386,18657,Operational Support Officer,282.58,Operational Delivery
+125,Home Office,Home Office,Border Force South Region,1BF04,AO,15386,18657,Operational Support Officer,28.9,Operational Delivery
+126,Home Office,Home Office,Border Force South Region,1BF04,CIO,25816,31948,Operational Manager,107.58,Operational Delivery
+127,Home Office,Home Office,Border Force South Region,1BF04,EO,20235,24789,Operational Officer,27.73,Operational Delivery
+128,Home Office,Home Office,Border Force South Region,1BF04,Grade 6,54705,70504,Senior Operational Manager,2.0,Operational Delivery
+129,Home Office,Home Office,Border Force South Region,1BF04,Grade 7,44656,57553,Senior Operational Manager,7.0,Operational Delivery
+130,Home Office,Home Office,Border Force South Region,1BF04,HEO,25297,30989,Operational Manager,52.74,Operational Delivery
+131,Home Office,Home Office,Border Force South Region,1BF04,Immigration Inspector,32602,39537,Operational Manager,26.02,Operational Delivery
+132,Home Office,Home Office,Border Force South Region,1BF04,IO,21505,26614,Operational Officer,881.87,Operational Delivery
+133,Home Office,Home Office,Border Force South Region,1BF04,SEO,32602,39537,Operational Manager,15.88,Operational Delivery
+134,Home Office,Home Office,Border Force Operations,1BF17,AA,14043,15701,Operational Support Officer,1.0,Operational Delivery
+135,Home Office,Home Office,Border Force Operations,1BF17,AO,15386,18657,Operational Support Officer,17.53,Operational Delivery
+136,Home Office,Home Office,Border Force Operations,1BF17,CIO,25816,31948,Operational Manager,15.8,Operational Delivery
+137,Home Office,Home Office,Border Force Operations,1BF17,EO,20235,24789,Operational Officer,42.65,Operational Delivery
+138,Home Office,Home Office,Border Force Operations,1BF17,Grade 6,54705,70504,Senior Operational Manager,3.0,Operational Delivery
+139,Home Office,Home Office,Border Force Operations,1BF17,Grade 7,44656,57553,Senior Operational Manager,11.68,Operational Delivery
+140,Home Office,Home Office,Border Force Operations,1BF17,HEO,25297,30989,Operational Manager,12.53,Operational Delivery
+141,Home Office,Home Office,Border Force Operations,1BF17,Immigration Inspector,32602,39537,Operational Manager,7.8,Operational Delivery
+142,Home Office,Home Office,Border Force Operations,1BF17,IO,21505,26614,Operational Officer,10.3,Operational Delivery
+143,Home Office,Home Office,Border Force Operations,1BF17,SEO,32602,39537,Operational Manager,8.92,Operational Delivery
+144,Home Office,Home Office,Border Force Operations,1BF17,Unknown,0,0,Unknown,1.0,Operational Delivery
+145,Home Office,Home Office,Border Force South and Europe,1BF15,AA,14043,15701,Operational Support Officer,16.03,Operational Delivery
+146,Home Office,Home Office,Border Force South and Europe,1BF15,AIO,15386,18657,Operational Support Officer,308.67,Operational Delivery
+147,Home Office,Home Office,Border Force South and Europe,1BF15,AO,15386,18657,Operational Support Officer,9.95,Operational Delivery
+148,Home Office,Home Office,Border Force South and Europe,1BF15,CIO,25816,31948,Operational Manager,37.41,Operational Delivery
+149,Home Office,Home Office,Border Force South and Europe,1BF15,EO,20235,24789,Operational Officer,4.91,Operational Delivery
+150,Home Office,Home Office,Border Force South and Europe,1BF15,Grade 6,54705,70504,Senior Operational Manager,2.0,Operational Delivery
+151,Home Office,Home Office,Border Force South and Europe,1BF15,Grade 7,44656,57553,Senior Operational Manager,4.0,Operational Delivery
+152,Home Office,Home Office,Border Force South and Europe,1BF15,HEO,25297,30989,Operational Manager,47.85,Operational Delivery
+153,Home Office,Home Office,Border Force South and Europe,1BF15,Immigration Inspector,32602,39537,Operational Manager,9.88,Operational Delivery
+154,Home Office,Home Office,Border Force South and Europe,1BF15,IO,21505,26614,Operational Officer,661.02,Operational Delivery
+155,Home Office,Home Office,Border Force South and Europe,1BF15,SEO,32602,39537,Operational Manager,9.0,Operational Delivery
+156,Home Office,Home Office,Border Force Change,2BF04,EO,20235,24789,Operational Officer,1.0,Operational Delivery
+157,Home Office,Home Office,Border Force Change,2BF04,EO,20235,24789,Operational Officer,1.0,Operational Delivery
+158,Home Office,Home Office,Border Force Change,2BF04,Grade 7,44656,57553,Senior Operational Manager,1.0,Operational Delivery
+159,Home Office,Home Office,Border Force Change,2BF04,HEO,25297,30989,Operational Manager,1.0,Operational Delivery
+160,Home Office,Home Office,Border Force Change,2BF04,SEO,32602,39537,Operational Manager,2.0,Operational Delivery
+161,Home Office,Home Office,Border Force Resource Directorate,1BF05,AA,14043,15701,Finance Support Officer,3.0,Finance
+162,Home Office,Home Office,Border Force Resource Directorate,1BF05,AO,15386,18657,Finance Support Officer,9.02,Finance
+163,Home Office,Home Office,Border Force Resource Directorate,1BF05,EO,20235,24789,Finance Officer,13.26,Finance
+164,Home Office,Home Office,Border Force Resource Directorate,1BF05,Grade 6,54705,70504,Senior Finance Manager,3.5,Finance
+165,Home Office,Home Office,Border Force Resource Directorate,1BF05,Grade 7,44656,57553,Senior Finance Manager,7.67,Finance
+166,Home Office,Home Office,Border Force Resource Directorate,1BF05,HEO,25297,30989,Finance Manager,14.34,Finance
+167,Home Office,Home Office,Border Force Resource Directorate,1BF05,Immigration Inspector,32602,39537,Operational Manager,1.0,Finance
+168,Home Office,Home Office,Border Force Resource Directorate,1BF05,IO,21505,26614,Operational Officer,1.0,Finance
+169,Home Office,Home Office,Border Force Resource Directorate,1BF05,SEO,32602,39537,Finance Manager,20.19,Finance
+170,Home Office,Home Office,Border Force Transformation Team,1BF07,Grade 7,44656,57553,Knowledge Information Management Manager,2.78,Planning
+171,Home Office,Home Office,Border Force Transformation Team,1BF07,HEO,25297,30989,Resourcing Manager,3.0,Planning
+172,Home Office,Home Office,Border Force Transformation Team,1BF07,SEO,32602,39537,Resourcing Manager,2.0,Planning
+173,Home Office,Home Office,Border Force HR and Training,1BF14,AA,14043,15701,Human Resources Support Officer,1.8,Human Resources
+174,Home Office,Home Office,Border Force HR and Training,1BF14,AO,15386,18657,Human Resources Support Officer,7.5,Human Resources
+175,Home Office,Home Office,Border Force HR and Training,1BF14,CIO,25816,31948,HR Manager,4.67,Human Resources
+176,Home Office,Home Office,Border Force HR and Training,1BF14,EO,20235,24789,Human Resources Officer,4.83,Human Resources
+177,Home Office,Home Office,Border Force HR and Training,1BF14,Grade 6,54705,70504,Senior Human Resources Manager,3.94,Human Resources
+178,Home Office,Home Office,Border Force HR and Training,1BF14,Grade 7,44656,57553,Senior Human Resources Manager,12.13,Human Resources
+179,Home Office,Home Office,Border Force HR and Training,1BF14,HEO,25297,30989,HR Manager,8.34,Human Resources
+180,Home Office,Home Office,Border Force HR and Training,1BF14,IO,21505,26614,Operational Officer,21.44,Human Resources
+181,Home Office,Home Office,Border Force HR and Training,1BF14,SEO,32602,39537,HR Manager,12.4,Human Resources
+182,Home Office,Home Office,Border Force Transformation Team,1BF13,AO,15386,18657,Operational Support Officer,2.0,Operational Delivery
+183,Home Office,Home Office,Border Force Transformation Team,1BF13,CIO,25816,31948,Operational Manager,2.16,Operational Delivery
+184,Home Office,Home Office,Border Force Transformation Team,1BF13,EO,20235,24789,Operational Officer,1.0,Operational Delivery
+185,Home Office,Home Office,Border Force Transformation Team,1BF13,Grade 6,54705,70504,Senior Operational Manager,2.0,Operational Delivery
+186,Home Office,Home Office,Border Force Transformation Team,1BF13,Grade 7,44656,57553,Senior Operational Manager,8.0,Operational Delivery
+187,Home Office,Home Office,Border Force Transformation Team,1BF13,HEO,25297,30989,Operational Manager,11.16,Operational Delivery
+188,Home Office,Home Office,Border Force Transformation Team,1BF13,IO,21505,26614,Operational Officer,1.0,Operational Delivery
+189,Home Office,Home Office,Border Force Transformation Team,1BF13,SEO,32602,39537,Operational Manager,6.0,Operational Delivery
+190,Home Office,Home Office,Heathrow Transformation,1BF16,EO,20235,24789,Operational Officer,1.0,Operational Delivery
+191,Home Office,Home Office,Heathrow Transformation,1BF16,Grade 6,54705,70504,Senior Operational Manager,0.9,Operational Delivery
+192,Home Office,Home Office,Heathrow Transformation,1BF16,Grade 7,44656,57553,Senior Operational Manager,2.0,Operational Delivery
+193,Home Office,Home Office,Heathrow Transformation,1BF16,SEO,32602,39537,Operational Manager,1.0,Operational Delivery
+194,Home Office,Home Office,Border Force Change,2BF04,EO,20235,24789,Operational Officer,3.0,Operational Delivery
+195,Home Office,Home Office,Border Force Change,2BF04,SEO,32602,39537,Operational Manager,1.0,Operational Delivery
+196,Home Office,Home Office,Border Force Change,2BF04,SEO,32602,39537,Operational Manager,1.0,Operational Delivery
+197,Home Office,Home Office,Communication Directorate,2COM01,HEO,25297,30989,Personal Secretary,1.0,Communications
+198,Home Office,Home Office,Direct Communications Unit,2COM01,Grade 6,54705,70504,Head of Direct Communications Unit,1.0,Communications
+199,Home Office,Home Office,Direct Communications Unit,2COM01,Grade 7,44656,57553,Senior Correspondence Manager,1.0,Communications
+200,Home Office,Home Office,Direct Communications Unit,2COM01,SEO,32602,39537,Correspondence Manager,2.0,Communications
+201,Home Office,Home Office,Direct Communications Unit,2COM01,HEO,25297,30989,Communications Manager,0.8,Communications
+202,Home Office,Home Office,Direct Communications Unit,2COM01,HEO,25297,30989,Correspondence Manager,3.86,Communications
+203,Home Office,Home Office,Direct Communications Unit,2COM01,HEO,25297,30989,Drafting Officer Manager,2.0,Communications
+204,Home Office,Home Office,Direct Communications Unit,2COM01,HEO,25297,30989,Management Information Officer,1.0,Communications
+205,Home Office,Home Office,Direct Communications Unit,2COM01,SPS ,19629,24291,Personal Secretary,1.0,Communications
+206,Home Office,Home Office,Direct Communications Unit,2COM01,EO,20235,24789,Correspondence Manager,5.2,Communications
+207,Home Office,Home Office,Direct Communications Unit,2COM01,EO,20235,24789,Drafting Officer,11.4,Communications
+208,Home Office,Home Office,Direct Communications Unit,2COM01,EO,20235,24789,Management Information Officer,1.0,Communications
+209,Home Office,Home Office,Direct Communications Unit,2COM01,EO,20235,24789,Communications Officer,1.0,Communications
+210,Home Office,Home Office,Direct Communications Unit,2COM01,EO,20235,24789,Correspondence Officer,12.35,Communications
+211,Home Office,Home Office,Direct Communications Unit,2COM01,AO,15386,18657,Correspondence Support Officer,9.5,Communications
+212,Home Office,Home Office,Direct Communications Unit,2COM01,AA,14043,15701,Administrative Support Officer,0.81,Communications
+213,Home Office,Home Office,"Strategic Communications, Marketing and Insight",1COM03,Grade 6,54705,70504,Senior Communications Manager,3.71,Communications
+214,Home Office,Home Office,"Strategic Communications, Marketing and Insight",1COM03,Grade 7,44656,57553,Senior Strategy & Communication Manager,8.8,Communications
+215,Home Office,Home Office,"Strategic Communications, Marketing and Insight",1COM03,Senior Information Officer,36452,42447,Communications Manager,11.8,Communications
+216,Home Office,Home Office,"Strategic Communications, Marketing and Insight",1COM03,SEO,32602,39537,Communications Manager,5.0,Communications
+217,Home Office,Home Office,"Strategic Communications, Marketing and Insight",1COM03,Information Officer,28573,34650,Communications Officer,15.0,Communications
+218,Home Office,Home Office,"Strategic Communications, Marketing and Insight",1COM03,HEO,25297,30989,Communications Officer,3.68,Communications
+219,Home Office,Home Office,"Strategic Communications, Marketing and Insight",1COM03,Assistant Information Officer,24538,29757,Communications Officer,2.0,Communications
+220,Home Office,Home Office,"Strategic Communications, Marketing and Insight",1COM03,EO,20235,24789,Communications Officer,2.0,Communications
+221,Home Office,Home Office,"Strategic Communications, Marketing and Insight",1COM03,AO,15386,18657,Communications Support Officer,1.62,Communications
+222,Home Office,Home Office,Press Office and Planning Unit,1COM04,Grade 6,54705,70504,Deputy Head of News,1.0,Communications
+223,Home Office,Home Office,Press Office and Planning Unit,1COM04,Grade 7,44656,57553,Senior Press Officer,6.0,Communications
+224,Home Office,Home Office,Press Office and Planning Unit,1COM04,Senior Information Officer,36452,42447,Press Officer,11.0,Communications
+225,Home Office,Home Office,Press Office and Planning Unit,1COM04,Information Officer,28573,34650,Press Officer,40.8,Communications
+226,Home Office,Home Office,Press Office and Planning Unit,1COM04,EO,20235,24789,Administrative Support Staff,1.8,Communications
+227,Home Office,Home Office,Press Office and Planning Unit,1COM04,AO,15386,18657,Administrative Support Staff,1.0,Communications
+228,Home Office,Home Office,"Digital, Events and Staff Communications",1COM05,Grade 6,54705,70504,Senior Communications Manager,1.0,Communications
+229,Home Office,Home Office,"Digital, Events and Staff Communications",1COM05,Grade 7,44656,57553,Senior Communications Manager,5.0,Communications
+230,Home Office,Home Office,"Digital, Events and Staff Communications",1COM05,Senior Information Officer,36452,42447,Communications Manager,9.5,Communications
+231,Home Office,Home Office,"Digital, Events and Staff Communications",1COM05,SEO,32602,39537,Communications Manager,2.28,Communications
+232,Home Office,Home Office,"Digital, Events and Staff Communications",1COM05,Librarian,28573,34650,Communications Officer,2.0,Communications
+233,Home Office,Home Office,"Digital, Events and Staff Communications",1COM05,Information Officer,28573,34650,Communications Officer,27.59,Communications
+234,Home Office,Home Office,"Digital, Events and Staff Communications",1COM05,EO,20235,24789,Communications Support Officer,6.04,Communications
+235,Home Office,Home Office,"Digital, Events and Staff Communications",1COM05,Assistant Information Officer,24538,29757,Communications Support Officer,2.81,Communications
+236,Home Office,Home Office,"Digital, Events and Staff Communications",1COM05,AO,15386,18657,Communications Support Officer,3.0,Communications
+237,Home Office,Home Office,Director General's Office,3FC01,Grade 7,44656,57553,Principal Private Secretary,1.0,Finance
+238,Home Office,Home Office,Director General's Office,3FC01,HEO,25297,30989,Office Manager,1.0,Finance
+239,Home Office,Home Office,Director General's Office,3FC01,HEO,25297,30989,Private Secretary,1.0,Finance
+240,Home Office,Home Office,Director General's Office,3FC01,EO,20235,24789,Assistant Private Secretary,1.0,Finance
+241,Home Office,Home Office,Value for Money,1FC01,Grade 6,54705,70504,Strategic Finance & Performance Officer,1.89,Finance
+242,Home Office,Home Office,Value for Money,1FC01,Grade 7,44656,57553,Continuous Improvement Specialist,10.67,Finance
+243,Home Office,Home Office,Value for Money,1FC01,Grade 7,44656,57553,Operational Researcher,0.8,Finance
+244,Home Office,Home Office,Value for Money,1FC01,Grade 7,44656,57553,Strategic Finance & Performance Officer,1.0,Finance
+245,Home Office,Home Office,Value for Money,1FC01,SEO,32602,39537,Continuous Improvement Specialist,30.0,Finance
+246,Home Office,Home Office,Value for Money,1FC01,HEO,25297,30989,Continuous Improvement Specialist,48.36,Finance
+247,Home Office,Home Office,Value for Money,1FC01,EO,20235,24789,Programme Support Officer,4.71,Finance
+248,Home Office,Home Office,Resources and Planning,1FC03,Grade 6,54705,70504,Strategic Finance Manager,1.0,Finance
+249,Home Office,Home Office,Resources and Planning,1FC03,Grade 7,44656,57553,Senior Finance Analyst,2.0,Finance
+250,Home Office,Home Office,Resources and Planning,1FC03,Grade 7,44656,57553,Senior Finance and Performance Analyst,4.0,Finance
+251,Home Office,Home Office,Resources and Planning,1FC03,Grade 7,44656,57553,Senior Performance Analyst,1.0,Policy
+252,Home Office,Home Office,Resources and Planning,1FC03,Grade 7,44656,57553,Senior Risk Analyst,1.0,Policy
+253,Home Office,Home Office,Resources and Planning,1FC03,SEO,32602,39537,Finance Analyst,0.6,Finance
+254,Home Office,Home Office,Resources and Planning,1FC03,SEO,32602,39537,Finance and Performance Analyst,2.0,Finance
+255,Home Office,Home Office,Resources and Planning,1FC03,SEO,32602,39537,Business Planning,1.0,Finance
+256,Home Office,Home Office,Resources and Planning,1FC03,HEO,25297,30989,Finance Analyst,1.0,Finance
+257,Home Office,Home Office,Resources and Planning,1FC03,EO,20235,24789,Business Support Officer,1.0,Finance
+258,Home Office,Home Office,Resources and Planning,1FC03,EO,20235,24789,Finance Analyst,2.0,Finance
+259,Home Office,Home Office,Accounting and Finance,1FC05,Grade 6,54705,70504,Senior Finance Manager,4.67,Finance
+260,Home Office,Home Office,Accounting and Finance,1FC05,Grade 7,44656,57553,Senior Finance Manager,7.0,Finance
+261,Home Office,Home Office,Accounting and Finance,1FC05,SEO,32602,39537,Finance Officer,24.67,Finance
+262,Home Office,Home Office,Accounting and Finance,1FC05,HEO,25297,30989,Finance Officer,19.0,Finance
+263,Home Office,Home Office,Accounting and Finance,1FC05,EO,20235,24789,Finance Support Officer,10.0,Finance
+264,Home Office,Home Office,Accounting and Finance,1FC05,AO,15386,18657,Finance Support Officer,1.0,Finance
+265,Home Office,Home Office,Internal Audit Unit,1FC06,Grade 6,54705,70504,Internal Auditor,2.0,Internal Audit
+266,Home Office,Home Office,Internal Audit Unit,1FC06,Grade 7,44656,57553,Internal Auditor,4.67,Internal Audit
+267,Home Office,Home Office,Internal Audit Unit,1FC06,SEO,32602,39537,Internal Auditor,21.69,Internal Audit
+268,Home Office,Home Office,Internal Audit Unit,1FC06,HEO,25297,30989,Internal Auditor,12.8,Internal Audit
+269,Home Office,Home Office,Internal Audit Unit,1FC06,EO,20235,24789,Internal Audit Support Officer,2.6,Internal Audit
+270,Home Office,Home Office,Corporate Support Unit,1CS14,Grade 6,54705,70504,Senior Client Manager,1.0,Finance
+271,Home Office,Home Office,Corporate Support Unit,1CS14,Grade 6,54705,70504,Senior Finance Manager,1.0,Finance
+272,Home Office,Home Office,Corporate Support Unit,1CS14,Grade 7,44656,57553,Senior Business Support Manager,1.0,Finance
+273,Home Office,Home Office,Corporate Support Unit,1CS14,Grade 7,44656,57553,Senior Client Manager,3.0,Finance
+274,Home Office,Home Office,Corporate Support Unit,1CS14,Grade 7,44656,57553,Senior Finance Manager,5.0,Finance
+275,Home Office,Home Office,Corporate Support Unit,1CS14,Grade 7,44656,57553,Senior Performance and Business Support Manager,1.0,Finance
+276,Home Office,Home Office,Corporate Support Unit,1CS14,SEO,32602,39537,Business Support Manager,2.0,Finance
+277,Home Office,Home Office,Corporate Support Unit,1CS14,SEO,32602,39537,Finance Officer,10.19,Finance
+278,Home Office,Home Office,Corporate Support Unit,1CS14,SEO,32602,39537,Client Manager,0.63,Finance
+279,Home Office,Home Office,Corporate Support Unit,1CS14,HEO,25297,30989,Business Support Manager,6.78,Finance
+280,Home Office,Home Office,Corporate Support Unit,1CS14,HEO,25297,30989,Finance Officer,10.69,Finance
+281,Home Office,Home Office,Corporate Support Unit,1CS14,HEO,25297,30989,Support Manager,2.0,Finance
+282,Home Office,Home Office,Corporate Support Unit,1CS14,EO,20235,24789,Business Support Manager,8.8,Finance
+283,Home Office,Home Office,Corporate Support Unit,1CS14,EO,20235,24789,Executive Assistant,19.39,Finance
+284,Home Office,Home Office,Corporate Support Unit,1CS14,EO,20235,24789,Finance Officer,15.43,Finance
+285,Home Office,Home Office,Corporate Support Unit,1CS14,AO,15386,18657,Apprentice - Administration,4.0,Finance
+286,Home Office,Home Office,Corporate Support Unit,1CS14,AO,15386,18657,Business Support Assistant,2.0,Finance
+287,Home Office,Home Office,Corporate Support Unit,1CS14,AO,15386,18657,Finance Support Officer,6.83,Finance
+288,Home Office,Home Office,Operational Finance Unit,1FC10,Grade 6,54705,70504,Senior Finance Manager,7.67,Finance
+289,Home Office,Home Office,Operational Finance Unit,1FC10,Grade 7,44656,57553,Senior Finance Manager,16.23,Finance
+290,Home Office,Home Office,Operational Finance Unit,1FC10,SEO,32602,39537,Finance Officer,48.03,Finance
+291,Home Office,Home Office,Operational Finance Unit,1FC10,HEO,25297,30989,Finance Officer,41.28,Finance
+292,Home Office,Home Office,Operational Finance Unit,1FC10,HEO,25297,30989,Business Support Manager,1.0,Finance
+293,Home Office,Home Office,Operational Finance Unit,1FC10,EO,20235,24789,Finance Support Officer,70.44,Finance
+294,Home Office,Home Office,Operational Finance Unit,1FC10,EO,20235,24789,Executive Assistant,2.41,Finance
+295,Home Office,Home Office,Operational Finance Unit,1FC10,AO,15386,18657,Finance Support Officer,40.98,Finance
+296,Home Office,Home Office,Operational Finance Unit,1FC10,AO,15386,18657,Executive Assistant,1.0,Finance
+297,Home Office,Home Office,Operational Finance Unit,1FC10,AA,14043,15701,Finance Support Officer,4.51,Finance
+298,Home Office,Home Office,Commercial - Major Projects,1FC28,Grade 6,54705,70504,Senior Procurement Manager,4.0,Procurement
+299,Home Office,Home Office,Commercial - Major Projects,1FC28,Grade 7,44656,57553,Senior Procurement Manager,5.0,Procurement
+300,Home Office,Home Office,Commercial - Major Projects,1FC28,SEO,32602,39537,Senior Procurement Officer,7.0,Procurement
+301,Home Office,Home Office,Commercial - Major Projects,1FC28,HEO,25297,30989,Procurement Officer,1.0,Procurement
+302,Home Office,Home Office,Commercial - Major Projects,1FC28,EO,20235,24789,Procurement Officer,1.0,Procurement
+303,Home Office,Home Office,Commercial - Policing,1FC25,Grade 6,54705,70504,Senior Procurement Manager,5.0,Procurement
+304,Home Office,Home Office,Commercial - Policing,1FC25,Grade 7,44656,57553,Senior Procurement Manager,10.0,Procurement
+305,Home Office,Home Office,Commercial - Policing,1FC25,SEO,32602,39537,Senior Procurement Officer,7.0,Procurement
+306,Home Office,Home Office,Commercial - Policing,1FC25,HEO,25297,30989,Procurement Officer,1.0,Procurement
+307,Home Office,Home Office,Commercial - Policing,1FC25,EO,20235,24789,Procurement Officer,1.0,Procurement
+308,Home Office,Home Office,"Commercial - Strategy, Intelligence & Performance",1FC31,Grade 6,54705,70504,Senior Procurement Manager,1.0,Procurement
+309,Home Office,Home Office,"Commercial - Strategy, Intelligence & Performance",1FC31,Grade 7,44656,57553,Senior Procurement Manager,1.0,Procurement
+310,Home Office,Home Office,"Commercial - Strategy, Intelligence & Performance",1FC31,SEO,32602,39537,Senior Procurement Officer,3.0,Procurement
+311,Home Office,Home Office,"Commercial - Strategy, Intelligence & Performance",1FC31,HEO,25297,30989,Procurement Officer,1.0,Procurement
+312,Home Office,Home Office,Commercial - Immigration,1UKBA49,Grade 6,54705,70504,Senior Procurement Manager,4.0,Procurement
+313,Home Office,Home Office,Commercial - Immigration,1UKBA49,Grade 7,44656,57553,Senior Procurement Manager,11.0,Procurement
+314,Home Office,Home Office,Commercial - Immigration,1UKBA49,SEO,32602,39537,Senior Procurement Officer,19.0,Procurement
+315,Home Office,Home Office,Commercial - Immigration,1UKBA49,HEO,25297,30989,Procurement Officer,25.0,Procurement
+316,Home Office,Home Office,Commercial - Immigration,1UKBA49,EO,20235,24789,Procurement Officer,25.0,Procurement
+317,Home Office,Home Office,Commercial - Immigration,1UKBA49,AO,15386,18657,Procurement Officer,6.0,Procurement
+318,Home Office,Home Office,IT Leadership,2CS05,Grade 7,44656,57553,Chief of Staff,1.0,Information Technology
+319,Home Office,Home Office,IT Leadership,2CS05,HEO,25297,30989,Office Manager,2.0,Information Technology
+320,Home Office,Home Office,ICT and PPM People,1FC32,Grade 6,54705,70504,Senior Project Manager,14.83,Information Technology
+321,Home Office,Home Office,ICT and PPM People,1FC32,Grade 7,44656,57553,Senior Project Manager,77.3,Information Technology
+322,Home Office,Home Office,ICT and PPM People,1FC32,SEO,32602,39537,Project Manager,40.6,Information Technology
+323,Home Office,Home Office,ICT and PPM People,1FC32,HEO,25297,30989,Project Manager,30.87,Information Technology
+324,Home Office,Home Office,ICT and PPM People,1FC32,EO,20235,24789,Project Support Officer,8.0,Information Technology
+325,Home Office,Home Office,ICT and PPM People,1FC32,AO,15386,18657,Project Support Officer,2.0,Information Technology
+326,Home Office,Home Office,KIM Strategy and Policy,2FC04,Grade 6,54705,70504,Senior Knowledge Information Management Manager,1.0,Knowledge and Information Management (KIM)
+327,Home Office,Home Office,KIM Strategy and Policy,2FC04,Grade 7,44656,57553,Senior Knowledge Information Management Manager,4.0,Knowledge and Information Management (KIM)
+328,Home Office,Home Office,KIM Strategy and Policy,2FC04,SEO,32602,39537,Knowledge Information Management Manager,5.0,Knowledge and Information Management (KIM)
+329,Home Office,Home Office,KIM Strategy and Policy,2FC04,HEO,25297,30989,Knowledge Information Management Manager,2.0,Knowledge and Information Management (KIM)
+330,Home Office,Home Office,ICT Projects,1FC33,Grade 6,54705,70504,Senior Project Manager,0.4,Information Technology
+331,Home Office,Home Office,ICT Projects,1FC33,Grade 7,44656,57553,Senior Project Manager,1.0,Information Technology
+332,Home Office,Home Office,ICT Projects,1FC33,SEO,32602,39537,Project Manager,2.0,Information Technology
+333,Home Office,Home Office,IT Architecture,1FC26,Grade 6,54705,70504,Senior Architect IT,9.0,Information Technology
+334,Home Office,Home Office,IT Architecture,1FC26,Grade 7,44656,57553,Senior Architect IT,76.8,Information Technology
+335,Home Office,Home Office,IT Architecture,1FC26,SEO,32602,39537,Architect IT,12.0,Information Technology
+336,Home Office,Home Office,IT Architecture,1FC26,HEO,25297,30989,Architect IT,3.8,Information Technology
+337,Home Office,Home Office,IT Architecture,1FC26,EO,20235,24789,Programme Support Officer,1.0,Information Technology
+338,Home Office,Home Office,IT Strategy and HO Portfolio,1FC37,Grade 6,54705,70504,Senior Programme Adviser,4.0,Programme and Project Management (PPM)
+339,Home Office,Home Office,IT Strategy and HO Portfolio,1FC37,Grade 7,44656,57553,Programme Adviser,4.0,Information Technology
+340,Home Office,Home Office,IT Strategy and HO Portfolio,1FC37,Grade 7,44656,57553,Programme Adviser,18.1,Programme and Project Management (PPM)
+341,Home Office,Home Office,IT Strategy and HO Portfolio,1FC37,SEO,32602,39537,Programme Adviser,13.83,Programme and Project Management (PPM)
+342,Home Office,Home Office,IT Strategy and HO Portfolio,1FC37,HEO,25297,30989,Programme Adviser,9.0,Programme and Project Management (PPM)
+343,Home Office,Home Office,IT Strategy and HO Portfolio,1FC37,EO,20235,24789,Programme Support Officer,4.0,Programme and Project Management (PPM)
+344,Home Office,Home Office,Airwave,1FC38,Grade 6,54705,70504,Airwave Portfolio Manager,1.0,Information Technology
+345,Home Office,Home Office,Airwave,1FC38,Grade 6,54705,70504,Airwave Senior Technical Manager,1.0,Information Technology
+346,Home Office,Home Office,Airwave,1FC38,Grade 6,54705,70504,Business Assurance Co-ordinator,1.0,Information Technology
+347,Home Office,Home Office,Airwave,1FC38,Grade 7,44656,57553,Airwave Contract Manager,1.0,Information Technology
+348,Home Office,Home Office,Airwave,1FC38,Grade 7,44656,57553,Airwave Coverage Manager,1.0,Information Technology
+349,Home Office,Home Office,Airwave,1FC38,Grade 7,44656,57553,Airwave engineer,3.0,Information Technology
+350,Home Office,Home Office,Airwave,1FC38,Grade 7,44656,57553,Airwave Interoperability Manager,2.0,Information Technology
+351,Home Office,Home Office,Airwave,1FC38,Grade 7,44656,57553,Airwave Regional Engineer,2.0,Information Technology
+352,Home Office,Home Office,Airwave,1FC38,Grade 7,44656,57553,Airwave Security Engineer,1.0,Information Technology
+353,Home Office,Home Office,Airwave,1FC38,Grade 7,44656,57553,Airwave Security Manager,1.0,Information Technology
+354,Home Office,Home Office,Airwave,1FC38,Grade 7,44656,57553,Airwave Service Manager,1.0,Information Technology
+355,Home Office,Home Office,Airwave,1FC38,Grade 7,44656,57553,Airwave Services Senior Manager,3.0,Information Technology
+356,Home Office,Home Office,Airwave,1FC38,Grade 7,44656,57553,Airwave Spectrum Engineer,2.0,Information Technology
+357,Home Office,Home Office,Airwave,1FC38,HEO,25297,30989,Airwave accreditation Manager,1.0,Information Technology
+358,Home Office,Home Office,Airwave,1FC38,HEO,25297,30989,Airwave Interoperability Inspector,1.0,Information Technology
+359,Home Office,Home Office,Airwave,1FC38,HEO,25297,30989,Airwave Project Manager,1.6,Information Technology
+360,Home Office,Home Office,Airwave,1FC38,HEO,25297,30989,Airwave Service and Customer support Manager,1.0,Information Technology
+361,Home Office,Home Office,Airwave,1FC38,HEO,25297,30989,Airwave Services Manager,3.0,Information Technology
+362,Home Office,Home Office,Airwave,1FC38,EO,20235,24789,Web Service Administrator,3.0,Information Technology
+363,Home Office,Home Office,IS Services,1FC39,Grade 6,54705,70504,Senior Information Services Manager,2.0,Information Technology
+364,Home Office,Home Office,IS Services,1FC39,Grade 7,44656,57553,Senior Information Services Manager,5.0,Information Technology
+365,Home Office,Home Office,IS Services,1FC39,SEO,32602,39537,Information Services Manager,22.0,Information Technology
+366,Home Office,Home Office,IS Services,1FC39,HEO,25297,30989,Information Services Manager,10.0,Information Technology
+367,Home Office,Home Office,IS Services,1FC39,EO,20235,24789,Information Services Support Officer,2.0,Information Technology
+368,Home Office,Home Office,Software Engineering,1FC39,Grade 6,54705,70504,Senior Software Manager,1.0,Information Technology
+369,Home Office,Home Office,Software Engineering,1FC39,Grade 7,44656,57553,Senior Software Manager,6.0,Information Technology
+370,Home Office,Home Office,Software Engineering,1FC39,SEO,32602,39537,Software Manager,27.0,Information Technology
+371,Home Office,Home Office,Software Engineering,1FC39,HEO,25297,30989,Software Manager,11.75,Information Technology
+372,Home Office,Home Office,Technical Services,1FC39,Grade 6,54705,70504,Senior Technical Manager,1.0,Information Technology
+373,Home Office,Home Office,Technical Services,1FC39,Grade 7,44656,57553,Senior Technical Manager,8.0,Information Technology
+374,Home Office,Home Office,Technical Services,1FC39,SEO,32602,39537,Technical Manager,26.8,Information Technology
+375,Home Office,Home Office,Technical Services,1FC39,HEO,25297,30989,Technical Manager,24.0,Information Technology
+376,Home Office,Home Office,Service Delivery,1FC39,Grade 6,54705,70504,Senior IT Services Manager,1.0,Information Technology
+377,Home Office,Home Office,Service Delivery,1FC39,Grade 7,44656,57553,Senior IT Services Manager,2.0,Information Technology
+378,Home Office,Home Office,Service Delivery,1FC39,SEO,32602,39537,IT Services Manager,5.7,Information Technology
+379,Home Office,Home Office,Service Delivery,1FC39,HEO,25297,30989,IT Services Manager,17.0,Information Technology
+380,Home Office,Home Office,Service Delivery,1FC39,EO,20235,24789,IT Services Manager,20.0,Information Technology
+381,Home Office,Home Office,Service Delivery,1FC39,AO,15386,18657,IT Support Officer,8.0,Information Technology
+382,Home Office,Home Office,Service Support,1FC39,Grade 6,54705,70504,Senior IT Support Manager,1.0,Information Technology
+383,Home Office,Home Office,Service Support,1FC39,Grade 7,44656,57553,Senior IT Support Manager,4.8,Information Technology
+384,Home Office,Home Office,Service Support,1FC39,SEO,32602,39537,IT Support Manager,11.6,Information Technology
+385,Home Office,Home Office,Service Support,1FC39,HEO,25297,30989,IT Support Manager,11.5,Information Technology
+386,Home Office,Home Office,PNC Services,1FC39,Grade 6,54705,70504,PNC Services Senior Manager,5.0,Information Technology
+387,Home Office,Home Office,PNC Services,1FC39,Grade 7,44656,57553,PNC Services Senior Manager,5.0,Information Technology
+388,Home Office,Home Office,PNC Services,1FC39,SEO,32602,39537,PNC Services Manager,4.0,Information Technology
+389,Home Office,Home Office,PNC Services,1FC39,HEO,25297,30989,PNC Services Manager,10.5,Information Technology
+390,Home Office,Home Office,PNC Services,1FC39,EO,20235,24789,PNC Services Manager,3.0,Information Technology
+391,Home Office,Home Office,PNC Services,1FC39,AO,15386,18657,PNC Services Support Officer,6.0,Information Technology
+392,Home Office,Home Office,Information Management Service,2FC04,Grade 6,54705,70504,Senior Knowledge Information Management Manager,1.0,Knowledge and Information Management (KIM)
+393,Home Office,Home Office,Information Management Service,2FC04,Grade 7,44656,57553,Senior Knowledge Information Management Manager,1.9,Knowledge and Information Management (KIM)
+394,Home Office,Home Office,Information Management Service,2FC04,SEO,32602,39537,Knowledge Information Management Manager,11.8,Knowledge and Information Management (KIM)
+395,Home Office,Home Office,Information Management Service,2FC04,HEO,25297,30989,Knowledge Information Management Manager,25.53,Knowledge and Information Management (KIM)
+396,Home Office,Home Office,Information Management Service,2FC04,EO,20235,24789,Knowledge Information Management Manager,36.53,Knowledge and Information Management (KIM)
+397,Home Office,Home Office,Information Management Service,2FC04,AO,15386,18657,Knowledge Information Management Support Officer,15.63,Knowledge and Information Management (KIM)
+398,Home Office,Home Office,Information Management Service,2FC04,AA,14043,15701,Knowledge Information Management Support Officer,4.0,Knowledge and Information Management (KIM)
+399,Home Office,Home Office,HQ IT Client Function,2FC04,Grade 6,54705,70504,Senior Business Relationship Manager,1.0,Information Technology
+400,Home Office,Home Office,HQ IT Client Function,2FC04,Grade 7,44656,57553,Senior Business Relationship Manager,4.8,Information Technology
+401,Home Office,Home Office,HQ IT Client Function,2FC04,SEO,32602,39537,Business Relationship Manager,3.0,Information Technology
+402,Home Office,Home Office,HQ IT Client Function,2FC04,HEO,25297,30989,Business Relationship Manager,1.0,Information Technology
+403,Home Office,Home Office,"Test, Design and Consultancy Services",1FC34,Grade 6,54705,70504,Senior Testing Manager,3.0,Information Technology
+404,Home Office,Home Office,"Test, Design and Consultancy Services",1FC34,Grade 7,44656,57553,Senior Testing Manager,36.66,Information Technology
+405,Home Office,Home Office,"Test, Design and Consultancy Services",1FC34,SEO,32602,39537,Testing Manager,45.54,Information Technology
+406,Home Office,Home Office,"Test, Design and Consultancy Services",1FC34,HEO,25297,30989,Testing Manager,32.0,Information Technology
+407,Home Office,Home Office,"Test, Design and Consultancy Services",1FC34,EO,20235,24789,Testing Manager,12.0,Information Technology
+408,Home Office,Home Office,IT Service Delivery,1FC04,Grade 6,54705,70504,Senior IT Services Manager,4.0,Information Technology
+409,Home Office,Home Office,IT Service Delivery,1FC04,Grade 7,44656,57553,Senior IT Services Manager,33.58,Information Technology
+410,Home Office,Home Office,IT Service Delivery,1FC04,SEO,32602,39537,IT Services Manager,41.83,Information Technology
+411,Home Office,Home Office,IT Service Delivery,1FC04,HEO,25297,30989,IT Services Manager,20.3,Information Technology
+412,Home Office,Home Office,IT Service Delivery,1FC04,EO,20235,24789,IT Services Manager,12.86,Information Technology
+413,Home Office,Home Office,IT Service Delivery,1FC04,AO,15386,18657,IT Support Officer,3.0,Information Technology
+414,Home Office,Home Office,IT Service Delivery,1FC04,AA,14043,15701,IT Support Officer,1.0,Information Technology
+415,Home Office,Home Office,Home Office General Property,1FC02,Grade 6,54705,70504,Head of Detention Projects,1.0,Property and Asset Management
+416,Home Office,Home Office,Home Office General Property,1FC02,Grade 6,54705,70504,Head of Facilities Delivery,1.0,Property and Asset Management
+417,Home Office,Home Office,Home Office General Property,1FC02,Grade 6,54705,70504,Head of Planning,1.0,Property and Asset Management
+418,Home Office,Home Office,Home Office General Property,1FC02,Grade 6,54705,70504,Head of Procurement,1.0,Procurement
+419,Home Office,Home Office,Home Office General Property,1FC02,Grade 6,54705,70504,Head of Programmes,1.0,Property and Asset Management
+420,Home Office,Home Office,Home Office General Property,1FC02,Grade 7,44656,57553,Principal Business Relationship Manager,3.0,Property and Asset Management
+421,Home Office,Home Office,Home Office General Property,1FC02,Grade 7,44656,57553,Principal Estate Planning Manager,3.0,Property and Asset Management
+422,Home Office,Home Office,Home Office General Property,1FC02,Grade 7,44656,57553,Principal Estates Surveyor,1.0,Property and Asset Management
+423,Home Office,Home Office,Home Office General Property,1FC02,Grade 7,44656,57553,Principal Facilities Delivery Manager,3.0,Property and Asset Management
+424,Home Office,Home Office,Home Office General Property,1FC02,Grade 7,44656,57553,Principal Procurement Manager,1.0,Procurement
+425,Home Office,Home Office,Home Office General Property,1FC02,Grade 7,44656,57553,Principal Programme Manager,3.0,Property and Asset Management
+426,Home Office,Home Office,Home Office General Property,1FC02,Grade 7,44656,57553,Principal Sustainable Development Manager,1.0,Property and Asset Management
+427,Home Office,Home Office,Home Office General Property,1FC02,SEO,32602,39537,Chief of Staff,1.0,Property and Asset Management
+428,Home Office,Home Office,Home Office General Property,1FC02,SEO,32602,39537,Senior Business Relationship  Manager,1.0,Property and Asset Management
+429,Home Office,Home Office,Home Office General Property,1FC02,SEO,32602,39537,Senior Estate Planning Manager,4.0,Property and Asset Management
+430,Home Office,Home Office,Home Office General Property,1FC02,SEO,32602,39537,Senior Facilities Delivery Manager,8.6,Property and Asset Management
+431,Home Office,Home Office,Home Office General Property,1FC02,SEO,32602,39537,Senior HQ PFI Facilities Manager,1.0,Property and Asset Management
+432,Home Office,Home Office,Home Office General Property,1FC02,SEO,32602,39537,Senior Messenger Manager,2.0,Property and Asset Management
+433,Home Office,Home Office,Home Office General Property,1FC02,SEO,32602,39537,Senior Procurement Manager,1.0,Procurement
+434,Home Office,Home Office,Home Office General Property,1FC02,SEO,32602,39537,Senior Programme Manager,8.0,Property and Asset Management
+435,Home Office,Home Office,Home Office General Property,1FC02,SEO,32602,39537,Senior Sustainable Development Manager,1.44,Property and Asset Management
+436,Home Office,Home Office,Home Office General Property,1FC02,SEO,32602,39537,Senior Technical Manager,1.0,Property and Asset Management
+437,Home Office,Home Office,Home Office General Property,1FC02,HEO,25297,30989,Estate Planning Manager,3.0,Property and Asset Management
+438,Home Office,Home Office,Home Office General Property,1FC02,HEO,25297,30989,Estates Surveyor,1.0,Property and Asset Management
+439,Home Office,Home Office,Home Office General Property,1FC02,HEO,25297,30989,Facilities Manager,19.72,Property and Asset Management
+440,Home Office,Home Office,Home Office General Property,1FC02,HEO,25297,30989,HQ PFI Facilities Manager,1.0,Property and Asset Management
+441,Home Office,Home Office,Home Office General Property,1FC02,HEO,25297,30989,Messenger Manager,2.87,Property and Asset Management
+442,Home Office,Home Office,Home Office General Property,1FC02,HEO,25297,30989,Programme Manager,1.0,Property and Asset Management
+443,Home Office,Home Office,Home Office General Property,1FC02,EO,20235,24789,Business Relationship Executive,1.0,Property and Asset Management
+444,Home Office,Home Office,Home Office General Property,1FC02,EO,20235,24789,Estate Planning Executive,2.0,Property and Asset Management
+445,Home Office,Home Office,Home Office General Property,1FC02,EO,20235,24789,Estates Executive,1.0,Property and Asset Management
+446,Home Office,Home Office,Home Office General Property,1FC02,EO,20235,24789,Facilities Executive,17.68,Property and Asset Management
+447,Home Office,Home Office,Home Office General Property,1FC02,EO,20235,24789,HQ PFI Facilities Executive,1.0,Property and Asset Management
+448,Home Office,Home Office,Home Office General Property,1FC02,EO,20235,24789,Messenger Executive,4.0,Property and Asset Management
+449,Home Office,Home Office,Home Office General Property,1FC02,EO,20235,24789,Messenger Manager,2.0,Property and Asset Management
+450,Home Office,Home Office,Home Office General Property,1FC02,EO,20235,24789,Office Manager,1.0,Property and Asset Management
+451,Home Office,Home Office,Home Office General Property,1FC02,EO,20235,24789,Procurement Executive,1.0,Procurement
+452,Home Office,Home Office,Home Office General Property,1FC02,EO,20235,24789,Programme Executive,8.45,Property and Asset Management
+453,Home Office,Home Office,Home Office General Property,1FC02,EO,20235,24789,Sustainable Development Executive,1.0,Property and Asset Management
+454,Home Office,Home Office,Home Office General Property,1FC02,AO,15386,18657,Facilities Assistant,14.32,Property and Asset Management
+455,Home Office,Home Office,Home Office General Property,1FC02,AO,15386,18657,HQ PFI Facilities Assistant,1.0,Property and Asset Management
+456,Home Office,Home Office,Home Office General Property,1FC02,AO,15386,18657,Messenger,9.0,Property and Asset Management
+457,Home Office,Home Office,Home Office General Property,1FC02,AO,15386,18657,Programme Assistant,1.0,Property and Asset Management
+458,Home Office,Home Office,Home Office General Property,1FC02,AA,14043,15701,Business Relationship Assistant,1.0,Property and Asset Management
+459,Home Office,Home Office,Home Office General Property,1FC02,AA,14043,15701,Facilities Assistant,9.87,Property and Asset Management
+460,Home Office,Home Office,Home Office General Property,1FC02,AA,14043,15701,Messenger,72.59,Property and Asset Management
+461,Home Office,Home Office,Adelphi Services,1FC14,Grade 6,54705,70504,Senior IT Manager,4.0,Information Technology
+462,Home Office,Home Office,Adelphi Services,1FC14,Grade 7,44656,57553,Senior IT Manager,11.0,Information Technology
+463,Home Office,Home Office,Adelphi Services,1FC14,SEO,32602,39537,IT Manager,9.0,Information Technology
+464,Home Office,Home Office,Adelphi Services,1FC14,HEO,25297,30989,IT Manager,5.0,Information Technology
+465,Home Office,Home Office,Adelphi Services,1FC14,EO,20235,24789,IT Manager,1.0,Information Technology
+466,Home Office,Home Office,Business Development,1FC36,Grade 6,54705,70504,Senior Business Development Manager,6.0,Information Technology
+467,Home Office,Home Office,Business Development,1FC36,Grade 7,44656,57553,Senior Business Development Manager,19.0,Information Technology
+468,Home Office,Home Office,Business Development,1FC36,SEO,32602,39537,Business Development Manager,6.0,Information Technology
+469,Home Office,Home Office,Business Development,1FC36,HEO,25297,30989,Business Development Manager,3.0,Information Technology
+470,Home Office,Home Office,Commercial Operations,1FC35,Grade 6,54705,70504,Service Senior Manager,15.0,Programme and Project Management (PPM)
+471,Home Office,Home Office,Commercial Operations,1FC35,Grade 6,54705,70504,Programme Manager,5.0,Information Technology
+472,Home Office,Home Office,Commercial Operations,1FC35,Grade 7,44656,57553,Service Manager,13.0,Programme and Project Management (PPM)
+473,Home Office,Home Office,Commercial Operations,1FC35,Grade 7,44656,57553,Project Specialist,6.0,Information Technology
+474,Home Office,Home Office,Commercial Operations,1FC35,SEO,32602,39537,Project Specialist,17.0,Programme and Project Management (PPM)
+475,Home Office,Home Office,Commercial Operations,1FC35,HEO,25297,30989,Service Manager,16.0,Information Technology
+476,Home Office,Home Office,Commercial Operations,1FC35,HEO,25297,30989,Project Support Officer,6.0,Programme and Project Management (PPM)
+477,Home Office,Home Office,Commercial Operations,1FC35,EO,20235,24789,Project Support Officer,10.0,Programme and Project Management (PPM)
+478,Home Office,Home Office,Strategic Sourcing and Supplier Management,1FC45,Grade 6,54705,70504,Senior Procurement Manager,5.0,Procurement
+479,Home Office,Home Office,Strategic Sourcing and Supplier Management,1FC45,Grade 7,44656,57553,Service Senior Manager,5.0,Information Technology
+480,Home Office,Home Office,Strategic Sourcing and Supplier Management,1FC45,Grade 7,44656,57553,Senior Procurement Manager,16.0,Procurement
+481,Home Office,Home Office,Strategic Sourcing and Supplier Management,1FC45,SEO,32602,39537,Procurement Officer,19.0,Procurement
+482,Home Office,Home Office,Strategic Sourcing and Supplier Management,1FC45,HEO,25297,30989,Procurement Officer,5.0,Procurement
+483,Home Office,Home Office,Strategic Sourcing and Supplier Management,1FC45,EO,20235,24789,Procurement Officer,3.0,Procurement
+484,Home Office,Home Office,Crime and Policing Group Director General's Office,3CPG01,SEO,32602,39537,Private Secretary,1.0,Policy
+485,Home Office,Home Office,Crime and Policing Group Director General's Office,3CPG01,EO,20235,24789,Diary Manager ,2.0,Policy
+486,Home Office,Home Office,Crime Director's Office,2CPG05,EO,20235,24789,Private Secretary,1.0,Policy
+487,Home Office,Home Office,Crime Reduction Hub,1CPG36,Grade 6,54705,70504,Policy Adviser,2.0,Policy
+488,Home Office,Home Office,Crime Reduction Hub,1CPG36,Grade 7,44656,57553,Policy Adviser,8.09,Policy
+489,Home Office,Home Office,Crime Reduction Hub,1CPG36,SEO,32602,39537,Policy Adviser,6.8,Policy
+490,Home Office,Home Office,Crime Reduction Hub,1CPG36,HEO,25297,30989,Policy Adviser,1.0,Policy
+491,Home Office,Home Office,Crime Reduction Hub,1CPG36,EO,20235,24789,Policy Support Officer,6.0,Policy
+492,Home Office,Home Office,Crime Reduction Hub,1CPG36,AO,15386,18657,Policy Support Officer,1.0,Policy
+493,Home Office,Home Office,Violent Crime Unit,1CPG15,Grade 6,54705,70504,Policy Adviser,2.0,Policy
+494,Home Office,Home Office,Violent Crime Unit,1CPG15,Grade 7,44656,57553,Policy Adviser,7.62,Policy
+495,Home Office,Home Office,Violent Crime Unit,1CPG15,SEO,32602,39537,Policy Adviser,6.0,Policy
+496,Home Office,Home Office,Violent Crime Unit,1CPG15,HEO,25297,30989,Policy Adviser,10.75,Policy
+497,Home Office,Home Office,Violent Crime Unit,1CPG15,EO,20235,24789,Policy Adviser,3.0,Policy
+498,Home Office,Home Office,Violent Crime Unit,1CPG15,AO,15386,18657,Policy Support Officer,0.6,Policy
+499,Home Office,Home Office,Drug and Alcohol Unit,1CPG12,Grade 6,54705,70504,Policy Adviser,2.0,Policy
+500,Home Office,Home Office,Drug and Alcohol Unit,1CPG12,Grade 7,44656,57553,Policy Adviser,9.2,Policy
+501,Home Office,Home Office,Drug and Alcohol Unit,1CPG12,SEO,32602,39537,Policy Adviser,9.0,Policy
+502,Home Office,Home Office,Drug and Alcohol Unit,1CPG12,HEO,25297,30989,Policy Adviser,5.0,Policy
+503,Home Office,Home Office,Drug and Alcohol Unit,1CPG12,HEO-D,23802,33953,Policy Adviser,1.0,Policy
+504,Home Office,Home Office,Drug and Alcohol Unit,1CPG12,EO,20235,24789,Policy Adviser,2.69,Policy
+505,Home Office,Home Office,Drug and Alcohol Unit,1CPG12,EO,20235,24789,Private Secretary,1.0,Policy
+506,Home Office,Home Office,Drug and Alcohol Unit,1CPG12,AO,15386,18657,Policy Support Officer,1.0,Policy
+507,Home Office,Home Office,Crime and Criminal Justice Unit,1CPG13,Grade 6,54705,70504,Policy Adviser,2.6,Policy
+508,Home Office,Home Office,Crime and Criminal Justice Unit,1CPG13,Grade 7,44656,57553,Policy Adviser,6.0,Policy
+509,Home Office,Home Office,Crime and Criminal Justice Unit,1CPG13,SEO,32602,39537,Policy Adviser,5.2,Policy
+510,Home Office,Home Office,Crime and Criminal Justice Unit,1CPG13,HEO,25297,30989,Policy Adviser,4.83,Policy
+511,Home Office,Home Office,Crime and Criminal Justice Unit,1CPG13,EO,20235,24789,Policy Support Officer,3.0,Policy
+512,Home Office,Home Office,Crime and Criminal Justice Unit,1CPG13,AO,15386,18657,Policy Support Officer,1.9,Policy
+513,Home Office,Home Office,Policing,2CPG04,HEO,25297,30989,Private Secretary,1.0,Policy
+514,Home Office,Home Office,Police Strategy and Reform Unit,1CPG08,Grade 6,54705,70504,Policy Adviser,2.89,Policy
+515,Home Office,Home Office,Police Strategy and Reform Unit,1CPG08,Grade 7,44656,57553,Policy Adviser,4.22,Policy
+516,Home Office,Home Office,Police Strategy and Reform Unit,1CPG08,SEO,32602,39537,Policy Adviser,2.0,Policy
+517,Home Office,Home Office,Police Strategy and Reform Unit,1CPG08,HEO,25297,30989,Policy Adviser,2.0,Policy
+518,Home Office,Home Office,Police Strategy and Reform Unit,1CPG08,HEO-D,23802,33953,Policy Adviser,1.0,Policy
+519,Home Office,Home Office,Police Strategy and Reform Unit,1CPG08,EO,20235,24789,Policy Support Officer,1.0,Policy
+520,Home Office,Home Office,Police Strategy and Reform Unit,1CPG08,AO,15386,18657,Diary Manager,1.0,Policy
+521,Home Office,Home Office,Police Workforce and Efficiency Unit,1CPG20,Grade 6,54705,70504,Policy Adviser,4.0,Policy
+522,Home Office,Home Office,Police Workforce and Efficiency Unit,1CPG20,Grade 7,44656,57553,Policy Adviser,10.0,Policy
+523,Home Office,Home Office,Police Workforce and Efficiency Unit,1CPG20,SEO,32602,39537,Policy Adviser,6.0,Policy
+524,Home Office,Home Office,Police Workforce and Efficiency Unit,1CPG20,HEO,25297,30989,Policy Adviser,5.97,Policy
+525,Home Office,Home Office,Police Workforce and Efficiency Unit,1CPG20,HEO-D,23802,33953,Policy Adviser,1.0,Policy
+526,Home Office,Home Office,Police Workforce and Efficiency Unit,1CPG20,EO,20235,24789,Policy Adviser,3.0,Policy
+527,Home Office,Home Office,Police Workforce and Efficiency Unit,1CPG20,AO,15386,18657,Personal Assistant to Head of Unit ,1.0,Policy
+528,Home Office,Home Office,Police Transparency Unit,1CPG26,Grade 6,54705,70504,Policy Adviser,3.94,Policy
+529,Home Office,Home Office,Police Transparency Unit,1CPG26,Grade 7,44656,57553,Policy Adviser,8.83,Policy
+530,Home Office,Home Office,Police Transparency Unit,1CPG26,SEO,32602,39537,Policy Adviser,7.6,Policy
+531,Home Office,Home Office,Police Transparency Unit,1CPG26,HEO,25297,30989,Police Adviser,10.0,Policy
+532,Home Office,Home Office,Police Transparency Unit,1CPG27,HEO-D,23802,33953,Policy Adviser,2.0,Policy
+533,Home Office,Home Office,Police Transparency Unit,1CPG26,EO,20235,24789,Policy Adviser,4.83,Policy
+534,Home Office,Home Office,Police Transparency Unit,1CPG26,AO,15386,18657,Policy Support Officer,2.0,Policy
+535,Home Office,Home Office,Public Order,1CPG16,Grade 6,54705,70504,Policy Adviser,1.0,Policy
+536,Home Office,Home Office,Public Order,1CPG16,Grade 7,44656,57553,Policy Adviser,4.0,Policy
+537,Home Office,Home Office,Public Order,1CPG16,SEO,32602,39537,Policy Adviser,7.0,Policy
+538,Home Office,Home Office,Public Order,1CPG16,HEO,25297,30989,Policy Adviser,5.0,Policy
+539,Home Office,Home Office,Public Order,1CPG16,EO,20235,24789,Policy Adviser,1.0,Policy
+540,Home Office,Home Office,Public Order,1CPG16,AO,15386,18657,Policy Support Officer,2.0,Policy
+541,Home Office,Home Office,UK Football Policy Unit,1CPG16,Grade 7,44656,57553,Policy Adviser,2.0,Policy
+542,Home Office,Home Office,UK Football Policy Unit,1CPG16,SEO,32602,39537,Policy Adviser,1.0,Policy
+543,Home Office,Home Office,UK Football Policy Unit,1CPG16,HEO,25297,30989,Policy Adviser,6.0,Policy
+544,Home Office,Home Office,UK Football Policy Unit,1CPG16,EO,20235,24789,Policy Support Officer,4.0,Policy
+545,Home Office,Home Office,UK Football Policy Unit,1CPG16,AO,15386,18657,Policy Support Officer,2.0,Policy
+546,Home Office,Home Office,Finance and Strategy,2CPG07,Grade 7,44656,57553,Policy Adviser,1.0,Policy
+547,Home Office,Home Office,Finance and Strategy,2CPG07,EO,20235,24789,Private Secretary,1.0,Policy
+548,Home Office,Home Office,Group Finance Unit,1CPG14,Grade 6,54705,70504,Senior Finance Manager,1.0,Finance
+549,Home Office,Home Office,Group Finance Unit,1CPG14,Grade 7,44656,57553,Finance Officer,6.89,Finance
+550,Home Office,Home Office,Group Finance Unit,1CPG14,SEO,32602,39537,Finance Officer,5.0,Finance
+551,Home Office,Home Office,Group Finance Unit,1CPG14,HEO,25297,30989,Policy Adviser,2.0,Policy
+552,Home Office,Home Office,Group Finance Unit,1CPG15,HEO,25297,30989,Finance Support,4.0,Finance
+553,Home Office,Home Office,Group Finance Unit,1CPG14,EO,20235,24789,Finance Support,4.0,Finance
+554,Home Office,Home Office,Group Finance Unit,1CPG14,EO,20235,24789,Diary Manager,1.0,Finance
+555,Home Office,Home Office,Group Finance Unit,1CPG14,AO,15386,18657,Junior Finance Officer,2.0,Finance
+556,Home Office,Home Office,"Strategy, Skills and Planning Unit",2CPG07,Grade 6,54705,70504,Head of Unit,1.0,Policy
+557,Home Office,Home Office,"Strategy, Skills and Planning Unit",2CPG07,Grade 7,44656,57553,Corporate Services Support,12.95,Policy
+558,Home Office,Home Office,"Strategy, Skills and Planning Unit",2CPG07,SEO,32602,39537,Corporate Services Support,15.0,Policy
+559,Home Office,Home Office,"Strategy, Skills and Planning Unit",2CPG07,HEO,25297,30989,Corporate Services Support,10.0,Policy
+560,Home Office,Home Office,"Strategy, Skills and Planning Unit",2CPG07,EO,20235,24789,Corporate Services Support,4.75,Policy
+561,Home Office,Home Office,"Strategy, Skills and Planning Unit",2CPG07,AO,15386,18657,Corporate Services Support,1.0,Policy
+562,Home Office,Home Office,Crime Director's Office,2CPG05,Grade 7,44656,57553,Policy Adviser,2.0,Policy
+563,Home Office,Home Office,Crime Director's Office,2CPG05,HEO,25297,30989,Policy Adviser,1.0,Policy
+564,Home Office,Home Office,Crime Director's Office,2CPG05,AO,15386,18657,Administrative Support,1.0,Policy
+565,Home Office,Home Office,Emergency Services Mobile Communications Programme,2CPG10,Grade 6,54705,70504,Programme Manager,6.9,Programme and Project Management (PPM)
+566,Home Office,Home Office,Emergency Services Mobile Communications Programme,2CPG10,Grade 7,44656,57553,Programme Manager,11.8,Programme and Project Management (PPM)
+567,Home Office,Home Office,Emergency Services Mobile Communications Programme,2CPG10,SEO,32602,39537,Project Manager,6.65,Programme and Project Management (PPM)
+568,Home Office,Home Office,Emergency Services Mobile Communications Programme,2CPG10,EO,20235,24789,Project Support,2.0,Programme and Project Management (PPM)
+569,Home Office,Home Office,Emergency Services Mobile Communications Programme,2CPG10,HEO-D,23802,33953,Operational Manager,1.0,Programme and Project Management (PPM)
+570,Home Office,Home Office,Emergency Services Mobile Communications Programme,2CPG10,HEO,25297,30989,Project Support Officer,1.0,Programme and Project Management (PPM)
+571,Home Office,Home Office,Public Risk Unit,1CPG42,Grade 6,54705,70504,Policy Adviser,1.0,Policy
+572,Home Office,Home Office,Public Risk Unit,1CPG42,Grade 7,44656,57553,Policy Adviser,3.3,Policy
+573,Home Office,Home Office,Public Risk Unit,1CPG42,SEO,32602,39537,Policy Adviser,1.0,Policy
+574,Home Office,Home Office,Public Risk Unit,1CPG42,HEO,25297,30989,Policy Adviser,4.41,Policy
+575,Home Office,Home Office,Public Risk Unit,1CPG42,EO,20235,24789,Policy Adviser,4.0,Policy
+576,Home Office,Home Office,Public Risk Unit,1CPG42,AO,15386,18657,Policy Adviser,0.71,Policy
+577,Home Office,Home Office,Public Risk Unit,1CPG42,HEO-D,23802,33953,Policy Adviser,1.0,Policy
+578,Home Office,Home Office,Home Office Wales Team,1CPG30,EO,20235,24789,Policy Adviser,1.0,Policy
+579,Home Office,Home Office,Home Office Wales Team,1CPG30,Grade 7,44656,57553,Policy Support Officer,1.0,Policy
+580,Home Office,Home Office,Safeguarding & Public Protection Unit,1SIIG11,Grade 6,54705,70504,Policy Adviser,3.0,Policy
+581,Home Office,Home Office,Safeguarding & Public Protection Unit,1SIIG11,Grade 7,44656,57553,Policy Adviser,3.8,Policy
+582,Home Office,Home Office,Safeguarding & Public Protection Unit,1SIIG11,SEO,32602,39537,Policy Adviser,7.0,Policy
+583,Home Office,Home Office,Safeguarding & Public Protection Unit,1SIIG11,HEO,25297,30989,Policy Adviser,4.0,Policy
+584,Home Office,Home Office,Safeguarding & Public Protection Unit,1SIIG11,EO,20235,24789,Policy Adviser,0.78,Policy
+585,Home Office,Home Office,Safeguarding & Public Protection Unit,1SIIG11,HEO-D,23802,33953,Policy Adviser,1.0,Policy
+586,Home Office,Home Office,Director General's Office,3HR01,EO,20235,24789,Diary Manager,1.0,Human Resources
+587,Home Office,Home Office,Director General's Office,3HR01,Grade 7,44656,57553,Private Secretary,1.0,Human Resources
+588,Home Office,Home Office,Capability & Change,2HR02,SEO,32602,39537,Director's Office,0.86,Human Resources
+589,Home Office,Home Office,Capability & Change,2HR02,EO,20235,24789,Director's Office,1.0,Human Resources
+590,Home Office,Home Office,Capability & Change,2HR02,Grade 7,44656,57553,"Lead Consultant, Engagement ",1.0,Human Resources
+591,Home Office,Home Office,Capability & Change,2HR02,Grade 7,44656,57553,Programme Manager,1.0,Human Resources
+592,Home Office,Home Office,Learning Team,1HR09,SEO,32602,39537,Leadership Commissioning Manager,1.0,Human Resources
+593,Home Office,Home Office,Learning Team,1HR09,SEO,32602,39537,Consultant - Aspiring Leaders Programme ,0.97,Human Resources
+594,Home Office,Home Office,Learning Team,1HR09,SEO,32602,39537,Consultant -  Talent ,0.83,Human Resources
+595,Home Office,Home Office,Learning Team,1HR09,SEO,32602,39537,Consultant - Talent & Capability ,0.6,Human Resources
+596,Home Office,Home Office,Learning Team,1HR09,SEO,32602,39537,Consultant - Inestors in People ,1.0,Human Resources
+597,Home Office,Home Office,Learning Team,1HR09,SEO,32602,39537,Learning & Commissioning Manager ,2.0,Human Resources
+598,Home Office,Home Office,Learning Team,1HR09,EO,20235,24789,Team Support ,2.31,Human Resources
+599,Home Office,Home Office,Learning Team,1HR09,AO,15386,18657,Team Support ,1.0,Human Resources
+600,Home Office,Home Office,Learning Team,1HR09,EO,20235,24789,SE Learning Hub Manager ,1.9,Human Resources
+601,Home Office,Home Office,Learning Team,1HR09,EO,20235,24789,E-Learning Design Officer ,1.0,Human Resources
+602,Home Office,Home Office,Learning Team,1HR09,Grade 6,54705,70504,Strategic Lead- Takent & Capability ,0.75,Human Resources
+603,Home Office,Home Office,Learning Team,1HR09,Grade 7,44656,57553,Learning & Commissioning Lead ,1.89,Human Resources
+604,Home Office,Home Office,Learning Team,1HR09,Grade 6,54705,70504,Strategic Lead- Learning & Development ,1.0,Human Resources
+605,Home Office,Home Office,Learning Team,1HR09,SEO,32602,39537,Learning & Commissioning Manager ,2.0,Human Resources
+606,Home Office,Home Office,Learning Team,1HR09,Grade 7,44656,57553,Lead Consultant - Talent & Capability ,1.0,Human Resources
+607,Home Office,Home Office,Leadership & Organisational Development ,1HR22,HEO,25297,30989,Consultant,1.0,Human Resources
+608,Home Office,Home Office,Leadership & Organisational Development ,1HR22,HEO-D,23802,33953,Consultant,1.0,Human Resources
+609,Home Office,Home Office,Leadership & Organisational Development ,1HR22,SEO,32602,39537,Consultant,5.44,Human Resources
+610,Home Office,Home Office,Leadership & Organisational Development ,1HR22,Grade 7,44656,57553,Lead Consultant - Leadership ,0.6,Human Resources
+611,Home Office,Home Office,Leadership & Organisational Development ,1HR22,Grade 7,44656,57553,Lead Consultant - Organisational design,1.0,Human Resources
+612,Home Office,Home Office,Leadership & Organisational Development ,1HR22,Grade 7,44656,57553,Lead Consultant - Organisation Develoment ,2.0,Human Resources
+613,Home Office,Home Office,Leadership & Organisational Development ,1HR22,EO,20235,24789,Project Support,0.9,Human Resources
+614,Home Office,Home Office,Leadership & Organisational Development ,1HR22,Grade 6,54705,70504,Strategic Lead - Organisational Design ,2.0,Human Resources
+615,Home Office,Home Office,Leadership & Organisational Development ,1HR22,Grade 6,54705,70504,Strategic Lead - Leadership,1.0,Human Resources
+616,Home Office,Home Office,Leadership & Organisational Development ,1HR22,AO,15386,18657,Team Support ,0.53,Human Resources
+617,Home Office,Home Office,Leadership & Organisational Development ,1HR22,AO,15386,18657,Vacant,1.0,Human Resources
+618,Home Office,Home Office,Strategic Resourcing,1HR07,Grade 7,44656,57553,Senior HR Manager,0.86,Human Resources
+619,Home Office,Home Office,Strategic Resourcing,1HR07,SEO,32602,39537,HR Manager,0.6,Human Resources
+620,Home Office,Home Office,Strategic Resourcing,1HR07,EO,20235,24789,HR Support Officer,1.0,Human Resources
+621,Home Office,Home Office,Senior Civil Service (SCS) Resourcing,1HR07,EO,20235,24789,Personal Secretary,1.0,Human Resources
+622,Home Office,Home Office,Senior Civil Service (SCS) Resourcing,1HR07,EO,20235,24789,SCS HR Management Team,2.0,Human Resources
+623,Home Office,Home Office,Senior Civil Service (SCS) Resourcing,1HR07,SEO,32602,39537,SCS HR Management Team,0.8,Human Resources
+624,Home Office,Home Office,Senior Civil Service (SCS) Resourcing,1HR07,Grade 7,44656,57553,SCS HR Recruitment Team,1.0,Human Resources
+625,Home Office,Home Office,Senior Civil Service (SCS) Resourcing,1HR07,HEO,25297,30989,SCS HR Recruitment Team,1.0,Human Resources
+626,Home Office,Home Office,Senior Civil Service (SCS) Resourcing,1HR07,AO,15386,18657,SCS HR Recruitment Team,1.0,Human Resources
+627,Home Office,Home Office,Senior Civil Service (SCS) Resourcing,1HR07,Grade 7,44656,57553,SCS HR Team Leader,1.0,Human Resources
+628,Home Office,Home Office,Senior Civil Service (SCS) Resourcing,1HR07,SEO,32602,39537,Senior Psychologist,1.0,Human Resources
+629,Home Office,Home Office,Senior Civil Service (SCS) Resourcing,1HR07,HEO,25297,30989,Vacant,2.0,Human Resources
+630,Home Office,Home Office,Senior Civil Service (SCS) Resourcing,1HR07,Grade 7,44656,57553,Vacant,1.0,Human Resources
+631,Home Office,Home Office,HR Business Partner Team,2HR02,HEO-D,23802,33953,Assistant Human Resources Business Partner,8.71,Human Resources
+632,Home Office,Home Office,HR Business Partner Team,2HR02,SEO,32602,39537,Assistant Human Resources Business Partner,1.0,Human Resources
+633,Home Office,Home Office,HR Business Partner Team,2HR02,Grade 7,44656,57553,Human Resources Business Partner,2.0,Human Resources
+634,Home Office,Home Office,HR Business Partner Team,2HR02,Grade 6,54705,70504,Senior Human Resources Business Partner,2.0,Human Resources
+635,Home Office,Home Office,Health Safety & Wellbeing,1HR19,Grade 7,44656,57553,"Head of Health, Safety and Wellbeing Team",1.0,Human Resources
+636,Home Office,Home Office,Health Safety & Wellbeing,1HR19,SEO,32602,39537,Senior Executive Officer,1.0,Human Resources
+637,Home Office,Home Office,Health Safety & Wellbeing,1HR19,HEO,25297,30989,Higher Executive Officer,2.89,Human Resources
+638,Home Office,Home Office,Strategic Workforce Planning and Honours Secretariat,1HR11,HEO,25297,30989,Group HR & Honours Secretariat Team Member,1.0,Human Resources
+639,Home Office,Home Office,Strategic Workforce Planning and Honours Secretariat,1HR11,SEO,32602,39537,Group HR & Honours Secretariat Team Leader,0.89,Human Resources
+640,Home Office,Home Office,Strategic Workforce Planning and Honours Secretariat,1HR11,EO,20235,24789,Group HR Secretariat Administrator/Deputy Honours Secretary,1.0,Human Resources
+641,Home Office,Home Office,Strategic Workforce Planning and Honours Secretariat,1HR11,HEO,25297,30989,Group HR & Honours Secretariat Team Member,1.0,Human Resources
+642,Home Office,Home Office,Strategic Workforce Planning and Honours Secretariat,1HR11,Grade 7,44656,57553,Head of Strategic Workforce Planning Team,1.0,Human Resources
+643,Home Office,Home Office,Strategic Workforce Planning and Honours Secretariat,1HR11,SEO,32602,39537,Strategic Workforce Manager,1.0,Human Resources
+644,Home Office,Home Office,Strategic Workforce Planning and Honours Secretariat,1HR11,HEO,25297,30989,Workforce Officer,1.0,Human Resources
+645,Home Office,Home Office,Strategic Workforce Planning and Honours Secretariat,1HR11,EO,20235,24789,Vacant,2.0,Human Resources
+646,Home Office,Home Office,Strategic Workforce Planning and Honours Secretariat,1HR11,HEO,25297,30989,Vacant,1.0,Human Resources
+647,Home Office,Home Office,Strategic Workforce Planning and Honours Secretariat,1HR11,HEO-D,23802,33953,Vacant,1.0,Human Resources
+648,Home Office,Home Office,HR Commissioning Team,1HR18,AO,15386,18657,Administration Support,2.0,Human Resources
+649,Home Office,Home Office,HR Commissioning Team,1HR18,SEO,32602,39537,Customer Relationship Manager,1.0,Human Resources
+650,Home Office,Home Office,HR Commissioning Team,1HR18,Grade 6,54705,70504,Deputy Head of Section,1.0,Human Resources
+651,Home Office,Home Office,HR Commissioning Team,1HR18,Grade 7,44656,57553,Head of Customer Relations Team,1.0,Human Resources
+652,Home Office,Home Office,HR Commissioning Team,1HR18,Grade 7,44656,57553,Head of Policy,1.0,Human Resources
+653,Home Office,Home Office,HR Commissioning Team,1HR18,Grade 7,44656,57553,Head of Resources,1.0,Human Resources
+654,Home Office,Home Office,HR Commissioning Team,1HR18,Grade 7,44656,57553,Project Manager,2.0,Human Resources
+655,Home Office,Home Office,HR Commissioning Team,1HR18,SEO,32602,39537,Project Manager,1.0,Human Resources
+656,Home Office,Home Office,HR Commissioning Team,1HR18,SEO,32602,39537,Project Support Officer,1.0,Human Resources
+657,Home Office,Home Office,HR Commissioning Team,1HR18,HEO,25297,30989,Project Support Officer,1.0,Human Resources
+658,Home Office,Home Office,HR Commissioning Team,1HR18,EO,20235,24789,Resourcing Administrator,2.0,Human Resources
+659,Home Office,Home Office,HR Commissioning Team,1HR18,AO,15386,18657,Resourcing Administrator,5.0,Human Resources
+660,Home Office,Home Office,HR Commissioning Team,1HR18,SEO,32602,39537,Resourcing Consultant,3.0,Human Resources
+661,Home Office,Home Office,HR Commissioning Team,1HR18,HEO,25297,30989,Resourcing Manager,4.0,Human Resources
+662,Home Office,Home Office,HR Commissioning Team,1HR18,EO,20235,24789,Resourcing Officer,1.7,Human Resources
+663,Home Office,Home Office,HR Commissioning Team,1HR18,SEO,32602,39537,Senior Policy Adviser,3.0,Human Resources
+664,Home Office,Home Office,HR Commissioning Team,1HR18,SEO,32602,39537,Vacant,1.0,Human Resources
+665,Home Office,Home Office,Reward,1HR17,Grade 6,54705,70504,Head of Reward,1.0,Human Resources
+666,Home Office,Home Office,Reward,1HR17,Grade 7,44656,57553,Head of Expenses and allowances,1.0,Human Resources
+667,Home Office,Home Office,Reward,1HR17,Grade 7,44656,57553,Head of HO Employee Reward,1.0,Human Resources
+668,Home Office,Home Office,Reward,1HR17,EO,20235,24789,Reward Advisor,1.0,Human Resources
+669,Home Office,Home Office,Reward,1HR17,HEO,25297,30989,Reward analyst,1.58,Human Resources
+670,Home Office,Home Office,Reward,1HR17,HEO,25297,30989,Reward manager,2.0,Human Resources
+671,Home Office,Home Office,Reward,1HR17,SEO,32602,39537,Senior ER Manager,1.0,Human Resources
+672,Home Office,Home Office,Reward,1HR17,SEO,32602,39537,Senior Reward manager,2.0,Human Resources
+673,Home Office,Home Office,Reward,1HR17,SEO,32602,39537,Senior Reward Manager Pensions / Compensation,1.0,Human Resources
+674,Home Office,Home Office,Reward,1HR17,AO,15386,18657,Flexi Administrator,1.0,Human Resources
+675,Home Office,Home Office,Employee Relations,1HR17,EO,20235,24789,Admin support,0.78,Human Resources
+676,Home Office,Home Office,Employee Relations,1HR17,AO,15386,18657,Admin support,1.0,Human Resources
+677,Home Office,Home Office,Employee Relations,1HR17,HEO,25297,30989,Employee relations officer,1.56,Human Resources
+678,Home Office,Home Office,Employee Relations,1HR17,CIO,25816,31948,HOTUS Secretary,1.0,Human Resources
+679,Home Office,Home Office,Employee Relations,1HR17,Grade 7,44656,57553,Deputy Head of Section,2.0,Human Resources
+680,Home Office,Home Office,Employee Relations,1HR17,Grade 6,54705,70504,Head of Employee Relations,1.0,Human Resources
+681,Home Office,Home Office,Employee Relations,1HR17,Personal Secretary,16023,19234,Personal Secretary,1.0,Human Resources
+682,Home Office,Home Office,Employee Relations,1HR17,SPTO,36452,47460,Prospect Branch secretary,1.0,Human Resources
+683,Home Office,Home Office,Employee Relations,1HR17,SEO,32602,39537,Senior Employee Relations manager,3.0,Human Resources
+684,Home Office,Home Office,Litigation,1HR19,HEO,25297,30989,Caseworkers,2.0,Human Resources
+685,Home Office,Home Office,Organisational Development and Design,2HR02,EO,20235,24789,Business Manager,1.0,Human Resources
+686,Home Office,Home Office,Organisational Development and Design,2HR02,EO,20235,24789,Vacant,1.0,Human Resources
+687,Home Office,Home Office,Departmental Security,2HR04,AO,15386,18657,Administrative Officer,14.54,Human Resources
+688,Home Office,Home Office,Departmental Security,2HR04,SEO,32602,39537,ComSec Officer,1.0,Human Resources
+689,Home Office,Home Office,Departmental Security,2HR04,HEO Auditor,29757,37964,Executive Officer,10.0,Human Resources
+690,Home Office,Home Office,Departmental Security,2HR04,HEO,25297,30989,Higher Executive Officer,16.0,Human Resources
+691,Home Office,Home Office,Departmental Security,2HR04,HEO Auditor,29757,37964,Internal Auditor,1.0,Human Resources
+692,Home Office,Home Office,Departmental Security,2HR04,HEO,25297,30989,Operational support,1.0,Human Resources
+693,Home Office,Home Office,Departmental Security,2HR04,HEO,25297,30989,Senior Internal Auditor,1.0,Human Resources
+694,Home Office,Home Office,Departmental Security,2HR04,SEO,32602,39537,Vacant,1.0,Human Resources
+695,Home Office,Home Office,Departmental Security,2HR04,Grade 7,44656,57553,Vacant,1.0,Human Resources
+696,Home Office,Home Office,Departmental Security,2HR04,EO,20235,24789,Vacant,2.0,Human Resources
+697,Home Office,Home Office,Departmental Security,2HR04,HEO,25297,30989,Vacant,3.0,Human Resources
+698,Home Office,Home Office,Departmental Security,2HR04,Grade 7,44656,57553,Section Head,7.0,Human Resources
+699,Home Office,Home Office,Departmental Security,2HR04,Grade 6,54705,70504,Senior Executive Officer,7.0,Human Resources
+700,Home Office,Home Office,Departmental Security,2HR04,Grade 6,54705,70504,Deputy Head of Unit,1.0,Human Resources
+701,Home Office,Home Office,Group Equality and Diversity,1HR09,AA,14043,15701,Administrative Support,1.0,Human Resources
+702,Home Office,Home Office,Group Equality and Diversity,1HR09,AO,15386,18657,Administrative Support,1.69,Human Resources
+703,Home Office,Home Office,Group Equality and Diversity,1HR09,EO,20235,24789,Administrative Support,2.0,Human Resources
+704,Home Office,Home Office,Group Equality and Diversity,1HR09,EO,20235,24789,BHD helpline co-ordinator,1.0,Human Resources
+705,Home Office,Home Office,Group Equality and Diversity,1HR09,HEO,25297,30989,ETHOS co-ordination,1.0,Human Resources
+706,Home Office,Home Office,Group Equality and Diversity,1HR09,HEO,25297,30989,Disability Advisor,1.0,Human Resources
+707,Home Office,Home Office,Group Equality and Diversity,1HR09,SEO,32602,39537,Diversity Consultant,0.83,Human Resources
+708,Home Office,Home Office,Group Equality and Diversity,1HR09,EO,20235,24789,Diversity Officer,0.61,Human Resources
+709,Home Office,Home Office,Group Equality and Diversity,1HR09,EO,20235,24789,DSPB secreteriat,0.78,Human Resources
+710,Home Office,Home Office,Group Equality and Diversity,1HR09,Grade 7,44656,57553,Equality and Diversity Border Force,1.0,Human Resources
+711,Home Office,Home Office,Group Equality and Diversity,1HR09,Grade 6,54705,70504,"Head of Group Equality, Diversity and Inclusion",0.83,Human Resources
+712,Home Office,Home Office,Group Equality and Diversity,1HR09,HEO,25297,30989,HEO Diversity officer,1.0,Human Resources
+713,Home Office,Home Office,Group Equality and Diversity,1HR09,Grade 7,44656,57553,Learning and development manager,1.0,Human Resources
+714,Home Office,Home Office,Group Equality and Diversity,1HR09,EO,20235,24789,Personal Assistant,1.0,Human Resources
+715,Home Office,Home Office,Group Equality and Diversity,1HR09,SEO,32602,39537,Diversity account manager,3.65,Human Resources
+716,Home Office,Home Office,Group Equality and Diversity,1HR09,SEO,32602,39537,Senior diversity officer,1.0,Human Resources
+717,Home Office,Home Office,Group Equality and Diversity,1HR09,Grade 7,44656,57553,Team Leader Diversity consultancy,1.0,Human Resources
+718,Home Office,Home Office,Group Equality and Diversity,1HR09,Grade 7,44656,57553,Team Leader Consultancy,1.0,Human Resources
+719,Home Office,Home Office,Group Equality and Diversity,1HR09,Grade 7,44656,57553,Team Leader Equalities,1.0,Human Resources
+720,Home Office,Home Office,HR Management Information,1HR11,Senior Stats Officer,34650,42018,Senior statistician,1.0,Human Resources
+721,Home Office,Home Office,HR Management Information,1HR11,HEO,25297,30989,Data and information analyst,3.81,Human Resources
+722,Home Office,Home Office,HR Management Information,1HR11,Grade 6,54705,70504,Data and information analyst,1.0,Human Resources
+723,Home Office,Home Office,Immigration System Enablers,1HR19,AA,14043,15701,Workforce Planning and Reporting,1.0,Human Resources
+724,Home Office,Home Office,Immigration System Enablers,1HR19,AO,15386,18657,Workforce Planning and Reporting,3.5,Human Resources
+725,Home Office,Home Office,Immigration System Enablers,1HR19,EO,20235,24789,Assistant to Head of Leadership & Organisation Development ,0.69,Human Resources
+726,Home Office,Home Office,Immigration System Enablers,1HR19,EO,20235,24789,Assistant to Head of HR&Skills,1.0,Human Resources
+727,Home Office,Home Office,Immigration System Enablers,1HR19,HEO-D,23802,33953,Assistant HR Business Partner,5.0,Human Resources
+728,Home Office,Home Office,Immigration System Enablers,1HR19,SEO,32602,39537,Assistant HR Business Partner,9.15,Human Resources
+729,Home Office,Home Office,Immigration System Enablers,1HR19,AO,15386,18657,Assistant to SHRBPs,1.0,Human Resources
+730,Home Office,Home Office,Immigration System Enablers,1HR19,EO,20235,24789,Assistant to Head of ITA,1.0,Human Resources
+731,Home Office,Home Office,Immigration System Enablers,1HR19,EO,20235,24789,Business Specific L&D Consultant,5.93,Human Resources
+732,Home Office,Home Office,Immigration System Enablers,1HR19,HEO,25297,30989,Business Specific L&D Consultant,7.0,Human Resources
+733,Home Office,Home Office,Immigration System Enablers,1HR19,SEO,32602,39537,Business Specific L&D Consultant,1.97,Human Resources
+734,Home Office,Home Office,Immigration System Enablers,1HR19,IO,21505,26614,Business Specific L&D Consultant,1.0,Human Resources
+735,Home Office,Home Office,Immigration System Enablers,1HR19,CIO,25816,31948,Business Specific L&D Consultant,1.0,Human Resources
+736,Home Office,Home Office,Immigration System Enablers,1HR19,AO,15386,18657,Business Specific L&S Administrator,4.61,Human Resources
+737,Home Office,Home Office,Immigration System Enablers,1HR19,CIO,25816,31948,Business Specific Trainer,0.81,Human Resources
+738,Home Office,Home Office,Immigration System Enablers,1HR19,EO,20235,24789,Business Specific Trainer,5.8,Human Resources
+739,Home Office,Home Office,Immigration System Enablers,1HR19,IO,21505,26614,Business Specific Trainer,4.0,Human Resources
+740,Home Office,Home Office,Immigration System Enablers,1HR19,SEO,32602,39537,Business Support & Finance Manager,0.6,Human Resources
+741,Home Office,Home Office,Immigration System Enablers,1HR19,SEO,32602,39537,E-Learning Consultant,1.0,Human Resources
+742,Home Office,Home Office,Immigration System Enablers,1HR19,EO,20235,24789,Business Specific Learning and Development,2.0,Human Resources
+743,Home Office,Home Office,Immigration System Enablers,1HR19,EO,20235,24789,"Health, Safety and Welfare",1.0,Human Resources
+744,Home Office,Home Office,Immigration System Enablers,1HR19,EO,20235,24789,HR Assurance,1.0,Human Resources
+745,Home Office,Home Office,Immigration System Enablers,1HR19,EO,20235,24789,Workforce Planning and Reporting,6.83,Human Resources
+746,Home Office,Home Office,Immigration System Enablers,1HR19,Grade 7,44656,57553,Recruitment and Resourcing,1.0,Human Resources
+747,Home Office,Home Office,Immigration System Enablers,1HR19,Grade 7,44656,57553,Workforce Planning,1.0,Human Resources
+748,Home Office,Home Office,Immigration System Enablers,1HR19,Grade 7,44656,57553,Business Specific Learning and Development,4.0,Human Resources
+749,Home Office,Home Office,Immigration System Enablers,1HR19,HEO,25297,30989,Health and Safety Adviser,4.0,Human Resources
+750,Home Office,Home Office,Immigration System Enablers,1HR19,HEO,25297,30989,Health and Safety Liaison Officer,8.75,Human Resources
+751,Home Office,Home Office,Immigration System Enablers,1HR19,Grade 6,54705,70504,Head of Workforce Planning,1.0,Human Resources
+752,Home Office,Home Office,Immigration System Enablers,1HR19,Grade 6,54705,70504,Head of HR Transformation,1.0,Human Resources
+753,Home Office,Home Office,Immigration System Enablers,1HR19,Grade 7,44656,57553,"Head of Health, Safety and Wellbeing",1.0,Human Resources
+754,Home Office,Home Office,Immigration System Enablers,1HR19,Grade 6,54705,70504,Head of the Immigration Training Academy (ITA),1.0,Human Resources
+755,Home Office,Home Office,Immigration System Enablers,1HR19,HEO,25297,30989,HEO Business Specific L&D,1.0,Human Resources
+756,Home Office,Home Office,Immigration System Enablers,1HR19,HEO,25297,30989,HEO Workforce Planning and Reporting,2.29,Human Resources
+757,Home Office,Home Office,Immigration System Enablers,1HR19,HEO,25297,30989,"HEO Health, Safety and Welfare",1.0,Human Resources
+758,Home Office,Home Office,Immigration System Enablers,1HR19,AO,15386,18657,HR Administrative Officer,1.67,Human Resources
+759,Home Office,Home Office,Immigration System Enablers,1HR19,SEO,32602,39537,HR Assurance Consultant,3.0,Human Resources
+760,Home Office,Home Office,Immigration System Enablers,1HR19,Grade 7,44656,57553,HR Business Partner,6.68,Human Resources
+761,Home Office,Home Office,Immigration System Enablers,1HR19,EO,20235,24789,HR Executive Officer,4.83,Human Resources
+762,Home Office,Home Office,Immigration System Enablers,1HR19,HEO,25297,30989,HR Higher Executive Officer,3.71,Human Resources
+763,Home Office,Home Office,Immigration System Enablers,1HR19,SEO,32602,39537,HR Senior Executive Officer,2.0,Human Resources
+764,Home Office,Home Office,Immigration System Enablers,1HR19,Grade 7,44656,57553,HR Support and Planning Manager,0.83,Human Resources
+765,Home Office,Home Office,Immigration System Enablers,1HR19,SEO,32602,39537,Senior Health & Safety Adviser,2.6,Human Resources
+766,Home Office,Home Office,Immigration System Enablers,1HR19,Grade 6,54705,70504,Senior HR Business Partner,2.92,Human Resources
+767,Home Office,Home Office,Immigration System Enablers,1HR19,SEO,32602,39537,"SEO Health, Safety and Welfare",0.58,Human Resources
+768,Home Office,Home Office,Immigration System Enablers,1HR19,SEO,32602,39537,SEO Workforce Planning and Reporting,4.0,Human Resources
+769,Home Office,Home Office,Immigration System Enablers,1HR19,SEO,32602,39537,SEO Business Specific L&D,1.0,Human Resources
+770,Home Office,Home Office,Immigration System Enablers,1HR19,SEO,32602,39537,Not in post,1.0,Human Resources
+771,Home Office,Home Office,Immigration System Enablers,1HR19,SEO,32602,39537,Not in post,2.0,Human Resources
+772,Home Office,Home Office,Immigration System Enablers,1HR19,HEO,25297,30989,Not in post,5.58,Human Resources
+773,Home Office,Home Office,Immigration System Enablers,1HR19,EO,20235,24789,Not in post,3.6,Human Resources
+774,Home Office,Home Office,Immigration System Enablers,1HR19,CIO,25816,31948,Not in post,1.0,Human Resources
+775,Home Office,Home Office,Immigration System Enablers,1HR19,Grade 7,44656,57553,Not in post,2.69,Human Resources
+776,Home Office,Home Office,Immigration System Enablers,1HR19,AA,14043,15701,Vacant,1.0,Human Resources
+777,Home Office,Home Office,Immigration System Enablers,1HR19,EO,20235,24789,Vacant,2.0,Human Resources
+778,Home Office,Home Office,Immigration System Enablers,1HR19,HEO,25297,30989,Vacant,1.0,Human Resources
+779,Home Office,Home Office,Immigration System Enablers,1HR19,SEO,32602,39537,Vacant,2.0,Human Resources
+780,Home Office,Home Office,Immigration System Enablers,1HR19,Grade 7,44656,57553,Vacant,2.0,Human Resources
+781,Home Office,Home Office,Immigration System Enablers,1HR19,IO,21505,26614,Vacant,2.0,Human Resources
+782,Home Office,Home Office,Corporate Directorate,2HR03,EO,20235,24789,Diary Manager,1.0,Human Resources
+783,Home Office,Home Office,Corporate Directorate,2HR03,HEO,25297,30989,Personal Assistant,1.0,Human Resources
+784,Home Office,Home Office,Corporate Directorate,2HR03,SEO,32602,39537,Transformation Project Immigration case worker,1.0,Human Resources
+785,Home Office,Home Office,HR Professional Standards Unit,2HR04,EO,20235,24789,Administrative Support Officer,1.81,Human Resources
+786,Home Office,Home Office,HR Professional Standards Unit,2HR04,EO,20235,24789,Investigating Officer,5.62,Human Resources
+787,Home Office,Home Office,HR Professional Standards Unit,2HR04,Grade 7,44656,57553,Head of Section / Assistant Director,1.0,Human Resources
+788,Home Office,Home Office,HR Professional Standards Unit,2HR04,HEO,25297,30989,Investigating Officer,13.0,Human Resources
+789,Home Office,Home Office,HR Professional Standards Unit,2HR04,CIO,25816,31948,Investigating Officer,6.0,Human Resources
+790,Home Office,Home Office,HR Professional Standards Unit,2HR04,SEO,32602,39537,Senior Investigating Officer,6.6,Human Resources
+791,Home Office,Home Office,HR Professional Standards Unit,2HR04,SEO,32602,39537,Team Manager,0.6,Human Resources
+792,Home Office,Home Office,HR Professional Standards Unit,2HR04,EO,20235,24789,Team Manager,0.67,Human Resources
+793,Home Office,Home Office,HR Professional Standards Unit,2HR04,EO,20235,24789,Team Manager/Investigating Officer,1.0,Human Resources
+794,Home Office,Home Office,HR Professional Standards Unit,2HR04,HEO,25297,30989,Unknown,1.0,Human Resources
+795,Home Office,Home Office,HR Professional Standards Unit,2HR04,AO,15386,18657,Typist,7.2,Human Resources
+796,Home Office,Home Office,HR Professional Standards Unit,2HR04,HEO,25297,30989,Vacant,2.0,Human Resources
+797,Home Office,Home Office,Anti-Corruption,2HR04,EO,20235,24789,Admin team,0.83,Human Resources
+798,Home Office,Home Office,Anti-Corruption,2HR04,EO,20235,24789,Admin team lead,1.0,Human Resources
+799,Home Office,Home Office,Anti-Corruption,2HR04,AO,15386,18657,Admin team,1.47,Human Resources
+800,Home Office,Home Office,Anti-Corruption,2HR04,Grade 7,44656,57553,Assistant Director In-country,1.0,Human Resources
+801,Home Office,Home Office,Anti-Corruption,2HR04,Grade 7,44656,57553,Assistant Director International ,1.0,Human Resources
+802,Home Office,Home Office,Anti-Corruption,2HR04,HEO,25297,30989,Data mining,1.0,Human Resources
+803,Home Office,Home Office,Anti-Corruption,2HR04,HEO,25297,30989,Fraud investigations,1.62,Human Resources
+804,Home Office,Home Office,Anti-Corruption,2HR04,SEO,32602,39537,Head of investigation team,1.0,Human Resources
+805,Home Office,Home Office,Anti-Corruption,2HR04,Grade 6,54705,70504,Head of Unit,1.0,Human Resources
+806,Home Office,Home Office,Anti-Corruption,2HR04,HEO,25297,30989,International compliance,3.0,Human Resources
+807,Home Office,Home Office,Anti-Corruption,2HR04,EO,20235,24789,International investigations officer,1.0,Human Resources
+808,Home Office,Home Office,Anti-Corruption,2HR04,HEO,25297,30989,International senior investigations officer,2.0,Human Resources
+809,Home Office,Home Office,Anti-Corruption,2HR04,IO,21505,26614,Investigations officer,5.83,Human Resources
+810,Home Office,Home Office,Anti-Corruption,2HR04,EO,20235,24789,IT data analysis,2.0,Human Resources
+811,Home Office,Home Office,Anti-Corruption,2HR04,Immigration Inspector,32602,39537,Senior compliance officer,0.5,Human Resources
+812,Home Office,Home Office,Anti-Corruption,2HR04,CIO,25816,31948,Senior investigations officer,3.0,Human Resources
+813,Home Office,Home Office,Anti-Corruption,2HR04,IO,21505,26614,Vacant,7.0,Human Resources
+814,Home Office,Home Office,Anti-Corruption,2HR04,EO,20235,24789,Vacant,3.0,Human Resources
+815,Home Office,Home Office,Anti-Corruption,2HR04,AO,15386,18657,Vacant,2.0,Human Resources
+816,Home Office,Home Office,Anti-Corruption,2HR04,HEO,25297,30989,Vacant,2.0,Human Resources
+817,Home Office,Home Office,Anti-Corruption,2HR04,SEO,32602,39537,Vacant,1.0,Human Resources
+818,Home Office,Home Office,SACU Security Guards,2HR04,EO,20235,24789,Breach Manager,1.0,Human Resources
+819,Home Office,Home Office,SACU Security Guards,2HR04,HEO,25297,30989,Contract Manager,1.0,Human Resources
+820,Home Office,Home Office,SACU Security Guards,2HR04,AO,15386,18657,Contract Officer,0.69,Human Resources
+821,Home Office,Home Office,SACU Security Guards,2HR04,EO,20235,24789,Security Manager,19.0,Human Resources
+822,Home Office,Home Office,SACU Security Guards,2HR04,Grade 7,44656,57553,Head of Physical Security,1.0,Human Resources
+823,Home Office,Home Office,SACU Security Guards,2HR04,HEO,25297,30989,Physical Security Manager,1.0,Human Resources
+824,Home Office,Home Office,SACU Security Guards,2HR04,SEO,32602,39537,Physical Security Manager,3.0,Human Resources
+825,Home Office,Home Office,SACU Security Guards,2HR04,EO,20235,24789,Pass Team Manager,2.0,Human Resources
+826,Home Office,Home Office,SACU Security Guards,2HR04,EO,20235,24789,Security Advisor,2.0,Human Resources
+827,Home Office,Home Office,SACU Security Guards,2HR04,AA,14043,15701,Security Guard,126.43,Human Resources
+828,Home Office,Home Office,SACU Security Guards,2HR04,AO,15386,18657,Security Guard Supervisor,27.79,Human Resources
+829,Home Office,Home Office,SACU Security Guards,2HR04,HEO,25297,30989,Security Manager,4.0,Human Resources
+830,Home Office,Home Office,SACU Security Guards,2HR04,AO,15386,18657,Security Officer,8.67,Human Resources
+831,Home Office,Home Office,SACU Security Guards,2HR04,HEO,25297,30989,Senior Security Adviser,3.0,Human Resources
+832,Home Office,Home Office,SACU Security Guards,2HR04,AA,14043,15701,Vacant,4.0,Human Resources
+833,Home Office,Home Office,SACU Security Guards,2HR04,AO,15386,18657,Vacant,4.0,Human Resources
+834,Home Office,Home Office,SACU Security Guards,2HR04,EO,20235,24789,Vacant,1.0,Human Resources
+835,Home Office,Home Office,SACU Security Guards,2HR04,HEO,25297,30989,Vacant,3.0,Human Resources
+836,Home Office,Home Office,SACU Security Guards,2HR04,SEO,32602,39537,Vacant,1.0,Human Resources
+837,Home Office,Home Office,Complaints Oversight ,2HR04,Grade 7,44656,57553,Assistant Director for Policy,1.0,Human Resources
+838,Home Office,Home Office,Complaints Oversight ,2HR04,AO,15386,18657,Assistant policy adviser,1.0,Human Resources
+839,Home Office,Home Office,Complaints Oversight ,2HR04,SEO,32602,39537,Lead on fraud ,1.0,Human Resources
+840,Home Office,Home Office,Complaints Oversight ,2HR04,SEO,32602,39537,Policy adviser,1.0,Human Resources
+841,Home Office,Home Office,Complaints Oversight ,2HR04,HEO,25297,30989,Policy adviser,2.0,Human Resources
+842,Home Office,Home Office,Complaints Oversight ,2HR04,EO,20235,24789,Policy adviser,1.0,Human Resources
+843,Home Office,Home Office,Complaints Oversight ,2HR04,CIO,25816,31948,Policy adviser,1.0,Human Resources
+844,Home Office,Home Office,Complaints Oversight ,2HR04,IO,21505,26614,Policy adviser,1.25,Human Resources
+845,Home Office,Home Office,Complaints Oversight ,2HR04,HEO,25297,30989,Pre-employment team,0.83,Human Resources
+846,Home Office,Home Office,Complaints Oversight ,2HR04,EO,20235,24789,Pre-employment team,3.97,Human Resources
+847,Home Office,Home Office,Complaints Oversight ,2HR04,SEO,32602,39537,Training Liaison Officer,1.0,Human Resources
+848,Home Office,Home Office,Complaints Oversight ,2HR04,AO,15386,18657,Vacant,1.0,Human Resources
+849,Home Office,Home Office,Identity and Security,2IIPG05,Grade 6,54705,70504,Senior Policy Adviser,1.0,Policy
+850,Home Office,Home Office,Identity and Security,2IIPG05,Grade 7,44656,57553,Senior Policy Adviser,2.0,Policy
+851,Home Office,Home Office,Identity and Security,2IIPG05,SEO,32602,39537,Policy Adviser,1.0,Policy
+852,Home Office,Home Office,Identity and Security,2IIPG05,HEO,25297,30989,Policy Adviser,1.0,Policy
+853,Home Office,Home Office,Identity and Security,2IIPG05,AO,15386,18657,Administrative Support Officer,1.0,Other
+854,Home Office,Home Office,Crosscutting,2IIPG05,Grade 6,54705,70504,Head of Unit,1.0,Policy
+855,Home Office,Home Office,Crosscutting,2IIPG05,Grade 6,54705,70504,Senior Policy Adviser,1.0,Policy
+856,Home Office,Home Office,Crosscutting,2IIPG05,Grade 7,44656,57553,Senior Finance Officer,1.0,Finance
+857,Home Office,Home Office,Crosscutting,2IIPG05,Grade 7,44656,57553,Senior Policy Adviser,1.0,Policy
+858,Home Office,Home Office,Crosscutting,2IIPG05,SEO,32602,39537,Business Support & Finance Manager,2.0,Finance
+859,Home Office,Home Office,Crosscutting,2IIPG05,HEO,25297,30989,Business Support & Finance Manager,1.0,Finance
+860,Home Office,Home Office,Crosscutting,2IIPG05,HEO,25297,30989,Policy Adviser,3.0,Policy
+861,Home Office,Home Office,Crosscutting,2IIPG05,EO,20235,24789,Business Support Officers,4.0,Finance
+862,Home Office,Home Office,Crosscutting,2IIPG05,EO,20235,24789,Policy Support Officer,1.0,Policy
+863,Home Office,Home Office,Crosscutting,2IIPG05,AO,15386,18657,Business Support Officers,1.0,Finance
+864,Home Office,Home Office,Crosscutting,2IIPG05,AA,14043,15701,Administration Support,1.0,Other
+865,Home Office,Home Office,International Criminality,2IIPG05,Grade 6,54705,70504,Senior Policy Adviser,1.0,Policy
+866,Home Office,Home Office,International Criminality,2IIPG05,Grade 7,44656,57553,Senior Policy Adviser,2.0,Policy
+867,Home Office,Home Office,International Criminality,2IIPG05,SEO,32602,39537,Policy Adviser,3.0,Policy
+868,Home Office,Home Office,International Criminality,2IIPG05,EO,20235,24789,Policy Support Officer,2.0,Policy
+869,Home Office,Home Office,Judicial Co-operation Unit,1IIPG12,Grade 7,44656,57553,Senior Policy Adviser,10.0,Policy
+870,Home Office,Home Office,Judicial Co-operation Unit,1IIPG12,HEO,25297,30989,Policy Adviser,5.0,Policy
+871,Home Office,Home Office,Judicial Co-operation Unit,1IIPG12,HEO-D,23802,33953,Policy Adviser,1.0,Policy
+872,Home Office,Home Office,Judicial Co-operation Unit,1IIPG12,EO,20235,24789,Policy Support Officer,5.0,Policy
+873,Home Office,Home Office,Judicial Co-operation Unit,1IIPG12,AO,15386,18657,Administrative Officer,13.0,Other
+874,Home Office,Home Office,Judicial Co-operation Unit,1IIPG12,AO,15386,18657,Assistant Private Secretary,1.0,Other
+875,Home Office,Home Office,SIS II,1IIPG20,Contractor,0,0,Architect IT,27.0,Programme and Project Management (PPM)
+876,Home Office,Home Office,SIS II,1IIPG20,Grade 6,54705,70504,Senior Programme Manager,2.0,Programme and Project Management (PPM)
+877,Home Office,Home Office,SIS II,1IIPG20,Grade 7,44656,57553,Programme Manager,5.0,Programme and Project Management (PPM)
+878,Home Office,Home Office,SIS II,1IIPG20,SEO,32602,39537,Programme Avdisor,4.0,Programme and Project Management (PPM)
+879,Home Office,Home Office,SIS II,1IIPG20,HEO,25297,30989,Programme Avdisor,4.0,Programme and Project Management (PPM)
+880,Home Office,Home Office,SIS II,1IIPG20,EO,20235,24789,Progamme Support Officer,1.0,Programme and Project Management (PPM)
+881,Home Office,Home Office,"Asylum, Criminality and Enforcement",1IIPG13,Grade 6,54705,70504,Senior Policy Adviser,4.0,Policy
+882,Home Office,Home Office,"Asylum, Criminality and Enforcement",1IIPG13,Grade 7,44656,57553,Senior Policy Adviser,10.0,Policy
+883,Home Office,Home Office,"Asylum, Criminality and Enforcement",1IIPG13,SEO,32602,39537,Policy Adviser,12.0,Policy
+884,Home Office,Home Office,"Asylum, Criminality and Enforcement",1IIPG13,HEO,25297,30989,Policy Adviser,6.0,Policy
+885,Home Office,Home Office,"Asylum, Criminality and Enforcement",1IIPG13,EO,20235,24789,Policy Support Officer,1.0,Policy
+886,Home Office,Home Office,"Asylum, Criminality and Enforcement",1IIPG13,AO,15386,18657,Personal Secretary,2.0,Other
+887,Home Office,Home Office,Border Security Team,1IIPG18,Grade 6,54705,70504,Senior Policy Adviser,3.0,Policy
+888,Home Office,Home Office,Border Security Team,1IIPG18,Grade 7,44656,57553,Senior Policy Adviser,7.0,Policy
+889,Home Office,Home Office,Border Security Team,1IIPG18,SEO,32602,39537,Policy Adviser,2.0,Policy
+890,Home Office,Home Office,Border Security Team,1IIPG18,HEO,25297,30989,Policy Adviser,1.0,Policy
+891,Home Office,Home Office,Border Security Team,1IIPG18,HEO-D,23802,33953,Policy Adviser,6.0,Policy
+892,Home Office,Home Office,Border Security Team,1IIPG18,AO,15386,18657,Assistant Private Secretary,1.0,Other
+893,Home Office,Home Office,Immigration & Border Policy Directorate,2IIPG06,Grade 7,44656,57553,Senior Policy Adviser,2.0,Policy
+894,Home Office,Home Office,Immigration & Border Policy Directorate,2IIPG06,HEO,25297,30989,Policy Adviser,1.0,Policy
+895,Home Office,Home Office,Immigration & Border Policy Directorate,2IIPG06,HEO-D,23802,33953,Policy Adviser,2.0,Policy
+896,Home Office,Home Office,Immigration & Border Policy Directorate,2IIPG06,EO,20235,24789,Policy Support Officer,2.0,Policy
+897,Home Office,Home Office,Immigration & Border Policy Directorate,2IIPG06,EO,20235,24789,Personal Secretary,1.0,Policy
+898,Home Office,Home Office,Visitors & Migration Team,1IIPG19,Grade 6,54705,70504,Senior Policy Adviser,2.0,Policy
+899,Home Office,Home Office,Visitors & Migration Team,1IIPG19,Grade 7,44656,57553,Senior Policy Adviser,7.0,Policy
+900,Home Office,Home Office,Visitors & Migration Team,1IIPG19,SEO,32602,39537,Policy Adviser,6.0,Policy
+901,Home Office,Home Office,Visitors & Migration Team,1IIPG19,HEO,25297,30989,Policy Adviser,3.0,Policy
+902,Home Office,Home Office,Visitors & Migration Team,1IIPG19,AO,15386,18657,Personal Secretary,1.0,Other
+903,Home Office,Home Office,Legal Strategy Team,1IIPG17,Grade 6,54705,70504,Senior Policy Adviser,2.0,Policy
+904,Home Office,Home Office,Legal Strategy Team,1IIPG17,Grade 7,44656,57553,Senior Policy Adviser,6.0,Policy
+905,Home Office,Home Office,Legal Strategy Team,1IIPG17,SEO,32602,39537,Policy Adviser,5.0,Policy
+906,Home Office,Home Office,Legal Strategy Team,1IIPG17,HEO,25297,30989,Policy Adviser,4.0,Policy
+907,Home Office,Home Office,Legal Strategy Team,1IIPG17,EO,20235,24789,Policy Support Officer,2.0,Policy
+908,Home Office,Home Office,MAC Secretariat,1IIPG16,Grade 7,44656,57553,Senior Policy Adviser,2.0,Policy
+909,Home Office,Home Office,MAC Secretariat,1IIPG16,SEO,32602,39537,Economic Adviser,3.0,Economics
+910,Home Office,Home Office,MAC Secretariat,1IIPG16,HEO,25297,30989,Policy Adviser,2.0,Policy
+911,Home Office,Home Office,MAC Secretariat,1IIPG16,EO,20235,24789,Policy Support Officer,2.0,Policy
+912,Home Office,Home Office,MAC Secretariat,1IIPG16,AO,15386,18657,Personal Secretary,1.0,Policy
+913,Home Office,Home Office,MAC Secretariat,1IIPG16,AA,14043,15701,Administrative Support,1.0,Other
+914,Home Office,Home Office,Operational Policy & Rules Unit,1IIPG02,Grade 6,54705,70504,Senior Policy Adviser,2.0,Policy
+915,Home Office,Home Office,Operational Policy & Rules Unit,1IIPG02,Grade 7,44656,57553,Senior Policy Adviser,18.0,Policy
+916,Home Office,Home Office,Operational Policy & Rules Unit,1IIPG02,SEO,32602,39537,Policy Adviser,23.0,Policy
+917,Home Office,Home Office,Operational Policy & Rules Unit,1IIPG02,HEO,25297,30989,Policy Adviser,48.0,Policy
+918,Home Office,Home Office,Operational Policy & Rules Unit,1IIPG02,EO,20235,24789,Policy Support Officer,27.0,Policy
+919,Home Office,Home Office,Operational Policy & Rules Unit,1IIPG02,EO,20235,24789,Personal Secretary,1.0,Policy
+920,Home Office,Home Office,Operational Policy & Rules Unit,1IIPG02,AO,15386,18657,Policy Support Officer,1.0,Policy
+921,Home Office,Home Office,Director General's Office,3IIPG01,Grade 6,54705,70504,Senior Policy Adviser,1.0,Policy
+922,Home Office,Home Office,Director General's Office,3IIPG01,Grade 7,44656,57553,Senior Policy Adviser,1.0,Policy
+923,Home Office,Home Office,Director General's Office,3IIPG01,SEO,32602,39537,Senior Private Secretary ,1.0,Policy
+924,Home Office,Home Office,Growth & Engagement,2IIPG09,Grade 7,44656,57553,Senior Policy Adviser,1.0,Policy
+925,Home Office,Home Office,Growth & Engagement,2IIPG09,SEO,32602,39537,Senior Private Secretary ,1.0,Policy
+926,Home Office,Home Office,Growth & Engagement,2IIPG09,EO,20235,24789,Policy Support Officer,1.0,Policy
+927,Home Office,Home Office,International Directorate,1IIPG07,Grade 6,54705,70504,Senior Policy Adviser,4.0,Policy
+928,Home Office,Home Office,International Directorate,1IIPG07,Grade 7,44656,57553,Senior Policy Adviser,13.0,Policy
+929,Home Office,Home Office,International Directorate,1IIPG07,SEO,32602,39537,Policy Adviser,9.0,Policy
+930,Home Office,Home Office,International Directorate,1IIPG07,HEO,25297,30989,Policy Adviser,14.0,Policy
+931,Home Office,Home Office,International Directorate,1IIPG07,HEO-D,23802,33953,Policy Adviser,5.0,Policy
+932,Home Office,Home Office,International Directorate,1IIPG07,EO,20235,24789,Policy Support Officer,9.0,Policy
+933,Home Office,Home Office,International Directorate,1IIPG07,EO,20235,24789,Personal Secretary,1.0,Policy
+934,Home Office,Home Office,International Directorate,1IIPG07,AO,15386,18657,Policy Support Officer,1.0,Other
+935,Home Office,Home Office,Immigration Enforcement Operations,2IE02,AO,15386,18657,Operational Support Officer,5.0,Operational Delivery
+936,Home Office,Home Office,Immigration Enforcement Operations,2IE02,EO,20235,24789,Operational Officer,2.0,Operational Delivery
+937,Home Office,Home Office,Immigration Enforcement Operations,2IE02,IO,21505,26614,Operational Officer,3.0,Operational Delivery
+938,Home Office,Home Office,Immigration Enforcement Operations,2IE02,Unknown,0,0,Unknown,3.0,Operational Delivery
+939,Home Office,Home Office,Immigration Enforcement Operations,2IE02,HEO,25297,30989,Operational Manager,4.0,Operational Delivery
+940,Home Office,Home Office,"Immigration Enforcement - London, South East and South Region",1IE07,AA,14043,15701,Operational Support Officer,15.81,Operational Delivery
+941,Home Office,Home Office,"Immigration Enforcement - London, South East and South Region",1IE07,AIO,15386,18657,Operational Support Officer,70.24,Operational Delivery
+942,Home Office,Home Office,"Immigration Enforcement - London, South East and South Region",1IE07,AO,15386,18657,Operational Support Officer,120.65,Operational Delivery
+943,Home Office,Home Office,"Immigration Enforcement - London, South East and South Region",1IE07,CIO,25816,31948,Operational Manager,44.51,Operational Delivery
+944,Home Office,Home Office,"Immigration Enforcement - London, South East and South Region",1IE07,EO,20235,24789,Operational Officer,59.6,Operational Delivery
+945,Home Office,Home Office,"Immigration Enforcement - London, South East and South Region",1IE07,Grade 7,44656,57553,Operational Manager,9.0,Operational Delivery
+946,Home Office,Home Office,"Immigration Enforcement - London, South East and South Region",1IE07,HEO,25297,30989,Operational Manager,24.11,Operational Delivery
+947,Home Office,Home Office,"Immigration Enforcement - London, South East and South Region",1IE07,Immigration Inspector,32602,39537,Operational Manager,13.18,Operational Delivery
+948,Home Office,Home Office,"Immigration Enforcement - London, South East and South Region",1IE07,IO,21505,26614,Operational Officer,320.88,Operational Delivery
+949,Home Office,Home Office,"Immigration Enforcement - London, South East and South Region",1IE07,SEO,32602,39537,Operational Manager,8.0,Operational Delivery
+950,Home Office,Home Office,Immigration Enforcement - Scotland and Northern Ireland,1IE08,AIO,15386,18657,Operational Support Officer,4.0,Operational Delivery
+951,Home Office,Home Office,Immigration Enforcement - Scotland and Northern Ireland,1IE08,AO,15386,18657,Operational Support Officer,28.49,Operational Delivery
+952,Home Office,Home Office,Immigration Enforcement - Scotland and Northern Ireland,1IE08,CIO,25816,31948,Operational Manager,4.0,Operational Delivery
+953,Home Office,Home Office,Immigration Enforcement - Scotland and Northern Ireland,1IE08,EO,20235,24789,Operational Officer,11.42,Operational Delivery
+954,Home Office,Home Office,Immigration Enforcement - Scotland and Northern Ireland,1IE08,Grade 6,54705,70504,Senior Operational Manager,1.0,Operational Delivery
+955,Home Office,Home Office,Immigration Enforcement - Scotland and Northern Ireland,1IE08,Grade 7,44656,57553,Operational Manager,2.0,Operational Delivery
+956,Home Office,Home Office,Immigration Enforcement - Scotland and Northern Ireland,1IE08,HEO,25297,30989,Operational Manager,8.0,Operational Delivery
+957,Home Office,Home Office,Immigration Enforcement - Scotland and Northern Ireland,1IE08,Immigration Inspector,32602,39537,Operational Manager,2.0,Operational Delivery
+958,Home Office,Home Office,Immigration Enforcement - Scotland and Northern Ireland,1IE08,IO,21505,26614,Operational Officer,51.01,Operational Delivery
+959,Home Office,Home Office,Immigration Enforcement - Scotland and Northern Ireland,1IE08,SEO,32602,39537,Operational Manager,1.0,Operational Delivery
+960,Home Office,Home Office,"Immigration Enforcement - Co-ordination, Capability and Change",1IE09,AIO,15386,18657,Operational Support Officer,16.0,Operational Delivery
+961,Home Office,Home Office,"Immigration Enforcement - Co-ordination, Capability and Change",1IE09,AO,15386,18657,Operational Support Officer,45.56,Operational Delivery
+962,Home Office,Home Office,"Immigration Enforcement - Co-ordination, Capability and Change",1IE09,CIO,25816,31948,Operational Manager,5.0,Operational Delivery
+963,Home Office,Home Office,"Immigration Enforcement - Co-ordination, Capability and Change",1IE09,EO,20235,24789,Operational Officer,20.5,Operational Delivery
+964,Home Office,Home Office,"Immigration Enforcement - Co-ordination, Capability and Change",1IE09,Grade 6,54705,70504,Senior Operational Manager,3.62,Operational Delivery
+965,Home Office,Home Office,"Immigration Enforcement - Co-ordination, Capability and Change",1IE09,Grade 7,44656,57553,Operational Manager,8.53,Operational Delivery
+966,Home Office,Home Office,"Immigration Enforcement - Co-ordination, Capability and Change",1IE09,HEO,25297,30989,Operational Manager,12.86,Operational Delivery
+967,Home Office,Home Office,"Immigration Enforcement - Co-ordination, Capability and Change",1IE09,Immigration Inspector,32602,39537,Operational Manager,1.0,Operational Delivery
+968,Home Office,Home Office,"Immigration Enforcement - Co-ordination, Capability and Change",1IE09,IO,21505,26614,Operational Officer,24.81,Operational Delivery
+969,Home Office,Home Office,"Immigration Enforcement - Co-ordination, Capability and Change",1IE09,Unknown,0,0,Unknown,3.0,Operational Delivery
+970,Home Office,Home Office,"Immigration Enforcement - Co-ordination, Capability and Change",1IE09,SEO,32602,39537,Operational Manager,13.91,Operational Delivery
+971,Home Office,Home Office,"Immigration Enforcement - North, Midlands and Wales",1IE03,AA,14043,15701,Operational Support Officer,4.81,Operational Delivery
+972,Home Office,Home Office,"Immigration Enforcement - North, Midlands and Wales",1IE03,AIO,15386,18657,Operational Support Officer,51.15,Operational Delivery
+973,Home Office,Home Office,"Immigration Enforcement - North, Midlands and Wales",1IE03,AO,15386,18657,Operational Support Officer,106.7,Operational Delivery
+974,Home Office,Home Office,"Immigration Enforcement - North, Midlands and Wales",1IE03,CIO,25816,31948,Operational Manager,36.52,Operational Delivery
+975,Home Office,Home Office,"Immigration Enforcement - North, Midlands and Wales",1IE03,EO,20235,24789,Operational Officer,52.84,Operational Delivery
+976,Home Office,Home Office,"Immigration Enforcement - North, Midlands and Wales",1IE03,Grade 6,54705,70504,Senior Operational Manager,4.0,Operational Delivery
+977,Home Office,Home Office,"Immigration Enforcement - North, Midlands and Wales",1IE03,Grade 7,44656,57553,Operational Manager,7.93,Operational Delivery
+978,Home Office,Home Office,"Immigration Enforcement - North, Midlands and Wales",1IE03,HEO,25297,30989,Operational Manager,26.92,Operational Delivery
+979,Home Office,Home Office,"Immigration Enforcement - North, Midlands and Wales",1IE03,Immigration Inspector,32602,39537,Operational Manager,5.0,Operational Delivery
+980,Home Office,Home Office,"Immigration Enforcement - North, Midlands and Wales",1IE03,IO,21505,26614,Operational Officer,256.84,Operational Delivery
+981,Home Office,Home Office,"Immigration Enforcement - North, Midlands and Wales",1IE03,SEO,32602,39537,Operational Manager,11.64,Operational Delivery
+982,Home Office,Home Office,Compliance and Returns,2IE03,HEO,25297,30989,Operational Manager,2.0,Operational Delivery
+983,Home Office,Home Office,Removals Casework,1IE10,AA,14043,15701,Operational Support Officer,7.86,Operational Delivery
+984,Home Office,Home Office,Removals Casework,1IE10,AO,15386,18657,Operational Support Officer,107.03,Operational Delivery
+985,Home Office,Home Office,Removals Casework,1IE10,EO,20235,24789,Operational Officer,286.58,Operational Delivery
+986,Home Office,Home Office,Removals Casework,1IE10,Grade 6,54705,70504,Senior Operational Manager,2.93,Operational Delivery
+987,Home Office,Home Office,Removals Casework,1IE10,Grade 7,44656,57553,Operational Manager,6.81,Operational Delivery
+988,Home Office,Home Office,Removals Casework,1IE10,HEO,25297,30989,Operational Manager,81.28,Operational Delivery
+989,Home Office,Home Office,Removals Casework,1IE10,Immigration Inspector,32602,39537,Operational Manager,1.0,Operational Delivery
+990,Home Office,Home Office,Removals Casework,1IE10,SEO,32602,39537,Operational Manager,15.11,Operational Delivery
+991,Home Office,Home Office,Removals Casework,1IE10,Unknown,0,0,Operational Support Officer,1.0,Operational Delivery
+992,Home Office,Home Office,Returns Directorate,1IE11,AA,14043,15701,Administrative Support Officer,5.11,Operational Delivery
+993,Home Office,Home Office,Returns Directorate,1IE11,AIO,15386,18657,Operational Support Officer,5.2,Operational Delivery
+994,Home Office,Home Office,Returns Directorate,1IE11,AO,15386,18657,Administrative Support Officer,147.4,Operational Delivery
+995,Home Office,Home Office,Returns Directorate,1IE11,CIO,25816,31948,Operational Manager,7.63,Operational Delivery
+996,Home Office,Home Office,Returns Directorate,1IE11,EO,20235,24789,Operational Officer,82.62,Operational Delivery
+997,Home Office,Home Office,Returns Directorate,1IE11,Grade 6,54705,70504,Senior Operational Manager,2.0,Operational Delivery
+998,Home Office,Home Office,Returns Directorate,1IE11,Grade 7,44656,57553,Operational Manager,8.13,Operational Delivery
+999,Home Office,Home Office,Returns Directorate,1IE11,HEO,25297,30989,Operational Manager,91.83,Operational Delivery
+1000,Home Office,Home Office,Returns Directorate,1IE11,Immigration Inspector,32602,39537,Operational Manager,4.0,Operational Delivery
+1001,Home Office,Home Office,Returns Directorate,1IE11,IO,21505,26614,Operational Officer,9.5,Operational Delivery
+1002,Home Office,Home Office,Returns Directorate,1IE11,SEO,32602,39537,Operational Manager,23.76,Operational Delivery
+1003,Home Office,Home Office,Criminal Casework,1IE04,AA,14043,15701,Administrative Support Officer,42.86,Operational Delivery
+1004,Home Office,Home Office,Criminal Casework,1IE04,AIO,15386,18657,Administrative Support Officer,2.0,Operational Delivery
+1005,Home Office,Home Office,Criminal Casework,1IE04,AO,15386,18657,Administrative Support Officer,132.03,Operational Delivery
+1006,Home Office,Home Office,Criminal Casework,1IE04,CIO,25816,31948,Operational Manager,10.76,Operational Delivery
+1007,Home Office,Home Office,Criminal Casework,1IE04,EO,20235,24789,Operational Officer,371.55,Operational Delivery
+1008,Home Office,Home Office,Criminal Casework,1IE04,Grade 6,54705,70504,Senior Operational Manager,4.0,Operational Delivery
+1009,Home Office,Home Office,Criminal Casework,1IE04,Grade 7,44656,57553,Operational Manager,15.0,Operational Delivery
+1010,Home Office,Home Office,Criminal Casework,1IE04,HEO,25297,30989,Operational Manager,102.98,Operational Delivery
+1011,Home Office,Home Office,Criminal Casework,1IE04,Immigration Inspector,32602,39537,Operational Manager,2.0,Operational Delivery
+1012,Home Office,Home Office,Criminal Casework,1IE04,IO,21505,26614,Operational Officer,99.19,Operational Delivery
+1013,Home Office,Home Office,Criminal Casework,1IE04,SEO,32602,39537,Operational Manager,45.28,Operational Delivery
+1014,Home Office,Home Office,Criminal Casework,1IE04,Unknown,0,0,Operational Manager,1.0,Operational Delivery
+1015,Home Office,Home Office,National Removals,1IE02,AA,14043,15701,Administrative Support Officer,5.76,Operational Delivery
+1016,Home Office,Home Office,National Removals,1IE02,AO,15386,18657,Administrative Support Officer,71.0,Operational Delivery
+1017,Home Office,Home Office,National Removals,1IE02,EO,20235,24789,Operational Officer,55.68,Operational Delivery
+1018,Home Office,Home Office,National Removals,1IE02,IO,21505,26614,Operational Officer,1.92,Operational Delivery
+1019,Home Office,Home Office,National Removals,1IE02,Grade 6,54705,70504,Senior Operational Manager,1.0,Operational Delivery
+1020,Home Office,Home Office,National Removals,1IE02,Grade 7,44656,57553,Operational Manager,5.76,Operational Delivery
+1021,Home Office,Home Office,National Removals,1IE02,HEO,25297,30989,Operational Manager,40.32,Operational Delivery
+1022,Home Office,Home Office,National Removals,1IE02,SEO,32602,39537,Operational Manager,11.52,Operational Delivery
+1023,Home Office,Home Office,Interventions & Sanctions,1IE01,AO,15386,18657,Administrative Support Officer,12.05,Operational Delivery
+1024,Home Office,Home Office,Interventions & Sanctions,1IE01,EO,20235,24789,Operational Officer,21.35,Operational Delivery
+1025,Home Office,Home Office,Interventions & Sanctions,1IE01,Grade 6,54705,70504,Senior Operational Manager,0.69,Operational Delivery
+1026,Home Office,Home Office,Interventions & Sanctions,1IE01,Grade 7,44656,57553,Operational Manager,1.81,Operational Delivery
+1027,Home Office,Home Office,Interventions & Sanctions,1IE01,HEO,25297,30989,Operational Manager,7.39,Operational Delivery
+1028,Home Office,Home Office,Interventions & Sanctions,1IE01,SEO,32602,39537,Operational Manager,11.6,Operational Delivery
+1029,Home Office,Home Office,Interventions & Sanctions,1IE01,Unknown,0,0,Operational Manager,1.0,Operational Delivery
+1030,Home Office,Home Office,Immigration Enforcement - Crime,1IE05,AO,15386,18657,Operational Support Officer,28.18,Operational Delivery
+1031,Home Office,Home Office,Immigration Enforcement - Crime,1IE05,CIO,25816,31948,Operational Manager,27.0,Operational Delivery
+1032,Home Office,Home Office,Immigration Enforcement - Crime,1IE05,EO,20235,24789,Operational Officer,85.61,Operational Delivery
+1033,Home Office,Home Office,Immigration Enforcement - Crime,1IE05,Grade 6,54705,70504,Senior Operational Manager,1.89,Operational Delivery
+1034,Home Office,Home Office,Immigration Enforcement - Crime,1IE05,Grade 7,44656,57553,Operational Manager,8.0,Operational Delivery
+1035,Home Office,Home Office,Immigration Enforcement - Crime,1IE05,HEO,25297,30989,Operational Manager,30.29,Operational Delivery
+1036,Home Office,Home Office,Immigration Enforcement - Crime,1IE05,Immigration Inspector,32602,39537,Operational Manager,10.97,Operational Delivery
+1037,Home Office,Home Office,Immigration Enforcement - Crime,1IE05,IO,21505,26614,Operational Officer,213.78,Operational Delivery
+1038,Home Office,Home Office,Immigration Enforcement - Crime,1IE05,SEO,32602,39537,Operational Manager,11.0,Operational Delivery
+1039,Home Office,Home Office,Immigration Enforcement - Crime,1IE05,Unknown,0,0,Operational Manager,88.97,Operational Delivery
+1040,Home Office,Home Office,Immigration Intelligence,1IE06,AA,14043,15701,Operational Support Officer,5.0,Operational Delivery
+1041,Home Office,Home Office,Immigration Intelligence,1IE06,AIO,15386,18657,Administrative Support Officer,10.02,Operational Delivery
+1042,Home Office,Home Office,Immigration Intelligence,1IE06,AO,15386,18657,Administrative Support Officer,111.86,Operational Delivery
+1043,Home Office,Home Office,Immigration Intelligence,1IE06,CIO,25816,31948,Operational Manager,36.75,Operational Delivery
+1044,Home Office,Home Office,Immigration Intelligence,1IE06,EO,20235,24789,Operational Officer,107.18,Operational Delivery
+1045,Home Office,Home Office,Immigration Intelligence,1IE06,Grade 6,54705,70504,Senior Operational Manager,6.0,Operational Delivery
+1046,Home Office,Home Office,Immigration Intelligence,1IE06,Grade 7,44656,57553,Operational Manager,11.0,Operational Delivery
+1047,Home Office,Home Office,Immigration Intelligence,1IE06,HEO,25297,30989,Operational Manager,63.15,Operational Delivery
+1048,Home Office,Home Office,Immigration Intelligence,1IE06,Immigration Inspector,32602,39537,Operational Manager,15.18,Operational Delivery
+1049,Home Office,Home Office,Immigration Intelligence,1IE06,IO,21505,26614,Operational Officer,165.05,Operational Delivery
+1050,Home Office,Home Office,Immigration Intelligence,1IE06,Unknown,0,0,Unknown,1.0,Operational Delivery
+1051,Home Office,Home Office,Immigration Intelligence,1IE06,SEO,32602,39537,Operational Manager,25.6,Operational Delivery
+1052,Home Office,Home Office,Legal Adviser,3LAB01,EO,20235,24789,Personal Assistant,1.0,Law
+1053,Home Office,Home Office,Legal Adviser,2LAB01,SEO,32602,39537,Business Manager,1.0,Law
+1054,Home Office,Home Office,Legal Adviser,2LAB01,HEO,25297,30989,Office Manager,1.0,Law
+1055,Home Office,Home Office,Legal Adviser,2LAB01,EO,20235,24789,Legal Support Officer,1.0,Law
+1056,Home Office,Home Office,Legal Adviser,2LAB01,AO,15386,18657,Legal Support Officer,1.0,Law
+1057,Home Office,Home Office,Legal Adviser,2LAB02,SPS ,19629,24291,Senior Personal Secretary,1.0,Law
+1058,Home Office,Home Office,Legal Adviser,1LAB02,Grade 6,54705,70504,Legal Adviser,2.0,Law
+1059,Home Office,Home Office,Legal Adviser,1LAB02,Grade 7,44656,57553,Legal Adviser,3.0,Law
+1060,Home Office,Home Office,Legal Adviser,1LAB03,Grade 6,54705,70504,Legal Adviser,1.8,Law
+1061,Home Office,Home Office,Legal Adviser,1LAB04,Grade 6,54705,70504,Legal Adviser,3.0,Law
+1062,Home Office,Home Office,Legal Adviser,1LAB04,Grade 7,44656,57553,Legal Adviser,0.8,Law
+1063,Home Office,Home Office,Legal Adviser,1LAB06,Grade 6,54705,70504,Legal Adviser,1.7,Law
+1064,Home Office,Home Office,Legal Adviser,1LAB06,Grade 7,44656,57553,Legal Adviser,2.6,Law
+1065,Home Office,Home Office,Legal Adviser,1LAB06,Personal Secretary,16023,19234,Executive Assistant,1.0,Law
+1066,Home Office,Home Office,Legal Adviser,1LAB07,Grade 6,54705,70504,Legal Adviser,4.0,Law
+1067,Home Office,Home Office,Legal Adviser,1LAB07,Grade 7,44656,57553,Legal Adviser,2.0,Law
+1068,Home Office,Home Office,Legal Adviser,1LAB07,AO,15386,18657,Legal Support Officer,1.0,Law
+1069,Home Office,Home Office,Legal Adviser,1LAB08,Grade 6,54705,70504,Legal Adviser,2.4,Law
+1070,Home Office,Home Office,Legal Adviser,1LAB08,Grade 7,44656,57553,Legal Adviser,2.7,Law
+1071,Home Office,Home Office,Legal Adviser,1LAB01,Grade 6,54705,70504,Legal Adviser,3.8,Law
+1072,Home Office,Home Office,Legal Adviser,1LAB01,Grade 7,44656,57553,Legal Adviser,4.0,Law
+1073,Home Office,Home Office,Legal Adviser,1LAB01,Personal Secretary,16023,19234,Personal Secretary,1.0,Law
+1074,Home Office,Home Office,Legal Adviser,1LAB03,Grade 7,44656,57553,Legal Adviser,2.0,Law
+1075,Home Office,Home Office,Legal Adviser,2LAB01,SPS ,19629,24291,Senior Personal Secretary,1.0,Law
+1076,Home Office,Home Office,Legal Adviser,2LAB01,Personal Secretary,16023,19234,Personal Secretary,1.0,Law
+1077,Home Office,Home Office,Legal Adviser,2LAB01,Personal Secretary,16023,19234,Personal Secretary,1.0,Law
+1078,Home Office,Home Office,Legal Adviser,2LAB01,EO,20235,24789,Not In Post,1.0,Law
+1079,Home Office,Home Office,Legal Adviser,1LAB04,Grade 6,54705,70504,Not In Post,1.1,Law
+1080,Home Office,Home Office,Legal Adviser,1LAB02,Grade 7,44656,57553,Legal Adviser,1.0,Law
+1081,Home Office,Home Office,Operational Systems Transformation,3OST01,AA,14043,15701,Knowledge Information Management Support Officer,1.0,Knowledge and Information Management (KIM)
+1082,Home Office,Home Office,Operational Systems Transformation,3OST01,AO,15386,18657,Knowledge Information Management Support Officer,2.44,Knowledge and Information Management (KIM)
+1083,Home Office,Home Office,Operational Systems Transformation,3OST01,EO,20235,24789,Senior Knowledge Information Management Manager,9.34,Knowledge and Information Management (KIM)
+1084,Home Office,Home Office,Operational Systems Transformation,3OST01,Grade 7,44656,57553,Knowledge Information Management Manager,8.92,Knowledge and Information Management (KIM)
+1085,Home Office,Home Office,Operational Systems Transformation,3OST01,Grade 6,54705,70504,Senior Knowledge Information Management Manager,5.0,Knowledge and Information Management (KIM)
+1086,Home Office,Home Office,Operational Systems Transformation,3OST01,HEO,25297,30989,Knowledge Information Management Manager,7.6,Knowledge and Information Management (KIM)
+1087,Home Office,Home Office,Operational Systems Transformation,3OST01,SEO,32602,39537,Knowledge Information Management Manager,18.89,Knowledge and Information Management (KIM)
+1088,Home Office,Home Office,Data Analystics Capability Programme,1OST01,Grade 7,44656,57553,Operational Support,1.0,Knowledge and Information Management (KIM)
+1089,Home Office,Home Office,Identity and Data Integrity,1UKBA07,AA,14043,15701,Administrative Support Officer,9.03,Knowledge and Information Management (KIM)
+1090,Home Office,Home Office,Identity and Data Integrity,1UKBA07,AO,15386,18657,Administrative Support Officer,96.69,Knowledge and Information Management (KIM)
+1091,Home Office,Home Office,Identity and Data Integrity,1UKBA07,CIO,25816,31948,Operational Support,2.0,Knowledge and Information Management (KIM)
+1092,Home Office,Home Office,Identity and Data Integrity,1UKBA07,EO,20235,24789,Operational Support,77.93,Knowledge and Information Management (KIM)
+1093,Home Office,Home Office,Identity and Data Integrity,1UKBA07,Grade 6,54705,70504,Senior Operational Manager,4.0,Knowledge and Information Management (KIM)
+1094,Home Office,Home Office,Identity and Data Integrity,1UKBA07,Grade 7,44656,57553,Operational Manager,10.75,Knowledge and Information Management (KIM)
+1095,Home Office,Home Office,Identity and Data Integrity,1UKBA07,HEO,25297,30989,Operational Manager,30.66,Knowledge and Information Management (KIM)
+1096,Home Office,Home Office,Identity and Data Integrity,1UKBA07,IO,21505,26614,Operational Support,1.0,Knowledge and Information Management (KIM)
+1097,Home Office,Home Office,Identity and Data Integrity,1UKBA07,SEO,32602,39537,Operational Manager,18.71,Knowledge and Information Management (KIM)
+1098,Home Office,Home Office,Identity and Data Integrity,1UKBA07,Unknown,0,0,Operational Support,2.0,Knowledge and Information Management (KIM)
+1099,Home Office,Home Office,Business Strategy,1UKBA74,AO,15386,18657,Knowledge Information Management Support Officer,0.65,Knowledge and Information Management (KIM)
+1100,Home Office,Home Office,Business Strategy,1UKBA74,EO,20235,24789,Knowledge Information Management Support Officer,1.0,Knowledge and Information Management (KIM)
+1101,Home Office,Home Office,Business Strategy,1UKBA74,Grade 6,54705,70504,Senior Knowledge Information Management Manager,6.0,Knowledge and Information Management (KIM)
+1102,Home Office,Home Office,Business Strategy,1UKBA74,Grade 7,44656,57553,Senior Knowledge Information Management Manager,4.0,Knowledge and Information Management (KIM)
+1103,Home Office,Home Office,Business Strategy,1UKBA74,HEO,25297,30989,Knowledge Information Management Manager,2.0,Knowledge and Information Management (KIM)
+1104,Home Office,Home Office,Business Strategy,1UKBA74,SEO,32602,39537,Knowledge Information Management Manager,3.0,Knowledge and Information Management (KIM)
+1105,Home Office,Home Office,Performance Compliance,1UKBA74,AO,15386,18657,Operational Support,4.0,Knowledge and Information Management (KIM)
+1106,Home Office,Home Office,Performance Compliance,1UKBA74,EO,20235,24789,Operational Support,38.78,Knowledge and Information Management (KIM)
+1107,Home Office,Home Office,Performance Compliance,1UKBA74,Grade 6,54705,70504,Senior Operational Manager,3.0,Knowledge and Information Management (KIM)
+1108,Home Office,Home Office,Performance Compliance,1UKBA74,Grade 7,44656,57553,Operational Manager,20.0,Knowledge and Information Management (KIM)
+1109,Home Office,Home Office,Performance Compliance,1UKBA74,HEO,25297,30989,Operational Manager,42.23,Knowledge and Information Management (KIM)
+1110,Home Office,Home Office,Performance Compliance,1UKBA74,IO,21505,26614,Operational Manager,2.8,Knowledge and Information Management (KIM)
+1111,Home Office,Home Office,Performance Compliance,1UKBA74,SEO,32602,39537,Operational Manager,45.51,Knowledge and Information Management (KIM)
+1112,Home Office,Home Office,Major Systems,2UKBA19,AO,15386,18657,Executive Officer,4.0,Knowledge and Information Management (KIM)
+1113,Home Office,Home Office,Major Systems,2UKBA19,EO,20235,24789,Operational Manager,7.85,Knowledge and Information Management (KIM)
+1114,Home Office,Home Office,Major Systems,2UKBA19,Grade 6,54705,70504,Senior Knowledge Information Management Manager,2.0,Knowledge and Information Management (KIM)
+1115,Home Office,Home Office,Major Systems,2UKBA19,Grade 7,44656,57553,Senior Knowledge Information Management Manager,9.8,Knowledge and Information Management (KIM)
+1116,Home Office,Home Office,Major Systems,2UKBA19,HEO,25297,30989,Knowledge Information Management Manager,16.62,Knowledge and Information Management (KIM)
+1117,Home Office,Home Office,Major Systems,2UKBA19,SEO,32602,39537,Knowledge Information Management Manager,11.5,Knowledge and Information Management (KIM)
+1118,Home Office,Home Office,Major Systems,2UKBA19,Unknown,0,0,Operational Manager,8.0,Knowledge and Information Management (KIM)
+1119,Home Office,Home Office,Technical Architecture,1OST04,EO,20235,24789,Administrative Support Officer,3.0,Knowledge and Information Management (KIM)
+1120,Home Office,Home Office,Technical Architecture,1OST04,Grade 6,54705,70504,Knowledge Information Management Support Officer,3.89,Knowledge and Information Management (KIM)
+1121,Home Office,Home Office,Technical Architecture,1OST04,Grade 7,44656,57553,Knowledge Information Management Support Officer,0.67,Knowledge and Information Management (KIM)
+1122,Home Office,Home Office,Technical Architecture,1OST04,SEO,32602,39537,Knowledge Information Management Manager,2.0,Knowledge and Information Management (KIM)
+1123,Home Office,Home Office,Animals in Science Regulation Unit,EQV09,Grade 6,54705,70504,Animal Scientific Procedures Inspectors,1.0,Medicine
+1124,Home Office,Home Office,Animals in Science Regulation Unit,EQV09,Grade 6,54705,70504,Animal Scientific Procedures Inspectors,17.6,Vets
+1125,Home Office,Home Office,Animals in Science Regulation Unit,EQV09,Grade 6,54705,70504,Vacant,1.0,Vets
+1126,Home Office,Home Office,Animals in Science Regulation Unit,1HOS04,Grade 7,44656,57553,Head of Licensing & Change Programme,1.0,Programme and Project Management (PPM)
+1127,Home Office,Home Office,Animals in Science Regulation Unit,1HOS04,SEO,32602,39537,Regulation Support,2.0,Policy
+1128,Home Office,Home Office,Animals in Science Regulation Unit,1HOS04,SEO,32602,39537,Regulation Support,2.0,Planning
+1129,Home Office,Home Office,Animals in Science Regulation Unit,1HOS04,EO,20235,24789,Regulation Support,4.84,Other
+1130,Home Office,Home Office,Animals in Science Regulation Unit,1HOS04,AO,15386,18657,Regulation Support,8.83,Other
+1131,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,Grade 6,54705,70504,Assistant Director,4.0,Science and Engineering
+1132,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,Grade 6,54705,70504,Senior Operational Manager,2.0,Science and Engineering
+1133,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,Grade 6,54705,70504,Project Manager,3.6,Programme and Project Management (PPM)
+1134,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,Grade 6,54705,70504,Scientist,2.0,Science and Engineering
+1135,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,Grade 7,44656,57553,Senior Project Manager,5.0,Programme and Project Management (PPM)
+1136,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,Grade 7,44656,57553,Operational Manager,6.0,Science and Engineering
+1137,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,Grade 7,44656,57553,Scientist,10.0,Science and Engineering
+1138,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,Grade 7,44656,57553,Scientific Support Manager,3.0,Science and Engineering
+1139,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,Grade 7,44656,57553,Vacant,1.0,Programme and Project Management (PPM)
+1140,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,Grade 7,44656,57553,Vacant,1.0,Science and Engineering
+1141,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,SPTO,36452,47460,Project Manager,3.0,Programme and Project Management (PPM)
+1142,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,SPTO,36452,47460,IT Manager,1.0,Information Technology
+1143,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,SSO,36452,45573,Senior Internal Auditor,0.8,Internal Audit
+1144,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,SSO,36452,45573,Scientist,20.49,Science and Engineering
+1145,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,SSO,36452,45573,Vacant,2.0,Science and Engineering
+1146,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,SEO,32602,39537,Scientific Support Manager,14.5,Science and Engineering
+1147,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,SEO,32602,39537,Vacant,3.0,Science and Engineering
+1148,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,HPTO,28573,33272,IT Support Officer,1.0,Information Technology
+1149,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,HEO,25297,30989,Finance Officer,1.0,Finance
+1150,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,HSO,28573,39137,Scientist,33.37,Science and Engineering
+1151,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,HEO,25297,30989,Scientific Support,9.89,Science and Engineering
+1152,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,HSO,28573,39137,Vacant,4.0,Science and Engineering
+1153,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,HEO,25297,30989,Vacant,3.0,Science and Engineering
+1154,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,HPTO,28573,33272,Scientific Support,1.0,Science and Engineering
+1155,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,HPTO,28573,33272,Vacant,2.0,Information Technology
+1156,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,HEO,25297,30989,Vacant,1.0,Science and Engineering
+1157,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,SO,24538,29757,Scientist,31.4,Science and Engineering
+1158,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,SO,24538,29757,Vacant,10.0,Science and Engineering
+1159,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,PTO,24538,32274,Scientific Support,11.81,Science and Engineering
+1160,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,PTO,24538,32274,Vacant,1.0,Science and Engineering
+1161,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,EO,20235,24789,Finance Support Officer,1.0,Finance
+1162,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,EO,20235,24789,Scientific Support,3.54,Science and Engineering
+1163,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,EO,20235,24789,Vacant,1.0,Science and Engineering
+1164,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,AO,15386,18657,Personal Secretary,1.0,Communications
+1165,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,AO,15386,18657,Scientific Support,14.24,Science and Engineering
+1166,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,AO,15386,18657,Vacant,1.0,Science and Engineering
+1167,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,AA,14043,15701,Scientific Support,9.0,Science and Engineering
+1168,Home Office,Home Office,Centre for Applied Science & Technology,2HOS02,Police Staff,60750,95000,Police Adviser,4.0,Science and Engineering
+1169,Home Office,Home Office,Central Analysis Unit,1HOS09,Grade 6,54705,70504,Operational Researcher,1.0,Operational Research
+1170,Home Office,Home Office,Central Analysis Unit,1HOS09,Grade 7 Economist,51999,66339,Economist,1.0,Economics
+1171,Home Office,Home Office,Central Analysis Unit,1HOS09,Grade 7 Economist,51999,66339,Economist,3.0,Economics
+1172,Home Office,Home Office,Central Analysis Unit,1HOS09,SSO,36452,45573,Operational Researcher,1.0,Operational Research
+1173,Home Office,Home Office,Central Analysis Unit,1HOS09,Economic Assistant,26885,33953,Economic Assistant,4.0,Economics
+1174,Home Office,Home Office,Central Analysis Unit,1HOS09,Economic Assistant,26885,33953,Vacant,1.0,Operational Research
+1175,Home Office,Home Office,Central Analysis Unit,1HOS09,SO,24538,29757,Operational Researcher,1.0,Operational Research
+1176,Home Office,Home Office,Central Analysis Unit,1HOS09,EO,20235,24789,Administration Support,1.0,Operational Research
+1177,Home Office,Home Office,Crime and Policing Analysis,1CPG19,Grade 6,54705,70504,Senior Principal Research Officer,3.0,Social Research
+1178,Home Office,Home Office,Crime and Policing Analysis,1CPG19,Grade 7 Economist,51999,66339,Economist,3.0,Economics
+1179,Home Office,Home Office,Crime and Policing Analysis,1CPG19,Grade 7,44656,57553,Principal Research Officer,6.0,Social Research
+1180,Home Office,Home Office,Crime and Policing Analysis,1CPG19,SRO,36452,42447,Social Researcher,10.2,Social Research
+1181,Home Office,Home Office,Crime and Policing Analysis,1CPG19,SSO,36452,45573,Operational Researcher,1.0,Operational Research
+1182,Home Office,Home Office,Crime and Policing Analysis,1CPG19,Economic Assistant,26885,33953,Economic Adviser,1.0,Economics
+1183,Home Office,Home Office,Crime and Policing Analysis,1CPG19,Economic Assistant,26885,33953,Vacant,1.0,Economics
+1184,Home Office,Home Office,Crime and Policing Analysis,1CPG19,RO,24538,29757,Social Researcher,8.62,Social Research
+1185,Home Office,Home Office,Counter Terrorism Research and Analysis,1HOS09,Grade 6,54705,70504,Head of Unit,1.0,Social Research
+1186,Home Office,Home Office,Counter Terrorism Research and Analysis,1HOS09,Grade 7,44656,57553,Operational Researcher,1.7,Operational Research
+1187,Home Office,Home Office,Counter Terrorism Research and Analysis,1HOS09,Grade 7 Economist,51999,66339,Economist,1.0,Economics
+1188,Home Office,Home Office,Counter Terrorism Research and Analysis,1HOS09,Grade 7,44656,57553,Principal Research Officer,0.75,Social Research
+1189,Home Office,Home Office,Counter Terrorism Research and Analysis,1HOS09,SRO,36452,42447,Social Researcher,5.0,Social Research
+1190,Home Office,Home Office,Counter Terrorism Research and Analysis,1HOS09,Economic Assistant,26885,33953,Vacant,1.0,Economics
+1191,Home Office,Home Office,Counter Terrorism Research and Analysis,1HOS09,Economic Assistant,26885,33953,Economic Adviser,1.0,Economics
+1192,Home Office,Home Office,Counter Terrorism Research and Analysis,1HOS09,RO,24538,29757,Vacant,1.0,Social Research
+1193,Home Office,Home Office,Forensic Science Regulation Unit,MIS02,Grade 7,44656,57553,Scientific Advisers,2.0,Science and Engineering
+1194,Home Office,Home Office,Forensic Science Regulation Unit,MIS02,SEO,32602,39537,Scientific Advisers,1.0,Science and Engineering
+1195,Home Office,Home Office,Forensic Science Regulation Unit,MIS02,EO,20235,24789,Scientific Support,1.0,Science and Engineering
+1196,Home Office,Home Office,Migration and Border Analysis,1UKBA39,Grade 6,54705,70504,Senior Principal Research Officer,1.0,Social Research
+1197,Home Office,Home Office,Migration and Border Analysis,1UKBA39,Grade 6,54705,70504,Vacant,1.0,Economics
+1198,Home Office,Home Office,Migration and Border Analysis,1UKBA39,Grade 7,44656,57553,Principal Research Officer,3.0,Social Research
+1199,Home Office,Home Office,Migration and Border Analysis,1UKBA39,Grade 7 Economist,51999,66339,Economist,3.0,Economics
+1200,Home Office,Home Office,Migration and Border Analysis,1UKBA39,SRO,36452,42447,Social Researcher,8.34,Social Research
+1201,Home Office,Home Office,Migration and Border Analysis,1UKBA39,Economic Assistant,26885,33953,Economic Adviser,1.0,Economics
+1202,Home Office,Home Office,Migration and Border Analysis,1UKBA39,RO,24538,29757,Social Researcher,4.0,Social Research
+1203,Home Office,Home Office,Migration and Border Analysis,1UKBA39,Personal Secretary,16023,19234,Team Support Officer,1.0,Communications
+1204,Home Office,Home Office,Migration and Border Analysis,1UKBA39,EO,20235,24789,Team Support Officer,1.0,Communications
+1205,Home Office,Home Office,National DNA Database Unit,2HOS02,Grade 6,54705,70504,Senior Technical Manager,3.0,Science and Engineering
+1206,Home Office,Home Office,National DNA Database Unit,2HOS02,Grade 7,44656,57553,Senior Team Leader,1.8,Science and Engineering
+1207,Home Office,Home Office,National DNA Database Unit,2HOS02,Grade 7,44656,57553,Senior Assurance Manager,2.0,Science and Engineering
+1208,Home Office,Home Office,National DNA Database Unit,2HOS02,Grade 7,44656,57553,Scientific Advisers,0.67,Science and Engineering
+1209,Home Office,Home Office,National DNA Database Unit,2HOS02,Grade 7,44656,57553,Vacant,1.0,Science and Engineering
+1210,Home Office,Home Office,National DNA Database Unit,2HOS02,SEO,32602,39537,Scientific Support,9.67,Science and Engineering
+1211,Home Office,Home Office,National DNA Database Unit,2HOS02,SEO,32602,39537,Data and Information Analyst,0.67,Science and Engineering
+1212,Home Office,Home Office,National DNA Database Unit,2HOS02,SEO,32602,39537,Team Leader,1.0,Science and Engineering
+1213,Home Office,Home Office,National DNA Database Unit,2HOS02,SEO,32602,39537,Vacant,1.0,Science and Engineering
+1214,Home Office,Home Office,National DNA Database Unit,2HOS02,SEO,32602,39537,Operational Manager,1.0,Science and Engineering
+1215,Home Office,Home Office,National DNA Database Unit,2HOS02,SEO,32602,39537,Change Manager,1.0,Science and Engineering
+1216,Home Office,Home Office,National DNA Database Unit,2HOS02,HEO,25297,30989,Research Officer,3.0,Science and Engineering
+1217,Home Office,Home Office,National DNA Database Unit,2HOS02,HEO,25297,30989,Vacant,2.0,Science and Engineering
+1218,Home Office,Home Office,National DNA Database Unit,2HOS02,HEO,25297,30989,Information Manager,1.0,Science and Engineering
+1219,Home Office,Home Office,National DNA Database Unit,2HOS02,HEO,25297,30989,Administration Team Manager,2.0,Science and Engineering
+1220,Home Office,Home Office,National DNA Database Unit,2HOS02,HEO,25297,30989,Project Officer,1.0,Science and Engineering
+1221,Home Office,Home Office,National DNA Database Unit,2HOS02,AO,15386,18657,Administrative Support Officer,7.4,Science and Engineering
+1222,Home Office,Home Office,National DNA Database Unit,2HOS02,AO,15386,18657,Vacant,3.0,Science and Engineering
+1223,Home Office,Home Office,Science Secretariat,2HOS01,Grade 6,54705,70504,Head of Science Secretariat,1.0,Science and Engineering
+1224,Home Office,Home Office,Science Secretariat,2HOS01,Grade 7,44656,57553,Senior Forensic Pathology Manager,2.0,Science and Engineering
+1225,Home Office,Home Office,Science Secretariat,2HOS01,Grade 7,44656,57553,Head of Camera Commissioner Team,1.0,Science and Engineering
+1226,Home Office,Home Office,Science Secretariat,2HOS02,Grade 7,44656,57553,Vacant,1.0,Science and Engineering
+1227,Home Office,Home Office,Science Secretariat,2HOS01,SEO,32602,39537,Senior Forensic Pathology Officer,1.0,Science and Engineering
+1228,Home Office,Home Office,Science Secretariat,2HOS01,SEO,32602,39537,Secretariat Support,2.0,Science and Engineering
+1229,Home Office,Home Office,Science Secretariat,2HOS01,SSO,36452,45573,Secretariat Support,1.0,Science and Engineering
+1230,Home Office,Home Office,Science Secretariat,2HOS01,Senior Information Officer,36452,42447,Vacant,1.0,Science and Engineering
+1231,Home Office,Home Office,Science Secretariat,2HOS01,HEO,25297,30989,Policy Adviser,1.0,Science and Engineering
+1232,Home Office,Home Office,Science Secretariat,2HOS01,HEO,25297,30989,Secretariat Support,1.0,Science and Engineering
+1233,Home Office,Home Office,Science Secretariat,2HOS01,HSO,28573,39137,Secretariat Support,2.0,Science and Engineering
+1234,Home Office,Home Office,Science Secretariat,2HOS01,EO,20235,24789,Vacant,1.0,Science and Engineering
+1235,Home Office,Home Office,Science Secretariat,2HOS01,EO,20235,24789,Secretariat Support,2.0,Science and Engineering
+1236,Home Office,Home Office,Science Secretariat,2HOS01,AO,15386,18657,Secretariat Support,1.0,Science and Engineering
+1237,Home Office,Home Office,Home Office Science Shared Support,2HOS02,Grade 6,54705,70504,Head of Unit,1.0,Statisticians
+1238,Home Office,Home Office,Home Office Science Shared Support,2HOS02,Grade 7,44656,57553,Head of Resources,1.0,Human Resources
+1239,Home Office,Home Office,Home Office Science Shared Support,2HOS02,Grade 7,44656,57553,Head of Procurement,1.0,Procurement
+1240,Home Office,Home Office,Home Office Science Shared Support,2HOS02,Grade 7,44656,57553,Head of Communications,1.0,Communications
+1241,Home Office,Home Office,Home Office Science Shared Support,2HOS02,Grade 7,44656,57553,Management Information Team Leader,1.0,Finance
+1242,Home Office,Home Office,home Office Science Shared Support,2HOS02,Grade 7,44656,57553,Chief of Staff,1.0,Science and Engineering
+1243,Home Office,Home Office,Home Office Science Shared Support,2HOS02,SEO,32602,39537,Learning and Commissioning Manager,1.0,Human Resources
+1244,Home Office,Home Office,Home Office Science Shared Support,2HOS02,HEO,25297,30989,Communications Support,1.0,Communications
+1245,Home Office,Home Office,Home Office Science Shared Support,2HOS02,HEO,25297,30989,Resourcing Manager,1.0,Human Resources
+1246,Home Office,Home Office,Home Office Science Shared Support,2HOS02,HEO,25297,30989,Learning and Commissioning Manager,1.0,Human Resources
+1247,Home Office,Home Office,Home Office Science Shared Support,2HOS02,HEO,25297,30989,Management Information Manager,1.0,Finance
+1248,Home Office,Home Office,Home Office Science Shared Support,2HOS02,EO,20235,24789,Procurement Officer,1.0,Procurement
+1249,Home Office,Home Office,Home Office Science Shared Support,2HOS02,EO,20235,24789,Communications Support,3.0,Communications
+1250,Home Office,Home Office,Home Office Science Shared Support,2HOS02,EO,20235,24789,Management Information Officer,1.0,Finance
+1251,Home Office,Home Office,Home Office Science Shared Support,2HOS02,EO,20235,24789,Learning and Commissioning Officer,1.0,Human Resources
+1252,Home Office,Home Office,Home Office Science Shared Support,2HOS02,EO,20235,24789,Resourcing Executive,1.0,Human Resources
+1253,Home Office,Home Office,Home Office Science Shared Support,2HOS02,AO,15386,18657,Procurement Support Officer,1.0,Human Resources
+1254,Home Office,Home Office,Home Office Science Shared Support,2HOS02,EO,20235,24789,Director Support,3.46,Communications
+1255,Home Office,Home Office,Home Office Statistics,1HOS01,Grade 6,54705,70504,Senior Statistician,2.0,Statisticians
+1256,Home Office,Home Office,Home Office Statistics,1HOS01,Grade 7,44656,57553,Senior Statistician,6.0,Statisticians
+1257,Home Office,Home Office,Home Office Statistics,1HOS01,SRO,36452,42447,Senior Researcher,2.89,Social Research
+1258,Home Office,Home Office,Home Office Statistics,1HOS01,Senior Stats Officer,34650,42018,Statistician,3.0,Statisticians
+1259,Home Office,Home Office,Home Office Statistics,1HOS01,SEO,32602,39537,Senior Executive Officer,4.0,Operational Delivery
+1260,Home Office,Home Office,Home Office Statistics,1HOS01,HEO,25297,30989,Statistician,3.0,Statisticians
+1261,Home Office,Home Office,Home Office Statistics,1HOS01,Assistant Statistician,26885,33953,Statistician,2.0,Statisticians
+1262,Home Office,Home Office,Home Office Statistics,1HOS01,Assistant Statistician,26885,33953,Vacant,1.0,Statisticians
+1263,Home Office,Home Office,Home Office Statistics,1HOS02,StO,21947,25816,Vacant,1.0,Statisticians
+1264,Home Office,Home Office,Home Office Statistics,1HOS01,EO,20235,24789,Statistician,15.44,Statisticians
+1265,Home Office,Home Office,Home Office Statistics,1HOS01,AO,15386,18657,Statistical Support Officer,6.53,Statisticians
+1266,Home Office,Home Office,Customers and Change,2UKVI02,AA,14043,15701,Operational Support Officer,30.71,Operational Delivery
+1267,Home Office,Home Office,Customers and Change,2UKVI02,AO,15386,18657,Operational Support Officer,56.31,Operational Delivery
+1268,Home Office,Home Office,Customers and Change,2UKVI02,EO,20235,24789,Operational Officer,152.98,Operational Delivery
+1269,Home Office,Home Office,Customers and Change,2UKVI02,Grade 6,54705,70504,Senior Operational Manager,1.0,Operational Delivery
+1270,Home Office,Home Office,Customers and Change,2UKVI02,Grade 7,44656,57553,Senior Operational Manager,10.56,Operational Delivery
+1271,Home Office,Home Office,Customers and Change,2UKVI02,HEO,25297,30989,Operational Manager,32.06,Operational Delivery
+1272,Home Office,Home Office,Customers and Change,2UKVI02,IO,21505,26614,Operational Officer,1.0,Operational Delivery
+1273,Home Office,Home Office,Customers and Change,2UKVI02,SEO,32602,39537,Operational Manager,17.51,Operational Delivery
+1274,Home Office,Home Office,Customers and Change,2UKVI02,Unknown,0,0,Unknown,3.0,Operational Delivery
+1275,Home Office,Home Office,Customer Service Improvement,1UKVI08,AA,14043,15701,Operational Support Officer,1.0,Operational Delivery
+1276,Home Office,Home Office,Customer Service Improvement,1UKVI08,AO,15386,18657,Operational Support Officer,3.83,Operational Delivery
+1277,Home Office,Home Office,Customer Service Improvement,1UKVI08,CIO,25816,31948,Operational Manager,1.0,Operational Delivery
+1278,Home Office,Home Office,Customer Service Improvement,1UKVI08,EO,20235,24789,Operational Manager,11.0,Operational Delivery
+1279,Home Office,Home Office,Customer Service Improvement,1UKVI08,Grade 6,54705,70504,Senior Operational Manager,3.59,Operational Delivery
+1280,Home Office,Home Office,Customer Service Improvement,1UKVI08,Grade 7,44656,57553,Senior Operational Manager,7.0,Operational Delivery
+1281,Home Office,Home Office,Customer Service Improvement,1UKVI08,HEO,25297,30989,Operational Manager,14.65,Operational Delivery
+1282,Home Office,Home Office,Customer Service Improvement,1UKVI08,Immigration Inspector,32602,39537,Operational Manager,1.0,Operational Delivery
+1283,Home Office,Home Office,Customer Service Improvement,1UKVI08,IO,21505,26614,Operational Officer,2.0,Operational Delivery
+1284,Home Office,Home Office,Customer Service Improvement,1UKVI08,SEO,32602,39537,Operational Manager,12.0,Operational Delivery
+1285,Home Office,Home Office,Temporary Migration,1UKVI04,AA,14043,15701,Operational Support Officer,302.96,Operational Delivery
+1286,Home Office,Home Office,Temporary Migration,1UKVI04,AO,15386,18657,Operational Support Officer,784.67,Operational Delivery
+1287,Home Office,Home Office,Temporary Migration,1UKVI04,EO,20235,24789,Operational Manager,219.29,Operational Delivery
+1288,Home Office,Home Office,Temporary Migration,1UKVI04,Grade 6,54705,70504,Senior Operational Manager,5.0,Operational Delivery
+1289,Home Office,Home Office,Temporary Migration,1UKVI04,Grade 7,44656,57553,Senior Operational Manager,10.97,Operational Delivery
+1290,Home Office,Home Office,Temporary Migration,1UKVI04,HEO,25297,30989,Operational Manager,95.51,Operational Delivery
+1291,Home Office,Home Office,Temporary Migration,1UKVI04,SEO,32602,39537,Operational Manager,29.33,Operational Delivery
+1292,Home Office,Home Office,Temporary Migration,1UKVI04,Unknown,0,0,Unknown,8.81,Operational Delivery
+1293,Home Office,Home Office,Appeals and Litigation Directorate,1UKVI06,AA,14043,15701,Operational Support Officer,99.56,Operational Delivery
+1294,Home Office,Home Office,Appeals and Litigation Directorate,1UKVI06,AO,15386,18657,Operational Support Officer,79.15,Operational Delivery
+1295,Home Office,Home Office,Appeals and Litigation Directorate,1UKVI06,EO,20235,24789,Operational Manager,144.94,Operational Delivery
+1296,Home Office,Home Office,Appeals and Litigation Directorate,1UKVI06,Grade 6,54705,70504,Senior Operational Manager,3.0,Operational Delivery
+1297,Home Office,Home Office,Appeals and Litigation Directorate,1UKVI06,Grade 7,44656,57553,Senior Operational Manager,11.46,Operational Delivery
+1298,Home Office,Home Office,Appeals and Litigation Directorate,1UKVI06,HEO,25297,30989,Operational Manager,212.21,Operational Delivery
+1299,Home Office,Home Office,Appeals and Litigation Directorate,1UKVI06,IO,21505,26614,Operational Officer,2.0,Operational Delivery
+1300,Home Office,Home Office,Appeals and Litigation Directorate,1UKVI06,SEO,32602,39537,Operational Manager,73.38,Operational Delivery
+1301,Home Office,Home Office,Appeals and Litigation Directorate,1UKVI06,Unknown,0,0,Unknown,4.69,Operational Delivery
+1302,Home Office,Home Office,Records Management,2UKVI02,AA,14043,15701,Operational Support Officer,49.66,Operational Delivery
+1303,Home Office,Home Office,Records Management,2UKVI02,AO,15386,18657,Operational Support Officer,35.48,Operational Delivery
+1304,Home Office,Home Office,Records Management,2UKVI02,EO,20235,24789,Operational Manager,52.54,Operational Delivery
+1305,Home Office,Home Office,Records Management,2UKVI02,Grade 7,44656,57553,Senior Operational Manager,2.0,Operational Delivery
+1306,Home Office,Home Office,Records Management,2UKVI02,HEO,25297,30989,Operational Manager,7.0,Operational Delivery
+1307,Home Office,Home Office,Records Management,2UKVI02,SEO,32602,39537,Operational Manager,3.6,Operational Delivery
+1308,Home Office,Home Office,Immigration Operations,2UKVI04,AO,15386,18657,Operational Support Officer,3.0,Operational Delivery
+1309,Home Office,Home Office,Immigration Operations,2UKVI04,EO,20235,24789,Operational Manager,17.28,Operational Delivery
+1310,Home Office,Home Office,Immigration Operations,2UKVI04,Grade 6,54705,70504,Senior Operational Manager,1.0,Operational Delivery
+1311,Home Office,Home Office,Immigration Operations,2UKVI04,Grade 7,44656,57553,Senior Operational Manager,1.0,Operational Delivery
+1312,Home Office,Home Office,Immigration Operations,2UKVI04,HEO,25297,30989,Operational Manager,8.51,Operational Delivery
+1313,Home Office,Home Office,Immigration Operations,2UKVI04,SEO,32602,39537,Operational Manager,42.37,Operational Delivery
+1314,Home Office,Home Office,National Asylum Operations,1UKVI05,AA,14043,15701,Operational Support Officer,50.6,Operational Delivery
+1315,Home Office,Home Office,National Asylum Operations,1UKVI05,AIO,15386,18657,Operational Support Officer,22.04,Operational Delivery
+1316,Home Office,Home Office,National Asylum Operations,1UKVI05,AO,15386,18657,Operational Support Officer,334.07,Operational Delivery
+1317,Home Office,Home Office,National Asylum Operations,1UKVI05,CIO,25816,31948,Operational Manager,7.69,Operational Delivery
+1318,Home Office,Home Office,National Asylum Operations,1UKVI05,EO,20235,24789,Operational Manager,402.97,Operational Delivery
+1319,Home Office,Home Office,National Asylum Operations,1UKVI05,Grade 6,54705,70504,Senior Operational Manager,4.69,Operational Delivery
+1320,Home Office,Home Office,National Asylum Operations,1UKVI05,Grade 7,44656,57553,Senior Operational Manager,19.93,Operational Delivery
+1321,Home Office,Home Office,National Asylum Operations,1UKVI05,HEO,25297,30989,Operational Manager,278.42,Operational Delivery
+1322,Home Office,Home Office,National Asylum Operations,1UKVI05,Immigration Inspector,32602,39537,Operational Manager,2.0,Operational Delivery
+1323,Home Office,Home Office,National Asylum Operations,1UKVI05,IO,21505,26614,Operational Officer,43.6,Operational Delivery
+1324,Home Office,Home Office,National Asylum Operations,1UKVI05,SEO,32602,39537,Operational Manager,75.11,Operational Delivery
+1325,Home Office,Home Office,National Asylum Operations,1UKVI05,Unknown,0,0,Unknown,7.0,Operational Delivery
+1326,Home Office,Home Office,Older Live Cases,1UKVI07,AA,14043,15701,Operational Support Officer,4.57,Operational Delivery
+1327,Home Office,Home Office,Older Live Cases,1UKVI07,AO,15386,18657,Operational Support Officer,136.68,Operational Delivery
+1328,Home Office,Home Office,Older Live Cases,1UKVI07,EO,20235,24789,Operational Manager,94.98,Operational Delivery
+1329,Home Office,Home Office,Older Live Cases,1UKVI07,Grade 6,54705,70504,Senior Operational Manager,1.0,Operational Delivery
+1330,Home Office,Home Office,Older Live Cases,1UKVI07,Grade 7,44656,57553,Senior Operational Manager,2.0,Operational Delivery
+1331,Home Office,Home Office,Older Live Cases,1UKVI07,HEO,25297,30989,Operational Manager,29.95,Operational Delivery
+1332,Home Office,Home Office,Older Live Cases,1UKVI07,SEO,32602,39537,Operational Manager,6.81,Operational Delivery
+1333,Home Office,Home Office,Older Live Cases,1UKVI07,Unknown,0,0,Unknown,1.0,Operational Delivery
+1334,Home Office,Home Office,Permanent Migration,1UKVI03,AA,14043,15701,Operational Support Officer,219.31,Operational Delivery
+1335,Home Office,Home Office,Permanent Migration,1UKVI03,AO,15386,18657,Operational Support Officer,287.85,Operational Delivery
+1336,Home Office,Home Office,Permanent Migration,1UKVI03,EO,20235,24789,Operational Manager,256.15,Operational Delivery
+1337,Home Office,Home Office,Permanent Migration,1UKVI03,Grade 6,54705,70504,Senior Operational Manager,2.0,Operational Delivery
+1338,Home Office,Home Office,Permanent Migration,1UKVI03,Grade 7,44656,57553,Senior Operational Manager,4.95,Operational Delivery
+1339,Home Office,Home Office,Permanent Migration,1UKVI03,HEO,25297,30989,Operational Manager,49.96,Operational Delivery
+1340,Home Office,Home Office,Permanent Migration,1UKVI03,SEO,32602,39537,Operational Manager,14.81,Operational Delivery
+1341,Home Office,Home Office,Permanent Migration,1UKVI03,Unknown,0,0,Unknown,3.0,Operational Delivery
+1342,Home Office,Home Office,Premium Services,1UKVI09,AA,14043,15701,Operational Support Officer,32.24,Operational Delivery
+1343,Home Office,Home Office,Premium Services,1UKVI09,AO,15386,18657,Operational Support Officer,154.29,Operational Delivery
+1344,Home Office,Home Office,Premium Services,1UKVI09,EO,20235,24789,Operational Manager,52.59,Operational Delivery
+1345,Home Office,Home Office,Premium Services,1UKVI09,Grade 7,44656,57553,Senior Operational Manager,3.0,Operational Delivery
+1346,Home Office,Home Office,Premium Services,1UKVI09,HEO,25297,30989,Operational Manager,17.28,Operational Delivery
+1347,Home Office,Home Office,Premium Services,1UKVI09,IO,21505,26614,Operational Officer,1.0,Operational Delivery
+1348,Home Office,Home Office,Premium Services,1UKVI09,SEO,32602,39537,Operational Manager,8.51,Operational Delivery
+1349,Home Office,Home Office,Premium Services,1UKVI09,Unknown,0,0,Unknown,2.0,Operational Delivery
+1350,Home Office,Home Office,Border Casework,2UKVI04,AA,14043,15701,Operational Support Officer,3.0,Operational Delivery
+1351,Home Office,Home Office,Border Casework,2UKVI04,AIO,15386,18657,Operational Support Officer,5.4,Operational Delivery
+1352,Home Office,Home Office,Border Casework,2UKVI04,AO,15386,18657,Operational Support Officer,1.0,Operational Delivery
+1353,Home Office,Home Office,Border Casework,2UKVI04,CIO,25816,31948,Operational Manager,8.8,Operational Delivery
+1354,Home Office,Home Office,Border Casework,2UKVI04,EO,20235,24789,Operational Manager,2.0,Operational Delivery
+1355,Home Office,Home Office,Border Casework,2UKVI04,Grade 6,54705,70504,Senior Operational Manager,1.0,Operational Delivery
+1356,Home Office,Home Office,Border Casework,2UKVI04,Grade 7,44656,57553,Senior Operational Manager,1.0,Operational Delivery
+1357,Home Office,Home Office,Border Casework,2UKVI04,IO,21505,26614,Operational Officer,20.17,Operational Delivery
+1358,Home Office,Home Office,Border Casework,2UKVI04,SEO,32602,39537,Operational Manager,1.0,Operational Delivery
+1359,Home Office,Home Office,Records Services Project,2UKVI04,Grade 6,54705,70504,Senior Operational Manager,1.0,Operational Delivery
+1360,Home Office,Home Office,Records Services Project,2UKVI04,SEO,32602,39537,Operational Manager,1.0,Operational Delivery
+1361,Home Office,Home Office,UKVI Visa Operations,2UKVI03,AA,14043,15701,Visa Services Assistant,4.0,Operational Delivery
+1362,Home Office,Home Office,UKVI Visa Operations,2UKVI03,AO,15386,18657,Visa Services Assistant,38.52,Operational Delivery
+1363,Home Office,Home Office,UKVI Visa Operations,2UKVI03,CIO,25816,31948,Visa Services HEO,16.0,Operational Delivery
+1364,Home Office,Home Office,UKVI Visa Operations,2UKVI03,EO,20235,24789,Visa Services HEO,33.03,Operational Delivery
+1365,Home Office,Home Office,UKVI Visa Operations,2UKVI03,Grade 6,54705,70504,Senior Operational Manager,3.0,Operational Delivery
+1366,Home Office,Home Office,UKVI Visa Operations,2UKVI03,Grade 7,44656,57553,Senior Operational Manager,5.97,Operational Delivery
+1367,Home Office,Home Office,UKVI Visa Operations,2UKVI03,HEO,25297,30989,Visa Services HEO,17.5,Operational Delivery
+1368,Home Office,Home Office,UKVI Visa Operations,2UKVI03,Immigration Inspector,32602,39537,Visa Services SEO,3.0,Operational Delivery
+1369,Home Office,Home Office,UKVI Visa Operations,2UKVI03,IO,21505,26614,Visa Services Officer,12.97,Operational Delivery
+1370,Home Office,Home Office,UKVI Visa Operations,2UKVI03,SEO,32602,39537,Visa Services SEO,15.0,Operational Delivery
+1371,Home Office,Home Office,Asia Pacific Region,1UKVI12,AO,15386,18657,Visa Services Assistant,1.0,Operational Delivery
+1372,Home Office,Home Office,Asia Pacific Region,1UKVI12,EO,20235,24789,Visa Services Officer,185.0,Operational Delivery
+1373,Home Office,Home Office,Asia Pacific Region,1UKVI12,HEO,25297,30989,Visa Services HEO,57.0,Operational Delivery
+1374,Home Office,Home Office,Asia Pacific Region,1UKVI12,SEO,32602,39537,Visa Services SEO,15.0,Operational Delivery
+1375,Home Office,Home Office,Asia Pacific Region,1UKVI12,Grade 7,44656,57553,Senior Operational Manager,4.0,Operational Delivery
+1376,Home Office,Home Office,Asia Pacific Region,1UKVI12,Grade 6,54705,70504,Senior Operational Manager,2.0,Operational Delivery
+1377,Home Office,Home Office,South Asia Region,2UKVI03,EO,20235,24789,Visa Services Officer,91.0,Operational Delivery
+1378,Home Office,Home Office,South Asia Region,2UKVI03,HEO,25297,30989,Visa Services HEO,20.0,Operational Delivery
+1379,Home Office,Home Office,South Asia Region,2UKVI03,SEO,32602,39537,Visa Services SEO,4.0,Operational Delivery
+1380,Home Office,Home Office,South Asia Region,2UKVI03,Grade 6,54705,70504,Senior Operational Manager,1.0,Operational Delivery
+1381,Home Office,Home Office,South Asia Region,2UKVI03,Grade 7,44656,57553,Senior Operational Manager,1.0,Operational Delivery
+1382,Home Office,Home Office,Americas Region,2UKVI03,AO,15386,18657,Visa Services Assistant,1.0,Operational Delivery
+1383,Home Office,Home Office,Americas Region,2UKVI03,EO,20235,24789,Visa Services Officer,2.0,Operational Delivery
+1384,Home Office,Home Office,Americas Region,2UKVI03,HEO,25297,30989,Visa Services HEO,4.0,Operational Delivery
+1385,Home Office,Home Office,Americas Region,2UKVI03,SEO,32602,39537,Visa Services SEO,2.0,Operational Delivery
+1386,Home Office,Home Office,Americas Region,2UKVI03,Grade 7,44656,57553,Senior Operational Manager,1.0,Operational Delivery

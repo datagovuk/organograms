@@ -1,0 +1,764 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,Cabinet Office,Cabinet Office,Civil Service HR ,33,B1/BAND B1,23793,30093,Executive Assistant,1.0,Human Resources
+1,Cabinet Office,Cabinet Office,Civil Service HR ,82,A/BAND A,44743,60484,Head of Corporate Talent Management,1.0,Human Resources
+2,Cabinet Office,Cabinet Office,Civil Service HR ,82,A/BAND A,44743,60484,Head of Director Talent ,1.0,Human Resources
+3,Cabinet Office,Cabinet Office,Civil Service HR ,82,A/BAND A,44743,60484,Talent Adviser ,1.0,Human Resources
+4,Cabinet Office,Cabinet Office,Civil Service HR ,82,B2/BAND B2,30117,38484,Talent Management Liaison,2.0,Human Resources
+5,Cabinet Office,Cabinet Office,Civil Service HR ,82,C/BAND C,19790,24430,HR Support Officer,1.0,Human Resources
+6,Cabinet Office,Cabinet Office,Civil Service HR ,102,A/BAND A,44743,60484,Senior Policy Adviser,2.0,Human Resources
+7,Cabinet Office,Cabinet Office,Civil Service HR ,102,B1/BAND B1,23793,30093,Executive Assistant,1.0,Human Resources
+8,Cabinet Office,Cabinet Office,Civil Service HR ,102,B2/BAND B2,30117,38484,Policy Adviser,3.0,Human Resources
+9,Cabinet Office,Cabinet Office,Civil Service Reform,31,A/BAND A,44743,60484,Senior Policy Adviser,1.0,Economics
+10,Cabinet Office,Cabinet Office,Civil Service Reform,31,A/BAND A,44743,60484,Senior Policy Adviser,1.0,Human Resources
+11,Cabinet Office,Cabinet Office,Civil Service Reform,31,B2/BAND B2,30117,38484,Policy Adviser,1.0,Human Resources
+12,Cabinet Office,Cabinet Office,Civil Service Reform,225,B1/BAND B1,23793,30093,Policy Adviser,1.0,Policy
+13,Cabinet Office,Cabinet Office,Civil Service Reform,225,B2/BAND B2,30117,38484,Policy Adviser,1.0,Policy
+14,Cabinet Office,Cabinet Office,Civil Service Reform,225,C/BAND C,19790,24430,Policy Adviser,0.5,Policy
+15,Cabinet Office,Cabinet Office,Civil Service Reform,277,B2/BAND B2,30117,38484,Policy Adviser,3.0,Policy
+16,Cabinet Office,Cabinet Office,Civil Service Reform,303,A/BAND A,44743,60484,Head of Sector,3.8,Policy
+17,Cabinet Office,Cabinet Office,Civil Service Reform,303,B/Faststream,27270,36175,Account Manager,1.0,Policy
+18,Cabinet Office,Cabinet Office,Civil Service Reform,303,B2/BAND B2,30117,38484,Account Manager,1.0,Policy
+19,Cabinet Office,Cabinet Office,Civil Service Reform,303,C/BAND C,19790,24430,Diary Manager,1.0,Policy
+20,Cabinet Office,Cabinet Office,Civil Service Reform,305,A/BAND A,44743,60484,Senior Policy Adviser,2.0,Human Resources
+21,Cabinet Office,Cabinet Office,Civil Service Reform,305,B/Faststream,27270,36175,Policy Adviser,2.0,Human Resources
+22,Cabinet Office,Cabinet Office,Civil Service Reform,305,B2/BAND B2,30117,38484,Policy Adviser,2.0,Human Resources
+23,Cabinet Office,Cabinet Office,Civil Service Reform,305,B2/BAND B2,30117,38484,Policy Adviser,1.0,Policy
+24,Cabinet Office,Cabinet Office,Civil Service Reform,353,A/BAND A,44743,60484,Principal Private Secretary,1.0,Other
+25,Cabinet Office,Cabinet Office,Civil Service Reform,353,B2/BAND B2,30117,38484,Private Secretary,1.0,Other
+26,Cabinet Office,Cabinet Office,Civil Service Reform,363,A/BAND A,44743,60484,Policy Adviser,2.6,Policy
+27,Cabinet Office,Cabinet Office,Civil Service Reform,365,A/BAND A,44743,60484,Programme Manager,1.0,Operational Delivery
+28,Cabinet Office,Cabinet Office,Civil Service Reform,365,A/BAND A,44743,60484,Senior Operational Manager,4.0,Operational Delivery
+29,Cabinet Office,Cabinet Office,Civil Service Reform,365,B1/BAND B1,23793,30093,Executive Assistant,1.0,Operational Delivery
+30,Cabinet Office,Cabinet Office,Civil Service Reform,365,B1/BAND B1,23793,30093,Operations Support Officer,2.0,Operational Delivery
+31,Cabinet Office,Cabinet Office,Civil Service Reform,365,B2/BAND B2,30117,38484,Operational Manager,1.0,Human Resources
+32,Cabinet Office,Cabinet Office,Civil Service Reform,365,B2/BAND B2,30117,38484,Operational Manager,7.08,Operational Delivery
+33,Cabinet Office,Cabinet Office,Civil Service Reform,365,B2/BAND B2,30117,38484,Senior Operational Manager,1.0,Operational Delivery
+34,Cabinet Office,Cabinet Office,Civil Service Reform,365,C/BAND C,19790,24430,Executive Assistant,2.44,Operational Delivery
+35,Cabinet Office,Cabinet Office,Civil Service Reform,380,A/BAND A,44743,60484,Policy Adviser,1.0,Policy
+36,Cabinet Office,Cabinet Office,Civil Service Reform,380,B1/BAND B1,23793,30093,Diary Manager,1.0,Other
+37,Cabinet Office,Cabinet Office,Civil Service Reform,381,A/BAND A,44743,60484,Policy Adviser,1.0,Programme and Project Management (PPM)
+38,Cabinet Office,Cabinet Office,Civil Service Reform,381,B1/BAND B1,23793,30093,Policy Adviser,1.0,Policy
+39,Cabinet Office,Cabinet Office,Civil Service Reform,381,B2/BAND B2,30117,38484,Policy Adviser,1.0,Policy
+40,Cabinet Office,Cabinet Office,Civil Service Reform,381,B2/BAND B2,30117,38484,Policy Adviser,2.0,Programme and Project Management (PPM)
+41,Cabinet Office,Cabinet Office,Civil Service Reform,417,A/BAND A,44743,60484,Civil Service Reform Manager,1.0,Human Resources
+42,Cabinet Office,Cabinet Office,Civil Service Reform,417,A/BAND A,44743,60484,Communications Manager,1.0,Human Resources
+43,Cabinet Office,Cabinet Office,Civil Service Reform,417,A/BAND A,44743,60484,Head of CS HR Strategy and Communications,1.0,Human Resources
+44,Cabinet Office,Cabinet Office,Civil Service Reform,417,A/BAND A,44743,60484,Performance and Data Manager,1.0,Human Resources
+45,Cabinet Office,Cabinet Office,Civil Service Reform,417,A/BAND A,44743,60484,Private Secretary,1.0,Human Resources
+46,Cabinet Office,Cabinet Office,Civil Service Reform,417,B/Faststream,27270,36175,Assistant Private Secretary,1.0,Human Resources
+47,Cabinet Office,Cabinet Office,Civil Service Reform,417,B/Faststream,27270,36175,Planning and Business Manager,1.0,Human Resources
+48,Cabinet Office,Cabinet Office,Civil Service Reform,417,B1/BAND B1,23793,30093,Diary Manager,1.0,Human Resources
+49,Cabinet Office,Cabinet Office,Civil Service Reform,417,B1/BAND B1,23793,30093,People Board Secretariat and Communications,0.8,Human Resources
+50,Cabinet Office,Cabinet Office,Civil Service Reform,417,B2/BAND B2,30117,38484,Communications and HR Headlines Editor,1.0,Human Resources
+51,Cabinet Office,Cabinet Office,Civil Service Reform,417,B2/BAND B2,30117,38484,"Governance, Secretariat and Reform",1.0,Human Resources
+52,Cabinet Office,Cabinet Office,Civil Service Reform,417,C/BAND C,19790,24430,Diary Manager,1.0,Human Resources
+53,Cabinet Office,Cabinet Office,Civil Service Reform,418,A/BAND A,44743,60484,Strand Lead,4.0,Human Resources
+54,Cabinet Office,Cabinet Office,Civil Service Reform,418,B1/BAND B1,23793,30093,Executive Assistant,1.0,Human Resources
+55,Cabinet Office,Cabinet Office,Civil Service Reform,419,A/BAND A,44743,60484,Corporate Capabilities Lead,2.0,Human Resources
+56,Cabinet Office,Cabinet Office,Civil Service Reform,419,A/BAND A,44743,60484,Senior Corporate Capabilities Lead,1.0,Human Resources
+57,Cabinet Office,Cabinet Office,Civil Service Reform,419,B/Faststream,27270,36175,Corporate Capabilities,1.0,Human Resources
+58,Cabinet Office,Cabinet Office,Civil Service Reform,420,A/BAND A,44743,60484,HR Capability & Talent Fast Stream Mgr,0.8,Human Resources
+59,Cabinet Office,Cabinet Office,Civil Service Reform,420,A/BAND A,44743,60484,HR Capability and Talent Manager,1.0,Human Resources
+60,Cabinet Office,Cabinet Office,Civil Service Reform,420,A/BAND A,44743,60484,Talent Coach HR,1.0,Human Resources
+61,Cabinet Office,Cabinet Office,Civil Service Reform,420,B/Faststream,27270,36175,HR Capability and Talent Lead,1.0,Human Resources
+62,Cabinet Office,Cabinet Office,Civil Service Reform,420,B1/BAND B1,23793,30093,HR Capability and Talent Support,0.48,Human Resources
+63,Cabinet Office,Cabinet Office,Civil Service Reform,420,B1/BAND B1,23793,30093,HR Fast Stream Support,1.33,Human Resources
+64,Cabinet Office,Cabinet Office,Civil Service Reform,420,B2/BAND B2,30117,38484,Development Lead HR Fast Stream,1.0,Human Resources
+65,Cabinet Office,Cabinet Office,Civil Service Reform,420,B2/BAND B2,30117,38484,HR Capability and Talent Lead,1.0,Human Resources
+66,Cabinet Office,Cabinet Office,Civil Service Reform,420,B2/BAND B2,30117,38484,HR Fast Stream Operations Lead,1.0,Human Resources
+67,Cabinet Office,Cabinet Office,Civil Service Reform,420,B2/BAND B2,30117,38484,Talent Manager HR Fast Stream,1.0,Human Resources
+68,Cabinet Office,Cabinet Office,Civil Service Reform,444,A/BAND A,44743,60484,Policy Adviser,2.5,Policy
+69,Cabinet Office,Cabinet Office,Civil Service Reform,444,B1/BAND B1,23793,30093,Policy Adviser,1.8,Policy
+70,Cabinet Office,Cabinet Office,CS Functional Leadership,422,A/BAND A,44743,60484,Policy Adviser,2.6,Policy
+71,Cabinet Office,Cabinet Office,CS Functional Leadership,422,A/BAND A,44743,60484,Private Secretary,1.0,Policy
+72,Cabinet Office,Cabinet Office,CS Functional Leadership,422,A/BAND A,44743,60484,Programme Manager,1.0,Programme and Project Management (PPM)
+73,Cabinet Office,Cabinet Office,CS Functional Leadership,422,B1/BAND B1,23793,30093,Diary Manager,1.0,Policy
+74,Cabinet Office,Cabinet Office,Constitution Group,59,B1/BAND B1,23793,30093,Diary Manager,1.0,Other
+75,Cabinet Office,Cabinet Office,Constitution Group,118,A/BAND A,44743,60484,Senior Policy Adviser,1.67,Policy
+76,Cabinet Office,Cabinet Office,Constitution Group,118,B1/BAND B1,23793,30093,Policy Support Officer,2.0,Policy
+77,Cabinet Office,Cabinet Office,Constitution Group,118,B2/BAND B2,30117,38484,Business Manager,1.0,other
+78,Cabinet Office,Cabinet Office,Constitution Group,118,B2/BAND B2,30117,38484,Policy Adviser,11.0,Policy
+79,Cabinet Office,Cabinet Office,Constitution Group,257,A/BAND A,44743,60484,Economist,1.0,Economics
+80,Cabinet Office,Cabinet Office,Constitution Group,257,A/BAND A,44743,60484,Finance Officer,1.0,Finance
+81,Cabinet Office,Cabinet Office,Constitution Group,257,A/BAND A,44743,60484,Programme Officer Manager,1.0,Programme and Project Management (PPM)
+82,Cabinet Office,Cabinet Office,Constitution Group,257,A/BAND A,44743,60484,Project Manager,9.69,Programme and Project Management (PPM)
+83,Cabinet Office,Cabinet Office,Constitution Group,257,A/BAND A,44743,60484,Senior Project Manager,2.0,Programme and Project Management (PPM)
+84,Cabinet Office,Cabinet Office,Constitution Group,257,B/Faststream,27270,36175,Economist,1.0,Economics
+85,Cabinet Office,Cabinet Office,Constitution Group,257,B1/BAND B1,23793,30093,Finance Support Officer,1.83,Finance
+86,Cabinet Office,Cabinet Office,Constitution Group,257,B1/BAND B1,23793,30093,Programme Support Officer,1.0,Programme and Project Management (PPM)
+87,Cabinet Office,Cabinet Office,Constitution Group,257,B1/BAND B1,23793,30093,Project Support Officer,5.0,Programme and Project Management (PPM)
+88,Cabinet Office,Cabinet Office,Constitution Group,257,B2/BAND B2,30117,38484,Communications Support Officer,2.0,Communications
+89,Cabinet Office,Cabinet Office,Constitution Group,257,B2/BAND B2,30117,38484,Finance Support Officer,1.0,Finance
+90,Cabinet Office,Cabinet Office,Constitution Group,257,B2/BAND B2,30117,38484,Policy Adviser,1.4,Policy
+91,Cabinet Office,Cabinet Office,Constitution Group,257,B2/BAND B2,30117,38484,Policy Support Officer,1.0,Policy
+92,Cabinet Office,Cabinet Office,Constitution Group,257,B2/BAND B2,30117,38484,Programme Support Officer,4.0,Programme and Project Management (PPM)
+93,Cabinet Office,Cabinet Office,Constitution Group,257,B2/BAND B2,30117,38484,Project Manager,1.0,Programme and Project Management (PPM)
+94,Cabinet Office,Cabinet Office,Constitution Group,257,B2/BAND B2,30117,38484,Project Support Officer,19.69,Programme and Project Management (PPM)
+95,Cabinet Office,Cabinet Office,Constitution Group,257,C/BAND C,19790,24430,Project Support Officer,2.0,Programme and Project Management (PPM)
+96,Cabinet Office,Cabinet Office,Constitution Group,257,TIS1,24064,30441,Communications Support Officer,1.0,Communications
+97,Cabinet Office,Cabinet Office,Constitution Group,286,A/BAND A,44743,60484,Communications Manager ,1.0,Communications
+98,Cabinet Office,Cabinet Office,Constitution Group,286,A/BAND A,44743,60484,Senior Policy Adviser,4.89,Policy
+99,Cabinet Office,Cabinet Office,Constitution Group,286,B1/BAND B1,23793,30093,Policy Support Officer,1.0,Policy
+100,Cabinet Office,Cabinet Office,Constitution Group,286,B2/BAND B2,30117,38484,Communications Officer ,1.0,Communications
+101,Cabinet Office,Cabinet Office,Constitution Group,286,B2/BAND B2,30117,38484,Policy Adviser,4.0,Policy
+102,Cabinet Office,Cabinet Office,Constitution Group,286,B2/BAND B2,30117,38484,Policy Adviser,1.0,Policy
+103,Cabinet Office,Cabinet Office,Constitution Group,286,B2/BAND B2,30117,38484,Policy Adviser ,1.0,Policy
+104,Cabinet Office,Cabinet Office,Constitution Group - Privy Council,77,A/BAND A,44743,60484,Senior Operational Manager,2.0,Operational Delivery
+105,Cabinet Office,Cabinet Office,Constitution Group - Privy Council,77,B1/BAND B1,23793,30093,Operations Support Officer,2.0,Operational Delivery
+106,Cabinet Office,Cabinet Office,Constitution Group - Privy Council,77,B2/BAND B2,30117,38484,Operations Support Officer,1.0,Operational Delivery
+107,Cabinet Office,Cabinet Office,Constitution Group - Privy Council,77,C/BAND C,19790,24430,Operations Support Officer,3.0,Operational Delivery
+108,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,24,A/BAND A,44743,60484,Senior Policy Adviser,1.0,Policy
+109,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,24,B1/BAND B1,23793,30093,Policy Adviser,2.0,Policy
+110,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,24,B2/BAND B2,30117,38484,Policy Adviser,1.0,Policy
+111,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,A/BAND A,44743,60484,Estate Manager,1.0,Programme and Project Management (PPM)
+112,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,A/BAND A,44743,60484,Estate Manager,2.0,Property and Asset Management
+113,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,A/BAND A,44743,60484,Finance Officer,1.0,Finance
+114,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,A/BAND A,44743,60484,Policy Adviser,1.0,Policy
+115,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,A/BAND A,44743,60484,Senior Estate Manager,1.0,Property and Asset Management
+116,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,A/BAND A,44743,60484,Senior Finance  Manager,10.5,Finance
+117,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,A/BAND A,44743,60484,Senior Policy Adviser,1.0,Finance
+118,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,A/BAND A,44743,60484,Senior Policy Adviser,1.0,Property and Asset Management
+119,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,A/BAND A,44743,60484,Senior Procurement Officer,1.0,Procurement
+120,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B1/BAND B1,23793,30093,Estate Officer,1.0,Property and Asset Management
+121,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B1/BAND B1,23793,30093,Finance Officer,9.41,Finance
+122,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B1/BAND B1,23793,30093,Legal Support Officer,0.72,Finance
+123,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B1/BAND B1,23793,30093,Operational Manager,1.0,Property and Asset Management
+124,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B1/BAND B1,23793,30093,Operations Support Officer,1.0,Property and Asset Management
+125,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B1/BAND B1,23793,30093,Policy Adviser,1.0,Policy
+126,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B1/BAND B1,23793,30093,Policy Adviser,1.0,Property and Asset Management
+127,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B1/BAND B1,23793,30093,Procurement Officer,1.0,Procurement
+128,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B1/BAND B1,23793,30093,Procurement Support Officer ,1.0,Finance
+129,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B1/BAND B1,23793,30093,Procurement Support Officer ,2.0,Procurement
+130,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B2/BAND B2,30117,38484,Business Manager,1.0,Finance
+131,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B2/BAND B2,30117,38484,Estate Manager,1.0,Property and Asset Management
+132,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B2/BAND B2,30117,38484,Estate Manager/Finance Officer,1.0,Property and Asset Management
+133,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B2/BAND B2,30117,38484,Estate Officer,1.0,Property and Asset Management
+134,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B2/BAND B2,30117,38484,Executive Assistant,1.0,Finance
+135,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B2/BAND B2,30117,38484,Finance Officer,18.6,Finance
+136,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B2/BAND B2,30117,38484,Operational Manager,1.0,Property and Asset Management
+137,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B2/BAND B2,30117,38484,Policy Adviser,1.0,Policy
+138,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B2/BAND B2,30117,38484,Procurement Officer,3.0,Procurement
+139,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,B2/BAND B2,30117,38484,Senior Policy Adviser,5.0,Property and Asset Management
+140,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,C/BAND C,19790,24430,Estate Manager/Finance Officer,1.0,Finance
+141,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,C/BAND C,19790,24430,Finance Support Officer,5.99,Finance
+142,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,99,C/BAND C,19790,24430,Operations Support Officer,1.0,Property and Asset Management
+143,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,228,B1/BAND B1,23793,30093,Programme Support,1.0,Programme and Project Management (PPM)
+144,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,228,B2/BAND B2,30117,38484,Estate Manager,1.0,Property and Asset Management
+145,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,228,B2/BAND B2,30117,38484,Programme Manager,1.0,Programme and Project Management (PPM)
+146,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,37,A/BAND A,44743,60484,Business Manager,2.0,Human Resources
+147,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,37,B/Faststream,27270,36175,HR Officer,1.0,Human Resources
+148,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,37,B1/BAND B1,23793,30093,Executive Assistant,1.0,Human Resources
+149,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,37,B2/BAND B2,30117,38484,Private Secretary,1.0,Human Resources
+150,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,145,A/BAND A,44743,60484,Business Manager,4.0,Human Resources
+151,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,145,A/BAND A,44743,60484,Project Manager,1.0,Human Resources
+152,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,145,B/Faststream,27270,36175,HR Officer,2.0,Human Resources
+153,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,145,B1/BAND B1,23793,30093,Operations Support Officer,1.0,Human Resources
+154,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,145,B2/BAND B2,30117,38484,Analyst,1.0,Human Resources
+155,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,145,B2/BAND B2,30117,38484,HR Officer,1.0,Human Resources
+156,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,145,B2/BAND B2,30117,38484,Operational Manager,1.0,Human Resources
+157,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,224,A/BAND A,44743,60484,Business Manager,1.0,Human Resources
+158,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,224,B1/BAND B1,23793,30093,Operational Manager,1.0,Human Resources
+159,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,224,B2/BAND B2,30117,38484,Business Manager,1.0,Human Resources
+160,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,224,C/BAND C,19790,24430,Operations Support Officer,1.0,Human Resources
+161,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,224,TIS2,31150,39799,Business Manager,1.0,Human Resources
+162,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,416,A/BAND A,44743,60484,Business Manager,4.36,Human Resources
+163,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,416,B1/BAND B1,23793,30093,HR Officer,2.0,Human Resources
+164,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,416,B1/BAND B1,23793,30093,Operations Support Officer,2.0,Human Resources
+165,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,416,B1/BAND B1,23793,30093,Private Secretary,1.0,Human Resources
+166,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,416,B2/BAND B2,30117,38484,HR Officer,2.0,Human Resources
+167,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,416,B2/BAND B2,30117,38484,Operational Manager,1.0,Human Resources
+168,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,416,C/BAND C,19790,24430,HR Officer,1.0,Human Resources
+169,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,416,C/BAND C,19790,24430,HR Support Officer,1.0,Human Resources
+170,Cabinet Office,Cabinet Office,Corporate Services - Human Resources,416,C/BAND C,19790,24430,Operations Support Officer,0.89,Human Resources
+171,Cabinet Office,Cabinet Office,Corporate Services - Knowledge & Infomation Management,140,A/BAND A,44743,60484,Senior Knowledge Information Management Manager,2.0,Knowledge and Information Management (KIM)
+172,Cabinet Office,Cabinet Office,Corporate Services - Knowledge & Infomation Management,140,B1/BAND B1,23793,30093,Knowledge Information Management Support Officer,5.44,Knowledge and Information Management (KIM)
+173,Cabinet Office,Cabinet Office,Corporate Services - Knowledge & Infomation Management,140,B2/BAND B2,30117,38484,Knowledge Information Management Manager,6.6,Knowledge and Information Management (KIM)
+174,Cabinet Office,Cabinet Office,Corporate Services - Knowledge & Infomation Management,140,C/BAND C,19790,24430,Knowledge Information Management Support Officer,3.42,Knowledge and Information Management (KIM)
+175,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,24,A/BAND A,44743,60484,Senior IT Manager,2.0,Information Technology
+176,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,24,B1/BAND B1,23793,30093,IT Manager,1.0,Information Technology
+177,Cabinet Office,Cabinet Office,Corporate Services - Finance and Estates,24,B2/BAND B2,30117,38484,Senior IT Manager,2.0,Information Technology
+178,Cabinet Office,Cabinet Office,Deputy Prime Minister's Office,25,A/BAND A,44743,60484,Private Secretary,1.0,Policy
+179,Cabinet Office,Cabinet Office,Deputy Prime Minister's Office,25,B1/BAND B1,23793,30093,Diary Manager,1.0,Operational Delivery
+180,Cabinet Office,Cabinet Office,Deputy Prime Minister's Office,25,B2/BAND B2,30117,38484,Diary Manager,1.0,Operational Delivery
+181,Cabinet Office,Cabinet Office,Deputy Prime Minister's Office,259,A/BAND A,44743,60484,Policy Adviser,2.0,Policy
+182,Cabinet Office,Cabinet Office,Deputy Prime Minister's Office,259,B/Faststream,27270,36175,Economist,1.0,Economics
+183,Cabinet Office,Cabinet Office,Deputy Prime Minister's Office,259,B2/BAND B2,30117,38484,Policy Adviser,1.0,Policy
+184,Cabinet Office,Cabinet Office,Deputy Prime Minister's Office,318,A/BAND A,44743,60484,Private Secretary,4.0,Policy
+185,Cabinet Office,Cabinet Office,Deputy Prime Minister's Office,318,B/Faststream,27270,36175,Communications Manager,1.0,Communications
+186,Cabinet Office,Cabinet Office,Deputy Prime Minister's Office,318,B1/BAND B1,23793,30093,Diary Manager,3.0,Operational Delivery
+187,Cabinet Office,Cabinet Office,Deputy Prime Minister's Office,318,B2/BAND B2,30117,38484,Office Manager,1.0,Operational Delivery
+188,Cabinet Office,Cabinet Office,Deputy Prime Minister's Office,318,C/BAND C,19790,24430,Diary Manager,5.0,Operational Delivery
+189,Cabinet Office,Cabinet Office,Constitution Group - Cities Unit,300,A/BAND A,44743,60484,Senior Policy Adviser,9.0,Policy
+190,Cabinet Office,Cabinet Office,Constitution Group - Cities Unit,300,B2/BAND B2,30117,38484,Policy Adviser,3.0,Policy
+191,Cabinet Office,Cabinet Office,Constitution Group - Cities Unit,300,B2/BAND B2,30117,38484,Programme Manager,1.0,Policy
+192,Cabinet Office,Cabinet Office,Economic & Domestic Affairs,54,B2/BAND B2,30117,38484,Executive Assistant,1.0,Policy
+193,Cabinet Office,Cabinet Office,Economic & Domestic Affairs,69,A/BAND A,44743,60484,Senior Policy Adviser,4.0,Policy
+194,Cabinet Office,Cabinet Office,Economic & Domestic Affairs,69,B/Faststream,27270,36175,Policy Adviser,5.0,Policy
+195,Cabinet Office,Cabinet Office,Economic & Domestic Affairs,69,B1/BAND B1,23793,30093,Office Manager,1.0,Policy
+196,Cabinet Office,Cabinet Office,Economic & Domestic Affairs,69,B2/BAND B2,30117,38484,Not In Post,1.0,Policy
+197,Cabinet Office,Cabinet Office,Economic & Domestic Affairs,69,C/BAND C,19790,24430,Diary Manager,2.0,Policy
+198,Cabinet Office,Cabinet Office,Economic & Domestic Affairs,76,A/BAND A,44743,60484,Senior Policy Adviser,3.0,Policy
+199,Cabinet Office,Cabinet Office,Economic & Domestic Affairs,76,B/Faststream,27270,36175,Policy Adviser,3.0,Policy
+200,Cabinet Office,Cabinet Office,Economic & Domestic Affairs,144,A/BAND A,44743,60484,Senior Policy Adviser,2.0,Policy
+201,Cabinet Office,Cabinet Office,Economic & Domestic Affairs,144,B/Faststream,27270,36175,Policy Adviser,4.0,Policy
+202,Cabinet Office,Cabinet Office,Economic & Domestic Affairs,316,A/BAND A,44743,60484,HR Support Officer,0.5,Policy
+203,Cabinet Office,Cabinet Office,Economic & Domestic Affairs,316,A/BAND A,44743,60484,Senior Policy Adviser,2.0,Policy
+204,Cabinet Office,Cabinet Office,Economic & Domestic Affairs,316,B/Faststream,27270,36175,Policy Adviser,2.0,Policy
+205,Cabinet Office,Cabinet Office,Economic & Domestic Affairs,386,A/BAND A,44743,60484,Senior Policy Adviser,2.0,Policy
+206,Cabinet Office,Cabinet Office,Economic & Domestic Affairs,386,B1/BAND B1,23793,30093,Executive Assistant,1.0,Policy
+207,Cabinet Office,Cabinet Office,Economic & Domestic Affairs,386,B2/BAND B2,30117,38484,Policy Adviser,1.0,Policy
+208,Cabinet Office,Cabinet Office,Efficiency & Reform - Central Teams Admin,262,A/BAND A,44743,60484,HR Support Officer,1.0,Human Resources
+209,Cabinet Office,Cabinet Office,Efficiency & Reform - Central Teams Admin,262,A/BAND A,44743,60484,Principal Private Secretary,1.0,Operational Delivery
+210,Cabinet Office,Cabinet Office,Efficiency & Reform - Central Teams Admin,262,B/Faststream,27270,36175,Policy Adviser,1.0,Policy
+211,Cabinet Office,Cabinet Office,Efficiency & Reform - Central Teams Admin,262,B1/BAND B1,23793,30093,Diary Manager,1.0,Operational Delivery
+212,Cabinet Office,Cabinet Office,Efficiency & Reform - Central Teams Admin,262,B1/BAND B1,23793,30093,HR Support Officer,1.0,Human Resources
+213,Cabinet Office,Cabinet Office,Efficiency & Reform - Central Teams Admin,262,B1/BAND B1,23793,30093,Policy Adviser,1.0,Policy
+214,Cabinet Office,Cabinet Office,Efficiency & Reform - Central Teams Admin,262,B2/BAND B2,30117,38484,Private Secretary,1.0,Operational Delivery
+215,Cabinet Office,Cabinet Office,Efficiency & Reform - Central Teams Admin,262,B2/BAND B2,30117,38484,Programme Support Officer,1.0,Programme and Project Management (PPM)
+216,Cabinet Office,Cabinet Office,Efficiency & Reform - Central Teams Admin,262,C/BAND C,19790,24430,Operations Support Officer,2.0,Operational Delivery
+217,Cabinet Office,Cabinet Office,Efficiency & Reform - Central Teams Admin,262,TIS3,36735,47639,HR Support Officer,1.0,Human Resources
+218,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,70,A/BAND A,44743,60484,Operational Manager,2.0,Operational Delivery
+219,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,70,A/BAND A,44743,60484,Programme Manager,2.0,Programme and Project Management (PPM)
+220,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,70,A/BAND A,44743,60484,Programme Support Officer,1.0,Programme and Project Management (PPM)
+221,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,70,B/Faststream,27270,36175,Operational Researcher,1.0,Operational Research
+222,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,70,B/Faststream,27270,36175,Operations Support Officer,1.0,Operational Research
+223,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,70,B2/BAND B2,30117,38484,Operations Support Officer,1.0,Operational Delivery
+224,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,70,B2/BAND B2,30117,38484,Programme Support Officer,2.0,Programme and Project Management (PPM)
+225,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,70,C/BAND C,19790,24430,Diary Manager,1.0,Planning
+226,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,330,B2/BAND B2,30117,38484,Executive Assistant,1.0,Planning
+227,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,377,A/BAND A,44743,60484,Business Manager,4.0,Other
+228,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,377,B2/BAND B2,30117,38484,Business Manager,1.0,Other
+229,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,377,B2/BAND B2,30117,38484,Project Support Officer,0.94,Programme and Project Management (PPM)
+230,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,382,A/BAND A,44743,60484,Analyst,1.0,Economics
+231,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,382,A/BAND A,44743,60484,Business Manager,2.0,Other
+232,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,382,A/BAND A,44743,60484,Communications Manager,1.0,Communications
+233,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,382,A/BAND A,44743,60484,Communications Manager,0.52,Other
+234,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,382,A/BAND A,44743,60484,Policy Adviser,2.83,Policy
+235,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,382,A/BAND A,44743,60484,Programme Manager,1.0,Other
+236,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,382,A/BAND A,44743,60484,Programme Manager,1.0,Programme and Project Management (PPM)
+237,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,382,A/BAND A,44743,60484,Senior Policy Adviser,1.0,Policy
+238,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,382,B1/BAND B1,23793,30093,Diary Manager,1.0,Planning
+239,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,382,B1/BAND B1,23793,30093,Policy Support Officer,2.0,Policy
+240,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,382,B1/BAND B1,23793,30093,Programme Support Officer,1.9,Programme and Project Management (PPM)
+241,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,382,B1/BAND B1,23793,30093,Project Support Officer,1.0,Other
+242,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,382,B2/BAND B2,30117,38484,Analyst,1.0,Economics
+243,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,382,B2/BAND B2,30117,38484,Policy Adviser,1.0,Policy
+244,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,382,B2/BAND B2,30117,38484,Project Support Officer,0.75,Programme and Project Management (PPM)
+245,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,382,B2/BAND B2,30117,38484,Technical Adviser,1.0,Other
+246,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,428,A/BAND A,44743,60484,Business Manager,1.6,Other
+247,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,428,B1/BAND B1,23793,30093,Programme Support Officer,0.8,Programme and Project Management (PPM)
+248,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,428,B2/BAND B2,30117,38484,Policy Adviser,1.0,Policy
+249,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,430,A/BAND A,44743,60484,Analyst,1.0,Other
+250,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,430,A/BAND A,44743,60484,Business Manager,1.0,Other
+251,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,430,A/BAND A,44743,60484,Finance Officer,1.0,Finance
+252,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,430,A/BAND A,44743,60484,Policy Adviser,1.0,Policy
+253,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,430,A/BAND A,44743,60484,Review Team Leader,1.0,Other
+254,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,430,A/BAND A,44743,60484,Senior Policy Adviser,1.0,Policy
+255,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,430,B/Faststream,27270,36175,Finance Officer,1.0,Finance
+256,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,430,B/Faststream,27270,36175,Knowledge Information Management Support Officer,1.0,Knowledge and Information Management (KIM)
+257,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,430,B/Faststream,27270,36175,Review Support Officer,1.0,Other
+258,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,430,B1/BAND B1,23793,30093,Executive Assistant,1.0,Other
+259,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,430,B1/BAND B1,23793,30093,Policy Adviser,1.0,Policy
+260,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,430,B1/BAND B1,23793,30093,Policy Support Officer,1.0,Policy
+261,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,430,B1/BAND B1,23793,30093,Programme Manager,1.0,Programme and Project Management (PPM)
+262,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,430,B2/BAND B2,30117,38484,Policy Adviser,1.0,Policy
+263,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,430,C/BAND C,19790,24430,Diary Manager,1.0,Planning
+264,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,434,A/BAND A,44743,60484,Office Manager,1.0,Other
+265,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,55,A/BAND A,44743,60484,Correspondence Manager,1.0,Procurement
+266,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,55,A/BAND A,44743,60484,Private Secretary,1.0,Procurement
+267,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,55,A/BAND A,44743,60484,Senior Analyst,3.0,Procurement
+268,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,55,A/BAND A,44743,60484,Senior Policy Adviser,1.0,Procurement
+269,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,55,B/Faststream,27270,36175,Analyst,2.0,Procurement
+270,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,55,B1/BAND B1,23793,30093,Analyst,7.0,Procurement
+271,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,55,B1/BAND B1,23793,30093,Diary Manager,0.93,Procurement
+272,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,55,B2/BAND B2,30117,38484,Analyst,3.0,Procurement
+273,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,55,B2/BAND B2,30117,38484,Business Manager,0.72,Procurement
+274,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,55,C/BAND C,19790,24430,Analyst,1.0,Procurement
+275,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,103,A/BAND A,44743,60484,Senior Policy Adviser,12.8,Procurement
+276,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,103,B1/BAND B1,23793,30093,Policy Support Officer,1.83,Procurement
+277,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,103,B2/BAND B2,30117,38484,Policy Adviser,7.78,Procurement
+278,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,103,TIS2,31150,39799,Policy Adviser,1.0,Procurement
+279,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,135,A/BAND A,44743,60484,Senior Policy Adviser,4.0,Procurement
+280,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,135,B1/BAND B1,23793,30093,Policy Adviser,1.0,Procurement
+281,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,274,A/BAND A,44743,60484,Business Manager,1.0,Procurement
+282,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,274,A/BAND A,44743,60484,Office Manager,1.0,Procurement
+283,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,274,B1/BAND B1,23793,30093,Executive Assistant,1.0,Procurement
+284,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,274,B2/BAND B2,30117,38484,Private Secretary,1.0,Procurement
+285,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,274,C/BAND C,19790,24430,Diary Manager,1.0,Procurement
+286,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,352,A/BAND A,44743,60484,Senior Policy Adviser,1.0,Procurement
+287,Cabinet Office,Cabinet Office,Efficiency & Reform - Efficiency Cluster,369,A/BAND A,44743,60484,Senior Policy Adviser,1.0,Procurement
+288,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,434,A/BAND A,44743,60484,Programme Manager,1.0,Procurement
+289,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,434,A/BAND A,44743,60484,Programme Officer Manager,1.0,Procurement
+290,Cabinet Office,Cabinet Office,Efficiency & Reform - Corporate Cluster,434,C/BAND C,19790,24430,Executive Assistant,1.0,Procurement
+291,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,22,A/BAND A,44743,60484,TECHNICAL STRATEGY AND DELIVERY,1.0,Other
+292,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,22,B2/BAND B2,30117,38484,PROPOSITION SUPPORT,1.0,Other
+293,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,Business Manager,1.0,Other
+294,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,CREATIVE DELIVERY MANAGER,1.0,Other
+295,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,CREATIVE LEAD,1.0,Other
+296,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,DELIVERY MANAGER,6.0,Other
+297,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,DEVELOPER,21.8,Other
+298,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,ENTERPRISE APPS MANAGER,1.0,Other
+299,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,HEAD OF BUSINESS MANAGEMENT,1.0,Other
+300,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,HEAD OF DIGITAL OPERATIONS,1.0,Other
+301,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,HEAD OF GDS ENTERPRISE,1.0,Other
+302,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,HEAD OF OPERATIONS,1.0,Other
+303,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,HEAD OF PLANNING AND PERFORMANCE,1.0,Other
+304,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,HEAD OF SUPPLIER MANAGEMENT,1.0,Other
+305,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,INTERACTION DESIGN,2.0,Other
+306,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,IT SECURITY,1.0,Other
+307,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,LEAD CONTENT DESIGN,1.0,Other
+308,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,LEAD CONTENT DESIGNER,1.0,Other
+309,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,Principle Cyber Security Advisor,1.0,Other
+310,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,SENIOR CUSTOMER INSIGHT MANAGER,0.78,Other
+311,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,TECHNICAL ARCHITECT,6.0,Other
+312,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,VISUAL DESIGNER,1.0,Other
+313,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,A/BAND A,44743,60484,WEB OPS,5.0,Other
+314,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,B1/BAND B1,23793,30093,Office Manager,1.0,Other
+315,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,B1/BAND B1,23793,30093,Procurement Support Officer ,0.81,Other
+316,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,B1/BAND B1,23793,30093,RESOURCE SUPPORT,2.0,Other
+317,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,B1/BAND B1,23793,30093,SERVICE DESK ANALYST,2.0,Other
+318,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,B1/BAND B1,23793,30093,SERVICE DESK SUPPORT,1.0,Other
+319,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,B1/BAND B1,23793,30093,USER SUPPORT SPECIALIST,3.0,Other
+320,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,B2/BAND B2,30117,38484,CONTRACTS MANAGER,1.0,Other
+321,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,B2/BAND B2,30117,38484,GDS IT NETWORK MANAGER,1.0,Other
+322,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,B2/BAND B2,30117,38484,GDS PLANNING AND PERFORMANCE,1.0,Other
+323,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,B2/BAND B2,30117,38484,GOVERNMENT DOMAIN MANAGER,1.0,Other
+324,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,B2/BAND B2,30117,38484,JUNIOR VISUAL DESIGNER,2.0,Other
+325,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,B2/BAND B2,30117,38484,NETWORK SUPPORT,1.0,Other
+326,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,B2/BAND B2,30117,38484,PARLIAMENTARY LIASION MANAGER,1.0,Other
+327,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,B2/BAND B2,30117,38484,Project Manager,1.0,Other
+328,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,B2/BAND B2,30117,38484,RESOURCE SUPPORT,1.0,Other
+329,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,B2/BAND B2,30117,38484,SERVICE DESK MANAGER,1.0,Other
+330,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,B2/BAND B2,30117,38484,USER SUPPORT LEAD,2.0,Other
+331,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,C/BAND C,19790,24430,USER SUPPORT OFFICER,1.0,Other
+332,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,TIS2,31150,39799,CONTENT DESIGNER,3.67,Other
+333,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,TIS2,31150,39799,USER SUPPORT LEAD,1.0,Other
+334,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,TIS3,36735,47639,CONTENT DESIGNER,3.0,Other
+335,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,TIS3,36735,47639,DEVELOPER,1.0,Other
+336,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,240,TIS3,36735,47639,SENIOR EDITOR,1.0,Other
+337,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,243,A/BAND A,44743,60484,DEVELOPER,3.0,Other
+338,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,243,A/BAND A,44743,60484,PRODUCT MANAGER,2.0,Other
+339,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,243,A/BAND A,44743,60484,Programme Manager,1.0,Other
+340,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,243,A/BAND A,44743,60484,QUALITY ASSURANCE,3.82,Other
+341,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,243,A/BAND A,44743,60484,SERVICE SUPPORT,1.0,Other
+342,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,243,A/BAND A,44743,60484,WEB OPS,1.0,Other
+343,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,276,A/BAND A,44743,60484,BUSINESS CHANGE LEAD,1.0,Other
+344,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,276,A/BAND A,44743,60484,PARTNERSHIP MANAGER,1.0,Other
+345,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,276,A/BAND A,44743,60484,PRODUCT MANAGER,3.0,Other
+346,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,276,A/BAND A,44743,60484,PRODUCT WORKSTREAM LEAD,1.0,Other
+347,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,276,B2/BAND B2,30117,38484,INNOVATION AND PARTNERSHIP EXECUTIVE,1.0,Other
+348,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,276,B2/BAND B2,30117,38484,WORKSTREAM LEAD,1.0,Other
+349,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,281,A/BAND A,44743,60484,ASSOCIATE PRODUCT MANAGER,1.0,Other
+350,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,281,A/BAND A,44743,60484,COMMUNITY SUPPORT MANAGER,1.0,Other
+351,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,281,A/BAND A,44743,60484,DIGITAL COMMUNICATIONS LEAD,1.0,Other
+352,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,281,A/BAND A,44743,60484,DIGITAL ENGAGEMENT LEAD,2.0,Other
+353,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,281,A/BAND A,44743,60484,GOV.UK PRODUCT MANAGER,1.0,Other
+354,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,281,A/BAND A,44743,60484,HEAD OF COMMUNICATIONS,1.0,Other
+355,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,281,A/BAND A,44743,60484,HEAD OF CREATIVE DESIGN,1.0,Other
+356,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,281,A/BAND A,44743,60484,MULTIMEDIA EDITOR,1.0,Other
+357,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,281,A/BAND A,44743,60484,Private Secretary,1.0,Other
+358,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,281,A/BAND A,44743,60484,PRODUCT MANAGER,1.0,Other
+359,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,281,B/Faststream,27270,36175,ASSOCIATE PRODUCT MANAGER,1.0,Other
+360,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,281,B1/BAND B1,23793,30093,Diary Manager,1.0,Other
+361,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,281,B2/BAND B2,30117,38484,DIGITAL ENGAGEMENT ADVISOR,1.0,Other
+362,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,281,B2/BAND B2,30117,38484,DIGITAL ENGAGEMENT OFFICER,1.0,Other
+363,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,281,B2/BAND B2,30117,38484,Executive Assistant,1.0,Other
+364,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,282,A/BAND A,44743,60484,DELIVERY MANAGER,1.0,Other
+365,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,282,A/BAND A,44743,60484,HEAD OF TRANSFORMATION,1.0,Other
+366,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,282,A/BAND A,44743,60484,Programme Manager,1.0,Other
+367,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,282,A/BAND A,44743,60484,PROPOSITION MANAGER,8.0,Other
+368,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,282,A/BAND A,44743,60484,TECHNICAL ARCHITECT,2.0,Other
+369,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,282,B1/BAND B1,23793,30093,Diary Manager,1.0,Other
+370,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,282,B2/BAND B2,30117,38484,BUSINESS ANALYST,2.0,Other
+371,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,282,B2/BAND B2,30117,38484,Programme Support Officer,1.0,Other
+372,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,282,C/BAND C,19790,24430,Project Support Officer,1.0,Other
+373,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,311,A/BAND A,44743,60484,ASSOCIATE PRODUCT MANAGER,1.0,Other
+374,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,311,A/BAND A,44743,60484,DIGITAL STRATEGY CO-ORDINATOR,1.0,Other
+375,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,311,A/BAND A,44743,60484,PRODUCT MANAGER,1.0,Other
+376,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,311,A/BAND A,44743,60484,PROPOSITION MANAGER,2.0,Other
+377,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,311,A/BAND A,44743,60484,SECRETARIAT TO DIGITAL LEADERS AND ADVISORY BOARD,1.0,Other
+378,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,311,A/BAND A,44743,60484,SENIOR DIGITAL POLICY ADVISOR,1.0,Other
+379,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,311,A/BAND A,44743,60484,VISUAL DESIGNER,1.0,Other
+380,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,311,B1/BAND B1,23793,30093,DIGITAL POLICY ADVISOR,1.0,Other
+381,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,311,B1/BAND B1,23793,30093,DIGITAL POLICY AND DEPARTMENTAL ENGAGEMENT,1.0,Other
+382,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,311,B2/BAND B2,30117,38484,ASSISTED DIGITAL TRANSFORMATION ANALYST,1.0,Other
+383,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,311,B2/BAND B2,30117,38484,DIGITAL LEADERS PROGRAMME MANAGER,0.67,Other
+384,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,311,B2/BAND B2,30117,38484,DIGITAL STRATEGY AND ENGAGEMENT OFFICER,1.0,Other
+385,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,311,B2/BAND B2,30117,38484,PRODUCT MANAGER,1.0,Other
+386,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,311,B2/BAND B2,30117,38484,SENIOR DIGITAL POLICY ADVISOR,1.0,Other
+387,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,311,TIS3,36735,47639,DIGITAL POLICY ADVISOR,1.0,Other
+388,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,313,A/BAND A,44743,60484,BUSINESS ANALYST,2.0,Other
+389,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,313,A/BAND A,44743,60484,IDAP COMMUNICATIONS,1.0,Other
+390,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,313,A/BAND A,44743,60484,LEAD TECHNICAL ARCHITECT,1.0,Other
+391,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,313,A/BAND A,44743,60484,LOCAL GOVERNMENT LEAD,1.0,Other
+392,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,313,A/BAND A,44743,60484,MARKET ENGAGEMENT LEAD,1.0,Other
+393,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,313,A/BAND A,44743,60484,POLICY ANALYST,1.0,Other
+394,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,313,A/BAND A,44743,60484,Programme Manager,1.0,Other
+395,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,313,A/BAND A,44743,60484,SECURITY ARCHITECT,1.0,Other
+396,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,313,A/BAND A,44743,60484,STANDARDS LEAD,1.0,Other
+397,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,313,A/BAND A,44743,60484,TECHNICAL ARCHITECT,1.0,Other
+398,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,313,B/Faststream,27270,36175,IDAP EU AFFAIRS LEAD,1.0,Other
+399,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,313,B2/BAND B2,30117,38484,IDAP SECRETARIAT,2.0,Other
+400,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,322,A/BAND A,44743,60484,DEVELOPER,1.0,Other
+401,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,322,A/BAND A,44743,60484,DIGITAL PERFORMANCE ANALYST,1.0,Other
+402,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,322,A/BAND A,44743,60484,DIGITAL PERFORMANCE MANAGER,2.0,Other
+403,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,322,A/BAND A,44743,60484,PRODUCT ANALYTICS LEAD,1.0,Other
+404,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,322,A/BAND A,44743,60484,USER EXPERIENCE RESEARCHER,1.0,Other
+405,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,322,B2/BAND B2,30117,38484,DIGITAL PERFORMANCE ANALYST,2.0,Other
+406,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,322,B2/BAND B2,30117,38484,JUNIOR VISUAL DESIGNER,1.0,Other
+407,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,322,TIS2,31150,39799,PRODUCT ANALYTICS,1.0,Other
+408,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,322,TIS3,36735,47639,DATA ANALYST,1.0,Other
+409,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,322,TIS3,36735,47639,PRODUCT ANALYTICS,3.0,Other
+410,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,322,TIS3,36735,47639,SENIOR CUSTOMER INSIGHT MANAGER,1.6,Other
+411,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,387,A/BAND A,44743,60484,Senior Technical Adviser,3.0,Other
+412,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,388,A/BAND A,44743,60484,Private Secretary,1.0,Other
+413,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,388,A/BAND A,44743,60484,Senior Technical Adviser,6.0,Other
+414,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Digital Service,388,B1/BAND B1,23793,30093,Diary Manager,1.0,Other
+415,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,291,A/BAND A,44743,60484,Property Advisor London,3.0,Property and Asset Management
+416,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,294,A/BAND A,44743,60484,Analyst,1.0,Knowledge and Information Management (KIM)
+417,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,294,A/BAND A,44743,60484,Senior Finance  Manager,1.0,Finance
+418,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,294,A/BAND A,44743,60484,Senior IT Manager,1.0,Knowledge and Information Management (KIM)
+419,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,294,B2/BAND B2,30117,38484,Analyst,2.0,Knowledge and Information Management (KIM)
+420,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,294,B2/BAND B2,30117,38484,Analyst,1.0,Policy
+421,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,294,B2/BAND B2,30117,38484,IT Support Officer,3.6,Knowledge and Information Management (KIM)
+422,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,294,B2/BAND B2,30117,38484,Programme Manager,1.0,Knowledge and Information Management (KIM)
+423,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,294,B2/BAND B2,30117,38484,Project Manager,1.0,Knowledge and Information Management (KIM)
+424,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,A/BAND A,44743,60484,Deputy Lead Midlands,1.0,Property and Asset Management
+425,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,A/BAND A,44743,60484,Deputy Lead NEYH,1.0,Property and Asset Management
+426,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,A/BAND A,44743,60484,Deputy Lead SE,1.0,Property and Asset Management
+427,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,A/BAND A,44743,60484,Deputy Lead SW,1.0,Property and Asset Management
+428,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,A/BAND A,44743,60484,Deputy Programme Manager,0.42,Policy
+429,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,A/BAND A,44743,60484,Head of Strategy,1.0,Policy
+430,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,A/BAND A,44743,60484,One Public Estate Manager,1.0,Property and Asset Management
+431,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,A/BAND A,44743,60484,Property Advisor Midlands,1.0,Property and Asset Management
+432,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,A/BAND A,44743,60484,Property Advisor North West,1.0,Property and Asset Management
+433,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,A/BAND A,44743,60484,Property Advisor SW,1.0,Property and Asset Management
+434,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,A/BAND A,44743,60484,Regional Coordinator NEYH,1.0,Property and Asset Management
+435,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,A/BAND A,44743,60484,Regional Lead Midland,1.0,Property and Asset Management
+436,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,A/BAND A,44743,60484,Regional Lead NEYH,1.0,Property and Asset Management
+437,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,A/BAND A,44743,60484,Regional Lead NW,1.0,Property and Asset Management
+438,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,A/BAND A,44743,60484,Regional Lead SE,1.0,Property and Asset Management
+439,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,A/BAND A,44743,60484,Senior Policy Advisor,0.6,Policy
+440,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,B1/BAND B1,23793,30093,Admin Support,0.81,Policy
+441,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,B1/BAND B1,23793,30093,Policy Officer,1.0,Policy
+442,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,B2/BAND B2,30117,38484,Asst Programme Manager,1.0,Policy
+443,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,296,B2/BAND B2,30117,38484,Policy and Strategy Advisor,1.0,Policy
+444,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,323,A/BAND A,44743,60484,Strategic Land and Property Review - Programme Manager,4.0,Policy
+445,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,323,B/Faststream,27270,36175,Strategic Land and Property Review - Programme Support,1.0,Policy
+446,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,323,B2/BAND B2,30117,38484,Strategic Land and Property Review - Programme Support,1.0,Policy
+447,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,324,B1/BAND B1,23793,30093,Personal Assistant ,1.0,Policy
+448,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,367,A/BAND A,44743,60484,Head of Workplace Transformation Manager,1.0,Property and Asset Management
+449,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,367,A/BAND A,44743,60484,Property Asset Management,1.0,Property and Asset Management
+450,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,367,A/BAND A,44743,60484,Workplace Transformation Manager,2.0,Property and Asset Management
+451,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,367,B1/BAND B1,23793,30093,Workplace Transformation Officer,1.0,Property and Asset Management
+452,Cabinet Office,Cabinet Office,Efficiency & Reform - Government Property Unit,367,B2/BAND B2,30117,38484,Workplace Transformation Officer,3.0,Property and Asset Management
+453,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,66,A/BAND A,44743,60484,Project Manager,3.0,Programme and Project Management (PPM)
+454,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,132,A/BAND A,44743,60484,Communications Manager,1.0,Communications
+455,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,132,A/BAND A,44743,60484,Operational Manager,1.0,Programme and Project Management (PPM)
+456,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,132,A/BAND A,44743,60484,Policy Adviser,3.94,Procurement
+457,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,132,A/BAND A,44743,60484,Policy Adviser,1.0,Programme and Project Management (PPM)
+458,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,132,A/BAND A,44743,60484,Senior Policy Adviser,1.0,Procurement
+459,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,132,B1/BAND B1,23793,30093,Diary Manager,1.0,Programme and Project Management (PPM)
+460,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,132,B1/BAND B1,23793,30093,Finance Support Officer,1.0,Programme and Project Management (PPM)
+461,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,132,B1/BAND B1,23793,30093,Policy Adviser,1.0,Programme and Project Management (PPM)
+462,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,132,B1/BAND B1,23793,30093,Policy Support Officer,1.0,Procurement
+463,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,132,B2/BAND B2,30117,38484,Analyst,1.0,Programme and Project Management (PPM)
+464,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,132,B2/BAND B2,30117,38484,Operations Support Officer,2.6,Programme and Project Management (PPM)
+465,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,132,B2/BAND B2,30117,38484,Policy Adviser,2.0,Programme and Project Management (PPM)
+466,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,132,C/BAND C,19790,24430,Diary Manager,1.0,Programme and Project Management (PPM)
+467,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,132,C/BAND C,19790,24430,Operations Support Officer,0.67,Programme and Project Management (PPM)
+468,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,424,A/BAND A,44743,60484,Operational Manager,3.0,Programme and Project Management (PPM)
+469,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,424,A/BAND A,44743,60484,Project Manager,1.0,Programme and Project Management (PPM)
+470,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,424,B/Faststream,27270,36175,Operations Support Officer,1.0,Programme and Project Management (PPM)
+471,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,424,B2/BAND B2,30117,38484,Operations Support Officer,3.0,Programme and Project Management (PPM)
+472,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,424,C/BAND C,19790,24430,Operations Support Officer,2.0,Programme and Project Management (PPM)
+473,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,424,TIS2,31150,39799,Operations Support Officer,0.63,Programme and Project Management (PPM)
+474,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,438,A/BAND A,44743,60484,Project Manager,2.0,Programme and Project Management (PPM)
+475,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,438,B1/BAND B1,23793,30093,Operations Support Officer,1.0,Programme and Project Management (PPM)
+476,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,439,A/BAND A,44743,60484,Project Manager,3.0,Programme and Project Management (PPM)
+477,Cabinet Office,Cabinet Office,Efficiency & Reform - Major Projects,440,A/BAND A,44743,60484,Project Manager,4.0,Programme and Project Management (PPM)
+478,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,128,A/BAND A,44743,60484, Senior Commercial Advisor,4.0,Policy
+479,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,128,A/BAND A,44743,60484,Commercial Portfolio Lead,1.0,Policy
+480,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,128,A/BAND A,44743,60484,Policy Adviser,3.0,Policy
+481,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,128,A/BAND A,44743,60484,Senior Commercial Advisor,1.0,Policy
+482,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,128,A/BAND A,44743,60484,Senior Policy Adviser,2.0,Policy
+483,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,128,B/Faststream,27270,36175,Policy Adviser,1.0,Policy
+484,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,128,B1/BAND B1,23793,30093,Office Manager,1.0,Policy
+485,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,128,B1/BAND B1,23793,30093,Policy Adviser,3.0,Policy
+486,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,128,B1/BAND B1,23793,30093,Private Secretary,1.0,Policy
+487,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,128,B2/BAND B2,30117,38484,Commercial Advisor,1.0,Policy
+488,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,128,B2/BAND B2,30117,38484,Policy Adviser,4.0,Policy
+489,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,128,C/BAND C,19790,24430,Office Manager,1.0,Policy
+490,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,133,A/BAND A,44743,60484,Policy Adviser,1.83,Policy
+491,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,133,A/BAND A,44743,60484,Senior Policy Adviser,3.0,Policy
+492,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,133,B/Faststream,27270,36175,Policy Adviser,1.0,Policy
+493,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,133,B1/BAND B1,23793,30093,Policy Adviser,1.0,Policy
+494,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,133,B1/BAND B1,23793,30093,Programme Support Officer,1.0,Policy
+495,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,133,B2/BAND B2,30117,38484,Policy Adviser,4.0,Policy
+496,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,133,B2/BAND B2,30117,38484,Programme Manager,1.0,Policy
+497,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,350,B2/BAND B2,30117,38484,Private Secretary,1.0,Policy
+498,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,373,A/BAND A,44743,60484,Communications Manager,0.78,Policy
+499,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,373,A/BAND A,44743,60484,Programme Manager,1.0,Policy
+500,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,373,A/BAND A,44743,60484,Project Manager,1.0,Policy
+501,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,373,B1/BAND B1,23793,30093,Communications Support Officer,1.0,Policy
+502,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,373,B2/BAND B2,30117,38484,Programme Officer Manager,4.0,Policy
+503,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,385,A/BAND A,44743,60484,Business Manager,1.0,Policy
+504,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,385,A/BAND A,44743,60484,Payroll Transistion Manager,1.0,Policy
+505,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,385,A/BAND A,44743,60484,Project Manager,1.0,Policy
+506,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,396,A/BAND A,44743,60484,Operational Manager,1.0,Policy
+507,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,396,A/BAND A,44743,60484,Programme Manager,1.0,Policy
+508,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,396,B2/BAND B2,30117,38484,Programme Officer Manager,2.0,Policy
+509,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,397,A/BAND A,44743,60484,Operational Manager,1.0,Policy
+510,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,397,A/BAND A,44743,60484,Senior Analyst,1.0,Policy
+511,Cabinet Office,Cabinet Office,Efficiency & Reform- Transformation ,397,B2/BAND B2,30117,38484,Analyst,1.0,Policy
+512,Cabinet Office,Cabinet Office,European & Global Issues,51,B1/BAND B1,23793,30093,Executive Assistant,1.0,Policy
+513,Cabinet Office,Cabinet Office,European & Global Issues,91,A/BAND A,44743,60484,Senior Policy Adviser,4.0,Policy
+514,Cabinet Office,Cabinet Office,European & Global Issues,91,B2/BAND B2,30117,38484,Policy Adviser,2.8,Policy
+515,Cabinet Office,Cabinet Office,European & Global Issues,91,C/BAND C,19790,24430,Policy Support Officer,3.0,Policy
+516,Cabinet Office,Cabinet Office,European & Global Issues,121,A/BAND A,44743,60484,Senior Policy Adviser,3.0,Policy
+517,Cabinet Office,Cabinet Office,European & Global Issues,121,B/Faststream,27270,36175,Policy Adviser,1.0,Policy
+518,Cabinet Office,Cabinet Office,European & Global Issues,121,B1/BAND B1,23793,30093,Diary Manager,1.0,Policy
+519,Cabinet Office,Cabinet Office,European & Global Issues,121,B2/BAND B2,30117,38484,Policy Adviser,2.0,Policy
+520,Cabinet Office,Cabinet Office,European & Global Issues,121,C/BAND C,19790,24430,Executive Assistant,1.0,Policy
+521,Cabinet Office,Cabinet Office,European & Global Issues,341,A/BAND A,44743,60484,Policy Adviser,1.0,Policy
+522,Cabinet Office,Cabinet Office,European & Global Issues,341,A/BAND A,44743,60484,Senior Policy Adviser,4.75,Policy
+523,Cabinet Office,Cabinet Office,European & Global Issues,341,B/Faststream,27270,36175,Policy Adviser,1.0,Policy
+524,Cabinet Office,Cabinet Office,European & Global Issues,341,B1/BAND B1,23793,30093,Executive Assistant,1.0,Policy
+525,Cabinet Office,Cabinet Office,European & Global Issues,341,B1/BAND B1,23793,30093,Policy Adviser,3.0,Policy
+526,Cabinet Office,Cabinet Office,European & Global Issues,341,B2/BAND B2,30117,38484,Policy Adviser,3.0,Policy
+527,Cabinet Office,Cabinet Office,European & Global Issues,341,B2/BAND B2,30117,38484,Senior Policy Adviser,1.0,Policy
+528,Cabinet Office,Cabinet Office,European & Global Issues,341,C/BAND C,19790,24430,Policy Support Officer,1.0,Policy
+529,Cabinet Office,Cabinet Office,European & Global Issues,346,A/BAND A,44743,60484,Senior Policy Adviser,2.0,Policy
+530,Cabinet Office,Cabinet Office,European & Global Issues,374,A/BAND A,44743,60484,Senior Policy Adviser,2.0,Policy
+531,Cabinet Office,Cabinet Office,European & Global Issues,374,B1/BAND B1,23793,30093,Policy Support Officer,1.0,Policy
+532,Cabinet Office,Cabinet Office,European & Global Issues,374,B2/BAND B2,30117,38484,Policy Adviser,2.0,Policy
+533,Cabinet Office,Cabinet Office,European & Global Issues,374,C/BAND C,19790,24430,Executive Assistant,1.0,Policy
+534,Cabinet Office,Cabinet Office,European & Global Issues,413,C/BAND C,19790,24430,Executive Assistant,0.7,Policy
+535,Cabinet Office,Cabinet Office,Government Communications,38,A/BAND A,44743,60484,Head of Internal Communcations,1.0,Communications
+536,Cabinet Office,Cabinet Office,Government Communications,38,A/BAND A,44743,60484,Senior Web Manager,1.0,Communications
+537,Cabinet Office,Cabinet Office,Government Communications,38,B2/BAND B2,30117,38484,Intranet Content Manager,1.0,Communications
+538,Cabinet Office,Cabinet Office,Government Communications,38,B2/BAND B2,30117,38484,Office Manager,1.0,Communications
+539,Cabinet Office,Cabinet Office,Government Communications,38,B2/BAND B2,30117,38484,Web manager,1.0,Communications
+540,Cabinet Office,Cabinet Office,Government Communications,38,C/BAND C,19790,24430,Diary Manager,1.0,Communications
+541,Cabinet Office,Cabinet Office,Government Communications,38,TIS2,31150,39799,Intranet Content Manager,1.0,Communications
+542,Cabinet Office,Cabinet Office,Government Communications,38,TIS2,31150,39799,Project Manager,1.0,Communications
+543,Cabinet Office,Cabinet Office,Government Communications,38,TIS2,31150,39799,Technical Support Officer,1.0,Communications
+544,Cabinet Office,Cabinet Office,Government Communications,38,TIS3,36735,47639,Internal Communications Manager,1.0,Communications
+545,Cabinet Office,Cabinet Office,Government Communications,38,TIS3,36735,47639,Senior Internal Communications Manager,0.83,Communications
+546,Cabinet Office,Cabinet Office,Government Communications,38,TIS3,36735,47639,Senior Web Manager,1.0,Communications
+547,Cabinet Office,Cabinet Office,Government Communications,38,TIS3,36735,47639,Web manager,3.8,Communications
+548,Cabinet Office,Cabinet Office,Government Communications,79,A/BAND A,44743,60484,Chief Press officer,1.0,Communications
+549,Cabinet Office,Cabinet Office,Government Communications,79,A/BAND A,44743,60484,Senior Communications Manager,1.71,Communications
+550,Cabinet Office,Cabinet Office,Government Communications,79,B1/BAND B1,23793,30093,Communications Support Officer,0.9,Communications
+551,Cabinet Office,Cabinet Office,Government Communications,79,TIS3,36735,47639,Senior Press Officer,1.0,Communications
+552,Cabinet Office,Cabinet Office,Government Communications,154,A/BAND A,44743,60484,Chief Press officer,5.0,Communications
+553,Cabinet Office,Cabinet Office,Government Communications,154,A/BAND A,44743,60484,Government News Planner,1.0,Communications
+554,Cabinet Office,Cabinet Office,Government Communications,154,B1/BAND B1,23793,30093,Executive Assistant,2.0,Communications
+555,Cabinet Office,Cabinet Office,Government Communications,154,B2/BAND B2,30117,38484,Communications Support Officer,2.0,Communications
+556,Cabinet Office,Cabinet Office,Government Communications,154,TIS2,31150,39799,Press Officer,2.0,Communications
+557,Cabinet Office,Cabinet Office,Government Communications,154,TIS3,36735,47639,Senior Press Officer,6.0,Communications
+558,Cabinet Office,Cabinet Office,Government Communications,229,A/BAND A,44743,60484,Communications Manager,1.0,Communications
+559,Cabinet Office,Cabinet Office,Government Communications,229,A/BAND A,44743,60484,Senior Communications Manager,2.63,Communications
+560,Cabinet Office,Cabinet Office,Government Communications,229,A/BAND A,44743,60484,Senior Project Manager,1.0,Communications
+561,Cabinet Office,Cabinet Office,Government Communications,229,B2/BAND B2,30117,38484,Communications Manager,0.6,Communications
+562,Cabinet Office,Cabinet Office,Government Communications,229,TIS3,36735,47639,Project Manager,1.57,Communications
+563,Cabinet Office,Cabinet Office,Government Communications,229,TIS3,36735,47639,Senior Press Officer,1.0,Communications
+564,Cabinet Office,Cabinet Office,Government Communications,246,A/BAND A,44743,60484,Senior Communications Manager,2.0,Communications
+565,Cabinet Office,Cabinet Office,Government Communications,246,A/BAND A,44743,60484,Senior Press Officer,2.0,Communications
+566,Cabinet Office,Cabinet Office,Government Communications,246,TIS3,36735,47639,Press Officer,4.0,Communications
+567,Cabinet Office,Cabinet Office,Government Communications,302,A/BAND A,44743,60484,Senior Communications Manager,4.93,Communications
+568,Cabinet Office,Cabinet Office,Government Communications,302,A/BAND A,44743,60484,Senior Press Officer,1.0,Communications
+569,Cabinet Office,Cabinet Office,Government Communications,302,B2/BAND B2,30117,38484,Press Officer,1.0,Communications
+570,Cabinet Office,Cabinet Office,Government Communications,302,TIS2,31150,39799,Press Officer,2.0,Communications
+571,Cabinet Office,Cabinet Office,Government Communications,302,TIS3,36735,47639,Communications Manager,3.4,Communications
+572,Cabinet Office,Cabinet Office,Government Communications,302,TIS3,36735,47639,Press Officer,3.8,Communications
+573,Cabinet Office,Cabinet Office,Government Communications,325,A/BAND A,44743,60484,Senior Project Manager,2.0,Communications
+574,Cabinet Office,Cabinet Office,Government Communications,325,B2/BAND B2,30117,38484,Project Manager,1.0,Communications
+575,Cabinet Office,Cabinet Office,Government Communications,326,A/BAND A,44743,60484,Knowledge Information Management Manager,0.55,Communications
+576,Cabinet Office,Cabinet Office,Government Communications,326,A/BAND A,44743,60484,Senior Communications Manager,1.0,Communications
+577,Cabinet Office,Cabinet Office,Government Communications,326,A/BAND A,44743,60484,Senior Project Manager,1.0,Communications
+578,Cabinet Office,Cabinet Office,Government Communications,326,C/BAND C,19790,24430,Executive Assistant,1.0,Communications
+579,Cabinet Office,Cabinet Office,Government Communications,326,TIS3,36735,47639,Knowledge Information Management Manager,1.68,Communications
+580,Cabinet Office,Cabinet Office,Government Communications,328,A/BAND A,44743,60484,Senior Analyst,6.0,Communications
+581,Cabinet Office,Cabinet Office,Government Communications,328,A/BAND A,44743,60484,Senior Press Officer,1.0,Communications
+582,Cabinet Office,Cabinet Office,Government Communications,328,B1/BAND B1,23793,30093,Executive Assistant,1.0,Communications
+583,Cabinet Office,Cabinet Office,Government Communications,328,B1/BAND B1,23793,30093,Press Officer,1.0,Communications
+584,Cabinet Office,Cabinet Office,Government Communications,328,B2/BAND B2,30117,38484,Analyst,5.72,Communications
+585,Cabinet Office,Cabinet Office,Government Communications,328,TIS1,24064,30441,Analyst,5.0,Communications
+586,Cabinet Office,Cabinet Office,Government Communications,328,TIS1,24064,30441,Technical Support Officer,1.0,Communications
+587,Cabinet Office,Cabinet Office,Government Communications,328,TIS2,31150,39799,Analyst,2.83,Communications
+588,Cabinet Office,Cabinet Office,Government Communications,328,TIS2,31150,39799,Press Officer,8.8,Communications
+589,Cabinet Office,Cabinet Office,Government Communications,328,TIS3,36735,47639,Analyst,4.0,Communications
+590,Cabinet Office,Cabinet Office,Government Communications,328,TIS3,36735,47639,Press Officer,5.83,Communications
+591,Cabinet Office,Cabinet Office,Government in Parliament,100,A/BAND A,44743,60484,Assistant Parliamentary Counsel,1.98,Law
+592,Cabinet Office,Cabinet Office,Government in Parliament,100,A/BAND A,44743,60484,IT Manager,1.0,Operational Delivery
+593,Cabinet Office,Cabinet Office,Government in Parliament,100,A/BAND A,44743,60484,Private Secretary,1.0,Operational Delivery
+594,Cabinet Office,Cabinet Office,Government in Parliament,100,A/BAND A,44743,60484,Programme Officer Manager,1.0,Operational Delivery
+595,Cabinet Office,Cabinet Office,Government in Parliament,100,B1/BAND B1,23793,30093,Assistant Private Secretary,1.0,Operational Delivery
+596,Cabinet Office,Cabinet Office,Government in Parliament,100,B1/BAND B1,23793,30093,Legal Support Officer,1.0,Operational Delivery
+597,Cabinet Office,Cabinet Office,Government in Parliament,100,B1/BAND B1,23793,30093,Office Manager,1.0,Operational Delivery
+598,Cabinet Office,Cabinet Office,Government in Parliament,100,B1/BAND B1,23793,30093,Web manager,1.0,Operational Delivery
+599,Cabinet Office,Cabinet Office,Government in Parliament,100,B2/BAND B2,30117,38484,Operational Manager,2.0,Operational Delivery
+600,Cabinet Office,Cabinet Office,Government in Parliament,100,C/BAND C,19790,24430,Operations Support Officer,3.0,Operational Delivery
+601,Cabinet Office,Cabinet Office,Government in Parliament,141,A/BAND A,44743,60484,Private Secretary,2.0,Operational Delivery
+602,Cabinet Office,Cabinet Office,Government in Parliament,141,B1/BAND B1,23793,30093,Assistant Private Secretary,2.0,Operational Delivery
+603,Cabinet Office,Cabinet Office,Government in Parliament,141,B1/BAND B1,23793,30093,Diary Manager,2.0,Operational Delivery
+604,Cabinet Office,Cabinet Office,Government in Parliament,141,B1/BAND B1,23793,30093,Operational Manager,5.0,Operational Delivery
+605,Cabinet Office,Cabinet Office,Government in Parliament,141,B2/BAND B2,30117,38484,Business Manager,0.96,Operational Delivery
+606,Cabinet Office,Cabinet Office,Government in Parliament,141,B2/BAND B2,30117,38484,Operational Manager,1.0,Operational Delivery
+607,Cabinet Office,Cabinet Office,Government in Parliament,141,B2/BAND B2,30117,38484,Private Secretary,2.0,Operational Delivery
+608,Cabinet Office,Cabinet Office,Government in Parliament,141,C/BAND C,19790,24430,Correspondence Manager,1.0,Operational Delivery
+609,Cabinet Office,Cabinet Office,Government in Parliament,141,C/BAND C,19790,24430,Operations Support Officer,12.51,Operational Delivery
+610,Cabinet Office,Cabinet Office,Government in Parliament,187,A/BAND A,44743,60484,Policy Adviser,1.0,Operational Delivery
+611,Cabinet Office,Cabinet Office,Government in Parliament,338,A/BAND A,44743,60484,Private Secretary,3.0,Operational Delivery
+612,Cabinet Office,Cabinet Office,Government in Parliament,338,B/Faststream,27270,36175,Private Secretary,1.0,Operational Delivery
+613,Cabinet Office,Cabinet Office,Government in Parliament,338,B1/BAND B1,23793,30093,Diary Manager,4.89,Operational Delivery
+614,Cabinet Office,Cabinet Office,Government in Parliament,338,B1/BAND B1,23793,30093,Operations Support Officer,1.0,Operational Delivery
+615,Cabinet Office,Cabinet Office,Government in Parliament,338,B2/BAND B2,30117,38484,Private Secretary,2.0,Operational Delivery
+616,Cabinet Office,Cabinet Office,Government in Parliament,338,C/BAND C,19790,24430,Operations Support Officer,3.0,Operational Delivery
+617,Cabinet Office,Cabinet Office,Government Innovation,43,A/BAND A,44743,60484,Policy Adviser,5.0,Policy
+618,Cabinet Office,Cabinet Office,Government Innovation,43,B1/BAND B1,23793,30093,Policy Adviser,1.0,Policy
+619,Cabinet Office,Cabinet Office,Government Innovation,43,B2/BAND B2,30117,38484,Policy Adviser,2.0,Policy
+620,Cabinet Office,Cabinet Office,Government Innovation,116,A/BAND A,44743,60484,Policy Adviser,6.0,Policy
+621,Cabinet Office,Cabinet Office,Government Innovation,116,B/Faststream,27270,36175,Policy Adviser,1.0,Policy
+622,Cabinet Office,Cabinet Office,Government Innovation,116,B1/BAND B1,23793,30093,Policy Adviser,2.0,Policy
+623,Cabinet Office,Cabinet Office,Government Innovation,116,B2/BAND B2,30117,38484,Policy Adviser,10.0,Policy
+624,Cabinet Office,Cabinet Office,Government Innovation,116,C/BAND C,19790,24430,Policy Adviser,2.0,Policy
+625,Cabinet Office,Cabinet Office,Government Innovation,116,TIS2,31150,39799,Policy Adviser,1.0,Policy
+626,Cabinet Office,Cabinet Office,Government Innovation,143,A/BAND A,44743,60484,Policy Adviser,5.0,Policy
+627,Cabinet Office,Cabinet Office,Government Innovation,143,B1/BAND B1,23793,30093,Policy Adviser,2.0,Policy
+628,Cabinet Office,Cabinet Office,Government Innovation,143,B2/BAND B2,30117,38484,Policy Adviser,6.6,Policy
+629,Cabinet Office,Cabinet Office,Government Innovation,221,A/BAND A,44743,60484,Policy Adviser,3.0,Policy
+630,Cabinet Office,Cabinet Office,Government Innovation,221,B1/BAND B1,23793,30093,Policy Adviser,1.0,Policy
+631,Cabinet Office,Cabinet Office,Government Innovation,221,B2/BAND B2,30117,38484,Policy Adviser,2.0,Policy
+632,Cabinet Office,Cabinet Office,Government Innovation,230,A/BAND A,44743,60484,Policy Adviser,11.0,Policy
+633,Cabinet Office,Cabinet Office,Government Innovation,230,B1/BAND B1,23793,30093,Policy Adviser,6.0,Policy
+634,Cabinet Office,Cabinet Office,Government Innovation,230,B2/BAND B2,30117,38484,Policy Adviser,9.0,Policy
+635,Cabinet Office,Cabinet Office,Government Innovation,230,C/BAND C,19790,24430,Policy Adviser,1.0,Policy
+636,Cabinet Office,Cabinet Office,Government Innovation,250,A/BAND A,44743,60484,Policy Adviser,6.0,Policy
+637,Cabinet Office,Cabinet Office,Government Innovation,250,B1/BAND B1,23793,30093,Policy Adviser,5.41,Policy
+638,Cabinet Office,Cabinet Office,Government Innovation,250,B2/BAND B2,30117,38484,Policy Adviser,2.4,Policy
+639,Cabinet Office,Cabinet Office,Government Innovation,357,A/BAND A,44743,60484,Policy Adviser,14.15,Policy
+640,Cabinet Office,Cabinet Office,Government Innovation,357,B1/BAND B1,23793,30093,Policy Adviser,3.0,Policy
+641,Cabinet Office,Cabinet Office,Government Innovation,357,B2/BAND B2,30117,38484,Policy Adviser,7.8,Policy
+642,Cabinet Office,Cabinet Office,Government Innovation,357,C/BAND C,19790,24430,Policy Adviser,1.0,Policy
+643,Cabinet Office,Cabinet Office,Government Innovation,359,A/BAND A,44743,60484,Policy Adviser,6.0,Policy
+644,Cabinet Office,Cabinet Office,Government Innovation,359,B1/BAND B1,23793,30093,Policy Adviser,0.6,Policy
+645,Cabinet Office,Cabinet Office,Government Innovation,359,B2/BAND B2,30117,38484,Policy Adviser,6.0,Policy
+646,Cabinet Office,Cabinet Office,Government Innovation,361,A/BAND A,44743,60484,Policy Adviser,4.0,Policy
+647,Cabinet Office,Cabinet Office,Government Innovation,361,B1/BAND B1,23793,30093,Policy Adviser,1.0,Policy
+648,Cabinet Office,Cabinet Office,Government Innovation,361,B2/BAND B2,30117,38484,Policy Adviser,6.0,Policy
+649,Cabinet Office,Cabinet Office,Government Innovation,406,A/BAND A,44743,60484,Policy Adviser,1.0,Policy
+650,Cabinet Office,Cabinet Office,Government Innovation,406,B1/BAND B1,23793,30093,Policy Adviser,1.0,Policy
+651,Cabinet Office,Cabinet Office,Government Innovation,406,B2/BAND B2,30117,38484,Policy Adviser,1.0,Policy
+652,Cabinet Office,Cabinet Office,Constitution Group - Privy Council,77,A/BAND A,44743,60484,Senior Operations Manager,1.0,Operational Delivery
+653,Cabinet Office,Cabinet Office,Constitution Group - Privy Council,77,A/BAND A,44743,60484,Senior Policy Advisor,2.0,Policy
+654,Cabinet Office,Cabinet Office,Constitution Group - Privy Council,77,B1/BAND B1,23793,30093,Operations Manager,2.0,Operational Delivery
+655,Cabinet Office,Cabinet Office,Constitution Group - Privy Council,77,B1/BAND B1,23793,30093,Policy Adviser,2.39,Policy
+656,Cabinet Office,Cabinet Office,Constitution Group - Privy Council,77,B2/BAND B2,30117,38484,Operations Manager,1.0,Operational Delivery
+657,Cabinet Office,Cabinet Office,Constitution Group - Privy Council,77,B2/BAND B2,30117,38484,Policy Adviser,1.0,Policy
+658,Cabinet Office,Cabinet Office,Constitution Group - Privy Council,77,C/BAND C,19790,24430,Executive Assistant,1.0,Policy
+659,Cabinet Office,Cabinet Office,Constitution Group - Privy Council,77,C/BAND C,19790,24430,Operations Support Officer,8.54,Operational Delivery
+660,Cabinet Office,Cabinet Office,Implementation Group,273,B1/BAND B1,23793,30093,Executive Assistant,1.0,Other
+661,Cabinet Office,Cabinet Office,Implementation Group,273,B2/BAND B2,30117,38484,Business Manager,1.0,Operational Delivery
+662,Cabinet Office,Cabinet Office,Implementation Group,304,A/BAND A,44743,60484,Senior Policy Adviser,2.79,Policy
+663,Cabinet Office,Cabinet Office,Implementation Group,304,B1/BAND B1,23793,30093,Policy Adviser,1.0,Policy
+664,Cabinet Office,Cabinet Office,Implementation Group,304,B1/BAND B1,23793,30093,Programme Support Officer,1.0,Policy
+665,Cabinet Office,Cabinet Office,Implementation Group,304,B2/BAND B2,30117,38484,Policy Adviser,5.0,Policy
+666,Cabinet Office,Cabinet Office,Implementation Group,304,B2/BAND B2,30117,38484,Programme Manager,1.0,Policy
+667,Cabinet Office,Cabinet Office,Implementation Group,319,A/BAND A,44743,60484,Senior Economist,4.0,Economics
+668,Cabinet Office,Cabinet Office,Implementation Group,319,B1/BAND B1,23793,30093,Junior Analyst,1.0,Economics
+669,Cabinet Office,Cabinet Office,Implementation Group,319,B2/BAND B2,30117,38484,Analyst,1.0,Policy
+670,Cabinet Office,Cabinet Office,Implementation Group,320,A/BAND A,44743,60484,Senior Policy Adviser,5.0,Operational Delivery
+671,Cabinet Office,Cabinet Office,Implementation Group,321,A/BAND A,44743,60484,Senior Policy Adviser,6.0,Policy
+672,Cabinet Office,Cabinet Office,Implementation Group,321,B/Faststream,27270,36175,Policy Adviser,2.0,Policy
+673,Cabinet Office,Cabinet Office,Implementation Group,321,B1/BAND B1,23793,30093,Policy Adviser,1.0,Policy
+674,Cabinet Office,Cabinet Office,Implementation Group,321,B2/BAND B2,30117,38484,Business Manager,1.0,Policy
+675,Cabinet Office,Cabinet Office,Implementation Group,321,B2/BAND B2,30117,38484,Policy Adviser,3.0,Policy
+676,Cabinet Office,Cabinet Office,Implementation Group,351,A/BAND A,44743,60484,Senior Policy Adviser,6.83,Operational Delivery
+677,Cabinet Office,Cabinet Office,Implementation Group,351,C/BAND C,19790,24430,Diary Manager,1.0,Other
+678,Cabinet Office,Cabinet Office,Prime Minister's Office,81,A/BAND A,44743,60484,Head of Direct Communications,1.0,Communications
+679,Cabinet Office,Cabinet Office,Prime Minister's Office,81,A/BAND A,44743,60484,Head of ICTS,1.0,Information Technology
+680,Cabinet Office,Cabinet Office,Prime Minister's Office,81,A/BAND A,44743,60484,Head of Security,1.0,Operational Delivery
+681,Cabinet Office,Cabinet Office,Prime Minister's Office,81,A/BAND A,44743,60484,Operational Manager,0.8,Operational Delivery
+682,Cabinet Office,Cabinet Office,Prime Minister's Office,81,A/BAND A,44743,60484,Project Manager,1.0,Operational Delivery
+683,Cabinet Office,Cabinet Office,Prime Minister's Office,81,A/BAND A,44743,60484,Senior Operational Manager,1.0,Operational Delivery
+684,Cabinet Office,Cabinet Office,Prime Minister's Office,81,B1/BAND B1,23793,30093,Communications Manager,6.41,Communications
+685,Cabinet Office,Cabinet Office,Prime Minister's Office,81,B1/BAND B1,23793,30093,Communications Support Officer,11.4,Communications
+686,Cabinet Office,Cabinet Office,Prime Minister's Office,81,B1/BAND B1,23793,30093,Custodian Operation Manager ,1.0,Operational Delivery
+687,Cabinet Office,Cabinet Office,Prime Minister's Office,81,B1/BAND B1,23793,30093,ICTS Support analyst,3.0,Information Technology
+688,Cabinet Office,Cabinet Office,Prime Minister's Office,81,B1/BAND B1,23793,30093,Operational Manager,2.0,Operational Delivery
+689,Cabinet Office,Cabinet Office,Prime Minister's Office,81,B1/BAND B1,23793,30093,Operations Support Officer,1.0,Operational Delivery
+690,Cabinet Office,Cabinet Office,Prime Minister's Office,81,B2/BAND B2,30117,38484,Business Continuity Manager,1.0,Operational Delivery
+691,Cabinet Office,Cabinet Office,Prime Minister's Office,81,B2/BAND B2,30117,38484,Deputy Head of ICTS ,1.0,Information Technology
+692,Cabinet Office,Cabinet Office,Prime Minister's Office,81,B2/BAND B2,30117,38484,ICT Change Manager,1.0,Information Technology
+693,Cabinet Office,Cabinet Office,Prime Minister's Office,81,B2/BAND B2,30117,38484,ICTS Security Manager ,1.0,Information Technology
+694,Cabinet Office,Cabinet Office,Prime Minister's Office,81,B2/BAND B2,30117,38484,ICTS Support analyst,2.0,Information Technology
+695,Cabinet Office,Cabinet Office,Prime Minister's Office,81,B2/BAND B2,30117,38484,Senior Communications Manager,2.0,Communications
+696,Cabinet Office,Cabinet Office,Prime Minister's Office,81,B2/BAND B2,30117,38484,Service Support Manager,1.0,Information Technology
+697,Cabinet Office,Cabinet Office,Prime Minister's Office,81,C/BAND C,19790,24430,Business Continuity Support Officer,1.0,Operational Delivery
+698,Cabinet Office,Cabinet Office,Prime Minister's Office,81,C/BAND C,19790,24430,Communications Support Officer,12.83,Communications
+699,Cabinet Office,Cabinet Office,Prime Minister's Office,81,C/BAND C,19790,24430,Custodian,13.0,Operational Delivery
+700,Cabinet Office,Cabinet Office,Prime Minister's Office,81,C/BAND C,19790,24430,Housekeeper,6.92,Operational Delivery
+701,Cabinet Office,Cabinet Office,Prime Minister's Office,81,C/BAND C,19790,24430,ICTS Support Staff,1.0,Information Technology
+702,Cabinet Office,Cabinet Office,Prime Minister's Office,81,C/BAND C,19790,24430,Operations Support Officer,1.0,Operational Delivery
+703,Cabinet Office,Cabinet Office,Prime Minister's Office,81,TIS3,36735,47639,Infrastructure Manager,1.0,Information Technology
+704,Cabinet Office,Cabinet Office,Prime Minister's Office,81,TIS3,36735,47639,Project Manager,1.0,Information Technology
+705,Cabinet Office,Cabinet Office,Prime Minister's Office,81,TIS3,36735,47639,Service Delivery Manager ,1.0,Information Technology
+706,Cabinet Office,Cabinet Office,Prime Minister's Office,81,TIS3,36735,47639,Telecoms Project Manager ,1.0,Information Technology
+707,Cabinet Office,Cabinet Office,Prime Minister's Office,120,A/BAND A,44743,60484,Private Office Manager ,1.0,Policy
+708,Cabinet Office,Cabinet Office,Prime Minister's Office,120,B1/BAND B1,23793,30093,Diary Manager,9.0,Operational Delivery
+709,Cabinet Office,Cabinet Office,Prime Minister's Office,120,B1/BAND B1,23793,30093,Duty Clerk,3.0,Operational Research
+710,Cabinet Office,Cabinet Office,Prime Minister's Office,120,B1/BAND B1,23793,30093,Executive Assistant,7.25,Operational Delivery
+711,Cabinet Office,Cabinet Office,Prime Minister's Office,120,B1/BAND B1,23793,30093,Infrastructure Manager,1.0,Operational Research
+712,Cabinet Office,Cabinet Office,Prime Minister's Office,120,B2/BAND B2,30117,38484,Duty Clerk,1.0,Operational Research
+713,Cabinet Office,Cabinet Office,Prime Minister's Office,120,B2/BAND B2,30117,38484,Office Manager,1.0,Operational Delivery
+714,Cabinet Office,Cabinet Office,Prime Minister's Office,120,C/BAND C,19790,24430,Duty Clerk,3.0,Operational Research
+715,Cabinet Office,Cabinet Office,Prime Minister's Office,120,C/BAND C,19790,24430,Executive Assistant,1.0,Operational Delivery
+716,Cabinet Office,Cabinet Office,Prime Minister's Office,124,A/BAND A,44743,60484,Policy Adviser,4.0,Policy
+717,Cabinet Office,Cabinet Office,Prime Minister's Office,124,B/Faststream,27270,36175,Policy Adviser,1.0,Policy
+718,Cabinet Office,Cabinet Office,Prime Minister's Office,124,B1/BAND B1,23793,30093,Policy Adviser,1.0,Policy
+719,Cabinet Office,Cabinet Office,Prime Minister's Office,124,B2/BAND B2,30117,38484,Policy Adviser,1.0,Policy
+720,Cabinet Office,Cabinet Office,Prime Minister's Office,146,A/BAND A,44743,60484,Business Engagement Manager ,1.0,Policy
+721,Cabinet Office,Cabinet Office,Prime Minister's Office,151,A/BAND A,44743,60484,Visits Manager,1.0,Communications
+722,Cabinet Office,Cabinet Office,Prime Minister's Office,151,B1/BAND B1,23793,30093,Events & Visits Coordinator,1.0,Communications
+723,Cabinet Office,Cabinet Office,Prime Minister's Office,151,B1/BAND B1,23793,30093,Events & Visits Coordinator,1.0,Operational Delivery
+724,Cabinet Office,Cabinet Office,Prime Minister's Office,151,B1/BAND B1,23793,30093,Front of House Officer,1.0,Operational Delivery
+725,Cabinet Office,Cabinet Office,Prime Minister's Office,151,B2/BAND B2,30117,38484,Events & Visits Coordinator,1.0,Operational Delivery
+726,Cabinet Office,Cabinet Office,Prime Minister's Office,151,C/BAND C,19790,24430,Events & Visits Coordinator,1.0,Operational Delivery
+727,Cabinet Office,Cabinet Office,Prime Minister's Office,151,C/BAND C,19790,24430,Front of House Officer,6.0,Operational Delivery
+728,Cabinet Office,Cabinet Office,Prime Minister's Office,151,TIS2,31150,39799,Senior Events Officer,2.0,Communications
+729,Cabinet Office,Cabinet Office,Prime Minister's Office,151,TIS3,36735,47639,Senior Visits Officer,4.0,Communications
+730,Cabinet Office,Cabinet Office,Prime Minister's Office,298,A/BAND A,44743,60484,Policy Adviser,1.0,Policy
+731,Cabinet Office,Cabinet Office,Prime Minister's Office,332,A/BAND A,44743,60484,Assistant Private Secretary,1.0,Policy
+732,Cabinet Office,Cabinet Office,Prime Minister's Office,332,A/BAND A,44743,60484,Parliamentrary Clerk,1.0,Communications
+733,Cabinet Office,Cabinet Office,Prime Minister's Office,332,B1/BAND B1,23793,30093,Parliamentary Support Officer,1.0,Communications
+734,Cabinet Office,Cabinet Office,Prime Minister's Office,332,B2/BAND B2,30117,38484,Assistant Parliamentary Clerk,1.0,Communications
+735,Cabinet Office,Cabinet Office,Prime Minister's Office,332,B2/BAND B2,30117,38484,Diary Manager,1.0,Policy
+736,Cabinet Office,Cabinet Office,Prime Minister's Office,334,A/BAND A,44743,60484,Assistant Private Secretary (Research and Information),1.0,Operational Research
+737,Cabinet Office,Cabinet Office,Prime Minister's Office,334,B/Faststream,27270,36175,Research Co-ordinator,1.0,Operational Research
+738,Cabinet Office,Cabinet Office,Private Office Group,57,A/BAND A,44743,60484,Senior Operational Manager,0.89,Operational Delivery
+739,Cabinet Office,Cabinet Office,Private Office Group,57,B1/BAND B1,23793,30093,Diary Manager,1.0,Operational Delivery
+740,Cabinet Office,Cabinet Office,Private Office Group,57,B1/BAND B1,23793,30093,Operational Manager,1.0,Operational Delivery
+741,Cabinet Office,Cabinet Office,Private Office Group,57,C/BAND C,19790,24430,Operations Support Officer,1.0,Operational Delivery
+742,Cabinet Office,Cabinet Office,Private Office Group,63,A/BAND A,44743,60484,Private Secretary,3.0,Operational Delivery
+743,Cabinet Office,Cabinet Office,Private Office Group,63,A/BAND A,44743,60484,Senior Operational Manager,1.0,Operational Delivery
+744,Cabinet Office,Cabinet Office,Private Office Group,63,B/Faststream,27270,36175,Private Secretary,5.0,Operational Delivery
+745,Cabinet Office,Cabinet Office,Private Office Group,63,B1/BAND B1,23793,30093,Diary Manager,3.0,Operational Delivery
+746,Cabinet Office,Cabinet Office,Private Office Group,63,B1/BAND B1,23793,30093,Operational Manager,3.0,Operational Delivery
+747,Cabinet Office,Cabinet Office,Private Office Group,63,B2/BAND B2,30117,38484,Office Manager,1.0,Operational Delivery
+748,Cabinet Office,Cabinet Office,Private Office Group,63,B2/BAND B2,30117,38484,Operational Manager,1.0,Operational Delivery
+749,Cabinet Office,Cabinet Office,Private Office Group,63,B2/BAND B2,30117,38484,Private Secretary,5.0,Operational Delivery
+750,Cabinet Office,Cabinet Office,Private Office Group,63,C/BAND C,19790,24430,Diary Manager,5.0,Operational Delivery
+751,Cabinet Office,Cabinet Office,Private Office Group,63,C/BAND C,19790,24430,Operations Support Officer,9.0,Operational Delivery
+752,Cabinet Office,Cabinet Office,Private Office Group,131,A/BAND A,44743,60484,Private Secretary,4.0,Operational Delivery
+753,Cabinet Office,Cabinet Office,Private Office Group,131,B/Faststream,27270,36175,Private Secretary,1.0,Operational Delivery
+754,Cabinet Office,Cabinet Office,Private Office Group,131,B1/BAND B1,23793,30093,Diary Manager,1.0,Operational Delivery
+755,Cabinet Office,Cabinet Office,Private Office Group,131,B2/BAND B2,30117,38484,Private Secretary,1.0,Operational Delivery
+756,Cabinet Office,Cabinet Office,Private Office Group,142,A/BAND A,44743,60484,Senior Policy Adviser,2.0,Policy
+757,Cabinet Office,Cabinet Office,Private Office Group,142,B1/BAND B1,23793,30093,Diary Manager,1.0,Operational Delivery
+758,Cabinet Office,Cabinet Office,Private Office Group,142,B1/BAND B1,23793,30093,Policy Adviser,1.0,Policy
+759,Cabinet Office,Cabinet Office,Private Office Group,142,B2/BAND B2,30117,38484,Policy Adviser,1.0,Policy
+760,Cabinet Office,Cabinet Office,Private Office Group,348,A/BAND A,44743,60484,Senior Policy Adviser,3.0,Policy
+761,Cabinet Office,Cabinet Office,Private Office Group,348,B2/BAND B2,30117,38484,Policy Adviser,0.83,Policy
+762,Cabinet Office,Cabinet Office,Private Office Group,348,C/BAND C,19790,24430,Operations Support Officer,1.0,Operational Delivery

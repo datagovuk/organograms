@@ -1,0 +1,69 @@
+#index-table {
+  .left {
+    width: 140px;
+    padding-right: 10px;
+    font-weight: bold;
+    text-align: right;
+  }
+  td {
+    height: 40px;
+    vertical-align: middle;
+  }
+}
+#organogram-viz {
+  margin-top: 15px;
+  margin-bottom: 15px;
+  svg {
+    margin: 0 auto;
+    display: block;
+    -webkit-touch-callout: none;
+    -webkit-user-select: none;
+    -khtml-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    cursor: default;
+    text { 
+      pointer-events: none; 
+      fill: #000;
+    }
+    text.invertText {
+      fill: #fff;
+    }
+    .person:hover {
+      rect {
+        fill-opacity: 0.8;
+      }
+      text {
+        stroke: #000;
+        stroke-width: 0.5px;
+      }
+      text.invertText {
+        stroke: #fff;
+      }
+    }
+  }
+  position: relative;
+  .hoverbox {
+    position: absolute;
+    display: none;
+    width: 280px;
+    font-size: 9px;
+    border: 1px solid #000;
+    padding: 2px;
+    background: #fff;
+    table { 
+      margin: 0 0 0 0; 
+      td {
+        padding: 1px 5px;
+      }
+      td:first-child {
+        font-weight: bold;
+        text-align: right;
+        min-width: 45%;
+      }
+    }
+  }
+}
+
+

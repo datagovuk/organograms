@@ -1,0 +1,104 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,EO,20336,24913,Accommodation Manager,1.9,Operational Delivery
+1,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,HEO,25423,32108,Accommodation Manager,2.0,Operational Delivery
+2,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,SEO,32766,38936,Accommodation Manager,1.0,Operational Delivery
+3,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,AO,15306,18750,Accomodation Support Officer,1.0,Operational Delivery
+4,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,EO,20336,24913,Communications Manager,8.33,Communications
+5,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,HEO,25423,32108,Communications Manager,3.87,Communications
+6,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,AO,15306,18750,Communications Support Officer,2.0,Communications
+7,Home Office,Disclosure and Barring Service,Change Directorate,DBS4,Grade 7,43534,57841,Contractor,5.0,Programme and Project Management (PPM)
+8,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,SEO,32766,38936,Contractor,1.0,Programme and Project Management (PPM)
+9,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,EO,20336,24913,Correspondence Manager,2.81,Policy
+10,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,HEO,25423,32108,Correspondence Manager,1.0,Policy
+11,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,SEO,32766,38936,Correspondence Manager,0.65,Policy
+12,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,AO,15306,18750,Correspondence Support Officer,1.81,Policy
+13,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,EO,20336,24913,Finance Manager,4.65,Finance
+14,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,HEO,25423,32108,Finance Manager,4.0,Finance
+15,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,SEO,32766,38936,Finance Manager,1.0,Finance
+16,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,SEO Acct,36266,43534,Finance Manager,1.0,Finance
+17,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,AO,15306,18750,Finance Support Officer,0.98,Finance
+18,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,EO,20336,24913,Human Resources Officer,1.0,Human Resources
+19,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,HEO,25423,32108,Human Resources Officer,5.71,Human Resources
+20,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,SEO,32766,38936,Human Resources Officer,2.62,Human Resources
+21,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,AO,15306,18750,Human Resources Support Officer,1.0,Human Resources
+22,Home Office,Disclosure and Barring Service,Operations Disclosure,DBS5,EO,20336,24913,Operational Manager,106.83,Operational Delivery
+23,Home Office,Disclosure and Barring Service,Operations Disclosure,DBS5,HEO,25423,32108,Operational Manager,38.33,Operational Delivery
+24,Home Office,Disclosure and Barring Service,Operations Disclosure,DBS5,SEO,32766,38936,Operational Manager,9.86,Operational Delivery
+25,Home Office,Disclosure and Barring Service,Operations Disclosure,DBS5,AO,15306,18750,Operations Support Officer,188.35,Operational Delivery
+26,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,EO,20336,24913,Policy Advisor,3.0,Policy
+27,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,HEO,25423,32108,Policy Advisor,3.5,Policy
+28,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,SEO,32766,38936,Policy Advisor,1.0,Policy
+29,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,EO,20336,24913,Procurement Manager,0.81,Procurement
+30,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,SEO,32766,38936,Procurement Manager,1.0,Procurement
+31,Home Office,Disclosure and Barring Service,Change Directorate,DBS4,EO,20336,24913,Programme Manager,9.51,Programme and Project Management (PPM)
+32,Home Office,Disclosure and Barring Service,Change Directorate,DBS4,HEO,25423,32108,Programme Manager,5.0,Programme and Project Management (PPM)
+33,Home Office,Disclosure and Barring Service,Change Directorate,DBS4,SEO,32766,38936,Programme Manager,7.0,Programme and Project Management (PPM)
+34,Home Office,Disclosure and Barring Service,Change Directorate,DBS4,AO,15306,18750,Project Support Officer,1.89,Programme and Project Management (PPM)
+35,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,SEO,32766,38936,Secretariat Manager,1.0,Operational Delivery
+36,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,EO,20336,24913,Secretariat Support,0.65,Operational Delivery
+37,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,SPS,21395,24913,Secretariat Support,1.92,Operational Delivery
+38,Home Office,Disclosure and Barring Service,Operations Disclosure,DBS5,SPS,21395,24913,Secretariat Support,2.0,Operational Delivery
+39,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,HEO,25423,32108,Security Manager,1.68,Operational Delivery
+40,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,SEO,32766,38936,Security Manager,1.0,Operational Delivery
+41,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,AO,15306,18750,Security Support Officer,1.68,Operational Delivery
+42,Home Office,Disclosure and Barring Service,Change Directorate,DBS3,Grade 7,43534,57841,Senior Communications Manager,1.0,Communications
+43,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Grade 7,43534,57841,Senior Finance Manager,1.0,Finance
+44,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Grade 7,43534,57841,Senior Human Resources Manager,1.46,Human Resources
+45,Home Office,Disclosure and Barring Service,Operations Disclosure,DBS5,Grade 6,53330,70856,Senior Operational Manager,1.43,Operational Delivery
+46,Home Office,Disclosure and Barring Service,Operations Disclosure,DBS5,Grade 7,43534,57841,Senior Operational Manager,3.0,Operational Delivery
+47,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Grade 7,43534,57841,Senior Policy Advisor,1.0,Policy
+48,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Grade 7,43534,57841,Senior Procurement Officer,1.0,Procurement
+49,Home Office,Disclosure and Barring Service,Change Directorate,DBS4,Grade 6,53330,70856,Senior Programme Manager,1.0,Programme and Project Management (PPM)
+50,Home Office,Disclosure and Barring Service,Change Directorate,DBS4,Grade 7,43534,57841,Senior Programme Manager,3.0,Programme and Project Management (PPM)
+51,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Grade 7,43534,57841,Senior Security Manager,1.0,Operational Delivery
+52,Home Office,Disclosure and Barring Service,Operations Barring,DBS2,Level 2,15882,17366,Casework Administrator,49.11,Operational Delivery
+53,Home Office,Disclosure and Barring Service,Operations Barring,DBS2,Level 3,20154,23741,Casework Officer,21.22,Operational Delivery
+54,Home Office,Disclosure and Barring Service,Operations Barring,DBS2,Level 4,25197,29681,Caseworker Decision Maker,103.53,Operational Delivery
+55,Home Office,Disclosure and Barring Service,Operations Barring,DBS2,Level 5,32455,38230,Casework Team Manager,20.0,Operational Delivery
+56,Home Office,Disclosure and Barring Service,Operations Barring,DBS2,Level 6,45033,55470,Head of Operational Unit,4.51,Operational Delivery
+57,Home Office,Disclosure and Barring Service,Operations Barring,DBS2,Level 2,15882,17366,Administration Assistant,1.81,Other
+58,Home Office,Disclosure and Barring Service,Operations Barring,DBS2,Level 3,20154,23741,Personal Assistant,3.93,Other
+59,Home Office,Disclosure and Barring Service,Operations Barring,DBS2,Level 4,25197,29681,Research Officer,1.0,Policy
+60,Home Office,Disclosure and Barring Service,Operations Barring,DBS2,Level 4,25197,29681,Policy Officer,1.0,Policy
+61,Home Office,Disclosure and Barring Service,Operations Barring,DBS2,Level 4,25197,29681,Partnership Engagement Lead,2.0,Operational Delivery
+62,Home Office,Disclosure and Barring Service,Operations Barring,DBS2,Level 6,45033,55470,Policy Advisor,1.0,Policy
+63,Home Office,Disclosure and Barring Service,Operations Barring,DBS2,Level 6,45033,55470,Policy and Stakeholder Manager,1.0,Policy
+64,Home Office,Disclosure and Barring Service,Operations Barring,DBS2,Level 4,25197,29681,Secretariat Manager,1.0,Other
+65,Home Office,Disclosure and Barring Service,Change Directorate,DBS4,Level 2,15882,17366,Project Adminstration Assistant,1.0,Programme and Project Management (PPM)
+66,Home Office,Disclosure and Barring Service,Change Directorate,DBS4,Level 4,25197,29681,Business Analyst,4.0,Programme and Project Management (PPM)
+67,Home Office,Disclosure and Barring Service,Change Directorate,DBS4,Level 4,25197,29681,Business Analyst Change,1.0,Programme and Project Management (PPM)
+68,Home Office,Disclosure and Barring Service,Change Directorate,DBS4,Level 4,25197,29681,Project Planner  ,1.0,Programme and Project Management (PPM)
+69,Home Office,Disclosure and Barring Service,Change Directorate,DBS4,Level 5,32455,38230,Transition Manager,1.0,Programme and Project Management (PPM)
+70,Home Office,Disclosure and Barring Service,Change Directorate,DBS4,Level 6,45033,55470,Business Transformation Manager,1.0,Programme and Project Management (PPM)
+71,Home Office,Disclosure and Barring Service,Change Directorate,DBS4,Level 6,45033,55470,Senior Transition Manager,1.0,Programme and Project Management (PPM)
+72,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 1,13685,14743,Mailroom Assistant,1.0,Procurement
+73,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 2,15882,17366,People and Development Support Assistant,2.0,Human Resources
+74,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 2,15882,17366,Procurement Administrator,1.0,Procurement
+75,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 2,15882,17366,Administration Assistant,1.0,Information Technology
+76,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 3,20154,23741,Computer Operator,4.0,Information Technology
+77,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 3,20154,23741,People and Development Officer,1.0,Human Resources
+78,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 3,20154,23741,Internal Communications Officer,1.0,Communications
+79,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 4,25197,29681,IT Support Officer,2.0,Information Technology
+80,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 4,25197,29681,Finance Officer,1.0,Finance
+81,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 4,25197,29681,Post No Longer Required,1.0,Property and asset management
+82,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 4,25197,29681,Legal Support Officer,1.0,Law
+83,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 4,25197,29681,People Consultant,2.0,Human Resources
+84,home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 4,25197,29681,Learning and Development Consultant,2.0,Human Resources
+85,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 4,25197,29681,Press Officer,1.0,Communications
+86,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 4,25197,29681,Post No Longer Required,1.0,Planning
+87,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 4,25197,29681,Post No Longer Required,1.0,Knowledge and Information Management (KIM)
+88,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 5,32455,38230,Assistant Legal Advisor,1.21,Law
+89,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 5,32455,38230,Risk Assurance and Business Continuity Manager,1.0,Internal Audit
+90,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 5,32455,38230,Facilities and Procurement Manager,1.0,Procurement
+91,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 5,32455,38230,Assistant IT Manager,1.0,Information Technology
+92,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 5,32455,38230,Post No Longer Required,1.0,Human Resources
+93,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 5,32455,38230,Security Manager,1.0,Knowledge and Information Management (KIM)
+94,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 5,32455,38230,Performance Manager,1.0,Knowledge and Information Management (KIM)
+95,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 6,45033,55470,IT Manager,1.0,Information Technology
+96,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 6,45033,55470,Finance Manager,1.0,Finance
+97,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 6,45033,55470,Legal Advisor,1.0,Law
+98,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 6,45033,55470,Learning and Development Manager,0.92,Human Resources
+99,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 6,45033,55470,People Manager,0.92,Human Resources
+100,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 6,45033,55470,Communications Manager,1.0,Communications
+101,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 7,55470,68325,Post No Longer Required,1.0,Human Resources
+102,Home Office,Disclosure and Barring Service,Corporate Services,DBS3,Level 7,55470,68325,Vacant Post,1.0,Finance

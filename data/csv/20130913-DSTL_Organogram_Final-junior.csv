@@ -1,0 +1,137 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV01001,9.0,67806,118634,Specialist Advisors,5.0,Science and Engineering
+1,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV01001,9.0,67806,118634,Principal,1.0,Science and Engineering
+2,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02001,4.0,20837,33829,Team Member,2.0,Science and Engineering
+3,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02001,5.0,30889,41774,Team Member,2.0,Science and Engineering
+4,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02001,6.0,38357,51084,Programme Manager,1.0,Science and Engineering
+5,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02001,6.0,38357,51084,Programme Manager,4.0,Science and Engineering
+6,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02001,6.0,38357,51084,Team Leader,1.0,Science and Engineering
+7,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02001,6.0,38357,51084,Specialist Advisors,1.0,Science and Engineering
+8,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02001,7.0,47947,60830,Programme Manager,4.81,Science and Engineering
+9,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02001,7.0,47947,60830,Programme Leader,1.0,Science and Engineering
+10,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02001,7.0,47947,60830,Group Leader,1.0,Science and Engineering
+11,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02001,7.0,47947,60830,Programme Leader,3.0,Science and Engineering
+12,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02001,7.0,47947,60830,Programme Manager,15.0,Science and Engineering
+13,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02001,7.0,47947,60830,Programme Manager,4.68,Science and Engineering
+14,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02001,7.0,47947,60830,Scientist/Analyst/Engineer,2.0,Science and Engineering
+15,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02001,8.0,56529,70663,Head of Function,1.0,Science and Engineering
+16,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02001,8.0,56529,70663,Programme Manager,2.0,Science and Engineering
+17,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02001,8.0,56529,70663,Fellow/Senior Fellow/Senior Principal,1.0,Science and Engineering
+18,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02001,9.0,67806,118634,Programme Manager,1.0,Science and Engineering
+19,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02001,9.0,67806,118634,Specialist Advisors,1.0,Science and Engineering
+20,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02003,3.0,18648,26235,Team Member,9.81,Science and Engineering
+21,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02003,4.0,20837,33829,Team Member,45.42,Science and Engineering
+22,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02003,5.0,30889,41774,Team Leader,4.0,Science and Engineering
+23,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02003,5.0,30889,41774,Specialist Advisors,23.95,Science and Engineering
+24,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02003,6.0,38357,51084,Programme Leader,1.0,Science and Engineering
+25,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02003,6.0,38357,51084,Team Leader,12.59,Science and Engineering
+26,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02003,6.0,38357,51084,Specialist Advisors,24.59,Science and Engineering
+27,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02003,7.0,47947,60830,Group Leader,6.0,Science and Engineering
+28,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02003,7.0,47947,60830,Head of Function,1.0,Science and Engineering
+29,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02003,7.0,47947,60830,Team Leader,2.0,Science and Engineering
+30,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02003,7.0,47947,60830,Team Member,7.0,Science and Engineering
+31,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02003,8.0,56529,70663,Group Leader,1.0,Science and Engineering
+32,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02003,8.0,56529,70663,Head of Function,3.68,Science and Engineering
+33,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02003,8.0,56529,70663,Team Leader,1.0,Science and Engineering
+34,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02003,8.0,56529,70663,Team Member,2.0,Science and Engineering
+35,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02004,3.0,18648,26235,Team Member,1.0,Programme and Project Management (PPM)
+36,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02004,4.0,20837,33829,Team Member,4.81,Programme and Project Management (PPM)
+37,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02004,5.0,30889,41774,Specialist Advisors,6.0,Programme and Project Management (PPM)
+38,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02004,6.0,38357,51084,Programme Manager,3.92,Programme and Project Management (PPM)
+39,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02004,6.0,38357,51084,Operational manager,1.0,Programme and Project Management (PPM)
+40,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02004,6.0,38357,51084,Team Leader,1.0,Programme and Project Management (PPM)
+41,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02004,6.0,38357,51084,Programme Leader,3.0,Programme and Project Management (PPM)
+42,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02004,7.0,47947,60830,Programme Manager,1.0,Programme and Project Management (PPM)
+43,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02004,7.0,47947,60830,Group Leader,0.91,Programme and Project Management (PPM)
+44,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02004,8.0,56529,70663,Domain Lead,2.0,Programme and Project Management (PPM)
+45,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02004,8.0,56529,70663,Head of Function,1.0,Programme and Project Management (PPM)
+46,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02009,1.0,14105,15959,Team Member,10.0,Finance
+47,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02009,2.0,14428,20628,Team Member,34.88,Finance
+48,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02009,3.0,18648,26235,Team Member,84.63,Finance
+49,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02009,4.0,20837,33829,Team Leader,1.86,Finance
+50,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02009,4.0,20837,33829,Team Member,92.28,Finance
+51,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02009,5.0,30889,41774,Team Leader,17.42,Finance
+52,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02009,5.0,30889,41774,Team Member,26.28,Finance
+53,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02009,6.0,38357,51084,Group Leader,1.0,Finance
+54,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02009,6.0,38357,51084,Operational manager,2.0,Finance
+55,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02009,6.0,38357,51084,Team Leader,10.0,Finance
+56,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02009,6.0,38357,51084,Financial Specialist,13.0,Finance
+57,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02009,7.0,47947,60830,Group Leader,6.0,Finance
+58,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02009,7.0,47947,60830,Principal,1.0,Finance
+59,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02009,7.0,47947,60830,Team Leader,1.0,Finance
+60,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02009,7.0,47947,60830,Financial Specialist,3.0,Finance
+61,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02009,8.0,56529,70663,Chief,1.0,Finance
+62,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02009,8.0,56529,70663,Group Leader,1.0,Finance
+63,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02009,8.0,56529,70663,Head of Function,2.0,Finance
+64,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,1.0,14105,15959,Team Member,32.0,Science and Engineering
+65,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,2.0,14428,20628,Team Member,66.75,Science and Engineering
+66,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,3.0,18648,26235,Team Member,142.48,Science and Engineering
+67,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,4.0,20837,33829,Team Leader,1.0,Science and Engineering
+68,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,4.0,20837,33829,Graduate Team Member,833.48,Science and Engineering
+69,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,5.0,30889,41774,Team Leader,17.13,Science and Engineering
+70,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,5.0,30889,41774,Scientist/Analyst/Engineer,687.2,Science and Engineering
+71,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,6.0,38357,51084,Programme Manager,2.59,Science and Engineering
+72,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,6.0,38357,51084,Group Leader,1.0,Science and Engineering
+73,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,6.0,38357,51084,Operational Manager,12.59,Science and Engineering
+74,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,6.0,38357,51084,Principal,4.0,Science and Engineering
+75,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,6.0,38357,51084,Programme Leader,4.0,Science and Engineering
+76,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,6.0,38357,51084,Programme manager,1.0,Science and Engineering
+77,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,6.0,38357,51084,Team Leader,259.51,Science and Engineering
+78,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,6.0,38357,51084,Scientist/Analyst/Engineer,495.06,Science and Engineering
+79,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,7.0,47947,60830,Chief,1.0,Science and Engineering
+80,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,7.0,47947,60830,Programme Manager,1.0,Science and Engineering
+81,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,7.0,47947,60830,Group Leader,54.0,Science and Engineering
+82,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,7.0,47947,60830,Operational Manager,0.61,Science and Engineering
+83,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,7.0,47947,60830,Principal,15.49,Science and Engineering
+84,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,7.0,47947,60830,Programme Leader,1.41,Science and Engineering
+85,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,7.0,47947,60830,Programme Manager,1.0,Science and Engineering
+86,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,7.0,47947,60830,Programme manager,1.61,Science and Engineering
+87,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,7.0,47947,60830,Team Leader,5.5,Science and Engineering
+88,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,7.0,47947,60830,Scientist/Analyst/Engineer,210.03,Science and Engineering
+89,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,7.0,47947,60830,Scientist/Analyst/Engineer,1.0,Science and Engineering
+90,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,8.0,56529,70663,Chief,2.0,Science and Engineering
+91,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,8.0,56529,70663,Department Manager,11.0,Science and Engineering
+92,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,8.0,56529,70663,Head of Function,1.0,Science and Engineering
+93,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,8.0,56529,70663,Principal,5.45,Science and Engineering
+94,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,8.0,56529,70663,Team Leader,0.75,Science and Engineering
+95,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,8.0,56529,70663,Fellow/Senior Fellow/Senior Principal,36.14,Science and Engineering
+96,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,9.0,67806,118634,Department Manager,1.0,Science and Engineering
+97,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,9.0,67806,118634,Principal,4.03,Science and Engineering
+98,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,9.0,67806,118634,Fellow/Senior Fellow/Senior Principal,7.13,Science and Engineering
+99,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02013,2.0,14428,20628,Team Member,2.54,Planning
+100,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02013,3.0,18648,26235,Team Member,10.0,Planning
+101,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02013,4.0,20837,33829,Team Member,13.46,Planning
+102,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02013,5.0,30889,41774,Operational Manager,2.0,Planning
+103,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02013,5.0,30889,41774,Team Leader,3.0,Planning
+104,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02013,5.0,30889,41774,Team Member,26.59,Planning
+105,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02013,6.0,38357,51084,Group Leader,1.0,Planning
+106,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02013,6.0,38357,51084,Team Leader,5.81,Planning
+107,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02013,6.0,38357,51084,Team Member,17.24,Planning
+108,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02013,7.0,47947,60830,Group Leader,7.0,Planning
+109,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02013,7.0,47947,60830,Team Leader,1.0,Planning
+110,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02013,7.0,47947,60830,Specialist Advisors,5.81,Planning
+111,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02013,8.0,56529,70663,Head of Function,2.0,Planning
+112,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02013,8.0,56529,70663,Specialist Advisors,3.61,Planning
+113,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02014,3.0,18648,26235,Team Member,1.0,Science and Engineering
+114,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02014,4.0,20837,33829,Team Member,2.0,Science and Engineering
+115,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02014,5.0,30889,41774,Team Leader,0.68,Science and Engineering
+116,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02014,5.0,30889,41774,Team Member,6.0,Science and Engineering
+117,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02014,6.0,38357,51084,Team Leader,1.0,Science and Engineering
+118,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02014,6.0,38357,51084,Technical Co-Ordinator,3.97,Science and Engineering
+119,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02014,7.0,47947,60830,Head of Function,1.0,Science and Engineering
+120,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02014,7.0,47947,60830,Programme Leader,1.0,Science and Engineering
+121,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02014,7.0,47947,60830,Scientist/Analyst/Engineer,1.65,Science and Engineering
+122,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02014,7.0,47947,60830,Specialist Advisors,1.73,Science and Engineering
+123,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02014,8.0,56529,70663,Chief,9.81,Science and Engineering
+124,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02014,8.0,56529,70663,Team Leader,1.0,Science and Engineering
+125,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02014,8.0,56529,70663,Team Member,2.0,Science and Engineering
+126,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02015,6.0,38357,51084,Financial Specialist,1.0,Science and Engineering
+127,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02015,7.0,47947,60830,Financial Specialist,3.95,Science and Engineering
+128,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02015,8.0,56529,70663,Financial Specialist,8.0,Science and Engineering
+129,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02015,8.0,56529,70663,Programme Leader,1.0,Science and Engineering
+130,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02015,8.0,56529,70663,Specialist Advisors,1.0,Science and Engineering
+131,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02015,8.0,56529,70663,Specialist Advisors,1.0,Science and Engineering
+132,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,3.0,18648,26235,Team Member,0.54,Science and Engineering
+133,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,4.0,20837,33829,Team Member,7.0,Science and Engineering
+134,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,5.0,30889,41774,Scientist/Analyst/Engineer,1.0,Science and Engineering
+135,Ministry of Defence,Ministry of Defence,Defence Science and Technology Laboratory,GOV02011,6.0,38357,51084,Scientist/Analyst/Engineer,1.0,Science and Engineering
