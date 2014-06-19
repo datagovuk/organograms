@@ -21,4 +21,5 @@ text {
   text-anchor: middle;
   fill: black;
   font-size: 10px;
+  pointer-events: none;
 }
