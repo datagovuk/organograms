@@ -1,0 +1,62 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,Cabinet Office,Government Procurement Service,Executive & Business Support,RPSCS010,Band 1 (AO),16807,20774,Diary Secretary,2.0,Operational Delivery
+1,Cabinet Office,Government Procurement Service,Executive & Business Support,RPSCS010,Band 2 (EO),20417,28112,FOI & Communications Executive,1.0,Operational Delivery
+2,Cabinet Office,Government Procurement Service,Executive & Business Support,RPSCS010,Band 3 (HEO),25534,33415,FOI & Communications Lead,1.0,Operational Delivery
+3,Cabinet Office,government Procurement Service,"Resources (IT, Programme Management, Planning & Finance)",RPSCS008,Band 1 (AO),16807,20774,IT & Finance Assistant ,3.79,Finance
+4,Cabinet Office,Government Procurement Service,Resources (BI & eEnablement& eCommerce),RPSCS008,Band 1 (AO),16807,20774,BI & eEnablement Assistant,4.79,Knowledge and Information Management (KIM)
+5,Cabinet Office,Government Procurement Service,"Resources (IT, Programme Management, Planning & Finance)",RPSCS008,Band 2 (EO),20417,28112,IT & Finance Executive ,6.0,Finance
+6,Cabinet Office,Government Procurement Service,Resources (Audit and Assurance),RPSCS008,Band 2 (EO),20417,28112,Assurance Executive,1.0,Internal Audit
+7,Cabinet Office,Government Procurement Service,Resources (BI & eEnablement& eCommerce),RPSCS008,Band 2 (EO),20417,28112,BI & eEnablement Executive,6.0,Knowledge and Information Management (KIM)
+8,Cabinet Office,Government Procurement Service,"Resources (IT, Programme Management, Planning & Finance)",RPSCS008,Band 3 (HEO),25534,33415,"IT, Finance & Programme Specialist",4.94,Finance
+9,Cabinet Office,Government Procurement Service,Resources (BI & eEnablement& eCommerce),RPSCS008,Band 3 (HEO),25534,33415,BI & eEnablement Specialist,4.0,Knowledge and Information Management (KIM)
+10,Cabinet Office,Government Procurement Service,"Resources (IT, Programme Management, Planning & Finance)",RPSCS008,Band 4 (SEO),32148,41991,Seniort IT & Finance Specialist,4.0,Finance
+11,Cabinet Office,Government Procurement Service,Resources (Audit and Assurance),RPSCS008,Band 4 (SEO),32148,41991,Audit Manager Internal and Supplier Audit,4.0,Internal Audit
+12,Cabinet Office,Government Procurement Service,Resources (BI & eEnablement& eCommerce),RPSCS008,Band 4 (SEO),32148,41991,Senior BI & eEnablement Specialist,13.0,Knowledge and Information Management (KIM)
+13,Cabinet Office,Government Procurement Service,"Resources (IT, Programme Management, Planning & Finance)",RPSCS008,Band 5 (Grade 7),43348,57612,Senior IT & Finance Manager,4.0,Finance
+14,Cabinet Office,Government Procurement Service,Resources (BI & eEnablement& eCommerce),RPSCS008,Band 5 (Grade 7),43348,57612,Spend Analysis and Engagement Lead,5.89,Knowledge and Information Management (KIM)
+15,Cabinet Office,Government Procurement Service,"Resources (IT, Programme Management, Planning & Finance)",RPSCS008,Band 6 (Grade 6),54617,70478,"Senior IT, Finance & Programme Lead",3.0,Finance
+16,Cabinet Office,Government Procurement Service,Resources (Audit and Assurance),RPSCS008,Band 6 (Grade 6),54617,70478,Senior BI & eEnablement Lead,1.0,Knowledge and Information Management (KIM)
+17,Cabinet Office,Government Procurement Service,Resources (BI & eEnablement& eCommerce),RPSCS008,Band 7,60000,75000,Head of eProcurement,1.0,Knowledge and Information Management (KIM)
+18,Cabinet Office,Government Procurement Service,Customer Engagement,RPSCS006,Band 1 (AO),16807,20774,Customer Service Assistant,6.0,Operational Delivery
+19,Cabinet Office,Government Procurement Service,Customer Engagement,RPSCS006,Band 2 (EO),20417,28112,Customer Service Executive,1.0,Operational Delivery
+20,Cabinet Office,Government Procurement Service,Customer Engagement,RPSCS006,Band 3 (HEO),25534,33415,Customer Research Specialist,5.0,Operational Delivery
+21,Cabinet Office,Government Procurement Service,Customer Engagement,RPSCS006,Band 4 (SEO),32148,41991,Customer & Research Manager,6.0,Operational Delivery
+22,Cabinet Office,Government Procurement Service,Customer Engagement,RPSCS006,Band 5 (Grade 7),43348,57612,Customer Lead,5.0,Operational Delivery
+23,Cabinet Office,Government Procurement Service,Customer Engagement,RPSCS006,Band 6 (Grade 6),54617,70478,Senior Customer & Relationship Lead,8.0,Operational Delivery
+24,Cabinet Office,Government Procurement Service,Customer Engagement,RPSCS006,Band 7,60000,75000,Senior Customer & Relationship Lead,2.0,Operational Delivery
+25,Cabinet Office,Government Procurement Service,Procurement Services ,RPSCS004,Band 1 (AO),16807,20774,Sourcing Assistant,1.0,Procurement
+26,Cabinet Office,Government Procurement Service,Procurement Services ,RPSCS004,Band 2 (EO),20417,28112,Sourcing Executive,4.29,Procurement
+27,Cabinet Office,Government Procurement Service,Procurement Services ,RPSCS004,Band 3 (HEO),25534,33415,Sourcing Specialist,7.0,Procurement
+28,Cabinet Office,Government Procurement Service,Procurement Services ,RPSCS004,Band 4 (SEO),32148,41991,Sourcing Manager,14.49,Procurement
+29,Cabinet Office,Government Procurement Service,Procurement Services ,RPSCS004,Band 5 (Grade 7),43348,57612,Sourcing Lead,6.48,Procurement
+30,Cabinet Office,Government Procurement Service,Procurement Services ,RPSCS004,Band 6 (Grade 6),54617,70478,Senior Category Lead Sourcing ,3.58,Procurement
+31,Cabinet Office,Government Procurement Service,Procurement Services ,RPSCS004,Band 7,60000,75000,Head of Sourcing Operations,1.0,Procurement
+32,Cabinet Office,Government Procurement Service,Service Operations,RPSCS002,Band 1 (AO),16807,20774,Category Assistant,7.0,Procurement
+33,Cabinet Office,Government Procurement Service,Service Operations,RPSCS002,Band 2 (EO),20417,28112,Category Executive,21.44,Procurement
+34,Cabinet Office,Government Procurement Service,Service Operations,RPSCS002,Band 3 (HEO),25534,33415,Category Specialist,14.0,Procurement
+35,Cabinet Office,Government Procurement Service,Service Operations,RPSCS002,Band 4 (SEO),32148,41991,Senior Category Specialist,10.0,Procurement
+36,Cabinet Office,Government Procurement Service,Service Operations,RPSCS002,Band 5 (Grade 7),43348,57612,Category Lead ,6.89,Procurement
+37,Cabinet Office,Government Procurement Service,Service Operations,RPSCS002,Band 6 (Grade 6),54617,70478,Senior Category Lead,1.0,Procurement
+38,Cabinet Office,Government Procurement Service,Sourcing & Category Management Property,RPSCS005,Band 1 (AO),16807,20774,Category Assistant,1.0,Procurement
+39,Cabinet Office,Government Procurement Service,Sourcing & Category Management Property,RPSCS005,Band 3 (HEO),25534,33415,Category Specialist,4.0,Procurement
+40,Cabinet Office,Government Procurement Service,Sourcing & Category Management Property,RPSCS005,Band 4 (SEO),32148,41991,Senior Category Specialist,4.0,Procurement
+41,Cabinet Office,Government Procurement Service,Sourcing & Category Management Property,RPSCS005,Band 5 (Grade 7),43348,57612,Category Lead ,2.0,Procurement
+42,Cabinet Office,Government Procurement Service,Sourcing & Category Management Property,RPSCS005,Band 6 (Grade 6),54617,70478,Senior Category Lead,2.0,Procurement
+43,Cabinet Office,Government Procurement Service,Human Resources,RPSCS005,Band 7,60000,75000,Head of Sourcing and Category Management,1.0,Procurement
+44,Cabinet Office,Government Procurement Service,Human Resources,RP719,Band 1 (AO),16807,20774,HR Assistant,2.0,Human Resources
+45,Cabinet Office,Government Procurement Service,Human Resources,RP719,Band 2 (EO),20417,28112,HR Executive ,1.69,Human Resources
+46,Cabinet Office,Government Procurement Service,Human Resources,RP719,Band 3 (HEO),25534,33415,HR Operations Manager & Training Centre Specialist,2.0,Human Resources
+47,Cabinet Office,Government Procurement Service,Human Resources,RP719,Band 4 (SEO),32148,41991,"Senior HR Advisor, L&D Manager, Resourcing Manager & Training Centre Manager",3.83,Human Resources
+48,Cabinet Office,Government Procurement Service,Human Resources,RP719,Band 5 (Grade 7),43348,57612,Senior HR Business Partner,2.0,Human Resources
+49,Cabinet Office,Government Procurement Service,Human Resources,RP719,Band 6 (Grade 6),54617,70478,Head of Strategic Resourcing and Capability,1.0,Human Resources
+50,Cabinet Office,Government Procurement Service,Sourcing & Category Management Energy,RP702,Band 2 (EO),20417,28112,Category Executive,5.53,Procurement
+51,Cabinet Office,Government Procurement Service,Sourcing & Category Management Energy,RP702,Band 3 (HEO),25534,33415,Category Specialist,7.6,Procurement
+52,Cabinet Office,Government Procurement Service,Sourcing & Category Management Energy,RP702,Band 4 (SEO),32148,41991,Senior Category Specialist,7.0,Procurement
+53,Cabinet Office,Government Procurement Service,Sourcing & Category Management Energy,RP702,Band 5 (Grade 7),43348,57612,Category Lead ,6.0,Procurement
+54,Cabinet Office,Government Procurement Service,Sourcing & Category Management Energy,RP702,Band 6 (Grade 6),54617,70478,Senior Category Lead,3.64,Procurement
+55,Cabinet Office,Government Procurement Service,Sourcing & Category Management Energy,RP708,Band 2 (EO),20417,28112,Category Executive,19.7,Procurement
+56,Cabinet Office,Government Procurement Service,Sourcing & Category Management,RP708,Band 3 (HEO),25534,33415,Category Specialist,24.5,Procurement
+57,Cabinet Office,Government Procurement Service,Sourcing & Category Management,RP708,Band 4 (SEO),32148,41991,Senior Category Specialist,46.34,Procurement
+58,Cabinet Office,Government Procurement Service,Sourcing & Category Management,RP708,Band 5 (Grade 7),43348,57612,Category Lead ,29.0,Procurement
+59,Cabinet Office,Government Procurement Service,Sourcing & Category Management,RP708,Band 6 (Grade 6),54617,70478,Senior Category Lead,15.0,Procurement
+60,Cabinet Office,Government Procurement Service,Sourcing & Category Management,RP708,Band 7,60000,75000,Head of Sourcing and Category Management,5.0,Procurement

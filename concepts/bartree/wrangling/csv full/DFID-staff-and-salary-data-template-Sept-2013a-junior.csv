@@ -1,0 +1,372 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,Department for International Development,DFID,Corporate Performance ,A2,A1 (G6),61381,70290,Administrator,2.0,Policy
+1,Department for International Development,DFID,Corporate Performance ,A2,A2 (G7),49410,58160,Administrator,4.8,Policy
+2,Department for International Development,DFID,Corporate Performance ,A21,A1 (G6),61381,70290,Administrator,1.0,Finance
+3,Department for International Development,DFID,Corporate Performance ,A21,A2(L) (SEO),41218,45380,Administrator,1.0,Finance
+4,Department for International Development,DFID,Corporate Performance ,A21,A2 (G7),49410,58160,Administrator,0.5,Policy
+5,Department for International Development,DFID,Corporate Performance ,A21,B1 (HEO),31320,35680,Administrator,2.0,Policy
+6,Department for International Development,DFID,Corporate Performance ,A21,B2 (EO),23930,28210,Administrator,4.5,Policy
+7,Department for International Development,DFID,Corporate Performance ,A21,C1 (AO),19500,23275,Administrator,7.8,Policy
+8,Department for International Development,DFID,Corporate Performance ,A21,C2 (AA),16080,20090,Administrator,1.0,Policy
+9,Department for International Development,DFID,Corporate Performance ,A27,A1 (G6),61381,70290,Administrator,12.0,Human Resources
+10,Department for International Development,DFID,Corporate Performance ,A27,A2 (G7),49410,58160,Administrator,5.0,Human Resources
+11,Department for International Development,DFID,Corporate Performance ,A27,B1 (HEO),31320,35680,Administrator,1.0,Human Resources
+12,Department for International Development,DFID,Corporate Performance ,A27,B2 (EO),23930,28210,Administrator,8.6,Human Resources
+13,Department for International Development,DFID,Corporate Performance ,B105,A1 (G6),61381,70290,Administrator,2.0,Finance
+14,Department for International Development,DFID,Corporate Performance ,B105,A2 (G7),49410,58160,Administrator,2.0,Finance
+15,Department for International Development,DFID,Corporate Performance ,B105,A2(L) (SEO),41218,45380,Administrator,7.0,Finance
+16,Department for International Development,DFID,Corporate Performance ,B105,B1 (HEO),31320,35680,Administrator,3.8,Finance
+17,Department for International Development,DFID,Corporate Performance ,B105,B2 (EO),23930,28210,Administrator,6.8,Finance
+18,Department for International Development,DFID,Corporate Performance ,B105,C1 (AO),19500,23275,Administrator,14.3,Finance
+19,Department for International Development,DFID,Corporate Performance ,B109,A1 (G6),61381,70290,Administrator,1.0,Policy
+20,Department for International Development,DFID,Corporate Performance ,B109,A2 (G7),49410,58160,Administrator,4.0,Policy
+21,Department for International Development,DFID,Corporate Performance ,B109,A2(L) (SEO),41218,45380,Administrator,5.0,Policy
+22,Department for International Development,DFID,Corporate Performance ,B109,B1 (HEO),31320,35680,Administrator,4.0,Policy
+23,Department for International Development,DFID,Corporate Performance ,B109,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+24,Department for International Development,DFID,Corporate Performance ,B109,B2 (EO),23930,28210,Administrator,1.0,Policy
+25,Department for International Development,DFID,Corporate Performance ,B123,A1 (G6),61381,70290,Administrator,4.0,Finance
+26,Department for International Development,DFID,Corporate Performance ,B123,A2 (G7),49410,58160,Administrator,13.0,Finance
+27,Department for International Development,DFID,Corporate Performance ,B123,A2(L) (SEO),41218,45380,Administrator,4.4,Finance
+28,Department for International Development,DFID,Corporate Performance ,B123,B1 (HEO),31320,35680,Administrator,4.8,Finance
+29,Department for International Development,DFID,Corporate Performance ,B123,B1D (Faststream),26800,37195,Administrator,4.0,Finance
+30,Department for International Development,DFID,Corporate Performance ,B123,B2 (EO),23930,28210,Administrator,4.8,Finance
+31,Department for International Development,DFID,Corporate Performance ,B134,A1 (G6),61381,70290,Administrator,2.0,Policy
+32,Department for International Development,DFID,Corporate Performance ,B134,A2 (G7),49410,58160,Administrator,8.0,Policy
+33,Department for International Development,DFID,Corporate Performance ,B134,A2(L) (SEO),41218,45380,Administrator,18.9,Policy
+34,Department for International Development,DFID,Corporate Performance ,B134,B1 (HEO),31320,35680,Administrator,9.6,Policy
+35,Department for International Development,DFID,Corporate Performance ,B134,B2 (EO),23930,28210,Administrator,5.0,Policy
+36,Department for International Development,DFID,Corporate Performance ,B134,C1 (AO),19500,23275,Administrator,3.4,Policy
+37,Department for International Development,DFID,Corporate Performance ,B139,A2 (G7),49410,58160,Administrator,3.0,Communications
+38,Department for International Development,DFID,Corporate Performance ,B139,A2(L) (SEO),41218,45380,Administrator,5.0,Communications
+39,Department for International Development,DFID,Corporate Performance ,B139,B1 (HEO),31320,35680,Administrator,3.0,Communications
+40,Department for International Development,DFID,Corporate Performance ,B139,B1D (Faststream),26800,37195,Administrator,1.0,Communications
+41,Department for International Development,DFID,Corporate Performance ,B139,B2 (EO),23930,28210,Administrator,1.0,Communications
+42,Department for International Development,DFID,Corporate Performance ,B38,A1 (G6),61381,70290,Administrator,6.0,Communications
+43,Department for International Development,DFID,Corporate Performance ,B38,A2 (G7),49410,58160,Administrator,8.8,Communications
+44,Department for International Development,DFID,Corporate Performance ,B38,A2(L) (SEO),41218,45380,Administrator,8.0,Communications
+45,Department for International Development,DFID,Corporate Performance ,B38,B1 (HEO),31320,35680,Administrator,8.8,Communications
+46,Department for International Development,DFID,Corporate Performance ,B38,B2 (EO),23930,28210,Administrator,2.0,Communications
+47,Department for International Development,DFID,Corporate Performance ,B41,A1 (G6),61381,70290,Administrator,5.0,Information Technology
+48,Department for International Development,DFID,Corporate Performance ,B41,A2 (G7),49410,58160,Administrator,14.4,Information Technology
+49,Department for International Development,DFID,Corporate Performance ,B41,A2(L) (SEO),41218,45380,Administrator,22.4,Information Technology
+50,Department for International Development,DFID,Corporate Performance ,B41,B1 (HEO),31320,35680,Administrator,24.4,Information Technology
+51,Department for International Development,DFID,Corporate Performance ,B41,B1D (Faststream),26800,37195,Administrator,4.0,Information Technology
+52,Department for International Development,DFID,Corporate Performance ,B41,B2 (EO),23930,28210,Administrator,27.2,Information Technology
+53,Department for International Development,DFID,Corporate Performance ,B41,C1 (AO),19500,23275,Administrator,2.0,Information Technology
+54,Department for International Development,DFID,Corporate Performance ,B47,A2 (G7),49410,58160,Administrator,1.5,Human Resources
+55,Department for International Development,DFID,Corporate Performance ,B47,A2(L) (SEO),41218,45380,Administrator,4.9,Human Resources
+56,Department for International Development,DFID,Corporate Performance ,B47,B1 (HEO),31320,35680,Administrator,7.0,Human Resources
+57,Department for International Development,DFID,Corporate Performance ,B47,B2 (EO),23930,28210,Administrator,10.9,Human Resources
+58,Department for International Development,DFID,Corporate Performance ,B47,C1 (AO),19500,23275,Administrator,7.5,Human Resources
+59,Department for International Development,DFID,Corporate Performance ,B47,A1 (G6),61381,70290,Administrator,3.0,Policy
+60,Department for International Development,DFID,Corporate Performance ,B47,A2 (G7),49410,58160,Administrator,8.0,Policy
+61,Department for International Development,DFID,Corporate Performance ,B47,A2(L) (SEO),41218,45380,Administrator,7.0,Policy
+62,Department for International Development,DFID,Corporate Performance ,B47,B1 (HEO),31320,35680,Administrator,12.0,Policy
+63,Department for International Development,DFID,Corporate Performance ,B47,B2 (EO),23930,28210,Administrator,19.8,Policy
+64,Department for International Development,DFID,Corporate Performance ,B47,C1 (AO),19500,23275,Administrator,4.6,Policy
+65,Department for International Development,DFID,Corporate Performance ,B47,C2 (AA),16080,20090,Administrator,7.0,Policy
+66,Department for International Development,DFID,Corporate Performance ,B60,A1 (G6),61381,70290,Administrator,3.0,Human Resources
+67,Department for International Development,DFID,Corporate Performance ,B60,A2 (G7),49410,58160,Administrator,7.9,Human Resources
+68,Department for International Development,DFID,Corporate Performance ,B60,A2(L) (SEO),41218,45380,Administrator,6.8,Human Resources
+69,Department for International Development,DFID,Corporate Performance ,B60,B1 (HEO),31320,35680,Administrator,4.9,Human Resources
+70,Department for International Development,DFID,Corporate Performance ,B60,B2 (EO),23930,28210,Administrator,2.0,Human Resources
+71,Department for International Development,DFID,Corporate Performance ,B60,C1 (AO),19500,23275,Administrator,1.0,Human Resources
+72,Department for International Development,DFID,Country Programmes,A10,A1 (G6),61381,70290,Administrator,2.0,Policy
+73,Department for International Development,DFID,Country Programmes,A10,A2 (G7),49410,58160,Administrator,2.0,Policy
+74,Department for International Development,DFID,Country Programmes,A10,A2(L) (SEO),41218,45380,Administrator,2.0,Policy
+75,Department for International Development,DFID,Country Programmes,A10,B1 (HEO),31320,35680,Administrator,1.0,Policy
+76,Department for International Development,DFID,Country Programmes,A13,A1 (G6),61381,70290,Administrator,6.0,Policy
+77,Department for International Development,DFID,Country Programmes,A13,A2 (G7),49410,58160,Administrator,3.0,Policy
+78,Department for International Development,DFID,Country Programmes,A13,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+79,Department for International Development,DFID,Country Programmes,A23,A1 (G6),61381,70290,Administrator,1.0,Policy
+80,Department for International Development,DFID,Country Programmes,A25,A1 (G6),61381,70290,Administrator,2.0,Policy
+81,Department for International Development,DFID,Country Programmes,A25,A2 (G7),49410,58160,Administrator,4.7,Policy
+82,Department for International Development,DFID,Country Programmes,A25,B1 (HEO),31320,35680,Administrator,4.0,Policy
+83,Department for International Development,DFID,Country Programmes,A25,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+84,Department for International Development,DFID,Country Programmes,A25,B2 (EO),23930,28210,Administrator,2.0,Policy
+85,Department for International Development,DFID,Country Programmes,A26,A1 (G6),61381,70290,Administrator,7.0,Policy
+86,Department for International Development,DFID,Country Programmes,A26,A2 (G7),49410,58160,Administrator,10.6,Policy
+87,Department for International Development,DFID,Country Programmes,A26,B1 (HEO),31320,35680,Administrator,4.0,Policy
+88,Department for International Development,DFID,Country Programmes,A26,B2 (EO),23930,28210,Administrator,2.0,Policy
+89,Department for International Development,DFID,Country Programmes,A26,C1 (AO),19500,23275,Administrator,1.9,Policy
+90,Department for International Development,DFID,Country Programmes,A28,A1 (G6),61381,70290,Administrator,4.0,Policy
+91,Department for International Development,DFID,Country Programmes,B106,A1 (G6),61381,70290,Administrator,5.5,Policy
+92,Department for International Development,DFID,Country Programmes,B106,A2 (G7),49410,58160,Administrator,15.7,Policy
+93,Department for International Development,DFID,Country Programmes,B106,A2(L) (SEO),41218,45380,Administrator,5.0,Policy
+94,Department for International Development,DFID,Country Programmes,B106,B1 (HEO),31320,35680,Administrator,5.0,Policy
+95,Department for International Development,DFID,Country Programmes,B106,B2 (EO),23930,28210,Administrator,5.0,Policy
+96,Department for International Development,DFID,Country Programmes,B106,C1 (AO),19500,23275,Administrator,1.0,Policy
+97,Department for International Development,DFID,Country Programmes,B108,A1 (G6),61381,70290,Administrator,1.0,Policy
+98,Department for International Development,DFID,Country Programmes,B108,A2 (G7),49410,58160,Administrator,1.0,Policy
+99,Department for International Development,DFID,Country Programmes,B112,A1 (G6),61381,70290,Administrator,1.0,Policy
+100,Department for International Development,DFID,Country Programmes,B112,A2 (G7),49410,58160,Administrator,8.0,Policy
+101,Department for International Development,DFID,Country Programmes,B112,B1 (HEO),31320,35680,Administrator,1.0,Policy
+102,Department for International Development,DFID,Country Programmes,B112,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+103,Department for International Development,DFID,Country Programmes,B113,A1 (G6),61381,70290,Administrator,9.0,Policy
+104,Department for International Development,DFID,Country Programmes,B113,A2 (G7),49410,58160,Administrator,17.0,Policy
+105,Department for International Development,DFID,Country Programmes,B113,A2(L) (SEO),41218,45380,Administrator,2.0,Policy
+106,Department for International Development,DFID,Country Programmes,B113,B1 (HEO),31320,35680,Administrator,3.0,Policy
+107,Department for International Development,DFID,Country Programmes,B113,B2 (EO),23930,28210,Administrator,1.0,Policy
+108,Department for International Development,DFID,Country Programmes,B115,A1 (G6),61381,70290,Administrator,6.0,Policy
+109,Department for International Development,DFID,Country Programmes,B115,A2 (G7),49410,58160,Administrator,6.0,Policy
+110,Department for International Development,DFID,Country Programmes,B115,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+111,Department for International Development,DFID,Country Programmes,B118,A1 (G6),61381,70290,Administrator,4.0,Policy
+112,Department for International Development,DFID,Country Programmes,B118,A2 (G7),49410,58160,Administrator,8.0,Policy
+113,Department for International Development,DFID,Country Programmes,B118,A2(L) (SEO),41218,45380,Administrator,1.0,Policy
+114,Department for International Development,DFID,Country Programmes,B121,A1 (G6),61381,70290,Administrator,10.0,Policy
+115,Department for International Development,DFID,Country Programmes,B121,A2 (G7),49410,58160,Administrator,20.0,Policy
+116,Department for International Development,DFID,Country Programmes,B121,B1 (HEO),31320,35680,Administrator,5.4,Policy
+117,Department for International Development,DFID,Country Programmes,B121,B1D (Faststream),26800,37195,Administrator,9.0,Policy
+118,Department for International Development,DFID,Country Programmes,B121,B2 (EO),23930,28210,Administrator,7.2,Policy
+119,Department for International Development,DFID,Country Programmes,B124,A1 (G6),61381,70290,Administrator,7.0,Policy
+120,Department for International Development,DFID,Country Programmes,B124,A2 (G7),49410,58160,Administrator,9.0,Policy
+121,Department for International Development,DFID,Country Programmes,B124,B1 (HEO),31320,35680,Administrator,1.0,Policy
+122,Department for International Development,DFID,Country Programmes,B124,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+123,Department for International Development,DFID,Country Programmes,B127,A1 (G6),61381,70290,Administrator,1.0,Policy
+124,Department for International Development,DFID,Country Programmes,B127,A2 (G7),49410,58160,Administrator,12.0,Policy
+125,Department for International Development,DFID,Country Programmes,B127,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+126,Department for International Development,DFID,Country Programmes,B129,A1 (G6),61381,70290,Administrator,7.0,Policy
+127,Department for International Development,DFID,Country Programmes,B129,A2 (G7),49410,58160,Administrator,8.0,Policy
+128,Department for International Development,DFID,Country Programmes,B129,B1 (HEO),31320,35680,Administrator,1.0,Policy
+129,Department for International Development,DFID,Country Programmes,B129,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+130,Department for International Development,DFID,Country Programmes,B130,A1 (G6),61381,70290,Administrator,16.0,Policy
+131,Department for International Development,DFID,Country Programmes,B130,A2 (G7),49410,58160,Administrator,10.0,Policy
+132,Department for International Development,DFID,Country Programmes,B130,A2(L) (SEO),41218,45380,Administrator,2.0,Policy
+133,Department for International Development,DFID,Country Programmes,B130,B1 (HEO),31320,35680,Administrator,1.0,Policy
+134,Department for International Development,DFID,Country Programmes,B130,B1D (Faststream),26800,37195,Administrator,3.0,Policy
+135,Department for International Development,DFID,Country Programmes,B130,B2 (EO),23930,28210,Administrator,1.0,Policy
+136,Department for International Development,DFID,Country Programmes,B131,A1 (G6),61381,70290,Administrator,10.0,Policy
+137,Department for International Development,DFID,Country Programmes,B131,A2 (G7),49410,58160,Administrator,9.0,Policy
+138,Department for International Development,DFID,Country Programmes,B137,A2 (G7),49410,58160,Administrator,3.0,Policy
+139,Department for International Development,DFID,Country Programmes,B142,A1 (G6),61381,70290,Administrator,4.0,Policy
+140,Department for International Development,DFID,Country Programmes,B142,A2 (G7),49410,58160,Administrator,5.0,Policy
+141,Department for International Development,DFID,Country Programmes,B142,A2(L) (SEO),41218,45380,Administrator,1.0,Policy
+142,Department for International Development,DFID,Country Programmes,B142,B1 (HEO),31320,35680,Administrator,1.0,Policy
+143,Department for International Development,DFID,Country Programmes,B49,A1 (G6),61381,70290,Administrator,5.0,Policy
+144,Department for International Development,DFID,Country Programmes,B49,A2 (G7),49410,58160,Administrator,5.0,Policy
+145,Department for International Development,DFID,Country Programmes,B49,A2(L) (SEO),41218,45380,Administrator,1.0,Policy
+146,Department for International Development,DFID,Country Programmes,B49,B1 (HEO),31320,35680,Administrator,5.0,Policy
+147,Department for International Development,DFID,Country Programmes,B52,A1 (G6),61381,70290,Administrator,5.0,Policy
+148,Department for International Development,DFID,Country Programmes,B52,A2 (G7),49410,58160,Administrator,7.0,Policy
+149,Department for International Development,DFID,Country Programmes,B52,A2(L) (SEO),41218,45380,Administrator,5.0,Policy
+150,Department for International Development,DFID,Country Programmes,B52,B1 (HEO),31320,35680,Administrator,1.0,Policy
+151,Department for International Development,DFID,Country Programmes,B52,B1D (Faststream),26800,37195,Administrator,3.0,Policy
+152,Department for International Development,DFID,Country Programmes,B54,A1 (G6),61381,70290,Administrator,27.0,Policy
+153,Department for International Development,DFID,Country Programmes,B54,A2 (G7),49410,58160,Administrator,21.6,Policy
+154,Department for International Development,DFID,Country Programmes,B54,A2(L) (SEO),41218,45380,Administrator,5.8,Policy
+155,Department for International Development,DFID,Country Programmes,B54,B1 (HEO),31320,35680,Administrator,9.0,Policy
+156,Department for International Development,DFID,Country Programmes,B54,B1D (Faststream),26800,37195,Administrator,2.0,Policy
+157,Department for International Development,DFID,Country Programmes,B54,B2 (EO),23930,28210,Administrator,7.0,Policy
+158,Department for International Development,DFID,Country Programmes,B54,C1 (AO),19500,23275,Administrator,2.0,Policy
+159,Department for International Development,DFID,Country Programmes,B55,A1 (G6),61381,70290,Administrator,4.0,Policy
+160,Department for International Development,DFID,Country Programmes,B55,A2 (G7),49410,58160,Administrator,11.0,Policy
+161,Department for International Development,DFID,Country Programmes,B55,A2(L) (SEO),41218,45380,Administrator,4.0,Policy
+162,Department for International Development,DFID,Country Programmes,B55,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+163,Department for International Development,DFID,Country Programmes,B56,A1 (G6),61381,70290,Administrator,6.0,Policy
+164,Department for International Development,DFID,Country Programmes,B56,A2 (G7),49410,58160,Administrator,13.0,Policy
+165,Department for International Development,DFID,Country Programmes,B56,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+166,Department for International Development,DFID,Country Programmes,B57,A1 (G6),61381,70290,Administrator,4.0,Policy
+167,Department for International Development,DFID,Country Programmes,B57,A2 (G7),49410,58160,Administrator,6.0,Policy
+168,Department for International Development,DFID,Country Programmes,B57,A2(L) (SEO),41218,45380,Administrator,1.0,Policy
+169,Department for International Development,DFID,Country Programmes,B57,B1 (HEO),31320,35680,Administrator,2.0,Policy
+170,Department for International Development,DFID,Country Programmes,B57,B1D (Faststream),26800,37195,Administrator,2.0,Policy
+171,Department for International Development,DFID,Country Programmes,B61,A1 (G6),61381,70290,Administrator,5.0,Policy
+172,Department for International Development,DFID,Country Programmes,B61,A2 (G7),49410,58160,Administrator,5.0,Policy
+173,Department for International Development,DFID,Country Programmes,B61,A2(L) (SEO),41218,45380,Administrator,1.0,Policy
+174,Department for International Development,DFID,Country Programmes,B61,B1 (HEO),31320,35680,Administrator,1.0,Policy
+175,Department for International Development,DFID,Country Programmes,B62,A1 (G6),61381,70290,Administrator,5.0,Policy
+176,Department for International Development,DFID,Country Programmes,B62,A2 (G7),49410,58160,Administrator,6.0,Policy
+177,Department for International Development,DFID,Country Programmes,B62,A2(L) (SEO),41218,45380,Administrator,3.0,Policy
+178,Department for International Development,DFID,Country Programmes,B62,B1 (HEO),31320,35680,Administrator,5.0,Policy
+179,Department for International Development,DFID,Country Programmes,B62,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+180,Department for International Development,DFID,Country Programmes,B62,B2 (EO),23930,28210,Administrator,2.0,Policy
+181,Department for International Development,DFID,Country Programmes,B62,C1 (AO),19500,23275,Administrator,1.0,Policy
+182,Department for International Development,DFID,Country Programmes,B68,A1 (G6),61381,70290,Administrator,8.0,Policy
+183,Department for International Development,DFID,Country Programmes,B68,A2 (G7),49410,58160,Administrator,20.0,Policy
+184,Department for International Development,DFID,Country Programmes,B68,A2(L) (SEO),41218,45380,Administrator,8.0,Policy
+185,Department for International Development,DFID,Country Programmes,B68,B1 (HEO),31320,35680,Administrator,5.0,Policy
+186,Department for International Development,DFID,Country Programmes,B68,B1D (Faststream),26800,37195,Administrator,3.0,Policy
+187,Department for International Development,DFID,Country Programmes,B68,B2 (EO),23930,28210,Administrator,2.0,Policy
+188,Department for International Development,DFID,Country Programmes,B70,A1 (G6),61381,70290,Administrator,2.0,Policy
+189,Department for International Development,DFID,Country Programmes,B70,A2 (G7),49410,58160,Administrator,5.0,Policy
+190,Department for International Development,DFID,Country Programmes,B70,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+191,Department for International Development,DFID,Country Programmes,B72,A1 (G6),61381,70290,Administrator,15.0,Policy
+192,Department for International Development,DFID,Country Programmes,B72,A2 (G7),49410,58160,Administrator,19.0,Policy
+193,Department for International Development,DFID,Country Programmes,B72,A2(L) (SEO),41218,45380,Administrator,2.0,Policy
+194,Department for International Development,DFID,Country Programmes,B72,B1 (HEO),31320,35680,Administrator,4.0,Policy
+195,Department for International Development,DFID,Country Programmes,B72,B1D (Faststream),26800,37195,Administrator,3.0,Policy
+196,Department for International Development,DFID,Country Programmes,B72,B2 (EO),23930,28210,Administrator,1.0,Policy
+197,Department for International Development,DFID,Country Programmes,B77,A1 (G6),61381,70290,Administrator,5.0,Policy
+198,Department for International Development,DFID,Country Programmes,B77,A2 (G7),49410,58160,Administrator,11.0,Policy
+199,Department for International Development,DFID,Country Programmes,B77,A2(L) (SEO),41218,45380,Administrator,2.0,Policy
+200,Department for International Development,DFID,Country Programmes,B77,B1 (HEO),31320,35680,Administrator,3.0,Policy
+201,Department for International Development,DFID,Country Programmes,B77,B1D (Faststream),26800,37195,Administrator,3.0,Policy
+202,Department for International Development,DFID,Country Programmes,B78,A1 (G6),61381,70290,Administrator,4.0,Policy
+203,Department for International Development,DFID,Country Programmes,B78,A2 (G7),49410,58160,Administrator,7.0,Policy
+204,Department for International Development,DFID,Country Programmes,B78,A2(L) (SEO),41218,45380,Administrator,1.0,Policy
+205,Department for International Development,DFID,Country Programmes,B78,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+206,Department for International Development,DFID,Country Programmes,B80,A1 (G6),61381,70290,Administrator,2.0,Policy
+207,Department for International Development,DFID,Country Programmes,B80,A2 (G7),49410,58160,Administrator,6.0,Policy
+208,Department for International Development,DFID,Country Programmes,B80,A2(L) (SEO),41218,45380,Administrator,1.0,Policy
+209,Department for International Development,DFID,Country Programmes,B80,C1 (AO),19500,23275,Administrator,1.0,Policy
+210,Department for International Development,DFID,Country Programmes,B86,A1 (G6),61381,70290,Administrator,7.0,Policy
+211,Department for International Development,DFID,Country Programmes,B86,A2 (G7),49410,58160,Administrator,3.0,Policy
+212,Department for International Development,DFID,Country Programmes,B86,B1 (HEO),31320,35680,Administrator,1.0,Policy
+213,Department for International Development,DFID,Country Programmes,B89,A1 (G6),61381,70290,Administrator,18.3,Policy
+214,Department for International Development,DFID,Country Programmes,B89,A2 (G7),49410,58160,Administrator,36.2,Policy
+215,Department for International Development,DFID,Country Programmes,B89,A2(L) (SEO),41218,45380,Administrator,7.0,Policy
+216,Department for International Development,DFID,Country Programmes,B89,B1 (HEO),31320,35680,Administrator,16.3,Policy
+217,Department for International Development,DFID,Country Programmes,B89,B1D (Faststream),26800,37195,Administrator,3.0,Policy
+218,Department for International Development,DFID,Country Programmes,B89,B2 (EO),23930,28210,Administrator,6.0,Policy
+219,Department for International Development,DFID,Country Programmes,B89,C1 (AO),19500,23275,Administrator,4.7,Policy
+220,Department for International Development,DFID,Country Programmes,B93,A1 (G6),61381,70290,Administrator,5.0,Policy
+221,Department for International Development,DFID,Country Programmes,B93,A2 (G7),49410,58160,Administrator,11.0,Policy
+222,Department for International Development,DFID,Country Programmes,B93,B1 (HEO),31320,35680,Administrator,6.0,Policy
+223,Department for International Development,DFID,Country Programmes,B93,B1D (Faststream),26800,37195,Administrator,2.0,Policy
+224,Department for International Development,DFID,Country Programmes,B93,B2 (EO),23930,28210,Administrator,3.0,Policy
+225,Department for International Development,DFID,ICAI,B62,B2 (EO),23930,28210,Administrator,0.7,Policy
+226,Department for International Development,DFID,Policy & International,A19,A1 (G6),61381,70290,Administrator,2.0,Policy
+227,Department for International Development,DFID,Policy & International,A19,A2 (G7),49410,58160,Administrator,3.8,Policy
+228,Department for International Development,DFID,Policy & International,A19,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+229,Department for International Development,DFID,Policy & International,A19,B2 (EO),23930,28210,Administrator,1.0,Policy
+230,Department for International Development,DFID,Policy & International,A19,C1 (AO),19500,23275,Administrator,1.0,Policy
+231,Department for International Development,DFID,Policy & International,A20,A1 (G6),61381,70290,Administrator,11.2,Policy
+232,Department for International Development,DFID,Policy & International,A20,A2 (G7),49410,58160,Administrator,15.8,Policy
+233,Department for International Development,DFID,Policy & International,A20,A2(L) (SEO),41218,45380,Administrator,2.0,Policy
+234,Department for International Development,DFID,Policy & International,A20,B1 (HEO),31320,35680,Administrator,8.0,Policy
+235,Department for International Development,DFID,Policy & International,A20,B1D (Faststream),26800,37195,Administrator,2.0,Policy
+236,Department for International Development,DFID,Policy & International,A20,B2 (EO),23930,28210,Administrator,4.0,Policy
+237,Department for International Development,DFID,Policy & International,A20,C1 (AO),19500,23275,Administrator,4.3,Policy
+238,Department for International Development,DFID,Policy & International,A23,A1 (G6),61381,70290,Administrator,14.8,Policy
+239,Department for International Development,DFID,Policy & International,A23,A2 (G7),49410,58160,Administrator,14.5,Policy
+240,Department for International Development,DFID,Policy & International,A23,A2(L) (SEO),41218,45380,Administrator,2.5,Policy
+241,Department for International Development,DFID,Policy & International,A23,B1 (HEO),31320,35680,Administrator,7.0,Policy
+242,Department for International Development,DFID,Policy & International,A23,B1D (Faststream),26800,37195,Administrator,3.0,Policy
+243,Department for International Development,DFID,Policy & International,A23,B2 (EO),23930,28210,Administrator,2.0,Policy
+244,Department for International Development,DFID,Policy & International,A23,C1 (AO),19500,23275,Administrator,5.0,Policy
+245,Department for International Development,DFID,Policy & International,A24,A1 (G6),61381,70290,Administrator,3.6,Policy
+246,Department for International Development,DFID,Policy & International,A24,A2 (G7),49410,58160,Administrator,4.2,Policy
+247,Department for International Development,DFID,Policy & International,A24,B1 (HEO),31320,35680,Administrator,0.9,Policy
+248,Department for International Development,DFID,Policy & International,A24,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+249,Department for International Development,DFID,Policy & International,A24,B2 (EO),23930,28210,Administrator,2.0,Policy
+250,Department for International Development,DFID,Policy & International,A29,A1 (G6),61381,70290,Administrator,2.8,Policy
+251,Department for International Development,DFID,Policy & International,A29,A2 (G7),49410,58160,Administrator,6.9,Policy
+252,Department for International Development,DFID,Policy & International,A29,A2(L) (SEO),41218,45380,Administrator,1.0,Policy
+253,Department for International Development,DFID,Policy & International,A29,B1 (HEO),31320,35680,Administrator,2.0,Policy
+254,Department for International Development,DFID,Policy & International,A29,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+255,Department for International Development,DFID,Policy & International,A29,C1 (AO),19500,23275,Administrator,0.6,Policy
+256,Department for International Development,DFID,Policy & International,B100,A1 (G6),61381,70290,Administrator,8.7,Policy
+257,Department for International Development,DFID,Policy & International,B100,A2 (G7),49410,58160,Administrator,21.8,Policy
+258,Department for International Development,DFID,Policy & International,B100,A2(L) (SEO),41218,45380,Administrator,3.2,Policy
+259,Department for International Development,DFID,Policy & International,B100,B1 (HEO),31320,35680,Administrator,3.0,Policy
+260,Department for International Development,DFID,Policy & International,B100,B2 (EO),23930,28210,Administrator,3.8,Policy
+261,Department for International Development,DFID,Policy & International,B100,C1 (AO),19500,23275,Administrator,1.0,Policy
+262,Department for International Development,DFID,Policy & International,B110,A1 (G6),61381,70290,Administrator,7.0,Policy
+263,Department for International Development,DFID,Policy & International,B110,A2 (G7),49410,58160,Administrator,14.0,Policy
+264,Department for International Development,DFID,Policy & International,B110,A2(L) (SEO),41218,45380,Administrator,1.0,Policy
+265,Department for International Development,DFID,Policy & International,B110,B1 (HEO),31320,35680,Administrator,2.0,Policy
+266,Department for International Development,DFID,Policy & International,B110,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+267,Department for International Development,DFID,Policy & International,B110,B2 (EO),23930,28210,Administrator,3.0,Policy
+268,Department for International Development,DFID,Policy & International,B110,C1 (AO),19500,23275,Administrator,0.8,Policy
+269,Department for International Development,DFID,Policy & International,B111,A1 (G6),61381,70290,Administrator,2.0,Policy
+270,Department for International Development,DFID,Policy & International,B111,A2 (G7),49410,58160,Administrator,5.0,Policy
+271,Department for International Development,DFID,Policy & International,B111,A2(L) (SEO),41218,45380,Administrator,1.0,Policy
+272,Department for International Development,DFID,Policy & International,B111,B1 (HEO),31320,35680,Administrator,3.6,Policy
+273,Department for International Development,DFID,Policy & International,B111,B2 (EO),23930,28210,Administrator,3.0,Policy
+274,Department for International Development,DFID,Policy & International,B111,C1 (AO),19500,23275,Administrator,1.0,Policy
+275,Department for International Development,DFID,Policy & International,B114,A1 (G6),61381,70290,Administrator,9.0,Policy
+276,Department for International Development,DFID,Policy & International,B114,A2 (G7),49410,58160,Administrator,2.0,Policy
+277,Department for International Development,DFID,Policy & International,B114,A2(L) (SEO),41218,45380,Administrator,6.0,Policy
+278,Department for International Development,DFID,Policy & International,B114,B1 (HEO),31320,35680,Administrator,3.5,Policy
+279,Department for International Development,DFID,Policy & International,B114,B2 (EO),23930,28210,Administrator,1.8,Policy
+280,Department for International Development,DFID,Policy & International,B114,C1 (AO),19500,23275,Administrator,5.0,Policy
+281,Department for International Development,DFID,Policy & International,B115,B2 (EO),23930,28210,Administrator,1.0,Policy
+282,Department for International Development,DFID,Policy & International,B116,A1 (G6),61381,70290,Administrator,3.0,Policy
+283,Department for International Development,DFID,Policy & International,B116,A2 (G7),49410,58160,Administrator,5.0,Policy
+284,Department for International Development,DFID,Policy & International,B116,B1 (HEO),31320,35680,Administrator,2.0,Policy
+285,Department for International Development,DFID,Policy & International,B116,B1D (Faststream),26800,37195,Administrator,2.0,Policy
+286,Department for International Development,DFID,Policy & International,B116,B2 (EO),23930,28210,Administrator,1.0,Policy
+287,Department for International Development,DFID,Policy & International,B116,C1 (AO),19500,23275,Administrator,1.0,Policy
+288,Department for International Development,DFID,Policy & International,B117,A1 (G6),61381,70290,Administrator,2.0,Policy
+289,Department for International Development,DFID,Policy & International,B117,A2 (G7),49410,58160,Administrator,4.0,Policy
+290,Department for International Development,DFID,Policy & International,B117,A2(L) (SEO),41218,45380,Administrator,2.0,Policy
+291,Department for International Development,DFID,Policy & International,B117,B1 (HEO),31320,35680,Administrator,3.5,Policy
+292,Department for International Development,DFID,Policy & International,B117,B2 (EO),23930,28210,Administrator,1.6,Policy
+293,Department for International Development,DFID,Policy & International,B117,C1 (AO),19500,23275,Administrator,1.0,Policy
+294,Department for International Development,DFID,Policy & International,B119,A1 (G6),61381,70290,Administrator,1.0,Policy
+295,Department for International Development,DFID,Policy & International,B119,A2 (G7),49410,58160,Administrator,3.9,Policy
+296,Department for International Development,DFID,Policy & International,B119,A2(L) (SEO),41218,45380,Administrator,2.0,Policy
+297,Department for International Development,DFID,Policy & International,B119,B1 (HEO),31320,35680,Administrator,3.2,Policy
+298,Department for International Development,DFID,Policy & International,B119,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+299,Department for International Development,DFID,Policy & International,B119,B2 (EO),23930,28210,Administrator,2.9,Policy
+300,Department for International Development,DFID,Policy & International,B119,C1 (AO),19500,23275,Administrator,1.0,Policy
+301,Department for International Development,DFID,Policy & International,B122,A1 (G6),61381,70290,Administrator,13.4,Policy
+302,Department for International Development,DFID,Policy & International,B122,A2 (G7),49410,58160,Administrator,21.7,Policy
+303,Department for International Development,DFID,Policy & International,B122,A2(L) (SEO),41218,45380,Administrator,2.0,Policy
+304,Department for International Development,DFID,Policy & International,B122,B1 (HEO),31320,35680,Administrator,7.0,Policy
+305,Department for International Development,DFID,Policy & International,B122,B2 (EO),23930,28210,Administrator,7.9,Policy
+306,Department for International Development,DFID,Policy & International,B122,C1 (AO),19500,23275,Administrator,2.0,Policy
+307,Department for International Development,DFID,Policy & International,B123,A1 (G6),61381,70290,Administrator,1.0,Policy
+308,Department for International Development,DFID,Policy & International,B125,A2 (G7),49410,58160,Administrator,1.0,Policy
+309,Department for International Development,DFID,Policy & International,B125,B1 (HEO),31320,35680,Administrator,1.0,Policy
+310,Department for International Development,DFID,Policy & International,B125,B2 (EO),23930,28210,Administrator,1.0,Policy
+311,Department for International Development,DFID,Policy & International,B126,A1 (G6),61381,70290,Administrator,11.4,Policy
+312,Department for International Development,DFID,Policy & International,B126,A2 (G7),49410,58160,Administrator,12.9,Policy
+313,Department for International Development,DFID,Policy & International,B126,A2(L) (SEO),41218,45380,Administrator,4.0,Policy
+314,Department for International Development,DFID,Policy & International,B126,B1 (HEO),31320,35680,Administrator,4.0,Policy
+315,Department for International Development,DFID,Policy & International,B126,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+316,Department for International Development,DFID,Policy & International,B135,A1 (G6),61381,70290,Administrator,4.0,Policy
+317,Department for International Development,DFID,Policy & International,B135,A2 (G7),49410,58160,Administrator,9.9,Policy
+318,Department for International Development,DFID,Policy & International,B135,A2(L) (SEO),41218,45380,Administrator,1.0,Policy
+319,Department for International Development,DFID,Policy & International,B135,B1 (HEO),31320,35680,Administrator,2.7,Policy
+320,Department for International Development,DFID,Policy & International,B135,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+321,Department for International Development,DFID,Policy & International,B135,B2 (EO),23930,28210,Administrator,0.6,Policy
+322,Department for International Development,DFID,Policy & International,B135,C1 (AO),19500,23275,Administrator,1.0,Policy
+323,Department for International Development,DFID,Policy & International,B136,A1 (G6),61381,70290,Administrator,3.8,Policy
+324,Department for International Development,DFID,Policy & International,B136,A2 (G7),49410,58160,Administrator,4.9,Policy
+325,Department for International Development,DFID,Policy & International,B136,B1 (HEO),31320,35680,Administrator,1.0,Policy
+326,Department for International Development,DFID,Policy & International,B136,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+327,Department for International Development,DFID,Policy & International,B136,C1 (AO),19500,23275,Administrator,1.0,Policy
+328,Department for International Development,DFID,Policy & International,B43,A1 (G6),61381,70290,Administrator,1.0,Policy
+329,Department for International Development,DFID,Policy & International,B43,A2 (G7),49410,58160,Administrator,4.0,Policy
+330,Department for International Development,DFID,Policy & International,B43,A2(L) (SEO),41218,45380,Administrator,2.0,Policy
+331,Department for International Development,DFID,Policy & International,B50,A1 (G6),61381,70290,Administrator,2.6,Policy
+332,Department for International Development,DFID,Policy & International,B50,A2 (G7),49410,58160,Administrator,7.2,Policy
+333,Department for International Development,DFID,Policy & International,B50,B1 (HEO),31320,35680,Administrator,2.0,Policy
+334,Department for International Development,DFID,Policy & International,B50,B1D (Faststream),26800,37195,Administrator,2.0,Policy
+335,Department for International Development,DFID,Policy & International,B50,C1 (AO),19500,23275,Administrator,1.0,Policy
+336,Department for International Development,DFID,Policy & International,B58,A1 (G6),61381,70290,Administrator,5.8,Policy
+337,Department for International Development,DFID,Policy & International,B58,A2 (G7),49410,58160,Administrator,14.2,Policy
+338,Department for International Development,DFID,Policy & International,B58,A2(L) (SEO),41218,45380,Administrator,6.0,Policy
+339,Department for International Development,DFID,Policy & International,B58,B1 (HEO),31320,35680,Administrator,2.8,Policy
+340,Department for International Development,DFID,Policy & International,B58,B1D (Faststream),26800,37195,Administrator,2.0,Policy
+341,Department for International Development,DFID,Policy & International,B58,B2 (EO),23930,28210,Administrator,3.0,Policy
+342,Department for International Development,DFID,Policy & International,B58,C1 (AO),19500,23275,Administrator,1.0,Policy
+343,Department for International Development,DFID,Policy & International,B59,A1 (G6),61381,70290,Administrator,3.9,Policy
+344,Department for International Development,DFID,Policy & International,B59,A2 (G7),49410,58160,Administrator,6.0,Policy
+345,Department for International Development,DFID,Policy & International,B59,A2(L) (SEO),41218,45380,Administrator,1.0,Policy
+346,Department for International Development,DFID,Policy & International,B59,B1 (HEO),31320,35680,Administrator,3.0,Policy
+347,Department for International Development,DFID,Policy & International,B59,B1D (Faststream),26800,37195,Administrator,2.0,Policy
+348,Department for International Development,DFID,Policy & International,B59,B2 (EO),23930,28210,Administrator,2.9,Policy
+349,Department for International Development,DFID,Policy & International,B59,C1 (AO),19500,23275,Administrator,2.0,Policy
+350,Department for International Development,DFID,Policy & International,B80,A2 (G7),49410,58160,Administrator,1.0,Policy
+351,Department for International Development,DFID,Policy & International,B87,A1 (G6),61381,70290,Administrator,3.0,Policy
+352,Department for International Development,DFID,Policy & International,B87,A2 (G7),49410,58160,Administrator,5.0,Policy
+353,Department for International Development,DFID,Policy & International,B87,B1 (HEO),31320,35680,Administrator,1.0,Policy
+354,Department for International Development,DFID,Policy & International,B87,B1D (Faststream),26800,37195,Administrator,2.0,Policy
+355,Department for International Development,DFID,Policy & International,B87,B2 (EO),23930,28210,Administrator,2.0,Policy
+356,Department for International Development,DFID,Policy & International,B87,C1 (AO),19500,23275,Administrator,1.0,Policy
+357,Department for International Development,DFID,Policy & International,B99,A1 (G6),61381,70290,Administrator,1.0,Policy
+358,Department for International Development,DFID,Policy & International,B99,A2 (G7),49410,58160,Administrator,6.0,Policy
+359,Department for International Development,DFID,Policy & International,B99,A2(L) (SEO),41218,45380,Administrator,2.0,Policy
+360,Department for International Development,DFID,Policy & International,B99,B1 (HEO),31320,35680,Administrator,3.0,Policy
+361,Department for International Development,DFID,Policy & International,B99,B1D (Faststream),26800,37195,Administrator,1.0,Policy
+362,Department for International Development,DFID,Policy & International,B99,B2 (EO),23930,28210,Administrator,1.0,Policy
+363,Department for International Development,DFID,TMG,B108,A1 (G6),61381,70290,Administrator,5.0,Policy
+364,Department for International Development,DFID,TMG,B108,A2 (G7),49410,58160,Administrator,1.0,Policy
+365,Department for International Development,DFID,TMG,B108,A2(L) (SEO),41218,45380,Administrator,1.0,Policy
+366,Department for International Development,DFID,TMG,B108,B1 (HEO),31320,35680,Administrator,8.0,Policy
+367,Department for International Development,DFID,TMG,B108,B1D (Faststream),26800,37195,Administrator,4.0,Policy
+368,Department for International Development,DFID,TMG,B108,B2 (EO),23930,28210,Administrator,9.8,Policy
+369,Department for International Development,DFID,TMG,B108,C1 (AO),19500,23275,Administrator,5.0,Policy
+370,Department for International Development,DFID,TMG,B120,A1 (G6),61381,70290,Administrator,1.0,Policy

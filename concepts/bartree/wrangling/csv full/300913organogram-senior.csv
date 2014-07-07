@@ -1,0 +1,5 @@
+,Post Unique Reference,Name,Grade,Job Title,Job/Team Function,Parent Department,Organisation,Unit,Contact Phone,Contact E-mail,Reports to Senior Post,Salary Cost of Reports (£),FTE,Actual Pay Floor (£),Actual Pay Ceiling (£),,Professional/Occupational Group,Notes,Valid?
+0,161,Glynne Jones,SCS2,Director,Policy,Wales Office,Wales Office,Director's Office,020 7270 0534,wales.office@walesoffice.gsi.gov.uk,xx,450000.0,1.0,80000,84999,0,Policy,,1
+1,162,Gethin Williams,SCS1,Deputy Director,Policy,Wales Office,Wales Office,Constitution & Corporate Services,020 7270 0534,wales.office@walesoffice.gsi.gov.uk,161,700000.0,1.0,55000,59999,0,Policy,,1
+2,163,Stephen Hillcoat,SCS1,Deputy Director,Policy,Wales Office,Wales Office,Private Office,020 7270 0534,wales.office@walesoffice.gsi.gov.uk,161,550000.0,1.0,55000,59999,0,Policy,,1
+3,164,Sian Oborne,SCS1,Deputy Director,Policy,Wales Office,Wales Office,Policy,020 7270 0534,wales.office@walesoffice.gsi.gov.uk,161,450000.0,1.0,55000,59999,0,Policy,,1

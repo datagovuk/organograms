@@ -1,0 +1,349 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 1,13871,21455,Admin/Support,1.0,Science and Engineering
+1,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 2,18362,24172,Admin/Support,2.0,Science and Engineering
+2,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 2,18362,24172,Waste Management,6.0,Science and Engineering
+3,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 3,22219,31720,Admin/Support,1.0,Science and Engineering
+4,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 3,22219,31720,Building and Civil,1.0,Science and Engineering
+5,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 3,22219,31720,Engineer - Mechanical Design,1.0,Science and Engineering
+6,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 3,22219,31720,Engineer - Other,2.0,Science and Engineering
+7,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 3,22219,31720,Engineer - Technician Electrical,2.0,Science and Engineering
+8,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 3,22219,31720,Waste Management,8.0,Science and Engineering
+9,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 4,26195,37082,Building and Civil,1.0,Science and Engineering
+10,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 4,26195,37082,Computing,1.0,Science and Engineering
+11,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 4,26195,37082,Engineer - Electronics,2.0,Science and Engineering
+12,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 4,26195,37082,Engineer - Other,5.0,Science and Engineering
+13,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 4,26195,37082,Engineer - Technician Electrical,2.0,Science and Engineering
+14,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 4,26195,37082,Engineer - Technician Mechanical,1.0,Science and Engineering
+15,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 4,26195,37082,Engineer - Vacuum,0.8,Science and Engineering
+16,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 4,26195,37082,Health Physics,1.0,Science and Engineering
+17,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 4,26195,37082,Planning,1.0,Science and Engineering
+18,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 4,26195,37082,Waste Management,2.0,Science and Engineering
+19,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 5,32978,46916,Building and Civil,2.0,Science and Engineering
+20,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 5,32978,46916,Engineer - Control and Instrumentation,2.0,Science and Engineering
+21,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 5,32978,46916,Engineer - Electrical,1.0,Science and Engineering
+22,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 5,32978,46916,Engineer - Electronics,1.0,Science and Engineering
+23,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 5,32978,46916,Engineer - Mechanical Design,2.0,Science and Engineering
+24,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 5,32978,46916,Engineer - Other,3.0,Science and Engineering
+25,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 5,32978,46916,Engineer - Vacuum,6.0,Science and Engineering
+26,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 5,32978,46916,Safety/Health/Environment/Security,0.61,Science and Engineering
+27,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 5,32978,46916,Waste Management,4.0,Science and Engineering
+28,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 6,41122,59861,Engineer - Electrical,2.0,Science and Engineering
+29,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 6,41122,59861,Engineer - Operations,1.0,Science and Engineering
+30,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 6,41122,59861,Project Management,1.0,Science and Engineering
+31,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 6,41122,59861,Waste Management,2.0,Science and Engineering
+32,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Level 7,52566,74745,Engineer - Other,1.0,Science and Engineering
+33,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Agency Supplied Worker,14000,105000,Admin/Support,1.0,Science and Engineering
+34,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Agency Supplied Worker,14000,105000,Building and Civil,5.0,Science and Engineering
+35,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Agency Supplied Worker,14000,105000,Engineer - Electrical,1.6,Science and Engineering
+36,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Agency Supplied Worker,14000,105000,Engineer - Electronics,1.0,Science and Engineering
+37,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Agency Supplied Worker,14000,105000,Engineer - Mechanical Design,1.0,Science and Engineering
+38,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Agency Supplied Worker,14000,105000,Engineer - Technician Electrical,3.0,Science and Engineering
+39,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Agency Supplied Worker,14000,105000,Engineer - Technician Mechanical,2.0,Science and Engineering
+40,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Agency Supplied Worker,14000,105000,Engineer - Vacuum,1.5,Science and Engineering
+41,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Agency Supplied Worker,14000,105000,Planning,1.0,Science and Engineering
+42,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Agency Supplied Worker,14000,105000,Safety/Health/Environment/Security,1.0,Science and Engineering
+43,Department for Business Innovation and Skills,UK Atomic Energy Authority,Active Operations Department,14000083,Agency Supplied Worker,14000,105000,Waste Management,4.0,Science and Engineering
+44,Department for Business Innovation and Skills,UK Atomic Energy Authority,Assurance Division,14000000,Level 1,13871,21455,Admin/Support,1.0,Science and Engineering
+45,Department for Business Innovation and Skills,UK Atomic Energy Authority,Assurance Division,14000000,Level 2,18362,24172,Admin/Support,1.91,Science and Engineering
+46,Department for Business Innovation and Skills,UK Atomic Energy Authority,Assurance Division,14000000,Level 2,18362,24172,Records Management,0.97,Science and Engineering
+47,Department for Business Innovation and Skills,UK Atomic Energy Authority,Assurance Division,14000000,Level 3,22219,31720,Safety/Health/Environment/Security,1.0,Science and Engineering
+48,Department for Business Innovation and Skills,UK Atomic Energy Authority,Assurance Division,14000000,Level 4,26195,37082,Health Physics,1.0,Science and Engineering
+49,Department for Business Innovation and Skills,UK Atomic Energy Authority,Assurance Division,14000000,Level 4,26195,37082,QA,2.0,Science and Engineering
+50,Department for Business Innovation and Skills,UK Atomic Energy Authority,Assurance Division,14000000,Level 4,26195,37082,Safety/Health/Environment/Security,4.0,Science and Engineering
+51,Department for Business Innovation and Skills,UK Atomic Energy Authority,Assurance Division,14000000,Level 5,32978,46916,Health Physics,2.0,Science and Engineering
+52,Department for Business Innovation and Skills,UK Atomic Energy Authority,Assurance Division,14000000,Level 5,32978,46916,QA,4.0,Science and Engineering
+53,Department for Business Innovation and Skills,UK Atomic Energy Authority,Assurance Division,14000000,Level 5,32978,46916,Safety/Health/Environment/Security,1.0,Science and Engineering
+54,Department for Business Innovation and Skills,UK Atomic Energy Authority,Assurance Division,14000000,Level 6,41122,59861,Engineer - Electrical,0.81,Science and Engineering
+55,Department for Business Innovation and Skills,UK Atomic Energy Authority,Assurance Division,14000000,Level 6,41122,59861,Health Physics,1.0,Science and Engineering
+56,Department for Business Innovation and Skills,UK Atomic Energy Authority,Assurance Division,14000000,Level 6,41122,59861,Safety/Health/Environment/Security,1.0,Science and Engineering
+57,Department for Business Innovation and Skills,UK Atomic Energy Authority,Assurance Division,14000000,Level 7,52566,74745,General Management,1.0,Science and Engineering
+58,Department for Business Innovation and Skills,UK Atomic Energy Authority,Assurance Division,14000000,Agency Supplied Worker,14000,105000,Health Physics,13.0,Science and Engineering
+59,Department for Business Innovation and Skills,UK Atomic Energy Authority,Assurance Division,14000000,Agency Supplied Worker,14000,105000,Planning,1.0,Science and Engineering
+60,Department for Business Innovation and Skills,UK Atomic Energy Authority,Assurance Division,14000000,Agency Supplied Worker,14000,105000,QA,0.05,Science and Engineering
+61,Department for Business Innovation and Skills,UK Atomic Energy Authority,Assurance Division,14000000,Agency Supplied Worker,14000,105000,Safety/Health/Environment/Security,0.22,Science and Engineering
+62,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 2,18362,24172,Admin/Support,0.61,Science and Engineering
+63,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 3,22219,31720,Admin/Support,0.93,Science and Engineering
+64,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 3,22219,31720,Engineer - Mechanical Design,3.0,Science and Engineering
+65,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 3,22219,31720,Engineer - Technician Mechanical,1.0,Science and Engineering
+66,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 3,22219,31720,Graduate - Engineer,3.0,Science and Engineering
+67,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 3,22219,31720,Graduate - Mechanical Design,2.0,Science and Engineering
+68,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 3,22219,31720,Graduate - Physics,2.0,Science and Engineering
+69,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 3,22219,31720,Trainee/Apprentice,3.0,Science and Engineering
+70,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 4,26195,37082,Engineer - Mechanical Analyst,2.0,Science and Engineering
+71,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 4,26195,37082,Engineer - Mechanical Design,6.0,Science and Engineering
+72,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 4,26195,37082,Graduate - Electrical,1.0,Science and Engineering
+73,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 4,26195,37082,Graduate - Physics,1.0,Science and Engineering
+74,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 5,32978,46916,Engineer - CAD Designer,3.0,Science and Engineering
+75,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 5,32978,46916,Engineer - Mechanical Analyst,5.8,Science and Engineering
+76,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 5,32978,46916,Engineer - Mechanical Design,13.8,Science and Engineering
+77,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 6,41122,59861,Engineer - CAD Designer,1.0,Science and Engineering
+78,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 6,41122,59861,Engineer - Mechanical Design,1.41,Science and Engineering
+79,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 6,41122,59861,Engineer - Systems,1.0,Science and Engineering
+80,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 7,52566,74745,Engineer - Mechanical Design,2.0,Science and Engineering
+81,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 7,52566,74745,General Management,1.0,Science and Engineering
+82,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Level 7,52566,74745,Project Management,1.0,Science and Engineering
+83,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Agency Supplied Worker,14000,105000,Admin/Support,2.0,Science and Engineering
+84,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Agency Supplied Worker,14000,105000,Engineer - CAD Designer,49.57,Science and Engineering
+85,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Mechanical Analyst,3.25,Science and Engineering
+86,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Mechanical Design,4.52,Science and Engineering
+87,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Other,2.0,Science and Engineering
+88,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Technician Mechanical,1.0,Science and Engineering
+89,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Agency Supplied Worker,14000,105000,Project Management,2.4,Science and Engineering
+90,Department for Business Innovation and Skills,UK Atomic Energy Authority,Central Engineering Department,17000005,Agency Supplied Worker,14000,105000,Trainee/Apprentice,1.0,Science and Engineering
+91,Department for Business Innovation and Skills,UK Atomic Energy Authority,CEO Support,14000000,Level 2,18362,24172,Admin/Support,0.8,Science and Engineering
+92,Department for Business Innovation and Skills,UK Atomic Energy Authority,CEO Support,14000000,Level 2,18362,24172,PR,0.9,Science and Engineering
+93,Department for Business Innovation and Skills,UK Atomic Energy Authority,CEO Support,14000000,Level 3,22219,31720,Admin/Support,1.0,Science and Engineering
+94,Department for Business Innovation and Skills,UK Atomic Energy Authority,CEO Support,14000000,Level 3,22219,31720,PR,1.0,Science and Engineering
+95,Department for Business Innovation and Skills,UK Atomic Energy Authority,CEO Support,14000000,Level 4,26195,37082,PR,0.78,Science and Engineering
+96,Department for Business Innovation and Skills,UK Atomic Energy Authority,CEO Support,14000000,Level 5,32978,46916,PR,1.0,Science and Engineering
+97,Department for Business Innovation and Skills,UK Atomic Energy Authority,CEO Support,14000000,Level 6,41122,59861,PR,1.0,Science and Engineering
+98,Department for Business Innovation and Skills,UK Atomic Energy Authority,CEO Support,14000000,Level 7,52566,74745,General Management,1.0,Science and Engineering
+99,Department for Business Innovation and Skills,UK Atomic Energy Authority,CEO Support,14000000,Agency Supplied Worker,14000,105000,General Management,0.05,Science and Engineering
+100,Department for Business Innovation and Skills,UK Atomic Energy Authority,CEO Support,14000000,Agency Supplied Worker,14000,105000,PR,0.02,Science and Engineering
+101,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Level 2,18362,24172,Admin/Support,1.0,Science and Engineering
+102,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Level 3,22219,31720,Computing,1.0,Science and Engineering
+103,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Level 3,22219,31720,Engineer - Software,2.0,Science and Engineering
+104,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Level 3,22219,31720,Instrument Technician,1.0,Science and Engineering
+105,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Level 3,22219,31720,Trainee/Apprentice,1.0,Science and Engineering
+106,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Level 4,26195,37082,Computing,9.0,Science and Engineering
+107,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Level 4,26195,37082,Engineer - Software,0.7,Science and Engineering
+108,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Level 5,32978,46916,Computing,2.0,Science and Engineering
+109,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Level 5,32978,46916,Engineer - Control and Instrumentation,1.0,Science and Engineering
+110,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Level 5,32978,46916,Engineer - Electronics,3.0,Science and Engineering
+111,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Level 5,32978,46916,Engineer - Software,6.0,Science and Engineering
+112,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Level 6,41122,59861,Computing,1.0,Science and Engineering
+113,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Level 6,41122,59861,Engineer - Control and Instrumentation,1.0,Science and Engineering
+114,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Level 6,41122,59861,Engineer - Electronics,1.0,Science and Engineering
+115,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Level 6,41122,59861,Engineer - Software,2.0,Science and Engineering
+116,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Sandwich Student,17092,17092,Engineer - Software,1.0,Science and Engineering
+117,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Agency Supplied Worker,14000,105000,Computing,1.0,Science and Engineering
+118,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Agency Supplied Worker,14000,105000,Engineer - CAD Designer,2.0,Science and Engineering
+119,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Control and Instrumentation,2.0,Science and Engineering
+120,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Electronics,1.6,Science and Engineering
+121,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Software,18.75,Science and Engineering
+122,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Agency Supplied Worker,14000,105000,General Management,1.0,Science and Engineering
+123,Department for Business Innovation and Skills,UK Atomic Energy Authority,CODAS and IT Department,17000005,Agency Supplied Worker,14000,105000,Instrument Technician,1.0,Science and Engineering
+124,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 2,18362,24172,Admin/Support,0.8,Science and Engineering
+125,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 2,18362,24172,Engineer - Technician Electrical,1.0,Science and Engineering
+126,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 2,18362,24172,Engineer - Technician Mechanical,1.0,Science and Engineering
+127,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 2,18362,24172,Trainee/Apprentice,2.0,Science and Engineering
+128,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 3,22219,31720,Engineer - Mechanical Design,1.0,Science and Engineering
+129,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 3,22219,31720,Engineer - Technician Electrical,1.0,Science and Engineering
+130,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 3,22219,31720,Engineer - Technician Mechanical,4.0,Science and Engineering
+131,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 3,22219,31720,HR/Training,0.87,Science and Engineering
+132,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 3,22219,31720,Trainee/Apprentice,1.0,Science and Engineering
+133,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 4,26195,37082,Admin/Support,0.84,Science and Engineering
+134,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 4,26195,37082,Engineer - Software,1.0,Science and Engineering
+135,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 4,26195,37082,Engineer - Technician Electrical,1.0,Science and Engineering
+136,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 4,26195,37082,Engineer - Technician Mechanical,7.0,Science and Engineering
+137,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 4,26195,37082,Planning,3.0,Science and Engineering
+138,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 5,32978,46916,Engineer - Control and Instrumentation,1.0,Science and Engineering
+139,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 5,32978,46916,Engineer - Mechanical Design,8.0,Science and Engineering
+140,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 5,32978,46916,Engineer - Other,3.0,Science and Engineering
+141,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 5,32978,46916,Engineer - Technician Mechanical,5.0,Science and Engineering
+142,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 5,32978,46916,Planning,1.0,Science and Engineering
+143,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 5,32978,46916,Project Management,1.0,Science and Engineering
+144,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 6,41122,59861,Admin/Support,1.0,Science and Engineering
+145,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 6,41122,59861,Engineer - Mechanical Design,4.0,Science and Engineering
+146,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 6,41122,59861,Engineer - Technician Mechanical,2.0,Science and Engineering
+147,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 6,41122,59861,Project Management,2.0,Science and Engineering
+148,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 7,52566,74745,Engineer - Mechanical Design,1.0,Science and Engineering
+149,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Level 7,52566,74745,General Management,1.0,Science and Engineering
+150,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Trainee/Apprentice,10545,15203,Trainee/Apprentice,16.0,Science and Engineering
+151,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Agency Supplied Worker,14000,105000,Building and Civil,2.0,Science and Engineering
+152,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Agency Supplied Worker,14000,105000,Commercial/Procurement,2.0,Science and Engineering
+153,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Mechanical Design,5.0,Science and Engineering
+154,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Other,2.0,Science and Engineering
+155,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Software,0.5,Science and Engineering
+156,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Technician Electrical,2.0,Science and Engineering
+157,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Technician Mechanical,16.0,Science and Engineering
+158,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Agency Supplied Worker,14000,105000,Planning,0.8,Science and Engineering
+159,Department for Business Innovation and Skills,UK Atomic Energy Authority,Engineering Implementation Department,17000005,Agency Supplied Worker,14000,105000,Trainee/Apprentice,1.0,Science and Engineering
+160,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Level 2,18362,24172,Admin/Support,1.86,Science and Engineering
+161,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Level 3,22219,31720,Physics - Diagnostic,1.0,Science and Engineering
+162,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Level 4,26195,37082,Engineer - Electronics,1.0,Science and Engineering
+163,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Level 4,26195,37082,Engineer - Software,2.0,Science and Engineering
+164,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Level 4,26195,37082,Engineer - Technician Mechanical,1.0,Science and Engineering
+165,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Level 4,26195,37082,Physics - Diagnostic,6.8,Science and Engineering
+166,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Level 4,26195,37082,Physics - Experimental,1.0,Science and Engineering
+167,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Level 4,26195,37082,Physics - Plasma Theoretical/Modelling,1.0,Science and Engineering
+168,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Level 5,32978,46916,Engineer - Technician Mechanical,1.0,Science and Engineering
+169,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Level 5,32978,46916,Physics - Diagnostic,19.61,Science and Engineering
+170,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Level 5,32978,46916,Physics - Experimental,3.0,Science and Engineering
+171,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Level 6,41122,59861,Engineer - Mechanical Design,1.0,Science and Engineering
+172,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Level 6,41122,59861,Physicist Plasma Control,3.0,Science and Engineering
+173,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Level 6,41122,59861,Physics - Diagnostic,7.0,Science and Engineering
+174,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Level 6,41122,59861,Physics - Experimental,7.0,Science and Engineering
+175,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Level 7,52566,74745,General Management,1.0,Science and Engineering
+176,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Level 7,52566,74745,Physicist Plasma Control,1.0,Science and Engineering
+177,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Level 7,52566,74745,Physics - Experimental,3.0,Science and Engineering
+178,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Electronics,1.0,Science and Engineering
+179,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Mechanical Design,1.0,Science and Engineering
+180,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Software,1.0,Science and Engineering
+181,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Technician Mechanical,2.0,Science and Engineering
+182,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Agency Supplied Worker,14000,105000,Physics - Diagnostic,3.67,Science and Engineering
+183,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Agency Supplied Worker,14000,105000,Physics - Experimental,0.23,Science and Engineering
+184,Department for Business Innovation and Skills,UK Atomic Energy Authority,Experiments Department,17000005,Agency Supplied Worker,14000,105000,Physics - Plasma Theoretical/Modelling,0.74,Science and Engineering
+185,Department for Business Innovation and Skills,UK Atomic Energy Authority,Finance and Contracts Department,17000004,Level 1,13871,21455,Admin/Support,1.0,Science and Engineering
+186,Department for Business Innovation and Skills,UK Atomic Energy Authority,Finance and Contracts Department,17000004,Level 1,13871,21455,Finance,2.0,Science and Engineering
+187,Department for Business Innovation and Skills,UK Atomic Energy Authority,Finance and Contracts Department,17000004,Level 3,22219,31720,Admin/Support,1.81,Science and Engineering
+188,Department for Business Innovation and Skills,UK Atomic Energy Authority,Finance and Contracts Department,17000004,Level 3,22219,31720,Commercial/Procurement,1.74,Science and Engineering
+189,Department for Business Innovation and Skills,UK Atomic Energy Authority,Finance and Contracts Department,17000004,Level 3,22219,31720,Finance,3.8,Science and Engineering
+190,Department for Business Innovation and Skills,UK Atomic Energy Authority,Finance and Contracts Department,17000004,Level 4,26195,37082,Commercial/Procurement,3.86,Science and Engineering
+191,Department for Business Innovation and Skills,UK Atomic Energy Authority,Finance and Contracts Department,17000004,Level 4,26195,37082,Finance,4.0,Science and Engineering
+192,Department for Business Innovation and Skills,UK Atomic Energy Authority,Finance and Contracts Department,17000004,Level 5,32978,46916,Admin/Support,2.0,Science and Engineering
+193,Department for Business Innovation and Skills,UK Atomic Energy Authority,Finance and Contracts Department,17000004,Level 5,32978,46916,Commercial/Procurement,2.0,Science and Engineering
+194,Department for Business Innovation and Skills,UK Atomic Energy Authority,Finance and Contracts Department,17000004,Level 5,32978,46916,Finance,1.0,Science and Engineering
+195,Department for Business Innovation and Skills,UK Atomic Energy Authority,Finance and Contracts Department,17000004,Level 6,41122,59861,Commercial/Procurement,0.92,Science and Engineering
+196,Department for Business Innovation and Skills,UK Atomic Energy Authority,Finance and Contracts Department,17000004,Level 6,41122,59861,Finance,2.0,Science and Engineering
+197,Department for Business Innovation and Skills,UK Atomic Energy Authority,Finance and Contracts Department,17000004,Agency Supplied Worker,14000,105000,Commercial/Procurement,2.4,Science and Engineering
+198,Department for Business Innovation and Skills,UK Atomic Energy Authority,Finance and Contracts Department,17000004,Agency Supplied Worker,14000,105000,Finance,1.0,Science and Engineering
+199,Department for Business Innovation and Skills,UK Atomic Energy Authority,Human Resources Department,17000005,Level 2,18362,24172,HR/Training,2.59,Science and Engineering
+200,Department for Business Innovation and Skills,UK Atomic Energy Authority,Human Resources Department,17000005,Level 3,22219,31720,HR/Training,3.03,Science and Engineering
+201,Department for Business Innovation and Skills,UK Atomic Energy Authority,Human Resources Department,17000005,Level 4,26195,37082,HR/Training,3.0,Science and Engineering
+202,Department for Business Innovation and Skills,UK Atomic Energy Authority,Human Resources Department,17000005,Level 6,41122,59861,HR/Training,1.0,Science and Engineering
+203,Department for Business Innovation and Skills,UK Atomic Energy Authority,Human Resources Department,17000005,Level 7,52566,74745,General Management,1.0,Science and Engineering
+204,Department for Business Innovation and Skills,UK Atomic Energy Authority,Human Resources Department,17000005,Agency Supplied Worker,14000,105000,HR/Training,4.0,Science and Engineering
+205,Department for Business Innovation and Skills,UK Atomic Energy Authority,Operations and Programme Delivery Division,17000005,Level 2,18362,24172,Admin/Support,1.0,Science and Engineering
+206,Department for Business Innovation and Skills,UK Atomic Energy Authority,Operations and Programme Delivery Division,17000005,Level 2,18362,24172,Vacancy,4.0,Science and Engineering
+207,Department for Business Innovation and Skills,UK Atomic Energy Authority,Operations and Programme Delivery Division,17000005,Level 3,22219,31720,Vacancy,8.0,Science and Engineering
+208,Department for Business Innovation and Skills,UK Atomic Energy Authority,Operations and Programme Delivery Division,17000005,Level 4,26195,37082,Vacancy,14.0,Science and Engineering
+209,Department for Business Innovation and Skills,UK Atomic Energy Authority,Operations and Programme Delivery Division,17000005,Level 5,32978,46916,Vacancy,22.0,Science and Engineering
+210,Department for Business Innovation and Skills,UK Atomic Energy Authority,Operations and Programme Delivery Division,17000005,Level 6,41122,59861,Vacancy,2.0,Science and Engineering
+211,Department for Business Innovation and Skills,UK Atomic Energy Authority,Operations and Programme Delivery Division,17000005,Trainee/Apprentice,10545,15203,Vacancy,1.0,Science and Engineering
+212,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 2,18362,24172,Admin/Support,1.0,Science and Engineering
+213,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 2,18362,24172,Trainee/Apprentice,2.0,Science and Engineering
+214,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 3,22219,31720,Engineer - Electrical,3.0,Science and Engineering
+215,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 3,22219,31720,Engineer - Technician Electrical,6.0,Science and Engineering
+216,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 3,22219,31720,Engineer - Technician Mechanical,1.0,Science and Engineering
+217,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 3,22219,31720,Instrument Technician,1.0,Science and Engineering
+218,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 3,22219,31720,RF/Microwave Engineer,1.0,Science and Engineering
+219,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 3,22219,31720,Trainee/Apprentice,1.0,Science and Engineering
+220,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 4,26195,37082,Engineer - Control and Instrumentation,1.0,Science and Engineering
+221,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 4,26195,37082,Engineer - Electrical,3.0,Science and Engineering
+222,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 4,26195,37082,Engineer - Electronics,1.0,Science and Engineering
+223,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 4,26195,37082,Engineer - Technician Electrical,2.0,Science and Engineering
+224,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 4,26195,37082,Engineer - Technician Mechanical,3.0,Science and Engineering
+225,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 4,26195,37082,RF/Microwave Engineer,2.0,Science and Engineering
+226,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 5,32978,46916,Engineer - Control and Instrumentation,2.0,Science and Engineering
+227,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 5,32978,46916,Engineer - Electrical,5.0,Science and Engineering
+228,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 5,32978,46916,Engineer - Technician Electrical,2.0,Science and Engineering
+229,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 5,32978,46916,RF/Microwave Engineer,1.0,Science and Engineering
+230,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 6,41122,59861,Engineer - Electrical,4.0,Science and Engineering
+231,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 6,41122,59861,RF/Microwave Engineer,3.0,Science and Engineering
+232,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Level 7,52566,74745,Engineer - Electrical,1.0,Science and Engineering
+233,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Control and Instrumentation,3.0,Science and Engineering
+234,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Electrical,3.0,Science and Engineering
+235,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Technician Electrical,4.6,Science and Engineering
+236,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Agency Supplied Worker,14000,105000,Physics - Experimental,1.0,Science and Engineering
+237,Department for Business Innovation and Skills,UK Atomic Energy Authority,Power Supplies and RF Systems Department,17000005,Agency Supplied Worker,14000,105000,Trainee/Apprentice,1.0,Science and Engineering
+238,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 1,13871,21455,Admin/Support,1.0,Science and Engineering
+239,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 2,18362,24172,Admin/Support,2.0,Science and Engineering
+240,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 2,18362,24172,Engineer - Technician Mechanical,1.0,Science and Engineering
+241,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 3,22219,31720,Engineer - Technician Mechanical,3.0,Science and Engineering
+242,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 4,26195,37082,Commercial/Procurement,1.0,Science and Engineering
+243,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 4,26195,37082,Engineer - Other,2.0,Science and Engineering
+244,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 4,26195,37082,Engineer - Technician Mechanical,3.0,Science and Engineering
+245,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 4,26195,37082,Neutronics and Nuclear Data,2.0,Science and Engineering
+246,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 4,26195,37082,Physics - Materials Theoretical/Modelling,1.0,Science and Engineering
+247,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 4,26195,37082,Physics - Plasma Theoretical/Modelling,3.0,Science and Engineering
+248,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 4,26195,37082,Vacancy,4.0,Science and Engineering
+249,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 5,32978,46916,Engineer - Mechanical Design,1.0,Science and Engineering
+250,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 5,32978,46916,Engineer - Technician Mechanical,1.0,Science and Engineering
+251,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 5,32978,46916,Neutronics and Nuclear Data,2.0,Science and Engineering
+252,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 5,32978,46916,Physics - Experimental,2.0,Science and Engineering
+253,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 5,32978,46916,Physics - Plasma Theoretical/Modelling,3.0,Science and Engineering
+254,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 5,32978,46916,Vacancy,1.0,Science and Engineering
+255,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 6,41122,59861,Commercial/Procurement,1.0,Science and Engineering
+256,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 6,41122,59861,Neutronics and Nuclear Data,2.0,Science and Engineering
+257,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 7,52566,74745,General Management,1.0,Science and Engineering
+258,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 7,52566,74745,Physics - Plasma Theoretical/Modelling,1.0,Science and Engineering
+259,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Level 7,52566,74745,Project Management,1.0,Science and Engineering
+260,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Agency Supplied Worker,14000,105000,Admin/Support,0.8,Science and Engineering
+261,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Agency Supplied Worker,14000,105000,Commercial/Procurement,1.0,Science and Engineering
+262,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Agency Supplied Worker,14000,105000,Engineer - Technician Mechanical,8.0,Science and Engineering
+263,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Agency Supplied Worker,14000,105000,General Management,1.0,Science and Engineering
+264,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Agency Supplied Worker,14000,105000,Neutronics and Nuclear Data,1.0,Science and Engineering
+265,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Agency Supplied Worker,14000,105000,Nuclear Safety Specialist,1.0,Science and Engineering
+266,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Agency Supplied Worker,14000,105000,Project Management,0.4,Science and Engineering
+267,Department for Business Innovation and Skills,UK Atomic Energy Authority,Strategy and Technology Division,17000006,Agency Supplied Worker,14000,105000,Trainee/Apprentice,1.0,Science and Engineering
+268,Department for Business Innovation and Skills,UK Atomic Energy Authority,Support Division,21000065,Level 1,13871,21455,Admin/Support,3.42,Science and Engineering
+269,Department for Business Innovation and Skills,UK Atomic Energy Authority,Support Division,21000065,Level 2,18362,24172,Admin/Support,8.0,Science and Engineering
+270,Department for Business Innovation and Skills,UK Atomic Energy Authority,Support Division,21000065,Level 3,22219,31720,Admin/Support,2.61,Science and Engineering
+271,Department for Business Innovation and Skills,UK Atomic Energy Authority,Support Division,21000065,Level 3,22219,31720,Commercial/Procurement,1.0,Science and Engineering
+272,Department for Business Innovation and Skills,UK Atomic Energy Authority,Support Division,21000065,Level 4,26195,37082,Admin/Support,1.81,Science and Engineering
+273,Department for Business Innovation and Skills,UK Atomic Energy Authority,Support Division,21000065,Level 4,26195,37082,Vacancy,1.0,Science and Engineering
+274,Department for Business Innovation and Skills,UK Atomic Energy Authority,Support Division,21000065,Level 5,32978,46916,Admin/Support,4.91,Science and Engineering
+275,Department for Business Innovation and Skills,UK Atomic Energy Authority,Support Division,21000065,Level 5,32978,46916,Vacancy,1.0,Science and Engineering
+276,Department for Business Innovation and Skills,UK Atomic Energy Authority,Support Division,21000065,Level 6,41122,59861,Admin/Support,1.61,Science and Engineering
+277,Department for Business Innovation and Skills,UK Atomic Energy Authority,Support Division,21000065,Level 6,41122,59861,Finance,0.61,Science and Engineering
+278,Department for Business Innovation and Skills,UK Atomic Energy Authority,Support Division,21000065,Level 7,52566,74745,General Management,1.0,Science and Engineering
+279,Department for Business Innovation and Skills,UK Atomic Energy Authority,Support Division,21000065,Agency Supplied Worker,14000,105000,Admin/Support,3.47,Science and Engineering
+280,Department for Business Innovation and Skills,UK Atomic Energy Authority,Support Division,21000065,Agency Supplied Worker,14000,105000,Commercial/Procurement,1.22,Science and Engineering
+281,Department for Business Innovation and Skills,UK Atomic Energy Authority,Support Division,21000065,Agency Supplied Worker,14000,105000,General Management,0.05,Science and Engineering
+282,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Level 2,18362,24172,Admin/Support,1.4,Science and Engineering
+283,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Level 3,22219,31720,Admin/Support,1.0,Science and Engineering
+284,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Level 3,22219,31720,Graphics/Photography,2.0,Science and Engineering
+285,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Level 4,26195,37082,Computing,1.0,Science and Engineering
+286,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Level 4,26195,37082,Graphics/Photography,4.0,Science and Engineering
+287,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Level 4,26195,37082,Physics - Materials Theoretical/Modelling,1.0,Science and Engineering
+288,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Level 4,26195,37082,Physics - Plasma Theoretical/Modelling,6.0,Science and Engineering
+289,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Level 5,32978,46916,Graphics/Photography,1.0,Science and Engineering
+290,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Level 5,32978,46916,Physics - Materials Theoretical/Modelling,2.0,Science and Engineering
+291,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Level 5,32978,46916,Physics - Plasma Theoretical/Modelling,10.8,Science and Engineering
+292,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Level 6,41122,59861,Computing,1.0,Science and Engineering
+293,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Level 6,41122,59861,Graphics/Photography,1.0,Science and Engineering
+294,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Level 6,41122,59861,Physics - Materials Theoretical/Modelling,2.0,Science and Engineering
+295,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Level 6,41122,59861,Physics - Plasma Theoretical/Modelling,8.0,Science and Engineering
+296,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Level 7,52566,74745,General Management,1.0,Science and Engineering
+297,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Level 7,52566,74745,Physics - Materials Theoretical/Modelling,1.0,Science and Engineering
+298,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Level 7,52566,74745,Physics - Plasma Theoretical/Modelling,0.81,Science and Engineering
+299,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Sandwich Student,17092,17092,Physics - Plasma Theoretical/Modelling,1.0,Science and Engineering
+300,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Agency Supplied Worker,14000,105000,Admin/Support,1.0,Science and Engineering
+301,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Agency Supplied Worker,14000,105000,Graphics/Photography,2.58,Science and Engineering
+302,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Agency Supplied Worker,14000,105000,Physics - Materials Theoretical/Modelling,1.0,Science and Engineering
+303,Department for Business Innovation and Skills,UK Atomic Energy Authority,Theory and Modelling Department,17000005,Agency Supplied Worker,14000,105000,Physics - Plasma Theoretical/Modelling,5.94,Science and Engineering
+304,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 2,18362,24172,Admin/Support,1.71,Science and Engineering
+305,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 2,18362,24172,Engineer - Technician Mechanical,2.0,Science and Engineering
+306,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 2,18362,24172,Trainee/Apprentice,2.0,Science and Engineering
+307,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 3,22219,31720,Engineer - Control and Instrumentation,1.0,Science and Engineering
+308,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 3,22219,31720,Engineer - Electrical,1.0,Science and Engineering
+309,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 3,22219,31720,Engineer - Graduate,1.0,Science and Engineering
+310,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 3,22219,31720,Engineer - Operations,5.0,Science and Engineering
+311,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 3,22219,31720,Engineer - Other,1.0,Science and Engineering
+312,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 3,22219,31720,Engineer - Technician Electrical,2.0,Science and Engineering
+313,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 3,22219,31720,Instrument Technician,2.0,Science and Engineering
+314,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 3,22219,31720,Physics - Experimental,1.0,Science and Engineering
+315,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 4,26195,37082,Engineer - Control and Instrumentation,4.0,Science and Engineering
+316,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 4,26195,37082,Engineer - Electronics,1.0,Science and Engineering
+317,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 4,26195,37082,Engineer - Operations,7.0,Science and Engineering
+318,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 4,26195,37082,Engineer - Other,1.0,Science and Engineering
+319,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 4,26195,37082,Engineer - Technician Electrical,6.0,Science and Engineering
+320,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 4,26195,37082,Engineer - Technician Mechanical,5.0,Science and Engineering
+321,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 4,26195,37082,Instrument Technician,3.0,Science and Engineering
+322,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 4,26195,37082,Physics - Experimental,1.0,Science and Engineering
+323,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 5,32978,46916,Engineer - Control and Instrumentation,3.0,Science and Engineering
+324,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 5,32978,46916,Engineer - Electrical,2.0,Science and Engineering
+325,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 5,32978,46916,Engineer - Electronics,0.8,Science and Engineering
+326,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 5,32978,46916,Engineer - Operations,1.0,Science and Engineering
+327,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 5,32978,46916,Engineer - Other,1.0,Science and Engineering
+328,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 5,32978,46916,Engineer - Safety Case,1.0,Science and Engineering
+329,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 5,32978,46916,Engineer - Technician Electrical,1.0,Science and Engineering
+330,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 5,32978,46916,Engineer - Technician Mechanical,1.0,Science and Engineering
+331,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 5,32978,46916,Finance,1.0,Science and Engineering
+332,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 5,32978,46916,Physics - Experimental,5.0,Science and Engineering
+333,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 6,41122,59861,Engineer - Control and Instrumentation,3.0,Science and Engineering
+334,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 6,41122,59861,Engineer - Electrical,2.0,Science and Engineering
+335,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 6,41122,59861,Engineer - Mechanical Design,1.0,Science and Engineering
+336,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 6,41122,59861,Physics - Experimental,6.0,Science and Engineering
+337,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 6,41122,59861,Project Management,1.0,Science and Engineering
+338,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 7,52566,74745,General Management,1.0,Science and Engineering
+339,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Level 7,52566,74745,Physics - Experimental,1.0,Science and Engineering
+340,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Control and Instrumentation,2.52,Science and Engineering
+341,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Electrical,1.7,Science and Engineering
+342,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Mechanical Design,0.4,Science and Engineering
+343,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Other,0.15,Science and Engineering
+344,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Technician Electrical,3.0,Science and Engineering
+345,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Agency Supplied Worker,14000,105000,Engineer - Technician Mechanical,3.0,Science and Engineering
+346,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Agency Supplied Worker,14000,105000,Finance,1.0,Science and Engineering
+347,Department for Business Innovation and Skills,UK Atomic Energy Authority,Tokamak and NB Operations Department,17000005,Agency Supplied Worker,14000,105000,Instrument Technician,2.0,Science and Engineering

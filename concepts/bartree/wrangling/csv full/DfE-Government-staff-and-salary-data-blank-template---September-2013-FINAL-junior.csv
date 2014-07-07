@@ -1,0 +1,743 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,Department for Education,Department For Education,Permanent Secretary’s Office,DFE-1001,SEO,33200,49008,Senior Executive Officer - Legal Advisors.,6.0,Law
+1,Department for Education,Department For Education,Permanent Secretary’s Office,DFE-1001,HEO,26800,40828,Higher Executive Officer - Legal Advisors.,2.0,Law
+2,Department for Education,Department For Education,Permanent Secretary’s Office,DFE-1001,EO,21916,32232,Executive Officer - Legal Advisors.,3.0,Law
+3,Department for Education,Department For Education,Permanent Secretary’s Office,DFE-1001,GRADE 6,55431,69187,Manager - Legal Advisors.,1.0,Law
+4,Department for Education,Department For Education,Permanent Secretary’s Office,DFE-1001,GRADE 7,45300,57223,Manager - Legal Advisors.,2.0,Law
+5,Department for Education,Department For Education,Systems and Accountability,DFE-1003,EO,21916,32232,Executive Officer - policy,1.0,policy
+6,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1005,EO,21916,32232,Executive Officer - other,2.0,other
+7,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1005,HEO,26800,40828,Higher Executive Officer - policy,1.0,policy
+8,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1005,EA AO,15516,22939,Executive Assistant - policy,1.0,policy
+9,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1005,SEO,33200,49008,Senior Executive Officer - policy,2.0,policy
+10,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1005,GRADE 6,55431,69187,Manager - policy,1.0,policy
+11,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1005,GRADE 7,45300,57223,Manager - policy,0.6,policy
+12,Department for Education,Department For Education,"Childcare, Special Needs and Children’s Services Strategy",DFE-1006,EO,21916,32232,Executive Officer - policy,1.0,policy
+13,Department for Education,Department For Education,Education Funding Group,DFE-1007,EO,21916,32232,Executive Officer - policy,6.81,policy
+14,Department for Education,Department For Education,Education Funding Group,DFE-1007,SEO,33200,49008,Senior Executive Officer - policy,4.6,policy
+15,Department for Education,Department For Education,Education Funding Group,DFE-1007,EA AO,15516,22939,Executive Assistant - policy,1.0,policy
+16,Department for Education,Department For Education,Education Funding Group,DFE-1007,GRADE 6,55431,69187,Manager - policy,3.0,policy
+17,Department for Education,Department For Education,Education Funding Group,DFE-1007,GRADE 7,45300,57223,Manager - policy,7.0,policy
+18,Department for Education,Department For Education,Education Funding Group,DFE-1007,HEO,26800,40828,Higher Executive Officer - policy,1.0,policy
+19,Department for Education,Department For Education,Care and Adoption Group,DFE-1008,HEO,26800,40828,Higher Executive Officer - other,1.0,other
+20,Department for Education,Department For Education,Care and Adoption Group,DFE-1008,EO,21916,32232,Executive Officer - policy,1.0,policy
+21,Department for Education,Department For Education,Care and Adoption Group,DFE-1008,GRADE 7,45300,57223,Manager - policy,2.0,policy
+22,Department for Education,Department For Education,Care and Adoption Group,DFE-1008,GRADE 6,55431,69187,Manager - policy,1.0,policy
+23,Department for Education,Department For Education,Care and Adoption Group,DFE-1008,SEO,33200,49008,Senior Executive Officer - policy,1.0,policy
+24,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1009,SEO,33200,49008,Senior Executive Officer - Internal Audinformation technology,13.5,Internal Audit
+25,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1009,GRADE 7,45300,57223,Manager - Internal Audinformation technology,3.49,Internal Audit
+26,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1009,HEO,26800,40828,Higher Executive Officer - Internal Audinformation technology,2.0,Internal Audit
+27,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1009,EO,21916,32232,Executive Officer - Internal Audinformation technology,2.0,Internal Audit
+28,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1009,GRADE 6,55431,69187,Manager - Internal Audinformation technology,1.0,Internal Audit
+29,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1010,SEO,33200,49008,Senior Executive Officer - policy,1.0,policy
+30,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1010,GRADE 6,55431,69187,Manager - policy,2.0,policy
+31,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1010,HEO,26800,40828,Higher Executive Officer - policy,1.0,policy
+32,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1010,EO,21916,32232,Executive Officer - policy,3.0,policy
+33,Department for Education,Department For Education,Strategic Analysis Research and Policy Impact Group,DFE-1014,EO,21916,32232,Executive Officer - Economics.,4.53,Economics
+34,Department for Education,Department For Education,Strategic Analysis Research and Policy Impact Group,DFE-1014,SEO,33200,49008,Senior Executive Officer - Economics.,5.54,Economics
+35,Department for Education,Department For Education,Strategic Analysis Research and Policy Impact Group,DFE-1014,Grade 7,45300,57223,Manager - Economics.,2.0,Economics
+36,Department for Education,Department For Education,Strategic Analysis Research and Policy Impact Group,DFE-1014,GRADE 6,55431,69187,Manager - Economics.,2.0,Economics
+37,Department for Education,Department For Education,Strategic Analysis Research and Policy Impact Group,DFE-1014,HEO,26800,40828,Higher Executive Officer - Economics.,2.0,Economics
+38,Department for Education,Department For Education,Strategic Analysis Research and Policy Impact Group,DFE-1014,SEO,33200,49008,Senior Executive Officer - Programme and Project Management.,1.0,Programme and Project Management (PPM)
+39,Department for Education,Department For Education,Safeguarding Group ,DFE-1016,SEO,33200,49008,Senior Executive Officer - policy,5.96,policy
+40,Department for Education,Department For Education,Safeguarding Group ,DFE-1016,EO,21916,32232,Executive Officer - policy,2.0,policy
+41,Department for Education,Department For Education,Safeguarding Group ,DFE-1016,HEO,26800,40828,Higher Executive Officer - policy,1.67,policy
+42,Department for Education,Department For Education,Safeguarding Group ,DFE-1016,GRADE 6,55431,69187,Manager - policy,2.0,policy
+43,Department for Education,Department For Education,Safeguarding Group ,DFE-1016,GRADE 7,45300,57223,Manager - policy,9.0,policy
+44,Department for Education,Department For Education,Safeguarding Group ,DFE-1016,EO,21916,32232,Executive Officer - Programme and Project Management.,1.0,Programme and Project Management (PPM)
+45,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1017,EO,21916,32232,Executive Officer - policy,1.0,policy
+46,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1018,EO,21916,32232,Executive Officer - other,4.0,other
+47,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1018,SEO,33200,49008,Senior Executive Officer - other,1.0,other
+48,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1018,HEO,26800,40828,Higher Executive Officer - other,2.0,other
+49,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1018,EA AO,15516,22939,Executive Assistant - other,2.45,other
+50,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1018,Grade 6,55431,69187,Manager - other,1.0,other
+51,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1018,GRADE 6,55431,69187,Manager - Strategy.,0.9,Other
+52,Department for Education,Department For Education,Supporting Delivery Group,DFE-1019,EO,21916,32232,Executive Officer - policy,1.0,policy
+53,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1020,EO,21916,32232,Executive Officer - finance,1.82,finance
+54,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1020,Grade 7,45300,57223,Manager - finance,1.0,finance
+55,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1020,GRADE 6,55431,69187,Manager - operational delivery,5.57,operational delivery
+56,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1020,HEO,26800,40828,Higher Executive Officer - operational delivery,2.0,operational delivery
+57,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1020,GRADE 7,45300,57223,Manager - operational delivery,10.0,operational delivery
+58,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1020,SEO,33200,49008,Senior Executive Officer - operational delivery,14.91,operational delivery
+59,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1020,EA AO,15516,22939,Executive Assistant - operational delivery,0.86,operational delivery
+60,Department for Education,National College,National College,DFE-1021,GRADE 7,45300,57223,Manager - policy,1.0,policy
+61,Department for Education,National College,National College,DFE-1021,EO,21916,32232,Executive Officer - policy,1.0,policy
+62,Department for Education,National College,National College,DFE-1021,HEO,26800,40828,Higher Executive Officer - policy,1.0,policy
+63,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1022,EO,21916,32232,Executive Officer - finance,5.49,finance
+64,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1022,GRADE 7,45300,57223,Manager - finance,5.76,finance
+65,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1022,SEO,33200,49008,Senior Executive Officer - finance,11.76,finance
+66,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1022,HEO,26800,40828,Higher Executive Officer - finance,8.0,finance
+67,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1022,GRADE 6,55431,69187,Manager - finance,1.0,finance
+68,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1024,GRADE 6,55431,69187,Manager - finance,1.8,finance
+69,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1024,GRADE 6,55431,69187,Manager - operational delivery,18.0,operational delivery
+70,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1024,EO,21916,32232,Executive Officer - operational delivery,1.0,operational delivery
+71,Department for Education,National College,National College,DFE-1025,GRADE 6,55431,69187,Manager - policy,4.0,policy
+72,Department for Education,National College,National College,DFE-1025,GRADE 7,45300,57223,Manager - policy,3.0,policy
+73,Department for Education,National College,National College,DFE-1025,EO,21916,32232,Executive Officer - policy,6.0,policy
+74,Department for Education,National College,National College,DFE-1025,SEO,33200,49008,Senior Executive Officer - policy,4.86,policy
+75,Department for Education,National College,National College,DFE-1025,EA AO,15516,22939,Executive Assistant - policy,1.0,policy
+76,Department for Education,National College,National College,DFE-1025,HEO,26800,40828,Higher Executive Officer - policy,2.0,policy
+77,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1026,EO,21916,32232,Executive Officer - operational delivery,5.0,operational delivery
+78,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1026,SEO,33200,49008,Senior Executive Officer - operational delivery,2.81,operational delivery
+79,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1026,GRADE 7,45300,57223,Manager - operational delivery,5.98,operational delivery
+80,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1026,GRADE 6,55431,69187,Manager - operational delivery,12.56,operational delivery
+81,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1026,EA AO,15516,22939,Executive Assistant - operational delivery,1.0,operational delivery
+82,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1026,HEO,26800,40828,Higher Executive Officer - operational delivery,2.0,operational delivery
+83,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1026,HEO,26800,40828,Higher Executive Officer - policy,1.0,policy
+84,Department for Education,National College,National College,DFE-1027,HEO,26800,40828,Higher Executive Officer - operational delivery,1.0,operational delivery
+85,Department for Education,National College,National College,DFE-1027,SEO,33200,49008,Senior Executive Officer - operational delivery,1.0,operational delivery
+86,Department for Education,National College,National College,DFE-1027,EA AO,15516,22939,Executive Assistant - policy,7.51,policy
+87,Department for Education,National College,National College,DFE-1027,EO,21916,32232,Executive Officer - policy,11.34,policy
+88,Department for Education,National College,National College,DFE-1027,SEO,33200,49008,Senior Executive Officer - policy,6.0,policy
+89,Department for Education,National College,National College,DFE-1027,HEO,26800,40828,Higher Executive Officer - policy,12.78,policy
+90,Department for Education,National College,National College,DFE-1027,GRADE 7,45300,57223,Manager - policy,11.22,policy
+91,Department for Education,National College,National College,DFE-1027,GRADE 6,55431,69187,Manager - policy,3.0,policy
+92,Department for Education,National College,National College,DFE-1027,SEO,33200,49008,Senior Executive Officer - Programme and Project Management.,1.0,Programme and Project Management (PPM)
+93,Department for Education,National College,National College,DFE-1028,SEO,33200,49008,Senior Executive Officer - policy,10.36,policy
+94,Department for Education,National College,National College,DFE-1028,EO,21916,32232,Executive Officer - policy,21.87,policy
+95,Department for Education,National College,National College,DFE-1028,GRADE 6,55431,69187,Manager - policy,4.0,policy
+96,Department for Education,National College,National College,DFE-1028,HEO,26800,40828,Higher Executive Officer - policy,36.52,policy
+97,Department for Education,National College,National College,DFE-1028,GRADE 7,45300,57223,Manager - policy,9.7,policy
+98,Department for Education,National College,National College,DFE-1028,EA AO,15516,22939,Executive Assistant - policy,17.0,policy
+99,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1029,EA AO,15516,22939,Executive Assistant - finance,1.0,finance
+100,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1029,GRADE 7,45300,57223,Manager - operational delivery,4.84,operational delivery
+101,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1029,GRADE 6,55431,69187,Manager - operational delivery,5.74,operational delivery
+102,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1029,HEO,26800,40828,Higher Executive Officer - operational delivery,2.39,operational delivery
+103,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1029,SEO,33200,49008,Senior Executive Officer - operational delivery,2.57,operational delivery
+104,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1031,GRADE 7,45300,57223,Manager - finance,16.7,finance
+105,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1031,GRADE 6,55431,69187,Manager - finance,3.0,finance
+106,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1031,SEO,33200,49008,Senior Executive Officer - finance,16.6,finance
+107,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1031,HEO,26800,40828,Higher Executive Officer - finance,1.61,finance
+108,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1031,EA AO,15516,22939,Executive Assistant - finance,1.0,finance
+109,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1031,EO,21916,32232,Executive Officer - finance,1.0,finance
+110,Department for Education,Standards and Testing Agency,Standards and Testing Agency,DFE-1032,EO,21916,32232,Executive Officer - operational delivery,11.0,operational delivery
+111,Department for Education,Standards and Testing Agency,Standards and Testing Agency,DFE-1032,HEO,26800,40828,Higher Executive Officer - operational delivery,18.5,operational delivery
+112,Department for Education,Standards and Testing Agency,Standards and Testing Agency,DFE-1032,SEO,33200,49008,Senior Executive Officer - operational delivery,2.81,operational delivery
+113,Department for Education,Standards and Testing Agency,Standards and Testing Agency,DFE-1032,GRADE 7,45300,57223,Manager - operational delivery,15.39,operational delivery
+114,Department for Education,Standards and Testing Agency,Standards and Testing Agency,DFE-1032,GRADE 6,55431,69187,Manager - operational delivery,5.0,operational delivery
+115,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1033,EO,21916,32232,Executive Officer - policy,5.23,policy
+116,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1033,GRADE 7,45300,57223,Manager - policy,5.75,policy
+117,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1033,HEO,26800,40828,Higher Executive Officer - policy,5.8,policy
+118,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1033,SEO,33200,49008,Senior Executive Officer - policy,6.92,policy
+119,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1033,GRADE 6,55431,69187,Manager - policy,2.0,policy
+120,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1035,GRADE 7,45300,57223,Manager - Departmental Security.,2.0,Other
+121,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1035,SEO,33200,49008,Senior Executive Officer - Departmental Security.,4.0,Other
+122,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1035,GRADE 6,55431,69187,Manager - Departmental Security.,1.0,Other
+123,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1035,HEO,26800,40828,Higher Executive Officer - Departmental Security.,1.0,Other
+124,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1035,EO,21916,32232,Executive Officer - Estates and Facilities Management.,6.0,Property and asset management
+125,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1035,SEO,33200,49008,Senior Executive Officer - Estates and Facilities Management.,7.0,Property and asset management
+126,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1035,HEO,26800,40828,Higher Executive Officer - Estates and Facilities Management.,7.0,Property and asset management
+127,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1035,EA AO,15516,22939,Executive Assistant - Estates and Facilities Management.,6.89,Property and asset management
+128,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1035,Grade 7,45300,57223,Manager - Estates and Facilities Management.,3.0,Property and asset management
+129,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1035,Grade 6,55431,69187,Manager - Estates and Facilities Management.,1.0,Property and asset management
+130,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1035,GRADE 6,55431,69187,Manager - operational delivery,1.0,operational delivery
+131,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1035,GRADE 7,45300,57223,Manager - policy,1.0,policy
+132,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1035,HEO,26800,40828,Higher Executive Officer - policy,1.0,policy
+133,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1038,SEO,33200,49008,Senior Executive Officer - policy,4.0,policy
+134,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1038,EO,21916,32232,Executive Officer - policy,2.0,policy
+135,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1038,GRADE 7,45300,57223,Manager - policy,2.8,policy
+136,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1038,GRADE 6,55431,69187,Manager - policy,1.88,policy
+137,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1038,HEO,26800,40828,Higher Executive Officer - policy,1.0,policy
+138,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1039,HEO,26800,40828,Higher Executive Officer - policy,7.89,policy
+139,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1039,GRADE 6,55431,69187,Manager - policy,5.75,policy
+140,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1039,SEO,33200,49008,Senior Executive Officer - policy,5.0,policy
+141,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1039,GRADE 7,45300,57223,Manager - policy,19.2,policy
+142,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1039,EO,21916,32232,Executive Officer - policy,4.0,policy
+143,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1039,EA AO,15516,22939,Executive Assistant - policy,1.0,policy
+144,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1039,HEO,26800,40828,Higher Executive Officer - Statistics.,1.0,Statisticians
+145,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1040,GRADE 6,55431,69187,Manager - policy,2.69,policy
+146,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1040,SEO,33200,49008,Senior Executive Officer - policy,3.94,policy
+147,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1040,GRADE 7,45300,57223,Manager - policy,7.0,policy
+148,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1040,EO,21916,32232,Executive Officer - policy,2.81,policy
+149,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1040,HEO,26800,40828,Higher Executive Officer - policy,5.74,policy
+150,Department for Education,Department For Education,Care and Adoption Group,DFE-1041,HEO,26800,40828,Higher Executive Officer - policy,4.67,policy
+151,Department for Education,Department For Education,Care and Adoption Group,DFE-1041,EO,21916,32232,Executive Officer - policy,2.18,policy
+152,Department for Education,Department For Education,Care and Adoption Group,DFE-1041,SEO,33200,49008,Senior Executive Officer - policy,4.0,policy
+153,Department for Education,Department For Education,Care and Adoption Group,DFE-1041,GRADE 6,55431,69187,Manager - policy,1.0,policy
+154,Department for Education,Department For Education,Care and Adoption Group,DFE-1041,GRADE 7,45300,57223,Manager - policy,4.0,policy
+155,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1042,GRADE 7,45300,57223,Manager - finance,7.0,finance
+156,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1042,HEO,26800,40828,Higher Executive Officer - finance,6.64,finance
+157,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1042,SEO,33200,49008,Senior Executive Officer - finance,4.86,finance
+158,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1042,EO,21916,32232,Executive Officer - finance,5.0,finance
+159,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1042,GRADE 6,55431,69187,Manager - finance,4.0,finance
+160,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1042,EA AO,15516,22939,Executive Assistant - finance,1.0,finance
+161,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1042,SEO,33200,49008,Senior Executive Officer - Internal Audinformation technology,1.0,Internal Audit
+162,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1044,GRADE 6,55431,69187,Manager - operational delivery,3.0,operational delivery
+163,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1044,GRADE 7,45300,57223,Manager - operational delivery,1.0,operational delivery
+164,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1044,SEO,33200,49008,Senior Executive Officer - other,1.0,other
+165,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1048,HEO,26800,40828,Higher Executive Officer - operational delivery,0.89,operational delivery
+166,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1048,GRADE 7,45300,57223,Manager - operational delivery,2.81,operational delivery
+167,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1048,EO,21916,32232,Executive Officer - operational delivery,0.81,operational delivery
+168,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1048,GRADE 6,55431,69187,Manager - operational delivery,1.0,operational delivery
+169,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1048,GRADE 7,45300,57223,Manager - other,1.0,other
+170,Department for Education,National College,National College,DFE-1049,HEO,26800,40828,Higher Executive Officer - policy,2.6,policy
+171,Department for Education,National College,National College,DFE-1049,EO,21916,32232,Executive Officer - policy,10.59,policy
+172,Department for Education,National College,National College,DFE-1049,GRADE 7,45300,57223,Manager - policy,1.51,policy
+173,Department for Education,National College,National College,DFE-1049,GRADE 6,55431,69187,Manager - policy,5.8,policy
+174,Department for Education,National College,National College,DFE-1049,SEO,33200,49008,Senior Executive Officer - policy,2.0,policy
+175,Department for Education,Department For Education,People and Change Group,DFE-1050,EO,21916,32232,Executive Officer - HR.,1.0,Human Resources
+176,Department for Education,Department For Education,People and Change Group,DFE-1050,GRADE 6,55431,69187,Manager - HR.,2.0,Human Resources
+177,Department for Education,Department For Education,People and Change Group,DFE-1050,SEO,33200,49008,Senior Executive Officer - HR.,2.89,Human Resources
+178,Department for Education,Department For Education,People and Change Group,DFE-1050,HEO,26800,40828,Higher Executive Officer - HR.,1.89,Human Resources
+179,Department for Education,Department For Education,People and Change Group,DFE-1050,GRADE 7,45300,57223,Manager - HR.,1.53,Human Resources
+180,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1051,GRADE 7,45300,57223,Manager - policy,3.45,policy
+181,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1051,EO,21916,32232,Executive Officer - policy,1.81,policy
+182,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1051,Grade 6,55431,69187,Manager - policy,3.0,policy
+183,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1051,HEO,26800,40828,Higher Executive Officer - policy,3.0,policy
+184,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1051,SEO,33200,49008,Senior Executive Officer - policy,0.81,policy
+185,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1053,GRADE 7,45300,57223,Manager - operational delivery,6.89,operational delivery
+186,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1053,EA AO,15516,22939,Executive Assistant - operational delivery,3.0,operational delivery
+187,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1053,GRADE 6,55431,69187,Manager - operational delivery,4.0,operational delivery
+188,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1053,SEO,33200,49008,Senior Executive Officer - operational delivery,5.0,operational delivery
+189,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1053,HEO,26800,40828,Higher Executive Officer - operational delivery,1.42,operational delivery
+190,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1053,EO,21916,32232,Executive Officer - operational delivery,1.0,operational delivery
+191,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1053,GRADE 7,45300,57223,Manager - other,1.0,other
+192,Department for Education,Department For Education,Academies Delivery Group,DFE-1055,GRADE 6,55431,69187,Manager - policy,3.0,policy
+193,Department for Education,Department For Education,Academies Delivery Group,DFE-1055,GRADE 7,45300,57223,Manager - policy,4.42,policy
+194,Department for Education,Department For Education,Academies Delivery Group,DFE-1055,HEO,26800,40828,Higher Executive Officer - policy,3.0,policy
+195,Department for Education,Department For Education,Academies Delivery Group,DFE-1055,EO,21916,32232,Executive Officer - policy,4.0,policy
+196,Department for Education,Department For Education,Academies Delivery Group,DFE-1055,SEO,33200,49008,Senior Executive Officer - policy,1.0,policy
+197,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1056,GRADE 6,55431,69187,Manager - policy,2.0,policy
+198,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1056,EA AO,15516,22939,Executive Assistant - policy,1.0,policy
+199,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1056,SEO,33200,49008,Senior Executive Officer - policy,1.89,policy
+200,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1056,HEO,26800,40828,Higher Executive Officer - policy,2.0,policy
+201,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1056,EO,21916,32232,Executive Officer - policy,2.0,policy
+202,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1056,GRADE 7,45300,57223,Manager - policy,4.0,policy
+203,Department for Education,Department For Education,Academies Delivery Group,DFE-1057,GRADE 7,45300,57223,Manager - operational delivery,1.81,operational delivery
+204,Department for Education,Department For Education,Academies Delivery Group,DFE-1057,HEO,26800,40828,Higher Executive Officer - policy,30.09,policy
+205,Department for Education,Department For Education,Academies Delivery Group,DFE-1057,GRADE 7,45300,57223,Manager - policy,12.0,policy
+206,Department for Education,Department For Education,Academies Delivery Group,DFE-1057,EO,21916,32232,Executive Officer - policy,10.8,policy
+207,Department for Education,Department For Education,Academies Delivery Group,DFE-1057,SEO,33200,49008,Senior Executive Officer - policy,25.67,policy
+208,Department for Education,Department For Education,Academies Delivery Group,DFE-1057,GRADE 6,55431,69187,Manager - policy,2.0,policy
+209,Department for Education,Department For Education,Academies Delivery Group,DFE-1057,EA AO,15516,22939,Executive Assistant - policy,1.86,policy
+210,Department for Education,Department For Education,Academies Delivery Group,DFE-1059,HEO,26800,40828,Higher Executive Officer - finance,0.7,finance
+211,Department for Education,Department For Education,Academies Delivery Group,DFE-1059,HEO,26800,40828,Higher Executive Officer - policy,4.48,policy
+212,Department for Education,Department For Education,Academies Delivery Group,DFE-1059,EA AO,15516,22939,Executive Assistant - policy,1.81,policy
+213,Department for Education,Department For Education,Academies Delivery Group,DFE-1059,GRADE 7,45300,57223,Manager - policy,8.89,policy
+214,Department for Education,Department For Education,Academies Delivery Group,DFE-1059,GRADE 6,55431,69187,Manager - policy,2.0,policy
+215,Department for Education,Department For Education,Academies Delivery Group,DFE-1059,SEO,33200,49008,Senior Executive Officer - policy,3.0,policy
+216,Department for Education,Department For Education,Academies Delivery Group,DFE-1059,EO,21916,32232,Executive Officer - policy,5.2,policy
+217,Department for Education,Standards and Testing Agency,Standards and Testing Agency,DFE-1060,EO,21916,32232,Executive Officer - operational delivery,5.98,operational delivery
+218,Department for Education,Standards and Testing Agency,Standards and Testing Agency,DFE-1060,SEO,33200,49008,Senior Executive Officer - operational delivery,10.89,operational delivery
+219,Department for Education,Standards and Testing Agency,Standards and Testing Agency,DFE-1060,GRADE 7,45300,57223,Manager - operational delivery,10.0,operational delivery
+220,Department for Education,Standards and Testing Agency,Standards and Testing Agency,DFE-1060,GRADE 6,55431,69187,Manager - operational delivery,2.0,operational delivery
+221,Department for Education,Standards and Testing Agency,Standards and Testing Agency,DFE-1060,HEO,26800,40828,Higher Executive Officer - operational delivery,7.0,operational delivery
+222,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1061,GRADE 6,55431,69187,Manager - operational delivery,6.89,operational delivery
+223,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1061,SEO,33200,49008,Senior Executive Officer - policy,0.6,policy
+224,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1062,GRADE 7,45300,57223,Manager - finance,1.0,finance
+225,Department for Education,Department For Education,Supporting Delivery Group,DFE-1063,EO,21916,32232,Executive Officer - policy,1.6,policy
+226,Department for Education,Department For Education,Supporting Delivery Group,DFE-1063,SEO,33200,49008,Senior Executive Officer - policy,3.0,policy
+227,Department for Education,Department For Education,Supporting Delivery Group,DFE-1063,GRADE 7,45300,57223,Manager - policy,3.0,policy
+228,Department for Education,Department For Education,Supporting Delivery Group,DFE-1063,GRADE 6,55431,69187,Manager - policy,1.0,policy
+229,Department for Education,Department For Education,Supporting Delivery Group,DFE-1063,HEO,26800,40828,Higher Executive Officer - policy,2.0,policy
+230,Department for Education,Department For Education,Free School Group,DFE-1064,GRADE 7,45300,57223,Manager - policy,8.56,policy
+231,Department for Education,Department For Education,Free School Group,DFE-1064,GRADE 6,55431,69187,Manager - policy,3.0,policy
+232,Department for Education,Department For Education,Free School Group,DFE-1064,HEO,26800,40828,Higher Executive Officer - policy,3.0,policy
+233,Department for Education,Department For Education,Free School Group,DFE-1064,SEO,33200,49008,Senior Executive Officer - policy,6.0,policy
+234,Department for Education,Department For Education,Free School Group,DFE-1064,EA AO,15516,22939,Executive Assistant - policy,1.0,policy
+235,Department for Education,Department For Education,Free School Group,DFE-1064,EO,21916,32232,Executive Officer - policy,1.0,policy
+236,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1065,SEO,33200,49008,Senior Executive Officer - finance,1.0,finance
+237,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1065,SEO,33200,49008,Senior Executive Officer - operational delivery,13.67,operational delivery
+238,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1065,HEO,26800,40828,Higher Executive Officer - operational delivery,2.0,operational delivery
+239,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1065,EA AO,15516,22939,Executive Assistant - operational delivery,1.0,operational delivery
+240,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1065,EO,21916,32232,Executive Officer - operational delivery,0.92,operational delivery
+241,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1065,GRADE 6,55431,69187,Manager - operational delivery,3.98,operational delivery
+242,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1065,GRADE 7,45300,57223,Manager - operational delivery,9.0,operational delivery
+243,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1067,SEO,33200,49008,Senior Executive Officer - policy,4.83,policy
+244,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1067,GRADE 6,55431,69187,Manager - policy,1.67,policy
+245,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1067,HEO,26800,40828,Higher Executive Officer - policy,3.28,policy
+246,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1067,GRADE 7,45300,57223,Manager - policy,4.35,policy
+247,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1067,EO,21916,32232,Executive Officer - policy,2.0,policy
+248,Department for Education,National College,National College,DFE-1068,SEO,33200,49008,Senior Executive Officer - policy,5.43,policy
+249,Department for Education,National College,National College,DFE-1068,GRADE 7,45300,57223,Manager - policy,6.0,policy
+250,Department for Education,National College,National College,DFE-1068,HEO,26800,40828,Higher Executive Officer - policy,6.61,policy
+251,Department for Education,National College,National College,DFE-1068,EO,21916,32232,Executive Officer - policy,4.58,policy
+252,Department for Education,National College,National College,DFE-1068,GRADE 6,55431,69187,Manager - policy,2.0,policy
+253,Department for Education,National College,National College,DFE-1068,EA AO,15516,22939,Executive Assistant - Programme and Project Management.,1.0,Programme and Project Management (PPM)
+254,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1072,GRADE 7,45300,57223,Manager - finance,1.0,finance
+255,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1072,SEO,33200,49008,Senior Executive Officer - operational delivery,7.94,operational delivery
+256,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1072,HEO,26800,40828,Higher Executive Officer - operational delivery,1.0,operational delivery
+257,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1072,EA AO,15516,22939,Executive Assistant - operational delivery,1.0,operational delivery
+258,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1072,EO,21916,32232,Executive Officer - operational delivery,1.0,operational delivery
+259,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1072,GRADE 7,45300,57223,Manager - operational delivery,3.86,operational delivery
+260,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1072,GRADE 6,55431,69187,Manager - operational delivery,2.0,operational delivery
+261,Department for Education,Department For Education,ALB Reform Group ,DFE-1075,EO,21916,32232,Executive Officer - finance,2.0,finance
+262,Department for Education,Department For Education,ALB Reform Group ,DFE-1075,GRADE 7,45300,57223,Manager - policy,4.92,policy
+263,Department for Education,Department For Education,ALB Reform Group ,DFE-1075,GRADE 6,55431,69187,Manager - policy,2.0,policy
+264,Department for Education,Department For Education,ALB Reform Group ,DFE-1075,EO,21916,32232,Executive Officer - policy,1.0,policy
+265,Department for Education,Department For Education,ALB Reform Group ,DFE-1075,EO,21916,32232,Executive Officer - procurement,1.0,procurement
+266,Department for Education,Department For Education,Communications Group,DFE-1078,HEO,26800,40828,Higher Executive Officer - Communications and Marketing.,7.8,Communications
+267,Department for Education,Department For Education,Communications Group,DFE-1078,GRADE 7,45300,57223,Manager - Communications and Marketing.,6.8,Communications
+268,Department for Education,Department For Education,Communications Group,DFE-1078,EA AO,15516,22939,Executive Assistant - Communications and Marketing.,2.0,Communications
+269,Department for Education,Department For Education,Communications Group,DFE-1078,GRADE 6,55431,69187,Manager - Communications and Marketing.,4.0,Communications
+270,Department for Education,Department For Education,Communications Group,DFE-1078,SEO,33200,49008,Senior Executive Officer - Communications and Marketing.,10.81,Communications
+271,Department for Education,Department For Education,Communications Group,DFE-1078,EO,21916,32232,Executive Officer - Communications and Marketing.,1.0,Communications
+272,Department for Education,Department For Education,Communications Group,DFE-1078,GRADE 7,45300,57223,Manager - policy,1.0,policy
+273,Department for Education,Department For Education,"Childcare, Special Needs and Children’s Services Strategy",DFE-1081,GRADE 7,45300,57223,Manager - policy,12.62,policy
+274,Department for Education,Department For Education,"Childcare, Special Needs and Children’s Services Strategy",DFE-1081,SEO,33200,49008,Senior Executive Officer - policy,7.62,policy
+275,Department for Education,Department For Education,"Childcare, Special Needs and Children’s Services Strategy",DFE-1081,HEO,26800,40828,Higher Executive Officer - policy,7.0,policy
+276,Department for Education,Department For Education,"Childcare, Special Needs and Children’s Services Strategy",DFE-1081,GRADE 6,55431,69187,Manager - policy,3.1,policy
+277,Department for Education,Department For Education,"Childcare, Special Needs and Children’s Services Strategy",DFE-1081,EO,21916,32232,Executive Officer - policy,3.75,policy
+278,Department for Education,Department For Education,"Childcare, Special Needs and Children’s Services Strategy",DFE-1081,EA AO,15516,22939,Executive Assistant - policy,2.0,policy
+279,Department for Education,Department For Education,Safeguarding Group ,DFE-1082,GRADE 7,45300,57223,Manager - operational delivery,1.0,operational delivery
+280,Department for Education,Department For Education,Safeguarding Group ,DFE-1082,EO,21916,32232,Executive Officer - other,1.0,other
+281,Department for Education,Department For Education,Safeguarding Group ,DFE-1082,GRADE 7,45300,57223,Manager - policy,10.53,policy
+282,Department for Education,Department For Education,Safeguarding Group ,DFE-1082,SEO,33200,49008,Senior Executive Officer - policy,14.63,policy
+283,Department for Education,Department For Education,Safeguarding Group ,DFE-1082,HEO,26800,40828,Higher Executive Officer - policy,7.92,policy
+284,Department for Education,Department For Education,Safeguarding Group ,DFE-1082,EO,21916,32232,Executive Officer - policy,6.49,policy
+285,Department for Education,Department For Education,Safeguarding Group ,DFE-1082,GRADE 6,55431,69187,Manager - policy,2.82,policy
+286,Department for Education,National College,National College,DFE-1083,EO,21916,32232,Executive Officer - policy,7.65,policy
+287,Department for Education,National College,National College,DFE-1083,HEO,26800,40828,Higher Executive Officer - policy,5.0,policy
+288,Department for Education,National College,National College,DFE-1083,SEO,33200,49008,Senior Executive Officer - policy,5.0,policy
+289,Department for Education,National College,National College,DFE-1083,GRADE 7,45300,57223,Manager - policy,7.0,policy
+290,Department for Education,National College,National College,DFE-1083,GRADE 6,55431,69187,Manager - policy,2.0,policy
+291,Department for Education,Department For Education,Infrastructure and Funding Directorate,DFE-1084,SEO,33200,49008,Senior Executive Officer - finance,1.0,finance
+292,Department for Education,Department For Education,Infrastructure and Funding Directorate,DFE-1084,GRADE 7,45300,57223,Manager - other,1.0,other
+293,Department for Education,Department For Education,Infrastructure and Funding Directorate,DFE-1084,EO,21916,32232,Executive Officer - other,4.0,other
+294,Department for Education,Department For Education,Infrastructure and Funding Directorate,DFE-1084,HEO,26800,40828,Higher Executive Officer - other,1.0,other
+295,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1085,EO,21916,32232,Executive Officer - Communications and Marketing.,14.52,Communications
+296,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1085,EA AO,15516,22939,Executive Assistant - Communications and Marketing.,10.69,Communications
+297,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1085,HEO,26800,40828,Higher Executive Officer - Communications and Marketing.,4.0,Communications
+298,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1085,GRADE 7,45300,57223,Manager - Communications and Marketing.,4.6,Communications
+299,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1085,SEO,33200,49008,Senior Executive Officer - Communications and Marketing.,2.0,Communications
+300,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1085,GRADE 6,55431,69187,Manager - Communications and Marketing.,1.0,Communications
+301,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1085,EO,21916,32232,Executive Officer - other,1.0,other
+302,Department for Education,Department For Education,System Reform Group,DFE-1086,GRADE 7,45300,57223,Manager - policy,5.0,policy
+303,Department for Education,Department For Education,System Reform Group,DFE-1086,EO,21916,32232,Executive Officer - policy,2.8,policy
+304,Department for Education,Department For Education,System Reform Group,DFE-1086,GRADE 6,55431,69187,Manager - policy,1.0,policy
+305,Department for Education,Department For Education,System Reform Group,DFE-1086,SEO,33200,49008,Senior Executive Officer - policy,2.0,policy
+306,Department for Education,Department For Education,System Reform Group,DFE-1086,EA AO,15516,22939,Executive Assistant - policy,1.0,policy
+307,Department for Education,Department For Education,System Reform Group,DFE-1086,HEO,26800,40828,Higher Executive Officer - policy,1.0,policy
+308,Department for Education,Department For Education,People and Change Group,DFE-1088,HEO,26800,40828,Higher Executive Officer - Departmental Security.,0.86,Other
+309,Department for Education,Department For Education,People and Change Group,DFE-1088,HEO,26800,40828,Higher Executive Officer - HR.,1.5,Human Resources
+310,Department for Education,Department For Education,People and Change Group,DFE-1088,EO,21916,32232,Executive Officer - HR.,1.0,Human Resources
+311,Department for Education,Department For Education,People and Change Group,DFE-1088,GRADE 7,45300,57223,Manager - HR.,2.0,Human Resources
+312,Department for Education,Department For Education,People and Change Group,DFE-1088,SEO,33200,49008,Senior Executive Officer - HR.,1.8,Human Resources
+313,Department for Education,Department For Education,People and Change Group,DFE-1088,SEO,33200,49008,Senior Executive Officer - other,1.0,other
+314,Department for Education,Department For Education,People and Change Group,DFE-1088,SEO,33200,49008,Senior Executive Officer - policy,25.0,policy
+315,Department for Education,Department For Education,People and Change Group,DFE-1088,GRADE 7,45300,57223,Manager - policy,14.89,policy
+316,Department for Education,Department For Education,People and Change Group,DFE-1088,GRADE 6,55431,69187,Manager - policy,0.67,policy
+317,Department for Education,Department For Education,People and Change Group,DFE-1088,HEO,26800,40828,Higher Executive Officer - policy,14.5,policy
+318,Department for Education,Department For Education,People and Change Group,DFE-1088,SEO,33200,49008,Senior Executive Officer - Statistics.,1.33,Statisticians
+319,Department for Education,Department For Education,Free School Group,DFE-1090,GRADE 6,55431,69187,Manager - policy,2.0,policy
+320,Department for Education,Department For Education,Free School Group,DFE-1090,GRADE 7,45300,57223,Manager - policy,4.0,policy
+321,Department for Education,Department For Education,Free School Group,DFE-1090,EO,21916,32232,Executive Officer - policy,6.0,policy
+322,Department for Education,Department For Education,Free School Group,DFE-1090,EA AO,15516,22939,Executive Assistant - policy,1.58,policy
+323,Department for Education,Department For Education,Free School Group,DFE-1090,HEO,26800,40828,Higher Executive Officer - policy,1.0,policy
+324,Department for Education,Department For Education,Free School Group,DFE-1090,SEO,33200,49008,Senior Executive Officer - policy,1.0,policy
+325,Department for Education,Department For Education,People and Change Group,DFE-1091,SEO,33200,49008,Senior Executive Officer - HR.,3.0,Human Resources
+326,Department for Education,Department For Education,People and Change Group,DFE-1091,HEO,26800,40828,Higher Executive Officer - HR.,2.81,Human Resources
+327,Department for Education,Department For Education,People and Change Group,DFE-1091,EO,21916,32232,Executive Officer - HR.,2.0,Human Resources
+328,Department for Education,Department For Education,People and Change Group,DFE-1091,GRADE 7,45300,57223,Manager - HR.,4.0,Human Resources
+329,Department for Education,Department For Education,People and Change Group,DFE-1091,EA AO,15516,22939,Executive Assistant - HR.,0.89,Human Resources
+330,Department for Education,Department For Education,Office of the Schools Commissioner Group,DFE-1092,GRADE 7,45300,57223,Manager - policy,7.0,policy
+331,Department for Education,Department For Education,Office of the Schools Commissioner Group,DFE-1092,HEO,26800,40828,Higher Executive Officer - policy,4.0,policy
+332,Department for Education,Department For Education,Office of the Schools Commissioner Group,DFE-1092,SEO,33200,49008,Senior Executive Officer - policy,7.0,policy
+333,Department for Education,Department For Education,Office of the Schools Commissioner Group,DFE-1092,EA AO,15516,22939,Executive Assistant - policy,2.0,policy
+334,Department for Education,Department For Education,Office of the Schools Commissioner Group,DFE-1092,EO,21916,32232,Executive Officer - policy,4.0,policy
+335,Department for Education,Department For Education,Office of the Schools Commissioner Group,DFE-1092,GRADE 6,55431,69187,Manager - policy,3.8,policy
+336,Department for Education,Department For Education,Chief Information Officer Group,DFE-1094,EO,21916,32232,Executive Officer - information technology,45.01,information technology
+337,Department for Education,Department For Education,Chief Information Officer Group,DFE-1094,GRADE 7,45300,57223,Manager - information technology,8.8,information technology
+338,Department for Education,Department For Education,Chief Information Officer Group,DFE-1094,SEO,33200,49008,Senior Executive Officer - information technology,6.0,information technology
+339,Department for Education,Department For Education,Chief Information Officer Group,DFE-1094,HEO,26800,40828,Higher Executive Officer - information technology,23.0,information technology
+340,Department for Education,Department For Education,Chief Information Officer Group,DFE-1094,GRADE 6,55431,69187,Manager - information technology,2.0,information technology
+341,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1097,SEO,33200,49008,Senior Executive Officer - policy,4.56,policy
+342,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1097,GRADE 7,45300,57223,Manager - policy,4.36,policy
+343,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1097,HEO,26800,40828,Higher Executive Officer - policy,5.22,policy
+344,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1097,EA AO,15516,22939,Executive Assistant - policy,1.0,policy
+345,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1097,EO,21916,32232,Executive Officer - policy,2.0,policy
+346,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1097,GRADE 6,55431,69187,Manager - policy,0.84,policy
+347,Department for Education,Department For Education,Academies Delivery Group,DFE-1098,GRADE 7,45300,57223,Manager - operational delivery,5.0,operational delivery
+348,Department for Education,Department For Education,Academies Delivery Group,DFE-1098,HEO,26800,40828,Higher Executive Officer - policy,22.86,policy
+349,Department for Education,Department For Education,Academies Delivery Group,DFE-1098,GRADE 6,55431,69187,Manager - policy,3.67,policy
+350,Department for Education,Department For Education,Academies Delivery Group,DFE-1098,GRADE 7,45300,57223,Manager - policy,18.0,policy
+351,Department for Education,Department For Education,Academies Delivery Group,DFE-1098,EO,21916,32232,Executive Officer - policy,6.0,policy
+352,Department for Education,Department For Education,Academies Delivery Group,DFE-1098,SEO,33200,49008,Senior Executive Officer - policy,8.65,policy
+353,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1099,SEO,33200,49008,Senior Executive Officer - finance,1.0,finance
+354,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1099,EA AO,15516,22939,Executive Assistant - finance,1.0,finance
+355,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1099,HEO,26800,40828,Higher Executive Officer - operational delivery,5.0,operational delivery
+356,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1099,EO,21916,32232,Executive Officer - operational delivery,2.61,operational delivery
+357,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1099,SEO,33200,49008,Senior Executive Officer - operational delivery,17.33,operational delivery
+358,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1099,GRADE 7,45300,57223,Manager - operational delivery,15.61,operational delivery
+359,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1099,GRADE 6,55431,69187,Manager - operational delivery,4.0,operational delivery
+360,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1099,EA AO,15516,22939,Executive Assistant - operational delivery,3.0,operational delivery
+361,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1102,HEO,26800,40828,Higher Executive Officer - policy,1.0,policy
+362,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1102,GRADE 7,45300,57223,Manager - policy,4.7,policy
+363,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1102,GRADE 6,55431,69187,Manager - policy,1.0,policy
+364,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1106,Grade 7,45300,57223,Manager - finance,1.0,finance
+365,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1106,SEO,33200,49008,Senior Executive Officer - operational delivery,2.0,operational delivery
+366,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1106,EA AO,15516,22939,Executive Assistant - operational delivery,1.61,operational delivery
+367,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1106,EO,21916,32232,Executive Officer - operational delivery,2.0,operational delivery
+368,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1106,GRADE 7,45300,57223,Manager - operational delivery,2.0,operational delivery
+369,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1106,HEO,26800,40828,Higher Executive Officer - operational delivery,1.0,operational delivery
+370,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1106,GRADE 6,55431,69187,Manager - other,1.0,other
+371,Department for Education,Department For Education,Chief Information Officer Group,DFE-1107,HEO,26800,40828,Higher Executive Officer - information technology,10.66,information technology
+372,Department for Education,Department For Education,Chief Information Officer Group,DFE-1107,GRADE 7,45300,57223,Manager - information technology,4.0,information technology
+373,Department for Education,Department For Education,Chief Information Officer Group,DFE-1107,EO,21916,32232,Executive Officer - information technology,2.6,information technology
+374,Department for Education,Department For Education,Chief Information Officer Group,DFE-1107,SEO,33200,49008,Senior Executive Officer - information technology,7.8,information technology
+375,Department for Education,Department For Education,Chief Information Officer Group,DFE-1107,EA AO,15516,22939,Executive Assistant - information technology,0.8,information technology
+376,Department for Education,Department For Education,Chief Information Officer Group,DFE-1107,GRADE 7,45300,57223,Manager - Knowledge Information and Records Mgmt.,3.92,Knowledge and Information Management (KIM)
+377,Department for Education,Department For Education,Chief Information Officer Group,DFE-1107,EO,21916,32232,Executive Officer - Knowledge Information and Records Mgmt.,5.0,Knowledge and Information Management (KIM)
+378,Department for Education,Department For Education,Chief Information Officer Group,DFE-1107,HEO,26800,40828,Higher Executive Officer - Knowledge Information and Records Mgmt.,3.0,Knowledge and Information Management (KIM)
+379,Department for Education,Department For Education,Chief Information Officer Group,DFE-1107,SEO,33200,49008,Senior Executive Officer - Knowledge Information and Records Mgmt.,3.0,Knowledge and Information Management (KIM)
+380,Department for Education,Department For Education,Chief Information Officer Group,DFE-1107,GRADE 6,55431,69187,Manager - Knowledge Information and Records Mgmt.,2.0,Knowledge and Information Management (KIM)
+381,Department for Education,Department For Education,Chief Information Officer Group,DFE-1107,SEO,33200,49008,Senior Executive Officer - Librarians.,1.0,Knowledge and Information Management (KIM)
+382,Department for Education,Department For Education,Chief Information Officer Group,DFE-1107,EO,21916,32232,Executive Officer - Librarians.,2.0,Knowledge and Information Management (KIM)
+383,Department for Education,Department For Education,Chief Information Officer Group,DFE-1107,GRADE 7,45300,57223,Manager - Librarians.,1.0,Knowledge and Information Management (KIM)
+384,Department for Education,Department For Education,Chief Information Officer Group,DFE-1107,GRADE 7,45300,57223,Manager - policy,2.0,policy
+385,Department for Education,Department For Education,Chief Information Officer Group,DFE-1107,HEO,26800,40828,Higher Executive Officer - policy,4.0,policy
+386,Department for Education,Department For Education,Chief Information Officer Group,DFE-1107,EO,21916,32232,Executive Officer - policy,2.0,policy
+387,Department for Education,Department For Education,Chief Information Officer Group,DFE-1107,SEO,33200,49008,Senior Executive Officer - policy,1.0,policy
+388,Department for Education,Department For Education,Chief Information Officer Group,DFE-1107,SEO,33200,49008,Senior Executive Officer - Programme and Project Management.,0.96,Programme and Project Management (PPM)
+389,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1108,SEO,33200,49008,Senior Executive Officer - finance,4.78,finance
+390,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1108,GRADE 7,45300,57223,Manager - finance,1.0,finance
+391,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1108,GRADE 7,45300,57223,Manager - operational delivery,13.81,operational delivery
+392,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1108,EO,21916,32232,Executive Officer - operational delivery,3.86,operational delivery
+393,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1108,EA AO,15516,22939,Executive Assistant - operational delivery,0.57,operational delivery
+394,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1108,SEO,33200,49008,Senior Executive Officer - operational delivery,37.93,operational delivery
+395,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1108,GRADE 6,55431,69187,Manager - operational delivery,5.0,operational delivery
+396,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1108,HEO,26800,40828,Higher Executive Officer - operational delivery,6.98,operational delivery
+397,Department for Education,National College,National College,DFE-1109,SEO,33200,49008,Senior Executive Officer - policy,8.0,policy
+398,Department for Education,National College,National College,DFE-1109,EA AO,15516,22939,Executive Assistant - policy,5.61,policy
+399,Department for Education,National College,National College,DFE-1109,GRADE 7,45300,57223,Manager - policy,9.46,policy
+400,Department for Education,National College,National College,DFE-1109,EO,21916,32232,Executive Officer - policy,10.05,policy
+401,Department for Education,National College,National College,DFE-1109,HEO,26800,40828,Higher Executive Officer - policy,8.0,policy
+402,Department for Education,National College,National College,DFE-1109,GRADE 6,55431,69187,Manager - policy,3.0,policy
+403,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,HEO,26800,40828,Higher Executive Officer - finance,1.0,finance
+404,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,EO,21916,32232,Executive Officer - information technology,1.83,information technology
+405,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,HEO,26800,40828,Higher Executive Officer - information technology,5.0,information technology
+406,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,SEO,33200,49008,Senior Executive Officer - information technology,1.0,information technology
+407,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,GRADE 7,45300,57223,Manager - information technology,1.0,information technology
+408,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,GRADE 7,45300,57223,Manager - operational delivery,2.81,operational delivery
+409,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,EO,21916,32232,Executive Officer - operational delivery,3.61,operational delivery
+410,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,EA AO,15516,22939,Executive Assistant - operational delivery,5.78,operational delivery
+411,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,HEO,26800,40828,Higher Executive Officer - operational delivery,5.86,operational delivery
+412,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,SEO,33200,49008,Senior Executive Officer - operational delivery,7.84,operational delivery
+413,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,EO,21916,32232,Executive Officer - other,1.0,other
+414,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,SEO,33200,49008,Senior Executive Officer - policy,4.0,policy
+415,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,EO,21916,32232,Executive Officer - policy,3.0,policy
+416,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,HEO,26800,40828,Higher Executive Officer - policy,5.0,policy
+417,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,GRADE 7,45300,57223,Manager - policy,3.0,policy
+418,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,EA AO,15516,22939,Executive Assistant - policy,1.0,policy
+419,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,GRADE 6,55431,69187,Manager - policy,1.0,policy
+420,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,SEO,33200,49008,Senior Executive Officer - Programme and Project Management.,0.71,Programme and Project Management (PPM)
+421,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,HEO,26800,40828,Higher Executive Officer - Programme and Project Management.,4.79,Programme and Project Management (PPM)
+422,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,GRADE 7,45300,57223,Manager - Programme and Project Management.,1.0,Programme and Project Management (PPM)
+423,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,EO,21916,32232,Executive Officer - Programme and Project Management.,1.37,Programme and Project Management (PPM)
+424,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,HEO,26800,40828,Higher Executive Officer - Statisticians.,5.0,Statisticians
+425,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,GRADE 7,45300,57223,Manager - Statisticians.,4.37,Statisticians
+426,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,EO,21916,32232,Executive Officer - Statisticians.,2.0,Statisticians
+427,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,SEO,33200,49008,Senior Executive Officer - Statisticians.,1.0,Statisticians
+428,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,GRADE 6,55431,69187,Manager - Statisticians.,1.89,Statisticians
+429,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,EO,21916,32232,Executive Officer - Statistics.,3.83,Statisticians
+430,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,HEO,26800,40828,Higher Executive Officer - Statistics.,2.62,Statisticians
+431,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1111,SEO,33200,49008,Senior Executive Officer - Statistics.,1.0,Statisticians
+432,Department for Education,Department For Education,Care and Adoption Group,DFE-1112,SEO,33200,49008,Senior Executive Officer - policy,1.0,policy
+433,Department for Education,Department For Education,Chief Information Officer Group,DFE-1115,SEO,33200,49008,Senior Executive Officer - Communications and Marketing.,3.0,Communications
+434,Department for Education,Department For Education,Chief Information Officer Group,DFE-1115,HEO,26800,40828,Higher Executive Officer - Communications and Marketing.,3.0,Communications
+435,Department for Education,Department For Education,Chief Information Officer Group,DFE-1115,GRADE 7,45300,57223,Manager - Communications and Marketing.,3.0,Communications
+436,Department for Education,Department For Education,Chief Information Officer Group,DFE-1115,SEO,33200,49008,Senior Executive Officer - Contract Management.,4.0,Procurement
+437,Department for Education,Department For Education,Chief Information Officer Group,DFE-1115,GRADE 6,55431,69187,Manager - Contract Management.,1.0,Procurement
+438,Department for Education,Department For Education,Chief Information Officer Group,DFE-1115,HEO,26800,40828,Higher Executive Officer - Contract Management.,3.0,Procurement
+439,Department for Education,Department For Education,Chief Information Officer Group,DFE-1115,GRADE 7,45300,57223,Manager - Contract Management.,1.0,Procurement
+440,Department for Education,Department For Education,Chief Information Officer Group,DFE-1115,EO,21916,32232,Executive Officer - Contract Management.,0.7,Procurement
+441,Department for Education,Department For Education,Chief Information Officer Group,DFE-1115,SEO,33200,49008,Senior Executive Officer - finance,0.71,finance
+442,Department for Education,Department For Education,Chief Information Officer Group,DFE-1115,EA AO,15516,22939,Executive Assistant - information technology,0.63,information technology
+443,Department for Education,Department For Education,Chief Information Officer Group,DFE-1115,SEO,33200,49008,Senior Executive Officer - information technology,8.0,information technology
+444,Department for Education,Department For Education,Chief Information Officer Group,DFE-1115,HEO,26800,40828,Higher Executive Officer - information technology,9.0,information technology
+445,Department for Education,Department For Education,Chief Information Officer Group,DFE-1115,GRADE 7,45300,57223,Manager - information technology,8.0,information technology
+446,Department for Education,Department For Education,Chief Information Officer Group,DFE-1115,GRADE 6,55431,69187,Manager - information technology,2.0,information technology
+447,Department for Education,Department For Education,Chief Information Officer Group,DFE-1115,EO,21916,32232,Executive Officer - information technology,8.56,information technology
+448,Department for Education,Department For Education,Chief Information Officer Group,DFE-1115,SEO,33200,49008,Senior Executive Officer - policy,1.0,policy
+449,Department for Education,National College,National College,DFE-1117,GRADE 7,45300,57223,Manager - policy,9.65,policy
+450,Department for Education,National College,National College,DFE-1117,GRADE 6,55431,69187,Manager - policy,4.0,policy
+451,Department for Education,National College,National College,DFE-1117,SEO,33200,49008,Senior Executive Officer - policy,13.78,policy
+452,Department for Education,National College,National College,DFE-1117,HEO,26800,40828,Higher Executive Officer - policy,2.0,policy
+453,Department for Education,Department For Education,Supporting Delivery Group,DFE-1118,HEO,26800,40828,Higher Executive Officer - policy,3.0,policy
+454,Department for Education,Department For Education,Supporting Delivery Group,DFE-1118,GRADE 6,55431,69187,Manager - policy,1.0,policy
+455,Department for Education,Department For Education,Supporting Delivery Group,DFE-1118,GRADE 7,45300,57223,Manager - policy,2.2,policy
+456,Department for Education,Department For Education,Supporting Delivery Group,DFE-1118,SEO,33200,49008,Senior Executive Officer - policy,2.67,policy
+457,Department for Education,Department For Education,Supporting Delivery Group,DFE-1118,EO,21916,32232,Executive Officer - policy,1.0,policy
+458,Department for Education,Department For Education,Supporting Delivery Group,DFE-1119,HEO,26800,40828,Higher Executive Officer - Communications and Marketing.,0.93,Communications
+459,Department for Education,Department For Education,Supporting Delivery Group,DFE-1119,GRADE 6,55431,69187,Manager - policy,2.9,policy
+460,Department for Education,Department For Education,Supporting Delivery Group,DFE-1119,EO,21916,32232,Executive Officer - policy,3.49,policy
+461,Department for Education,Department For Education,Supporting Delivery Group,DFE-1119,GRADE 7,45300,57223,Manager - policy,6.0,policy
+462,Department for Education,Department For Education,Supporting Delivery Group,DFE-1119,SEO,33200,49008,Senior Executive Officer - policy,5.42,policy
+463,Department for Education,Department For Education,Supporting Delivery Group,DFE-1119,HEO,26800,40828,Higher Executive Officer - policy,4.0,policy
+464,Department for Education,Department For Education,Free School Group,DFE-1122,GRADE 7,45300,57223,Manager - policy,12.83,policy
+465,Department for Education,Department For Education,Free School Group,DFE-1122,HEO,26800,40828,Higher Executive Officer - policy,3.0,policy
+466,Department for Education,Department For Education,Free School Group,DFE-1122,SEO,33200,49008,Senior Executive Officer - policy,5.0,policy
+467,Department for Education,Department For Education,Free School Group,DFE-1122,EO,21916,32232,Executive Officer - policy,3.4,policy
+468,Department for Education,Department For Education,Free School Group,DFE-1122,EA AO,15516,22939,Executive Assistant - policy,1.0,policy
+469,Department for Education,Department For Education,Free School Group,DFE-1122,GRADE 6,55431,69187,Manager - policy,2.0,policy
+470,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1123,SEO,33200,49008,Senior Executive Officer - other,2.0,other
+471,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1123,HEO,26800,40828,Higher Executive Officer - other,1.0,other
+472,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1123,EO,21916,32232,Executive Officer - other,1.94,other
+473,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1123,GRADE 7,45300,57223,Manager - other,1.0,other
+474,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1123,GRADE 6,55431,69187,Manager - other,1.0,other
+475,Department for Education,Department For Education,Education Funding Group,DFE-1124,HEO,26800,40828,Higher Executive Officer - other,1.0,other
+476,Department for Education,Department For Education,Education Funding Group,DFE-1124,EO,21916,32232,Executive Officer - other,1.0,other
+477,Department for Education,Department For Education,Education Funding Group,DFE-1124,GRADE 7,45300,57223,Manager - other,1.0,other
+478,Department for Education,Department For Education,Education Funding Group,DFE-1124,EO,21916,32232,Executive Officer - policy,3.51,policy
+479,Department for Education,Department For Education,Education Funding Group,DFE-1124,HEO,26800,40828,Higher Executive Officer - policy,5.0,policy
+480,Department for Education,Department For Education,Education Funding Group,DFE-1124,SEO,33200,49008,Senior Executive Officer - policy,5.0,policy
+481,Department for Education,Department For Education,Education Funding Group,DFE-1124,GRADE 6,55431,69187,Manager - policy,1.81,policy
+482,Department for Education,Department For Education,Education Funding Group,DFE-1124,GRADE 7,45300,57223,Manager - policy,4.8,policy
+483,Department for Education,Department For Education,Education Funding Group,DFE-1124,SEO,33200,49008,Senior Executive Officer - Programme and Project Management.,16.57,Programme and Project Management (PPM)
+484,Department for Education,Department For Education,Education Funding Group,DFE-1124,HEO,26800,40828,Higher Executive Officer - Programme and Project Management.,15.61,Programme and Project Management (PPM)
+485,Department for Education,Department For Education,Education Funding Group,DFE-1124,EO,21916,32232,Executive Officer - Programme and Project Management.,8.0,Programme and Project Management (PPM)
+486,Department for Education,Department For Education,Education Funding Group,DFE-1124,GRADE 7,45300,57223,Manager - Programme and Project Management.,10.33,Programme and Project Management (PPM)
+487,Department for Education,Department For Education,Education Funding Group,DFE-1124,GRADE 6,55431,69187,Manager - Programme and Project Management.,2.83,Programme and Project Management (PPM)
+488,Department for Education,Department For Education,Education Funding Group,DFE-1124,EA AO,15516,22939,Executive Assistant - Programme and Project Management.,1.0,Programme and Project Management (PPM)
+489,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1126,GRADE 7,45300,57223,Manager - operational delivery,2.8,operational delivery
+490,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1126,GRADE 6,55431,69187,Manager - operational delivery,2.0,operational delivery
+491,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1127,EO,21916,32232,Executive Officer - finance,3.0,finance
+492,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1127,SEO,33200,49008,Senior Executive Officer - finance,5.0,finance
+493,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1127,GRADE 7,45300,57223,Manager - finance,3.0,finance
+494,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1127,HEO,26800,40828,Higher Executive Officer - finance,3.0,finance
+495,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1127,Grade 6,55431,69187,Manager - finance,2.0,finance
+496,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1127,SEO,33200,49008,Senior Executive Officer - Internal Audinformation technology,1.0,Internal Audit
+497,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1127,HEO,26800,40828,Higher Executive Officer - Internal Audinformation technology,1.0,Internal Audit
+498,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1127,EO,21916,32232,Executive Officer - other,7.57,other
+499,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1127,GRADE 7,45300,57223,Manager - other,2.0,other
+500,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1127,EA AO,15516,22939,Executive Assistant - other,1.6,other
+501,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1127,SEO,33200,49008,Senior Executive Officer - other,1.0,other
+502,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1127,HEO,26800,40828,Higher Executive Officer - other,1.0,other
+503,Department for Education,Department For Education,Free School Group,DFE-1129,HEO,26800,40828,Higher Executive Officer - policy,5.0,policy
+504,Department for Education,Department For Education,Free School Group,DFE-1129,SEO,33200,49008,Senior Executive Officer - policy,5.5,policy
+505,Department for Education,Department For Education,Free School Group,DFE-1129,GRADE 7,45300,57223,Manager - policy,5.0,policy
+506,Department for Education,Department For Education,Free School Group,DFE-1129,EA AO,15516,22939,Executive Assistant - policy,2.0,policy
+507,Department for Education,Department For Education,Free School Group,DFE-1129,EO,21916,32232,Executive Officer - policy,3.56,policy
+508,Department for Education,Department For Education,Free School Group,DFE-1129,GRADE 6,55431,69187,Manager - policy,3.0,policy
+509,Department for Education,Department For Education,Academies Delivery Group,DFE-1130,HEO,26800,40828,Higher Executive Officer - policy,16.78,policy
+510,Department for Education,Department For Education,Academies Delivery Group,DFE-1130,GRADE 7,45300,57223,Manager - policy,5.0,policy
+511,Department for Education,Department For Education,Academies Delivery Group,DFE-1130,SEO,33200,49008,Senior Executive Officer - policy,10.0,policy
+512,Department for Education,Department For Education,Academies Delivery Group,DFE-1130,EO,21916,32232,Executive Officer - policy,11.0,policy
+513,Department for Education,Department For Education,Academies Delivery Group,DFE-1130,EA AO,15516,22939,Executive Assistant - policy,2.0,policy
+514,Department for Education,Department For Education,Academies Delivery Group,DFE-1130,GRADE 6,55431,69187,Manager - policy,1.8,policy
+515,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1133,GRADE 6,55431,69187,Manager - finance,1.0,finance
+516,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1133,EA AO,15516,22939,Executive Assistant - finance,1.0,finance
+517,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1133,GRADE 7,45300,57223,Manager - finance,1.0,finance
+518,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1133,EO,21916,32232,Executive Officer - operational delivery,3.98,operational delivery
+519,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1133,GRADE 6,55431,69187,Manager - operational delivery,4.98,operational delivery
+520,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1133,GRADE 7,45300,57223,Manager - operational delivery,8.62,operational delivery
+521,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1133,SEO,33200,49008,Senior Executive Officer - operational delivery,13.34,operational delivery
+522,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1133,EA AO,15516,22939,Executive Assistant - operational delivery,0.98,operational delivery
+523,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1134,EO,21916,32232,Executive Officer - operational delivery,6.0,operational delivery
+524,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1134,SEO,33200,49008,Senior Executive Officer - operational delivery,7.0,operational delivery
+525,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1134,GRADE 7,45300,57223,Manager - operational delivery,5.5,operational delivery
+526,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1134,HEO,26800,40828,Higher Executive Officer - operational delivery,8.0,operational delivery
+527,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1134,GRADE 6,55431,69187,Manager - operational delivery,1.0,operational delivery
+528,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1134,SEO,33200,49008,Senior Executive Officer - other,1.0,other
+529,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1135,HEO,26800,40828,Higher Executive Officer - HR.,1.0,Human Resources
+530,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1135,GRADE 7,45300,57223,Manager - operational delivery,0.79,operational delivery
+531,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1135,EO,21916,32232,Executive Officer - operational delivery,2.0,operational delivery
+532,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1135,GRADE 6,55431,69187,Manager - operational delivery,1.0,operational delivery
+533,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1136,SEO,33200,49008,Senior Executive Officer - operational delivery,1.0,operational delivery
+534,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1136,SEO,33200,49008,Senior Executive Officer - other,1.0,other
+535,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1136,HEO,26800,40828,Higher Executive Officer - other,2.0,other
+536,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1136,Grade 6,55431,69187,Manager - other,2.0,other
+537,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1136,EA AO,15516,22939,Executive Assistant - other,1.0,other
+538,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1137,EO,21916,32232,Executive Officer - finance,1.0,finance
+539,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1137,EO,21916,32232,Executive Officer - operational delivery,1.0,operational delivery
+540,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1137,SEO,33200,49008,Senior Executive Officer - operational delivery,2.0,operational delivery
+541,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1137,GRADE 7,45300,57223,Manager - operational delivery,2.0,operational delivery
+542,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1137,Grade 6,55431,69187,Manager - operational delivery,1.0,operational delivery
+543,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1137,HEO,26800,40828,Higher Executive Officer - operational delivery,1.0,operational delivery
+544,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1138,GRADE 6,55431,69187,Manager - HR.,0.84,Human Resources
+545,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1138,GRADE 7,45300,57223,Manager - policy,13.98,policy
+546,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1138,GRADE 6,55431,69187,Manager - policy,2.0,policy
+547,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1139,SEO,33200,49008,Senior Executive Officer - finance,1.0,finance
+548,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1139,SEO,33200,49008,Senior Executive Officer - operational delivery,21.69,operational delivery
+549,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1139,GRADE 6,55431,69187,Manager - operational delivery,4.82,operational delivery
+550,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1139,EO,21916,32232,Executive Officer - operational delivery,2.0,operational delivery
+551,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1139,GRADE 7,45300,57223,Manager - operational delivery,5.0,operational delivery
+552,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1139,HEO,26800,40828,Higher Executive Officer - operational delivery,3.0,operational delivery
+553,Department for Education,Department For Education,System Reform Group,DFE-1140,HEO,26800,40828,Higher Executive Officer - HR.,1.0,Human Resources
+554,Department for Education,Department For Education,System Reform Group,DFE-1140,HEO,26800,40828,Higher Executive Officer - policy,8.37,policy
+555,Department for Education,Department For Education,System Reform Group,DFE-1140,EO,21916,32232,Executive Officer - policy,3.0,policy
+556,Department for Education,Department For Education,System Reform Group,DFE-1140,GRADE 7,45300,57223,Manager - policy,5.8,policy
+557,Department for Education,Department For Education,System Reform Group,DFE-1140,SEO,33200,49008,Senior Executive Officer - policy,8.0,policy
+558,Department for Education,Department For Education,System Reform Group,DFE-1140,Grade 6,55431,69187,Manager - policy,2.0,policy
+559,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1141,SEO,33200,49008,Senior Executive Officer - policy,5.83,policy
+560,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1141,HEO,26800,40828,Higher Executive Officer - policy,2.83,policy
+561,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1141,EO,21916,32232,Executive Officer - policy,4.06,policy
+562,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1141,GRADE 7,45300,57223,Manager - policy,4.0,policy
+563,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1141,GRADE 6,55431,69187,Manager - policy,2.0,policy
+564,Department for Education,Department For Education,Participation and Vocational Education Group,DFE-1141,EA AO,15516,22939,Executive Assistant - policy,1.0,policy
+565,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1142,HEO,26800,40828,Higher Executive Officer - finance,1.0,finance
+566,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1142,GRADE 6,55431,69187,Manager - operational delivery,2.86,operational delivery
+567,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1142,SEO,33200,49008,Senior Executive Officer - operational delivery,1.98,operational delivery
+568,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1142,Grade 7,45300,57223,Manager - operational delivery,4.0,operational delivery
+569,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1142,EO,21916,32232,Executive Officer - operational delivery,1.0,operational delivery
+570,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1142,HEO,26800,40828,Higher Executive Officer - operational delivery,0.64,operational delivery
+571,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1142,EA AO,15516,22939,Executive Assistant - operational delivery,1.0,operational delivery
+572,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1144,EA AO,15516,22939,Executive Assistant - other,4.0,other
+573,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1144,EO,21916,32232,Executive Officer - other,18.0,other
+574,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1144,HEO,26800,40828,Higher Executive Officer - other,5.0,other
+575,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1144,GRADE 6,55431,69187,Manager - other,1.0,other
+576,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1144,GRADE 7,45300,57223,Manager - other,3.0,other
+577,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1144,EO,21916,32232,Executive Officer - policy,1.0,policy
+578,Department for Education,Department For Education,Free School Group,DFE-1146,GRADE 7,45300,57223,Manager - policy,8.8,policy
+579,Department for Education,Department For Education,Free School Group,DFE-1146,GRADE 6,55431,69187,Manager - policy,4.0,policy
+580,Department for Education,Department For Education,Free School Group,DFE-1146,SEO,33200,49008,Senior Executive Officer - policy,7.0,policy
+581,Department for Education,Department For Education,Free School Group,DFE-1146,HEO,26800,40828,Higher Executive Officer - policy,7.0,policy
+582,Department for Education,Department For Education,Free School Group,DFE-1146,EO,21916,32232,Executive Officer - policy,4.0,policy
+583,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1148,GRADE 7,45300,57223,Manager - operational delivery,6.0,operational delivery
+584,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1148,EO,21916,32232,Executive Officer - operational delivery,1.81,operational delivery
+585,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1148,EA AO,15516,22939,Executive Assistant - operational delivery,1.0,operational delivery
+586,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1148,GRADE 6,55431,69187,Manager - operational delivery,5.0,operational delivery
+587,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1148,SEO,33200,49008,Senior Executive Officer - operational delivery,3.8,operational delivery
+588,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1148,HEO,26800,40828,Higher Executive Officer - operational delivery,1.0,operational delivery
+589,Department for Education,Department For Education,School Standards Group,DFE-1150,EA AO,15516,22939,Executive Assistant - policy,2.76,policy
+590,Department for Education,Department For Education,School Standards Group,DFE-1150,GRADE 7,45300,57223,Manager - policy,2.69,policy
+591,Department for Education,Department For Education,School Standards Group,DFE-1150,SEO,33200,49008,Senior Executive Officer - policy,4.0,policy
+592,Department for Education,Department For Education,School Standards Group,DFE-1150,HEO,26800,40828,Higher Executive Officer - policy,1.0,policy
+593,Department for Education,Department For Education,School Standards Group,DFE-1150,EO,21916,32232,Executive Officer - policy,3.0,policy
+594,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1151,HEO,26800,40828,Higher Executive Officer - finance,2.0,finance
+595,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1151,EA AO,15516,22939,Executive Assistant - operational delivery,3.0,operational delivery
+596,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1151,GRADE 7,45300,57223,Manager - operational delivery,6.67,operational delivery
+597,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1151,EO,21916,32232,Executive Officer - operational delivery,4.0,operational delivery
+598,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1151,HEO,26800,40828,Higher Executive Officer - operational delivery,10.04,operational delivery
+599,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1151,SEO,33200,49008,Senior Executive Officer - operational delivery,17.74,operational delivery
+600,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1151,GRADE 6,55431,69187,Manager - operational delivery,4.0,operational delivery
+601,Department for Education,Department For Education,System Reform Group,DFE-1152,HEO,26800,40828,Higher Executive Officer - policy,6.16,policy
+602,Department for Education,Department For Education,System Reform Group,DFE-1152,GRADE 7,45300,57223,Manager - policy,3.65,policy
+603,Department for Education,Department For Education,System Reform Group,DFE-1152,EA AO,15516,22939,Executive Assistant - policy,4.83,policy
+604,Department for Education,Department For Education,System Reform Group,DFE-1152,EO,21916,32232,Executive Officer - policy,7.97,policy
+605,Department for Education,Department For Education,System Reform Group,DFE-1152,GRADE 6,55431,69187,Manager - policy,2.0,policy
+606,Department for Education,Department For Education,System Reform Group,DFE-1152,SEO,33200,49008,Senior Executive Officer - policy,2.0,policy
+607,Department for Education,Department For Education,People and Change Group,DFE-1153,EO,21916,32232,Executive Officer - HR.,2.97,Human Resources
+608,Department for Education,Department For Education,People and Change Group,DFE-1153,SEO,33200,49008,Senior Executive Officer - HR.,3.65,Human Resources
+609,Department for Education,Department For Education,People and Change Group,DFE-1153,Grade 7,45300,57223,Manager - HR.,3.7,Human Resources
+610,Department for Education,Department For Education,People and Change Group,DFE-1153,EA AO,15516,22939,Executive Assistant - HR.,1.0,Human Resources
+611,Department for Education,Department For Education,People and Change Group,DFE-1153,HEO,26800,40828,Higher Executive Officer - HR.,3.0,Human Resources
+612,Department for Education,Department For Education,People and Change Group,DFE-1153,EA AO,15516,22939,Executive Assistant - other,1.0,other
+613,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1154,GRADE 7,45300,57223,Manager - operational delivery,9.0,operational delivery
+614,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1154,GRADE 6,55431,69187,Manager - operational delivery,22.89,operational delivery
+615,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1154,EO,21916,32232,Executive Officer - operational delivery,1.0,operational delivery
+616,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1154,GRADE 7,45300,57223,Manager - other,2.0,other
+617,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1154,GRADE 6,55431,69187,Manager - other,1.0,other
+618,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1157,HEO,26800,40828,Higher Executive Officer - finance,1.0,finance
+619,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1157,HEO,26800,40828,Higher Executive Officer - operational delivery,10.22,operational delivery
+620,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1157,GRADE 6,55431,69187,Manager - operational delivery,4.81,operational delivery
+621,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1157,SEO,33200,49008,Senior Executive Officer - operational delivery,11.79,operational delivery
+622,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1157,EO,21916,32232,Executive Officer - operational delivery,4.5,operational delivery
+623,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1157,GRADE 7,45300,57223,Manager - operational delivery,5.0,operational delivery
+624,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1157,EA AO,15516,22939,Executive Assistant - operational delivery,2.97,operational delivery
+625,Department for Education,Department For Education,Care and Adoption Group,DFE-1158,HEO,26800,40828,Higher Executive Officer - Economics.,1.0,Economics
+626,Department for Education,Department For Education,Care and Adoption Group,DFE-1158,SEO,33200,49008,Senior Executive Officer - policy,6.0,policy
+627,Department for Education,Department For Education,Care and Adoption Group,DFE-1158,GRADE 6,55431,69187,Manager - policy,1.0,policy
+628,Department for Education,Department For Education,Care and Adoption Group,DFE-1158,GRADE 7,45300,57223,Manager - policy,4.0,policy
+629,Department for Education,Department For Education,Care and Adoption Group,DFE-1158,EO,21916,32232,Executive Officer - policy,2.0,policy
+630,Department for Education,Department For Education,Care and Adoption Group,DFE-1158,EA AO,15516,22939,Executive Assistant - policy,1.0,policy
+631,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1161,HEO,26800,40828,Higher Executive Officer - operational delivery,1.0,operational delivery
+632,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1161,GRADE 7,45300,57223,Manager - operational delivery,3.0,operational delivery
+633,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1161,GRADE 6,55431,69187,Manager - operational delivery,4.0,operational delivery
+634,Department for Education,National College,National College,DFE-1166,GRADE 7,45300,57223,Manager - other,1.0,other
+635,Department for Education,National College,National College,DFE-1166,HEO,26800,40828,Higher Executive Officer - policy,5.93,policy
+636,Department for Education,National College,National College,DFE-1166,GRADE 6,55431,69187,Manager - policy,2.0,policy
+637,Department for Education,National College,National College,DFE-1166,EA AO,15516,22939,Executive Assistant - policy,3.0,policy
+638,Department for Education,National College,National College,DFE-1166,SEO,33200,49008,Senior Executive Officer - policy,9.38,policy
+639,Department for Education,National College,National College,DFE-1166,GRADE 7,45300,57223,Manager - policy,4.0,policy
+640,Department for Education,National College,National College,DFE-1166,EO,21916,32232,Executive Officer - policy,9.42,policy
+641,Department for Education,Department For Education,System Reform Group,DFE-1170,HEO,26800,40828,Higher Executive Officer - policy,5.6,policy
+642,Department for Education,Department For Education,System Reform Group,DFE-1170,EO,21916,32232,Executive Officer - policy,9.08,policy
+643,Department for Education,Department For Education,System Reform Group,DFE-1170,GRADE 7,45300,57223,Manager - policy,4.2,policy
+644,Department for Education,Department For Education,System Reform Group,DFE-1170,SEO,33200,49008,Senior Executive Officer - policy,6.0,policy
+645,Department for Education,Department For Education,System Reform Group,DFE-1170,GRADE 6,55431,69187,Manager - policy,2.0,policy
+646,Department for Education,Department For Education,System Reform Group,DFE-1170,EA AO,15516,22939,Executive Assistant - policy,0.7,policy
+647,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1171,EO,21916,32232,Executive Officer - policy,4.3,policy
+648,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1171,GRADE 7,45300,57223,Manager - policy,5.62,policy
+649,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1171,HEO,26800,40828,Higher Executive Officer - policy,6.0,policy
+650,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1171,EA AO,15516,22939,Executive Assistant - policy,1.0,policy
+651,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1171,GRADE 6,55431,69187,Manager - policy,4.0,policy
+652,Department for Education,Department For Education,Teachers and Teaching Group,DFE-1171,SEO,33200,49008,Senior Executive Officer - policy,6.0,policy
+653,Department for Education,Department For Education,"Childcare, Special Needs and Children’s Services Strategy",DFE-1172,SEO,33200,49008,Senior Executive Officer - policy,5.3,policy
+654,Department for Education,Department For Education,"Childcare, Special Needs and Children’s Services Strategy",DFE-1172,HEO,26800,40828,Higher Executive Officer - policy,5.0,policy
+655,Department for Education,Department For Education,"Childcare, Special Needs and Children’s Services Strategy",DFE-1172,GRADE 7,45300,57223,Manager - policy,6.92,policy
+656,Department for Education,Department For Education,"Childcare, Special Needs and Children’s Services Strategy",DFE-1172,GRADE 6,55431,69187,Manager - policy,2.75,policy
+657,Department for Education,Department For Education,"Childcare, Special Needs and Children’s Services Strategy",DFE-1172,EO,21916,32232,Executive Officer - policy,1.0,policy
+658,Department for Education,Department For Education,Education Funding Group,DFE-1173,SEO,33200,49008,Senior Executive Officer - other,1.0,other
+659,Department for Education,Department For Education,Education Funding Group,DFE-1173,GRADE 6,55431,69187,Manager - other,0.83,other
+660,Department for Education,Department For Education,Education Funding Group,DFE-1173,GRADE 7,45300,57223,Manager - other,0.69,other
+661,Department for Education,Department For Education,Education Funding Group,DFE-1173,SEO,33200,49008,Senior Executive Officer - policy,1.0,policy
+662,Department for Education,Department For Education,Education Funding Group,DFE-1173,GRADE 7,45300,57223,Manager - policy,6.58,policy
+663,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1178,HEO,26800,40828,Higher Executive Officer - finance,3.8,finance
+664,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1178,SEO,33200,49008,Senior Executive Officer - finance,2.0,finance
+665,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1178,GRADE 7,45300,57223,Manager - finance,7.0,finance
+666,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1178,EO,21916,32232,Executive Officer - finance,2.0,finance
+667,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1178,GRADE 6,55431,69187,Manager - finance,1.0,finance
+668,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1178,GRADE 7,45300,57223,Manager - policy,1.0,policy
+669,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1178,HEO,26800,40828,Higher Executive Officer - policy,2.54,policy
+670,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1178,SEO,33200,49008,Senior Executive Officer - policy,1.0,policy
+671,Department for Education,Department For Education,Finance and Commercial Group ,DFE-1179,HEO,26800,40828,Higher Executive Officer - other,1.0,other
+672,Department for Education,Standards and Testing Agency,Standards and Testing Agency,DFE-1181,GRADE 6,55431,69187,Manager - operational delivery,1.65,operational delivery
+673,Department for Education,Standards and Testing Agency,Standards and Testing Agency,DFE-1181,HEO,26800,40828,Higher Executive Officer - operational delivery,2.0,operational delivery
+674,Department for Education,Standards and Testing Agency,Standards and Testing Agency,DFE-1181,GRADE 7,45300,57223,Manager - operational delivery,1.0,operational delivery
+675,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1183,GRADE 7,45300,57223,Manager - policy,2.8,policy
+676,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1183,SEO,33200,49008,Senior Executive Officer - policy,5.0,policy
+677,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1183,GRADE 6,55431,69187,Manager - policy,1.0,policy
+678,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1183,HEO,26800,40828,Higher Executive Officer - policy,3.6,policy
+679,Department for Education,Department For Education,"Assessment, Curriculum and General Qualifications ",DFE-1183,EO,21916,32232,Executive Officer - policy,2.0,policy
+680,Department for Education,Department For Education,People and Change Group,DFE-1186,GRADE 7,45300,57223,Manager - HR.,2.0,Human Resources
+681,Department for Education,Department For Education,People and Change Group,DFE-1186,GRADE 6,55431,69187,Manager - HR.,4.0,Human Resources
+682,Department for Education,Department For Education,People and Change Group,DFE-1186,EO,21916,32232,Executive Officer - HR.,4.0,Human Resources
+683,Department for Education,Department For Education,People and Change Group,DFE-1186,HEO,26800,40828,Higher Executive Officer - HR.,2.0,Human Resources
+684,Department for Education,Department For Education,People and Change Group,DFE-1186,SEO,33200,49008,Senior Executive Officer - HR.,1.0,Human Resources
+685,Department for Education,Department For Education,Free School Group,DFE-1187,GRADE 6,55431,69187,Manager - policy,3.0,policy
+686,Department for Education,Department For Education,Free School Group,DFE-1187,SEO,33200,49008,Senior Executive Officer - policy,4.6,policy
+687,Department for Education,Department For Education,Free School Group,DFE-1187,GRADE 7,45300,57223,Manager - policy,6.92,policy
+688,Department for Education,Department For Education,Free School Group,DFE-1187,HEO,26800,40828,Higher Executive Officer - policy,8.47,policy
+689,Department for Education,Department For Education,Free School Group,DFE-1187,EO,21916,32232,Executive Officer - policy,2.0,policy
+690,Department for Education,Department For Education,Free School Group,DFE-1187,EA AO,15516,22939,Executive Assistant - policy,1.0,policy
+691,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1190,EA AO,15516,22939,Executive Assistant - other,2.0,other
+692,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1190,EO,21916,32232,Executive Officer - other,3.0,other
+693,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1190,HEO,26800,40828,Higher Executive Officer - other,1.0,other
+694,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1190,HEO,26800,40828,Higher Executive Officer - Strategy.,2.0,Other
+695,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1190,SEO,33200,49008,Senior Executive Officer - Strategy.,1.0,Other
+696,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1190,GRADE 7,45300,57223,Manager - Strategy.,4.0,Other
+697,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1190,GRADE 6,55431,69187,Manager - Strategy.,2.0,Other
+698,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1192,GRADE 6,55431,69187,Manager - operational delivery,16.0,operational delivery
+699,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1192,GRADE 7,45300,57223,Manager - operational delivery,5.0,operational delivery
+700,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1192,EO,21916,32232,Executive Officer - operational delivery,1.0,operational delivery
+701,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1192,HEO,26800,40828,Higher Executive Officer - operational delivery,1.0,operational delivery
+702,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1192,SEO,33200,49008,Senior Executive Officer - operational delivery,1.0,operational delivery
+703,Department for Education,Education Funding Agency,Education Funding Agency,DFE-1192,GRADE 6,55431,69187,Manager - other,8.0,other
+704,Department for Education,Department For Education,Care and Adoption Group,DFE-1193,HEO,26800,40828,Higher Executive Officer - Communications and Marketing.,1.0,Communications
+705,Department for Education,Department For Education,Care and Adoption Group,DFE-1193,HEO,26800,40828,Higher Executive Officer - policy,8.33,policy
+706,Department for Education,Department For Education,Care and Adoption Group,DFE-1193,SEO,33200,49008,Senior Executive Officer - policy,6.8,policy
+707,Department for Education,Department For Education,Care and Adoption Group,DFE-1193,GRADE 7,45300,57223,Manager - policy,8.61,policy
+708,Department for Education,Department For Education,Care and Adoption Group,DFE-1193,GRADE 6,55431,69187,Manager - policy,2.0,policy
+709,Department for Education,Department For Education,Care and Adoption Group,DFE-1193,EO,21916,32232,Executive Officer - policy,9.04,policy
+710,Department for Education,Department For Education,Care and Adoption Group,DFE-1193,EA AO,15516,22939,Executive Assistant - policy,2.0,policy
+711,Department for Education,Department For Education,Care and Adoption Group,DFE-1197,HEO,26800,40828,Higher Executive Officer - policy,2.0,policy
+712,Department for Education,Department For Education,Care and Adoption Group,DFE-1197,SEO,33200,49008,Senior Executive Officer - policy,5.3,policy
+713,Department for Education,Department For Education,Care and Adoption Group,DFE-1197,GRADE 7,45300,57223,Manager - policy,5.41,policy
+714,Department for Education,Department For Education,Care and Adoption Group,DFE-1197,EO,21916,32232,Executive Officer - policy,5.0,policy
+715,Department for Education,Department For Education,Care and Adoption Group,DFE-1197,GRADE 6,55431,69187,Manager - policy,0.93,policy
+716,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1198,EA AO,15516,22939,Executive Assistant - Communications and Marketing.,12.08,Communications
+717,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1198,GRADE 7,45300,57223,Manager - Communications and Marketing.,7.2,Communications
+718,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1198,HEO,26800,40828,Higher Executive Officer - Communications and Marketing.,12.0,Communications
+719,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1198,SEO,33200,49008,Senior Executive Officer - Communications and Marketing.,6.0,Communications
+720,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1198,EO,21916,32232,Executive Officer - Communications and Marketing.,31.47,Communications
+721,Department for Education,Department For Education,Strategy Performance and Private Office Group,DFE-1198,GRADE 6,55431,69187,Manager - Communications and Marketing.,2.0,Communications
+722,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1199,HEO,26800,40828,Higher Executive Officer - operational delivery,1.0,operational delivery
+723,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1199,GRADE 7,45300,57223,Manager - policy,7.6,policy
+724,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1199,SEO,33200,49008,Senior Executive Officer - policy,2.44,policy
+725,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1199,GRADE 6,55431,69187,Manager - policy,1.0,policy
+726,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1199,HEO,26800,40828,Higher Executive Officer - policy,2.0,policy
+727,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1199,EO,21916,32232,Executive Officer - policy,2.0,policy
+728,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1199,GRADE 7,45300,57223,Manager - Statisticians.,2.57,Statisticians
+729,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1199,HEO,26800,40828,Higher Executive Officer - Statisticians.,3.0,Statisticians
+730,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1199,SEO,33200,49008,Senior Executive Officer - Statisticians.,1.32,Statisticians
+731,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1199,EO,21916,32232,Executive Officer - Statisticians.,2.0,Statisticians
+732,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1199,EO,21916,32232,Executive Officer - Statistics.,12.47,Statisticians
+733,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1199,SEO,33200,49008,Senior Executive Officer - Statistics.,10.84,Statisticians
+734,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1199,HEO,26800,40828,Higher Executive Officer - Statistics.,10.57,Statisticians
+735,Department for Education,Department For Education,Education Strategy Performance Analysis Group,DFE-1199,EA AO,15516,22939,Executive Assistant - Statistics.,1.0,Statisticians
+736,Department for Education,Department For Education,Education Funding Group,DFE-1200,EO,21916,32232,Executive Officer - finance,1.0,finance
+737,Department for Education,Department For Education,Education Funding Group,DFE-1200,HEO,26800,40828,Higher Executive Officer - policy,1.0,policy
+738,Department for Education,Department For Education,Education Funding Group,DFE-1200,Grade 6,55431,69187,Manager - policy,1.0,policy
+739,Department for Education,Department For Education,Education Funding Group,DFE-1200,EO,21916,32232,Executive Officer - policy,1.0,policy
+740,Department for Education,Department For Education,Education Funding Group,DFE-1200,SEO,33200,49008,Senior Executive Officer - policy,1.0,policy
+741,Department for Education,Department For Education,Education Funding Group,DFE-1200,GRADE 7,45300,57223,Manager - policy,1.0,policy

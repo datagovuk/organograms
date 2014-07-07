@@ -1,0 +1,171 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Executive,1,AO,18398,23045,Administrative Officer,6.6,Other
+1,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Executive,1,EO,22698,29063,Executive Officer,4.5,Other
+2,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Executive,1,EO,22698,29063,Scientific Officer,0.92,Science and Engineering
+3,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Executive,1,HEO,27013,34930,Higher Executive Officer,5.0,Other
+4,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Executive,1,HEO,27013,34930,Higher Scientific Officer,1.5,Science and Engineering
+5,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Executive,1,SEO,33321,42968,Senior Executive Officer,1.0,Other
+6,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Executive,1,SEO,33321,42968,Senior Scientific Officer,1.0,Science and Engineering
+7,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Executive,1,Grade 7,43654,58007,Grade 7,1.0,Other
+8,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Executive,1,Grade 7,43654,58007,Grade 7 Scientist,1.0,Science and Engineering
+9,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Executive,1,Grade 6,53236,69680,Grade 6,4.0,Other
+10,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Executive,1,Grade 6,53236,69680,Grade 6 Scientist,0.72,Science and Engineering
+11,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,6,EO,22698,29063,Executive Officer,5.0,Operational Delivery
+12,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,6,HEO,27013,34930,Higher Executive Officer,2.0,Operational Delivery
+13,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,6,SEO,33321,42968,Senior Executive Officer,3.0,Operational Delivery
+14,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,6,SEO,33321,42968,Veterinary Officer,1.0,Vets
+15,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,6,Grade 7,43654,58007,Grade 7,2.0,Operational Delivery
+16,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,6,Grade 6,53236,69680,Grade 6,1.0,Operational Delivery
+17,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,6,Grade 6,53236,69680,Grade 6 Scientist,1.0,Science and Engineering
+18,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,10,AA,15529,19785,Administrative Assistant,7.99,Operational Delivery
+19,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,10,AA,15529,19785,Laboratory Attendant,1.0,Science and Engineering
+20,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,10,AO,18398,23045,Administrative Officer,165.52,Operational Delivery
+21,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,10,AO,18398,23045,Assistant Scientific Officer,5.0,Science and Engineering
+22,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,10,EO,22698,29063,Animal Health Officer,23.26,Operational Delivery
+23,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,10,EO,22698,29063,Executive Officer,28.84,Operational Delivery
+24,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,10,EO,22698,29063,Scientific Officer,1.0,Science and Engineering
+25,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,10,HEO,27013,34930,Higher Executive Officer,15.8,Operational Delivery
+26,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,10,HEO,27013,34930,Higher Scientific Officer,1.0,Science and Engineering
+27,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,10,HEO,27013,34930,Technical Team Leader,0.43,Operational Delivery
+28,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,10,HEO,27013,34930,Veterinary Inspector,5.0,Vets
+29,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,10,SEO,33321,42968,Senior Executive Officer,5.98,Operational Delivery
+30,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,10,SEO,33321,42968,Senior Veterinary Inspector,10.0,Vets
+31,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,10,SEO,33321,42968,Veterinary Investigation Officer,4.0,Vets
+32,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,10,SEO,33321,42968,Veterinary Officer,26.07,Vets
+33,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,10,Grade 7,43654,58007,Grade 7,6.61,Operational Delivery
+34,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,10,Grade 6,53236,69680,Grade 6,2.0,Operational Delivery
+35,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,10,Grade 6,53236,69680,Grade 6 Veterinarian,1.0,Vets
+36,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,10,Grade 6,53236,69680,Regional Veterinary Lead,2.0,Vets
+37,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,AA,15529,19785,Administrative Assistant,32.16,Operational Delivery
+38,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,AA,15529,19785,Laboratory Attendant,2.0,Science and Engineering
+39,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,AO,18398,23045,Administrative Officer,193.09,Operational Delivery
+40,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,AO,18398,23045,Administrative Officer,1.0,Science and Engineering
+41,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,AO,18398,23045,Assistant Scientific Officer,7.97,Science and Engineering
+42,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,EO,22698,29063,Animal Health Officer,111.15,Operational Delivery
+43,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,EO,22698,29063,Egg Marketing Inspector,16.2,Operational Delivery
+44,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,EO,22698,29063,Executive Officer,46.95,Operational Delivery
+45,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,EO,22698,29063,Scientific Officer,3.0,Science and Engineering
+46,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,HEO,27013,34930,Higher Executive Officer,28.28,Operational Delivery
+47,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,HEO,27013,34930,Higher Scientific Officer,2.0,Science and Engineering
+48,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,HEO,27013,34930,Technical Team Leader,11.92,Operational Delivery
+49,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,HEO,27013,34930,Veterinary Inspector,18.41,Vets
+50,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,SEO,33321,42968,Senior Executive Officer,9.0,Operational Delivery
+51,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,SEO,33321,42968,Senior Veterinary Inspector,18.89,Vets
+52,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,SEO,33321,42968,Veterinary Investigation Officer,28.47,Vets
+53,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,SEO,33321,42968,Veterinary Officer,93.16,Vets
+54,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,Grade 7,43654,58007,Grade 7,29.0,Operational Delivery
+55,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,Grade 7,43654,58007,Grade 7,1.0,Vets
+56,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,Grade 7,43654,58007,Grade 7 Veterinarian,1.8,Vets
+57,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,Grade 6,53236,69680,Grade 6,6.0,Operational Delivery
+58,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,Grade 6,53236,69680,Grade 6 Veterinarian,2.0,Vets
+59,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,11,Grade 6,53236,69680,Regional Veterinary Lead,7.0,Vets
+60,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,AA,15529,19785,Administrative Assistant,1.58,Operational Delivery
+61,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,AA,15529,19785,Laboratory Attendant,22.42,Science and Engineering
+62,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,AO,18398,23045,Administrative Officer,37.1,Operational Delivery
+63,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,AO,18398,23045,Administrative Officer,1.0,Science and Engineering
+64,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,AO,18398,23045,Assistant Scientific Officer,87.21,Science and Engineering
+65,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,EO,22698,29063,Animal Health Officer,19.0,Operational Delivery
+66,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,EO,22698,29063,Executive Officer,7.28,Operational Delivery
+67,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,EO,22698,29063,Executive Officer,1.0,Science and Engineering
+68,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,EO,22698,29063,Scientific Officer,30.0,Science and Engineering
+69,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,HEO,27013,34930,Higher Executive Officer,5.0,Operational Delivery
+70,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,HEO,27013,34930,Higher Scientific Officer,12.06,Science and Engineering
+71,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,HEO,27013,34930,Technical Team Leader,1.0,Operational Delivery
+72,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,SEO,33321,42968,Senior Executive Officer,2.5,Operational Delivery
+73,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,SEO,33321,42968,Senior Scientific Officer,8.0,Science and Engineering
+74,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,SEO,33321,42968,Senior Veterinary Inspector,1.6,Vets
+75,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,SEO,33321,42968,Veterinary Officer,22.22,Vets
+76,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,Grade 7,43654,58007,Grade 7,7.0,Operational Delivery
+77,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,Grade 7,43654,58007,Grade 7 Scientist,3.0,Science and Engineering
+78,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,Grade 6,53236,69680,Grade 6,2.0,Operational Delivery
+79,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,12,Grade 6,53236,69680,Regional Veterinary Lead,3.0,Vets
+80,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,AA,15529,19785,Administrative Assistant,2.22,Operational Delivery
+81,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,AA,15529,19785,Assistant Animal Technician,11.44,Operational Delivery
+82,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,AA,15529,19785,Laboratory Attendant,17.93,Science and Engineering
+83,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,AO,18398,23045,Administrative Officer,18.03,Operational Delivery
+84,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,AO,18398,23045,Administrative Officer,3.0,Science and Engineering
+85,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,AO,18398,23045,Animal Technician,35.16,Operational Delivery
+86,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,AO,18398,23045,Assistant Scientific Officer,55.62,Science and Engineering
+87,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,EO,22698,29063,Executive Officer,16.43,Operational Delivery
+88,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,EO,22698,29063,Executive Officer,5.0,Science and Engineering
+89,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,EO,22698,29063,Farm Manager,7.0,Operational Delivery
+90,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,EO,22698,29063,Scientific Officer,66.74,Science and Engineering
+91,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,HEO,27013,34930,Higher Executive Officer,4.71,Operational Delivery
+92,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,HEO,27013,34930,Higher Executive Officer,5.0,Science and Engineering
+93,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,HEO,27013,34930,Higher Farm Manager,1.0,Operational Delivery
+94,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,HEO,27013,34930,Higher Scientific Officer,64.7,Science and Engineering
+95,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,SEO,33321,42968,Senior Executive Officer,2.0,Operational Delivery
+96,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,SEO,33321,42968,Senior Executive Officer,1.0,Science and Engineering
+97,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,SEO,33321,42968,Senior Farm Manager,1.0,Operational Delivery
+98,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,SEO,33321,42968,Senior Scientific Officer,43.24,Science and Engineering
+99,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,SEO,33321,42968,Veterinary Investigation Officer,13.77,Vets
+100,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,Grade 7,43654,58007,Grade 7,3.0,Operational Delivery
+101,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,Grade 7,43654,58007,Grade 7,1.0,Science and Engineering
+102,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,Grade 7,43654,58007,Grade 7 Scientist,10.41,Science and Engineering
+103,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,Grade 7,43654,58007,Grade 7 Veterinarian,6.83,Vets
+104,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,Grade 6,53236,69680,Grade 6 Scientist,6.0,Science and Engineering
+105,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,5,Grade 6,53236,69680,Grade 6 Veterinarian,1.0,Vets
+106,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,3,AA,15529,19785,Administrative Assistant,2.0,Finance
+107,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,3,AA,15529,19785,Administrative Assistant,1.0,Science and Engineering
+108,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,3,AO,18398,23045,Administrative Officer,11.2,Finance
+109,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,3,AO,18398,23045,Administrative Officer,0.6,Property and asset management
+110,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,3,AO,18398,23045,Assistant Scientific Officer,3.6,Science and Engineering
+111,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,3,EO,22698,29063,Executive Officer,18.0,Finance
+112,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,3,EO,22698,29063,Executive Officer,1.0,Property and asset management
+113,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,3,EO,22698,29063,Scientific Officer,2.0,Science and Engineering
+114,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,3,HEO,27013,34930,Higher Executive Officer,10.0,Finance
+115,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,3,HEO,27013,34930,Higher Executive Officer,3.89,Property and asset management
+116,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,3,HEO,27013,34930,Higher Scientific Officer,2.0,Science and Engineering
+117,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,3,SEO,33321,42968,Senior Executive Officer,8.44,Finance
+118,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,3,SEO,33321,42968,Senior Executive Officer,1.97,Property and asset management
+119,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,3,SEO,33321,42968,Senior Scientific Officer,2.0,Science and Engineering
+120,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,3,Grade 7,43654,58007,Grade 7,5.0,Finance
+121,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Chief Operating Officer,3,Grade 7,43654,58007,Grade 7,1.0,Property and asset management
+122,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,AO,18398,23045,Administrative Officer,1.0,Human Resources
+123,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,AO,18398,23045,Administrative Officer,1.0,Internal Audit
+124,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,AO,18398,23045,Administrative Officer,0.43,Programme and Project Management (PPM)
+125,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,AO,18398,23045,Assistant Scientific Officer,1.0,Science and Engineering
+126,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,EO,22698,29063,Executive Officer,2.0,Communications
+127,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,EO,22698,29063,Executive Officer,5.86,Human Resources
+128,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,EO,22698,29063,Executive Officer,8.0,Programme and Project Management (PPM)
+129,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,EO,22698,29063,Scientific Officer,1.81,Science and Engineering
+130,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,HEO,27013,34930,Higher Executive Officer,5.83,Communications
+131,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,HEO,27013,34930,Higher Executive Officer,2.59,Human Resources
+132,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,HEO,27013,34930,Higher Executive Officer,15.67,Programme and Project Management (PPM)
+133,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,HEO,27013,34930,Higher Scientific Officer,3.0,Science and Engineering
+134,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,SEO,33321,42968,Senior Executive Officer,3.0,Communications
+135,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,SEO,33321,42968,Senior Executive Officer,2.0,Human Resources
+136,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,SEO,33321,42968,Senior Executive Officer,16.08,Programme and Project Management (PPM)
+137,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,SEO,33321,42968,Senior Scientific Officer,2.0,Science and Engineering
+138,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,SEO,33321,42968,Veterinary Investigation Officer,1.0,Vets
+139,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,Grade 7,43654,58007,Grade 7,1.9,Communications
+140,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,Grade 7,43654,58007,Grade 7,5.0,Human Resources
+141,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,Grade 7,43654,58007,Grade 7,1.0,Internal Audit
+142,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,Grade 7,43654,58007,Grade 7,6.0,Programme and Project Management (PPM)
+143,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,Grade 6,53236,69680,Grade 6,1.0,Communications
+144,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,Grade 6,53236,69680,Grade 6,1.0,Human Resources
+145,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Director of People and Business Development,7,Grade 6,53236,69680,Grade 6,1.0,Programme and Project Management (PPM)
+146,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,IMT,1,AO,18398,23045,Administrative Officer,15.25,Information Technology
+147,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,IMT,1,EO,22698,29063,Executive Officer,18.83,Information Technology
+148,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,IMT,1,EO,22698,29063,Scientific Officer,3.64,Science and Engineering
+149,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,IMT,1,HEO,27013,34930,Higher Executive Officer,24.09,Information Technology
+150,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,IMT,1,HEO,27013,34930,Higher Scientific Officer,6.0,Science and Engineering
+151,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,IMT,1,SEO,33321,42968,Senior Executive Officer,7.0,Information Technology
+152,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,IMT,1,SEO,33321,42968,Senior Scientific Officer,2.6,Science and Engineering
+153,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,IMT,1,Grade 7,43654,58007,Grade 7,2.0,Information Technology
+154,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,IMT,1,Grade 7,43654,58007,Grade 7 Scientist,1.0,Science and Engineering
+155,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,IMT,1,Grade 6,53236,69680,Grade 6,2.0,Information Technology
+156,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Veterinary Director,2,AO,18398,23045,Administrative Officer,3.56,Policy
+157,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Veterinary Director,2,EO,22698,29063,Executive Officer,3.89,Policy
+158,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Veterinary Director,2,EO,22698,29063,Scientific Officer,2.76,Science and Engineering
+159,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Veterinary Director,2,HEO,27013,34930,Higher Executive Officer,3.0,Policy
+160,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Veterinary Director,2,HEO,27013,34930,Higher Scientific Officer,11.52,Science and Engineering
+161,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Veterinary Director,2,SEO,33321,42968,Senior Executive Officer,1.0,Policy
+162,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Veterinary Director,2,SEO,33321,42968,Senior Scientific Officer,11.08,Science and Engineering
+163,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Veterinary Director,2,SEO,33321,42968,Veterinary Investigation Officer,2.78,Vets
+164,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Veterinary Director,2,Grade 7,43654,58007,Grade 7,18.51,Vets
+165,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Veterinary Director,2,Grade 7,43654,58007,Grade 7 Scientist,3.27,Science and Engineering
+166,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Veterinary Director,2,Grade 6,53236,69680,Grade 6,1.0,Policy
+167,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Veterinary Director,2,Grade 6,53236,69680,Grade 6,4.0,Vets
+168,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Veterinary Director,2,Grade 6,53236,69680,Grade 6 Scientist,1.0,Science and Engineering
+169,"Department for Environment, Food and Rural Affairs",Animal Health and Veterinary Laboratories Agency,Veterinary Director,2,Grade 6,53236,69680,Regional Veterinary Lead,1.0,Vets

@@ -1,0 +1,83 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,Home Office,SIA,Corporate Services,SIA004,AO,17743,21317,Finance Assistant,1.0,Finance
+1,Home Office,SIA,Corporate Services,SIA004,SEO,34324,53134,Audit and Compliance Manager,1.0,Finance
+2,Home Office,SIA,Corporate Services,SIA004,SEO,34324,53134,Business Analyst Modeller,1.0,Finance
+3,Home Office,SIA,Corporate Services,SIA004,SEO,34324,53134,Financial Accountant,1.0,Finance
+4,Home Office,SIA,Corporate Services,SIA004,SEO,34324,53134,Financial Controller,1.0,Finance
+5,Home Office,SIA,Corporate Services,SIA004,SEO,34324,53134,Performance and Quality Manager,1.0,Finance
+6,Home Office,SIA,Corporate Services,SIA004,EO,21650,26281,Junior Accountant,1.0,Finance
+7,Home Office,SIA,Partnerships & Interventions,SIA002,G7,48053,57441,Assistant Director Intelligence,1.0,Operational Delivery
+8,Home Office,SIA,Corporate Services,SIA004,C,53000,79000,Deputy Director Finance & Business Planning,1.0,Finance
+9,Home Office,SIA,Partnerships & Interventions,SIA002,G7,48053,57441,Senior Manager Partnerships & Interventions,1.0,Operational Delivery
+10,Home Office,SIA,Operations,SIA003,G7,48053,57441,Head of ICT Solutions,1.0,Information Technology
+11,Home Office,SIA,Operations,SIA003,SEO,34324,53134,ICT Manager,1.0,Information Technology
+12,Home Office,SIA,Operations,SIA003,SEO,34324,53134,Data transfer Manager,1.0,Information Technology
+13,Home Office,SIA,Partnerships & Interventions,SIA002,SEO,34324,53134,Divisional Head of Investigation,1.0,Operational Delivery
+14,Home Office,SIA,Partnerships & Interventions,SIA002,SEO,34324,53134,Head of Investigation ,7.0,Operational Delivery
+15,Home Office,SIA,Operations,SIA003,SEO,34324,53134,Information Security Manager,1.0,Information Technology
+16,Home Office,SIA,Operations,SIA003,SEO,34324,53134,Infrastructure Support Manager,1.0,Information Technology
+17,Home Office,SIA,Partnerships & Interventions,SIA002,SEO,34324,53134,Insight Manager,0.6,Communications
+18,Home Office,SIA,Partnerships & Interventions,SIA002,SEO,34324,53134,Intelligence Manager,2.0,Operational Delivery
+19,Home Office,SIA,Corporate Services,SIA004,SEO,34324,53134,Internal Communications Manager ,1.0,Communications
+20,Home Office,SIA,Partnerships & Interventions,SIA002,SEO,34324,53134,Marketing Manager,2.0,Communications
+21,Home Office,SIA,Operations,SIA003,EO,21650,26281,Customer Data Analyst,1.0,Operational Delivery
+22,Home Office,SIA,Partnerships & Interventions,SIA002,SEO,34324,53134,Publicity Manager,1.0,Communications
+23,Home Office,SIA,Partnerships & Interventions,SIA002,SEO,34324,53134,Senior Intelligence Manager,1.0,Operational Delivery
+24,Home Office,SIA,Partnerships & Interventions,SIA002,SEO,34324,53134,Strategic Intelligence Analyst ,1.0,Operational Delivery
+25,Home Office,SIA,Operations,SIA003,SEO,34324,53134,Web Content Editor,1.0,Communications
+26,Home Office,SIA,Operations,SIA003,HEO,26403,39272,Business Development Application Officer,1.0,Information Technology
+27,Home Office,SIA,Corporate Services,SIA004,HEO,26403,39272,Head of Private Office,1.0,Operational Delivery
+28,Home Office,SIA,Operations,SIA003,HEO,26403,39272,Infrastructure Support Assistant,1.0,Information Technology
+29,Home Office,SIA,Partnerships & Interventions,SIA002,HEO,26403,39272,Investigator ,30.0,Operational Delivery
+30,Home Office,SIA,Operations,SIA003,EO,21650,26281,Digital Media Support Officer,1.0,Communications
+31,Home Office,SIA,Corporate Services,SIA004,EO,21650,26281,Executive Support Officer ,1.0,Operational Delivery
+32,Home Office,SIA,Operations,SIA003,EO,21650,26281,ICT Support Analyst ,1.0,Information Technology
+33,Home Office,SIA,Partnerships & Interventions,SIA002,HEO,26403,39272,Intelligence Analyst,2.0,Operational Delivery
+34,Home Office,SIA,Partnerships & Interventions,SIA002,EO,21650,26281,Intelligence Officer,5.0,Operational Delivery
+35,Home Office,SIA,Partnerships & Interventions,SIA002,C,53000,79000,Deputy Director Partnerships & Interventions ,1.0,Operational Delivery
+36,Home Office,SIA,Partnerships & Interventions,SIA002,AO,17743,21317,Intelligence Development Officer,2.0,Operational Delivery
+37,Home Office,SIA,Corporate Services,SIA004,AO,17743,21317,Marketing Administrator,0.61,Communications
+38,Home Office,SIA,Operations,SIA003,G7,48053,57441,Head of Licencing Processing Transition,1.0,Operational Delivery
+39,Home Office,SIA,Operations,SIA003,G7,48053,57441,Head of Quality & Standards,1.0,Operational Delivery
+40,Home Office,SIA,Operations,SIA003,G7,48053,57441,Head of Customer Services Transition,1.0,Operational Delivery
+41,Home Office,SIA,Operations,SIA003,G6,55974,66738,Project Manager Organisation Transformation,1.0,Operational Delivery
+42,Home Office,SIA,Operations,SIA003,C,53000,79000,Deputy Director Change Implementation,1.0,Operational Delivery
+43,Home Office,SIA,Operations,SIA003,G7,48053,57441,Head of Supplier and Contract Management,1.0,Operational Delivery
+44,Home Office,SIA,Operations,SIA003,SEO,34324,53134,MSR Business Change Manager,1.0,Operational Delivery
+45,Home Office,SIA,Operations,SIA003,SEO,34324,53134,Operations Manager,1.0,Operational Delivery
+46,Home Office,SIA,Operations,SIA003,SEO,34324,53134,Quality Assurance Manager,5.0,Operational Delivery
+47,Home Office,SIA,Operations,SIA003,SEO,34324,53134,Quality Manager,1.0,Operational Delivery
+48,Home Office,SIA,Operations,SIA003,SEO,34324,53134,Senior Licensing Manager ,1.0,Operational Delivery
+49,Home Office,SIA,Partnerships & Interventions,SIA002,AO,17743,21317,C & I Administration Officer ,1.0,Operational Delivery
+50,Home Office,SIA,Operations,SIA003,SEO,34324,53134,Supplier Relationship and Operational Change Manager,1.0,Operational Delivery
+51,Home Office,SIA,Operations,SIA003,HEO,26403,39272,Licensing Customer Service Manager,1.0,Operational Delivery
+52,Home Office,SIA,Operations,SIA003,HEO,26403,39272,Licensing Manager ,3.0,Operational Delivery
+53,Home Office,SIA,Operations,SIA003,HEO,26403,39272,Quality Assurance Co-ordinator,3.0,Operational Delivery
+54,Home Office,SIA,Operations,SIA003,EO,21650,26281,Accreditation Officer,2.0,Operational Delivery
+55,Home Office,SIA,Operations,SIA003,EO,21650,26281,Commercial Support and Change Programme Officer,1.0,Operational Delivery
+56,Home Office,SIA,Operations,SIA003,EO,21650,26281,Licensing Team Leader ,4.0,Operational Delivery
+57,Home Office,SIA,Operations,SIA003,EO,21650,26281,Customer Service Team Leader,1.0,Operational Delivery
+58,Home Office,SIA,Operations,SIA003,AO,17743,21317,Approval Officer,1.0,Operational Delivery
+59,Home Office,SIA,Operations,SIA003,AO,17743,21317,Correspondence Officer,1.0,Operational Delivery
+60,Home Office,SIA,Operations,SIA003,AO,17743,21317,Customer Service Officer,6.0,Operational Delivery
+61,Home Office,SIA,Operations,SIA003,AO,17743,21317,Licensing Officer ,15.8,Operational Delivery
+62,Home Office,SIA,Corporate Services,SIA004,C,53000,79000,Deputy Director Policy & Legal,1.0,Policy
+63,Home Office,SIA,Corporate Services,SIA004,G7,48053,57441,Head of Human Resources- Transition,1.0,Human Resources
+64,Home Office,SIA,Corporate Services,SIA004,G7,48053,57441,Head of Human Resources,1.0,Human Resources
+65,Home Office,SIA,Corporate Services,SIA004,SEO,34324,53134,Human Resources General Manager (Operations),1.0,Human Resources
+66,Home Office,SIA,Operations,SIA003,SEO,34324,53134,Development Manager,4.0,Operational Delivery
+67,Home Office,SIA,Corporate Services,SIA004,SEO,34324,53134,HR Learning and Development Manager,1.0,Human Resources
+68,Home Office,SIA,Corporate Services,SIA004,SEO,34324,53134,Policy Advisor,2.0,Policy
+69,Home Office,SIA,Corporate Services,SIA004,SEO,34324,53134,Policy Development Officer ,1.0,Policy
+70,Home Office,SIA,Corporate Services,SIA004,G7,48053,57441,Head of HR (Operations),1.0,Human Resources
+71,Home Office,SIA,Partnerships & Interventions,SIA002,G7,48053,57441,Senior Manager Stakeholder Management,1.0,Communications
+72,Home Office,SIA,Operations,SIA003,SEO,34324,53134,Programme Office Manager,1.0,Operational Delivery
+73,Home Office,SIA,Corporate Services,SIA004,SEO,34324,53134,Senior Policy Advisor,3.0,Policy
+74,Home Office,SIA,Operations,SIA003,HEO,26403,39272,Development Officer ,1.0,Operational Delivery
+75,Home Office,SIA,Partnerships & Interventions,SIA002,HEO,26403,39272,Quality Assurance Manager,1.0,Operational Delivery
+76,Home Office,SIA,Corporate Services,SIA004,EO,21650,26281,HR and OD Assistant,1.0,Human Resources
+77,Home Office,SIA,Partnerships & Interventions,SIA002,EO,21650,26281,Communication and Stakeholder Officer,1.0,Communications
+78,Home Office,SIA,Operations,SIA003,EO,21650,26281,Facilities Manager,1.0,Property and asset management
+79,Home Office,SIA,Operations,SIA003,HEO,26403,39272,Project Support Officer,1.0,Operational Delivery
+80,Home Office,SIA,Corporate Services,SIA004,SEO,34324,53134,Transition HR & OD Manager (Operations),1.0,Human Resources
+81,Home Office,SIA,Corporate Services,SIA004,C,53000,79000,Deputy Director Human Resources (Temporary) ,0.6,Human Resources

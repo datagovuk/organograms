@@ -1,0 +1,42 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Communications,CEO1,Band3,48000,69000,Senior Communications Manager,1.0,Communications
+1,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Communications,CEO1,Band5,27000,41000,Communications Manager,3.0,Communications
+2,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Communications,CEO1,INT/APP,8500,21000,Communications Support Officer,1.0,Communications
+3,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Finance,EDPDP2,Band3,48000,69000,Senior Finance  Manager,1.0,Finance
+4,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Finance,EDPDP2,Band6,21000,32000,Finance Officer,1.0,Finance
+5,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Finance,EDPDP2,Band5,27000,41000,Senior Finance  Manager,3.0,Finance
+6,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Finance,EDPDP2,Band7,16000,25000,Finance Support Officer,1.0,Finance
+7,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Finance,EDPDP2,Band4,36000,54000,Senior Finance  Manager,1.0,Finance
+8,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Finance,EDPDP2,INT/APP,8500,21000,Finance Support Officer,3.0,Finance
+9,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Finance,EDPDP2,Band5,27000,41000,Senior Procurement Officer,1.0,Procurement
+10,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Finance,EDPDP2,Band7,16000,25000,Procurement Officer,1.0,Procurement
+11,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Governance,EDPDP2,Band3,48000,69000,Knowledge Information Management Manager,1.0,Knowledge and Information Management (KIM)
+12,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Governance,EDPDP2,Band6,21000,32000,Knowledge Information Management Support Officer,2.0,Knowledge and Information Management (KIM)
+13,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Governance,EDPDP2,Band5,27000,41000,Knowledge Information Management Manager,1.0,Knowledge and Information Management (KIM)
+14,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Governance,EDPDP2,Band7,16000,25000,Knowledge Information Management Support Officer,2.0,Knowledge and Information Management (KIM)
+15,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Governance,EDPDP2,INT/APP,8500,21000,Knowledge Information Management Support Officer,3.0,Knowledge and Information Management (KIM)
+16,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Human Resources,EDPDP2,Band4,36000,54000,Senior HR Manager,1.0,Human Resources
+17,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Human Resources,EDPDP2,INT/APP,8500,21000,HR Support Officer,1.0,Human Resources
+18,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Information Technology & Facilities,EDPDP2,Band5,27000,41000,IT Manager,2.0,Information Technology
+19,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Information Technology & Facilities,EDPDP2,Band4,36000,54000,Senior IT Manager,1.0,Information Technology
+20,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Business Services - Information Technology & Facilities,EDPDP2,INT/APP,8500,21000,IT Support Officer,1.0,Information Technology
+21,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Project Delivery,EDPDP3,Band3,48000,69000,Senior Project Manager,2.0,Programme and Project Management (PPM)
+22,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Project Delivery,EDPDP3,Band6,21000,32000,Project Support Officer,3.0,Programme and Project Management (PPM)
+23,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Project Delivery,EDPDP3,Band5,27000,41000,Project Manager,7.0,Programme and Project Management (PPM)
+24,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Project Delivery,EDPDP3,Band4,36000,54000,Senior Project Manager,9.0,Programme and Project Management (PPM)
+25,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Project Delivery,EDPDP3,INT/APP,8500,21000,Project Support Officer,6.0,Programme and Project Management (PPM)
+26,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Project Delivery,DDPDP3,Band3,48000,69000,Senior Project Manager,1.0,Programme and Project Management (PPM)
+27,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Project Delivery,DDPDP3,Band4,36000,54000,Senior Project Manager,2.0,Programme and Project Management (PPM)
+28,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Project Delivery,DDPDP3,Band5,27000,41000,Project Manager,2.0,Programme and Project Management (PPM)
+29,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Project Delivery,DDPDP3,Band6,21000,32000,Project Support Officer,1.0,Programme and Project Management (PPM)
+30,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Project Delivery,DDPDP3,INT/APP,8500,21000,Project Support Officer,3.0,Programme and Project Management (PPM)
+31,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Project Delivery,DDPDP4,Band5,27000,41000,Project Manager,2.0,Programme and Project Management (PPM)
+32,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Project Delivery,DDPDP4,INT/APP,8500,21000,Project Support Officer,1.0,Programme and Project Management (PPM)
+33,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Project Delivery,DDPDP4,Band4,36000,54000,Senior Project Manager,1.0,Programme and Project Management (PPM)
+34,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Project Delivery,DDPDP4,Band3,48000,69000,Senior Project Manager,1.0,Programme and Project Management (PPM)
+35,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Project Delivery,DDPDP4,Band6,21000,32000,Project Support Officer,1.0,Programme and Project Management (PPM)
+36,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Research & Technical,DDRTP1,Band3,48000,69000,Senior Operational Researcher,4.0,Knowledge and Information Management (KIM)
+37,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Research & Technical,DDRTP1,Band6,21000,32000,Operational Researcher,1.0,Knowledge and Information Management (KIM)
+38,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Research & Technical,DDRTP1,Band5,27000,41000,Operational Researcher,9.0,Knowledge and Information Management (KIM)
+39,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Research & Technical,DDRTP1,Band4,36000,54000,Senior Operational Researcher,7.0,Knowledge and Information Management (KIM)
+40,Department for Business Innovation and Skills,UK Commission for Employment and Skills,Research & Technical,DDRTP1,INT/APP,8500,21000,Knowledge Information Management Support Officer,2.0,Knowledge and Information Management (KIM)

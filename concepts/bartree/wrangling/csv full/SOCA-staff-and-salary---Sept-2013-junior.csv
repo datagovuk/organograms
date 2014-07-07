@@ -1,0 +1,36 @@
+,Parent Department,Organisation,Unit,Reporting Senior Post,Grade,Payscale Minimum (£),Payscale Maximum (£),Generic Job Title,Number of Posts in FTE,Professional/Occupational Group
+0,Home Office,SOCA,Child Exploitation Online Protection,P03688,DD,82000,93000,DD,1.0,Operational Delivery
+1,Home Office,SOCA,Child Exploitation Online Protection,P03688,SG1,63078,80883,SG1,3.0,Operational Delivery
+2,Home Office,SOCA,Child Exploitation Online Protection,P03688,SG2,51493,66025,SG2,4.8,Operational Delivery
+3,Home Office,SOCA,Child Exploitation Online Protection,P03688,SG3,41195,54050,SG3,10.6,Operational Delivery
+4,Home Office,SOCA,Child Exploitation Online Protection,P03688,SG4,32956,43240,SG4,23.4,Operational Delivery
+5,Home Office,SOCA,Child Exploitation Online Protection,P03688,SG5,24717,36321,SG5,48.2,Operational Delivery
+6,Home Office,SOCA,Child Exploitation Online Protection,P03688,SG6,17689,25945,SG6,13.0,Operational Delivery
+7,Home Office,SOCA,Strategy and Prevention,P04373,Legal Advisor,105000,110000,Legal Advisor,1.0,Operational Delivery
+8,Home Office,SOCA,Strategy and Prevention,P04373,DD,82000,93000,DD,4.0,Operational Delivery
+9,Home Office,SOCA,Strategy and Prevention,P04373,SG1,63078,80883,SG1,15.8,Operational Delivery
+10,Home Office,SOCA,Strategy and Prevention,P04373,SG2,51493,66025,SG2,41.9,Operational Delivery
+11,Home Office,SOCA,Strategy and Prevention,P04373,SG3,41195,54050,SG3,99.4,Operational Delivery
+12,Home Office,SOCA,Strategy and Prevention,P04373,SG4,32956,43240,SG4,172.2,Operational Delivery
+13,Home Office,SOCA,Strategy and Prevention,P04373,SG5,24717,36321,SG5,187.5,Operational Delivery
+14,Home Office,SOCA,Strategy and Prevention,P04373,SG6,17689,25945,SG6,58.8,Operational Delivery
+15,Home Office,SOCA,Capability and Service Delivery,P03691,DD,82000,93000,DD,9.6,Operational Delivery
+16,Home Office,SOCA,Capability and Service Delivery,P03691,SG1,63078,80883,SG1,20.6,Operational Delivery
+17,Home Office,SOCA,Capability and Service Delivery,P03691,SG2,51493,66025,SG2,45.1,Operational Delivery
+18,Home Office,SOCA,Capability and Service Delivery,P03691,SG3,41195,54050,SG3,102.0,Operational Delivery
+19,Home Office,SOCA,Capability and Service Delivery,P03691,SG4,32956,43240,SG4,172.1,Operational Delivery
+20,Home Office,SOCA,Capability and Service Delivery,P03691,SG5,24717,36321,SG5,137.3,Operational Delivery
+21,Home Office,SOCA,Capability and Service Delivery,P03691,SG6,17689,25945,SG6,95.0,Operational Delivery
+22,Home Office,SOCA,Operational Delivery,P03690,DD,82000,93000,DD,8.0,Operational Delivery
+23,Home Office,SOCA,Operational Delivery,P03690,SG1,63078,80883,SG1,33.0,Operational Delivery
+24,Home Office,SOCA,Operational Delivery,P03690,SG2,51493,66025,SG2,88.0,Operational Delivery
+25,Home Office,SOCA,Operational Delivery,P03690,SG3,41195,54050,SG3,317.7,Operational Delivery
+26,Home Office,SOCA,Operational Delivery,P03690,SG4,32956,43240,SG4,772.4,Operational Delivery
+27,Home Office,SOCA,Operational Delivery,P03690,SG5,24717,36321,SG5,1155.1,Operational Delivery
+28,Home Office,SOCA,Operational Delivery,P03690,SG6,17689,25945,SG6,171.6,Operational Delivery
+29,Home Office,SOCA,SOCA Board,P03689,SG1,63078,80883,SG1,1.0,Operational Delivery
+30,Home Office,SOCA,SOCA Board,P03689,SG2,51493,66025,SG2,3.0,Operational Delivery
+31,Home Office,SOCA,SOCA Board,P03689,SG3,41195,54050,SG3,8.0,Operational Delivery
+32,Home Office,SOCA,SOCA Board,P03689,SG4,32956,43240,SG4,7.0,Operational Delivery
+33,Home Office,SOCA,SOCA Board,P03689,SG5,24717,36321,SG5,14.0,Operational Delivery
+34,Home Office,SOCA,SOCA Board,P03689,SG6,17689,25945,SG6,1.0,Operational Delivery
