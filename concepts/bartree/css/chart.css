@@ -20,3 +20,9 @@ body {
 .layer .children .junior {
   color: #aaa;
 }
+
+.layer .children .child {
+  height: 40px;
+  overflow-x: visible;
+  white-space: nowrap;
+}

@@ -108,6 +108,15 @@ def compute_fte_totals(node):
 
   node['Subtotal'] = total
 
+def round_fte_totals(node):
+  subtotal = node['Subtotal']
+  if int(subtotal) != subtotal:
+    node['Subtotal'] = round(subtotal, 1)
+
+  if 'Children' in node:
+    for child in node['Children']:
+      round_fte_totals(child)
+
 
 org_names = get_org_names()
 # print org_names
@@ -167,6 +176,7 @@ org_tree = {
 }
 
 compute_fte_totals(org_tree)
+round_fte_totals(org_tree)
 
 # print org_tree
 # out.write(json.dumps(org_tree, indent=2, sort_keys = False))
