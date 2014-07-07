@@ -41,7 +41,7 @@ def build_children_lookup(junior_data, senior_data):
       lookup[reports_to] = []
 
     lookup[reports_to].append({
-      'Job Title' : row['Job Title'],
+      'Name' : row['Job Title'],
       'FTE': float(row['FTE']),
       # 'Senior' : True,
       'Ref' : row['Post Unique Reference']
@@ -54,9 +54,9 @@ def build_children_lookup(junior_data, senior_data):
       lookup[reports_to] = []
 
     lookup[reports_to].append({
-      'Job Title' : row['Generic Job Title'],
+      'Name' : row['Generic Job Title'],
       'FTE': float(row['Number of Posts in FTE']),
-      # 'Senior': False
+      'Junior': True
     })
 
   return lookup
@@ -153,7 +153,7 @@ for org_name in org_names:
       }
 
     org_tree[dept]['Children'][org]['Children'].append({
-      'Job Title' : row['Job Title'],
+      'Name' : row['Job Title'],
       'Ref' : row['Post Unique Reference'],
       'FTE' : float(row['FTE']),
       'Children': children
@@ -161,8 +161,12 @@ for org_name in org_names:
 
 org_tree = convert_to_arrays(org_tree)
 
-for org in org_tree:
-  compute_fte_totals(org)
+org_tree = {
+  'Name': 'HM Government',
+  'Children': org_tree
+}
+
+compute_fte_totals(org_tree)
 
 # print org_tree
 # out.write(json.dumps(org_tree, indent=2, sort_keys = False))

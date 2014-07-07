@@ -5,3 +5,18 @@ body {
 	font-size: 14px;
 }
 
+
+
+
+/* Layers */
+.layer {
+  margin-top: 30px;
+}
+
+.layer h2 {
+  font-weight: bold;
+}
+
+.layer .children .junior {
+  color: #aaa;
+}
