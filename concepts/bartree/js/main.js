@@ -179,7 +179,7 @@
         var layer = this.parentNode.parentNode;
         var layerDepth = d3.select(layer).datum().layerDepth;
         d.children = d.myChildren;
-        delete d.myChildren;
+        // delete d.myChildren;
         updateLayerStack(d, layerDepth + 1);
         updateSelectedGroup(layerDepth, i);
         update();
