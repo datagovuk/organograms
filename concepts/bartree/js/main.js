@@ -7,10 +7,36 @@
     layers: d3.select('div.layers')
   }
 
-  var xScale = d3.scale.linear().domain([0, 200000]).range([0, 1000]);
-  var colorScale = d3.scale.category10();
+  var xScale = d3.scale.linear().domain([0, 80000]).range([0, 1000]);
+  var colorScale = d3.scale.category20();
 
 
+  /*-------
+  SCROLLING
+  -------*/
+  function scrollToLayer(i) {
+    var allLayers = d3elements.layers
+      .selectAll('.layer');
+
+    var layer = allLayers[0][i];
+
+    console.log($(layer).offset());
+    scrollToY($(layer).offset().top - 50);
+  }
+
+  function scrollToY(y) {
+    d3.transition()
+      .duration(1500)
+      .ease('cubic-out')
+      .tween("scroll", scrollTween());
+
+    function scrollTween(offset) {
+      return function() {
+        var i = d3.interpolateNumber(window.pageYOffset, y);
+        return function(t) { scrollTo(0, i(t)); };
+      };
+    }
+  }
 
 
   /*----
@@ -34,7 +60,7 @@
     // Layers
     var uLayers = d3elements.layers
       .selectAll('.layer')
-      .data(layerStack, function(d) {return d.Name + d.Subtotal;});
+      .data(layerStack, function(d) {return d.Name + d.depth;});
 
     var enteringLayers = uLayers.enter()
       .append('div')
@@ -71,21 +97,24 @@
       })
       .style('background-color', function(d, i) {
         return colorScale(i);
+      })
+      .on('click', function(d) {
+        var layer = this.parentNode.parentNode;
+        var layerDepth = d3.select(layer).datum().depth;
+        updateLayerStack(d, layerDepth + 1);
+        update();
+        scrollToLayer(layerDepth + 1);
       });
 
     enteringChildren
+      .append('div')
+      .classed('label', true)
       .text(function(d) {
         var ret = d.Name;
         if(_.has(d, 'FTE'))
           ret += ' (' + d.FTE + ')';
         return ret;
-      })
-      .on('click', function(d, i, j) {
-        var layerDepth = d3.select(this.parentNode.parentNode).datum().depth;
-        updateLayerStack(d, layerDepth + 1);
-        update();
       });
-
   }
 
 
