@@ -11,7 +11,7 @@
   var colorScale = d3.scale.category20();
 
 var treemap = d3.layout.treemap()
-    .size([1000, 200])
+    .size([1200, 200])
     .value(function(d) { return d.Subtotal; });
 
 
@@ -105,12 +105,14 @@ var treemap = d3.layout.treemap()
       .selectAll('div.child')
       .data(treemap.nodes);
 
-    uChildren
+    var enteringChildren = uChildren
       .enter()
       .append('div')
-      .classed('child', true)
+      .classed('child', true);
+
+    enteringChildren
       .style('display', function(d) {
-        return d.depth > 0 ? 'block' : 'none';
+        return d.depth > 0 ? 'table' : 'none';
       })
       .style('top', function(d) {
         return d.y + 'px';
@@ -127,6 +129,11 @@ var treemap = d3.layout.treemap()
       .style('background-color', function(d, i) {
         return colorScale(i);
       })
+      .style('font-size', function(d) {
+        var size = d.area / (15 * d.Name.length);
+        if(size > 14) size = 14;
+        return size + 'px';
+      })
       .on('click', function(d) {
         var layer = this.parentNode.parentNode;
         var layerDepth = d3.select(layer).datum().layerDepth;
@@ -136,6 +143,13 @@ var treemap = d3.layout.treemap()
         update();
         scrollToLayer(layerDepth + 1);
       });
+
+    enteringChildren
+      .append('p')
+      .text(function(d) {
+        return d.Name;
+      })
+
 
     // enteringChildren
     //   .append('div')
