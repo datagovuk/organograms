@@ -47,7 +47,8 @@ var treemap = d3.layout.treemap()
   UPDATE
   ----*/
   function updateLayerStack(layerData, layerDepth) {
-    // console.log('updating stack: ', layerData, layerDepth);
+    console.log('updating stack: ', layerData, layerDepth);
+
     // Remove layers
     var stackDepth = layerStack.length;
     for(var i = layerDepth; i < stackDepth - 1; i++) {
@@ -66,10 +67,11 @@ var treemap = d3.layout.treemap()
       })
     }
 
-    layer.depth = layerDepth;
+    layer.layerDepth = layerDepth;
     layerStack[layerDepth] = layer;
 
-    console.log(layerData, layerStack);
+    console.log('adding layer', layer, ' at depth ', layer.layerDepth)
+    console.log('stack now', layerStack);
   }
 
 
@@ -79,7 +81,7 @@ var treemap = d3.layout.treemap()
     // Layers
     var uLayers = d3elements.layers
       .selectAll('.layer')
-      .data(layerStack, function(d) {return d.Name + d.depth;});
+      .data(layerStack, function(d) {return d.Name + d.layerDepth;});
 
     var enteringLayers = uLayers.enter()
       .append('div')
@@ -127,7 +129,7 @@ var treemap = d3.layout.treemap()
       })
       .on('click', function(d) {
         var layer = this.parentNode.parentNode;
-        var layerDepth = d3.select(layer).datum().depth;
+        var layerDepth = d3.select(layer).datum().layerDepth;
         d.children = d.myChildren;
         delete d.myChildren;
         updateLayerStack(d, layerDepth + 1);
