@@ -8,11 +8,16 @@
   }
 
   var xScale = d3.scale.linear().domain([0, 80000]).range([0, 1000]);
-  var colorScale = d3.scale.category20();
+  var colorScale = d3.scale.category20c();
 
-var treemap = d3.layout.treemap()
-    .size([1200, 200])
-    .value(function(d) { return d.Subtotal; });
+  var treemap = d3.layout.treemap()
+      .size([1200, 200])
+      .value(function(d) {
+        var total = 0;
+        total += d.FTE ? d.FTE : 0;
+        total += d.Subtotal;
+        return total;
+      });
 
 
   /*-------
@@ -25,12 +30,12 @@ var treemap = d3.layout.treemap()
     var layer = allLayers[0][i];
 
     console.log($(layer).offset());
-    scrollToY($(layer).offset().top - 50);
+    scrollToY($(layer).offset().top);
   }
 
   function scrollToY(y) {
     d3.transition()
-      .duration(1500)
+      .duration(1000)
       .ease('cubic-out')
       .tween("scroll", scrollTween());
 
@@ -47,7 +52,7 @@ var treemap = d3.layout.treemap()
   UPDATE
   ----*/
   function updateLayerStack(layerData, layerDepth) {
-    console.log('updating stack: ', layerData, layerDepth);
+    // console.log('updating stack: ', layerData, layerDepth);
 
     // Remove layers
     var stackDepth = layerStack.length;
@@ -57,11 +62,16 @@ var treemap = d3.layout.treemap()
 
     // Make shallow copy of layerData so that treemap doesn't recurse - is there a better way to do this?
     var layer = {
+      selectedChild: null,
       Name: layerData.Name,
+      Subtotal: layerData.Subtotal,
+      FTE: layerData.FTE,
       children: _.map(layerData.children, function(c) {
         return {
           Name: c.Name,
           Subtotal: c.Subtotal,
+          FTE: c.FTE,
+          Junior: c.Junior,
           myChildren: c.children
         };
       })
@@ -72,6 +82,10 @@ var treemap = d3.layout.treemap()
 
     console.log('adding layer', layer, ' at depth ', layer.layerDepth)
     console.log('stack now', layerStack);
+  }
+
+  function updateSelectedGroup(layer, i) {
+    layerStack[layer].selectedChild = i;
   }
 
 
@@ -91,12 +105,33 @@ var treemap = d3.layout.treemap()
       .append('h2')
       .text(function(d) {
         var ret = d.Name;
-        if(_.has(d, 'FTE'))
-          ret += ' (' + d.FTE + ')';
+        if(d.FTE)
+          ret += ' (' + d.FTE + ' full time post)';
         return ret;
       });
 
+    enteringLayers
+      .append('div')
+      .classed('subtotal', true)
+      .text(function(d) {
+        return Math.round(d.Subtotal) + ' civil servants';
+      });
+
     uLayers.exit().remove();
+
+    // Update selected child
+    uLayers.each(function(d) {
+      var selectedChild = d.selectedChild;
+      if(!selectedChild)
+        return;
+      d3.select(this)
+        .select('.children')
+        .selectAll('.child')
+        .transition()
+        .style('opacity', function(d, i) {
+          return selectedChild === i ? 1 : 0.1;
+        });
+    });
 
     // Children
     var uChildren = enteringLayers
@@ -121,27 +156,34 @@ var treemap = d3.layout.treemap()
         return d.x + 'px';
       })
       .style('width', function(d) {
-        return d.dx + 'px';
+        return d.dx - 1 + 'px';
       })
       .style('height', function(d) {
-        return d.dy + 'px';
+        return d.dy - 1 + 'px';
       })
       .style('background-color', function(d, i) {
         return colorScale(i);
       })
       .style('font-size', function(d) {
-        var size = d.area / (15 * d.Name.length);
+        var size = d.area / (20 * d.Name.length);
         if(size > 14) size = 14;
         return size + 'px';
       })
-      .on('click', function(d) {
+      .classed('junior', function(d) {
+        return d.Junior === true;
+      })
+      .on('click', function(d, i) {
+        if(d.Junior)
+          return;
+
         var layer = this.parentNode.parentNode;
         var layerDepth = d3.select(layer).datum().layerDepth;
         d.children = d.myChildren;
         delete d.myChildren;
         updateLayerStack(d, layerDepth + 1);
+        updateSelectedGroup(layerDepth, i);
         update();
-        scrollToLayer(layerDepth + 1);
+        scrollToLayer(layerDepth);
       });
 
     enteringChildren
