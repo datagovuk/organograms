@@ -20,14 +20,17 @@ body {
   padding-bottom: 10px;
 }
 
+.layer .children {
+  position: relative;
+  height: 200px;
+}
+
 .layer .children .junior {
   color: #aaa;
 }
 
 .layer .children .child {
-  height: 30px;
-  white-space: nowrap;
-  margin-bottom: 1px;
+  position: absolute;
   cursor: pointer;
 }
 

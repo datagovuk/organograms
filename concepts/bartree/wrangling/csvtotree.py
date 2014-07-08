@@ -73,7 +73,7 @@ def get_children(ref):
     if 'Ref' in child: # senior
       my_children = get_children(child['Ref'])
       if my_children:
-        child['Children'] = my_children
+        child['children'] = my_children
 
   return children
 
@@ -86,12 +86,12 @@ def convert_to_arrays(tree):
     dept['Name'] = d
 
     children = []
-    for o in dept['Children']:
-      org = dept['Children'][o]
+    for o in dept['children']:
+      org = dept['children'][o]
       org['Name'] = o
       children.append(org)
 
-    dept['Children'] = children
+    dept['children'] = children
     ret.append(dept)
 
   return ret
@@ -99,8 +99,8 @@ def convert_to_arrays(tree):
 def compute_fte_totals(node):
   total = 0
 
-  if 'Children' in node:
-    for child in node['Children']:
+  if 'children' in node:
+    for child in node['children']:
       compute_fte_totals(child)
       if 'FTE' in child:
         total = total + child['FTE']
@@ -113,8 +113,8 @@ def round_fte_totals(node):
   if int(subtotal) != subtotal:
     node['Subtotal'] = round(subtotal, 1)
 
-  if 'Children' in node:
-    for child in node['Children']:
+  if 'children' in node:
+    for child in node['children']:
       round_fte_totals(child)
 
 
@@ -152,27 +152,27 @@ for org_name in org_names:
 
     if dept not in org_tree:
       org_tree[dept] = {
-        'Children': {}
+        'children': {}
       }
 
-    if org not in org_tree[dept]['Children']:
-      org_tree[dept]['Children'][org] = {
+    if org not in org_tree[dept]['children']:
+      org_tree[dept]['children'][org] = {
         'Name': org,
-        'Children': []
+        'children': []
       }
 
-    org_tree[dept]['Children'][org]['Children'].append({
+    org_tree[dept]['children'][org]['children'].append({
       'Name' : row['Job Title'],
       'Ref' : row['Post Unique Reference'],
       'FTE' : float(row['FTE']),
-      'Children': children
+      'children': children
     })
 
 org_tree = convert_to_arrays(org_tree)
 
 org_tree = {
   'Name': 'HM Government',
-  'Children': org_tree
+  'children': org_tree
 }
 
 compute_fte_totals(org_tree)

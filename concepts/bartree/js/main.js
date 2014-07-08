@@ -10,6 +10,10 @@
   var xScale = d3.scale.linear().domain([0, 80000]).range([0, 1000]);
   var colorScale = d3.scale.category20();
 
+var treemap = d3.layout.treemap()
+    .size([1000, 200])
+    .value(function(d) { return d.Subtotal; });
+
 
   /*-------
   SCROLLING
@@ -50,9 +54,24 @@
       layerStack.pop();
     }
 
-    layerData.depth = layerDepth;
-    layerStack[layerDepth] = layerData;
+    // Make shallow copy of layerData so that treemap doesn't recurse - is there a better way to do this?
+    var layer = {
+      Name: layerData.Name,
+      children: _.map(layerData.children, function(c) {
+        return {
+          Name: c.Name,
+          Subtotal: c.Subtotal,
+          myChildren: c.children
+        };
+      })
+    }
+
+    layer.depth = layerDepth;
+    layerStack[layerDepth] = layer;
+
+    console.log(layerData, layerStack);
   }
+
 
   function update() {
     // console.log(layerStack);
@@ -82,18 +101,26 @@
       .append('div')
       .classed('children', true)
       .selectAll('div.child')
-      .data(function(d) {
-        return _.has(d, 'Children') ? d.Children : [];
-      });
+      .data(treemap.nodes);
 
-    var enteringChildren = uChildren.enter()
+    uChildren
+      .enter()
       .append('div')
       .classed('child', true)
-      .classed('junior', function(d) {
-        return _.has(d, 'Junior');
+      .style('display', function(d) {
+        return d.depth > 0 ? 'block' : 'none';
+      })
+      .style('top', function(d) {
+        return d.y + 'px';
+      })
+      .style('left', function(d) {
+        return d.x + 'px';
       })
       .style('width', function(d) {
-        return xScale(d.Subtotal) + 'px';
+        return d.dx + 'px';
+      })
+      .style('height', function(d) {
+        return d.dy + 'px';
       })
       .style('background-color', function(d, i) {
         return colorScale(i);
@@ -101,20 +128,22 @@
       .on('click', function(d) {
         var layer = this.parentNode.parentNode;
         var layerDepth = d3.select(layer).datum().depth;
+        d.children = d.myChildren;
+        delete d.myChildren;
         updateLayerStack(d, layerDepth + 1);
         update();
         scrollToLayer(layerDepth + 1);
       });
 
-    enteringChildren
-      .append('div')
-      .classed('label', true)
-      .text(function(d) {
-        var ret = d.Name;
-        if(_.has(d, 'FTE'))
-          ret += ' (' + d.FTE + ')';
-        return ret;
-      });
+    // enteringChildren
+    //   .append('div')
+    //   .classed('label', true)
+    //   .text(function(d) {
+    //     var ret = d.Name;
+    //     if(_.has(d, 'FTE'))
+    //       ret += ' (' + d.FTE + ')';
+    //     return ret;
+    //   });
   }
 
 
