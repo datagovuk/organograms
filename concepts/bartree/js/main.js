@@ -29,7 +29,7 @@
 
     var layer = allLayers[0][i];
 
-    console.log($(layer).offset());
+    // console.log($(layer).offset());
     scrollToY($(layer).offset().top);
   }
 
@@ -80,8 +80,8 @@
     layer.layerDepth = layerDepth;
     layerStack[layerDepth] = layer;
 
-    console.log('adding layer', layer, ' at depth ', layer.layerDepth)
-    console.log('stack now', layerStack);
+    // console.log('adding layer', layer, ' at depth ', layer.layerDepth)
+    // console.log('stack now', layerStack);
   }
 
   function updateSelectedGroup(layer, i) {
