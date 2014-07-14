@@ -1,3 +1,4 @@
+# Convert csv files to ONE BIG json object. Used by bartree
 import os, string, csv, json
 from collections import OrderedDict
 
@@ -119,12 +120,12 @@ def round_fte_totals(node):
 
 
 org_names = get_org_names()
-# print org_names
+print org_names
 
 org_tree = {}
 children_lu = {}
 
-out = open('../out.json', 'w')
+out = open('../all.json', 'w')
 
 for org_name in org_names:
   print org_name

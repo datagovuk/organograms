@@ -1,0 +1,12 @@
+more than 1 dept in Cabinet-Office-FINAL--30-Sept-2013
+['Cabinet Office', 'Department for Communities and Local Government']
+more than 1 org in Cabinet-Office-FINAL--30-Sept-2013
+['Cabinet Office', 'Department for Communities and Local Government']
+more than 1 org in Copy-of-HEE-organogram---September-2013-cleaned
+['Health Education England', 'Health Education EnglandEd', 'Health Education England ']
+more than 1 org in DfE-Government-staff-and-salary-data-blank-template---September-2013-FINAL
+['Standards and Testing Agency', 'National College', 'Education Funding Agency', 'Department For Education']
+more than 1 org in FCO-Government-staff-and-salary-data-blank-template---September-cleaned
+['Foreign and Commonwealth office', 'Foreign and Commonwealth Office', 'UK Trade & Investment', 'Wilton Park']
+more than 1 org in NICE-organogram-cleaned
+['National Institute for Health and Care Excellence', '']

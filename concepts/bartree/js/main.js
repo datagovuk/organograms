@@ -205,7 +205,7 @@
   }
 
 
-  d3.json('wrangling/out.json', function(err, data) {
+  d3.json('../wrangling/output/all.json', function(err, data) {
     // console.log(data);
     orgData = data;
 
