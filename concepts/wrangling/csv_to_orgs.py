@@ -1,3 +1,4 @@
+# coding=UTF-8
 # Convert each csv file pair (senior + junior) to individual json trees
 # This is sketchy code - could do with a rewrite
 import os, string, csv, json
@@ -44,9 +45,13 @@ def build_children_lookup(junior_data, senior_data):
       lookup[reports_to] = []
 
     lookup[reports_to].append({
-      'name' : row['Job Title'],
+      'jobtitle' : row['Job Title'],
+      'name' : row['Name'],
+      'grade' : row['Grade'],
       'FTE': float(row['FTE']),
-      # 'Senior' : True,
+      'unit': row['Unit'],
+      'payfloor': row['Actual Pay Floor (£)'],
+      'payceiling': row['Actual Pay Ceiling (£)'],
       'ref' : row['Post Unique Reference']
     })
 
@@ -57,8 +62,12 @@ def build_children_lookup(junior_data, senior_data):
       lookup[reports_to] = []
 
     lookup[reports_to].append({
-      'name' : row['Generic Job Title'],
+      'jobtitle' : row['Generic Job Title'],
+      'grade' : row['Grade'],
       'FTE': float(row['Number of Posts in FTE']),
+      'unit': row['Unit'],
+      'payfloor': row['Payscale Minimum (£)'],
+      'payceiling': row['Payscale Maximum (£)'],
       'junior': True
     })
 
@@ -111,14 +120,19 @@ for org_name in org_names:
     children = get_children(ref)
 
     roots.append({
-      'name': row['Job Title'],
+      'jobtitle': row['Job Title'],
+      'name' : row['Name'],
+      'grade' : row['Grade'],
       'FTE': float(row['FTE']),
+      'unit': row['Unit'],
+      'payfloor': row['Actual Pay Floor (£)'],
+      'payceiling': row['Actual Pay Ceiling (£)'],
       'children': children
     })
 
   # create a single root representing the organisation
   root = {
-    'name': row['Organisation'],
+    'jobtitle': row['Organisation'],
     'children': roots
   }
 

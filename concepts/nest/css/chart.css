@@ -4,6 +4,7 @@ body {
 	margin: 0 auto;
 	font-size: 12px;
   position: relative;
+  margin-bottom: 100px;
 }
 
 div.legend {
@@ -15,11 +16,22 @@ div.legend span {
   margin-left: 10px;
 }
 
+div.chart {
+  position: relative;
+  width: 800px;
+}
 
 div.node {
   font-size: 12px;
+  font-weight: bold;
   line-height: 16px;
   padding-top: 4px;
+}
+div.node .label:hover {
+  background-color: lightblue;
+}
+div.node.junior {
+  font-weight: normal;
 }
 
 div.children {
@@ -33,11 +45,30 @@ i.fa {
 }
 
 i.fa.group-1 {
-  color: #aaa;
+  opacity: 0.3;
 }
 i.fa.group-10 {
-  color: #000;
-}
-i.fa.group-100 {
   color: black;
+}
+/*i.fa.group-100 {
+  color: black;
+}
+*/
+.tooltip {
+  background-color: white;
+  padding: 10px;
+  font-size: 12px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.tooltip h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.tooltip div {
+  margin-bottom: 5px;
 }

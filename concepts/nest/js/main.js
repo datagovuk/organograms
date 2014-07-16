@@ -1,42 +1,39 @@
 (function() {
+
+  var toolTip = animdata.d3.toolTip()
+    .title('Hey')
+    .templateFunc(function(d) {
+      var fields = [
+        {field: 'grade', label: 'Grade'},
+        {field: 'name', label: 'Name'},
+        {field: 'FTE', label: 'No. full time positions'},
+        {field: 'unit', label: 'Unit'}
+      ];
+      var ret = '<div>';
+      ret += '<h1>' + d.jobtitle + '</h1>';
+
+      _.each(fields, function(f) {
+        if(d[f.field] !== undefined)
+          ret += '<div>' + f.label + ': ' + d[f.field] + '</div>';
+      });
+
+      if(d.payfloor !== undefined) {
+        ret += '<div>Pay range: £' + d.payfloor + ' - £' + d.payceiling;
+      }
+      ret += '</div>';
+      return ret;
+    })
+    .width(400)
+    .element('div.label');
+
+
   function ready() {
-    // console.log('ready!');
+    // Collapsible nodes - this works fine, but needs more work to make it usable. Not convinced it's necessary at all...
+    // $('.chart').on('click', '.label', function() {
+    //   var childrenContainer = $(this.parentNode).find('.children').first();
+    //   childrenContainer.slideToggle();
+    // });
   }
-
-
-  // function personIcons(i) {
-  //   var single = '<i class="fa fa-male group-1"></i>';
-  //   var group10 = '<i class="fa fa-male group-10"></i>';
-  //   var group100 = '<i class="fa fa-male group-100"></i>';
-  //   ret = '';
-  //   if(i <= 10) {
-  //     for(var ii=0; ii<i; ii++)
-  //       ret += single;
-  //   } else if(i <= 100) {
-  //     var numGroups = Math.floor(i / 10);
-  //     var numSingle = i % 10;
-  //     for(var ii=0; ii<numGroups; ii++)
-  //       ret += group10;
-  //     for(var ii=0; ii<numSingle; ii++)
-  //       ret += single;
-  //   } else {
-  //     var num100Groups = Math.floor(i / 100);
-  //     for(var ii=0; ii<num100Groups; ii++)
-  //       ret += group100;
-
-  //     var remainder = i % 100;
-  //     var num10Groups = Math.floor(remainder / 10);
-  //     for(var ii=0; ii<num10Groups; ii++)
-  //       ret += group10;
-
-  //     remainder = remainder % 10;
-  //     for(var ii=0; ii<remainder; ii++)
-  //       ret += single;
-  //   }
-
-  //   return ret;
-  // }
-
 
   function peopleIcons(i) {
     var single = '<i class="fa fa-male group-1"></i>';
@@ -54,34 +51,60 @@
     return ret;
   }
 
-  function outputNode(node, element) {
-    // Recursively output node into element
 
-    var people = '';
-    if(node.FTE !== undefined)
-      people = peopleIcons(node.FTE);
+  /*----
+  UPDATE
+  ----*/
+  function outputChildren(children, element) {
+    // Recursively output children into element
 
-    var newNode = d3.select(element)
+    d3.select(element)
+      .selectAll('div.node')
+      .data(children)
+      .enter()
       .append('div')
       .classed('node', true)
-      .html(node.name + ' ' + people);
+      .classed('junior', function(d) {return d.junior === true;})
+      .each(function(d) {
+        d3.select(this)
+          .append('div')
+          .classed('label', true)
+          .html(function(d) {
+            var ret = '';
+            ret += d.jobtitle;
 
-    if(node.children !== undefined) {
-      var children = newNode.append('div')
-        .classed('children', true);
-      _.each(node.children, function(c) {
-        outputNode(c, children[0][0]);
+            var people = '';
+            if(d.FTE !== undefined) {
+              people = peopleIcons(d.FTE);
+              ret += ' ' + people;
+            }
+
+            return ret;
+          });
+
+        if(d.children === undefined)
+          return;
+        var newNode = d3.select(this)
+          .append('div')
+          .classed('children', true);
+        outputChildren(d.children, newNode[0][0]);
       });
-    }
-
-
   }
+
+
+  function updateTooltip() {
+    d3.select('.chart .nodes')
+      .call(toolTip);
+  }
+
 
   function update(root) {
     d3.select('.chart .nodes').remove();
     d3.select('.chart').append('div').classed('nodes', true);
 
-    outputNode(root, d3.select('.chart .nodes')[0][0]);
+    outputChildren([root], d3.select('.chart .nodes')[0][0]);
+
+    updateTooltip();
   }
 
 
