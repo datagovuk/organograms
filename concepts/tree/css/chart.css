@@ -12,7 +12,7 @@ path {
 }
 
 g.node text {
-  font-size: 9px;
+  /*font-size: 9px;*/
 }
 
 g.node rect.count {
