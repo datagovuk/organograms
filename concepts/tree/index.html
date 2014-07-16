@@ -2,17 +2,46 @@
 <html lang="en">
   <head>
     <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <title>Chart</title>
     <link rel="stylesheet" href="css/reset.css">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/chart.css">
   </head>
 
   <body>
-    <div class="layers"></div>
+    <div class="menu">
+      <select class="departments">
+      </select>
+    </div>
+
+    <div class="chart">
+      <svg width="1200" height="4000">
+
+<!--         <defs>
+          From http://upload.wikimedia.org/wikipedia/commons/4/41/AWS_Simple_Icons_Non-Service_Specific_User.svg
+          <g id="person-icon" transform="scale(0.2)">
+            <g>
+              <path d="M48.359,17.824c0-7.356-5.982-13.34-13.359-13.34
+                c-7.373,0-13.34,5.983-13.34,13.34c0,7.377,5.967,13.359,13.34,13.359C42.377,31.184,48.359,25.201,48.359,17.824z"/>
+            </g>
+            <g>
+              <path d="M42.633,34.996H27.371c-8.426,0-15.258,5.143-15.258,13.564v16.955h9.125V53.621h1.5v11.895h24.871V53.621
+                h1.5v11.895h8.777V48.561C57.887,40.139,51.055,34.996,42.633,34.996z"/>
+            </g>
+          </g>
+        </defs>
+ -->
+        <g class="tree" transform="translate(10, 0)"></g>
+      </svg>
+    </div>
 
     <script src="js/d3.v3.min.js"></script>
     <script src="js/lodash.min.js"></script>
-    <!-- // <script src="js/jquery-2.1.1.min.js"></script> <!-- for scrolling -->
+    <!-- // <script src="js/jquery-2.1.1.min.js"></script> -->
+    <!-- // <script src="js/bootstrap.min.js"></script> -->
+    <script src="../shared/js/menu.js"></script>
     <script src="js/main.js"></script>
   </body>
 </html>

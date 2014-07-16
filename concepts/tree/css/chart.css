@@ -3,7 +3,19 @@ body {
 	width: 1200px;
 	margin: 0 auto;
 	font-size: 14px;
-  padding-bottom: 1000px;
 }
 
+path {
+  fill: none;
+  stroke-width: 0.5px;
+  stroke: #aaa;
+}
 
+g.node text {
+  font-size: 9px;
+}
+
+g.node rect.count {
+  fill: blue;
+  opacity: 0.3;
+}

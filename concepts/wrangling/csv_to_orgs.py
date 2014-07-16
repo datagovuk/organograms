@@ -44,7 +44,7 @@ def build_children_lookup(junior_data, senior_data):
       lookup[reports_to] = []
 
     lookup[reports_to].append({
-      'job title' : row['Job Title'],
+      'name' : row['Job Title'],
       'FTE': float(row['FTE']),
       # 'Senior' : True,
       'ref' : row['Post Unique Reference']
@@ -57,7 +57,7 @@ def build_children_lookup(junior_data, senior_data):
       lookup[reports_to] = []
 
     lookup[reports_to].append({
-      'job title' : row['Generic Job Title'],
+      'name' : row['Generic Job Title'],
       'FTE': float(row['Number of Posts in FTE']),
       'junior': True
     })
@@ -111,10 +111,17 @@ for org_name in org_names:
     children = get_children(ref)
 
     roots.append({
-      'job title': row['Job Title'],
+      'name': row['Job Title'],
+      'FTE': float(row['FTE']),
       'children': children
     })
 
+  # create a single root representing the organisation
+  root = {
+    'name': row['Organisation'],
+    'children': roots
+  }
+
   # out.write(json.dumps(roots, indent=2, sort_keys = False))
-  out.write(json.dumps(roots))
+  out.write(json.dumps(root))
   out.close()

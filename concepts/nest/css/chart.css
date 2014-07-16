@@ -1,0 +1,43 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 12px;
+  position: relative;
+}
+
+div.legend {
+  position: absolute;
+  top: 4px;
+  right: 0;
+}
+div.legend span {
+  margin-left: 10px;
+}
+
+
+div.node {
+  font-size: 12px;
+  line-height: 16px;
+  padding-top: 4px;
+}
+
+div.children {
+  margin-left: 60px;
+  padding-left: 2px;
+  border-left: 1px solid #eee;
+}
+
+i.fa {
+  padding-right: 1px;
+}
+
+i.fa.group-1 {
+  color: #aaa;
+}
+i.fa.group-10 {
+  color: #000;
+}
+i.fa.group-100 {
+  color: black;
+}
