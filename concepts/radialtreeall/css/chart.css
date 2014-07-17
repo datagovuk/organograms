@@ -1,0 +1,31 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 14px;
+}
+
+path {
+  fill: none;
+  stroke-width: 2px;
+  stroke: #666;
+}
+
+g.node text {
+  /*font-size: 9px;*/
+}
+
+g.node rect.count {
+  fill: blue;
+  opacity: 0.3;
+}
+
+g.node circle.fte {
+  fill: none;
+  stroke: #aaa;
+  stroke-width: 0.5px;
+}
+
+text.title {
+  font-size: 10px;
+}

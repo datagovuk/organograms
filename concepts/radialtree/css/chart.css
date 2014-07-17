@@ -2,7 +2,25 @@ body {
 	font-family: "Helvetica Neue", Helvetica, sans-serif;
 	width: 1200px;
 	margin: 0 auto;
-	font-size: 14px;
+	font-size: 12px;
+  position: relative;
+}
+
+div.legend {
+  position: absolute;
+  top: 4px;
+  right: 0;
+}
+div.info {
+  position: absolute;
+  top: 40px;
+}
+div.info div {
+  padding-bottom: 5px;
+}
+div.info h1 {
+  font-weight: bold;
+  padding-bottom: 5px;
 }
 
 path {
@@ -24,4 +42,18 @@ g.node circle.fte {
   fill: none;
   stroke: #aaa;
   stroke-width: 0.5px;
+}
+
+g.node.hover circle {
+  stroke: green;
+  stroke-width: 4px;
+}
+g.node.hover circle.fte {
+  stroke: green;
+  stroke-width: 1px;
+}
+
+path.voronoi {
+  fill: white;
+  opacity: 0;
 }
