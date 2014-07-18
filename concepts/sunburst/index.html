@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Sunburst</title>
+    <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/chart.css">
+  </head>
+
+  <body>
+    <div class="menu">
+      <select class="departments">
+      </select>
+    </div>
+
+<!--     <div class="legend">
+      <span><i class="fa fa-male group-10"></i> 10 people</span>
+      <span><i class="fa fa-male group-1"></i> 1 person</span>
+      <span>(rounded to nearest person)</span>
+    </div>
+ -->
+    <div class="chart">
+      <svg>
+        <g class="wrapper" transform="translate(600, 400)"></g>
+      </svg>
+    </div>
+
+
+    <script src="js/d3.v3.min.js"></script>
+    <script src="js/lodash.min.js"></script>
+    <script src="js/jquery-2.1.1.min.js"></script>
+    <!-- // <script src="js/bootstrap.min.js"></script> -->
+    <script src="../shared/js/menu.js"></script>
+    <script src="../shared/js/chartbits.min.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>

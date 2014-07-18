@@ -1,0 +1,32 @@
+body {
+	font-family: "Helvetica Neue", Helvetica, sans-serif;
+	width: 1200px;
+	margin: 0 auto;
+	font-size: 12px;
+  position: relative;
+  margin-bottom: 100px;
+}
+
+path {
+  stroke: white;
+  stroke-width: 0.5px;
+}
+
+.tooltip {
+  background-color: white;
+  padding: 10px;
+  font-size: 12px;
+  -moz-border-radius: 5px;
+  -webkit-border-radius: 5px;
+  -khtml-border-radius: 5px;
+  border-radius: 5px;
+  border: 1px solid #ccc;
+}
+.tooltip h1 {
+  text-align: center;
+  font-weight: bold;
+  margin-bottom: 8px;
+}
+.tooltip div {
+  margin-bottom: 5px;
+}
