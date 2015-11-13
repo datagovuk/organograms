@@ -1,2 +1,9 @@
 .ipynb_checkpoints
 node_modules
+.scrape_cache.sqlite
+data/xls
+data/csv-old
+data/csv-generated
+
+#vim
+*.sw?
