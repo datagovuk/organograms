@@ -17,13 +17,14 @@ import sys
 import os.path
 import json
 from xlrd import XLRDError
+import csv
 
 
 class ValidationFatalError(Exception):
     pass
 
 
-def load_excel_store_errors(filename, sheet_name, errors, input_columns, rename_columns, integer_columns, string_columns):
+def load_excel_store_errors(filename, sheet_name, errors, input_columns, rename_columns, blank_columns, integer_columns, string_columns, n_a_for_blanks_columns):
     """Carefully load an Excel file, taking care to log errors and produce clean output.
     You'll always receive a dataframe with the expected columns, though it might contain 0 rows if
     there are errors. Strings will be stored in the 'errors' array."""
@@ -41,6 +42,11 @@ def load_excel_store_errors(filename, sheet_name, errors, input_columns, rename_
     if len(df.columns)!=len(input_columns):
         errors.append("Sheet %s contains %d columns. I expect at least %d columns."%(sheet_name,len(df.columns),len(input_columns)))
         return pandas.DataFrame(columns=output_columns)
+    # Blank out columns
+    for column_name in blank_columns:
+        col_index = df.columns.tolist().index(column_name)
+        df.drop(df.columns[col_index], axis=1, inplace=True)
+        df.insert(col_index, column_name, '')
     # Softly correct column names
     for i in range(len(df.columns)):
         if df.columns[i]!=input_columns[i]:
@@ -50,18 +56,24 @@ def load_excel_store_errors(filename, sheet_name, errors, input_columns, rename_
     # Filter null rows
     column0 = df[ df.columns[0] ]
     df = df[ column0.notnull() ]
-    # Softly cast to integer
-    def cast_to_int(column_name):
+    # Softly cast to integer (or N/A)
+    def validate_int_or_na(column_name):
         def _inner(x):
-            if pandas.isnull(x): return 0
+            if pandas.isnull(x):
+                # i.e. float.NaN. Cell contained e.g. 'N/A'
+                return 'N/A'
             try:
-                return int(x)
+                return str(int(round(x)))
             except ValueError:
+                if x.upper() == 'n/a':
+                    return 'N/A'
                 errors.append('Expected numeric values in column "%s", but got text="%s".'%(column_name,x))
                 return 0
         return _inner
+    # int type cannot store NaN, so use object type
     for column_name in integer_columns:
-        df[column_name] = df[column_name].map( cast_to_int(column_name) ).astype(int)
+        df[column_name] = df[column_name].astype(object).map(validate_int_or_na(column_name))
+    # Format any numbers in string columns
     for column_name in string_columns:
         if str(df[column_name].dtype).startswith('float'):
             # an int seems to get detected as float, so convert back to int first
@@ -69,6 +81,14 @@ def load_excel_store_errors(filename, sheet_name, errors, input_columns, rename_
             # e.g. appointments_commission-30-09-2011.xls
             df[column_name] = df[column_name].astype(int)
         df[column_name] = df[column_name].astype(str)
+    # Strip strings of spaces
+    for column_name in df.columns:
+        # columns with strings have detected 'object' type
+        if df[column_name].dtype == 'O':
+            df[column_name] = df[column_name].str.strip()
+    # Blank cells might need to be changed to 'N/A'
+    for column_name in n_a_for_blanks_columns:
+        df[column_name] = df[column_name].fillna('N/A')
     return df
 
 
@@ -97,16 +117,22 @@ def load_senior(excel_filename,errors):
       u'Total Pay (£)' : u'',
       u'Grade (or equivalent)' : u'Grade',
     }
+    blank_columns = {
+      u'Total Pay (£)' : u'',
+    }
     integer_columns = [
       u'Actual Pay Floor (£)',
       u'Actual Pay Ceiling (£)',
-      u'',
+      u'Salary Cost of Reports (£)',
     ]
     string_columns = [
       u'Post Unique Reference',
       u'Reports to Senior Post',
     ]
-    df = load_excel_store_errors(excel_filename, '(final data) senior-staff', errors, input_columns, rename_columns, integer_columns, string_columns)
+    n_a_for_blanks_columns = [
+      u'Contact Phone',
+    ]
+    df = load_excel_store_errors(excel_filename, '(final data) senior-staff', errors, input_columns, rename_columns, blank_columns, integer_columns, string_columns, n_a_for_blanks_columns)
     if df.dtypes['Post Unique Reference']==numpy.float64:
         df['Post Unique Reference'] = df['Post Unique Reference'].astype('int')
     return df
@@ -131,7 +157,8 @@ def load_junior(excel_filename,errors):
     string_columns = [
       u'Reporting Senior Post',
     ]
-    df = load_excel_store_errors(excel_filename, '(final data) junior-staff', errors, input_columns, {}, integer_columns, string_columns)
+    n_a_for_blanks_columns = []
+    df = load_excel_store_errors(excel_filename, '(final data) junior-staff', errors, input_columns, {}, [], integer_columns, string_columns, n_a_for_blanks_columns)
     if df.dtypes['Reporting Senior Post']==numpy.float64:
         df['Reporting Senior Post'] = df['Reporting Senior Post'].fillna(-1).astype('int')
     return df
@@ -244,11 +271,16 @@ def main(input_files, output_folder):
         senior_filename = os.path.join(output_folder, basename+'-senior.csv')
         junior_filename = os.path.join(output_folder, basename+'-junior.csv')
         print "Writing", senior_filename
-        senior.to_csv(senior_filename,encoding="utf-8")
+        csv_options = dict(encoding="utf-8",
+                           quoting=csv.QUOTE_ALL,
+                           float_format='%.2f',
+                           index=False)
+        senior.to_csv(senior_filename, **csv_options)
         print "Writing", junior_filename
-        junior.to_csv(junior_filename,encoding="utf-8")
+        junior.to_csv(junior_filename, **csv_options)
         # Update index
         index.append({'name': name, 'value': basename})
+    # Write index file
     index = sorted(index, key=lambda x: x['name'])
     index_filename = os.path.join(output_folder, 'index.json')
     print "="*40
