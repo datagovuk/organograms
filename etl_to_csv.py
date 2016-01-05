@@ -64,8 +64,8 @@ def load_excel_store_errors(filename, sheet_name, errors, input_columns, rename_
                 return 'N/A'
             try:
                 return str(int(round(x)))
-            except ValueError:
-                if x.upper() == 'n/a':
+            except (TypeError, ValueError):
+                if x.upper().strip('"') == 'N/A':
                     return 'N/A'
                 errors.append('Expected numeric values in column "%s", but got text="%s".'%(column_name,x))
                 return 0
@@ -181,14 +181,13 @@ def verify_graph(senior, junior, errors):
         'FTE'))
     senior_ = senior_.drop_duplicates(keep='first', subset=cols)
 
-    # ensure one person is marked as top (XX)
+    # ensure at least one person is marked as top (XX)
     top_persons = senior_[senior_['Reports to Senior Post'].isin(('XX', 'xx'))]
-    if len(top_persons) != 1:
-        errors.append('There should be 1 senior post with "Reports to Senior '
-                      'Post" value of "XX" but instead found: %s'
-                      % len(top_persons))
+    if len(top_persons) < 1:
+        errors.append('Could not find a senior post with "Reports to Senior '
+                      'Post" value of "XX" (i.e. the top role)')
         raise ValidationFatalError(errors[-1])
-    top_person_ref = top_persons['Post Unique Reference'][top_persons['Post Unique Reference'].index[0]]
+    top_person_refs = top_persons['Post Unique Reference'].values
 
     # do all seniors report to a correct senior ref? (aside from top person)
     senior_post_refs = set(senior_['Post Unique Reference'])
@@ -203,12 +202,16 @@ def verify_graph(senior, junior, errors):
     for index, post in senior_.iterrows():
         ref = post['Post Unique Reference']
         if ref in reports_to:
-            errors.append('Senior post "Post Unique Reference" is not unique: '
-                          '%s "%s"' % (index, ref))
+            errors.append('Senior post "Post Unique Reference" is not unique. '
+                          'index:%s ref:"%s"' % (index, ref))
         reports_to[ref] = post['Reports to Senior Post']
+        if ref == reports_to[ref]:
+            errors.append('Senior post reports to him/herself. '
+                          'index:%s ref:"%s"' % (index, ref))
     top_level_boss_by_ref = {}
+
     def get_top_level_boss_recursive(ref, depth=0):
-        if ref == top_person_ref:
+        if ref in top_person_refs:
             return ref
         if depth > 100:
             raise MaxDepthError()
@@ -216,11 +219,23 @@ def verify_graph(senior, junior, errors):
             return top_level_boss_by_ref[ref]
         try:
             boss_ref = reports_to[ref]
-        except KeyError, e:
-            print e
-            import pdb; pdb.set_trace()
-        top_level_boss_by_ref[ref] = get_top_level_boss_recursive(boss_ref,
-                                                                  depth + 1)
+        except KeyError:
+            known_refs = list(set(reports_to.keys()))
+            # convert known_refs to int if poss, so it sorts better
+            for i, ref_ in enumerate(known_refs):
+                try:
+                    known_refs[i] = int(ref_)
+                except:
+                    pass
+            err = 'Post reports to unknown post ref:"%s". Known post refs:"%s"' % (
+                ref, sorted(known_refs))
+            raise ValidationFatalError(err)
+        try:
+            top_level_boss_by_ref[ref] = get_top_level_boss_recursive(
+                boss_ref, depth + 1)
+        except ValidationFatalError, e:
+            raise ValidationFatalError(
+                'Error with senior post "%s": %s' % (ref, e))
         return top_level_boss_by_ref[ref]
     for index, post in senior_.iterrows():
         ref = post['Post Unique Reference']
@@ -230,10 +245,11 @@ def verify_graph(senior, junior, errors):
             errors.append('Could not follow the reporting structure from '
                           'Senior post %s "%s" up to the top in 100 steps - '
                           'is there a loop?' % (index, ref))
-        if top_level_boss != top_person_ref:
-            errors.append('Reporting from Senior post %s "%s" up to the top '
-                          'results in "%s" rather than "XX"' %
-                          (index, ref, top_level_boss))
+        else:
+            if top_level_boss not in top_person_refs:
+                errors.append('Reporting from Senior post %s "%s" up to the '
+                              'top results in "%s" rather than "XX"' %
+                              (index, ref, top_level_boss))
 
     # do all juniors report to a correct senior ref?
     junior_report_to_refs = set(junior['Reporting Senior Post'])
@@ -255,9 +271,12 @@ def main(input_files, output_folder):
             verify_graph(senior, junior, errors)
         except ValidationFatalError, e:
             print "FATAL ERROR:", e
-            return
+            continue
         for error in list(set(errors)):
             print "ERROR:", error
+        if errors:
+            print 'FATAL'
+            continue
         # Calculate Organogram name
         _org = senior['Organisation']
         _org = _org[_org.notnull()].unique()
