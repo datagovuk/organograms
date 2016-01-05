@@ -31,3 +31,9 @@ NB if you get an error about `cc1plus` when installing pandas then you probably 
 
     sudo apt-get install g++
 
+
+## Triple store querier
+
+This is for querying a triple store about its organogram data. e.g.
+
+python triplestore_query.py departments
