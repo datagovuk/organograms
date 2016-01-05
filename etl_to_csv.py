@@ -192,7 +192,8 @@ def verify_graph(senior, junior, errors):
     # do all seniors report to a correct senior ref? (aside from top person)
     senior_post_refs = set(senior_['Post Unique Reference'])
     senior_report_to_refs = set(senior_['Reports to Senior Post'])
-    bad_senior_refs = senior_report_to_refs - senior_post_refs - set(['XX', 'xx'])
+    bad_senior_refs = senior_report_to_refs - senior_post_refs - \
+        set(['XX', 'xx'])
     for ref in bad_senior_refs:
         errors.append('Senior post reporting to unknown senior post "%s"'
                       % ref)
@@ -227,8 +228,9 @@ def verify_graph(senior, junior, errors):
                     known_refs[i] = int(ref_)
                 except:
                     pass
-            err = 'Post reports to unknown post ref:"%s". Known post refs:"%s"' % (
-                ref, sorted(known_refs))
+            err = 'Post reports to unknown post ref:"%s". ' \
+                  'Known post refs:"%s"' % (
+                      ref, sorted(known_refs))
             raise ValidationFatalError(err)
         try:
             top_level_boss_by_ref[ref] = get_top_level_boss_recursive(
@@ -307,6 +309,7 @@ def main(input_files, output_folder):
     with open(index_filename, 'w') as f:
         json.dump(index, f)
     print "Done."
+
 
 def usage():
     print "Usage: %s input_1.xls input_2.xls ... output_folder/" % sys.argv[0]
