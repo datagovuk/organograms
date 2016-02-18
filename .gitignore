@@ -4,6 +4,8 @@ node_modules
 data/xls
 data/csv-old
 data/csv-generated
+data/csv-pawel*
+data/xls-pawel*
 
 #vim
 *.sw?
