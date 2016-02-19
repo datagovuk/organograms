@@ -1,11 +1,7 @@
-'''Scrapes organogram data
-
-TODO:
-* only scrape published data
-* write an index of the scraped data to aid testing comparison of the old and generated data
+'''Scrapes TSO organogram upload page to get info about what's published and
+can download the XLS and CSV files.
 '''
-
-import sys
+import argparse
 import os
 import re
 import datetime
@@ -40,11 +36,12 @@ states_by_action = {
     'published': 'published',
     }
 
-csv_file = open('report.csv', 'wb')
+csv_file = open('uploads_report.csv', 'wb')
 csv_writer = csv.writer(csv_file, dialect='excel')
 row_headings = [
+   # 'submitter_email' removed for privacy
    'version',
-   'org_name', 'submitter_email', 'xls_path', 'upload_date', 'state',
+   'org_name', 'xls_path', 'upload_date', 'state',
    'action_datetime', 'xls-filename', 'junior-csv-filename', 'senior-csv-filename'
    ]
 csv_writer.writerow(row_headings)
@@ -53,7 +50,7 @@ def save_to_csv(row_dict):
     row = []
     for heading in row_headings:
         cell = row_dict.get(heading, '')
-        if heading in ('upload_date', 'action_datetime'):
+        if heading in ('upload_date', 'action_datetime') and cell:
             cell = cell.isoformat()
         row.append(cell)
     #print row
@@ -62,7 +59,7 @@ def save_to_csv(row_dict):
     rows_written += 1
 
 
-def main(xls_folder, csv_folder):
+def main(xls_folder, csv_folder, options):
     username = os.environ['SCRAPE_USERNAME']
     password = os.environ['SCRAPE_PASSWORD']
     email = os.environ['SCRAPE_EMAIL']
@@ -77,7 +74,11 @@ def main(xls_folder, csv_folder):
         # and state
         for row in tree.xpath('//div[@id="preview"]//table/tr')[1:]:
             org = row.xpath('td[@class="dept"]/text()')[0]
-            submitter_email = row.xpath('td[@class="submitter"]/a/text()')[0].strip()
+            try:
+                submitter_email = row.xpath('td[@class="submitter"]/a/text()')[0].strip()
+            except IndexError:
+                # 30/09/2013 JNCC submitter is not an email address
+                submitter_email = row.xpath('td[@class="submitter"]/a/text()')
             xls_path = row.xpath('td[@class="filename"]/a/@href')[0]
             upload_date = row.xpath('td[@class="modified"]/text()')[0].strip()
             upload_date = datetime.datetime.strptime(upload_date, '%d/%m/%Y')
@@ -93,38 +94,42 @@ def main(xls_folder, csv_folder):
                 }
 
         # Download pane gives the CSV downloads
-        for row in tree.xpath('//div[@id="download"]//table/tr')[1:]:
+        for row in tree.xpath('//div[@id="download"]//table/tr'):
+            filenames = row.xpath('td[@class="filename"]/a/@href')
+            xls_path, csv_junior_path, csv_senior_path = filenames
+            print 'DOWNLOAD XLS', xls_path
             row_info = row_info_by_xls_path[xls_path]
+            assert 'action_datetime' not in row_info, \
+                'XLS appears twice in download: ' + xls_path
             date_str = row.xpath('td[@class="modified"]/text()')[0]
             row_info['action_datetime'] = \
                 datetime.datetime.strptime(date_str, '%d %b %Y %H:%M')
-            filenames = row.xpath('td[@class="filename"]/a/@href')
-            xls_path, csv_junior_path, csv_senior_path = filenames
             org = row_info['org_name']
 
             filename_base = '{org}-{date}'.format(
                 org=munge_org(org),
                 date=date.replace('/', '-'))
 
-            save_to_csv(row_info)
-
-            if state == 'published':
+            if row_info['state'] == 'published':
                 row_info['xls-filename'] = filename_base + '.xls'
                 row_info['junior-csv-filename'] = filename_base + '-junior.csv'
                 row_info['senior-csv-filename'] = filename_base + '-senior.csv'
-                download(xls_path, xls_folder, row_info['xls-filename'])
-                download(csv_junior_path, csv_folder,
-                        row_info['junior-csv-filename'])
-                download(csv_senior_path, csv_folder,
-                        row_info['senior-csv-filename'])
+                if options.download:
+                    download(xls_path, xls_folder, row_info['xls-filename'])
+                    download(csv_junior_path, csv_folder,
+                            row_info['junior-csv-filename'])
+                    download(csv_senior_path, csv_folder,
+                            row_info['senior-csv-filename'])
 
-        # save any rows not found in the download pane
-        for row in row_info:
-            if 'action_datetime' not in row:
-                save_to_csv(row_info)
+            save_to_csv(row_info)
+
+        # check all rows in the preview pane have been found in the download pane
+        for row_info in row_info_by_xls_path.values():
+            if 'action_datetime' not in row_info:
+                assert 0, row_info
+
         global rows_written
         print 'Wrote %s rows' % rows_written; rows_written = 0
-
 
 def munge_org(name):
     '''Return the org name, suitable for a filename'''
@@ -147,20 +152,16 @@ def download(url_path, folder, filename):
     with open(filepath, 'wb') as f:
         f.write(response.content)
 
-
-def usage():
-    print 'Usage: python %s data/xls data/csv' % sys.argv[0]
-    sys.exit(1)
-
-
 if __name__ == '__main__':
-    args = sys.argv[1:]
-    if len(args) != 2:
-        print 'Error: Wrong number of args'
-        usage()
-    xls_folder, csv_folder = args
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('xls_folder')
+    parser.add_argument('csv_folder')
+    parser.add_argument('--download', action='store_true')
+    args = parser.parse_args()
+    xls_folder = args.xls_folder
+    csv_folder = args.csv_folder
     for folder in (xls_folder, csv_folder):
         if not os.path.isdir(folder):
             print "Error: Not a directory: %s" % folder
             usage()
-    main(xls_folder, csv_folder)
+    main(xls_folder, csv_folder, options=args)

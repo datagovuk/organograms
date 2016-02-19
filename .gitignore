@@ -2,10 +2,10 @@
 node_modules
 .scrape_cache.sqlite
 data/xls
-data/csv-old
+data/dgu/*.xls
 data/csv-generated
-data/csv-pawel*
-data/xls-pawel*
+data/pawel-examples
+data/tom-csv
 
 #vim
 *.sw?
