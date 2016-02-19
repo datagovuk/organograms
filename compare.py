@@ -2,7 +2,27 @@
 
 Compare departments in the triplestores:
 
-    python compare.py -g all departments
+$ python compare.py -g all departments
+Compare 2011-03-31:
+Legacy: 144  New: 0
+Compare 2011-09-30:
+Legacy: 174  New: 175
+Compare 2012-03-31:
+Legacy: 133  New: 134
+Compare 2012-09-30:
+Legacy: 124  New: 127
+Compare 2013-03-31:
+Legacy: 60  New: 113
+Compare 2013-09-30:
+Legacy: 92  New: 115
+Compare 2014-03-31:
+Legacy: 74  New: 11
+Compare 2014-09-30:
+Legacy: 51  New: 0
+Compare 2015-03-31:
+Legacy: 45  New: 0
+Compare 2015-09-30:
+Legacy: 21  New: 0
 
 """
 import argparse
