@@ -59,6 +59,7 @@ import argparse
 import json
 from pprint import pprint
 import sys
+import csv
 
 import requests
 
@@ -67,14 +68,28 @@ NEW_SPARQL_ENDPOINT = 'http://46.43.41.16/sparql/organogram/query'
 
 
 def departments_cmd():
-    depts = departments_query(graph=args.graph)
+    if args.legacy_endpoint and args.graph == 'all':
+        depts = []
+        for graph in VERSIONS:
+            args.graph = graph
+            graph_depts = departments_query(graph=graph)
+            depts += graph_depts
+    else:
+        depts = departments_query(graph=args.graph)
     depts_printed = set()
     uris = set()
+    filename_bits = ['triplestore', 'departments']
+    if not args.legacy_endpoint:
+        filename_bits.append('new')
+    filename = '_'.join(filename_bits) + '.csv'
+    csv_writer = CsvWriter.init_if_enabled(filename, ('uri', 'title', 'graph', 'parent'))
     for dept in depts:
         if args.display_full:
             pprint(dept)
         else:
             print dept['uri'], dept['graph'] if 'graph' in dept else ''
+        if csv_writer:
+            csv_writer.write_row(dept)
 
         # track duplicates
         if dept['uri'] in uris:
@@ -85,6 +100,8 @@ def departments_cmd():
             print 'DUPLICATE DEPT'
         depts_printed.add(dept_json)
     print '%s departments' % len(depts)
+    if csv_writer:
+        print csv_writer.filename
 
 
 def compare_departments_cmd():
@@ -123,11 +140,11 @@ def departments_query(graph=None):
         PREFIX org: <http://www.w3.org/ns/org#>
         PREFIX foaf: <http://xmlns.com/foaf/0.1/>
         PREFIX rdf-schema: <http://www.w3.org/2000/01/rdf-schema#>
-        SELECT DISTINCT ?uri ?dept ?parent ?g
+        SELECT DISTINCT ?uri ?title ?parent ?g
         WHERE {
             GRAPH ?g {
                 ?uri rdf:type org:Organization;
-                rdf-schema:label ?dept
+                rdf-schema:label ?title
                 OPTIONAL {
                     ?uri <http://reference.data.gov.uk/def/central-government/parentDepartment> ?parent
                 }
@@ -140,11 +157,11 @@ def departments_query(graph=None):
         PREFIX org: <http://www.w3.org/ns/org#>
         PREFIX foaf: <http://xmlns.com/foaf/0.1/>
         PREFIX rdf-schema: <http://www.w3.org/2000/01/rdf-schema#>
-        SELECT DISTINCT ?uri ?dept ?parent
+        SELECT DISTINCT ?uri ?title ?parent
         WHERE {
             GRAPH <%s> {
                 ?uri rdf:type org:Organization;
-                rdf-schema:label ?dept
+                rdf-schema:label ?title
                 OPTIONAL {
                     ?uri <http://reference.data.gov.uk/def/central-government/parentDepartment> ?parent
                 }
@@ -157,10 +174,10 @@ def departments_query(graph=None):
         PREFIX org: <http://www.w3.org/ns/org#>
         PREFIX foaf: <http://xmlns.com/foaf/0.1/>
         PREFIX rdf-schema: <http://www.w3.org/2000/01/rdf-schema#>
-        SELECT DISTINCT ?uri ?dept ?parent
+        SELECT DISTINCT ?uri ?title ?parent
         WHERE {
             ?uri rdf:type org:Organization;
-            rdf-schema:label ?dept
+            rdf-schema:label ?title
             OPTIONAL {
                 ?uri <http://reference.data.gov.uk/def/central-government/parentDepartment> ?parent
             }
@@ -170,21 +187,23 @@ def departments_query(graph=None):
     depts = []
     if not args.legacy_endpoint:
         for result in resp['results']['bindings']:
-            dept = {'title': result['dept']['value'],
+            dept = {'title': result['title']['value'],
                     'uri': result['uri']['value'],
                     'parent': result['parent']['value'] if 'parent' in result else None}
             if graph == 'all':
                 dept['graph'] = graph_name(result['g']['value'])
+            else:
+                dept['graph'] = args.graph
             depts.append(dept)
     else:
         for result in resp.findall('.//{http://www.w3.org/2005/sparql-results#}result'):
             dept = {}
             for binding in result.findall('{http://www.w3.org/2005/sparql-results#}binding'):
                 key = binding.attrib['name']
-                if key == 'title':
-                    key = 'dept'
                 value = '; '.join([t for t in binding.itertext()])
                 dept[key] = value
+                # legacy only returns results from one graph
+                dept['graph'] = args.graph
             depts.append(dept)
     return depts
 
@@ -235,22 +254,24 @@ def properties_cmd():
     pprint(properties)
 
 
+VERSIONS = [
+    '2011-03-31',
+    '2011-09-30',
+    '2012-03-31',
+    '2012-09-30',
+    '2013-03-31',
+    '2013-09-30',
+    '2014-03-31',
+    '2014-09-30',
+    '2015-03-31',
+    '2015-09-30',
+    ]
+
 def graph_counts_cmd():
     total_count = int(graph_counts('all'))
     print 'All graphs', total_count
     print 'default graph', graph_counts()
-    versions = [
-        '2011-03-31',
-        '2011-09-30',
-        '2012-03-31',
-        '2012-09-30',
-        '2013-03-31',
-        '2013-09-30',
-        '2014-03-31',
-        '2014-09-30',
-        '2015-03-31',
-        '2015-09-30',
-        ]
+    versions = VERSIONS
     sum_of_counts = 0
     for version in versions:
         count = graph_counts(graph_uri(version))
@@ -319,6 +340,34 @@ def get_sparql_endpoint():
         return args.sparql_endpoint
 
 
+class CsvWriter(object):
+    def __init__(self, filename, headings):
+        self.headings = headings
+        self.rows_written = 0
+        csv_file = open(filename, 'wb')
+        self.filename = filename
+        self.date_columns = []
+        self.csv_writer = csv.writer(csv_file, dialect='excel')
+        self.csv_writer.writerow(headings)
+
+    @classmethod
+    def init_if_enabled(cls, *kargs, **kwargs):
+        if not args.csv:
+            return
+        return cls(*kargs, **kwargs)
+
+    def write_row(self, row_dict):
+        row = []
+        for heading in self.headings:
+            cell = row_dict.get(heading, '')
+            if heading in self.date_columns and cell:
+                cell = cell.isoformat()
+            row.append(cell)
+        #print row
+        self.csv_writer.writerow(row)
+        self.rows_written += 1
+
+
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument(
@@ -345,6 +394,10 @@ if __name__ == '__main__':
         dest='display_full',
         action='store_true',
         help='Display full information about each result')
+    parser_properties.add_argument(
+        '--csv',
+        action='store_true',
+        help='Writes the results to a CSV file')
     parser_properties.set_defaults(func=departments_cmd)
 
     parser_properties = subparsers.add_parser('compare_departments')

@@ -97,7 +97,6 @@ def main(xls_folder, csv_folder, options):
         for row in tree.xpath('//div[@id="download"]//table/tr'):
             filenames = row.xpath('td[@class="filename"]/a/@href')
             xls_path, csv_junior_path, csv_senior_path = filenames
-            print 'DOWNLOAD XLS', xls_path
             row_info = row_info_by_xls_path[xls_path]
             assert 'action_datetime' not in row_info, \
                 'XLS appears twice in download: ' + xls_path
@@ -117,19 +116,22 @@ def main(xls_folder, csv_folder, options):
                 if options.download:
                     download(xls_path, xls_folder, row_info['xls-filename'])
                     download(csv_junior_path, csv_folder,
-                            row_info['junior-csv-filename'])
+                             row_info['junior-csv-filename'])
                     download(csv_senior_path, csv_folder,
-                            row_info['senior-csv-filename'])
+                             row_info['senior-csv-filename'])
 
             save_to_csv(row_info)
 
-        # check all rows in the preview pane have been found in the download pane
+        # check all rows in the preview pane have been found in the download
+        # pane
         for row_info in row_info_by_xls_path.values():
             if 'action_datetime' not in row_info:
                 assert 0, row_info
 
         global rows_written
-        print 'Wrote %s rows' % rows_written; rows_written = 0
+        print 'Wrote %s rows' % rows_written
+        rows_written = 0
+
 
 def munge_org(name):
     '''Return the org name, suitable for a filename'''
@@ -162,6 +164,6 @@ if __name__ == '__main__':
     csv_folder = args.csv_folder
     for folder in (xls_folder, csv_folder):
         if not os.path.isdir(folder):
-            print "Error: Not a directory: %s" % folder
-            usage()
+            raise argparse.ArgumentTypeError(
+                'Error: Not an existing directory: %s' % folder)
     main(xls_folder, csv_folder, options=args)
