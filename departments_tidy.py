@@ -1,5 +1,7 @@
-'''Produces a clean list of departments and notes alternative names for them.
+'''For some organogram data, reconciles the list of departments and public
+bodies against those on data.gov.uk and saves the tidied data.
 '''
+import argparse
 import re
 import csv
 from collections import defaultdict
@@ -245,7 +247,7 @@ class Aliases(object):
         return match
 
 
-def tidy():
+def tidy_triplestore():
     in_filename = 'triplestore_departments.csv'
     out_filename = 'triplestore_departments_tidied.csv'
     with open(in_filename, 'rb') as csv_read_file:
@@ -282,15 +284,53 @@ def tidy():
             out_dept['title'] = match['title']
             #out_dept['top_level_department'] = match['top_level_department']
             out_dept['graphs'].append(dept['graph'])
-        with open(out_filename, 'wb') as csv_write_file:
-            csv_writer = csv.writer(csv_write_file)
-            write_headers = ['name', 'title', 'graphs'] #, 'top_level_department']
-            csv_writer.writerow(write_headers)
-            out_depts = sorted(out_depts.values(), key=lambda d: d['name'])
-            for out_dept in out_depts:
-                out_dept['graphs'] = ' '.join(out_dept['graphs'])
-                csv_writer.writerow([out_dept[header] for header in write_headers])
+    with open(out_filename, 'wb') as csv_write_file:
+        csv_writer = csv.writer(csv_write_file)
+        write_headers = ['name', 'title', 'graphs'] #, 'top_level_department']
+        csv_writer.writerow(write_headers)
+        out_depts = sorted(out_depts.values(), key=lambda d: d['name'])
+        for out_dept in out_depts:
+            out_dept['graphs'] = ' '.join(out_dept['graphs'])
+            csv_writer.writerow([out_dept[header] for header in write_headers])
     print 'Written', out_filename
 
-tidy()
-Aliases.instance().save()
+
+def tidy_uploads():
+    in_filename = 'uploads_report.csv'
+    out_filename = 'uploads_report_tidied.csv'
+    with open(in_filename, 'rb') as csv_read_file:
+        csv_reader = csv.DictReader(csv_read_file)
+        rows = []
+        for row in csv_reader:
+            title = canonize(row['org_name'])
+            match = DguOrgs.by_canonized_title().get(title)
+            if not match:
+                match = \
+                    Aliases.instance().get_or_reconcile(row['org_name'])
+                if not match:
+                    print 'Not matched'
+                    #rows.append(row)  # save it anyway?
+                    continue
+            if isinstance(match, basestring):
+                match = DguOrgs.by_title()[match]
+            row['org_name'] = match['title']
+            rows.append(row)
+    with open(out_filename, 'wb') as csv_write_file:
+        csv_writer = csv.DictWriter(csv_write_file,
+                                    fieldnames=csv_reader.fieldnames)
+        csv_writer.writeheader()
+        for row in rows:
+            csv_writer.writerow(row)
+    print 'Written', out_filename
+
+
+if __name__ == '__main__':
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('input', choices=['triplestore', 'uploads'])
+    args = parser.parse_args()
+    if args.input == 'triplestore':
+        tidy_triplestore()
+    elif args.input == 'uploads':
+        tidy_uploads()
+    else:
+        raise NotImplementedError

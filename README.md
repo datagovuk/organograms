@@ -36,4 +36,4 @@ NB if you get an error about `cc1plus` when installing pandas then you probably 
 
 This is for querying a triple store about its organogram data. e.g.
 
-python triplestore_query.py departments
+    python triplestore_query.py departments
