@@ -247,6 +247,27 @@ class Aliases(object):
         return match
 
 
+def match_to_dgu_dept(*synonymous_names):
+    '''Given a department/body name (or name and URL) it looks it up in the DGU
+    names and aliases and returns the equivalent DguOrg dict. If it is not
+    known then it will prompt the user to reconcile it.
+    '''
+    canonized_names = (canonize(name) for name in synonymous_names)
+    for canonized_name in canonized_names:
+        match = DguOrgs.by_canonized_title().get(canonized_name)
+        if match:
+            break
+    if not match:
+        match = \
+            Aliases.instance().get_or_reconcile(*synonymous_names)
+        if not match:
+            print 'Not matched'
+            return None
+    if isinstance(match, basestring):
+        match = DguOrgs.by_title()[match]
+    return match
+
+
 def tidy_triplestore():
     in_filename = 'triplestore_departments.csv'
     out_filename = 'triplestore_departments_tidied.csv'
@@ -261,36 +282,30 @@ def tidy_triplestore():
                 dept['parent'] = None
 
             # Match to a DGU department
-            uri = dept['uri']
-            title = canonize(dept['title'])
-            match = DguOrgs.by_canonized_title().get(title)
+            match = match_to_dgu_dept(dept['uri'], dept['title'])
             if not match:
-                match = \
-                    Aliases.instance().get_or_reconcile(dept['title'], uri)
-                if not match:
-                    print 'Not matched'
-                    continue
-            if isinstance(match, basestring):
-                match = DguOrgs.by_title()[match]
+                continue
 
             # Fill in info from the matching DguOrg
             name = match['name']
             if name in out_depts:
                 out_dept = out_depts[name]
             else:
-                out_dept = {'graphs': []}
+                out_dept = {'graphs': [], 'uris': []}
                 out_depts[name] = out_dept
             out_dept['name'] = match['name']
             out_dept['title'] = match['title']
             #out_dept['top_level_department'] = match['top_level_department']
             out_dept['graphs'].append(dept['graph'])
+            out_dept['uris'].append(dept['uri'])
     with open(out_filename, 'wb') as csv_write_file:
         csv_writer = csv.writer(csv_write_file)
-        write_headers = ['name', 'title', 'graphs'] #, 'top_level_department']
+        write_headers = ['name', 'title', 'graphs', 'uris'] #, 'top_level_department']
         csv_writer.writerow(write_headers)
         out_depts = sorted(out_depts.values(), key=lambda d: d['name'])
         for out_dept in out_depts:
             out_dept['graphs'] = ' '.join(out_dept['graphs'])
+            out_dept['uris'] = ' '.join(out_dept['uris'])
             csv_writer.writerow([out_dept[header] for header in write_headers])
     print 'Written', out_filename
 
