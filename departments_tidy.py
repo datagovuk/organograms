@@ -19,7 +19,8 @@ from progress.bar import Bar
 import ckanapi
 
 one_day = 60*60*24
-requests_cache.install_cache('.dgu_departments.cache', expire_after=one_day)
+one_month = one_day * 30
+requests_cache.install_cache('.dgu_departments.cache', expire_after=one_month)
 
 
 class DguOrgs(object):
@@ -147,7 +148,7 @@ class Aliases(object):
         with open(self.filename, 'wb') as csv_file:
             csv_writer = csv.writer(csv_file)
             csv_writer.writerow(['alias', 'name'])
-            for alias, name in self.aliases.iteritems():
+            for alias, name in sorted(self.aliases.iteritems(), key=lambda x: x[0]):
                 print '%s\n%s\n' % (canonize(alias), canonize(name))
                 csv_writer.writerow([alias, name])
         print 'Written %s' % self.filename
