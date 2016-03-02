@@ -14,6 +14,42 @@ one_month = one_day * 31
 requests_cache.install_cache('.compare_posts.cache', expire_after=one_month)
 
 
+def uploads_posts_all_departments():
+    '''Gets a list of upload CSVs, counts the posts and saves to new files.'''
+    in_filename = 'uploads_report_tidied.csv'
+    out_filename_counts = 'uploads_post_counts.csv'
+    with open(in_filename, 'rb') as csv_read_file:
+        csv_reader = csv.DictReader(csv_read_file)
+        counts = []
+        rows = [row for row in csv_reader]
+        for row in Bar('Reading posts from organogram CSVs').iter(rows):
+            senior_csv_filename = row['senior-csv-filename']
+            if not senior_csv_filename:
+                continue
+            print senior_csv_filename
+            senior_csv_filepath = 'data/dgu/tso-csv/' + senior_csv_filename
+            senior_posts = get_csv_posts(senior_csv_filepath)
+            counts.append(dict(
+                body_title=row['org_name'],
+                graph=row['version'],
+                senior_posts=len(senior_posts)))
+    # save
+    headers = ['body_title', 'graph', 'senior_posts']
+    with open(out_filename_counts, 'wb') as csv_write_file:
+        csv_writer = csv.DictWriter(csv_write_file,
+                                    fieldnames=headers)
+        csv_writer.writeheader()
+        for row in counts:
+            csv_writer.writerow(row)
+    print 'Written', out_filename_counts
+
+
+def get_csv_posts(csv_filepath):
+    with open(csv_filepath, 'rb') as csv_read_file:
+        csv_reader = csv.DictReader(csv_read_file)
+        return [row for row in csv_reader]
+
+
 def triplestore_posts_all_departments():
     '''Gets a list of triplestore departments/graphs, gets the posts,
     and saves posts and counts to new files.
