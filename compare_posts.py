@@ -4,11 +4,15 @@ import csv
 import argparse
 from collections import defaultdict
 import os.path
+import traceback
+import copy
 
 import requests_cache
 import requests
 from requests.utils import quote
 from progress.bar import Bar
+# pip install unicodecsv
+import unicodecsv
 
 from compare_departments import date_to_year_first
 from uploads_scrape import munge_org
@@ -65,6 +69,9 @@ def uploads_posts_all_departments():
                 continue
             #print senior_csv_filename
             senior_csv_filepath = 'data/dgu/tso-csv/' + senior_csv_filename
+            if not os.path.exists(senior_csv_filepath):
+                print '\nCSV is missing - skipping', senior_csv_filepath
+                continue
             senior_posts = get_csv_posts(senior_csv_filepath)
             counts.append(dict(
                 body_title=row['org_name'],
@@ -84,7 +91,13 @@ def uploads_posts_all_departments():
 def get_csv_posts(csv_filepath):
     with open(csv_filepath, 'rb') as csv_read_file:
         csv_reader = csv.DictReader(csv_read_file)
-        return [row for row in csv_reader]
+        try:
+            return [row for row in csv_reader
+                    if row['Name'].lower() not in ('eliminated', 'elimenated')]
+        except Exception:
+            traceback.print_exc()
+            import pdb; pdb.set_trace()
+
 
 
 def triplestore_posts(body_title, graph):
@@ -129,11 +142,13 @@ def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
         'Salary Cost of Reports (£)',
         'FTE Actual Pay Floor (£)', 'Actual Pay Ceiling (£)',
         'Professional/Occupational Group',
-        'Notes', 'Valid', 'URI',
+        'Notes', 'Valid?',
+        'URI',
         ]
     with open(out_filepath, 'wb') as csv_write_file:
-        csv_writer = csv.DictWriter(csv_write_file,
-                                    fieldnames=headers)
+        csv_writer = unicodecsv.DictWriter(csv_write_file,
+                                           fieldnames=headers,
+                                           encoding='utf-8')
         csv_writer.writeheader()
 
         def get_id_from_uri(uri):
@@ -145,33 +160,45 @@ def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
             # e.g. u'\xa30 - \xa30'
             if range_txt is None:
                 return (None, None)
-            return range_txt.replace(u'£', '').split(' - ')
+            if range_txt.startswith(u'http://reference.data.gov.uk/id/salary-range/'):
+                # e.g. u'http://reference.data.gov.uk/id/salary-range/Loan in non BIS PR 0-'
+                # e.g. 'http://reference.data.gov.uk/id/salary-range/N / D-'
+                salary = range_txt.replace('http://reference.data.gov.uk/id/salary-range/', '')
+                return (salary, salary)
+            range_ = range_txt.replace(u'£', '').split(' - ')
+            if len(range_) != 2:
+                import pdb; pdb.set_trace()
+            return range_
 
-        for post in posts:
-            # convert the LD post to the standard organogram type
-            row = {}
-            row['Post Unique Reference'] = get_id_from_uri(post['uri'])
-            row['Name'] = ''
-            row['Grade'] = post['grade']
-            row['Job Title'] = post['label']
-            row['Job/Team Function'] = post['comment']
-            row['Parent Department'] = ''
-            row['Organisation'] = body_title
-            row['Unit'] = ''
-            row['Contact Phone'] = ''
-            row['Contact E-mail'] = ''
-            row['Reports to Senior Post'] = \
-                get_id_from_uri(post['reports_to_uri'])
-            row['Salary Cost of Reports (£)'] = ''
-            salary_range = split_salary_range(post['salary_range'])
-            row['FTE Actual Pay Floor (£)'] = salary_range[0]
-            row['Actual Pay Ceiling (£)'] = salary_range[1]
-            row['Professional/Occupational Group'] = ''
-            row['Notes'] = ''
-            row['Valid'] = ''
-            # linked data CSV only
-            row['URI'] = post['uri']
-            csv_writer.writerow(row)
+        try:
+            for post in posts:
+                # convert the LD post to the standard organogram type
+                row = {}
+                row['Post Unique Reference'] = get_id_from_uri(post['uri'])
+                row['Name'] = post['name']
+                row['Grade'] = post['grade']
+                row['Job Title'] = post['label']
+                row['Job/Team Function'] = post['comment']
+                row['Parent Department'] = ''
+                row['Organisation'] = body_title
+                row['Unit'] = post['unit']
+                row['Contact Phone'] = post['phone']
+                row['Contact E-mail'] = post['email']
+                row['Reports to Senior Post'] = \
+                    get_id_from_uri(post['reports_to_uri']) or 'XX'
+                row['Salary Cost of Reports (£)'] = ''
+                salary_range = split_salary_range(post['salary_range'])
+                row['FTE Actual Pay Floor (£)'] = salary_range[0]
+                row['Actual Pay Ceiling (£)'] = salary_range[1]
+                row['Professional/Occupational Group'] = post['profession']
+                row['Notes'] = ''
+                row['Valid?'] = ''
+                # linked data CSV only
+                row['URI'] = post['uri']
+                csv_writer.writerow(row)
+        except Exception:
+            traceback.print_exc()
+            import pdb; pdb.set_trace()
     print 'Written', out_filepath
 
 
@@ -247,14 +274,24 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
     page = 1
     senior_posts = []
 
-    def get_value(value, q='label'):
+    def get_value(value, dict_key='label', list_index=None):
+        options = {'dict_key': dict_key}
         if isinstance(value, dict):
-            value_ = value.get(q)
+            value_ = value.get(dict_key)
             if value_:
-                return get_value(value_, q)
+                return get_value(value_, **options)
             return value_
         elif isinstance(value, list):
-            return '; '.join(get_value(val, q) for val in value)
+            if list_index is not None:
+                # hopefully there are enough items in the list to get the one
+                # we want, although the CSV->TSO linked data conversion was
+                # lossy in this respect so if there are not enough, just assume
+                # it is the same as the last one e.g. 2012-03-31 HMRC post 0
+                # salary range
+                if len(value) <= list_index:
+                    list_index = -1
+                return get_value(value[list_index], **options)
+            return '; '.join(get_value(val, **options) for val in value)
         elif isinstance(value, basestring):
             return value
         elif value is None:
@@ -278,12 +315,49 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
                 post['uri'] = item['_about']
                 post['label'] = item['label'][0]
                 post['comment'] = item.get('comment')
+                unit_values = [d['label'][0] for d in item.get('postIn')
+                               if '/unit/' in d['_about']]
+                if len(unit_values) != 1:
+                    import pdb; pdb.set_trace()
+                post['unit'] = unit_values[0]
+                post['note'] = item.get('note')
+                post['reports_to_uri'] = get_value(
+                    item.get('reportsTo'), dict_key='_about')
 
-                post['salary_range'] = get_value(item.get('salaryRange'))
-                post['grade'] = get_value(item.get('grade'))
-                post['reports_to_uri'] = get_value(item.get('reportsTo'), '_about')
-                senior_posts.append(post)
-            except Exception, e:
+                held_by_list = item['heldBy']
+                # Some posts are held by more than one person
+                # e.g. jobshare or maternity cover
+                # We save this as two or more "post_"s as that is how it is
+                # represented in the organogram CSV.
+                for i, held_by in enumerate(held_by_list):
+                    post_ = copy.deepcopy(post)
+                    post_['name'] = held_by['name']
+                    post_['fte'] = held_by['tenure']['workingTime']
+
+                    if 'profession' in held_by:
+                        profession_values = held_by['profession']['prefLabel']
+                        if isinstance(profession_values, basestring):
+                            profession = profession_values
+                        else:
+                            assert isinstance(profession_values, list)
+                            if len(profession_values) == 2 and \
+                                    profession_values[0].lower() == \
+                                    profession_values[1].lower():
+                                profession = sorted(profession_values)[0]  # capitalized first
+                            else:
+                                import pdb; pdb.set_trace()
+                    else:
+                        profession = None
+                    post_['profession'] = profession
+
+                    post_['email'] = get_value(held_by['email'], 'label', list_index=i)
+                    post_['phone'] = get_value(held_by['phone'], 'label', list_index=i)
+                    post_['salary_range'] = get_value(
+                        item.get('salaryRange'), list_index=i)
+                    post_['grade'] = get_value(item.get('grade'), list_index=i)
+                    senior_posts.append(post_)
+            except Exception:
+                traceback.print_exc()
                 import pdb; pdb.set_trace()
         # is there another page?
         per_page = response.json()['result']['itemsPerPage']

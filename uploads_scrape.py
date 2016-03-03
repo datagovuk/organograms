@@ -149,8 +149,16 @@ def munge_org(name):
 def download(url_path, folder, filename):
     url = DOWNLOAD_URL.format(path=url_path)
     filepath = os.path.join(folder, filename)
+    if os.path.exists(filepath):
+        print 'Skipping downloading existing file %s %s' % (url, filepath)
+        return
     print 'Requesting: {url} {filename}'.format(url=url, filename=filename)
     response = requests.get(url)
+    if not response.ok:
+        print 'ERROR downloading %s' % url
+        print response, response.reason
+        import pdb; pdb.set_trace()
+        return
     with open(filepath, 'wb') as f:
         f.write(response.content)
 
