@@ -30,16 +30,16 @@ Attorney General's Office,2012-03-31,6
 Attorney General's Office,2012-09-30,6
 Attorney General's Office,2013-09-30,5
 Attorney General's Office,2014-03-31,5
-Audit Commission,2011-03-31,45
-Audit Commission,2011-09-30,43
-Audit Commission,2012-03-31,41
-BIG Lottery Fund,2011-03-31,41
-BIG Lottery Fund,2011-03-31,41
-BIG Lottery Fund,2012-03-31,42
+Audit Commission,2011-03-31,25
+Audit Commission,2011-09-30,23
+Audit Commission,2012-03-31,21
+BIG Lottery Fund,2011-03-31,21
+BIG Lottery Fund,2011-03-31,21
+BIG Lottery Fund,2012-03-31,22
 BIG Lottery Fund,2013-03-31,19
-Biotechnology and Biological Sciences Research Council,2011-09-30,44
-Biotechnology and Biological Sciences Research Council,2012-09-30,46
-Biotechnology and Biological Sciences Research Council,2013-09-30,47
+Biotechnology and Biological Sciences Research Council,2011-09-30,24
+Biotechnology and Biological Sciences Research Council,2012-09-30,26
+Biotechnology and Biological Sciences Research Council,2013-09-30,27
 Boundary Commission for England,2012-03-31,3
 Boundary Commission for England,2012-09-30,2
 Boundary Commission for England,2014-03-31,1
@@ -53,26 +53,26 @@ British Transport Police Authority,2012-09-30,17
 British Transport Police Authority,2013-03-31,17
 British Transport Police Authority,2014-03-31,17
 British Transport Police Authority,2015-03-31,17
-Cabinet Office,2011-03-31,236
-Cabinet Office,2011-03-31,236
-Cabinet Office,2011-09-30,253
-Cabinet Office,2012-03-31,246
-Cabinet Office,2012-09-30,237
-Cabinet Office,2013-09-30,263
-Cabinet Office,2014-03-31,285
-Cabinet Office,2014-09-30,273
-Cabinet Office,2015-03-31,272
-Cabinet Office,2015-09-30,241
+Cabinet Office,2011-03-31,216
+Cabinet Office,2011-03-31,216
+Cabinet Office,2011-09-30,233
+Cabinet Office,2012-03-31,226
+Cabinet Office,2012-09-30,217
+Cabinet Office,2013-09-30,243
+Cabinet Office,2014-03-31,265
+Cabinet Office,2014-09-30,253
+Cabinet Office,2015-03-31,252
+Cabinet Office,2015-09-30,221
 Capital For Enterprise Ltd,2011-09-30,7
 Capital For Enterprise Ltd,2012-03-31,9
 Capital For Enterprise Ltd,2013-03-31,11
-Care Quality Commission,2011-03-31,66
-Care Quality Commission,2011-09-30,64
-Care Quality Commission,2012-03-31,69
-Care Quality Commission,2012-09-30,70
-Care Quality Commission,2013-03-31,68
-Care Quality Commission,2013-09-30,70
-Care Quality Commission,2014-03-31,119
+Care Quality Commission,2011-03-31,46
+Care Quality Commission,2011-09-30,44
+Care Quality Commission,2012-03-31,49
+Care Quality Commission,2012-09-30,50
+Care Quality Commission,2013-03-31,48
+Care Quality Commission,2013-09-30,50
+Care Quality Commission,2014-03-31,99
 "Centre for Environment, Fisheries & Aquaculture Science",2011-09-30,4
 "Centre for Environment, Fisheries & Aquaculture Science",2012-03-31,4
 "Centre for Environment, Fisheries & Aquaculture Science",2012-09-30,3
@@ -80,9 +80,9 @@ Care Quality Commission,2014-03-31,119
 "Centre for Environment, Fisheries & Aquaculture Science",2013-09-30,3
 "Centre for Environment, Fisheries & Aquaculture Science",2014-03-31,3
 "Centre for Environment, Fisheries & Aquaculture Science",2014-09-30,3
-Child Maintenance and Enforcement Commission,2011-03-31,59
-Child Maintenance and Enforcement Commission,2011-09-30,56
-Child Maintenance and Enforcement Commission,2012-03-31,54
+Child Maintenance and Enforcement Commission,2011-03-31,39
+Child Maintenance and Enforcement Commission,2011-09-30,36
+Child Maintenance and Enforcement Commission,2012-03-31,34
 Children and Family Court Advisory and Support Service,2011-03-31,9
 Children and Family Court Advisory and Support Service,2011-09-30,8
 Children's Workforce Development Council,2011-03-31,7
@@ -101,10 +101,10 @@ Coal Authority,2012-09-30,7
 Coal Authority,2013-03-31,6
 Committee on Climate Change,2011-09-30,4
 Committee on Climate Change,2012-03-31,4
-Competition Commission,2011-03-31,40
-Competition Commission,2011-09-30,41
-Competition Commission,2012-03-31,41
-Competition Commission,2012-09-30,44
+Competition Commission,2011-03-31,20
+Competition Commission,2011-09-30,21
+Competition Commission,2012-03-31,21
+Competition Commission,2012-09-30,24
 Construction Industry Training Board,2012-09-30,7
 Construction Industry Training Board,2013-09-30,7
 Consumer Council for Water,2011-03-31,5
@@ -136,13 +136,13 @@ Criminal Records Bureau,2011-03-31,3
 Criminal Records Bureau,2011-09-30,3
 Criminal Records Bureau,2012-03-31,3
 Criminal Records Bureau,2012-09-30,3
-Crown Prosecution Service,2011-03-31,92
-Crown Prosecution Service,2011-09-30,91
-Crown Prosecution Service,2012-03-31,95
-Crown Prosecution Service,2012-09-30,97
-Crown Prosecution Service,2013-09-30,90
-Crown Prosecution Service,2014-03-31,89
-Crown Prosecution Service,2014-09-30,88
+Crown Prosecution Service,2011-03-31,72
+Crown Prosecution Service,2011-09-30,71
+Crown Prosecution Service,2012-03-31,75
+Crown Prosecution Service,2012-09-30,77
+Crown Prosecution Service,2013-09-30,70
+Crown Prosecution Service,2014-03-31,69
+Crown Prosecution Service,2014-09-30,68
 Defence Support Group,2011-03-31,6
 Defence Support Group,2011-09-30,6
 Defence Support Group,2012-09-30,6
@@ -150,85 +150,85 @@ Defence Support Group,2013-03-31,6
 Defence Support Group,2013-09-30,6
 Defence Support Group,2014-03-31,6
 Defence Support Group,2014-09-30,6
-"Department for Business, Innovation and Skills",2011-03-31,211
-"Department for Business, Innovation and Skills",2011-03-31,211
-"Department for Business, Innovation and Skills",2011-09-30,214
-"Department for Business, Innovation and Skills",2012-03-31,209
-Department for Communities and Local Government,2011-03-31,118
-Department for Communities and Local Government,2011-03-31,118
-Department for Communities and Local Government,2011-09-30,119
-Department for Communities and Local Government,2012-03-31,112
-Department for Communities and Local Government,2012-09-30,108
-Department for Communities and Local Government,2013-09-30,101
-Department for Communities and Local Government,2014-03-31,109
-Department for Communities and Local Government,2014-09-30,108
-"Department for Culture, Media and Sport",2011-03-31,62
-"Department for Culture, Media and Sport",2011-03-31,62
+"Department for Business, Innovation and Skills",2011-03-31,191
+"Department for Business, Innovation and Skills",2011-03-31,191
+"Department for Business, Innovation and Skills",2011-09-30,194
+"Department for Business, Innovation and Skills",2012-03-31,189
+Department for Communities and Local Government,2011-03-31,98
+Department for Communities and Local Government,2011-03-31,98
+Department for Communities and Local Government,2011-09-30,99
+Department for Communities and Local Government,2012-03-31,92
+Department for Communities and Local Government,2012-09-30,88
+Department for Communities and Local Government,2013-09-30,81
+Department for Communities and Local Government,2014-03-31,89
+Department for Communities and Local Government,2014-09-30,88
+"Department for Culture, Media and Sport",2011-03-31,42
+"Department for Culture, Media and Sport",2011-03-31,42
 "Department for Culture, Media and Sport",2011-03-31,0
-"Department for Culture, Media and Sport",2011-09-30,64
-"Department for Culture, Media and Sport",2013-09-30,57
-"Department for Culture, Media and Sport",2014-03-31,55
-"Department for Culture, Media and Sport",2014-09-30,55
-"Department for Environment, Food and Rural Affairs",2011-03-31,141
-"Department for Environment, Food and Rural Affairs",2011-03-31,141
-"Department for Environment, Food and Rural Affairs",2011-09-30,127
-"Department for Environment, Food and Rural Affairs",2012-03-31,127
-"Department for Environment, Food and Rural Affairs",2012-09-30,120
-"Department for Environment, Food and Rural Affairs",2013-09-30,124
-"Department for Environment, Food and Rural Affairs",2014-03-31,123
+"Department for Culture, Media and Sport",2011-09-30,44
+"Department for Culture, Media and Sport",2013-09-30,37
+"Department for Culture, Media and Sport",2014-03-31,35
+"Department for Culture, Media and Sport",2014-09-30,35
+"Department for Environment, Food and Rural Affairs",2011-03-31,121
+"Department for Environment, Food and Rural Affairs",2011-03-31,121
+"Department for Environment, Food and Rural Affairs",2011-09-30,107
+"Department for Environment, Food and Rural Affairs",2012-03-31,107
+"Department for Environment, Food and Rural Affairs",2012-09-30,100
+"Department for Environment, Food and Rural Affairs",2013-09-30,104
+"Department for Environment, Food and Rural Affairs",2014-03-31,103
 Department for International Development,2011-03-31,0
 Department for International Development,2011-03-31,0
-Department for International Development,2011-03-31,100
-Department for International Development,2011-09-30,98
-Department for International Development,2013-03-31,95
-Department for International Development,2013-09-30,109
-Department for International Development,2014-03-31,49
-Department for International Development,2014-09-30,112
-Department for Transport,2011-03-31,137
-Department for Transport,2011-03-31,137
-Department for Transport,2011-09-30,134
-Department for Transport,2012-03-31,141
-Department for Transport,2012-09-30,144
-Department for Transport,2014-03-31,144
-Department for Transport,2015-03-31,143
-Department for Work and Pensions,2011-03-31,286
-Department for Work and Pensions,2011-03-31,286
-Department for Work and Pensions,2011-09-30,222
-Department for Work and Pensions,2012-03-31,223
-Department for Work and Pensions,2012-09-30,245
-Department for Work and Pensions,2013-09-30,245
-Department for Work and Pensions,2014-03-31,246
-Department for Work and Pensions,2014-09-30,220
-Department for Work and Pensions,2015-03-31,219
-Department for Work and Pensions,2015-09-30,240
-Department of Education,2011-03-31,142
-Department of Education,2011-03-31,142
-Department of Education,2011-09-30,142
-Department of Education,2012-03-31,210
-Department of Education,2012-09-30,201
-Department of Education,2014-03-31,159
-Department of Education,2014-09-30,159
-Department of Education,2015-03-31,155
-Department of Education,2015-09-30,164
-Department of Energy and Climate Change,2011-03-31,113
-Department of Energy and Climate Change,2011-03-31,113
-Department of Energy and Climate Change,2011-03-31,113
-Department of Energy and Climate Change,2011-09-30,119
-Department of Energy and Climate Change,2012-03-31,123
-Department of Energy and Climate Change,2012-09-30,121
-Department of Energy and Climate Change,2013-03-31,124
-Department of Energy and Climate Change,2013-09-30,131
-Department of Health,2011-03-31,321
-Department of Health,2011-03-31,321
-Department of Health,2011-09-30,332
-Department of Health,2012-03-31,297
-Department of Health,2012-09-30,292
-Department of Health,2013-03-31,176
-Department of Health,2013-09-30,183
-Department of Health,2014-03-31,181
-Department of Health,2014-09-30,184
-Department of Health,2015-03-31,190
-Department of Health,2015-09-30,191
+Department for International Development,2011-03-31,80
+Department for International Development,2011-09-30,78
+Department for International Development,2013-03-31,75
+Department for International Development,2013-09-30,89
+Department for International Development,2014-03-31,29
+Department for International Development,2014-09-30,92
+Department for Transport,2011-03-31,117
+Department for Transport,2011-03-31,117
+Department for Transport,2011-09-30,114
+Department for Transport,2012-03-31,121
+Department for Transport,2012-09-30,124
+Department for Transport,2014-03-31,124
+Department for Transport,2015-03-31,123
+Department for Work and Pensions,2011-03-31,266
+Department for Work and Pensions,2011-03-31,266
+Department for Work and Pensions,2011-09-30,202
+Department for Work and Pensions,2012-03-31,203
+Department for Work and Pensions,2012-09-30,225
+Department for Work and Pensions,2013-09-30,225
+Department for Work and Pensions,2014-03-31,226
+Department for Work and Pensions,2014-09-30,200
+Department for Work and Pensions,2015-03-31,199
+Department for Work and Pensions,2015-09-30,220
+Department of Education,2011-03-31,122
+Department of Education,2011-03-31,122
+Department of Education,2011-09-30,122
+Department of Education,2012-03-31,190
+Department of Education,2012-09-30,181
+Department of Education,2014-03-31,139
+Department of Education,2014-09-30,139
+Department of Education,2015-03-31,135
+Department of Education,2015-09-30,144
+Department of Energy and Climate Change,2011-03-31,93
+Department of Energy and Climate Change,2011-03-31,93
+Department of Energy and Climate Change,2011-03-31,93
+Department of Energy and Climate Change,2011-09-30,99
+Department of Energy and Climate Change,2012-03-31,103
+Department of Energy and Climate Change,2012-09-30,101
+Department of Energy and Climate Change,2013-03-31,104
+Department of Energy and Climate Change,2013-09-30,111
+Department of Health,2011-03-31,301
+Department of Health,2011-03-31,301
+Department of Health,2011-09-30,312
+Department of Health,2012-03-31,277
+Department of Health,2012-09-30,272
+Department of Health,2013-03-31,156
+Department of Health,2013-09-30,163
+Department of Health,2014-03-31,161
+Department of Health,2014-09-30,164
+Department of Health,2015-03-31,170
+Department of Health,2015-09-30,171
 Driver and Vehicle Licensing Agency,2011-03-31,7
 Driver and Vehicle Licensing Agency,2011-09-30,7
 Driver and Vehicle Licensing Agency,2012-03-31,7
@@ -253,18 +253,18 @@ Engineering and Physical Sciences Research Council,2012-09-30,4
 Engineering and Physical Sciences Research Council,2013-09-30,4
 Engineering Construction Industry Training Board,2011-09-30,7
 Engineering Construction Industry Training Board,2013-03-31,8
-English Heritage,2011-03-31,41
-English Heritage,2011-09-30,41
-English Heritage,2012-03-31,44
-English Heritage,2012-09-30,44
-English Heritage,2013-03-31,44
-English Heritage,2013-09-30,44
-Environment Agency,2011-03-31,183
-Environment Agency,2011-09-30,173
-Environment Agency,2012-03-31,163
-Environment Agency,2012-09-30,169
-Environment Agency,2013-09-30,158
-Environment Agency,2015-03-31,137
+English Heritage,2011-03-31,21
+English Heritage,2011-09-30,21
+English Heritage,2012-03-31,24
+English Heritage,2012-09-30,24
+English Heritage,2013-03-31,24
+English Heritage,2013-09-30,24
+Environment Agency,2011-03-31,163
+Environment Agency,2011-09-30,153
+Environment Agency,2012-03-31,143
+Environment Agency,2012-09-30,149
+Environment Agency,2013-09-30,138
+Environment Agency,2015-03-31,117
 Equality and Human Rights Commission,2011-03-31,5
 Equality and Human Rights Commission,2011-09-30,5
 Equality and Human Rights Commission,2012-03-31,6
@@ -274,14 +274,14 @@ Equality and Human Rights Commission,2013-09-30,5
 Equality and Human Rights Commission,2014-03-31,4
 FCO Services,2011-03-31,9
 Fire Service College,2012-03-31,1
-Foreign and Commonwealth Office,2011-03-31,138
-Foreign and Commonwealth Office,2011-03-31,138
-Foreign and Commonwealth Office,2011-09-30,149
-Foreign and Commonwealth Office,2013-03-31,159
-Foreign and Commonwealth Office,2013-09-30,152
-Foreign and Commonwealth Office,2014-03-31,156
-Foreign and Commonwealth Office,2014-09-30,151
-Foreign and Commonwealth Office,2015-03-31,150
+Foreign and Commonwealth Office,2011-03-31,118
+Foreign and Commonwealth Office,2011-03-31,118
+Foreign and Commonwealth Office,2011-09-30,129
+Foreign and Commonwealth Office,2013-03-31,139
+Foreign and Commonwealth Office,2013-09-30,132
+Foreign and Commonwealth Office,2014-03-31,136
+Foreign and Commonwealth Office,2014-09-30,131
+Foreign and Commonwealth Office,2015-03-31,130
 Forestry Commission,2011-09-30,11
 Forestry Commission,2012-03-31,11
 Forestry Commission,2012-09-30,10
@@ -302,40 +302,40 @@ Government Procurement Service,2012-03-31,4
 Government Procurement Service,2012-09-30,5
 Government Procurement Service,2013-03-31,7
 Government Procurement Service,2013-09-30,9
-NHS Greater Manchester CSU,2014-03-31,41
-Health and Safety Executive,2011-03-31,67
-Health and Safety Executive,2011-09-30,68
-Health and Safety Executive,2012-09-30,62
-Health and Safety Executive,2013-09-30,60
-Health and Safety Executive,2014-03-31,63
-Health and Safety Executive,2014-09-30,51
-Health and Social Care Information Centre,2012-03-31,54
-Health and Social Care Information Centre,2014-09-30,55
-Health Education England,2013-03-31,375
-Health Education England,2013-09-30,256
-Health Protection Agency,2011-03-31,71
-Health Protection Agency,2011-09-30,70
-Health Protection Agency,2012-03-31,68
-Her Majesty's Revenue and Customs,2011-03-31,365
-Her Majesty's Revenue and Customs,2012-03-31,386
-Her Majesty's Revenue and Customs,2012-09-30,368
-Her Majesty's Revenue and Customs,2013-03-31,354
-Her Majesty's Revenue and Customs,2013-09-30,346
-Her Majesty's Revenue and Customs,2014-03-31,338
-Her Majesty's Revenue and Customs,2014-09-30,351
-Her Majesty's Revenue and Customs,2015-03-31,364
-Her Majesty's Revenue and Customs,2015-09-30,370
+NHS Greater Manchester CSU,2014-03-31,21
+Health and Safety Executive,2011-03-31,47
+Health and Safety Executive,2011-09-30,48
+Health and Safety Executive,2012-09-30,42
+Health and Safety Executive,2013-09-30,40
+Health and Safety Executive,2014-03-31,43
+Health and Safety Executive,2014-09-30,31
+Health and Social Care Information Centre,2012-03-31,34
+Health and Social Care Information Centre,2014-09-30,35
+Health Education England,2013-03-31,355
+Health Education England,2013-09-30,236
+Health Protection Agency,2011-03-31,51
+Health Protection Agency,2011-09-30,50
+Health Protection Agency,2012-03-31,48
+Her Majesty's Revenue and Customs,2011-03-31,345
+Her Majesty's Revenue and Customs,2012-03-31,366
+Her Majesty's Revenue and Customs,2012-09-30,348
+Her Majesty's Revenue and Customs,2013-03-31,334
+Her Majesty's Revenue and Customs,2013-09-30,326
+Her Majesty's Revenue and Customs,2014-03-31,318
+Her Majesty's Revenue and Customs,2014-09-30,331
+Her Majesty's Revenue and Customs,2015-03-31,344
+Her Majesty's Revenue and Customs,2015-09-30,350
 High Speed 2 Limited,2011-09-30,4
 High Speed 2 Limited,2012-03-31,7
 High Speed 2 Limited,2013-09-30,8
 Higher Education Funding Council for England,2011-03-31,4
 Higher Education Funding Council for England,2013-03-31,4
 Higher Education Funding Council for England,2013-09-30,4
-Highways Agency,2011-03-31,50
-Highways Agency,2011-09-30,47
-Highways Agency,2012-03-31,47
-Highways Agency,2012-09-30,50
-Highways Agency,2013-03-31,50
+Highways Agency,2011-03-31,30
+Highways Agency,2011-09-30,27
+Highways Agency,2012-03-31,27
+Highways Agency,2012-09-30,30
+Highways Agency,2013-03-31,30
 HM Crown Prosecution Service Inspectorate,2011-03-31,2
 HM Crown Prosecution Service Inspectorate,2011-09-30,2
 HM Crown Prosecution Service Inspectorate,2012-03-31,3
@@ -365,21 +365,21 @@ HM Passport Office,2014-03-31,16
 HM Passport Office,2014-09-30,16
 HM Treasury,2011-03-31,0
 HM Treasury,2011-03-31,0
-HM Treasury,2011-09-30,117
-HM Treasury,2012-03-31,116
-HM Treasury,2012-09-30,110
-HM Treasury,2013-09-30,109
-HM Treasury,2014-03-31,113
-HM Treasury,2014-09-30,108
-Home Office,2011-03-31,144
-Home Office,2011-03-31,144
-Home Office,2011-09-30,168
-Home Office,2012-03-31,180
-Home Office,2012-09-30,210
-Home Office,2013-03-31,162
-Home Office,2013-09-30,222
-Home Office,2014-03-31,212
-Home Office,2014-09-30,224
+HM Treasury,2011-09-30,97
+HM Treasury,2012-03-31,96
+HM Treasury,2012-09-30,90
+HM Treasury,2013-09-30,89
+HM Treasury,2014-03-31,93
+HM Treasury,2014-09-30,88
+Home Office,2011-03-31,124
+Home Office,2011-03-31,124
+Home Office,2011-09-30,148
+Home Office,2012-03-31,160
+Home Office,2012-09-30,190
+Home Office,2013-03-31,142
+Home Office,2013-09-30,202
+Home Office,2014-03-31,192
+Home Office,2014-09-30,204
 Homes and Communities Agency,2011-03-31,10
 Homes and Communities Agency,2012-09-30,9
 Horniman Public Museum & Public Park Trust,2011-03-31,1
@@ -459,11 +459,11 @@ Judicial Office,2012-09-30,5
 Judicial Office,2013-09-30,5
 Judicial Office,2014-03-31,5
 Judicial Office,2014-09-30,5
-Land Registry,2011-03-31,45
-Land Registry,2011-09-30,44
-Land Registry,2012-03-31,42
-Land Registry,2013-03-31,42
-Land Registry,2013-09-30,41
+Land Registry,2011-03-31,25
+Land Registry,2011-09-30,24
+Land Registry,2012-03-31,22
+Land Registry,2013-03-31,22
+Land Registry,2013-09-30,21
 Learning and Skills Improvement Service,2011-09-30,4
 Learning and Skills Improvement Service,2012-03-31,4
 Learning and Skills Improvement Service,2012-09-30,5
@@ -495,42 +495,42 @@ Maritime and Coastguard Agency,2012-09-30,4
 Maritime and Coastguard Agency,2013-03-31,4
 Maritime and Coastguard Agency,2014-03-31,4
 Maritime and Coastguard Agency,2015-03-31,4
-Medical Research Council,2011-03-31,62
-Medical Research Council,2011-09-30,61
-Medical Research Council,2013-09-30,51
-Medicines and Healthcare products Regulatory Agency,2013-09-30,161
+Medical Research Council,2011-03-31,42
+Medical Research Council,2011-09-30,41
+Medical Research Council,2013-09-30,31
+Medicines and Healthcare products Regulatory Agency,2013-09-30,141
 Met Office,2011-03-31,10
 Met Office,2011-09-30,10
 Met Office,2012-03-31,10
 Met Office,2012-09-30,9
-Ministry of Defence,2011-03-31,620
-Ministry of Defence,2011-03-31,620
-Ministry of Defence,2011-09-30,635
-Ministry of Defence,2012-03-31,613
-Ministry of Defence,2012-09-30,545
-Ministry of Defence,2013-03-31,207
-Ministry of Defence,2013-09-30,604
-Ministry of Defence,2014-03-31,519
-Ministry of Defence,2014-09-30,636
-Ministry of Defence,2015-03-31,638
-Ministry of Defence,2015-09-30,12
-Ministry of Justice,2011-03-31,190
-Ministry of Justice,2011-03-31,190
-Ministry of Justice,2011-09-30,151
-Ministry of Justice,2012-03-31,150
-Ministry of Justice,2012-09-30,146
-Ministry of Justice,2013-03-31,133
-Ministry of Justice,2013-09-30,155
-Ministry of Justice,2014-03-31,155
-Ministry of Justice,2014-09-30,231
-Ministry of Justice,2015-03-31,201
-Ministry of Justice,2015-09-30,211
+Ministry of Defence,2011-03-31,600
+Ministry of Defence,2011-03-31,600
+Ministry of Defence,2011-09-30,615
+Ministry of Defence,2012-03-31,593
+Ministry of Defence,2012-09-30,525
+Ministry of Defence,2013-03-31,187
+Ministry of Defence,2013-09-30,584
+Ministry of Defence,2014-03-31,499
+Ministry of Defence,2014-09-30,616
+Ministry of Defence,2015-03-31,618
+Ministry of Defence,2015-09-30,650
+Ministry of Justice,2011-03-31,170
+Ministry of Justice,2011-03-31,170
+Ministry of Justice,2011-09-30,131
+Ministry of Justice,2012-03-31,130
+Ministry of Justice,2012-09-30,126
+Ministry of Justice,2013-03-31,113
+Ministry of Justice,2013-09-30,135
+Ministry of Justice,2014-03-31,135
+Ministry of Justice,2014-09-30,211
+Ministry of Justice,2015-03-31,181
+Ministry of Justice,2015-09-30,191
 Monitor,2011-03-31,9
 Monitor,2011-09-30,9
 Monitor,2012-03-31,9
 Monitor,2012-09-30,10
-Monitor,2013-03-31,71
-Monitor,2013-09-30,73
+Monitor,2013-03-31,51
+Monitor,2013-09-30,53
 Museum of Science and Industry,2011-09-30,4
 National Army Museum,2011-03-31,5
 National Army Museum,2011-09-30,5
@@ -538,8 +538,8 @@ National Army Museum,2012-03-31,5
 National Army Museum,2014-03-31,5
 National Army Museum,2014-09-30,5
 National Army Museum,2015-03-31,5
-National College for Leadership of Schools and Children's Services,2011-03-31,42
-National College for School Leadership,2011-09-30,42
+National College for Leadership of Schools and Children's Services,2011-03-31,22
+National College for School Leadership,2011-09-30,22
 National Fraud Authority,2011-09-30,4
 National Fraud Authority,2012-03-31,4
 National Fraud Authority,2012-09-30,4
@@ -547,8 +547,8 @@ National Fraud Authority,2013-09-30,4
 National Heritage Memorial Fund,2011-03-31,4
 National Institute for Health and Care Excellence,2011-03-31,16
 National Institute for Health and Care Excellence,2011-09-30,17
-National Institute for Health and Care Excellence,2012-03-31,42
-National Institute for Health and Care Excellence,2012-09-30,42
+National Institute for Health and Care Excellence,2012-03-31,22
+National Institute for Health and Care Excellence,2012-09-30,22
 National Institute for Health and Care Excellence,2013-09-30,19
 National Institute for Health and Care Excellence,2014-03-31,18
 National Institute for Health and Care Excellence,2015-03-31,18
@@ -563,30 +563,30 @@ National Museum of Science and Industry,2011-03-31,10
 National Museum of Science and Industry,2011-09-30,9
 National Museums Liverpool,2011-03-31,7
 National Museums Liverpool,2011-09-30,7
-National Offender Management Service,2011-03-31,105
-National Offender Management Service,2011-09-30,95
-National Offender Management Service,2012-03-31,94
-National Offender Management Service,2012-09-30,94
-National Offender Management Service,2013-03-31,90
-National Offender Management Service,2013-09-30,92
+National Offender Management Service,2011-03-31,85
+National Offender Management Service,2011-09-30,75
+National Offender Management Service,2012-03-31,74
+National Offender Management Service,2012-09-30,74
+National Offender Management Service,2013-03-31,70
+National Offender Management Service,2013-09-30,72
 National Patient Safety Agency,2011-03-31,5
 National Patient Safety Agency,2011-09-30,5
-National Policing Improvement Agency,2011-03-31,51
-National Policing Improvement Agency,2011-09-30,51
-National Policing Improvement Agency,2012-03-31,51
+National Policing Improvement Agency,2011-03-31,31
+National Policing Improvement Agency,2011-09-30,31
+National Policing Improvement Agency,2012-03-31,31
 National Portrait Gallery,2011-09-30,1
 National Treatment Agency for Substance Misuse,2011-09-30,5
 National Treatment Agency for Substance Misuse,2012-09-30,5
-Natural England,2011-03-31,44
-Natural England,2011-09-30,43
-Natural England,2012-03-31,43
-Natural England,2012-09-30,42
-Natural England,2013-09-30,43
-Natural England,2014-03-31,41
-Natural England,2014-09-30,41
+Natural England,2011-03-31,24
+Natural England,2011-09-30,23
+Natural England,2012-03-31,23
+Natural England,2012-09-30,22
+Natural England,2013-09-30,23
+Natural England,2014-03-31,21
+Natural England,2014-09-30,21
 Natural England,2015-03-31,16
 Natural England,2015-09-30,17
-Natural Environment Research Council,2012-09-30,42
+Natural Environment Research Council,2012-09-30,22
 Natural Environment Research Council,2013-09-30,18
 Natural Environment Research Council,2014-03-31,19
 Natural History Museum,2011-03-31,4
@@ -595,29 +595,29 @@ Natural History Museum,2012-03-31,4
 Natural History Museum,2012-09-30,4
 NHS Arden CSU,2014-03-31,8
 NHS Arden CSU,2015-03-31,5
-NHS Blood and Transplant,2011-03-31,73
-NHS Blood and Transplant,2011-09-30,69
-NHS Blood and Transplant,2012-03-31,70
-NHS Blood and Transplant,2012-09-30,71
-NHS Blood and Transplant,2013-09-30,71
-NHS Blood and Transplant,2014-03-31,74
-NHS Blood and Transplant,2015-03-31,79
-NHS Blood and Transplant,2015-09-30,77
+NHS Blood and Transplant,2011-03-31,53
+NHS Blood and Transplant,2011-09-30,49
+NHS Blood and Transplant,2012-03-31,50
+NHS Blood and Transplant,2012-09-30,51
+NHS Blood and Transplant,2013-09-30,51
+NHS Blood and Transplant,2014-03-31,54
+NHS Blood and Transplant,2015-03-31,59
+NHS Blood and Transplant,2015-09-30,57
 NHS Business Services Authority,2011-09-30,5
 NHS Business Services Authority,2012-03-31,5
 NHS Business Services Authority,2012-09-30,5
 NHS Business Services Authority,2013-09-30,5
 NHS Business Services Authority,2014-03-31,5
-NHS Central Southern CSU,2014-03-31,58
+NHS Central Southern CSU,2014-03-31,38
 NHS Central Southern CSU,2015-03-31,6
-NHS Cheshire and Merseyside Commissioning Support Unit,2014-03-31,60
-NHS Cheshire and Merseyside Commissioning Support Unit,2015-03-31,59
-NHS England,2013-03-31,316
-NHS England,2013-09-30,313
+NHS Cheshire and Merseyside Commissioning Support Unit,2014-03-31,40
+NHS Cheshire and Merseyside Commissioning Support Unit,2015-03-31,39
+NHS England,2013-03-31,296
+NHS England,2013-09-30,293
 NHS Greater East Midlands CSU,2014-03-31,6
-NHS Information Centre for Health and Social Care,2011-03-31,48
-NHS Information Centre for Health and Social Care,2011-09-30,55
-NHS Information Centre for Health and Social Care,2012-09-30,57
+NHS Information Centre for Health and Social Care,2011-03-31,28
+NHS Information Centre for Health and Social Care,2011-09-30,35
+NHS Information Centre for Health and Social Care,2012-09-30,37
 NHS Litigation Authority,2011-03-31,6
 NHS Litigation Authority,2011-09-30,6
 NHS Litigation Authority,2012-03-31,6
@@ -631,11 +631,11 @@ NHS North Yorkshire and Humber CSU,2014-03-31,19
 NHS South CSU,2015-03-31,6
 NHS South West CSU,2014-03-31,19
 NHS South West CSU,2015-03-31,19
-NHS Trust Development Authority,2013-03-31,105
+NHS Trust Development Authority,2013-03-31,85
 Northern Ireland Human Rights Commission,2011-03-31,1
 Northern Ireland Office,2011-03-31,8
 Northern Ireland Office,2011-03-31,8
-Nuclear Decommissioning Authority,2011-09-30,74
+Nuclear Decommissioning Authority,2011-09-30,54
 Office for Budget Responsibility,2011-09-30,4
 Office for Budget Responsibility,2012-03-31,4
 Office for Budget Responsibility,2012-09-30,4
@@ -643,17 +643,17 @@ Office for Budget Responsibility,2013-09-30,4
 Office for Budget Responsibility,2014-03-31,4
 Office for Budget Responsibility,2014-09-30,4
 Office for Fair Access,2013-09-30,1
-Office for National Statistics,2012-03-31,62
-"Office for Standards in Education, Children's Services and Skills",2011-03-31,57
-"Office for Standards in Education, Children's Services and Skills",2011-09-30,58
-"Office for Standards in Education, Children's Services and Skills",2012-09-30,52
-"Office for Standards in Education, Children's Services and Skills",2014-03-31,48
+Office for National Statistics,2012-03-31,42
+"Office for Standards in Education, Children's Services and Skills",2011-03-31,37
+"Office for Standards in Education, Children's Services and Skills",2011-09-30,38
+"Office for Standards in Education, Children's Services and Skills",2012-09-30,32
+"Office for Standards in Education, Children's Services and Skills",2014-03-31,28
 Office of Qualifications and Examinations Regulation,2011-03-31,5
 Office of Qualifications and Examinations Regulation,2011-09-30,5
 Office of Rail and Road,2012-03-31,15
 Office of Rail and Road,2012-09-30,17
 Office of Rail and Road,2014-03-31,18
-Office of Rail and Road,2015-03-31,41
+Office of Rail and Road,2015-03-31,21
 Office of Rail and Road,2015-09-30,15
 Office of the Advocate General of Scotland,2011-09-30,5
 Office of the Advocate General of Scotland,2012-09-30,5
@@ -668,8 +668,8 @@ Office of the Immigration Services Commissioner,2013-09-30,2
 Office of the Immigration Services Commissioner,2014-03-31,2
 Office of the Immigration Services Commissioner,2014-09-30,2
 Office of the Immigration Services Commissioner,2015-03-31,2
-Olympic Delivery Authority,2011-03-31,52
-Olympic Delivery Authority,2011-09-30,49
+Olympic Delivery Authority,2011-03-31,32
+Olympic Delivery Authority,2011-09-30,29
 Olympic Delivery Authority,2013-09-30,9
 Ordnance Survey,2011-03-31,6
 Ordnance Survey,2011-09-30,6
@@ -682,7 +682,7 @@ Parole Board,2011-09-30,2
 Parole Board,2012-03-31,2
 Parole Board,2012-09-30,2
 Parole Board,2013-09-30,2
-Partnerships for Schools,2011-09-30,42
+Partnerships for Schools,2011-09-30,22
 Pensions Ombudsman,2011-09-30,2
 Pensions Ombudsman,2013-09-30,2
 Pensions Ombudsman,2014-09-30,2
@@ -696,8 +696,8 @@ Prisons and Probation Ombudsman,2012-09-30,4
 Prisons and Probation Ombudsman,2013-03-31,4
 Prisons and Probation Ombudsman,2013-09-30,4
 Prisons and Probation Ombudsman,2014-09-30,3
-Public Health England,2013-03-31,88
-Public Health England,2013-09-30,109
+Public Health England,2013-03-31,68
+Public Health England,2013-09-30,89
 Public Lending Right,2011-03-31,1
 Public Lending Right,2011-09-30,1
 Public Lending Right,2012-03-31,1
@@ -720,9 +720,9 @@ Royal Museums Greenwich,2013-09-30,7
 Rural Payments Agency,2011-03-31,9
 Rural Payments Agency,2011-09-30,13
 Rural Payments Agency,2013-09-30,13
-Science and Technology Facilities Council,2011-03-31,59
-Science and Technology Facilities Council,2011-09-30,57
-Science and Technology Facilities Council,2013-09-30,51
+Science and Technology Facilities Council,2011-03-31,39
+Science and Technology Facilities Council,2011-09-30,37
+Science and Technology Facilities Council,2013-09-30,31
 Science Museum Group,2012-03-31,12
 Science Museum Group,2012-09-30,12
 Science Museum Group,2013-03-31,12
@@ -731,7 +731,7 @@ Scotland Office,2011-03-31,4
 Scotland Office,2011-03-31,4
 Scotland Office,2011-09-30,4
 Scotland Office,2012-09-30,4
-Scottish Government,2011-03-31,236
+Scottish Government,2011-03-31,216
 Scottish Law Commission,2011-03-31,1
 Security Industry Authority,2011-03-31,4
 Security Industry Authority,2011-09-30,4
@@ -752,16 +752,16 @@ Serious Organised Crime Agency,2012-09-30,5
 Serious Organised Crime Agency,2013-03-31,5
 Serious Organised Crime Agency,2013-09-30,5
 Sir John Soane's Museum,2011-09-30,1
-Skills Funding Agency,2011-09-30,81
-Skills Funding Agency,2012-03-31,66
-Skills Funding Agency,2012-09-30,65
-Skills Funding Agency,2013-03-31,64
+Skills Funding Agency,2011-09-30,61
+Skills Funding Agency,2012-03-31,46
+Skills Funding Agency,2012-09-30,45
+Skills Funding Agency,2013-03-31,44
 Sport England,2011-03-31,8
 Sport England,2011-09-30,8
 Sport England,2012-03-31,8
 Sport England,2012-09-30,7
 Sport England,2013-09-30,7
-Standards and Testing Agency,2013-09-30,165
+Standards and Testing Agency,2013-09-30,145
 Standards Board for England,2011-03-31,4
 Standards Board for England,2011-09-30,3
 Student Loans Company Limited,2011-09-30,8
@@ -775,10 +775,10 @@ Tate,2012-09-30,6
 Tate,2013-03-31,5
 Tenant Services Authority,2011-03-31,8
 Tenant Services Authority,2011-09-30,9
-The British Library,2011-03-31,65
-The British Library,2011-03-31,65
-The British Library,2012-03-31,55
-The British Library,2013-09-30,55
+The British Library,2011-03-31,45
+The British Library,2011-03-31,45
+The British Library,2012-03-31,35
+The British Library,2013-09-30,35
 The British Museum,2011-03-31,7
 The British Museum,2011-09-30,7
 The British Museum,2012-03-31,6
@@ -820,11 +820,11 @@ The Northern Lighthouse Board,2015-09-30,4
 The Pensions Advisory Service,2011-09-30,1
 The Pensions Advisory Service,2012-09-30,1
 The Pensions Advisory Service,2014-03-31,1
-The Pensions Regulator,2011-03-31,84
-The Pensions Regulator,2011-09-30,109
-The Pensions Regulator,2012-03-31,104
-The Pensions Regulator,2012-09-30,126
-The Pensions Regulator,2014-09-30,154
+The Pensions Regulator,2011-03-31,64
+The Pensions Regulator,2011-09-30,89
+The Pensions Regulator,2012-03-31,84
+The Pensions Regulator,2012-09-30,106
+The Pensions Regulator,2014-09-30,134
 The Wallace Collection,2011-09-30,4
 The Wallace Collection,2012-03-31,4
 The Wallace Collection,2012-09-30,4
@@ -838,11 +838,11 @@ Transport Focus,2013-09-30,3
 Transport Focus,2014-03-31,3
 Transport Focus,2015-03-31,3
 Transport Focus,2015-09-30,4
-Treasury Solicitor's Department,2011-03-31,81
-Treasury Solicitor's Department,2011-09-30,89
-Treasury Solicitor's Department,2012-03-31,91
-Treasury Solicitor's Department,2012-09-30,86
-Treasury Solicitor's Department,2013-09-30,114
+Treasury Solicitor's Department,2011-03-31,61
+Treasury Solicitor's Department,2011-09-30,69
+Treasury Solicitor's Department,2012-03-31,71
+Treasury Solicitor's Department,2012-09-30,66
+Treasury Solicitor's Department,2013-09-30,94
 Trinity House Lighthouse Service,2011-09-30,4
 Trinity House Lighthouse Service,2012-09-30,4
 Trinity House Lighthouse Service,2014-03-31,4
@@ -851,11 +851,11 @@ Trinity House Lighthouse Service,2015-09-30,4
 UK Anti-Doping,2011-09-30,5
 UK Anti-Doping,2012-03-31,5
 UK Anti-Doping,2013-09-30,5
-UK Border Agency,2011-03-31,101
-UK Border Agency,2011-09-30,102
-UK Border Agency,2012-03-31,106
-UK Border Agency,2012-09-30,114
-UK Border Agency,2013-03-31,69
+UK Border Agency,2011-03-31,81
+UK Border Agency,2011-09-30,82
+UK Border Agency,2012-03-31,86
+UK Border Agency,2012-09-30,94
+UK Border Agency,2013-03-31,49
 UK Commission for Employment and Skills,2011-09-30,6
 UK Commission for Employment and Skills,2012-03-31,6
 UK Commission for Employment and Skills,2012-09-30,6
@@ -869,9 +869,9 @@ UK Debt Management Office,2014-09-30,4
 UK Sport,2011-03-31,6
 UK Sport,2011-09-30,7
 UK Sport,2012-03-31,7
-UK Statistics Authority,2012-09-30,68
-UK Statistics Authority,2013-09-30,66
-UK Statistics Authority,2014-09-30,68
+UK Statistics Authority,2012-09-30,48
+UK Statistics Authority,2013-09-30,46
+UK Statistics Authority,2014-09-30,48
 UK Supreme Court,2011-03-31,2
 United Kingdom Atomic Energy Authority,2011-03-31,10
 United Kingdom Atomic Energy Authority,2011-09-30,10
@@ -927,12 +927,12 @@ Wales Office,2012-09-30,4
 Wales Office,2013-03-31,4
 Wales Office,2013-09-30,4
 Water Services Regulation Authority,2014-09-30,8
-West and South Yorkshire and Bassetlaw Commissioning Support Unit,2014-09-30,52
+West and South Yorkshire and Bassetlaw Commissioning Support Unit,2014-09-30,32
 West Northamptonshire Development Corporation,2011-03-31,5
 West Northamptonshire Development Corporation,2011-09-30,4
 West Northamptonshire Development Corporation,2012-03-31,4
 West Northamptonshire Development Corporation,2012-09-30,3
-Young People's Learning Agency,2011-09-30,44
+Young People's Learning Agency,2011-09-30,24
 Youth Justice Board,2011-03-31,15
 Youth Justice Board,2011-09-30,15
 Youth Justice Board,2012-03-31,16
