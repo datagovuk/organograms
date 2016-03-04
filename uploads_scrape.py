@@ -36,33 +36,38 @@ states_by_action = {
     'published': 'published',
     }
 
-csv_file = open('uploads_report.csv', 'wb')
-csv_writer = csv.writer(csv_file, dialect='excel')
-row_headings = [
-   # 'submitter_email' removed for privacy
-   'version',
-   'org_name', 'xls_path', 'upload_date', 'state',
-   'action_datetime', 'xls-filename', 'junior-csv-filename', 'senior-csv-filename'
-   ]
-csv_writer.writerow(row_headings)
-rows_written = 0
-def save_to_csv(row_dict):
-    row = []
-    for heading in row_headings:
-        cell = row_dict.get(heading, '')
-        if heading in ('upload_date', 'action_datetime') and cell:
-            cell = cell.isoformat()
-        row.append(cell)
-    #print row
-    csv_writer.writerow(row)
-    global rows_written
-    rows_written += 1
+
+class ReportCsv(object):
+    def __init__(self):
+        self.csv_file = open('uploads_report.csv', 'wb')
+        self.csv_writer = csv.writer(self.csv_file, dialect='excel')
+        self.row_headings = [
+            # 'submitter_email' removed for privacy
+            'version',
+            'org_name', 'xls_path', 'upload_date', 'state',
+            'action_datetime', 'xls-filename',
+            'junior-csv-filename', 'senior-csv-filename'
+            ]
+        self.csv_writer.writerow(self.row_headings)
+        self.rows_written = 0
+
+    def save_to_csv(self, row_dict):
+        row = []
+        for heading in self.row_headings:
+            cell = row_dict.get(heading, '')
+            if heading in ('upload_date', 'action_datetime') and cell:
+                cell = cell.isoformat()
+            row.append(cell)
+        #print row
+        self.csv_writer.writerow(row)
+        self.rows_written += 1
 
 
 def main(xls_folder, csv_folder, options):
     username = os.environ['SCRAPE_USERNAME']
     password = os.environ['SCRAPE_PASSWORD']
     email = os.environ['SCRAPE_EMAIL']
+    report = ReportCsv()
     for date in dates:
         url = INDEX_URL.format(email=email.replace('@', '%40'),
                                date=date.replace('/', '%2F'))
@@ -120,7 +125,7 @@ def main(xls_folder, csv_folder, options):
                     download(csv_senior_path, csv_folder,
                              row_info['senior-csv-filename'])
 
-            save_to_csv(row_info)
+            report.save_to_csv(row_info)
 
         # check all rows in the preview pane have been found in the download
         # pane
@@ -128,9 +133,8 @@ def main(xls_folder, csv_folder, options):
             if 'action_datetime' not in row_info:
                 assert 0, row_info
 
-        global rows_written
-        print 'Wrote %s rows' % rows_written
-        rows_written = 0
+        print 'Wrote %s rows' % report.rows_written
+        report.rows_written = 0
 
 
 def munge_org(name):

@@ -177,6 +177,7 @@ def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
 
         def split_salary_range(range_txt):
             # e.g. u'\xa30 - \xa30'
+            # occasionally: u'\xa330283 - \xa340777; \xa334068 - \xa344599'
             if range_txt is None:
                 return (None, None)
             if range_txt.startswith(u'http://reference.data.gov.uk/id/salary-range/'):
@@ -185,9 +186,9 @@ def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
                 salary = range_txt.replace('http://reference.data.gov.uk/id/salary-range/', '')
                 return (salary, salary)
             range_ = range_txt.replace(u'£', '').split(' - ')
-            if len(range_) != 2:
+            if len(range_) < 2:
                 import pdb; pdb.set_trace()
-            return range_
+            return range_[0], range_[-1]
 
         try:
             if senior_or_junior == 'senior':
@@ -441,8 +442,8 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
                     post['unit'] = item['inUnit']['label'][0]
                     post['fte'] = item['fullTimeEquivalent']
                     post['grade'] = item['atGrade']['prefLabel']
-                    post['salary_range'] = \
-                        item['atGrade']['payband']['salaryRange']['label'][0]
+                    post['salary_range'] = get_value(
+                        item['atGrade']['payband']['salaryRange'])
                     post['job_title'] = item['withJob']['prefLabel']
 
                     if 'withProfession' in item:
