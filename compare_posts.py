@@ -367,37 +367,40 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
                 post['reports_to_uri'] = get_value(
                     item.get('reportsTo'), dict_key='_about')
 
-                held_by_list = item['heldBy']
+                held_by_list = item.get('heldBy', [])
                 # Some posts are held by more than one person
                 # e.g. jobshare or maternity cover
                 # We save this as two or more "post_"s as that is how it is
                 # represented in the organogram CSV.
                 for i, held_by in enumerate(held_by_list):
                     post_ = copy.deepcopy(post)
-                    post_['name'] = held_by['name']
+                    post_['name'] = held_by.get('name', '')
                     post_['fte'] = held_by['tenure']['workingTime']
 
                     if 'profession' in held_by:
                         profession_values = held_by['profession']['prefLabel']
-                        if isinstance(profession_values, basestring):
-                            profession = profession_values
-                        else:
-                            assert isinstance(profession_values, list)
-                            if len(profession_values) == 2 and \
-                                    profession_values[0].lower() == \
-                                    profession_values[1].lower():
-                                profession = sorted(profession_values)[0]  # capitalized first
-                            else:
-                                import pdb; pdb.set_trace()
+                        profession = resolve_profession(profession_values)
                     else:
                         profession = None
                     post_['profession'] = profession
 
-                    post_['email'] = get_value(held_by['email'], 'label', list_index=i)
-                    post_['phone'] = get_value(held_by['phone'], 'label', list_index=i)
+                    post_['email'] = get_value(held_by.get('email'), 'label', list_index=i)
+                    post_['phone'] = get_value(held_by.get('phone'), 'label', list_index=i)
                     post_['salary_range'] = get_value(
                         item.get('salaryRange'), list_index=i)
                     post_['grade'] = get_value(item.get('grade'), list_index=i)
+                    senior_posts.append(post_)
+                if not held_by_list:
+                    # Some posts have no heldBy
+                    # e.g. http://reference.data.gov.uk/id/public-body/animal-health-veterinary-laboratories-agency/post/12 2011-03-31
+                    # so just record what we have
+                    post_['name'] = ''
+                    post_['fte']
+                    post_['profession'] = ''
+                    post_['email'] = ''
+                    post_['phone'] = ''
+                    post_['salary_range'] = get_value(item.get('salaryRange'))
+                    post_['grade'] = get_value(item.get('grade'))
                     senior_posts.append(post_)
             except Exception:
                 traceback.print_exc()
@@ -444,16 +447,7 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
 
                     if 'withProfession' in item:
                         profession_values = item['withProfession']['prefLabel']
-                        if isinstance(profession_values, basestring):
-                            profession = profession_values
-                        else:
-                            assert isinstance(profession_values, list)
-                            if len(profession_values) == 2 and \
-                                    profession_values[0].lower() == \
-                                    profession_values[1].lower():
-                                profession = sorted(profession_values)[0]  # capitalized first
-                            else:
-                                import pdb; pdb.set_trace()
+                        profession = resolve_profession(profession_values)
                     else:
                         profession = None
                     post['profession'] = profession
@@ -468,6 +462,21 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
             page += 1
     return senior_posts, junior_posts
 
+PROFESSIONS = set('Communications, Economics, Finance, Human Resources, Information Technology, Internal Audit, Knowledge and Information Management (KIM), Law, Medicine, Military, Operational Delivery, Operational Research, Other, Planning, Policy, Procurement, Programme and Project Management (PPM), Property and asset management, Psychology, Science and Engineering, Social Research, Statisticians, Tax Professionals, Vets'.split(', '))
+
+def resolve_profession(profession_values):
+    '''Takes a profession list (or maybe a string) and return a single
+    profession that it represents.
+    '''
+    if isinstance(profession_values, basestring):
+        profession_values = [profession_values]
+    assert isinstance(profession_values, list)
+    matching_professions = set(profession_values) & PROFESSIONS
+    if len(matching_professions) == 1:
+        return list(matching_professions)[0]
+    else:
+        print 'Could not resolve profession: %r', profession_values
+        import pdb; pdb.set_trace()
 
 
 if __name__ == '__main__':
