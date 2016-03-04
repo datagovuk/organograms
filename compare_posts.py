@@ -139,6 +139,9 @@ def get_id_from_uri(uri):
     return uri.split('/')[-1]
 
 
+payband_re = re.compile('http://reference.data.gov.uk/def/.+?/.+?/payband/')
+
+
 def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
     '''Given a list of posts, saves them in the standard CSV format.
     '''
@@ -184,6 +187,10 @@ def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
                 # e.g. u'http://reference.data.gov.uk/id/salary-range/Loan in non BIS PR 0-'
                 # e.g. 'http://reference.data.gov.uk/id/salary-range/N / D-'
                 salary = range_txt.replace('http://reference.data.gov.uk/id/salary-range/', '')
+                return (salary, salary)
+            if payband_re.search(range_txt):
+                # e.g. 'http://reference.data.gov.uk/def/public-body/environment-agency/payband/ns'
+                salary = payband_re.sub('', range_txt)
                 return (salary, salary)
             range_ = range_txt.replace(u'£', '').split(' - ')
             if len(range_) < 2:
@@ -361,8 +368,6 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
                 post['comment'] = item.get('comment')
                 unit_values = [d['label'][0] for d in item.get('postIn')
                                if '/unit/' in d['_about']]
-                if len(unit_values) != 1:
-                    import pdb; pdb.set_trace()
                 post['unit'] = unit_values[0]
                 post['note'] = item.get('note')
                 post['reports_to_uri'] = get_value(
@@ -442,8 +447,12 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
                     post['unit'] = item['inUnit']['label'][0]
                     post['fte'] = item['fullTimeEquivalent']
                     post['grade'] = item['atGrade']['prefLabel']
-                    post['salary_range'] = get_value(
-                        item['atGrade']['payband']['salaryRange'])
+                    if 'salaryRange' in item['atGrade']['payband']:
+                        post['salary_range'] = get_value(
+                            item['atGrade']['payband']['salaryRange'])
+                    else:
+                        post['salary_range'] = get_value(
+                            item['atGrade']['payband'], dict_key='_about')
                     post['job_title'] = item['withJob']['prefLabel']
 
                     if 'withProfession' in item:
@@ -463,7 +472,10 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
             page += 1
     return senior_posts, junior_posts
 
+
 PROFESSIONS = set('Communications, Economics, Finance, Human Resources, Information Technology, Internal Audit, Knowledge and Information Management (KIM), Law, Medicine, Military, Operational Delivery, Operational Research, Other, Planning, Policy, Procurement, Programme and Project Management (PPM), Property and asset management, Psychology, Science and Engineering, Social Research, Statisticians, Tax Professionals, Vets'.split(', '))
+PROFESSIONS_LOWER = dict((p.lower(), p) for p in PROFESSIONS)
+
 
 def resolve_profession(profession_values):
     '''Takes a profession list (or maybe a string) and return a single
@@ -476,6 +488,14 @@ def resolve_profession(profession_values):
     if len(matching_professions) == 1:
         return list(matching_professions)[0]
     else:
+        # Try any lowercase match
+        for profession_value in profession_values:
+            matching_profession = PROFESSIONS_LOWER.get(
+                profession_value.lower().replace('project and programme',
+                                                 'programme and project')
+                )
+            if matching_profession:
+                return matching_profession
         print 'Could not resolve profession: %r', profession_values
         import pdb; pdb.set_trace()
 
