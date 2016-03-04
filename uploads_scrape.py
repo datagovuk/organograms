@@ -36,18 +36,24 @@ states_by_action = {
     'published': 'published',
     }
 
+args = None
+
 
 class ReportCsv(object):
     def __init__(self):
-        self.csv_file = open('uploads_report.csv', 'wb')
+        self.out_filename = 'uploads_report.csv' if not \
+            args.include_private_info else 'uploads_report_with_private.csv'
+
+        self.csv_file = open(self.out_filename, 'wb')
         self.csv_writer = csv.writer(self.csv_file, dialect='excel')
         self.row_headings = [
-            # 'submitter_email' removed for privacy
             'version',
             'org_name', 'xls_path', 'upload_date', 'state',
             'action_datetime', 'xls-filename',
             'junior-csv-filename', 'senior-csv-filename'
             ]
+        if args.include_private_info:
+            self.row_headings = ['submitter_email'] + self.row_headings
         self.csv_writer.writerow(self.row_headings)
         self.rows_written = 0
 
@@ -63,7 +69,7 @@ class ReportCsv(object):
         self.rows_written += 1
 
 
-def main(xls_folder, csv_folder, options):
+def main(xls_folder, csv_folder):
     username = os.environ['SCRAPE_USERNAME']
     password = os.environ['SCRAPE_PASSWORD']
     email = os.environ['SCRAPE_EMAIL']
@@ -79,11 +85,12 @@ def main(xls_folder, csv_folder, options):
         # and state
         for row in tree.xpath('//div[@id="preview"]//table/tr')[1:]:
             org = row.xpath('td[@class="dept"]/text()')[0]
-            try:
-                submitter_email = row.xpath('td[@class="submitter"]/a/text()')[0].strip()
-            except IndexError:
-                # 30/09/2013 JNCC submitter is not an email address
-                submitter_email = row.xpath('td[@class="submitter"]/a/text()')
+            if args.include_private_info:
+                try:
+                    submitter_email = row.xpath('td[@class="submitter"]/a/text()')[0].strip()
+                except IndexError:
+                    # 30/09/2013 JNCC submitter is not an email address
+                    submitter_email = row.xpath('td[@class="submitter"]/a/text()')
             xls_path = row.xpath('td[@class="filename"]/a/@href')[0]
             upload_date = row.xpath('td[@class="modified"]/text()')[0].strip()
             upload_date = datetime.datetime.strptime(upload_date, '%d/%m/%Y')
@@ -92,7 +99,7 @@ def main(xls_folder, csv_folder, options):
             row_info_by_xls_path[xls_path] = {
                 'version': date,
                 'org_name': org,
-                'submitter_email': submitter_email,
+                'submitter_email': submitter_email if args.include_private_info else None,
                 'xls_path': xls_path,
                 'upload_date': upload_date,
                 'state': state,
@@ -114,16 +121,37 @@ def main(xls_folder, csv_folder, options):
                 org=munge_org(org),
                 date=date.replace('/', '-'))
 
+            # Corrections for duplicates etc
+            if xls_path == '/data/forestry/2012-03-31/300912-FC-ORGANOGRAM.xls' and date == '31/03/2012':
+                # wrong date, and is duplicate
+                continue
+            if xls_path == '/data/dfid/2013-03-31/organoggram-staff-salary-transparency-Sept-2012.xls' and date == '31/03/2013':
+                # wrong date
+                row_info['version'] = '30/09/2012'
+                filename_base = 'dfid-30-09-2012'
+            if xls_path == '/data/hfea/2013-03-31/2013-09-30-Disclosure-Information--Seni~taff-Payscales-as-at-30-September-2013-for-Cabinet-~-Final.xls' and date == '31/03/2013':
+                # wrong date
+                row_info['version'] = '30/09/2013'
+                filename_base = 'human_fertilisation_and_embryology_authority-30-09-2013'
+            if xls_path == '/data/cefas/2014-09-30/300914_cefas_organogram.xls':
+                # another version comes a week later, so ignore this one
+                continue
+            if xls_path == '/data/bl/2015-09-30/British-Library-Staff-and-Salary-Data---September-2015.xls':
+                # another version comes a day later, so ignore this one
+                continue
+
             if row_info['state'] == 'published':
                 row_info['xls-filename'] = filename_base + '.xls'
                 row_info['junior-csv-filename'] = filename_base + '-junior.csv'
                 row_info['senior-csv-filename'] = filename_base + '-senior.csv'
-                if options.download:
+                if args.download:
                     download(xls_path, xls_folder, row_info['xls-filename'])
                     download(csv_junior_path, csv_folder,
                              row_info['junior-csv-filename'])
                     download(csv_senior_path, csv_folder,
                              row_info['senior-csv-filename'])
+
+
 
             report.save_to_csv(row_info)
 
@@ -135,7 +163,7 @@ def main(xls_folder, csv_folder, options):
 
         print 'Wrote %s rows' % report.rows_written
         report.rows_written = 0
-
+        print 'Written %s' % report.out_filename
 
 def munge_org(name):
     '''Return the org name, suitable for a filename'''
@@ -171,6 +199,7 @@ if __name__ == '__main__':
     parser.add_argument('xls_folder')
     parser.add_argument('csv_folder')
     parser.add_argument('--download', action='store_true')
+    parser.add_argument('--include-private-info', action='store_true')
     args = parser.parse_args()
     xls_folder = args.xls_folder
     csv_folder = args.csv_folder
@@ -178,4 +207,4 @@ if __name__ == '__main__':
         if not os.path.isdir(folder):
             raise argparse.ArgumentTypeError(
                 'Error: Not an existing directory: %s' % folder)
-    main(xls_folder, csv_folder, options=args)
+    main(xls_folder, csv_folder)
