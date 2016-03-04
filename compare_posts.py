@@ -19,7 +19,10 @@ from uploads_scrape import munge_org
 
 one_day = 60*60*24
 one_month = one_day * 31
-requests_cache.install_cache('.compare_posts.cache', expire_after=one_month)
+six_months = one_month * 6
+requests_cache.install_cache('.compare_posts.cache', expire_after=six_months)
+global args
+args = None
 
 
 def compare():
@@ -115,14 +118,25 @@ def triplestore_posts(body_title, graph):
                 if graph and graph != graph_:
                     continue
                 body_uri = uris[i]
-                senior_posts = get_triplestore_posts(body_uri, graph, print_urls=True)
+                senior_posts, junior_posts = \
+                    get_triplestore_posts(body_uri, graph, print_urls=True)
                 print '%s %s Senior:%s' % (row['title'], graph_,
                                            len(senior_posts))
                 save_posts_csv(row['title'], graph, 'senior',
                                'data/dgu/csv-from-triplestore', senior_posts)
+                if junior_posts is not None:
+                    save_posts_csv(row['title'], graph, 'junior',
+                                   'data/dgu/csv-from-triplestore',
+                                   junior_posts)
                 done_anything = True
     if not done_anything:
         print 'Have not done anything - check arguments'
+
+
+def get_id_from_uri(uri):
+    if uri is None:
+        return None
+    return uri.split('/')[-1]
 
 
 def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
@@ -133,28 +147,33 @@ def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
         graph=graph.replace('/', '-'),
         senior_or_junior=senior_or_junior)
     out_filepath = os.path.join(directory, out_filename)
-    headers = [
-        'Post Unique Reference', 'Name', 'Grade', 'Job Title',
-        'Job/Team Function',
-        'Parent Department', 'Organisation', 'Unit',
-        'Contact Phone', 'Contact E-mail',
-        'Reports to Senior Post',
-        'Salary Cost of Reports (£)',
-        'FTE Actual Pay Floor (£)', 'Actual Pay Ceiling (£)',
-        'Professional/Occupational Group',
-        'Notes', 'Valid?',
-        'URI',
-        ]
+    if senior_or_junior == 'senior':
+        headers = [
+            'Post Unique Reference', 'Name', 'Grade', 'Job Title',
+            'Job/Team Function',
+            'Parent Department', 'Organisation', 'Unit',
+            'Contact Phone', 'Contact E-mail',
+            'Reports to Senior Post',
+            'Salary Cost of Reports (£)',
+            'FTE Actual Pay Floor (£)', 'Actual Pay Ceiling (£)',
+            'Professional/Occupational Group',
+            'Notes', 'Valid?',
+            'URI',
+            ]
+    else:
+        headers = [
+            'Parent Department', 'Organisation', 'Unit',
+            'Reporting Senior Post', 'Grade',
+            'Payscale Minimum (£)', 'Payscale Maximum (£)',
+            'Generic Job Title', 'Number of Posts in FTE',
+            'Professional/Occupational Group',
+            ]
+
     with open(out_filepath, 'wb') as csv_write_file:
         csv_writer = unicodecsv.DictWriter(csv_write_file,
                                            fieldnames=headers,
                                            encoding='utf-8')
         csv_writer.writeheader()
-
-        def get_id_from_uri(uri):
-            if uri is None:
-                return None
-            return uri.split('/')[-1]
 
         def split_salary_range(range_txt):
             # e.g. u'\xa30 - \xa30'
@@ -171,31 +190,47 @@ def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
             return range_
 
         try:
-            for post in posts:
-                # convert the LD post to the standard organogram type
-                row = {}
-                row['Post Unique Reference'] = get_id_from_uri(post['uri'])
-                row['Name'] = post['name']
-                row['Grade'] = post['grade']
-                row['Job Title'] = post['label']
-                row['Job/Team Function'] = post['comment']
-                row['Parent Department'] = ''
-                row['Organisation'] = body_title
-                row['Unit'] = post['unit']
-                row['Contact Phone'] = post['phone']
-                row['Contact E-mail'] = post['email']
-                row['Reports to Senior Post'] = \
-                    get_id_from_uri(post['reports_to_uri']) or 'XX'
-                row['Salary Cost of Reports (£)'] = ''
-                salary_range = split_salary_range(post['salary_range'])
-                row['FTE Actual Pay Floor (£)'] = salary_range[0]
-                row['Actual Pay Ceiling (£)'] = salary_range[1]
-                row['Professional/Occupational Group'] = post['profession']
-                row['Notes'] = ''
-                row['Valid?'] = ''
-                # linked data CSV only
-                row['URI'] = post['uri']
-                csv_writer.writerow(row)
+            if senior_or_junior == 'senior':
+                for post in posts:
+                    # convert the LD post to the standard organogram type
+                    row = {}
+                    row['Post Unique Reference'] = get_id_from_uri(post['uri'])
+                    row['Name'] = post['name']
+                    row['Grade'] = post['grade']
+                    row['Job Title'] = post['label']
+                    row['Job/Team Function'] = post['comment']
+                    row['Parent Department'] = ''
+                    row['Organisation'] = body_title
+                    row['Unit'] = post['unit']
+                    row['Contact Phone'] = post['phone']
+                    row['Contact E-mail'] = post['email']
+                    row['Reports to Senior Post'] = \
+                        get_id_from_uri(post['reports_to_uri']) or 'XX'
+                    row['Salary Cost of Reports (£)'] = ''
+                    salary_range = split_salary_range(post['salary_range'])
+                    row['FTE Actual Pay Floor (£)'] = salary_range[0]
+                    row['Actual Pay Ceiling (£)'] = salary_range[1]
+                    row['Professional/Occupational Group'] = post['profession']
+                    row['Notes'] = ''
+                    row['Valid?'] = ''
+                    # linked data CSV only
+                    row['URI'] = post['uri']
+                    csv_writer.writerow(row)
+            else:
+                for post in sorted(posts, key=lambda p: p['row_index']):
+                    row = {}
+                    row['Parent Department'] = ''
+                    row['Organisation'] = body_title
+                    row['Unit'] = post['unit']
+                    row['Reporting Senior Post'] = post['reports_to']
+                    row['Grade'] = post['grade']
+                    salary_range = split_salary_range(post['salary_range'])
+                    row['Payscale Minimum (£)'] = salary_range[0]
+                    row['Payscale Maximum (£)'] = salary_range[1]
+                    row['Generic Job Title'] = post['job_title']
+                    row['Number of Posts in FTE'] = post['fte']
+                    row['Professional/Occupational Group'] = post['profession']
+                    csv_writer.writerow(row)
         except Exception:
             traceback.print_exc()
             import pdb; pdb.set_trace()
@@ -218,13 +253,16 @@ def triplestore_posts_all_departments():
             uris = row['uris'].split()
             for i, graph in enumerate(row['graphs'].split()):
                 body_uri = uris[i]
-                senior_posts = get_triplestore_posts(body_uri, graph)
+                senior_posts, junior_posts = \
+                    get_triplestore_posts(body_uri, graph)
                 counts.append(dict(
                     body_title=row['title'],
                     graph=graph,
-                    senior_posts=len(senior_posts)))
+                    senior_posts=len(senior_posts),
+                    junior_posts=len(junior_posts) if junior_posts is not None else None,
+                    ))
     # save
-    headers = ['body_title', 'graph', 'senior_posts']
+    headers = ['body_title', 'graph', 'senior_posts', 'junior_posts']
     with open(out_filename_counts, 'wb') as csv_write_file:
         csv_writer = csv.DictWriter(csv_write_file,
                                     fieldnames=headers)
@@ -245,14 +283,19 @@ def triplestore_post_counts_all_departments():
         rows = []
         for row in csv_reader:
             print row['title']
-            senior_posts = get_triplestore_posts(row['uri'], row['graph'])
+            senior_posts, junior_posts = \
+                get_triplestore_posts(row['uri'], row['graph'])
             row['num_senior_posts'] = len(senior_posts)
+            if junior_posts is not None:
+                row['num_junior_posts'] = len(junior_posts)
             rows.append(row)
 
     # save
     headers = csv_reader.fieldnames
     if 'num_senior_posts' not in headers:
         headers.append('num_senior_posts')
+    if 'num_junior_posts' not in headers:
+        headers.append('num_junior_posts')
     with open(out_filename, 'wb') as csv_write_file:
         csv_writer = csv.DictWriter(csv_write_file,
                                     fieldnames=headers)
@@ -261,7 +304,7 @@ def triplestore_post_counts_all_departments():
     print 'Written', out_filename
 
 
-def get_triplestore_posts(body_uri, graph, print_urls=False):
+def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=False):
     # uri
     # http://reference.data.gov.uk/id/department/co
     # http://reference.data.gov.uk/id/public-body/consumer-focus
@@ -364,14 +407,76 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
         if len(items) < per_page:
             break
         page += 1
-    return senior_posts
+    if not args.junior:
+        return senior_posts, None
+
+    # junior posts
+    # https://secure-reference.data.gov.uk/2012-09-30/doc/public-body/consumer-focus/post/CE1/immediate-junior-staff
+    url_base = 'http://reference.data.gov.uk/{graph}/doc/{body_type}/{body_name}/post/{post_id}/immediate-junior-staff.json?_page={page}'
+    junior_posts = []
+    for senior_post in senior_posts:
+        page = 1
+        senior_post_id=get_id_from_uri(senior_post['uri'])
+        while True:
+            url = url_base.format(
+                graph=graph,
+                body_type=body_type,
+                body_name=quote(body_name),
+                post_id=senior_post_id,
+                page=page)
+            if print_urls:
+                print 'Getting: ', url
+            response = requests.get(url)
+            items = response.json()['result']['items']
+            for item in items:
+                try:
+                    post = {}
+                    post['uri'] = item['_about']
+                    post['reports_to'] = senior_post_id
+                    post['row_index'] = \
+                        int(post['uri'].split('#juniorPosts')[-1])
+                    post['unit'] = item['inUnit']['label'][0]
+                    post['fte'] = item['fullTimeEquivalent']
+                    post['grade'] = item['atGrade']['prefLabel']
+                    post['salary_range'] = \
+                        item['atGrade']['payband']['salaryRange']['label'][0]
+                    post['job_title'] = item['withJob']['prefLabel']
+
+                    if 'withProfession' in item:
+                        profession_values = item['withProfession']['prefLabel']
+                        if isinstance(profession_values, basestring):
+                            profession = profession_values
+                        else:
+                            assert isinstance(profession_values, list)
+                            if len(profession_values) == 2 and \
+                                    profession_values[0].lower() == \
+                                    profession_values[1].lower():
+                                profession = sorted(profession_values)[0]  # capitalized first
+                            else:
+                                import pdb; pdb.set_trace()
+                    else:
+                        profession = None
+                    post['profession'] = profession
+                except Exception:
+                    traceback.print_exc()
+                    import pdb; pdb.set_trace()
+                junior_posts.append(post)
+            # is there another page?
+            per_page = response.json()['result']['itemsPerPage']
+            if len(items) < per_page:
+                break
+            page += 1
+    return senior_posts, junior_posts
+
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('input', choices=['triplestore', 'uploads', 'compare'])
+    #triplestore options
     parser.add_argument('--body')
     parser.add_argument('--graph')
+    parser.add_argument('--junior', action='store_true', help='Include junior posts too')
     args = parser.parse_args()
     if args.input == 'triplestore':
         if not (args.body or args.graph):
