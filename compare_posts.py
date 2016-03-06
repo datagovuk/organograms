@@ -17,10 +17,7 @@ import unicodecsv
 from compare_departments import date_to_year_first
 from uploads_scrape import munge_org
 
-one_day = 60*60*24
-one_month = one_day * 31
-six_months = one_month * 6
-requests_cache.install_cache('.compare_posts.cache', expire_after=six_months)
+requests_cache.install_cache('.compare_posts.cache')
 global args
 args = None
 
@@ -380,6 +377,10 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
                 # represented in the organogram CSV.
                 for i, held_by in enumerate(held_by_list):
                     post_ = copy.deepcopy(post)
+                    if isinstance(held_by, basestring):
+                        # Some posts have a URI in the heldBy list, which is a duplicate we can ignore
+                        # e.g. http://reference.data.gov.uk/2011-03-31/doc/public-body/ofqual/post.json?_page=1
+                        continue
                     post_['name'] = held_by.get('name', '')
                     post_['fte'] = held_by['tenure']['workingTime']
 
@@ -435,7 +436,13 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
                 page=page)
             if print_urls:
                 print 'Getting: ', url
-            response = requests.get(url)
+            # Retry if failure
+            for i in range(3):
+                response = requests.get(url)
+                if response.ok:
+                    break
+                else:
+                    print "Failed request: %s" % response.reason
             items = response.json()['result']['items']
             for item in items:
                 try:
@@ -453,7 +460,10 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
                     else:
                         post['salary_range'] = get_value(
                             item['atGrade']['payband'], dict_key='_about')
-                    post['job_title'] = item['withJob']['prefLabel']
+                    if 'withJob' in item:
+                        post['job_title'] = item['withJob']['prefLabel']
+                    else:
+                        post['job_title'] = item['label'][0]
 
                     if 'withProfession' in item:
                         profession_values = item['withProfession']['prefLabel']
@@ -475,6 +485,7 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
 
 PROFESSIONS = set('Communications, Economics, Finance, Human Resources, Information Technology, Internal Audit, Knowledge and Information Management (KIM), Law, Medicine, Military, Operational Delivery, Operational Research, Other, Planning, Policy, Procurement, Programme and Project Management (PPM), Property and asset management, Psychology, Science and Engineering, Social Research, Statisticians, Tax Professionals, Vets'.split(', '))
 PROFESSIONS_LOWER = dict((p.lower(), p) for p in PROFESSIONS)
+PROFESSIONS_LOWER_FIRST_WORD = dict((p.split()[0], p) for p in PROFESSIONS_LOWER)
 
 
 def resolve_profession(profession_values):
@@ -496,6 +507,20 @@ def resolve_profession(profession_values):
                 )
             if matching_profession:
                 return matching_profession
+        # Try matching first word
+        for profession_value in profession_values:
+            matching_profession = PROFESSIONS_LOWER_FIRST_WORD.get(
+                profession_value.lower().split()[0])
+            if matching_profession:
+                return matching_profession
+        if 'scientist' in profession_values[0].lower():
+            return 'Science and Engineering'
+        if 'statistics' in profession_values[0].lower():
+            return 'Statisticians'
+        if 'project' in profession_values[0].lower():
+            return 'Programme and Project Management (PPM)'
+        if 'medical' in profession_values[0].lower():
+            return 'Medicine'
         print 'Could not resolve profession: %r', profession_values
         import pdb; pdb.set_trace()
 
