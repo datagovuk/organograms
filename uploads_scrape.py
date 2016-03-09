@@ -96,6 +96,30 @@ def main(xls_folder, csv_folder):
             upload_date = datetime.datetime.strptime(upload_date, '%d/%m/%Y')
             action_value = row.xpath('td[@class="sign-off"]//input[@name="action"]/@value')[0]
             state = states_by_action[action_value]
+
+            # correct the 2011 states according to what is found in the
+            # triplestore - they should all say they are published
+            if date == '30/09/2011' and \
+                    xls_path not in (
+                        '/data/geo/2011-09-30/Copy-of-Final_20110930_08.11.xls',
+                        '/data/bl/2011-09-30/British-Library-Staff-and-Salary-Data---November-2011.xls',
+                        '/data/hmrc/2011-09-30/300911-HMRC-Organogram-final.xls',
+                        ):
+
+                state = 'published'
+            # correct some states that appear to be published in the
+            # triplestore, but not on the uploads page (maybe they were changed
+            # back on the uploads page but the triplestore didn't update?)
+            if xls_path in (
+                '/data/education/2012-03-31/310312-DfE-Organogram-ver2.xls',
+                '/data/nhs/2013-09-30/300913-NHSEngland-Organogram-ver4.xls',
+                '/data/cqc/2014-03-31/template.xls',
+                '/data/ofsted/2014-03-31/Government-staff-and-salary-data-blank-June-2014.xls',
+                '/data/justice/2015-09-30/September-SCS-Structure-and-Pay-Disclosure-Publicationxls.xls',
+                '/data/cabinet-office/2014-03-31/Upload---270614-FINAL.xls',
+                ):
+                state = 'published'
+
             row_info_by_xls_path[xls_path] = {
                 'version': date,
                 'org_name': org,
@@ -115,11 +139,6 @@ def main(xls_folder, csv_folder):
             date_str = row.xpath('td[@class="modified"]/text()')[0]
             row_info['action_datetime'] = \
                 datetime.datetime.strptime(date_str, '%d %b %Y %H:%M')
-            org = row_info['org_name']
-
-            filename_base = '{org}-{date}'.format(
-                org=munge_org(org),
-                date=date.replace('/', '-'))
 
             # Corrections for duplicates etc
             if xls_path == '/data/forestry/2012-03-31/300912-FC-ORGANOGRAM.xls' and date == '31/03/2012':
@@ -128,17 +147,26 @@ def main(xls_folder, csv_folder):
             if xls_path == '/data/dfid/2013-03-31/organoggram-staff-salary-transparency-Sept-2012.xls' and date == '31/03/2013':
                 # wrong date
                 row_info['version'] = '30/09/2012'
-                filename_base = 'dfid-30-09-2012'
             if xls_path == '/data/hfea/2013-03-31/2013-09-30-Disclosure-Information--Seni~taff-Payscales-as-at-30-September-2013-for-Cabinet-~-Final.xls' and date == '31/03/2013':
                 # wrong date
                 row_info['version'] = '30/09/2013'
-                filename_base = 'human_fertilisation_and_embryology_authority-30-09-2013'
             if xls_path == '/data/cefas/2014-09-30/300914_cefas_organogram.xls':
                 # another version comes a week later, so ignore this one
                 continue
             if xls_path == '/data/bl/2015-09-30/British-Library-Staff-and-Salary-Data---September-2015.xls':
                 # another version comes a day later, so ignore this one
                 continue
+            if xls_path == '/data/cabinet-office/2011-09-30/Independent-Office-staff-and-salary-data-FINAL-TEMPLATE.xls':
+                row_info['org_name'] = 'Independent Offices'
+            if xls_path == '/data/cabinet-office/2011-09-30/BCE-staff-and-salary-data-FINAL-TEMPLATE-v2.xls':
+                row_info['org_name'] = 'Boundary Commission for England'
+            if xls_path == '/data/chre/2011-09-30/111128-staff-organogram-spreadsheet.xls':
+                # another version comes a few minutes later, so ignore this one
+                continue
+
+            filename_base = '{org}-{date}'.format(
+                org=munge_org(row_info['org_name']),
+                date=row_info['version'].replace('/', '-'))
 
             if row_info['state'] == 'published':
                 row_info['xls-filename'] = filename_base + '.xls'
@@ -189,7 +217,9 @@ def download(url_path, folder, filename):
     if not response.ok:
         print 'ERROR downloading %s' % url
         print response, response.reason
-        import pdb; pdb.set_trace()
+        if filename.endswith('.xls'):
+            # actually we're only really concerned with xls files, not csv
+            import pdb; pdb.set_trace()
         return
     with open(filepath, 'wb') as f:
         f.write(response.content)
