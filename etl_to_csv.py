@@ -203,7 +203,7 @@ def verify_graph(senior, junior, errors):
     for index, post in senior_.iterrows():
         ref = post['Post Unique Reference']
         if ref in reports_to:
-            errors.append('Senior post "Post Unique Reference" is not unique. '
+            errors.append('Senior post "Post Unique Reference" is not unique. The only occasion where two rows can have the same reference is for a job share, and in this case the rows must be identical save from name, pay columns, contact phone/email, notes and FTE. '
                           'index:%s ref:"%s"' % (index, ref))
         reports_to[ref] = post['Reports to Senior Post']
         if ref == reports_to[ref]:
