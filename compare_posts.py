@@ -77,15 +77,47 @@ def uploads_posts_all_departments():
                 body_title=row['org_name'],
                 graph=date_to_year_first(row['version']),
                 senior_posts=len(senior_posts)))
+
+    # MOD fudge. Triplestore has MOD combined, but uploads it split up. So
+    # combine counts here.
+    mod_counts = defaultdict(int)
+    counts_ = []
+    for row in counts:
+        if row['body_title'] in MOD_SUBPUBS:
+            mod_counts[row['graph']] += row['senior_posts']
+        else:
+            counts_.append(row)
+    for graph, senior_posts in mod_counts.items():
+        counts_.append(dict(
+            body_title='Ministry of Defence',
+            graph=graph,
+            senior_posts=senior_posts))
+
     # save
     headers = ['body_title', 'graph', 'senior_posts']
     with open(out_filename_counts, 'wb') as csv_write_file:
         csv_writer = csv.DictWriter(csv_write_file,
                                     fieldnames=headers)
         csv_writer.writeheader()
-        for row in counts:
+        for row in counts_:
             csv_writer.writerow(row)
     print 'Written', out_filename_counts
+
+
+# MOD sub publishers that the triplestore aggregates under MoD
+MOD_SUBPUBS = (
+    'Permanent Joint Headquarters',
+    'Air Command',
+    'MoD Central Top Level Budget',
+    'Army Command',
+    'Defence Infrastructure Organisation',
+    'Defence Equipment and Support',
+    'Navy Command',
+    'Defence Science and Technology Laboratory',
+    'Head Office and Corporate Services (MoD)',
+    'Joint Forces Command',
+    #'National Army Museum',
+    )
 
 
 def get_csv_posts(csv_filepath):

@@ -230,7 +230,7 @@ Marine Management Organisation,2011-09-30,5,5
 Maritime and Coastguard Agency,2011-09-30,4,
 Medical Research Council,2011-09-30,41,41
 Met Office,2011-09-30,10,10
-Ministry of Defence,2011-09-30,615,119
+Ministry of Defence,2011-09-30,615,952
 Ministry of Justice,2011-09-30,131,131
 Monitor,2011-09-30,9,9
 Museum of Science and Industry,2011-09-30,4,4
@@ -395,7 +395,7 @@ Marine Management Organisation,2012-03-31,5,5
 Maritime and Coastguard Agency,2012-03-31,4,4
 Medical Research Council,2012-03-31,,42
 Met Office,2012-03-31,10,10
-Ministry of Defence,2012-03-31,593,45
+Ministry of Defence,2012-03-31,593,360
 Ministry of Justice,2012-03-31,130,130
 Monitor,2012-03-31,9,9
 NHS Blood and Transplant,2012-03-31,50,51
@@ -524,7 +524,7 @@ Marine Management Organisation,2012-09-30,5,5
 Maritime and Coastguard Agency,2012-09-30,4,4
 Medical Research Council,2012-09-30,,41
 Met Office,2012-09-30,9,9
-Ministry of Defence,2012-09-30,525,124
+Ministry of Defence,2012-09-30,525,868
 Ministry of Justice,2012-09-30,126,127
 Monitor,2012-09-30,10,10
 NHS Blood and Transplant,2012-09-30,51,51
@@ -643,7 +643,7 @@ Legal Services Board,2013-03-31,,5
 Maritime and Coastguard Agency,2013-03-31,4,4
 Medical Research Council,2013-03-31,,41
 Met Office,2013-03-31,,10
-Ministry of Defence,2013-03-31,187,42
+Ministry of Defence,2013-03-31,187,294
 Ministry of Justice,2013-03-31,113,117
 Monitor,2013-03-31,51,51
 NHS Blood and Transplant,2013-03-31,,50
@@ -743,7 +743,7 @@ Land Registry,2013-09-30,21,21
 Legal Services Board,2013-09-30,5,5
 Medical Research Council,2013-09-30,31,31
 Medicines and Healthcare products Regulatory Agency,2013-09-30,141,144
-Ministry of Defence,2013-09-30,584,115
+Ministry of Defence,2013-09-30,584,920
 Ministry of Justice,2013-09-30,135,136
 Monitor,2013-09-30,53,53
 NHS Blood and Transplant,2013-09-30,51,51
@@ -828,7 +828,7 @@ Independent Police Complaints Commission,2014-03-31,6,6
 Joint Nature Conservation Committee,2014-03-31,1,1
 Judicial Office,2014-03-31,5,5
 Maritime and Coastguard Agency,2014-03-31,4,4
-Ministry of Defence,2014-03-31,499,47
+Ministry of Defence,2014-03-31,499,282
 Ministry of Justice,2014-03-31,135,136
 NHS Arden CSU,2014-03-31,8,8
 NHS Blood and Transplant,2014-03-31,54,54
@@ -892,7 +892,7 @@ Independent Police Complaints Commission,2014-09-30,8,8
 Joint Nature Conservation Committee,2014-09-30,1,1
 Judicial Appointments Commission,2014-09-30,3,3
 Judicial Office,2014-09-30,5,5
-Ministry of Defence,2014-09-30,616,48
+Ministry of Defence,2014-09-30,616,384
 Ministry of Justice,2014-09-30,211,212
 NHS Midlands and Lancashire CSU,2014-09-30,7,7
 NHS South CSU,2014-09-30,,8
@@ -931,7 +931,7 @@ Human Fertilisation and Embryology Authority,2015-03-31,5,5
 Human Tissue Authority,2015-03-31,5,5
 Independent Police Complaints Commission,2015-03-31,3,3
 Maritime and Coastguard Agency,2015-03-31,4,4
-Ministry of Defence,2015-03-31,618,52
+Ministry of Defence,2015-03-31,618,364
 Ministry of Justice,2015-03-31,181,181
 NHS Arden CSU,2015-03-31,5,5
 NHS Blood and Transplant,2015-03-31,59,60
@@ -967,9 +967,10 @@ Department of Health,2015-09-30,171,172
 Driver & Vehicle Standards Agency,2015-09-30,5,6
 Driver and Vehicle Licensing Agency,2015-09-30,9,9
 Her Majesty's Revenue and Customs,2015-09-30,350,359
-Ministry of Defence,2015-09-30,650,5
+Ministry of Defence,2015-09-30,650,10
 Ministry of Justice,2015-09-30,191,192
 NHS Blood and Transplant,2015-09-30,57,57
+National Army Museum,2015-09-30,,5
 Natural England,2015-09-30,17,17
 Office of Rail and Road,2015-09-30,15,15
 Science Museum Group,2015-09-30,13,13

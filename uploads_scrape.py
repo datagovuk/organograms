@@ -163,6 +163,8 @@ def main(xls_folder, csv_folder):
             if xls_path == '/data/chre/2011-09-30/111128-staff-organogram-spreadsheet.xls':
                 # another version comes a few minutes later, so ignore this one
                 continue
+            if xls_path == '/data/dstl/2015-03-31/20150930-Final_ORGANOGRAM.xls':
+                row_info['version'] = '30/09/2015'
 
             filename_base = '{org}-{date}'.format(
                 org=munge_org(row_info['org_name']),

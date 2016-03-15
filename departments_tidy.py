@@ -8,6 +8,7 @@ from collections import defaultdict
 import os.path
 import datetime
 import pickle
+import sys
 
 import requests_cache
 # pip install fuzzywuzzy
@@ -40,6 +41,8 @@ class DguOrgs(object):
         self._by_canonized_title = {}
         self.ckanapi = ckanapi.RemoteCKAN('https://data.gov.uk',
                                           get_only=True)
+        self.ckanapi_uncached = ckanapi.RemoteCKAN('https://data.gov.uk',
+                                          get_only=False)
         # try cached pickle of the departments
         if os.path.exists(self.pickle_filename) and \
                 (datetime.datetime.fromtimestamp(os.stat(self.pickle_filename).st_mtime) >
@@ -48,7 +51,7 @@ class DguOrgs(object):
             with open(self.pickle_filename) as f:
                 orgs = pickle.load(f)
         else:
-            org_names = self.ckanapi.action.organization_list()
+            org_names = self.ckanapi_uncached.action.organization_list()
             orgs = []
             for org_name in Bar('Reading DGU organizations').iter(org_names):
                 orgs.append(self.ckanapi.action.organization_show(id=org_name))
@@ -311,6 +314,69 @@ def tidy_triplestore():
     print 'Written', out_filename
 
 
+MOD_SUBPUBS = {
+    'Permanent Joint Headquarters': ('pjhq',),
+    'Air Command': ('air cmd', 'air command', 'air govt', 'air'),
+    'MoD Central Top Level Budget': ('ctlb',),
+    'Army Command': ('army', 'land forces',),
+    'Defence Infrastructure Organisation': ('dio',),
+    'Defence Equipment and Support': ('des', 'de and s'),
+    'Navy Command': ('navy command', 'nc', 'navy cmd', 'navy'),
+    'Defence Science and Technology Laboratory': ('dstl', 'taz',),
+    'Head Office and Corporate Services (MoD)': ('hocs', 'ho and cs'),
+    'Joint Forces Command': ('joint forces command', 'jfc'),
+    'National Army Museum': ('nam', 'national army museum'),
+    }
+MOD_SUBPUBS_BY_ABBREV = None
+
+
+def mod_subpublisher(row):
+    '''Changes the row's publisher from MOD to one of MOD's sub-publishers,
+    based on the XLS filename.  Because MOD organogram files come split-up.
+    '''
+    global MOD_SUBPUBS_BY_ABBREV
+    if MOD_SUBPUBS_BY_ABBREV is None:
+        MOD_SUBPUBS_BY_ABBREV = {}
+        for name, abbrev_list in MOD_SUBPUBS.items():
+            for abbrev in abbrev_list:
+                MOD_SUBPUBS_BY_ABBREV[abbrev] = name
+
+    path = row['xls_path']
+    path_words = re.findall('([A-Za-z]+)', path)
+    path_words = ' '.join([pt.lower() for pt in path_words])
+    all_matching_subpubs = set()
+
+    # whole word match
+    for name, abbrev_list in MOD_SUBPUBS.items():
+        for abbrev in abbrev_list:
+            if re.search(r'\b%s\b' % abbrev, path_words):
+                all_matching_subpubs.add(name)
+
+    if len(all_matching_subpubs) == 0:
+        # match anywhere
+        for name, abbrev_list in MOD_SUBPUBS.items():
+            for abbrev in abbrev_list:
+                if re.search(r'%s' % abbrev, path_words):
+                    all_matching_subpubs.add(name)
+
+    #for path_token in path_words:
+    #    matching_subpub = MOD_SUBPUBS_BY_ABBREV.get(path_token)
+    #    if matching_subpub:
+    #        all_matching_subpubs.add(matching_subpub)
+    if all_matching_subpubs == set(['National Army Museum', 'Army Command']):
+        all_matching_subpubs = set(['National Army Museum'])
+    if len(all_matching_subpubs) == 0:
+        print 'ERROR: No matching MoD sub-pub for: %s' % path
+        print path_words
+        sys.exit(0)
+    elif len(all_matching_subpubs) > 1:
+        print 'ERROR: Multiple matching MoD sub-pubs for: %s' % path
+        print path_words
+        print 'Matches: ', all_matching_subpubs
+        sys.exit(0)
+    row['org_name'] = list(all_matching_subpubs)[0]
+
+
 def tidy_uploads():
     in_filename = 'uploads_report.csv'
     out_filename = 'uploads_report_tidied.csv'
@@ -318,7 +384,11 @@ def tidy_uploads():
         csv_reader = csv.DictReader(csv_read_file)
         rows = []
         for row in csv_reader:
+            if row['org_name'] == 'Ministry of Defence':
+                mod_subpublisher(row)
+
             title = canonize(row['org_name'])
+
             match = DguOrgs.by_canonized_title().get(title)
             if not match:
                 match = \
