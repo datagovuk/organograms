@@ -83,7 +83,7 @@ def uploads_posts_all_departments():
     mod_counts = defaultdict(int)
     counts_ = []
     for row in counts:
-        if row['body_title'] in MOD_SUBPUBS:
+        if row['body_title'] in MOD_AGGREGATED_SUBPUBS:
             mod_counts[row['graph']] += row['senior_posts']
         else:
             counts_.append(row)
@@ -105,7 +105,7 @@ def uploads_posts_all_departments():
 
 
 # MOD sub publishers that the triplestore aggregates under MoD
-MOD_SUBPUBS = (
+MOD_AGGREGATED_SUBPUBS = (
     'Permanent Joint Headquarters',
     'Air Command',
     'MoD Central Top Level Budget',
@@ -186,8 +186,8 @@ def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
             'Parent Department', 'Organisation', 'Unit',
             'Contact Phone', 'Contact E-mail',
             'Reports to Senior Post',
-            'Salary Cost of Reports (£)',
-            'FTE Actual Pay Floor (£)', 'Actual Pay Ceiling (£)',
+            u'Salary Cost of Reports (£)',
+            'FTE', u'Actual Pay Floor (£)', u'Actual Pay Ceiling (£)',
             'Professional/Occupational Group',
             'Notes', 'Valid?',
             'URI',
@@ -196,7 +196,7 @@ def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
         headers = [
             'Parent Department', 'Organisation', 'Unit',
             'Reporting Senior Post', 'Grade',
-            'Payscale Minimum (£)', 'Payscale Maximum (£)',
+            u'Payscale Minimum (£)', u'Payscale Maximum (£)',
             'Generic Job Title', 'Number of Posts in FTE',
             'Professional/Occupational Group',
             ]
@@ -243,10 +243,11 @@ def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
                     row['Contact E-mail'] = post['email']
                     row['Reports to Senior Post'] = \
                         get_id_from_uri(post['reports_to_uri']) or 'XX'
-                    row['Salary Cost of Reports (£)'] = ''
+                    row[u'Salary Cost of Reports (£)'] = ''
                     salary_range = split_salary_range(post['salary_range'])
-                    row['FTE Actual Pay Floor (£)'] = salary_range[0]
-                    row['Actual Pay Ceiling (£)'] = salary_range[1]
+                    row['FTE'] = post['fte']
+                    row[u'Actual Pay Floor (£)'] = salary_range[0]
+                    row[u'Actual Pay Ceiling (£)'] = salary_range[1]
                     row['Professional/Occupational Group'] = post['profession']
                     row['Notes'] = ''
                     row['Valid?'] = ''
@@ -262,8 +263,8 @@ def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
                     row['Reporting Senior Post'] = post['reports_to']
                     row['Grade'] = post['grade']
                     salary_range = split_salary_range(post['salary_range'])
-                    row['Payscale Minimum (£)'] = salary_range[0]
-                    row['Payscale Maximum (£)'] = salary_range[1]
+                    row[u'Payscale Minimum (£)'] = salary_range[0]
+                    row[u'Payscale Maximum (£)'] = salary_range[1]
                     row['Generic Job Title'] = post['job_title']
                     row['Number of Posts in FTE'] = post['fte']
                     row['Professional/Occupational Group'] = post['profession']
@@ -433,8 +434,9 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
                     # Some posts have no heldBy
                     # e.g. http://reference.data.gov.uk/id/public-body/animal-health-veterinary-laboratories-agency/post/12 2011-03-31
                     # so just record what we have
+                    post_ = copy.deepcopy(post)
                     post_['name'] = ''
-                    post_['fte']
+                    post_['fte'] = ''
                     post_['profession'] = ''
                     post_['email'] = ''
                     post_['phone'] = ''

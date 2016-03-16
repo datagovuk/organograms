@@ -7,10 +7,16 @@ import argparse
 import csv
 import os.path
 import traceback
+import time
+import sys
 
 from compare_departments import date_to_year_first
 from csv2xls import csv2xls
 from uploads_scrape import munge_org
+from compare_posts import MOD_AGGREGATED_SUBPUBS
+from etl_to_csv import load_senior, load_junior, verify_graph, ValidationFatalError
+
+args = None
 
 
 def combine():
@@ -29,7 +35,10 @@ def combine():
         uploads = dict(
             ((date_to_year_first(row['version']), row['org_name']), row)
             for row in csv_reader
-            if row['xls_path'] not in ignore_xls and row['state'] == 'published')
+            if row['xls_path'] not in ignore_xls
+            and row['state'] == 'published'
+            and row['org_name'] not in MOD_AGGREGATED_SUBPUBS)
+        # mod get added from triplestore
 
     in_filename = 'compare_post_counts.csv'
     with open(in_filename, 'rb') as csv_read_file:
@@ -42,29 +51,36 @@ def combine():
         senior_posts_triplestore = int(post_count['senior_posts_triplestore'] or 0)
         senior_posts_uploads = int(post_count['senior_posts_uploads'] or 0)
 
-        if post_count['body_title'] == 'Ministry of Defence':
-            # TODO split into sub publishers
-            continue
-        elif senior_posts_triplestore > senior_posts_uploads:
+        if post_count['body_title'] == 'Ministry of Defence' or \
+                 senior_posts_triplestore > senior_posts_uploads:
             # generate an XLS from the triplestore data
             print 'Triplestore'
             xls_filepath = get_xls_filepath(
                 org_name=post_count['body_title'],
                 graph=post_count['graph'])
-            if not os.path.exists(xls_filepath):
-                csv_filepath = get_csv_filepath(
-                    org_name=post_count['body_title'],
-                    graph=post_count['graph'],
-                    junior_or_senior='junior')
+            csv_filepath = get_csv_filepath(
+                org_name=post_count['body_title'],
+                graph=post_count['graph'],
+                junior_or_senior='junior')
+            csv2xls_filepath = os.path.join(sys.path[0],
+                                            'csv2xls.py')
+            if not os.path.exists(xls_filepath) or \
+                    (time.ctime(os.path.getmtime(xls_filepath)) <
+                     time.ctime(os.path.getmtime(csv_filepath))) or \
+                    (time.ctime(os.path.getmtime(xls_filepath)) <
+                     time.ctime(os.path.getmtime(csv2xls_filepath))):
                 print 'Converting CSV to XLS', csv_filepath
                 if not os.path.exists(csv_filepath):
                     print 'CSV not found'
                     import pdb; pdb.set_trace()
                 xls_filepath_ = csv2xls([csv_filepath])
                 assert xls_filepath
-                print xls_filepath
-                print xls_filepath_
                 assert xls_filepath == xls_filepath_
+            print xls_filepath
+            if args.check:
+                valid = check(xls_filepath)
+                if not valid:
+                    import pdb; pdb.set_trace()
             upload = None
         elif senior_posts_triplestore == senior_posts_uploads == 0:
             continue
@@ -101,6 +117,20 @@ def combine():
     print 'Written', out_filename
 
 
+def check(xls_filename):
+    errors = []
+    senior = load_senior(xls_filename, errors)
+    junior = load_junior(xls_filename, errors)
+    try:
+        verify_graph(senior, junior, errors)
+    except ValidationFatalError, e:
+        print "VALIDATION ERROR (fatal):", e
+        return False
+    for error in list(set(errors)):
+        print "VALIDATION ERROR:", error
+    return bool(not errors)
+
+
 def date_to_day_first(date_year_first):
     return '/'.join(date_year_first.split('-')[::-1])
 
@@ -127,5 +157,7 @@ def get_csv_filepath(org_name, graph, junior_or_senior):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--check', action='store_true',
+                        help='Check the XLS validates')
     args = parser.parse_args()
     combine()

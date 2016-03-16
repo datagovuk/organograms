@@ -16,7 +16,7 @@ XLS_COL_HEADERS = {
         'Post Unique Reference', 'Name', 'Grade (or equivalent)', 'Job Title',
         'Job/Team Function', 'Parent Department', 'Organisation', 'Unit',
         'Contact Phone', 'Contact E-mail', 'Reports to Senior Post',
-        u'Salary Cost of Reports (£)', u'FTE Actual Pay Floor (£)',
+        u'Salary Cost of Reports (£)', 'FTE', u'Actual Pay Floor (£)',
         u'Actual Pay Ceiling (£)', u'Total Pay (£)',
         'Professional/Occupational Group', 'Notes', 'Valid?',
     ),
@@ -51,12 +51,12 @@ def csv2xls(senior_or_junior_csv_filepaths):
             csv_headers.append(u'Total Pay (£)')
             if level == 'junior':
                 csv_headers.append('Valid?')
-            cols_map = [csv_headers.index(xls_col) for xls_col in XLS_COL_HEADERS[level]]
-            out_rows = [csv_headers]
+            # column mapping - for each of the XLS columns it gives the CSV column
+            cols_map = [csv_headers.index(xls_col)
+                        for xls_col in XLS_COL_HEADERS[level]]
+            out_rows = [XLS_COL_HEADERS[level]]
             for row in sorted(csv_rows, key=lambda r: int_if_possible(r[0])):
-                out_row = []
-                for csv_col_index in cols_map:
-                    out_row.append(row[csv_col_index])
+                out_row = [row[csv_col_index] for csv_col_index in cols_map]
                 out_rows.append(out_row)
 
             sheet = workbook.add_sheet('(final data) %s-staff' % level)
