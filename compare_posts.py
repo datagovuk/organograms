@@ -207,24 +207,39 @@ def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
                                            encoding='utf-8')
         csv_writer.writeheader()
 
+        def parse_salary_range(range_txt):
+            range_ = split_salary_range(range_txt)
+
+            # canonize variants of N/A and N/D (although the latter is not
+            # strictly allowed)
+            for i, bound in enumerate(range_):
+                if not isinstance(bound, basestring):
+                    continue
+                bound = bound.lower().strip('-')
+                if bound in ('n/a', 'na'):
+                    range_[i] = 'N/A'
+                if bound in ('n/d', 'nd'):
+                    range_[i] = 'N/D'
+            return range_
+
         def split_salary_range(range_txt):
             # e.g. u'\xa30 - \xa30'
             # occasionally: u'\xa330283 - \xa340777; \xa334068 - \xa344599'
             if range_txt is None:
-                return (None, None)
+                return [None, None]
             if range_txt.startswith(u'http://reference.data.gov.uk/id/salary-range/'):
                 # e.g. u'http://reference.data.gov.uk/id/salary-range/Loan in non BIS PR 0-'
                 # e.g. 'http://reference.data.gov.uk/id/salary-range/N / D-'
                 salary = range_txt.replace('http://reference.data.gov.uk/id/salary-range/', '')
-                return (salary, salary)
+                return [salary, salary]
             if payband_re.search(range_txt):
                 # e.g. 'http://reference.data.gov.uk/def/public-body/environment-agency/payband/ns'
                 salary = payband_re.sub('', range_txt)
-                return (salary, salary)
+                return [salary, salary]
             range_ = range_txt.replace(u'£', '').split(' - ')
             if len(range_) < 2:
                 import pdb; pdb.set_trace()
-            return range_[0], range_[-1]
+            return [range_[0], range_[-1]]
 
         try:
             if senior_or_junior == 'senior':
@@ -244,7 +259,7 @@ def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
                     row['Reports to Senior Post'] = \
                         get_id_from_uri(post['reports_to_uri']) or 'XX'
                     row[u'Salary Cost of Reports (£)'] = ''
-                    salary_range = split_salary_range(post['salary_range'])
+                    salary_range = parse_salary_range(post['salary_range'])
                     row['FTE'] = post['fte']
                     row[u'Actual Pay Floor (£)'] = salary_range[0]
                     row[u'Actual Pay Ceiling (£)'] = salary_range[1]
@@ -253,6 +268,14 @@ def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
                     row['Valid?'] = ''
                     # linked data CSV only
                     row['URI'] = post['uri']
+
+                    # MOD denotes heads of navy/army etc as reporting to
+                    # themselves. Convert to the 'XX' convention
+                    if row['Organisation'] == 'Ministry of Defence' and \
+                            row['Reports to Senior Post'] == \
+                            row['Post Unique Reference']:
+                        row['Reports to Senior Post'] = 'XX'
+
                     csv_writer.writerow(row)
             else:
                 for post in sorted(posts, key=lambda p: p['row_index']):
@@ -262,7 +285,7 @@ def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
                     row['Unit'] = post['unit']
                     row['Reporting Senior Post'] = post['reports_to']
                     row['Grade'] = post['grade']
-                    salary_range = split_salary_range(post['salary_range'])
+                    salary_range = parse_salary_range(post['salary_range'])
                     row[u'Payscale Minimum (£)'] = salary_range[0]
                     row[u'Payscale Maximum (£)'] = salary_range[1]
                     row['Generic Job Title'] = post['job_title']
@@ -380,6 +403,75 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
         else:
             import pdb; pdb.set_trace()
             raise NotImplementedError
+
+    def get_posts_from_triplestore_item(item):
+        posts = []
+        post = {}
+        post['uri'] = item['_about']
+        post['label'] = item['label'][0]
+        post['comment'] = item.get('comment')
+        unit_values = [d['label'][0] for d in item.get('postIn')
+                       if '/unit/' in d['_about']]
+        post['unit'] = unit_values[0]
+        post['note'] = item.get('note')
+        post['reports_to_uri'] = get_value(
+            item.get('reportsTo'), dict_key='_about')
+        # postStatus might be Current or Eliminated (or equiv URIs)
+        # e.g. http://reference.data.gov.uk/2011-03-31/doc/department/dh/post/WFD005.json
+        post['status'] = get_value(item.get('postStatus'), 'prefLabel')
+        if isinstance(post['reports_to_uri'], basestring) and \
+                ' ' in post['reports_to_uri']:
+            print 'Warning - reporting to multiple posts: %s %r' % \
+                (post['uri'], post['reports_to_uri'])
+            # e.g. This is due to two rows in the spreadsheet with the same ref
+            # but reporting to different people - this is an error that wasn't
+            # picked up at the time. Just ignore all but the first post
+            # reported to.
+            post['reports_to_uri'] = post['reports_to_uri'].split('; ')[0]
+
+        held_by_list = item.get('heldBy', [])
+        # Some posts are held by more than one person
+        # e.g. jobshare or maternity cover
+        # We save this as two or more "post_"s as that is how it is
+        # represented in the organogram CSV.
+        for i, held_by in enumerate(held_by_list):
+            post_ = copy.deepcopy(post)
+            if isinstance(held_by, basestring):
+                # Some posts have a URI in the heldBy list, which is a duplicate we can ignore
+                # e.g. http://reference.data.gov.uk/2011-03-31/doc/public-body/ofqual/post.json?_page=1
+                continue
+            post_['name'] = held_by.get('name', '')
+            post_['fte'] = held_by['tenure']['workingTime']
+
+            if 'profession' in held_by:
+                profession_values = held_by['profession']['prefLabel']
+                profession = resolve_profession(profession_values)
+            else:
+                profession = None
+            post_['profession'] = profession
+
+            post_['email'] = get_value(held_by.get('email'), 'label', list_index=i)
+            post_['phone'] = get_value(held_by.get('phone'), 'label', list_index=i)
+            post_['salary_range'] = get_value(
+                item.get('salaryRange'), list_index=i)
+            post_['grade'] = get_value(item.get('grade'), list_index=i)
+            posts.append(post_)
+        if not held_by_list:
+            # Some posts have no heldBy
+            # e.g. http://reference.data.gov.uk/id/public-body/animal-health-veterinary-laboratories-agency/post/12 2011-03-31
+            # so just record what we have
+            post_ = copy.deepcopy(post)
+            post_['name'] = ''
+            post_['fte'] = ''
+            post_['profession'] = ''
+            post_['email'] = ''
+            post_['phone'] = ''
+            post_['salary_range'] = get_value(item.get('salaryRange'))
+            post_['grade'] = get_value(item.get('grade'))
+            posts.append(post_)
+
+        return posts
+
     while True:
         url = url_base.format(
             graph=graph,
@@ -392,57 +484,8 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
         items = response.json()['result']['items']
         for item in items:
             try:
-                post = {}
-                post['uri'] = item['_about']
-                post['label'] = item['label'][0]
-                post['comment'] = item.get('comment')
-                unit_values = [d['label'][0] for d in item.get('postIn')
-                               if '/unit/' in d['_about']]
-                post['unit'] = unit_values[0]
-                post['note'] = item.get('note')
-                post['reports_to_uri'] = get_value(
-                    item.get('reportsTo'), dict_key='_about')
-
-                held_by_list = item.get('heldBy', [])
-                # Some posts are held by more than one person
-                # e.g. jobshare or maternity cover
-                # We save this as two or more "post_"s as that is how it is
-                # represented in the organogram CSV.
-                for i, held_by in enumerate(held_by_list):
-                    post_ = copy.deepcopy(post)
-                    if isinstance(held_by, basestring):
-                        # Some posts have a URI in the heldBy list, which is a duplicate we can ignore
-                        # e.g. http://reference.data.gov.uk/2011-03-31/doc/public-body/ofqual/post.json?_page=1
-                        continue
-                    post_['name'] = held_by.get('name', '')
-                    post_['fte'] = held_by['tenure']['workingTime']
-
-                    if 'profession' in held_by:
-                        profession_values = held_by['profession']['prefLabel']
-                        profession = resolve_profession(profession_values)
-                    else:
-                        profession = None
-                    post_['profession'] = profession
-
-                    post_['email'] = get_value(held_by.get('email'), 'label', list_index=i)
-                    post_['phone'] = get_value(held_by.get('phone'), 'label', list_index=i)
-                    post_['salary_range'] = get_value(
-                        item.get('salaryRange'), list_index=i)
-                    post_['grade'] = get_value(item.get('grade'), list_index=i)
-                    senior_posts.append(post_)
-                if not held_by_list:
-                    # Some posts have no heldBy
-                    # e.g. http://reference.data.gov.uk/id/public-body/animal-health-veterinary-laboratories-agency/post/12 2011-03-31
-                    # so just record what we have
-                    post_ = copy.deepcopy(post)
-                    post_['name'] = ''
-                    post_['fte'] = ''
-                    post_['profession'] = ''
-                    post_['email'] = ''
-                    post_['phone'] = ''
-                    post_['salary_range'] = get_value(item.get('salaryRange'))
-                    post_['grade'] = get_value(item.get('grade'))
-                    senior_posts.append(post_)
+                posts = get_posts_from_triplestore_item(item)
+                senior_posts.extend(posts)
             except Exception:
                 traceback.print_exc()
                 import pdb; pdb.set_trace()
@@ -451,6 +494,57 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
         if len(items) < per_page:
             break
         page += 1
+
+    # Get any missing bosses
+    # e.g. this MOD post reports to an Eliminated post which is not returned by
+    # the previous triplestore query.
+    # It makes no sense for someone to report to an Eliminated post, and it
+    # will not validate, so change them to report to the boss of the Eliminated
+    # post, so that they are not orphaned.
+    # http://reference.data.gov.uk/2012-03-31/doc/department/mod/post/00109782.json
+    boss_to_post_uri = dict((post['reports_to_uri'], post['uri'])
+                            for post in senior_posts)
+    post_uris = set(post['uri'] for post in senior_posts)
+    missing_posts = set(boss_to_post_uri.keys()) \
+        - post_uris \
+        - set(('XX', 'xx', None, ''))
+    if missing_posts:
+        print 'Missing posts: ', missing_posts
+        for post_uri in missing_posts:
+            #e.g. http://reference.data.gov.uk/id/department/mod/post/00105232
+            url = post_uri.replace('/id/',
+                                   '/{graph}/doc/'.format(graph=graph)) \
+                + '.json'
+            if print_urls:
+                print 'Getting: ', url
+            response = requests.get(url)
+            item = response.json()['result']['primaryTopic']
+            try:
+                if not 'label' in item:
+                    # this means the triplestore doesn't have the item
+                    # which can happen in 2011/2 when things weren't validated
+                    if '2011' in graph or '2012' in graph:
+                        continue
+                    assert 0, 'Missing post %s (boss of %s) is not in the triplestore '\
+                        'either: %s' % (post_uri, boss_to_post_uri.get(post_uri), url)
+                posts = get_posts_from_triplestore_item(item)
+                # just check it is eliminated
+                for post in posts:
+                    assert post['name'] == 'Eliminated' or \
+                        post['status'] in ('Eliminated', 'http://reference.data.gov.uk/def/civil-service-post-status/eliminated')
+                # record the eliminated post
+                senior_posts.extend(posts)
+                # change the post that reported to the eliminated post to
+                # report to the eliminated post's boss
+                for eliminated_post in posts:
+                    for post in senior_posts:
+                        if post['reports_to_uri'] == eliminated_post['uri']:
+                            post['reports_to_uri'] = eliminated_post['reports_to_uri']
+
+            except Exception:
+                traceback.print_exc()
+                import pdb; pdb.set_trace()
+
     if not args.junior:
         return senior_posts, None
 

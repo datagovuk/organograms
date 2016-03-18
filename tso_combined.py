@@ -14,7 +14,7 @@ from compare_departments import date_to_year_first
 from csv2xls import csv2xls
 from uploads_scrape import munge_org
 from compare_posts import MOD_AGGREGATED_SUBPUBS
-from etl_to_csv import load_senior, load_junior, verify_graph, ValidationFatalError
+from etl_to_csv import load_senior, load_junior, verify_graph, ValidationFatalError, load_xls_and_verify
 
 args = None
 
@@ -118,17 +118,14 @@ def combine():
 
 
 def check(xls_filename):
-    errors = []
-    senior = load_senior(xls_filename, errors)
-    junior = load_junior(xls_filename, errors)
     try:
-        verify_graph(senior, junior, errors)
-    except ValidationFatalError, e:
-        print "VALIDATION ERROR (fatal):", e
-        return False
-    for error in list(set(errors)):
-        print "VALIDATION ERROR:", error
-    return bool(not errors)
+        data = load_xls_and_verify(xls_filename)
+    except Exception:
+        print 'XLS VALIDATION EXCEPTION', xls_filename
+        traceback.print_exc()
+        import pdb; pdb.set_trace()
+    is_valid = bool(data)
+    return is_valid
 
 
 def date_to_day_first(date_year_first):

@@ -31,10 +31,13 @@ def load_excel_store_errors(filename, sheet_name, errors, input_columns, rename_
     # Output columns can be different. Update according to the rename_columns hash:
     output_columns = [ rename_columns.get(x,x) for x in input_columns ]
     try:
+        # need to convert strings at this stage or leading zeros get lost
+        string_converters = dict((col, str) for col in string_columns)
         df = pandas.read_excel(filename,
                                sheet_name,
                                convert_float=True,
-                               parse_cols=len(input_columns)-1)
+                               parse_cols=len(input_columns)-1,
+                               converters=string_converters)
     except XLRDError, e:
         errors.append( str(e) )
         return pandas.DataFrame(columns=output_columns)
@@ -65,10 +68,14 @@ def load_excel_store_errors(filename, sheet_name, errors, input_columns, rename_
             try:
                 return str(int(round(x)))
             except (TypeError, ValueError):
-                if x.upper().strip('"') == 'N/A':
-                    return 'N/A'
-                errors.append('Expected numeric values in column "%s", but got text="%s".'%(column_name,x))
-                return 0
+                try:
+                    # e.g. u'0'
+                    return str(int(x))
+                except (TypeError, ValueError):
+                    if x.upper().strip('"') == 'N/A':
+                        return 'N/A'
+                    errors.append('Expected numeric values in column "%s", but got text="%s".'%(column_name,x))
+                    return 0
         return _inner
     # int type cannot store NaN, so use object type
     for column_name in integer_columns:
@@ -168,9 +175,13 @@ class MaxDepthError(Exception):
     pass
 
 
+class PostReportsToUnknownPostError(Exception):
+    pass
+
+
 def verify_graph(senior, junior, errors):
     # ignore eliminated posts (i.e. don't exist any more)
-    senior_ = senior[senior['Name'] != "Eliminated"]
+    senior_ = senior[senior['Name'].astype(unicode) != "Eliminated"]
 
     # merge posts which are job shares
     # "post is duplicate save from name, pay columns, contact phone/email and
@@ -228,16 +239,16 @@ def verify_graph(senior, junior, errors):
                     known_refs[i] = int(ref_)
                 except:
                     pass
-            err = 'Post reports to unknown post ref:"%s". ' \
-                  'Known post refs:"%s"' % (
-                      ref, sorted(known_refs))
-            raise ValidationFatalError(err)
+            raise PostReportsToUnknownPostError(
+                'Post reports to unknown post ref:"%s". '
+                'Known post refs:"%s"' %
+                (ref, sorted(known_refs)))
         try:
             top_level_boss_by_ref[ref] = get_top_level_boss_recursive(
                 boss_ref, depth + 1)
-        except ValidationFatalError, e:
-            raise ValidationFatalError(
-                'Error with senior post "%s": %s' % (ref, e))
+        except PostReportsToUnknownPostError, e:
+            raise PostReportsToUnknownPostError('Error with senior post "%s": %s' % (ref, e))
+
         return top_level_boss_by_ref[ref]
     for index, post in senior_.iterrows():
         ref = post['Post Unique Reference']
@@ -247,6 +258,8 @@ def verify_graph(senior, junior, errors):
             errors.append('Could not follow the reporting structure from '
                           'Senior post %s "%s" up to the top in 100 steps - '
                           'is there a loop?' % (index, ref))
+        except PostReportsToUnknownPostError, e:
+            errors.append(str(e))
         else:
             if top_level_boss not in top_person_refs:
                 errors.append('Reporting from Senior post %s "%s" up to the '
@@ -261,24 +274,69 @@ def verify_graph(senior, junior, errors):
                       % ref)
 
 
+def load_xls_and_verify(xls_filename):
+    errors = []
+    senior = load_senior(xls_filename, errors)
+    junior = load_junior(xls_filename, errors)
+
+    # validation
+    is_2011_data = '2011-03-31-organogram.xls' in xls_filename or \
+        '2011-09-30-organogram.xls' in xls_filename
+    is_tso_data = 'xls-from-triplestore' in xls_filename
+    validate = not is_2011_data
+    # be lenient on all errors for these early 2011 ones because the data
+    # clearly wasn't validated at this time:
+    # * some posts are orphaned
+    # * some posts report to posts which don't exist
+    # * some job-shares are people of different grades so you get errors
+    #   about duplicate post refs.
+    if validate:
+        try:
+            verify_graph(senior, junior, errors)
+        except ValidationFatalError, e:
+            print "FATAL ERROR:", e
+            return
+
+        # leniency
+        num_errors = len(errors)
+        if 'ministry_of_defence-2012-09-30' in xls_filename or \
+                'ministry_of_defence-2014-09-30' in xls_filename:
+            # lots of references to missings posts in this one - can only
+            # ignore this
+            errors = [err for err in errors
+                      if 'Post reports to unknown post' not in err and
+                      'Senior post reporting to unknown senior post' not in err]
+        if is_tso_data:
+            # Be lenient on some things from this era that weren't checked before
+            errors = [err for err in errors
+                      if 'Senior post "Post Unique Reference" is not unique' not in err
+                      and u'Expected numeric values in column "Actual Pay ' not in err
+                      ]
+        num_errors_reduced = num_errors - len(errors)
+        if num_errors_reduced:
+            print 'Being lenient on %s/%s errors' % \
+                (num_errors_reduced, num_errors)
+
+        for error in list(set(errors)):
+            print "ERROR:", error
+
+        if errors:
+            print 'FATAL'
+            return
+    return senior, junior
+
+
 def main(input_files, output_folder):
     index = []
     for filename in input_files:
         print "-"*40
         print "Loading", filename
-        errors = []
-        senior = load_senior(filename, errors)
-        junior = load_junior(filename, errors)
-        try:
-            verify_graph(senior, junior, errors)
-        except ValidationFatalError, e:
-            print "FATAL ERROR:", e
+        data = load_xls_and_verify(filename)
+        if data is None:
+            # fatal error
             continue
-        for error in list(set(errors)):
-            print "ERROR:", error
-        if errors:
-            print 'FATAL'
-            continue
+        senior, junior = data
+
         # Calculate Organogram name
         _org = senior['Organisation']
         _org = _org[_org.notnull()].unique()

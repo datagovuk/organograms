@@ -69,6 +69,7 @@ Marine Management Organisation,2011-03-31,data/dgu/xls-from-triplestore/marine_m
 Maritime and Coastguard Agency,2011-03-31,data/dgu/xls-from-triplestore/maritime_and_coastguard_agency-2011-03-31-organogram.xls,,
 Medical Research Council,2011-03-31,data/dgu/xls-from-triplestore/medical_research_council-2011-03-31-organogram.xls,,
 Met Office,2011-03-31,data/dgu/xls-from-triplestore/met_office-2011-03-31-organogram.xls,,
+Ministry of Defence,2011-03-31,data/dgu/xls-from-triplestore/ministry_of_defence-2011-03-31-organogram.xls,,
 Ministry of Justice,2011-03-31,data/dgu/xls-from-triplestore/ministry_of_justice-2011-03-31-organogram.xls,,
 Monitor,2011-03-31,data/dgu/xls-from-triplestore/monitor-2011-03-31-organogram.xls,,
 NHS Blood and Transplant,2011-03-31,data/dgu/xls-from-triplestore/nhs_blood_and_transplant-2011-03-31-organogram.xls,,
@@ -226,6 +227,7 @@ Marine Management Organisation,2011-09-30,/data/marinemanagement/2011-09-30/Sala
 Maritime and Coastguard Agency,2011-09-30,data/dgu/xls-from-triplestore/maritime_and_coastguard_agency-2011-09-30-organogram.xls,,
 Medical Research Council,2011-09-30,/data/headoffice/2011-09-30/MRC-Organograms-v0.4-upload.xls,2012-01-13T00:00:00,2012-01-13T16:34:00
 Met Office,2011-09-30,/data/metoffice/2011-09-30/Government-Staff-and-salary-Costs-Sep-2011.xls,2011-12-04T00:00:00,2011-12-04T19:31:00
+Ministry of Defence,2011-09-30,data/dgu/xls-from-triplestore/ministry_of_defence-2011-09-30-organogram.xls,,
 Ministry of Justice,2011-09-30,/data/justice/2011-09-30/MOJ-Organogram-transparency-Sept-2011(FINAL).xls,2011-12-19T00:00:00,2011-12-19T10:14:00
 Monitor,2011-09-30,/data/monitor-nhsft/2011-09-30/government-staff-and-salary-data-blank-template---October-2011.xls,2011-12-04T00:00:00,2011-12-04T19:40:00
 Museum of Science and Industry,2011-09-30,/data/mosi/2011-09-30/government-staff-and-salary-data-template---September-2011-Final-upload.xls,2011-12-04T00:00:00,2011-12-04T19:41:00
@@ -390,6 +392,7 @@ Marine Management Organisation,2012-03-31,/data/marinemanagement/2012-03-31/Sala
 Maritime and Coastguard Agency,2012-03-31,/data/dft/2012-03-31/MCA-Transparency-Final-Return-31.03.12.xls,2012-06-15T00:00:00,2012-06-15T10:43:00
 Medical Research Council,2012-03-31,/data/headoffice/2012-03-31/MRC-Organograms-Mar12-V5.xls,2012-06-15T00:00:00,2012-06-15T10:08:00
 Met Office,2012-03-31,/data/metoffice/2012-03-31/310312---MO---Senior-and-Junior-Datasets.xls,2012-06-13T00:00:00,2012-06-13T13:23:00
+Ministry of Defence,2012-03-31,data/dgu/xls-from-triplestore/ministry_of_defence-2012-03-31-organogram.xls,,
 Ministry of Justice,2012-03-31,/data/justice/2012-03-31/Ministry-of-Justice.xls,2012-06-26T00:00:00,2012-06-26T18:13:00
 Monitor,2012-03-31,/data/monitor-nhsft/2012-03-31/government-staff-and-salary-data-blank-template---March-2012-FINAL.xls,2012-06-22T00:00:00,2012-06-22T08:56:00
 NHS Blood and Transplant,2012-03-31,/data/nhsbt/2012-03-31/NHSBT-staff-and-salary-data-blank-template---March-2012-FINALv4.xls,2012-05-31T00:00:00,2012-05-31T14:00:00
@@ -518,6 +521,7 @@ Marine Management Organisation,2012-09-30,/data/marinemanagement/2012-09-30/Sala
 Maritime and Coastguard Agency,2012-09-30,/data/dft/2012-09-30/MCA-Final-Return-30.09.12.xls,2013-02-19T00:00:00,2013-02-19T09:09:00
 Medical Research Council,2012-09-30,/data/headoffice/2012-09-30/MRC-Organograms-Sept12-V1.xls,2013-11-05T00:00:00,2013-11-05T13:00:00
 Met Office,2012-09-30,/data/metoffice/2012-09-30/300912-MO-Organogram.xls,2012-11-26T00:00:00,2012-11-26T13:16:00
+Ministry of Defence,2012-09-30,data/dgu/xls-from-triplestore/ministry_of_defence-2012-09-30-organogram.xls,,
 Ministry of Justice,2012-09-30,/data/justice/2012-09-30/government-staff-and-salary-data-blank-template---Sept-2012-(Dec-final-wip).xls,2012-12-18T00:00:00,2012-12-18T11:47:00
 Monitor,2012-09-30,/data/monitor-nhsft/2012-09-30/government-staff-and-salary-data-blank-template---September-2012-FINAL.xls,2012-11-27T00:00:00,2012-11-27T11:44:00
 NHS Blood and Transplant,2012-09-30,/data/nhsbt/2012-09-30/government-staff-and-salary-data-NHSBT--Sept12.xls,2013-02-18T00:00:00,2013-02-18T16:38:00
@@ -636,6 +640,7 @@ Legal Services Board,2013-03-31,/data/justice/2013-03-31/LSB310313.xls,2013-06-1
 Maritime and Coastguard Agency,2013-03-31,/data/dft/2013-03-31/MCA-Transparency-Final-Return-31.03.13.xls,2013-07-19T00:00:00,2013-07-19T09:22:00
 Medical Research Council,2013-03-31,/data/headoffice/2013-03-31/MRC-Organograms-Mar-13v4.xls,2013-10-24T00:00:00,2013-10-24T17:40:00
 Met Office,2013-03-31,/data/metoffice/2013-03-31/government-staff-and-salary-data---March-2013-FINAL.xls,2013-06-27T00:00:00,2013-06-27T11:45:00
+Ministry of Defence,2013-03-31,data/dgu/xls-from-triplestore/ministry_of_defence-2013-03-31-organogram.xls,,
 Ministry of Justice,2013-03-31,/data/justice/2013-03-31/MOJ-2-government-staff-and-salary-data-blank-template---31032013-final.xls,2013-06-13T00:00:00,2013-06-13T17:40:00
 Monitor,2013-03-31,/data/monitor/2013-03-31/government-staff-and-salary-data-Monitor-template---March-2013-(29022012).xls,2013-08-07T00:00:00,2013-08-07T09:37:00
 NHS Blood and Transplant,2013-03-31,/data/nhsbt/2013-03-31/government-staff-and-salary-data-template---Finalv1.3-March-2013.xls,2013-05-21T00:00:00,2013-05-21T16:06:00
@@ -735,6 +740,7 @@ Land Registry,2013-09-30,/data/landregistry/2013-09-30/300913-Land-Registry-Orga
 Legal Services Board,2013-09-30,/data/justice/2013-09-30/LSB-Organagram-FINAL-(Sept-2013).xls,2013-12-06T00:00:00,2013-12-06T16:12:00
 Medical Research Council,2013-09-30,/data/headoffice/2013-09-30/MRC-Organograms-Sep13-v1.xls,2013-11-18T00:00:00,2013-11-18T15:32:00
 Medicines and Healthcare products Regulatory Agency,2013-09-30,/data/mhra/2013-09-30/Government-staff-and-salary-data-for-MHRA---September-2013-FINAL-v2.xls,2013-12-10T00:00:00,2013-12-10T16:18:00
+Ministry of Defence,2013-09-30,data/dgu/xls-from-triplestore/ministry_of_defence-2013-09-30-organogram.xls,,
 Ministry of Justice,2013-09-30,/data/justice/2013-09-30/MOJ-2-government-staff-and-salary-data-September-2013-FINAL.xls,2014-01-03T00:00:00,2014-01-03T13:01:00
 Monitor,2013-09-30,/data/monitor/2013-09-30/Monitor-staff-and-salary-data---September-2013-FINAL.xls,2013-12-09T00:00:00,2013-12-09T11:29:00
 NHS Blood and Transplant,2013-09-30,/data/nhsbt/2013-09-30/government-staff-and-salary-data-template---FinalTemplateSept2013.xls,2013-11-28T00:00:00,2013-11-28T11:40:00
@@ -819,6 +825,7 @@ Independent Police Complaints Commission,2014-03-31,/data/ipcc/2014-03-31/IPCC-S
 Joint Nature Conservation Committee,2014-03-31,/data/jncc/2014-03-31/310314_jncc_organogram_FINAL.xls,2014-06-26T00:00:00,2014-06-26T17:04:00
 Judicial Office,2014-03-31,/data/justice/2014-03-31/JO-March-14-Final-Return.xls,2014-06-23T00:00:00,2014-06-23T09:04:00
 Maritime and Coastguard Agency,2014-03-31,/data/dft/2014-03-31/300614-MCA--Organogram--ver-1.xls,2014-10-07T00:00:00,2014-10-07T15:24:00
+Ministry of Defence,2014-03-31,data/dgu/xls-from-triplestore/ministry_of_defence-2014-03-31-organogram.xls,,
 Ministry of Justice,2014-03-31,/data/justice/2014-03-31/MoJ-SCS-Structure-and-Pay-Disclosure-March-2014-FINAL.xls,2014-06-23T00:00:00,2014-06-23T08:35:00
 NHS Arden CSU,2014-03-31,/data/ardencsu/2014-03-31/template-ACSU-Final.xls,2014-11-18T00:00:00,2014-11-18T12:06:00
 NHS Blood and Transplant,2014-03-31,/data/nhsbt/2014-03-31/government-staff-and-salary-data-template---Working-DraftMar14.xls,2014-06-16T00:00:00,2014-06-16T13:43:00
@@ -882,6 +889,7 @@ Independent Police Complaints Commission,2014-09-30,/data/ipcc/2014-09-30/IPCC-s
 Joint Nature Conservation Committee,2014-09-30,/data/jncc/2014-09-30/300914_jncc_organogram.xls,2014-12-08T00:00:00,2014-12-08T14:46:00
 Judicial Appointments Commission,2014-09-30,/data/justice/2014-09-30/JAC-September-return.xls,2014-12-11T00:00:00,2014-12-11T14:46:00
 Judicial Office,2014-09-30,/data/justice/2014-09-30/JO-September-return.xls,2014-12-11T00:00:00,2014-12-11T14:22:00
+Ministry of Defence,2014-09-30,data/dgu/xls-from-triplestore/ministry_of_defence-2014-09-30-organogram.xls,,
 Ministry of Justice,2014-09-30,/data/justice/2014-09-30/SCS-Structure-and-Pay-disclosure-final.xls,2014-12-09T00:00:00,2014-12-09T11:31:00
 NHS Midlands and Lancashire CSU,2014-09-30,/data/staffordshirecss/2014-09-30/template-(MLCSU-300914).xls,2014-12-08T00:00:00,2014-12-08T10:57:00
 NHS South CSU,2014-09-30,/data/southcsu/2014-09-30/300914-SOUTH-CSU.xls,2015-03-09T00:00:00,2015-03-09T13:28:00
@@ -920,6 +928,7 @@ Human Fertilisation and Embryology Authority,2015-03-31,/data/hfea/2015-03-31/20
 Human Tissue Authority,2015-03-31,/data/hta/2015-03-31/HTA-Organogram-2015.xls,2015-07-30T00:00:00,2015-07-30T14:29:00
 Independent Police Complaints Commission,2015-03-31,/data/ipcc/2015-03-31/20150331--Organogram-Data--IPCC-staff-and-salary-completed-template.xls,2015-06-04T00:00:00,2015-06-04T14:21:00
 Maritime and Coastguard Agency,2015-03-31,/data/dft/2015-03-31/310315-MCA-Organogram-ver-1.xls,2015-05-08T00:00:00,2015-05-08T13:09:00
+Ministry of Defence,2015-03-31,data/dgu/xls-from-triplestore/ministry_of_defence-2015-03-31-organogram.xls,,
 Ministry of Justice,2015-03-31,/data/justice/2015-03-31/FINAL.xls,2015-06-11T00:00:00,2015-06-11T13:34:00
 NHS Arden CSU,2015-03-31,/data/ardengemcsu/2015-03-31/Arden-Organogram-FINAL.xls,2015-08-18T00:00:00,2015-08-18T14:25:00
 NHS Blood and Transplant,2015-03-31,/data/nhsbt/2015-03-31/government-staff-and-salary-data-template---March-15-v3.xls,2015-08-03T00:00:00,2015-08-03T10:58:00
@@ -955,8 +964,10 @@ Department of Health,2015-09-30,/data/dh/2015-09-30/011015-DH---Organogram.xls,2
 Driver & Vehicle Standards Agency,2015-09-30,/data/dft/2015-09-30/300915-DVSA-Organogram-ver-1.xls,2015-12-15T00:00:00,2015-12-15T14:17:00
 Driver and Vehicle Licensing Agency,2015-09-30,/data/dft/2015-09-30/300915-DVLA-Organogram-ver-1.xls,2015-12-15T00:00:00,2015-12-15T13:34:00
 Her Majesty's Revenue and Customs,2015-09-30,/data/hmrc/2015-09-30/201509-HMRC-Organogram-Final.xls,2015-11-24T00:00:00,2015-11-24T16:12:00
+Ministry of Defence,2015-09-30,data/dgu/xls-from-triplestore/ministry_of_defence-2015-09-30-organogram.xls,,
 Ministry of Justice,2015-09-30,/data/justice/2015-09-30/September-SCS-Structure-and-Pay-Disclosure-Publicationxls.xls,2015-12-14T00:00:00,2015-12-14T17:35:00
 NHS Blood and Transplant,2015-09-30,/data/nhsbt/2015-09-30/government-staff-and-salary-data-template---Working-DraftSep15.xls,2015-12-04T00:00:00,2015-12-04T13:28:00
+National Army Museum,2015-09-30,/data/mod/2015-09-30/NAMSalaryDataSpreadsheetAsAt30Sep2015.xls,2015-11-27T00:00:00,2015-11-27T15:17:00
 Natural England,2015-09-30,/data/NaturalEngland/2015-09-30/300915-Natural-England-Organogram.xls,2015-12-08T00:00:00,2015-12-08T12:57:00
 Office of Rail and Road,2015-09-30,/data/dft/2015-09-30/300915-ORR-Organogram-ver-1.xls,2015-12-18T00:00:00,2015-12-18T09:06:00
 Science Museum Group,2015-09-30,/data/sciencemuseum/2015-09-30/300915-SMG-Organogram-Data-v2.xls,2015-11-24T00:00:00,2015-11-24T16:13:00
