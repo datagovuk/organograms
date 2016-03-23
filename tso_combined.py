@@ -14,7 +14,7 @@ from compare_departments import date_to_year_first
 from csv2xls import csv2xls
 from uploads_scrape import munge_org
 from compare_posts import MOD_AGGREGATED_SUBPUBS
-from etl_to_csv import load_senior, load_junior, verify_graph, ValidationFatalError, load_xls_and_verify
+from etl_to_csv import load_xls_and_verify
 
 args = None
 
@@ -47,7 +47,11 @@ def combine():
 
     out_rows = []
     for post_count in post_counts:
-        print post_count['body_title'], post_count['graph']
+        if args.graph and post_count['graph'] != args.graph:
+            continue
+        if args.body and post_count['body_title'] != args.body:
+            continue
+        print '\n' + post_count['body_title'], post_count['graph']
         senior_posts_triplestore = int(post_count['senior_posts_triplestore'] or 0)
         senior_posts_uploads = int(post_count['senior_posts_uploads'] or 0)
 
@@ -82,9 +86,11 @@ def combine():
                 if not valid:
                     import pdb; pdb.set_trace()
             upload = None
+            original_xls_filepath = None
         elif senior_posts_triplestore == senior_posts_uploads == 0:
             continue
         else:
+            print 'Upload'
             # XLS comes from the uploads
             try:
                 upload = uploads[(post_count['graph'], post_count['body_title'])]
@@ -94,19 +100,27 @@ def combine():
             if not upload['state'] == 'published':
                 print 'Not published'
                 import pdb; pdb.set_trace()
-            xls_filepath = upload['xls_path']
+            xls_filepath = 'data/dgu/xls/' + upload['xls-filename']
+            print xls_filepath
+            original_xls_filepath = upload['xls_path']
+            if args.check:
+                valid = check(xls_filepath)
 
         row = dict(
             body_title=post_count['body_title'],
             graph=post_count['graph'],
             xls_path=xls_filepath,
+            original_xls_filepath=original_xls_filepath,
             upload_date=upload['upload_date'] if upload else None,
             publish_date=upload['action_datetime'] if upload else None,
         )
         out_rows.append(row)
 
     # save
-    headers = ['body_title', 'graph', 'xls_path', 'upload_date', 'publish_date']
+    if args.graph or args.body:
+        print 'Not writing output CSV as you specified only part of the data'
+        sys.exit(0)
+    headers = ['body_title', 'graph', 'xls_path', 'original_xls_filepath', 'upload_date', 'publish_date']
     out_filename = 'tso_combined.csv'
     with open(out_filename, 'wb') as csv_write_file:
         csv_writer = csv.DictWriter(csv_write_file,
@@ -156,5 +170,7 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--check', action='store_true',
                         help='Check the XLS validates')
+    parser.add_argument('--body')
+    parser.add_argument('--graph')
     args = parser.parse_args()
     combine()
