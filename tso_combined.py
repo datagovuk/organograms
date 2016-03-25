@@ -10,6 +10,8 @@ import traceback
 import time
 import sys
 
+import unicodecsv
+
 from compare_departments import date_to_year_first
 from csv2xls import csv2xls
 from uploads_scrape import munge_org
@@ -122,8 +124,9 @@ def combine():
     headers = ['body_title', 'graph', 'xls_path', 'original_xls_filepath', 'upload_date', 'publish_date', 'errors', 'will_display']
     out_filename = 'tso_combined.csv'
     with open(out_filename, 'wb') as csv_write_file:
-        csv_writer = csv.DictWriter(csv_write_file,
-                                    fieldnames=headers)
+        csv_writer = unicodecsv.DictWriter(csv_write_file,
+                                           fieldnames=headers,
+                                           encoding='utf-8')
         csv_writer.writeheader()
         for row in out_rows:
             csv_writer.writerow(row)
