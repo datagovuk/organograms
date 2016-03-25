@@ -1,25 +1,27 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-# Quick script to pull apart official Organograms XLS files,
-# clean them up, verify the structure of the data, and output
-# a pair of CSVs: Junior and Senior staff lists.
-#
+'''
+Converts Organograms XLS files into a pair of CSVs: junior and senior posts.
+Does verification of the structure and values.
+'''
+
 # The script is structured so that errors are appended to a list
 # rather than going straight to stderr. The script can therefore
 # be reused to fulfil an API endpoint (for example).
-#
-# Command-line use: etl_to_csv.py infile1.xls infile2.xls ... output_folder/
-#
+
+# pip install pandas==0.17.0
 import pandas
 import numpy
 import sys
 import os.path
-import json
 from xlrd import XLRDError
 import csv
 import re
+import argparse
 
+
+args = None
 
 class ValidationFatalError(Exception):
     pass
@@ -29,8 +31,8 @@ def load_excel_store_errors(filename, sheet_name, errors, input_columns, rename_
     """Carefully load an Excel file, taking care to log errors and produce clean output.
     You'll always receive a dataframe with the expected columns, though it might contain 0 rows if
     there are errors. Strings will be stored in the 'errors' array."""
-    # Output columns can be different. Update according to the rename_columns hash:
-    output_columns = [ rename_columns.get(x,x) for x in input_columns ]
+    # Output columns can be different. Update according to the rename_columns dict:
+    output_columns = [rename_columns.get(x,x) for x in input_columns]
     try:
         # need to convert strings at this stage or leading zeros get lost
         string_converters = dict((col, str) for col in string_columns)
@@ -44,7 +46,7 @@ def load_excel_store_errors(filename, sheet_name, errors, input_columns, rename_
         return pandas.DataFrame(columns=output_columns)
     # Verify number of columns
     if len(df.columns)!=len(input_columns):
-        errors.append("Sheet %s contains %d columns. I expect at least %d columns."%(sheet_name,len(df.columns),len(input_columns)))
+        errors.append("Sheet '%s' contains %d columns. I expect at least %d columns."%(sheet_name,len(df.columns),len(input_columns)))
         return pandas.DataFrame(columns=output_columns)
     # Blank out columns
     for column_name in blank_columns:
@@ -53,9 +55,16 @@ def load_excel_store_errors(filename, sheet_name, errors, input_columns, rename_
         df.insert(col_index, column_name, '')
     # Softly correct column names
     for i in range(len(df.columns)):
-        if df.columns[i]!=input_columns[i]:
+        # Check column names are as expected. Also allow them to be the renamed
+        # version, since old XLS templates had "Grade" instead of "Grade (or
+        # equivalent)".
+        if df.columns[i] != input_columns[i] and \
+                df.columns[i] != output_columns[i]:
             from string import uppercase
-            errors.append("Sheet %s column %s: Title='%s' Expected='%s'" % (sheet_name,uppercase[i],df.columns[i],input_columns[i]))
+            errors.append("Wrong column title. "
+                          "Sheet '%s' column %s: Title='%s' Expected='%s'" %
+                          (sheet_name, uppercase[i], df.columns[i],
+                           input_columns[i]))
     df.columns = output_columns
     # Filter null rows
     column0 = df[ df.columns[0] ]
@@ -104,7 +113,7 @@ def load_excel_store_errors(filename, sheet_name, errors, input_columns, rename_
     return df
 
 
-def load_senior(excel_filename,errors):
+def load_senior(excel_filename, errors):
     input_columns = [
       u'Post Unique Reference',
       u'Name',
@@ -189,6 +198,12 @@ class PostReportLoopError(Exception):
 
 
 def verify_graph(senior, junior, errors):
+    '''Does checks on the senior and junior posts. Writes errors to supplied
+    empty list. Returns None.
+
+    May raise ValidationFatalError if it is so bad that the organogram cannot
+    be displayed (e.g. no "top post").
+    '''
     # ignore eliminated posts (i.e. don't exist any more)
     senior_ = senior[senior['Name'].astype(unicode) != "Eliminated"]
 
@@ -293,62 +308,97 @@ def verify_graph(senior, junior, errors):
                       % ref)
 
 
-def load_xls_and_verify(xls_filename):
+def get_verify_level(graph):
+    # parse graph date
+    graph_match = re.match(
+        r'^(?P<year>\d{4})-(?P<month>\d{2})-(?P<day>\d{2})$',
+        graph)
+    assert graph_match, 'Could not parse graph YYYY-MM-DD: %r' % graph
+    graph = graph_match.groupdict()
+    graph['year'] = int(graph['year'])
+
+    # verify level based on the date
+    if graph['year'] == 2011:
+        # Be very lenient - overlook all errors for these early 2011 ones
+        # because the data clearly wasn't validated at this time:
+        # * some posts are orphaned
+        # * some posts report to posts which don't exist
+        # * some job-shares are people of different grades so you get errors
+        #   about duplicate post refs.
+        return 'load'
+    elif graph['year'] <= 2015:
+        # Be quite lenient. During 2012 - 2015 TSO did only basic validation
+        # and we see errors:
+        # * 'Senior post "Post Unique Reference" is not unique'
+        # * u'Expected numeric values in column "Actual Pay '
+        # * 'Senior post reports to him/herself.'
+        # * 'Senior post reporting to unknown senior post'
+        # * 'Junior post reporting to unknown senior post'
+        # * 'ended up in a loop'
+        # * 'Post reports to unknown post'
+        return 'load and display'
+    else:
+        # Drupal-based workflow actually displays the problems to the user, so
+        # we can enforce all errors
+        return 'load, display and be valid'
+
+
+def load_xls_and_get_errors(xls_filename):
+    '''
+    Returns: (senior, junior, errors, will_display)
+    '''
     errors = []
     senior = load_senior(xls_filename, errors)
     junior = load_junior(xls_filename, errors)
 
-    # validation
-    graph_re = re.search(r'(?P<day>\d{2})-(?P<month>\d{2})-(?P<year>\d{4})', xls_filename) or re.search(r'(?P<year>\d{4})-(?P<month>\d{2})-(?P<day>\d{2})', xls_filename)
-    graph = graph_re.groupdict() if graph_re else None
-    graph['year'] = int(graph['year'])
-    is_2011_data = graph['year'] == 2011 if graph else False
-    is_tso_data = graph['year'] < 2016 if graph else False
-    validate = not is_2011_data
-    # be lenient on all errors for these early 2011 ones because the data
-    # clearly wasn't validated at this time:
-    # * some posts are orphaned
-    # * some posts report to posts which don't exist
-    # * some job-shares are people of different grades so you get errors
-    #   about duplicate post refs.
-    if validate:
+    if errors:
+        return None, None, errors, False
+
+    try:
+        verify_graph(senior, junior, errors)
+    except ValidationFatalError, e:
+        # display error - organogram is not displayable
+        return None, None, [unicode(e)], False
+
+    # If we get this far then it will display, although there might be problems
+    # with some posts
+    errors = dedupe_list(errors)
+    return senior, junior, errors, True
+
+
+def print_error(error_msg):
+    print 'ERROR:', error_msg.encode('utf8')  # encoding for Drupal exec()
+
+
+def load_xls_and_print_errors(xls_filename, verify_level):
+    '''
+    Loads the XLS, verifies it to an appropriate level and returns the data.
+
+    If errors are not acceptable, it prints them and returns None
+    '''
+    load_errors = []
+    senior = load_senior(xls_filename, load_errors)
+    junior = load_junior(xls_filename, load_errors)
+
+    if load_errors:
+        for error in load_errors:
+            print_error(error)
+        return
+
+    if verify_level != 'load':
+        validate_errors = []
         try:
-            verify_graph(senior, junior, errors)
+            verify_graph(senior, junior, validate_errors)
         except ValidationFatalError, e:
-            print "FATAL ERROR:", unicode(e).encode('utf8')  # encoding for Drupal exec()
+            # display error - organogram is not displayable
+            print_error(unicode(e))
             return
 
-        # leniency
-        num_errors = len(errors)
-        if 'ministry_of_defence-2012-09-30' in xls_filename or \
-                'ministry_of_defence-2014-09-30' in xls_filename:
-            # lots of references to missings posts in this one - can only
-            # ignore this
-            errors = [err for err in errors
-                      if 'Post reports to unknown post' not in err and
-                      'Senior post reporting to unknown senior post' not in err]
-        if is_tso_data:
-            # Be lenient on things from this era that weren't checked before
-            errors = [err for err in errors
-                      if 'Senior post "Post Unique Reference" is not unique' not in err
-                      and u'Expected numeric values in column "Actual Pay ' not in err
-                      and 'Senior post reports to him/herself.' not in err
-                      and 'Senior post reporting to unknown senior post' not in err
-                      and 'Junior post reporting to unknown senior post' not in err
-                      and 'ended up in a loop' not in err
-                      and 'Post reports to unknown post' not in err
-                      ]
-        num_errors_reduced = num_errors - len(errors)
-        if num_errors_reduced:
-            print 'Being lenient on %s/%s errors' % \
-                (num_errors_reduced, num_errors)
-
-        for error in dedupe_list(errors):
-            print "ERROR:", error.encode('utf8')  # encoding for Drupal exec()
-
-        if errors:
-            print 'FATAL'
+        if verify_level == 'load, display and be valid' and validate_errors:
+            for error in dedupe_list(validate_errors):
+                print_error(error)
             return
+
     return senior, junior
 
 
@@ -358,46 +408,39 @@ def dedupe_list(things):
     return [x for x in things if not (x in seen or seen_add(x))]
 
 
-def main(input_files, output_folder):
-    index = []
-    for filename in input_files:
-        print "-"*40
-        print "Loading", filename
-        data = load_xls_and_verify(filename)
-        if data is None:
-            # fatal error
-            continue
-        senior, junior = data
+def main(input_xls_filepath, output_folder):
+    print "Loading", input_xls_filepath
 
-        # Calculate Organogram name
-        _org = senior['Organisation']
-        _org = _org[_org.notnull()].unique()
-        name = " & ".join(_org)
-        if name == u'Ministry of Defence':
-            _unit = senior['Unit']
-            _unit = _unit[_unit.notnull()].unique()
-            name += " - " + (" & ".join(_unit))
-        # Write output files
-        basename, extension = os.path.splitext(os.path.basename(filename))
-        senior_filename = os.path.join(output_folder, basename+'-senior.csv')
-        junior_filename = os.path.join(output_folder, basename+'-junior.csv')
-        print "Writing", senior_filename
-        csv_options = dict(encoding="utf-8",
-                           quoting=csv.QUOTE_ALL,
-                           float_format='%.2f',
-                           index=False)
-        senior.to_csv(senior_filename, **csv_options)
-        print "Writing", junior_filename
-        junior.to_csv(junior_filename, **csv_options)
-        # Update index
-        index.append({'name': name, 'value': basename})
-    # Write index file
-    index = sorted(index, key=lambda x: x['name'])
-    index_filename = os.path.join(output_folder, 'index.json')
-    print "="*40
-    print "Writing index file:", index_filename
-    with open(index_filename, 'w') as f:
-        json.dump(index, f)
+    if args.date:
+        verify_level = get_verify_level(args.date)
+    else:
+        verify_level = 'load, display and be valid'
+    data = load_xls_and_print_errors(input_xls_filepath, verify_level)
+    if data is None:
+        # fatal error has been printed
+        return
+    senior, junior = data
+
+    # Calculate Organogram name
+    _org = senior['Organisation']
+    _org = _org[_org.notnull()].unique()
+    name = " & ".join(_org)
+    if name == u'Ministry of Defence':
+        _unit = senior['Unit']
+        _unit = _unit[_unit.notnull()].unique()
+        name += " - " + (" & ".join(_unit))
+    # Write output files
+    basename, extension = os.path.splitext(os.path.basename(input_xls_filepath))
+    senior_filename = os.path.join(output_folder, basename + '-senior.csv')
+    junior_filename = os.path.join(output_folder, basename + '-junior.csv')
+    print "Writing", senior_filename
+    csv_options = dict(encoding="utf-8",
+                       quoting=csv.QUOTE_ALL,
+                       float_format='%.2f',
+                       index=False)
+    senior.to_csv(senior_filename, **csv_options)
+    print "Writing", junior_filename
+    junior.to_csv(junior_filename, **csv_options)
     print "Done."
 
 
@@ -405,16 +448,17 @@ def usage():
     print "Usage: %s input_1.xls input_2.xls ... output_folder/" % sys.argv[0]
     sys.exit()
 
+
 if __name__ == '__main__':
-    if len(sys.argv) < 3:
-        usage()
-    input_files = sys.argv[1:-1]
-    output_folder = sys.argv[-1]
-    if not os.path.isdir(output_folder):
-        print "Error: Not a directory: %s" % output_folder
-        usage()
-    for f in input_files:
-        if not os.path.exists(f):
-            print "Error: File not found: %s" % f
-            usage()
-    main(input_files, output_folder)
+    parser = argparse.ArgumentParser(description=__doc__)
+    parser.add_argument('--date',
+                        help='The strength of verify level picked according '
+                             'to the date of the data (YYYY-MM-DD)')
+    parser.add_argument('input_xls_filepath')
+    parser.add_argument('output_folder')
+    args = parser.parse_args()
+    if not os.path.isdir(args.output_folder):
+        parser.error("Error: Not a directory: %s" % args.output_folder)
+    if not os.path.exists(args.input_xls_filepath):
+        parser.error("Error: File not found: %s" % args.input_xls_filepath)
+    main(args.input_xls_filepath, args.output_folder)

@@ -14,7 +14,7 @@ from compare_departments import date_to_year_first
 from csv2xls import csv2xls
 from uploads_scrape import munge_org
 from compare_posts import MOD_AGGREGATED_SUBPUBS
-from etl_to_csv import load_xls_and_verify
+from etl_to_csv import load_xls_and_get_errors
 
 args = None
 
@@ -81,10 +81,6 @@ def combine():
                 assert xls_filepath
                 assert xls_filepath == xls_filepath_
             print xls_filepath
-            if args.check:
-                valid = check(xls_filepath)
-                if not valid:
-                    import pdb; pdb.set_trace()
             upload = None
             original_xls_filepath = None
         elif senior_posts_triplestore == senior_posts_uploads == 0:
@@ -103,8 +99,9 @@ def combine():
             xls_filepath = 'data/dgu/xls/' + upload['xls-filename']
             print xls_filepath
             original_xls_filepath = upload['xls_path']
-            if args.check:
-                valid = check(xls_filepath)
+
+        if args.check:
+            errors, will_display = check(xls_filepath)
 
         row = dict(
             body_title=post_count['body_title'],
@@ -113,6 +110,8 @@ def combine():
             original_xls_filepath=original_xls_filepath,
             upload_date=upload['upload_date'] if upload else None,
             publish_date=upload['action_datetime'] if upload else None,
+            errors=errors,
+            will_display=will_display,
         )
         out_rows.append(row)
 
@@ -120,7 +119,7 @@ def combine():
     if args.graph or args.body:
         print 'Not writing output CSV as you specified only part of the data'
         sys.exit(0)
-    headers = ['body_title', 'graph', 'xls_path', 'original_xls_filepath', 'upload_date', 'publish_date']
+    headers = ['body_title', 'graph', 'xls_path', 'original_xls_filepath', 'upload_date', 'publish_date', 'errors', 'will_display']
     out_filename = 'tso_combined.csv'
     with open(out_filename, 'wb') as csv_write_file:
         csv_writer = csv.DictWriter(csv_write_file,
@@ -133,13 +132,16 @@ def combine():
 
 def check(xls_filename):
     try:
-        data = load_xls_and_verify(xls_filename)
+        senior, junior, errors, will_display = \
+            load_xls_and_get_errors(xls_filename)
     except Exception:
         print 'XLS VALIDATION EXCEPTION', xls_filename
         traceback.print_exc()
         import pdb; pdb.set_trace()
-    is_valid = bool(data)
-    return is_valid
+    print '%s errors' % len(errors)
+    if not will_display:
+        print 'WILL NOT DISPLAY'
+    return '; '.join(errors), will_display
 
 
 def date_to_day_first(date_year_first):
