@@ -18,6 +18,7 @@ import os.path
 import json
 from xlrd import XLRDError
 import csv
+import re
 
 
 class ValidationFatalError(Exception):
@@ -59,7 +60,7 @@ def load_excel_store_errors(filename, sheet_name, errors, input_columns, rename_
     # Filter null rows
     column0 = df[ df.columns[0] ]
     df = df[ column0.notnull() ]
-    # Softly cast to integer (or N/A)
+    # Softly cast to integer (or N/A or N/D)
     def validate_int_or_na(column_name):
         def _inner(x):
             if pandas.isnull(x):
@@ -72,9 +73,13 @@ def load_excel_store_errors(filename, sheet_name, errors, input_columns, rename_
                     # e.g. u'0'
                     return str(int(x))
                 except (TypeError, ValueError):
-                    if x.upper().strip('"') == 'N/A':
+                    # look for N/A and N/D plus all sorts of variations
+                    text = re.sub('[^A-Z]', '', x.upper())
+                    if text == 'NA':
                         return 'N/A'
-                    errors.append('Expected numeric values in column "%s", but got text="%s".'%(column_name,x))
+                    if text == 'ND':
+                        return 'N/D'
+                    errors.append('Expected numeric values in column "%s" (or N/A or N/D), but got text="%s".' % (column_name, x))
                     return 0
         return _inner
     # int type cannot store NaN, so use object type
@@ -179,6 +184,10 @@ class PostReportsToUnknownPostError(Exception):
     pass
 
 
+class PostReportLoopError(Exception):
+    pass
+
+
 def verify_graph(senior, junior, errors):
     # ignore eliminated posts (i.e. don't exist any more)
     senior_ = senior[senior['Name'].astype(unicode) != "Eliminated"]
@@ -222,11 +231,16 @@ def verify_graph(senior, junior, errors):
                           'index:%s ref:"%s"' % (index, ref))
     top_level_boss_by_ref = {}
 
-    def get_top_level_boss_recursive(ref, depth=0):
+    def get_top_level_boss_recursive(ref, posts_recursed=None):
+        if posts_recursed is None:
+            posts_recursed = []
+        posts_recursed.append(ref)
         if ref in top_person_refs:
             return ref
-        if depth > 100:
-            raise MaxDepthError()
+        if ref in posts_recursed[:-1]:
+            raise PostReportLoopError(' '.join(posts_recursed))
+        if len(posts_recursed) > 100:
+            raise MaxDepthError(' '.join(posts_recursed))
         if ref in top_level_boss_by_ref:
             return top_level_boss_by_ref[ref]
         try:
@@ -245,7 +259,7 @@ def verify_graph(senior, junior, errors):
                 (ref, sorted(known_refs)))
         try:
             top_level_boss_by_ref[ref] = get_top_level_boss_recursive(
-                boss_ref, depth + 1)
+                boss_ref, posts_recursed)
         except PostReportsToUnknownPostError, e:
             raise PostReportsToUnknownPostError('Error with senior post "%s": %s' % (ref, e))
 
@@ -254,12 +268,17 @@ def verify_graph(senior, junior, errors):
         ref = post['Post Unique Reference']
         try:
             top_level_boss = get_top_level_boss_recursive(ref)
-        except MaxDepthError:
+        except MaxDepthError, posts_recursed:
             errors.append('Could not follow the reporting structure from '
                           'Senior post %s "%s" up to the top in 100 steps - '
-                          'is there a loop?' % (index, ref))
+                          'is there a loop? Posts: %s'
+                          % (index, ref, posts_recursed))
         except PostReportsToUnknownPostError, e:
             errors.append(str(e))
+        except PostReportLoopError, posts_recursed:
+            errors.append('Reporting structure from Senior post %s "%s" '
+                          'ended up in a loop: %s'
+                          % (index, ref, posts_recursed))
         else:
             if top_level_boss not in top_person_refs:
                 errors.append('Reporting from Senior post %s "%s" up to the '
@@ -280,9 +299,11 @@ def load_xls_and_verify(xls_filename):
     junior = load_junior(xls_filename, errors)
 
     # validation
-    is_2011_data = '2011-03-31-organogram.xls' in xls_filename or \
-        '2011-09-30-organogram.xls' in xls_filename
-    is_tso_data = 'xls-from-triplestore' in xls_filename
+    graph_re = re.search(r'(?P<day>\d{2})-(?P<month>\d{2})-(?P<year>\d{4})', xls_filename) or re.search(r'(?P<year>\d{4})-(?P<month>\d{2})-(?P<day>\d{2})', xls_filename)
+    graph = graph_re.groupdict() if graph_re else None
+    graph['year'] = int(graph['year'])
+    is_2011_data = graph['year'] == 2011 if graph else False
+    is_tso_data = graph['year'] < 2016 if graph else False
     validate = not is_2011_data
     # be lenient on all errors for these early 2011 ones because the data
     # clearly wasn't validated at this time:
@@ -294,7 +315,7 @@ def load_xls_and_verify(xls_filename):
         try:
             verify_graph(senior, junior, errors)
         except ValidationFatalError, e:
-            print "FATAL ERROR:", e.encode('utf8')  # encoding for Drupal exec()
+            print "FATAL ERROR:", unicode(e).encode('utf8')  # encoding for Drupal exec()
             return
 
         # leniency
@@ -307,23 +328,34 @@ def load_xls_and_verify(xls_filename):
                       if 'Post reports to unknown post' not in err and
                       'Senior post reporting to unknown senior post' not in err]
         if is_tso_data:
-            # Be lenient on some things from this era that weren't checked before
+            # Be lenient on things from this era that weren't checked before
             errors = [err for err in errors
                       if 'Senior post "Post Unique Reference" is not unique' not in err
                       and u'Expected numeric values in column "Actual Pay ' not in err
+                      and 'Senior post reports to him/herself.' not in err
+                      and 'Senior post reporting to unknown senior post' not in err
+                      and 'Junior post reporting to unknown senior post' not in err
+                      and 'ended up in a loop' not in err
+                      and 'Post reports to unknown post' not in err
                       ]
         num_errors_reduced = num_errors - len(errors)
         if num_errors_reduced:
             print 'Being lenient on %s/%s errors' % \
                 (num_errors_reduced, num_errors)
 
-        for error in list(set(errors)):
+        for error in dedupe_list(errors):
             print "ERROR:", error.encode('utf8')  # encoding for Drupal exec()
 
         if errors:
             print 'FATAL'
             return
     return senior, junior
+
+
+def dedupe_list(things):
+    seen = set()
+    seen_add = seen.add
+    return [x for x in things if not (x in seen or seen_add(x))]
 
 
 def main(input_files, output_folder):
