@@ -1,0 +1,10 @@
+pandas==0.17.0
+numpy
+xlrd
+xlwt
+requests
+requests_cache
+python-levenshtein
+progress
+fuzzywuzzy
+unicodecsv
