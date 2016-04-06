@@ -131,8 +131,7 @@ def get_csv_posts(csv_filepath):
             import pdb; pdb.set_trace()
 
 
-
-def triplestore_posts(body_title, graph):
+def triplestore_posts_to_csv(body_title, graph):
     '''Saves posts from a particular triplestore departments/graph.
     '''
     in_filename = 'triplestore_departments_tidied.csv'
@@ -263,7 +262,8 @@ def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
                     row['FTE'] = post['fte']
                     row[u'Actual Pay Floor (£)'] = salary_range[0]
                     row[u'Actual Pay Ceiling (£)'] = salary_range[1]
-                    row['Professional/Occupational Group'] = post['profession']
+                    row['Professional/Occupational Group'] = \
+                        resolve_profession(post['profession'])
                     row['Notes'] = ''
                     row['Valid?'] = ''
                     # linked data CSV only
@@ -298,9 +298,9 @@ def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
     print 'Written', out_filepath
 
 
-def triplestore_posts_all_departments():
+def triplestore_post_counts():
     '''Gets a list of triplestore departments/graphs, gets the posts,
-    and saves posts and counts to new files.
+    and saves post counts in a CSV.
     '''
     in_filename = 'triplestore_departments_tidied.csv'
     out_filename_counts = 'triplestore_post_counts.csv'
@@ -445,7 +445,7 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
 
             if 'profession' in held_by:
                 profession_values = held_by['profession']['prefLabel']
-                profession = resolve_profession(profession_values)
+                profession = profession_values
             else:
                 profession = None
             post_['profession'] = profession
@@ -595,7 +595,7 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
 
                     if 'withProfession' in item:
                         profession_values = item['withProfession']['prefLabel']
-                        profession = resolve_profession(profession_values)
+                        profession = profession_values
                     else:
                         profession = None
                     post['profession'] = profession
@@ -620,6 +620,8 @@ def resolve_profession(profession_values):
     '''Takes a profession list (or maybe a string) and return a single
     profession that it represents.
     '''
+    if not profession_values:
+        return None
     if isinstance(profession_values, basestring):
         profession_values = [profession_values]
     assert isinstance(profession_values, list)
@@ -649,23 +651,27 @@ def resolve_profession(profession_values):
             return 'Programme and Project Management (PPM)'
         if 'medical' in profession_values[0].lower():
             return 'Medicine'
+        if 'legal' in profession_values[0].lower():
+            return 'Law'
         print 'Could not resolve profession: %r', profession_values
         import pdb; pdb.set_trace()
 
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('input', choices=['triplestore', 'uploads', 'compare'])
+    parser.add_argument('input', choices=['triplestore-to-csv', 'triplestore-counts',
+                                          'uploads', 'compare'])
     #triplestore options
     parser.add_argument('--body')
     parser.add_argument('--graph')
     parser.add_argument('--junior', action='store_true', help='Include junior posts too')
     args = parser.parse_args()
-    if args.input == 'triplestore':
-        if not (args.body or args.graph):
-            triplestore_posts_all_departments()
-        else:
-            triplestore_posts(args.body, args.graph)
+    if args.input == 'triplestore-to-csv':
+        assert (args.body or args.graph), 'Please supply a --body or --graph filter'
+        triplestore_posts_to_csv(args.body, args.graph)
+    elif args.input == 'triplestore-counts':
+        assert not (args.body or args.graph), 'No options allowed for this command'
+        triplestore_post_counts()
     elif args.input == 'uploads':
         uploads_posts_all_departments()
     elif args.input == 'compare':
