@@ -150,10 +150,10 @@ def triplestore_posts_to_csv(body_title, graph):
                     get_triplestore_posts(body_uri, graph, print_urls=True)
                 print '%s %s Senior:%s' % (row['title'], graph_,
                                            len(senior_posts))
-                save_posts_csv(row['title'], graph, 'senior',
+                save_posts_csv(row['title'], graph_, 'senior',
                                'data/dgu/csv-from-triplestore', senior_posts)
                 if junior_posts is not None:
-                    save_posts_csv(row['title'], graph, 'junior',
+                    save_posts_csv(row['title'], graph_, 'junior',
                                    'data/dgu/csv-from-triplestore',
                                    junior_posts)
                 done_anything = True
@@ -298,39 +298,45 @@ def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
     print 'Written', out_filepath
 
 
-def triplestore_post_counts():
+def triplestore_post_counts(body_title, graph):
     '''Gets a list of triplestore departments/graphs, gets the posts,
     and saves post counts in a CSV.
     '''
     in_filename = 'triplestore_departments_tidied.csv'
     out_filename_counts = 'triplestore_post_counts.csv'
-    #out_filename_posts = 'triplestore_posts.csv'
     with open(in_filename, 'rb') as csv_read_file:
         csv_reader = csv.DictReader(csv_read_file)
         counts = []
         rows = [row for row in csv_reader]
         for row in Bar('Reading posts from organizations').iter(rows):
+            if body_title and body_title not in (row['title'], row['name']):
+                continue
             #print row['title']
             uris = row['uris'].split()
-            for i, graph in enumerate(row['graphs'].split()):
+            for i, graph_ in enumerate(row['graphs'].split()):
+                if graph and graph != graph_:
+                    continue
                 body_uri = uris[i]
                 senior_posts, junior_posts = \
-                    get_triplestore_posts(body_uri, graph)
+                    get_triplestore_posts(body_uri, graph_)
                 counts.append(dict(
                     body_title=row['title'],
-                    graph=graph,
+                    graph=graph_,
                     senior_posts=len(senior_posts),
                     junior_posts=len(junior_posts) if junior_posts is not None else None,
                     ))
     # save
-    headers = ['body_title', 'graph', 'senior_posts', 'junior_posts']
-    with open(out_filename_counts, 'wb') as csv_write_file:
-        csv_writer = csv.DictWriter(csv_write_file,
-                                    fieldnames=headers)
-        csv_writer.writeheader()
-        for row in counts:
-            csv_writer.writerow(row)
-    print 'Written', out_filename_counts
+    if not (body_title or graph):
+        headers = ['body_title', 'graph', 'senior_posts', 'junior_posts']
+        with open(out_filename_counts, 'wb') as csv_write_file:
+            csv_writer = csv.DictWriter(csv_write_file,
+                                        fieldnames=headers)
+            csv_writer.writeheader()
+            for row in counts:
+                csv_writer.writerow(row)
+        print 'Written', out_filename_counts
+    else:
+        print 'Not written counts because of filters make them incomplete'
 
 
 def triplestore_post_counts_all_departments():
@@ -396,7 +402,7 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
                     list_index = -1
                 return get_value(value[list_index], **options)
             return '; '.join(get_value(val, **options) for val in value)
-        elif isinstance(value, basestring):
+        elif isinstance(value, (basestring, int, float)):
             return value
         elif value is None:
             return None
@@ -441,7 +447,7 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
                 # e.g. http://reference.data.gov.uk/2011-03-31/doc/public-body/ofqual/post.json?_page=1
                 continue
             post_['name'] = held_by.get('name', '')
-            post_['fte'] = held_by['tenure']['workingTime']
+            post_['fte'] = get_value(held_by.get('tenure'), 'workingTime', list_index=i)
 
             if 'profession' in held_by:
                 profession_values = held_by['profession']['prefLabel']
@@ -670,8 +676,7 @@ if __name__ == '__main__':
         assert (args.body or args.graph), 'Please supply a --body or --graph filter'
         triplestore_posts_to_csv(args.body, args.graph)
     elif args.input == 'triplestore-counts':
-        assert not (args.body or args.graph), 'No options allowed for this command'
-        triplestore_post_counts()
+        triplestore_post_counts(args.body, args.graph)
     elif args.input == 'uploads':
         uploads_posts_all_departments()
     elif args.input == 'compare':
