@@ -1,985 +1,1104 @@
-body_title,graph,senior_posts_triplestore,senior_posts_uploads
-Animal Health and Veterinary Laboratories Agency,2011-03-31,12,
-Appointments Commission,2011-03-31,3,
-Asset Protection Agency,2011-03-31,18,
-Attorney General's Office,2011-03-31,6,
-Audit Commission,2011-03-31,25,
-BIG Lottery Fund,2011-03-31,21,
-British Transport Police Authority,2011-03-31,17,
-Cabinet Office,2011-03-31,216,
-Care Quality Commission,2011-03-31,46,
-Child Maintenance and Enforcement Commission,2011-03-31,39,
-Children and Family Court Advisory and Support Service,2011-03-31,9,
-Children's Workforce Development Council,2011-03-31,7,
-Coal Authority,2011-03-31,6,
-Competition Commission,2011-03-31,20,
-Consumer Council for Water,2011-03-31,5,
-Council for Healthcare Regulatory Excellence,2011-03-31,4,
-Criminal Cases Review Commission,2011-03-31,14,
-Criminal Injuries Compensation Authority,2011-03-31,2,
-Criminal Records Bureau,2011-03-31,3,
-Crown Prosecution Service,2011-03-31,72,
-Defence Support Group,2011-03-31,6,
-"Department for Business, Innovation and Skills",2011-03-31,191,
-Department for Communities and Local Government,2011-03-31,98,
-"Department for Culture, Media and Sport",2011-03-31,0,
-"Department for Environment, Food and Rural Affairs",2011-03-31,121,
-Department for International Development,2011-03-31,80,
-Department for Transport,2011-03-31,117,
-Department for Work and Pensions,2011-03-31,266,
-Department of Education,2011-03-31,122,
-Department of Energy and Climate Change,2011-03-31,93,
-Department of Health,2011-03-31,301,
-Driver and Vehicle Licensing Agency,2011-03-31,7,
-Driving Standards Agency,2011-03-31,3,
-Engineering and Physical Sciences Research Council,2011-03-31,4,
-English Heritage,2011-03-31,21,
-Environment Agency,2011-03-31,163,
-Equality and Human Rights Commission,2011-03-31,5,
-FCO Services,2011-03-31,9,
-Foreign and Commonwealth Office,2011-03-31,118,
-General Social Care Council,2011-03-31,4,
-Government Car and Despatch Agency,2011-03-31,0,
-Government Equalities Office,2011-03-31,8,
-HM Crown Prosecution Service Inspectorate,2011-03-31,2,
-HM Inspectorate of Constabulary,2011-03-31,10,
-HM Treasury,2011-03-31,0,
-Health Protection Agency,2011-03-31,51,
-Health and Safety Executive,2011-03-31,47,
-Her Majesty's Revenue and Customs,2011-03-31,345,
-Higher Education Funding Council for England,2011-03-31,4,
-Highways Agency,2011-03-31,30,
-Home Office,2011-03-31,124,
-Homes and Communities Agency,2011-03-31,10,
-Horniman Public Museum & Public Park Trust,2011-03-31,1,
-Human Tissue Authority,2011-03-31,5,
-Identity & Passport Service,2011-03-31,14,
-Independent Housing Ombudsman,2011-03-31,4,
-Independent Living Fund,2011-03-31,3,
-Independent Police Complaints Commission,2011-03-31,6,
-Independent Safeguarding Authority,2011-03-31,3,
-Information Commissioner's Office,2011-03-31,6,
-Infrastructure Planning Commission,2011-03-31,14,
-Intellectual Property Office,2011-03-31,8,
-Joint Nature Conservation Committee,2011-03-31,1,
-Judicial Appointments Commission,2011-03-31,5,
-Land Registry,2011-03-31,25,
-Leasehold Advisory Service,2011-03-31,1,
-Legal Services Board,2011-03-31,6,
-Legal Services Commission,2011-03-31,13,
-London Thames Gateway Development Corporation,2011-03-31,8,
-Marine Management Organisation,2011-03-31,4,
-Maritime and Coastguard Agency,2011-03-31,4,
-Medical Research Council,2011-03-31,42,
-Met Office,2011-03-31,10,
-Ministry of Defence,2011-03-31,600,
-Ministry of Justice,2011-03-31,170,
-Monitor,2011-03-31,9,
-NHS Blood and Transplant,2011-03-31,53,
-NHS Information Centre for Health and Social Care,2011-03-31,28,
-NHS Litigation Authority,2011-03-31,6,
-National Army Museum,2011-03-31,5,
-National College for Leadership of Schools and Children's Services,2011-03-31,22,
-National Heritage Memorial Fund,2011-03-31,4,
-National Institute for Health and Care Excellence,2011-03-31,16,
-National Lottery Commission,2011-03-31,5,
-National Measurement Office,2011-03-31,1,
-National Museum of Science and Industry,2011-03-31,10,
-National Museums Liverpool,2011-03-31,7,
-National Offender Management Service,2011-03-31,85,
-National Patient Safety Agency,2011-03-31,5,
-National Policing Improvement Agency,2011-03-31,31,
-Natural England,2011-03-31,24,
-Natural History Museum,2011-03-31,4,
-Northern Ireland Human Rights Commission,2011-03-31,1,
-Northern Ireland Office,2011-03-31,8,
-"Office for Standards in Education, Children's Services and Skills",2011-03-31,37,
-Office of Qualifications and Examinations Regulation,2011-03-31,5,
-Office of the Children's Commissioner,2011-03-31,5,
-Office of the Immigration Services Commissioner,2011-03-31,1,
-Olympic Delivery Authority,2011-03-31,32,
-Ordnance Survey,2011-03-31,6,
-Parades Commission for Northern Ireland,2011-03-31,1,
-Parole Board,2011-03-31,2,
-Public Lending Right,2011-03-31,1,
-Qualifications and Curriculum Development Agency,2011-03-31,12,
-Royal Air Force Museum,2011-03-31,3,
-Rural Payments Agency,2011-03-31,9,
-Science and Technology Facilities Council,2011-03-31,39,
-Scotland Office,2011-03-31,4,
-Scottish Government,2011-03-31,216,
-Scottish Law Commission,2011-03-31,1,
-Security Industry Authority,2011-03-31,4,
-Serious Fraud Office,2011-03-31,10,
-Serious Organised Crime Agency,2011-03-31,6,
-Sport England,2011-03-31,8,
-Standards Board for England,2011-03-31,4,
-Tate,2011-03-31,6,
-Tenant Services Authority,2011-03-31,8,
-The British Library,2011-03-31,45,
-The British Museum,2011-03-31,7,
-The Geffrye Museum,2011-03-31,1,
-The Insolvency Service,2011-03-31,5,
-The National Archives,2011-03-31,7,
-The National Gallery,2011-03-31,7,
-The Northern Lighthouse Board,2011-03-31,4,
-The Pensions Regulator,2011-03-31,64,
-Thurrock Thames Gateway Development Corporation,2011-03-31,4,
-Training and Development Agency for Schools,2011-03-31,14,
-Treasury Solicitor's Department,2011-03-31,61,
-UK Border Agency,2011-03-31,81,
-UK Debt Management Office,2011-03-31,4,
-UK Sport,2011-03-31,6,
-UK Supreme Court,2011-03-31,2,
-United Kingdom Atomic Energy Authority,2011-03-31,10,
-Valuation Office Agency,2011-03-31,11,
-Vehicle Certification Agency,2011-03-31,1,
-Vehicle and Operator Services Agency,2011-03-31,3,
-Veterinary Medicines Directorate,2011-03-31,3,
-Victoria & Albert Museum,2011-03-31,5,
-Wales Office,2011-03-31,4,
-West Northamptonshire Development Corporation,2011-03-31,5,
-Youth Justice Board,2011-03-31,15,
-"Advisory, Conciliation and Arbitration Service",2011-09-30,4,4
-Animal Health and Veterinary Laboratories Agency,2011-09-30,11,11
-Appointments Commission,2011-09-30,3,3
-Arts and Humanities Research Council,2011-09-30,4,4
-Asset Protection Agency,2011-09-30,16,17
-Attorney General's Office,2011-09-30,5,5
-Audit Commission,2011-09-30,23,23
-Biotechnology and Biological Sciences Research Council,2011-09-30,24,24
-Boundary Commission for England,2011-09-30,,2
-Boundary Commission for Scotland,2011-09-30,3,3
-British Tourist Authority,2011-09-30,5,5
-British Transport Police Authority,2011-09-30,17,17
-Cabinet Office,2011-09-30,233,230
-Capital For Enterprise Ltd,2011-09-30,7,7
-Care Quality Commission,2011-09-30,44,44
-"Centre for Environment, Fisheries & Aquaculture Science",2011-09-30,4,4
-Child Maintenance and Enforcement Commission,2011-09-30,36,36
-Children and Family Court Advisory and Support Service,2011-09-30,8,8
-Children's Workforce Development Council,2011-09-30,7,7
-Civil Nuclear Police Authority,2011-09-30,4,4
-Civil Service Learning,2011-09-30,5,5
-Coal Authority,2011-09-30,6,6
-Committee on Climate Change,2011-09-30,4,4
-Competition Commission,2011-09-30,21,21
-Consumer Council for Water,2011-09-30,4,4
-Consumer Futures,2011-09-30,7,7
-Council for Healthcare Regulatory Excellence,2011-09-30,4,4
-Criminal Cases Review Commission,2011-09-30,14,14
-Criminal Injuries Compensation Authority,2011-09-30,2,2
-Criminal Records Bureau,2011-09-30,3,3
-Crown Prosecution Service,2011-09-30,71,71
-Defence Support Group,2011-09-30,6,6
-"Department for Business, Innovation and Skills",2011-09-30,194,198
-Department for Communities and Local Government,2011-09-30,99,103
-"Department for Culture, Media and Sport",2011-09-30,44,44
-"Department for Environment, Food and Rural Affairs",2011-09-30,107,110
-Department for International Development,2011-09-30,78,78
-Department for Transport,2011-09-30,114,
-Department for Work and Pensions,2011-09-30,202,208
-Department of Education,2011-09-30,122,128
-Department of Energy and Climate Change,2011-09-30,99,101
-Department of Health,2011-09-30,312,312
-Driver and Vehicle Licensing Agency,2011-09-30,7,
-Driving Standards Agency,2011-09-30,3,
-Engineering Construction Industry Training Board,2011-09-30,7,7
-Engineering and Physical Sciences Research Council,2011-09-30,4,4
-English Heritage,2011-09-30,21,21
-Environment Agency,2011-09-30,153,153
-Equality and Human Rights Commission,2011-09-30,5,5
-Foreign and Commonwealth Office,2011-09-30,129,131
-Forestry Commission,2011-09-30,11,11
-Gambling Commission,2011-09-30,13,13
-Government Procurement Service,2011-09-30,4,4
-HM Crown Prosecution Service Inspectorate,2011-09-30,2,2
-HM Inspectorate of Constabulary,2011-09-30,16,16
-HM Inspectorate of Prisons,2011-09-30,1,1
-HM Inspectorate of Probation,2011-09-30,1,1
-HM Treasury,2011-09-30,97,115
-Health Protection Agency,2011-09-30,50,50
-Health and Safety Executive,2011-09-30,48,48
-High Speed 2 Limited,2011-09-30,4,4
-Highways Agency,2011-09-30,27,
-Home Office,2011-09-30,148,151
-Horniman Public Museum & Public Park Trust,2011-09-30,1,1
-Horserace Betting Levy Board,2011-09-30,3,3
-Human Fertilisation and Embryology Authority,2011-09-30,5,5
-Human Tissue Authority,2011-09-30,5,5
-Identity & Passport Service,2011-09-30,14,14
-Imperial War Museum,2011-09-30,3,3
-Independent Housing Ombudsman,2011-09-30,3,3
-Independent Living Fund,2011-09-30,3,3
-Independent Offices,2011-09-30,,2
-Independent Police Complaints Commission,2011-09-30,5,5
-Independent Safeguarding Authority,2011-09-30,3,3
-Information Commissioner's Office,2011-09-30,6,6
-Infrastructure Planning Commission,2011-09-30,7,7
-Intellectual Property Office,2011-09-30,8,8
-Joint Nature Conservation Committee,2011-09-30,1,1
-Judicial Appointments Commission,2011-09-30,4,4
-Judicial Office,2011-09-30,5,5
-Land Registry,2011-09-30,24,24
-Learning and Skills Improvement Service,2011-09-30,4,
-Leasehold Advisory Service,2011-09-30,1,1
-Legal Services Board,2011-09-30,6,6
-Legal Services Commission,2011-09-30,13,13
-London Thames Gateway Development Corporation,2011-09-30,6,6
-Marine Management Organisation,2011-09-30,5,5
-Maritime and Coastguard Agency,2011-09-30,4,
-Medical Research Council,2011-09-30,41,41
-Met Office,2011-09-30,10,10
-Ministry of Defence,2011-09-30,615,952
-Ministry of Justice,2011-09-30,131,131
-Monitor,2011-09-30,9,9
-Museum of Science and Industry,2011-09-30,4,4
-NHS Blood and Transplant,2011-09-30,49,50
-NHS Business Services Authority,2011-09-30,5,5
-NHS Information Centre for Health and Social Care,2011-09-30,35,35
-NHS Litigation Authority,2011-09-30,6,6
-National Army Museum,2011-09-30,5,5
-National College for School Leadership,2011-09-30,22,22
-National Fraud Authority,2011-09-30,4,4
-National Institute for Health and Care Excellence,2011-09-30,17,17
-National Lottery Commission,2011-09-30,5,5
-National Maritime Museum,2011-09-30,6,6
-National Measurement Office,2011-09-30,1,1
-National Museum of Science and Industry,2011-09-30,9,9
-National Museums Liverpool,2011-09-30,7,7
-National Offender Management Service,2011-09-30,75,77
-National Patient Safety Agency,2011-09-30,5,5
-National Policing Improvement Agency,2011-09-30,31,31
-National Portrait Gallery,2011-09-30,1,1
-National Treatment Agency for Substance Misuse,2011-09-30,5,
-Natural England,2011-09-30,23,
-Natural History Museum,2011-09-30,4,4
-Nuclear Decommissioning Authority,2011-09-30,54,54
-Office for Budget Responsibility,2011-09-30,4,4
-"Office for Standards in Education, Children's Services and Skills",2011-09-30,38,38
-Office of Qualifications and Examinations Regulation,2011-09-30,5,5
-Office of the Advocate General of Scotland,2011-09-30,5,5
-Office of the Immigration Services Commissioner,2011-09-30,2,2
-Olympic Delivery Authority,2011-09-30,29,29
-Ordnance Survey,2011-09-30,6,6
-Parole Board,2011-09-30,2,2
-Partnerships for Schools,2011-09-30,22,22
-Pensions Ombudsman,2011-09-30,2,2
-Planning Inspectorate,2011-09-30,5,5
-Prisons and Probation Ombudsman,2011-09-30,2,2
-Public Lending Right,2011-09-30,1,1
-Qualifications and Curriculum Development Agency,2011-09-30,9,9
-Queen Elizabeth II Conference Centre,2011-09-30,1,1
-Royal Air Force Museum,2011-09-30,3,3
-Rural Payments Agency,2011-09-30,13,13
-Science and Technology Facilities Council,2011-09-30,37,37
-Scotland Office,2011-09-30,4,4
-Security Industry Authority,2011-09-30,4,4
-Serious Fraud Office,2011-09-30,9,9
-Serious Organised Crime Agency,2011-09-30,5,5
-Sir John Soane's Museum,2011-09-30,1,1
-Skills Funding Agency,2011-09-30,61,61
-Sport England,2011-09-30,8,8
-Standards Board for England,2011-09-30,3,3
-Student Loans Company Limited,2011-09-30,8,8
-Tate,2011-09-30,6,6
-Tenant Services Authority,2011-09-30,9,9
-The British Museum,2011-09-30,7,7
-The Food and Environment Research Agency,2011-09-30,6,6
-The Geffrye Museum,2011-09-30,1,1
-The Insolvency Service,2011-09-30,5,5
-The National Gallery,2011-09-30,7,7
-The National Museum of the Royal Navy,2011-09-30,4,4
-The Northern Lighthouse Board,2011-09-30,4,4
-The Pensions Advisory Service,2011-09-30,1,1
-The Pensions Regulator,2011-09-30,89,89
-The Wallace Collection,2011-09-30,4,4
-Thurrock Thames Gateway Development Corporation,2011-09-30,4,4
-Training and Development Agency for Schools,2011-09-30,13,13
-Transport Focus,2011-09-30,3,3
-Treasury Solicitor's Department,2011-09-30,69,69
-Trinity House Lighthouse Service,2011-09-30,4,4
-UK Anti-Doping,2011-09-30,5,5
-UK Border Agency,2011-09-30,82,82
-UK Commission for Employment and Skills,2011-09-30,6,6
-UK Debt Management Office,2011-09-30,4,4
-UK Sport,2011-09-30,7,7
-United Kingdom Atomic Energy Authority,2011-09-30,10,10
-United Kingdom Hydrographic Office,2011-09-30,5,
-Valuation Office Agency,2011-09-30,12,12
-Vehicle Certification Agency,2011-09-30,1,
-Vehicle and Operator Services Agency,2011-09-30,3,
-Veterinary Medicines Directorate,2011-09-30,3,3
-Victoria & Albert Museum,2011-09-30,5,5
-Visit England,2011-09-30,5,5
-West Northamptonshire Development Corporation,2011-09-30,4,4
-Young People's Learning Agency,2011-09-30,24,24
-Youth Justice Board,2011-09-30,15,15
-"Advisory, Conciliation and Arbitration Service",2012-03-31,6,6
-Animal Health and Veterinary Laboratories Agency,2012-03-31,13,13
-Arts Council England,2012-03-31,9,9
-Arts and Humanities Research Council,2012-03-31,3,3
-Asset Protection Agency,2012-03-31,13,13
-Attorney General's Office,2012-03-31,6,6
-Audit Commission,2012-03-31,21,
-BIG Lottery Fund,2012-03-31,22,22
-Boundary Commission for England,2012-03-31,3,3
-British Tourist Authority,2012-03-31,5,5
-British Transport Police Authority,2012-03-31,17,17
-Cabinet Office,2012-03-31,226,226
-Capital For Enterprise Ltd,2012-03-31,9,9
-Care Quality Commission,2012-03-31,49,49
-"Centre for Environment, Fisheries & Aquaculture Science",2012-03-31,4,4
-Child Maintenance and Enforcement Commission,2012-03-31,34,34
-Civil Service Learning,2012-03-31,5,5
-Committee on Climate Change,2012-03-31,4,4
-Competition Commission,2012-03-31,21,21
-Consumer Council for Water,2012-03-31,4,4
-Consumer Futures,2012-03-31,6,6
-Criminal Cases Review Commission,2012-03-31,14,14
-Criminal Injuries Compensation Authority,2012-03-31,2,2
-Criminal Records Bureau,2012-03-31,3,3
-Crown Prosecution Service,2012-03-31,75,75
-"Department for Business, Innovation and Skills",2012-03-31,189,196
-Department for Communities and Local Government,2012-03-31,92,94
-"Department for Environment, Food and Rural Affairs",2012-03-31,107,110
-Department for Transport,2012-03-31,121,121
-Department for Work and Pensions,2012-03-31,203,208
-Department of Education,2012-03-31,190,190
-Department of Energy and Climate Change,2012-03-31,103,103
-Department of Health,2012-03-31,277,277
-Driver and Vehicle Licensing Agency,2012-03-31,7,7
-Driving Standards Agency,2012-03-31,3,3
-Engineering and Physical Sciences Research Council,2012-03-31,4,4
-English Heritage,2012-03-31,24,24
-Environment Agency,2012-03-31,143,143
-Equality and Human Rights Commission,2012-03-31,6,6
-Fire Service College,2012-03-31,1,1
-Forestry Commission,2012-03-31,11,11
-Gambling Commission,2012-03-31,14,14
-Gangmasters Licensing Authority,2012-03-31,1,1
-Government Procurement Service,2012-03-31,4,4
-HM Crown Prosecution Service Inspectorate,2012-03-31,3,3
-HM Inspectorate of Constabulary,2012-03-31,17,17
-HM Inspectorate of Prisons,2012-03-31,2,2
-HM Inspectorate of Probation,2012-03-31,1,1
-HM Treasury,2012-03-31,96,101
-Health Protection Agency,2012-03-31,48,48
-Health and Social Care Information Centre,2012-03-31,34,34
-Her Majesty's Revenue and Customs,2012-03-31,366,374
-High Speed 2 Limited,2012-03-31,7,7
-Higher Education Funding Council for England,2012-03-31,,5
-Highways Agency,2012-03-31,27,27
-Home Office,2012-03-31,160,162
-Horniman Public Museum & Public Park Trust,2012-03-31,1,1
-Horserace Betting Levy Board,2012-03-31,3,3
-Human Fertilisation and Embryology Authority,2012-03-31,5,5
-Human Tissue Authority,2012-03-31,5,5
-Identity & Passport Service,2012-03-31,14,14
-Imperial War Museum,2012-03-31,3,3
-Independent Living Fund,2012-03-31,2,2
-Independent Offices,2012-03-31,,2
-Independent Police Complaints Commission,2012-03-31,5,5
-Independent Safeguarding Authority,2012-03-31,3,3
-Information Commissioner's Office,2012-03-31,5,5
-Intellectual Property Office,2012-03-31,9,9
-Joint Nature Conservation Committee,2012-03-31,1,1
-Judicial Appointments Commission,2012-03-31,4,4
-Judicial Office,2012-03-31,5,5
-Land Registry,2012-03-31,22,22
-Learning and Skills Improvement Service,2012-03-31,4,4
-Legal Services Board,2012-03-31,5,5
-Legal Services Commission,2012-03-31,12,12
-London Thames Gateway Development Corporation,2012-03-31,6,6
-Marine Management Organisation,2012-03-31,5,5
-Maritime and Coastguard Agency,2012-03-31,4,4
-Medical Research Council,2012-03-31,,42
-Met Office,2012-03-31,10,10
-Ministry of Defence,2012-03-31,593,360
-Ministry of Justice,2012-03-31,130,130
-Monitor,2012-03-31,9,9
-NHS Blood and Transplant,2012-03-31,50,51
-NHS Business Services Authority,2012-03-31,5,5
-NHS Litigation Authority,2012-03-31,6,6
-National Army Museum,2012-03-31,5,5
-National Fraud Authority,2012-03-31,4,4
-National Institute for Health and Care Excellence,2012-03-31,22,22
-National Lottery Commission,2012-03-31,2,2
-National Measurement Office,2012-03-31,1,1
-National Offender Management Service,2012-03-31,74,75
-National Policing Improvement Agency,2012-03-31,31,31
-Natural England,2012-03-31,23,23
-Natural History Museum,2012-03-31,4,4
-Office for Budget Responsibility,2012-03-31,4,4
-Office for National Statistics,2012-03-31,42,42
-Office of Rail and Road,2012-03-31,15,15
-Office of the Immigration Services Commissioner,2012-03-31,2,2
-Ordnance Survey,2012-03-31,,6
-Parole Board,2012-03-31,2,2
-Planning Inspectorate,2012-03-31,8,8
-Prisons and Probation Ombudsman,2012-03-31,4,4
-Public Lending Right,2012-03-31,1,1
-Queen Elizabeth II Conference Centre,2012-03-31,1,1
-Science Museum Group,2012-03-31,12,12
-Security Industry Authority,2012-03-31,4,4
-Serious Organised Crime Agency,2012-03-31,5,5
-Skills Funding Agency,2012-03-31,46,46
-Sport England,2012-03-31,8,8
-Tate,2012-03-31,6,6
-The British Library,2012-03-31,35,35
-The British Museum,2012-03-31,6,6
-The Geffrye Museum,2012-03-31,1,1
-The National Gallery,2012-03-31,7,7
-The National Museum of the Royal Navy,2012-03-31,4,4
-The Northern Lighthouse Board,2012-03-31,4,4
-The Pensions Advisory Service,2012-03-31,,1
-The Pensions Regulator,2012-03-31,84,84
-The Wallace Collection,2012-03-31,4,4
-Treasury Solicitor's Department,2012-03-31,71,71
-UK Anti-Doping,2012-03-31,5,5
-UK Border Agency,2012-03-31,86,86
-UK Commission for Employment and Skills,2012-03-31,6,6
-UK Debt Management Office,2012-03-31,4,4
-UK Sport,2012-03-31,7,7
-United Kingdom Atomic Energy Authority,2012-03-31,11,11
-Valuation Office Agency,2012-03-31,12,13
-Valuation Tribunal Service,2012-03-31,3,3
-Vehicle Certification Agency,2012-03-31,1,1
-Vehicle and Operator Services Agency,2012-03-31,2,2
-Veterinary Medicines Directorate,2012-03-31,3,3
-Victoria & Albert Museum,2012-03-31,5,5
-Visit England,2012-03-31,5,5
-Wales Office,2012-03-31,4,4
-West Northamptonshire Development Corporation,2012-03-31,4,4
-Youth Justice Board,2012-03-31,16,16
-"Advisory, Conciliation and Arbitration Service",2012-09-30,6,6
-Animal Health and Veterinary Laboratories Agency,2012-09-30,13,13
-Arts and Humanities Research Council,2012-09-30,3,3
-Asset Protection Agency,2012-09-30,5,5
-Attorney General's Office,2012-09-30,6,6
-Biotechnology and Biological Sciences Research Council,2012-09-30,26,26
-Boundary Commission for England,2012-09-30,2,2
-British Transport Police Authority,2012-09-30,17,17
-Cabinet Office,2012-09-30,217,217
-Care Quality Commission,2012-09-30,50,50
-"Centre for Environment, Fisheries & Aquaculture Science",2012-09-30,3,3
-Civil Service Learning,2012-09-30,5,5
-Coal Authority,2012-09-30,7,7
-Competition Commission,2012-09-30,24,24
-Construction Industry Training Board,2012-09-30,7,7
-Consumer Futures,2012-09-30,6,6
-Criminal Cases Review Commission,2012-09-30,14,14
-Criminal Injuries Compensation Authority,2012-09-30,2,2
-Criminal Records Bureau,2012-09-30,3,3
-Crown Prosecution Service,2012-09-30,77,77
-Defence Support Group,2012-09-30,6,6
-"Department for Business, Innovation and Skills",2012-09-30,,196
-Department for Communities and Local Government,2012-09-30,88,93
-"Department for Environment, Food and Rural Affairs",2012-09-30,100,102
-Department for International Development,2012-09-30,,75
-Department for Transport,2012-09-30,124,124
-Department for Work and Pensions,2012-09-30,225,230
-Department of Education,2012-09-30,181,181
-Department of Energy and Climate Change,2012-09-30,101,101
-Department of Health,2012-09-30,272,272
-Driver and Vehicle Licensing Agency,2012-09-30,7,7
-Driving Standards Agency,2012-09-30,3,3
-Engineering and Physical Sciences Research Council,2012-09-30,4,4
-English Heritage,2012-09-30,24,24
-Environment Agency,2012-09-30,149,149
-Equality and Human Rights Commission,2012-09-30,6,6
-FCO Services,2012-09-30,,9
-Forestry Commission,2012-09-30,10,10
-Government Procurement Service,2012-09-30,5,5
-HM Crown Prosecution Service Inspectorate,2012-09-30,2,2
-HM Inspectorate of Constabulary,2012-09-30,16,16
-HM Inspectorate of Prisons,2012-09-30,2,2
-HM Inspectorate of Probation,2012-09-30,1,1
-HM Treasury,2012-09-30,90,93
-Health and Safety Executive,2012-09-30,42,42
-Her Majesty's Revenue and Customs,2012-09-30,348,349
-Highways Agency,2012-09-30,30,30
-Home Office,2012-09-30,190,192
-Homes and Communities Agency,2012-09-30,9,9
-Horniman Public Museum & Public Park Trust,2012-09-30,1,1
-Human Fertilisation and Embryology Authority,2012-09-30,5,5
-Human Tissue Authority,2012-09-30,5,1
-Identity & Passport Service,2012-09-30,15,16
-Independent Housing Ombudsman,2012-09-30,3,3
-Independent Living Fund,2012-09-30,2,2
-Independent Offices,2012-09-30,,2
-Independent Police Complaints Commission,2012-09-30,5,5
-Independent Safeguarding Authority,2012-09-30,3,3
-Information Commissioner's Office,2012-09-30,5,5
-Intellectual Property Office,2012-09-30,10,10
-Joint Nature Conservation Committee,2012-09-30,1,1
-Judicial Appointments Commission,2012-09-30,4,4
-Judicial Office,2012-09-30,5,5
-Learning and Skills Improvement Service,2012-09-30,5,5
-Leasehold Advisory Service,2012-09-30,1,1
-Legal Services Board,2012-09-30,5,5
-Legal Services Commission,2012-09-30,14,14
-London Thames Gateway Development Corporation,2012-09-30,4,4
-Marine Management Organisation,2012-09-30,5,5
-Maritime and Coastguard Agency,2012-09-30,4,4
-Medical Research Council,2012-09-30,,41
-Met Office,2012-09-30,9,9
-Ministry of Defence,2012-09-30,525,868
-Ministry of Justice,2012-09-30,126,127
-Monitor,2012-09-30,10,10
-NHS Blood and Transplant,2012-09-30,51,51
-NHS Business Services Authority,2012-09-30,5,5
-NHS Information Centre for Health and Social Care,2012-09-30,37,37
-NHS Litigation Authority,2012-09-30,6,6
-National Fraud Authority,2012-09-30,4,4
-National Institute for Health and Care Excellence,2012-09-30,22,22
-National Offender Management Service,2012-09-30,74,75
-National Treatment Agency for Substance Misuse,2012-09-30,5,7
-Natural England,2012-09-30,22,22
-Natural Environment Research Council,2012-09-30,22,23
-Natural History Museum,2012-09-30,4,4
-Office for Budget Responsibility,2012-09-30,4,4
-"Office for Standards in Education, Children's Services and Skills",2012-09-30,32,36
-Office of Rail and Road,2012-09-30,17,17
-Office of the Advocate General of Scotland,2012-09-30,5,5
-Office of the Immigration Services Commissioner,2012-09-30,2,2
-Ordnance Survey,2012-09-30,6,6
-Parole Board,2012-09-30,2,2
-Planning Inspectorate,2012-09-30,8,8
-Prisons and Probation Ombudsman,2012-09-30,4,4
-Public Lending Right,2012-09-30,1,1
-Queen Elizabeth II Conference Centre,2012-09-30,1,1
-Royal Air Force Museum,2012-09-30,3,3
-Royal Armouries,2012-09-30,7,7
-Science Museum Group,2012-09-30,12,12
-Scotland Office,2012-09-30,4,4
-Security Industry Authority,2012-09-30,4,4
-Serious Organised Crime Agency,2012-09-30,5,5
-Skills Funding Agency,2012-09-30,45,45
-Sport England,2012-09-30,7,7
-Student Loans Company Limited,2012-09-30,8,8
-Tate,2012-09-30,6,6
-The British Museum,2012-09-30,6,6
-The Geffrye Museum,2012-09-30,1,1
-The National Museum of the Royal Navy,2012-09-30,5,5
-The Pensions Advisory Service,2012-09-30,1,1
-The Pensions Regulator,2012-09-30,106,107
-The Wallace Collection,2012-09-30,4,4
-Transport Focus,2012-09-30,3,3
-Treasury Solicitor's Department,2012-09-30,66,66
-Trinity House Lighthouse Service,2012-09-30,4,4
-UK Border Agency,2012-09-30,94,94
-UK Commission for Employment and Skills,2012-09-30,6,6
-UK Debt Management Office,2012-09-30,4,4
-UK Statistics Authority,2012-09-30,48,48
-United Kingdom Atomic Energy Authority,2012-09-30,10,10
-Vehicle Certification Agency,2012-09-30,1,1
-Vehicle and Operator Services Agency,2012-09-30,3,3
-Veterinary Medicines Directorate,2012-09-30,3,3
-Victoria & Albert Museum,2012-09-30,5,5
-Wales Office,2012-09-30,4,4
-West Northamptonshire Development Corporation,2012-09-30,3,3
-Youth Justice Board,2012-09-30,16,16
-Animal Health and Veterinary Laboratories Agency,2013-03-31,0,12
-BIG Lottery Fund,2013-03-31,19,19
-Biotechnology and Biological Sciences Research Council,2013-03-31,,25
-British Transport Police Authority,2013-03-31,17,17
-Cabinet Office,2013-03-31,,238
-Capital For Enterprise Ltd,2013-03-31,11,11
-Care Quality Commission,2013-03-31,48,49
-"Centre for Environment, Fisheries & Aquaculture Science",2013-03-31,3,3
-Civil Service Learning,2013-03-31,5,5
-Coal Authority,2013-03-31,6,6
-Competition Commission,2013-03-31,,26
-Construction Industry Training Board,2013-03-31,,8
-Consumer Council for Water,2013-03-31,,4
-Consumer Futures,2013-03-31,5,5
-Criminal Cases Review Commission,2013-03-31,15,17
-Criminal Injuries Compensation Authority,2013-03-31,,2
-Crown Prosecution Service,2013-03-31,,66
-Defence Support Group,2013-03-31,6,6
-Department for Communities and Local Government,2013-03-31,,91
-"Department for Environment, Food and Rural Affairs",2013-03-31,,101
-Department for International Development,2013-03-31,75,75
-Department for Work and Pensions,2013-03-31,,238
-Department of Energy and Climate Change,2013-03-31,104,104
-Department of Health,2013-03-31,156,156
-Driver and Vehicle Licensing Agency,2013-03-31,,8
-Driving Standards Agency,2013-03-31,3,3
-Engineering Construction Industry Training Board,2013-03-31,8,8
-Engineering and Physical Sciences Research Council,2013-03-31,,4
-English Heritage,2013-03-31,24,24
-Equality and Human Rights Commission,2013-03-31,5,5
-FCO Services,2013-03-31,,10
-Foreign and Commonwealth Office,2013-03-31,139,139
-Forestry Commission,2013-03-31,,9
-Gangmasters Licensing Authority,2013-03-31,,1
-Government Procurement Service,2013-03-31,7,7
-HM Inspectorate of Constabulary,2013-03-31,,15
-HM Inspectorate of Prisons,2013-03-31,,2
-HM Inspectorate of Probation,2013-03-31,1,1
-HM Treasury,2013-03-31,,95
-Health Education England,2013-03-31,355,356
-Health and Safety Executive,2013-03-31,,42
-Her Majesty's Revenue and Customs,2013-03-31,334,338
-High Speed 2 Limited,2013-03-31,,7
-Higher Education Funding Council for England,2013-03-31,4,4
-Highways Agency,2013-03-31,30,30
-Home Office,2013-03-31,142,142
-Horniman Public Museum & Public Park Trust,2013-03-31,1,1
-Human Fertilisation and Embryology Authority,2013-03-31,5,5
-Human Tissue Authority,2013-03-31,1,1
-Identity & Passport Service,2013-03-31,,16
-Imperial War Museum,2013-03-31,,3
-Independent Living Fund,2013-03-31,,2
-Independent Police Complaints Commission,2013-03-31,,7
-Information Commissioner's Office,2013-03-31,,5
-Intellectual Property Office,2013-03-31,9,9
-Judicial Appointments Commission,2013-03-31,4,4
-Judicial Office,2013-03-31,,5
-Land Registry,2013-03-31,22,22
-Legal Aid Agency,2013-03-31,11,11
-Legal Services Board,2013-03-31,,5
-Maritime and Coastguard Agency,2013-03-31,4,4
-Medical Research Council,2013-03-31,,41
-Met Office,2013-03-31,,10
-Ministry of Defence,2013-03-31,187,294
-Ministry of Justice,2013-03-31,113,117
-Monitor,2013-03-31,51,51
-NHS Blood and Transplant,2013-03-31,,50
-NHS England,2013-03-31,296,296
-NHS Litigation Authority,2013-03-31,13,13
-NHS Trust Development Authority,2013-03-31,85,85
-National Fraud Authority,2013-03-31,,4
-National Offender Management Service,2013-03-31,70,72
-Natural England,2013-03-31,,22
-Natural Environment Research Council,2013-03-31,,20
-Office for Budget Responsibility,2013-03-31,,4
-Office for Fair Access,2013-03-31,,1
-Office of the Advocate General of Scotland,2013-03-31,5,5
-Office of the Immigration Services Commissioner,2013-03-31,2,2
-Ordnance Survey,2013-03-31,,6
-Parole Board,2013-03-31,,2
-Prisons and Probation Ombudsman,2013-03-31,4,4
-Public Health England,2013-03-31,68,68
-Public Lending Right,2013-03-31,,1
-Royal Air Force Museum,2013-03-31,,2
-Royal Armouries,2013-03-31,7,7
-Science Museum Group,2013-03-31,12,12
-Scotland Office,2013-03-31,,4
-Security Industry Authority,2013-03-31,,4
-Serious Fraud Office,2013-03-31,12,12
-Serious Organised Crime Agency,2013-03-31,5,5
-Skills Funding Agency,2013-03-31,44,44
-Sport England,2013-03-31,,7
-Standards and Testing Agency,2013-03-31,,173
-Student Loans Company Limited,2013-03-31,,8
-Tate,2013-03-31,5,5
-The British Museum,2013-03-31,,6
-The Disclosure and Barring Service,2013-03-31,,5
-The Geffrye Museum,2013-03-31,1,1
-The Insolvency Service,2013-03-31,9,9
-The National Archives,2013-03-31,,7
-The National Museum of the Royal Navy,2013-03-31,6,6
-The Pensions Advisory Service,2013-03-31,,1
-The Pensions Regulator,2013-03-31,,128
-Transport Focus,2013-03-31,,3
-UK Border Agency,2013-03-31,49,49
-UK Debt Management Office,2013-03-31,,4
-UK Statistics Authority,2013-03-31,,46
-United Kingdom Atomic Energy Authority,2013-03-31,10,10
-United Kingdom Hydrographic Office,2013-03-31,5,5
-Vehicle Certification Agency,2013-03-31,1,1
-Vehicle and Operator Services Agency,2013-03-31,0,3
-Veterinary Medicines Directorate,2013-03-31,,3
-Wales Office,2013-03-31,4,4
-Youth Justice Board,2013-03-31,,16
-Animal Health and Veterinary Laboratories Agency,2013-09-30,9,9
-Arts and Humanities Research Council,2013-09-30,3,3
-Attorney General's Office,2013-09-30,5,5
-Biotechnology and Biological Sciences Research Council,2013-09-30,27,27
-Cabinet Office,2013-09-30,243,244
-Care Quality Commission,2013-09-30,50,51
-"Centre for Environment, Fisheries & Aquaculture Science",2013-09-30,3,3
-Civil Service Learning,2013-09-30,5,5
-Construction Industry Training Board,2013-09-30,7,7
-Consumer Council for Water,2013-09-30,4,4
-Criminal Injuries Compensation Authority,2013-09-30,2,2
-Crown Prosecution Service,2013-09-30,70,70
-Defence Support Group,2013-09-30,6,6
-Department for Communities and Local Government,2013-09-30,81,82
-"Department for Culture, Media and Sport",2013-09-30,37,37
-"Department for Environment, Food and Rural Affairs",2013-09-30,104,107
-Department for International Development,2013-09-30,89,89
-Department for Work and Pensions,2013-09-30,225,229
-Department of Energy and Climate Change,2013-09-30,111,113
-Department of Health,2013-09-30,163,163
-Economic and Social Research Council,2013-09-30,3,3
-Engineering and Physical Sciences Research Council,2013-09-30,4,4
-English Heritage,2013-09-30,24,24
-Environment Agency,2013-09-30,138,138
-Equality and Human Rights Commission,2013-09-30,5,5
-Foreign and Commonwealth Office,2013-09-30,132,133
-Forestry Commission,2013-09-30,9,9
-Government Procurement Service,2013-09-30,9,9
-HM Crown Prosecution Service Inspectorate,2013-09-30,2,2
-HM Inspectorate of Constabulary,2013-09-30,15,15
-HM Inspectorate of Prisons,2013-09-30,2,2
-HM Inspectorate of Probation,2013-09-30,1,1
-HM Passport Office,2013-09-30,15,16
-HM Treasury,2013-09-30,89,90
-Health Education England,2013-09-30,236,238
-Health and Safety Executive,2013-09-30,40,40
-Her Majesty's Revenue and Customs,2013-09-30,326,331
-High Speed 2 Limited,2013-09-30,8,8
-Higher Education Funding Council for England,2013-09-30,4,4
-Home Office,2013-09-30,202,203
-Human Fertilisation and Embryology Authority,2013-09-30,,5
-Independent Living Fund,2013-09-30,2,2
-Independent Police Complaints Commission,2013-09-30,8,8
-Judicial Appointments Commission,2013-09-30,3,3
-Judicial Office,2013-09-30,5,5
-Land Registry,2013-09-30,21,21
-Legal Services Board,2013-09-30,5,5
-Medical Research Council,2013-09-30,31,31
-Medicines and Healthcare products Regulatory Agency,2013-09-30,141,144
-Ministry of Defence,2013-09-30,584,920
-Ministry of Justice,2013-09-30,135,136
-Monitor,2013-09-30,53,53
-NHS Blood and Transplant,2013-09-30,51,51
-NHS Business Services Authority,2013-09-30,5,5
-NHS England,2013-09-30,293,293
-National Fraud Authority,2013-09-30,4,4
-National Institute for Health and Care Excellence,2013-09-30,19,19
-National Offender Management Service,2013-09-30,72,72
-Natural England,2013-09-30,23,23
-Natural Environment Research Council,2013-09-30,18,18
-Office for Budget Responsibility,2013-09-30,4,4
-Office for Fair Access,2013-09-30,1,1
-Office of the Immigration Services Commissioner,2013-09-30,2,2
-Olympic Delivery Authority,2013-09-30,9,9
-Ordnance Survey,2013-09-30,6,6
-Parole Board,2013-09-30,2,2
-Pensions Ombudsman,2013-09-30,2,2
-Prisons and Probation Ombudsman,2013-09-30,4,4
-Public Health England,2013-09-30,89,89
-Royal Air Force Museum,2013-09-30,2,2
-Royal Museums Greenwich,2013-09-30,7,7
-Rural Payments Agency,2013-09-30,13,13
-Science and Technology Facilities Council,2013-09-30,31,31
-Security Industry Authority,2013-09-30,4,4
-Serious Organised Crime Agency,2013-09-30,5,5
-Sport England,2013-09-30,7,7
-Standards and Testing Agency,2013-09-30,145,145
-The British Library,2013-09-30,35,35
-The British Museum,2013-09-30,5,5
-The Disclosure and Barring Service,2013-09-30,5,5
-The Geffrye Museum,2013-09-30,1,1
-The National Gallery,2013-09-30,4,4
-The National Museum of the Royal Navy,2013-09-30,5,5
-Transport Focus,2013-09-30,3,3
-Treasury Solicitor's Department,2013-09-30,94,94
-UK Anti-Doping,2013-09-30,5,5
-UK Debt Management Office,2013-09-30,4,4
-UK Statistics Authority,2013-09-30,46,46
-United Kingdom Atomic Energy Authority,2013-09-30,10,10
-United Kingdom Hydrographic Office,2013-09-30,6,6
-Veterinary Medicines Directorate,2013-09-30,3,3
-Wales Office,2013-09-30,4,4
-Youth Justice Board,2013-09-30,16,16
-Animal Health and Veterinary Laboratories Agency,2014-03-31,9,9
-Attorney General's Office,2014-03-31,5,5
-Boundary Commission for England,2014-03-31,1,1
-British Transport Police Authority,2014-03-31,17,17
-Cabinet Office,2014-03-31,265,265
-Care Quality Commission,2014-03-31,99,99
-"Centre for Environment, Fisheries & Aquaculture Science",2014-03-31,3,3
-Civil Service Learning,2014-03-31,5,5
-Consumer Council for Water,2014-03-31,4,4
-Criminal Injuries Compensation Authority,2014-03-31,2,2
-Crown Prosecution Service,2014-03-31,69,69
-Defence Support Group,2014-03-31,6,6
-Department for Communities and Local Government,2014-03-31,89,94
-"Department for Culture, Media and Sport",2014-03-31,35,35
-"Department for Environment, Food and Rural Affairs",2014-03-31,103,107
-Department for International Development,2014-03-31,29,29
-Department for Transport,2014-03-31,124,124
-Department for Work and Pensions,2014-03-31,226,237
-Department of Education,2014-03-31,139,139
-Department of Health,2014-03-31,161,161
-Driver & Vehicle Standards Agency,2014-03-31,4,4
-Driver and Vehicle Licensing Agency,2014-03-31,5,5
-Driving Standards Agency,2014-03-31,5,5
-Equality and Human Rights Commission,2014-03-31,4,4
-Foreign and Commonwealth Office,2014-03-31,136,136
-Gangmasters Licensing Authority,2014-03-31,1,1
-HM Crown Prosecution Service Inspectorate,2014-03-31,2,2
-HM Inspectorate of Constabulary,2014-03-31,15,15
-HM Inspectorate of Prisons,2014-03-31,2,2
-HM Inspectorate of Probation,2014-03-31,1,1
-HM Passport Office,2014-03-31,16,16
-HM Treasury,2014-03-31,93,93
-Health and Safety Executive,2014-03-31,43,43
-Her Majesty's Revenue and Customs,2014-03-31,318,324
-Home Office,2014-03-31,192,194
-Human Fertilisation and Embryology Authority,2014-03-31,6,6
-Independent Living Fund,2014-03-31,2,2
-Independent Police Complaints Commission,2014-03-31,6,6
-Joint Nature Conservation Committee,2014-03-31,1,1
-Judicial Office,2014-03-31,5,5
-Maritime and Coastguard Agency,2014-03-31,4,4
-Ministry of Defence,2014-03-31,499,282
-Ministry of Justice,2014-03-31,135,136
-NHS Arden CSU,2014-03-31,8,8
-NHS Blood and Transplant,2014-03-31,54,54
-NHS Business Services Authority,2014-03-31,5,5
-NHS Central Southern CSU,2014-03-31,38,38
-NHS Cheshire and Merseyside Commissioning Support Unit,2014-03-31,40,40
-NHS Greater East Midlands CSU,2014-03-31,6,6
-NHS Greater Manchester CSU,2014-03-31,21,21
-NHS North Yorkshire and Humber CSU,2014-03-31,19,19
-NHS North of England CSU,2014-03-31,7,7
-NHS South West CSU,2014-03-31,19,19
-National Army Museum,2014-03-31,5,
-National Institute for Health and Care Excellence,2014-03-31,18,18
-Natural England,2014-03-31,21,21
-Natural Environment Research Council,2014-03-31,19,19
-Office for Budget Responsibility,2014-03-31,4,4
-"Office for Standards in Education, Children's Services and Skills",2014-03-31,28,28
-Office of Rail and Road,2014-03-31,18,18
-Office of the Immigration Services Commissioner,2014-03-31,2,2
-Royal Air Force Museum,2014-03-31,3,3
-Security Industry Authority,2014-03-31,4,4
-Serious Fraud Office,2014-03-31,12,12
-The Disclosure and Barring Service,2014-03-31,5,5
-The Food and Environment Research Agency,2014-03-31,6,6
-The Northern Lighthouse Board,2014-03-31,4,4
-The Pensions Advisory Service,2014-03-31,1,1
-Transport Focus,2014-03-31,3,3
-Trinity House Lighthouse Service,2014-03-31,4,4
-UK Debt Management Office,2014-03-31,4,4
-United Kingdom Atomic Energy Authority,2014-03-31,10,10
-United Kingdom Hydrographic Office,2014-03-31,3,
-Veterinary Medicines Directorate,2014-03-31,3,3
-Animal Health and Veterinary Laboratories Agency,2014-09-30,9,9
-Cabinet Office,2014-09-30,253,253
-"Centre for Environment, Fisheries & Aquaculture Science",2014-09-30,3,3
-Civil Service Learning,2014-09-30,6,6
-Consumer Council for Water,2014-09-30,4,4
-Criminal Cases Review Commission,2014-09-30,15,15
-Criminal Injuries Compensation Authority,2014-09-30,2,2
-Crown Prosecution Service,2014-09-30,68,68
-Defence Support Group,2014-09-30,6,6
-Department for Communities and Local Government,2014-09-30,88,95
-"Department for Culture, Media and Sport",2014-09-30,35,35
-"Department for Environment, Food and Rural Affairs",2014-09-30,,104
-Department for International Development,2014-09-30,92,92
-Department for Work and Pensions,2014-09-30,200,204
-Department of Education,2014-09-30,139,139
-Department of Health,2014-09-30,164,164
-Foreign and Commonwealth Office,2014-09-30,131,133
-Gangmasters Licensing Authority,2014-09-30,1,1
-Government Actuary's Department,2014-09-30,4,4
-HM Inspectorate of Constabulary,2014-09-30,18,18
-HM Passport Office,2014-09-30,16,16
-HM Treasury,2014-09-30,88,89
-Health and Safety Executive,2014-09-30,31,31
-Health and Social Care Information Centre,2014-09-30,35,37
-Her Majesty's Revenue and Customs,2014-09-30,331,335
-Home Office,2014-09-30,204,206
-Independent Living Fund,2014-09-30,2,2
-Independent Police Complaints Commission,2014-09-30,8,8
-Joint Nature Conservation Committee,2014-09-30,1,1
-Judicial Appointments Commission,2014-09-30,3,3
-Judicial Office,2014-09-30,5,5
-Ministry of Defence,2014-09-30,616,384
-Ministry of Justice,2014-09-30,211,212
-NHS Midlands and Lancashire CSU,2014-09-30,7,7
-NHS South CSU,2014-09-30,,8
-National Army Museum,2014-09-30,5,5
-Natural England,2014-09-30,21,21
-Office for Budget Responsibility,2014-09-30,4,4
-Office of the Immigration Services Commissioner,2014-09-30,2,2
-Pensions Ombudsman,2014-09-30,2,2
-Prisons and Probation Ombudsman,2014-09-30,3,3
-Royal Air Force Museum,2014-09-30,3,3
-Security Industry Authority,2014-09-30,4,4
-The Disclosure and Barring Service,2014-09-30,6,6
-The National Museum of the Royal Navy,2014-09-30,8,8
-The Pensions Regulator,2014-09-30,134,134
-UK Debt Management Office,2014-09-30,4,4
-UK Statistics Authority,2014-09-30,48,49
-United Kingdom Atomic Energy Authority,2014-09-30,10,10
-United Kingdom Hydrographic Office,2014-09-30,4,4
-Veterinary Medicines Directorate,2014-09-30,3,3
-Water Services Regulation Authority,2014-09-30,8,8
-West and South Yorkshire and Bassetlaw Commissioning Support Unit,2014-09-30,32,32
-Animal and Plant Health Agency,2015-03-31,9,9
-British Transport Police Authority,2015-03-31,17,17
-Cabinet Office,2015-03-31,252,252
-Department for Transport,2015-03-31,123,123
-Department for Work and Pensions,2015-03-31,199,204
-Department of Education,2015-03-31,135,139
-Department of Health,2015-03-31,170,170
-Driver & Vehicle Standards Agency,2015-03-31,6,6
-Driver and Vehicle Licensing Agency,2015-03-31,7,7
-Environment Agency,2015-03-31,117,117
-Foreign and Commonwealth Office,2015-03-31,130,135
-Gangmasters Licensing Authority,2015-03-31,1,1
-Her Majesty's Revenue and Customs,2015-03-31,344,354
-Human Fertilisation and Embryology Authority,2015-03-31,5,5
-Human Tissue Authority,2015-03-31,5,5
-Independent Police Complaints Commission,2015-03-31,3,3
-Maritime and Coastguard Agency,2015-03-31,4,4
-Ministry of Defence,2015-03-31,618,364
-Ministry of Justice,2015-03-31,181,181
-NHS Arden CSU,2015-03-31,5,5
-NHS Blood and Transplant,2015-03-31,59,60
-NHS Central Southern CSU,2015-03-31,6,6
-NHS Cheshire and Merseyside Commissioning Support Unit,2015-03-31,39,39
-NHS Greater East Midlands CSU,2015-03-31,,8
-NHS Midlands and Lancashire CSU,2015-03-31,8,8
-NHS North of England CSU,2015-03-31,7,7
-NHS South CSU,2015-03-31,6,6
-NHS South West CSU,2015-03-31,19,19
-National Army Museum,2015-03-31,5,5
-National Institute for Health and Care Excellence,2015-03-31,18,18
-Natural England,2015-03-31,16,16
-Office of Rail and Road,2015-03-31,21,21
-Office of the Immigration Services Commissioner,2015-03-31,2,2
-Royal Air Force Museum,2015-03-31,5,5
-Security Industry Authority,2015-03-31,4,4
-Student Loans Company Limited,2015-03-31,6,6
-The Disclosure and Barring Service,2015-03-31,7,7
-The National Museum of the Royal Navy,2015-03-31,5,5
-The Northern Lighthouse Board,2015-03-31,4,4
-Transport Focus,2015-03-31,3,3
-Trinity House Lighthouse Service,2015-03-31,4,4
-United Kingdom Atomic Energy Authority,2015-03-31,11,11
-United Kingdom Hydrographic Office,2015-03-31,4,
-Vehicle Certification Agency,2015-03-31,1,1
-Veterinary Medicines Directorate,2015-03-31,3,3
-Animal and Plant Health Agency,2015-09-30,9,9
-Cabinet Office,2015-09-30,221,221
-Department for Work and Pensions,2015-09-30,220,225
-Department of Education,2015-09-30,144,145
-Department of Health,2015-09-30,171,172
-Driver & Vehicle Standards Agency,2015-09-30,5,6
-Driver and Vehicle Licensing Agency,2015-09-30,9,9
-Her Majesty's Revenue and Customs,2015-09-30,350,359
-Ministry of Defence,2015-09-30,650,10
-Ministry of Justice,2015-09-30,191,192
-NHS Blood and Transplant,2015-09-30,57,57
-National Army Museum,2015-09-30,,5
-Natural England,2015-09-30,17,17
-Office of Rail and Road,2015-09-30,15,15
-Science Museum Group,2015-09-30,13,13
-Student Loans Company Limited,2015-09-30,6,6
-The British Library,2015-09-30,,23
-The Northern Lighthouse Board,2015-09-30,4,4
-Transport Focus,2015-09-30,4,4
-Trinity House Lighthouse Service,2015-09-30,4,4
-United Kingdom Atomic Energy Authority,2015-09-30,9,9
-United Kingdom Hydrographic Office,2015-09-30,,3
-Valuation Office Agency,2015-09-30,19,19
-Vehicle Certification Agency,2015-09-30,1,1
+body_title,graph,senior_posts_triplestore,senior_posts_uploads,senior_diff,junior_posts_triplestore,junior_posts_uploads,junior_diff
+Animal Health and Veterinary Laboratories Agency,2011-03-31,12,,12,219,,219
+Appointments Commission,2011-03-31,3,,3,13,,13
+Asset Protection Agency,2011-03-31,18,,18,8,,8
+Attorney General's Office,2011-03-31,6,,6,20,,20
+Audit Commission,2011-03-31,25,,25,166,,166
+BIG Lottery Fund,2011-03-31,21,,21,37,,37
+British Transport Police Authority,2011-03-31,17,,17,5,,5
+Cabinet Office,2011-03-31,216,,216,763,,763
+Care Quality Commission,2011-03-31,46,,46,312,,312
+Child Maintenance and Enforcement Commission,2011-03-31,39,,39,298,,298
+Children and Family Court Advisory and Support Service,2011-03-31,9,,9,78,,78
+Children's Workforce Development Council,2011-03-31,7,,7,68,,68
+Coal Authority,2011-03-31,6,,6,89,,89
+Competition Commission,2011-03-31,20,,20,47,,47
+Consumer Council for Water,2011-03-31,5,,5,20,,20
+Council for Healthcare Regulatory Excellence,2011-03-31,4,,4,8,,8
+Criminal Cases Review Commission,2011-03-31,14,,14,25,,25
+Criminal Injuries Compensation Authority,2011-03-31,2,,2,83,,83
+Criminal Records Bureau,2011-03-31,3,,3,56,,56
+Crown Prosecution Service,2011-03-31,72,,72,1681,,1681
+Defence Support Group,2011-03-31,6,,6,26,,26
+"Department for Business, Innovation and Skills",2011-03-31,195,,195,1332,,1332
+Department for Communities and Local Government,2011-03-31,99,,99,611,,611
+"Department for Culture, Media and Sport",2011-03-31,0,,,0,,
+"Department for Environment, Food and Rural Affairs",2011-03-31,121,,121,952,,952
+Department for International Development,2011-03-31,80,,80,268,,268
+Department for Transport,2011-03-31,117,,117,502,,502
+Department for Work and Pensions,2011-03-31,270,,270,2647,,2647
+Department of Education,2011-03-31,126,,126,631,,631
+Department of Energy and Climate Change,2011-03-31,93,,93,364,,364
+Department of Health,2011-03-31,303,,303,1242,,1242
+Driver and Vehicle Licensing Agency,2011-03-31,7,,7,57,,57
+Driving Standards Agency,2011-03-31,3,,3,64,,64
+Engineering and Physical Sciences Research Council,2011-03-31,4,,4,53,,53
+English Heritage,2011-03-31,21,,21,191,,191
+Environment Agency,2011-03-31,163,,163,2222,,2222
+Equality and Human Rights Commission,2011-03-31,5,,5,223,,223
+FCO Services,2011-03-31,9,,9,146,,146
+Foreign and Commonwealth Office,2011-03-31,119,,119,219,,219
+General Social Care Council,2011-03-31,4,,4,24,,24
+Government Car and Despatch Agency,2011-03-31,0,,,0,,
+Government Equalities Office,2011-03-31,8,,8,51,,51
+HM Crown Prosecution Service Inspectorate,2011-03-31,2,,2,15,,15
+HM Inspectorate of Constabulary,2011-03-31,10,,10,82,,82
+HM Treasury,2011-03-31,0,,,0,,
+Health Protection Agency,2011-03-31,51,,51,207,,207
+Health and Safety Executive,2011-03-31,47,,47,817,,817
+Her Majesty's Revenue and Customs,2011-03-31,346,,346,5792,,5792
+Higher Education Funding Council for England,2011-03-31,4,,4,82,,82
+Highways Agency,2011-03-31,30,,30,237,,237
+Home Office,2011-03-31,125,,125,706,,706
+Homes and Communities Agency,2011-03-31,10,,10,152,,152
+Horniman Public Museum & Public Park Trust,2011-03-31,1,,1,26,,26
+Human Tissue Authority,2011-03-31,5,,5,15,,15
+Identity & Passport Service,2011-03-31,14,,14,63,,63
+Independent Housing Ombudsman,2011-03-31,4,,4,14,,14
+Independent Living Fund,2011-03-31,3,,3,57,,57
+Independent Police Complaints Commission,2011-03-31,6,,6,120,,120
+Independent Safeguarding Authority,2011-03-31,3,,3,51,,51
+Information Commissioner's Office,2011-03-31,6,,6,91,,91
+Infrastructure Planning Commission,2011-03-31,14,,14,30,,30
+Intellectual Property Office,2011-03-31,8,,8,122,,122
+Joint Nature Conservation Committee,2011-03-31,1,,1,55,,55
+Judicial Appointments Commission,2011-03-31,5,,5,10,,10
+Land Registry,2011-03-31,25,,25,89,,89
+Leasehold Advisory Service,2011-03-31,1,,1,2,,2
+Legal Services Board,2011-03-31,6,,6,16,,16
+Legal Services Commission,2011-03-31,13,,13,200,,200
+London Thames Gateway Development Corporation,2011-03-31,8,,8,9,,9
+Marine Management Organisation,2011-03-31,4,,4,28,,28
+Maritime and Coastguard Agency,2011-03-31,4,,4,82,,82
+Medical Research Council,2011-03-31,42,,42,307,,307
+Met Office,2011-03-31,10,,10,228,,228
+Ministry of Defence,2011-03-31,616,,616,11421,,11421
+Ministry of Justice,2011-03-31,171,,171,781,,781
+Monitor,2011-03-31,9,,9,26,,26
+NHS Blood and Transplant,2011-03-31,54,,54,94,,94
+NHS Information Centre for Health and Social Care,2011-03-31,28,,28,103,,103
+NHS Litigation Authority,2011-03-31,6,,6,33,,33
+National Army Museum,2011-03-31,5,,5,33,,33
+National College for Leadership of Schools and Children's Services,2011-03-31,22,,22,163,,163
+National Heritage Memorial Fund,2011-03-31,4,,4,40,,40
+National Institute for Health and Care Excellence,2011-03-31,16,,16,259,,259
+National Lottery Commission,2011-03-31,5,,5,25,,25
+National Measurement Office,2011-03-31,1,,1,3,,3
+National Museum of Science and Industry,2011-03-31,10,,10,252,,252
+National Museums Liverpool,2011-03-31,7,,7,148,,148
+National Offender Management Service,2011-03-31,85,,85,4214,,4214
+National Patient Safety Agency,2011-03-31,5,,5,48,,48
+National Policing Improvement Agency,2011-03-31,31,,31,810,,810
+Natural England,2011-03-31,24,,24,234,,234
+Natural History Museum,2011-03-31,4,,4,157,,157
+Northern Ireland Human Rights Commission,2011-03-31,1,,1,5,,5
+Northern Ireland Office,2011-03-31,8,,8,26,,26
+"Office for Standards in Education, Children's Services and Skills",2011-03-31,37,,37,171,,171
+Office of Qualifications and Examinations Regulation,2011-03-31,5,,5,24,,24
+Office of the Children's Commissioner,2011-03-31,5,,5,19,,19
+Office of the Immigration Services Commissioner,2011-03-31,1,,1,15,,15
+Olympic Delivery Authority,2011-03-31,32,,32,133,,133
+Ordnance Survey,2011-03-31,6,,6,205,,205
+Parades Commission for Northern Ireland,2011-03-31,1,,1,6,,6
+Parole Board,2011-03-31,2,,2,48,,48
+Public Lending Right,2011-03-31,1,,1,11,,11
+Qualifications and Curriculum Development Agency,2011-03-31,12,,12,52,,52
+Royal Air Force Museum,2011-03-31,3,,3,33,,33
+Rural Payments Agency,2011-03-31,9,,9,126,,126
+Science and Technology Facilities Council,2011-03-31,39,,39,347,,347
+Scotland Office,2011-03-31,4,,4,56,,56
+Scottish Government,2011-03-31,216,,216,1042,,1042
+Scottish Law Commission,2011-03-31,1,,1,0,,
+Security Industry Authority,2011-03-31,4,,4,67,,67
+Serious Fraud Office,2011-03-31,10,,10,112,,112
+Serious Organised Crime Agency,2011-03-31,6,,6,43,,43
+Sport England,2011-03-31,8,,8,83,,83
+Standards Board for England,2011-03-31,4,,4,26,,26
+Tate,2011-03-31,6,,6,28,,28
+Tenant Services Authority,2011-03-31,8,,8,82,,82
+The British Library,2011-03-31,45,,45,153,,153
+The British Museum,2011-03-31,7,,7,76,,76
+The Geffrye Museum,2011-03-31,1,,1,21,,21
+The Insolvency Service,2011-03-31,5,,5,102,,102
+The National Archives,2011-03-31,7,,7,214,,214
+The National Gallery,2011-03-31,7,,7,108,,108
+The Northern Lighthouse Board,2011-03-31,4,,4,87,,87
+The Pensions Regulator,2011-03-31,64,,64,66,,66
+Thurrock Thames Gateway Development Corporation,2011-03-31,4,,4,23,,23
+Training and Development Agency for Schools,2011-03-31,14,,14,52,,52
+Treasury Solicitor's Department,2011-03-31,61,,61,203,,203
+UK Border Agency,2011-03-31,81,,81,486,,486
+UK Debt Management Office,2011-03-31,4,,4,88,,88
+UK Sport,2011-03-31,6,,6,48,,48
+UK Supreme Court,2011-03-31,2,,2,29,,29
+United Kingdom Atomic Energy Authority,2011-03-31,10,,10,287,,287
+Valuation Office Agency,2011-03-31,11,,11,4104,,4104
+Vehicle Certification Agency,2011-03-31,1,,1,13,,13
+Vehicle and Operator Services Agency,2011-03-31,3,,3,45,,45
+Veterinary Medicines Directorate,2011-03-31,3,,3,31,,31
+Victoria & Albert Museum,2011-03-31,5,,5,37,,37
+Wales Office,2011-03-31,4,,4,37,,37
+West Northamptonshire Development Corporation,2011-03-31,5,,5,29,,29
+Youth Justice Board,2011-03-31,15,,15,182,,182
+"Advisory, Conciliation and Arbitration Service",2011-09-30,4,4,,293,293,
+Animal Health and Veterinary Laboratories Agency,2011-09-30,11,11,,226,226,
+Appointments Commission,2011-09-30,3,3,,11,11,
+Arts and Humanities Research Council,2011-09-30,4,4,,11,11,
+Asset Protection Agency,2011-09-30,17,17,,8,8,
+Attorney General's Office,2011-09-30,5,5,,18,18,
+Audit Commission,2011-09-30,23,23,,114,114,
+Biotechnology and Biological Sciences Research Council,2011-09-30,24,24,,308,313,
+Boundary Commission for England,2011-09-30,,2,,,10,
+Boundary Commission for Scotland,2011-09-30,3,3,,5,5,
+British Tourist Authority,2011-09-30,5,5,,16,16,
+British Transport Police Authority,2011-09-30,17,17,,8,8,
+Cabinet Office,2011-09-30,235,230,5,629,611,18
+Capital For Enterprise Ltd,2011-09-30,7,7,,9,9,
+Care Quality Commission,2011-09-30,44,44,,311,311,
+"Centre for Environment, Fisheries & Aquaculture Science",2011-09-30,4,4,,35,35,
+Child Maintenance and Enforcement Commission,2011-09-30,36,36,,307,307,
+Children and Family Court Advisory and Support Service,2011-09-30,8,8,,88,88,
+Children's Workforce Development Council,2011-09-30,7,7,,57,57,
+Civil Nuclear Police Authority,2011-09-30,4,4,,31,31,
+Civil Service Learning,2011-09-30,5,5,,28,28,
+Coal Authority,2011-09-30,6,6,,79,79,
+Committee on Climate Change,2011-09-30,4,4,,29,29,
+Competition Commission,2011-09-30,21,21,,70,70,
+Consumer Council for Water,2011-09-30,4,4,,23,23,
+Consumer Futures,2011-09-30,7,7,,6,6,
+Council for Healthcare Regulatory Excellence,2011-09-30,8,4,4,24,6,18
+Criminal Cases Review Commission,2011-09-30,14,14,,22,22,
+Criminal Injuries Compensation Authority,2011-09-30,2,2,,69,69,
+Criminal Records Bureau,2011-09-30,3,3,,52,52,
+Crown Prosecution Service,2011-09-30,71,71,,1132,1132,
+Defence Support Group,2011-09-30,6,6,,28,28,
+"Department for Business, Innovation and Skills",2011-09-30,198,198,,744,726,18
+Department for Communities and Local Government,2011-09-30,103,103,,609,602,7
+"Department for Culture, Media and Sport",2011-09-30,44,44,,90,90,
+"Department for Environment, Food and Rural Affairs",2011-09-30,110,110,,1006,1006,
+Department for International Development,2011-09-30,78,78,,259,259,
+Department for Transport,2011-09-30,114,,114,510,,510
+Department for Work and Pensions,2011-09-30,209,208,1,2318,2289,29
+Department of Education,2011-09-30,128,128,,364,672,
+Department of Energy and Climate Change,2011-09-30,101,101,,386,386,
+Department of Health,2011-09-30,313,312,1,1122,1122,
+Driver and Vehicle Licensing Agency,2011-09-30,7,,7,82,,82
+Driving Standards Agency,2011-09-30,3,,3,104,,104
+Engineering Construction Industry Training Board,2011-09-30,7,7,,10,10,
+Engineering and Physical Sciences Research Council,2011-09-30,4,4,,76,76,
+English Heritage,2011-09-30,21,21,,193,193,
+Environment Agency,2011-09-30,153,153,,2197,2197,
+Equality and Human Rights Commission,2011-09-30,10,,10,744,,744
+Foreign and Commonwealth Office,2011-09-30,131,131,,227,219,8
+Forestry Commission,2011-09-30,11,11,,228,228,
+Gambling Commission,2011-09-30,13,13,,46,46,
+Government Procurement Service,2011-09-30,4,4,,203,222,
+HM Crown Prosecution Service Inspectorate,2011-09-30,2,2,,17,17,
+HM Inspectorate of Constabulary,2011-09-30,16,16,,77,77,
+HM Inspectorate of Prisons,2011-09-30,1,1,,15,15,
+HM Inspectorate of Probation,2011-09-30,1,1,,7,7,
+HM Treasury,2011-09-30,115,115,,407,403,4
+Health Protection Agency,2011-09-30,50,50,,507,507,
+Health and Safety Executive,2011-09-30,48,48,,855,855,
+Her Majesty's Revenue and Customs,2011-09-30,,,,,,
+High Speed 2 Limited,2011-09-30,4,4,,6,6,
+Highways Agency,2011-09-30,27,,27,220,,220
+Home Office,2011-09-30,151,151,,734,734,
+Horniman Public Museum & Public Park Trust,2011-09-30,1,1,,29,29,
+Horserace Betting Levy Board,2011-09-30,3,3,,11,11,
+Human Fertilisation and Embryology Authority,2011-09-30,5,5,,14,14,
+Human Tissue Authority,2011-09-30,5,5,,13,13,
+Identity & Passport Service,2011-09-30,14,14,,70,70,
+Imperial War Museum,2011-09-30,3,3,,148,148,
+Independent Housing Ombudsman,2011-09-30,3,3,,16,16,
+Independent Living Fund,2011-09-30,3,3,,49,49,
+Independent Offices,2011-09-30,,2,,,8,
+Independent Police Complaints Commission,2011-09-30,5,5,,110,110,
+Independent Safeguarding Authority,2011-09-30,3,3,,51,51,
+Information Commissioner's Office,2011-09-30,6,6,,91,91,
+Infrastructure Planning Commission,2011-09-30,7,7,,34,34,
+Intellectual Property Office,2011-09-30,8,8,,127,127,
+Joint Nature Conservation Committee,2011-09-30,1,1,,68,68,
+Judicial Appointments Commission,2011-09-30,4,4,,30,30,
+Judicial Office,2011-09-30,5,5,,36,36,
+Land Registry,2011-09-30,24,24,,94,94,
+Learning and Skills Improvement Service,2011-09-30,4,,4,76,,76
+Leasehold Advisory Service,2011-09-30,1,1,,2,2,
+Legal Services Board,2011-09-30,6,6,,16,16,
+Legal Services Commission,2011-09-30,13,13,,81,81,
+London Thames Gateway Development Corporation,2011-09-30,6,6,,8,8,
+Marine Management Organisation,2011-09-30,5,5,,31,31,
+Maritime and Coastguard Agency,2011-09-30,4,,4,82,,82
+Medical Research Council,2011-09-30,41,41,,307,307,
+Met Office,2011-09-30,10,10,,229,229,
+Ministry of Defence,2011-09-30,617,952,,12714,21664,
+Ministry of Justice,2011-09-30,132,131,1,624,624,
+Monitor,2011-09-30,9,9,,42,42,
+Museum of Science and Industry,2011-09-30,4,4,,34,34,
+NHS Blood and Transplant,2011-09-30,50,50,,91,91,
+NHS Business Services Authority,2011-09-30,5,5,,71,71,
+NHS Information Centre for Health and Social Care,2011-09-30,35,35,,126,126,
+NHS Litigation Authority,2011-09-30,6,6,,33,33,
+National Army Museum,2011-09-30,5,5,,32,32,
+National College for School Leadership,2011-09-30,22,22,,152,152,
+National Fraud Authority,2011-09-30,4,4,,41,41,
+National Institute for Health and Care Excellence,2011-09-30,17,17,,269,269,
+National Lottery Commission,2011-09-30,5,5,,24,24,
+National Maritime Museum,2011-09-30,6,6,,66,66,
+National Measurement Office,2011-09-30,1,1,,3,3,
+National Museum of Science and Industry,2011-09-30,9,9,,249,249,
+National Museums Liverpool,2011-09-30,7,7,,147,147,
+National Offender Management Service,2011-09-30,77,77,,4095,4055,40
+National Patient Safety Agency,2011-09-30,5,5,,42,42,
+National Policing Improvement Agency,2011-09-30,31,31,,554,554,
+National Portrait Gallery,2011-09-30,1,1,,44,44,
+National Treatment Agency for Substance Misuse,2011-09-30,7,,7,25,,25
+Natural England,2011-09-30,23,,23,155,,155
+Natural History Museum,2011-09-30,4,4,,129,129,
+Nuclear Decommissioning Authority,2011-09-30,54,54,,4,4,
+Office for Budget Responsibility,2011-09-30,4,4,,3,3,
+"Office for Standards in Education, Children's Services and Skills",2011-09-30,38,38,,171,171,
+Office of Qualifications and Examinations Regulation,2011-09-30,5,5,,24,24,
+Office of the Advocate General of Scotland,2011-09-30,5,5,,41,41,
+Office of the Immigration Services Commissioner,2011-09-30,2,2,,14,14,
+Olympic Delivery Authority,2011-09-30,29,29,,141,141,
+Ordnance Survey,2011-09-30,6,6,,200,200,
+Parole Board,2011-09-30,2,2,,45,45,
+Partnerships for Schools,2011-09-30,22,22,,68,68,
+Pensions Ombudsman,2011-09-30,2,2,,7,7,
+Planning Inspectorate,2011-09-30,5,5,,82,82,
+Prisons and Probation Ombudsman,2011-09-30,2,2,,6,6,
+Public Lending Right,2011-09-30,1,1,,11,11,
+Qualifications and Curriculum Development Agency,2011-09-30,9,9,,41,41,
+Queen Elizabeth II Conference Centre,2011-09-30,1,1,,28,28,
+Royal Air Force Museum,2011-09-30,3,3,,30,30,
+Rural Payments Agency,2011-09-30,13,13,,177,177,
+Science and Technology Facilities Council,2011-09-30,37,37,,321,321,
+Scotland Office,2011-09-30,4,4,,51,51,
+Security Industry Authority,2011-09-30,4,4,,86,86,
+Serious Fraud Office,2011-09-30,9,9,,107,107,
+Serious Organised Crime Agency,2011-09-30,5,5,,32,32,
+Sir John Soane's Museum,2011-09-30,1,1,,15,15,
+Skills Funding Agency,2011-09-30,61,61,,312,312,
+Sport England,2011-09-30,8,8,,87,87,
+Standards Board for England,2011-09-30,3,3,,25,25,
+Student Loans Company Limited,2011-09-30,8,8,,328,328,
+Tate,2011-09-30,6,6,,28,28,
+Tenant Services Authority,2011-09-30,9,9,,80,80,
+The British Library,2011-09-30,,,,,,
+The British Museum,2011-09-30,7,7,,77,77,
+The Food and Environment Research Agency,2011-09-30,6,6,,125,125,
+The Geffrye Museum,2011-09-30,1,1,,21,21,
+The Insolvency Service,2011-09-30,5,5,,101,101,
+The National Gallery,2011-09-30,7,7,,108,108,
+The National Museum of the Royal Navy,2011-09-30,4,4,,2,2,
+The Northern Lighthouse Board,2011-09-30,4,4,,86,86,
+The Pensions Advisory Service,2011-09-30,1,1,,10,10,
+The Pensions Regulator,2011-09-30,89,89,,92,92,
+The Wallace Collection,2011-09-30,4,4,,46,46,
+Thurrock Thames Gateway Development Corporation,2011-09-30,4,4,,20,20,
+Training and Development Agency for Schools,2011-09-30,13,13,,47,47,
+Transport Focus,2011-09-30,3,3,,14,14,
+Treasury Solicitor's Department,2011-09-30,69,69,,248,248,
+Trinity House Lighthouse Service,2011-09-30,4,4,,131,131,
+UK Anti-Doping,2011-09-30,5,5,,38,38,
+UK Border Agency,2011-09-30,82,82,,463,463,
+UK Commission for Employment and Skills,2011-09-30,6,6,,46,46,
+UK Debt Management Office,2011-09-30,4,4,,92,92,
+UK Sport,2011-09-30,7,7,,52,52,
+United Kingdom Atomic Energy Authority,2011-09-30,10,10,,249,249,
+United Kingdom Hydrographic Office,2011-09-30,5,,5,42,,42
+Valuation Office Agency,2011-09-30,12,12,,3815,3815,
+Vehicle Certification Agency,2011-09-30,1,,1,7,,7
+Vehicle and Operator Services Agency,2011-09-30,3,,3,39,,39
+Veterinary Medicines Directorate,2011-09-30,3,3,,63,63,
+Victoria & Albert Museum,2011-09-30,5,5,,35,35,
+Visit England,2011-09-30,5,5,,12,12,
+West Northamptonshire Development Corporation,2011-09-30,4,4,,27,27,
+Young People's Learning Agency,2011-09-30,24,24,,105,105,
+Youth Justice Board,2011-09-30,15,15,,164,164,
+"Advisory, Conciliation and Arbitration Service",2012-03-31,6,6,,28,28,
+Animal Health and Veterinary Laboratories Agency,2012-03-31,13,13,,230,230,
+Arts Council England,2012-03-31,9,9,,291,291,
+Arts and Humanities Research Council,2012-03-31,3,3,,12,12,
+Asset Protection Agency,2012-03-31,13,,13,6,,6
+Attorney General's Office,2012-03-31,6,6,,19,19,
+Audit Commission,2012-03-31,21,,21,112,,112
+BIG Lottery Fund,2012-03-31,22,22,,38,38,
+Biotechnology and Biological Sciences Research Council,2012-03-31,,,,,,
+Boundary Commission for England,2012-03-31,3,3,,9,9,
+British Tourist Authority,2012-03-31,5,5,,16,16,
+British Transport Police Authority,2012-03-31,17,17,,8,8,
+Cabinet Office,2012-03-31,228,226,2,527,530,
+Capital For Enterprise Ltd,2012-03-31,9,9,,10,10,
+Care Quality Commission,2012-03-31,49,49,,303,303,
+"Centre for Environment, Fisheries & Aquaculture Science",2012-03-31,4,4,,35,35,
+Child Maintenance and Enforcement Commission,2012-03-31,34,34,,325,325,
+Civil Service Learning,2012-03-31,5,5,,31,31,
+Committee on Climate Change,2012-03-31,4,4,,11,11,
+Competition Commission,2012-03-31,21,21,,73,73,
+Construction Industry Training Board,2012-03-31,,,,,,
+Consumer Council for Water,2012-03-31,4,4,,21,21,
+Consumer Futures,2012-03-31,6,6,,6,6,
+Criminal Cases Review Commission,2012-03-31,14,14,,25,25,
+Criminal Injuries Compensation Authority,2012-03-31,2,2,,72,72,
+Criminal Records Bureau,2012-03-31,3,3,,56,56,
+Crown Prosecution Service,2012-03-31,75,75,,978,978,
+Defence Support Group,2012-03-31,,,,,,
+"Department for Business, Innovation and Skills",2012-03-31,196,196,,804,775,29
+Department for Communities and Local Government,2012-03-31,94,94,,510,504,6
+"Department for Environment, Food and Rural Affairs",2012-03-31,110,110,,798,791,7
+Department for Transport,2012-03-31,122,,122,519,,519
+Department for Work and Pensions,2012-03-31,208,208,,2004,1947,57
+Department of Education,2012-03-31,190,190,,1161,1161,
+Department of Energy and Climate Change,2012-03-31,103,103,,415,415,
+Department of Health,2012-03-31,277,277,,1131,1131,
+Driver and Vehicle Licensing Agency,2012-03-31,7,7,,84,84,
+Driving Standards Agency,2012-03-31,3,3,,99,99,
+Engineering and Physical Sciences Research Council,2012-03-31,4,4,,73,73,
+English Heritage,2012-03-31,24,24,,250,250,
+Environment Agency,2012-03-31,143,143,,2295,2295,
+Equality and Human Rights Commission,2012-03-31,6,6,,165,165,
+Fire Service College,2012-03-31,1,1,,24,24,
+Forestry Commission,2012-03-31,11,11,,221,221,
+Gambling Commission,2012-03-31,14,14,,10,10,
+Gangmasters Licensing Authority,2012-03-31,1,1,,25,25,
+General Social Care Council,2012-03-31,,,,,,
+Government Procurement Service,2012-03-31,4,4,,54,54,
+HM Crown Prosecution Service Inspectorate,2012-03-31,3,3,,18,18,
+HM Inspectorate of Constabulary,2012-03-31,17,17,,80,80,
+HM Inspectorate of Prisons,2012-03-31,2,2,,15,15,
+HM Inspectorate of Probation,2012-03-31,1,1,,7,7,
+HM Treasury,2012-03-31,101,101,,369,356,13
+Health Protection Agency,2012-03-31,48,48,,498,498,
+Health and Safety Executive,2012-03-31,,,,,,
+Health and Social Care Information Centre,2012-03-31,34,34,,126,126,
+Her Majesty's Revenue and Customs,2012-03-31,374,374,,5237,5237,
+High Speed 2 Limited,2012-03-31,7,7,,50,50,
+Higher Education Funding Council for England,2012-03-31,,5,,,88,
+Highways Agency,2012-03-31,27,27,,210,210,
+Home Office,2012-03-31,162,162,,811,800,11
+Horniman Public Museum & Public Park Trust,2012-03-31,1,1,,26,26,
+Horserace Betting Levy Board,2012-03-31,3,3,,11,11,
+Human Fertilisation and Embryology Authority,2012-03-31,5,5,,13,13,
+Human Tissue Authority,2012-03-31,5,5,,13,13,
+Identity & Passport Service,2012-03-31,14,14,,70,70,
+Imperial War Museum,2012-03-31,3,3,,157,157,
+Independent Housing Ombudsman,2012-03-31,,,,,,
+Independent Living Fund,2012-03-31,2,2,,47,47,
+Independent Offices,2012-03-31,,2,,,7,
+Independent Police Complaints Commission,2012-03-31,5,5,,109,109,
+Independent Safeguarding Authority,2012-03-31,3,3,,54,54,
+Information Commissioner's Office,2012-03-31,5,5,,87,87,
+Intellectual Property Office,2012-03-31,9,9,,126,126,
+Joint Nature Conservation Committee,2012-03-31,1,1,,69,69,
+Judicial Appointments Commission,2012-03-31,4,4,,30,30,
+Judicial Office,2012-03-31,5,5,,33,33,
+Land Registry,2012-03-31,22,22,,103,103,
+Learning and Skills Improvement Service,2012-03-31,4,4,,76,76,
+Leasehold Advisory Service,2012-03-31,,,,,,
+Legal Services Board,2012-03-31,5,5,,14,14,
+Legal Services Commission,2012-03-31,12,12,,88,88,
+London Thames Gateway Development Corporation,2012-03-31,6,6,,8,8,
+Marine Management Organisation,2012-03-31,5,5,,31,31,
+Maritime and Coastguard Agency,2012-03-31,4,4,,82,82,
+Medical Research Council,2012-03-31,,42,,,302,
+Met Office,2012-03-31,10,10,,229,229,
+Ministry of Defence,2012-03-31,598,360,238,7460,6152,1308
+Ministry of Justice,2012-03-31,130,130,,649,649,
+Monitor,2012-03-31,9,9,,55,55,
+NHS Blood and Transplant,2012-03-31,51,51,,90,90,
+NHS Business Services Authority,2012-03-31,5,5,,69,69,
+NHS Litigation Authority,2012-03-31,6,6,,32,32,
+National Army Museum,2012-03-31,5,5,,32,32,
+National Fraud Authority,2012-03-31,4,4,,42,42,
+National Institute for Health and Care Excellence,2012-03-31,22,22,,320,320,
+National Lottery Commission,2012-03-31,2,2,,10,10,
+National Measurement Office,2012-03-31,1,1,,3,3,
+National Offender Management Service,2012-03-31,75,75,,3948,3951,
+National Policing Improvement Agency,2012-03-31,31,31,,551,551,
+National Treatment Agency for Substance Misuse,2012-03-31,,,,,,
+Natural England,2012-03-31,23,23,,178,178,
+Natural History Museum,2012-03-31,4,4,,140,140,
+Nuclear Decommissioning Authority,2012-03-31,,,,,,
+Office for Budget Responsibility,2012-03-31,4,4,,3,3,
+Office for National Statistics,2012-03-31,42,42,,414,414,
+"Office for Standards in Education, Children's Services and Skills",2012-03-31,,,,,,
+Office of Rail and Road,2012-03-31,15,15,,279,279,
+Office of the Advocate General of Scotland,2012-03-31,,,,,,
+Office of the Immigration Services Commissioner,2012-03-31,2,2,,15,15,
+Olympic Delivery Authority,2012-03-31,,,,,,
+Ordnance Survey,2012-03-31,,6,,,197,
+Parole Board,2012-03-31,2,2,,43,43,
+Pensions Ombudsman,2012-03-31,,,,,,
+Planning Inspectorate,2012-03-31,8,8,,79,79,
+Prisons and Probation Ombudsman,2012-03-31,4,4,,21,21,
+Public Lending Right,2012-03-31,1,1,,11,11,
+Queen Elizabeth II Conference Centre,2012-03-31,1,1,,0,28,
+"Royal Botanic Gardens, Kew",2012-03-31,,,,,,
+Science Museum Group,2012-03-31,12,12,,310,310,
+Scotland Office,2012-03-31,,,,,,
+Scottish Government,2012-03-31,,,,,,
+Security Industry Authority,2012-03-31,4,4,,82,82,
+Serious Organised Crime Agency,2012-03-31,5,5,,32,32,
+Skills Funding Agency,2012-03-31,46,46,,275,275,
+Sport England,2012-03-31,8,8,,89,89,
+Sports Grounds Safety Authority,2012-03-31,,,,,,
+Student Loans Company Limited,2012-03-31,,,,,,
+Tate,2012-03-31,6,6,,28,28,
+The British Library,2012-03-31,35,35,,153,153,
+The British Museum,2012-03-31,6,6,,68,68,
+The Geffrye Museum,2012-03-31,1,1,,21,21,
+The National Gallery,2012-03-31,7,7,,107,107,
+The National Museum of the Royal Navy,2012-03-31,4,4,,2,2,
+The Northern Lighthouse Board,2012-03-31,4,4,,85,85,
+The Pensions Advisory Service,2012-03-31,,1,,,10,
+The Pensions Regulator,2012-03-31,84,84,,99,99,
+The Wallace Collection,2012-03-31,4,4,,44,44,
+Treasury Solicitor's Department,2012-03-31,71,71,,245,245,
+UK Anti-Doping,2012-03-31,5,5,,32,32,
+UK Border Agency,2012-03-31,86,86,,445,445,
+UK Commission for Employment and Skills,2012-03-31,6,6,,44,44,
+UK Debt Management Office,2012-03-31,4,4,,76,76,
+UK Sport,2012-03-31,7,7,,56,56,
+United Kingdom Atomic Energy Authority,2012-03-31,11,11,,255,255,
+Valuation Office Agency,2012-03-31,13,13,,3786,3786,
+Valuation Tribunal Service,2012-03-31,3,3,,6,26,
+Vehicle Certification Agency,2012-03-31,1,1,,7,7,
+Vehicle and Operator Services Agency,2012-03-31,2,2,,32,39,
+Veterinary Medicines Directorate,2012-03-31,3,3,,62,62,
+Victoria & Albert Museum,2012-03-31,5,5,,35,35,
+Visit England,2012-03-31,5,5,,12,12,
+Wales Office,2012-03-31,4,4,,35,35,
+West Northamptonshire Development Corporation,2012-03-31,4,4,,27,27,
+Youth Justice Board,2012-03-31,16,16,,163,163,
+"Advisory, Conciliation and Arbitration Service",2012-09-30,6,6,,28,28,
+Animal Health and Veterinary Laboratories Agency,2012-09-30,13,13,,319,319,
+Arts and Humanities Research Council,2012-09-30,3,3,,12,12,
+Asset Protection Agency,2012-09-30,5,5,,1,1,
+Attorney General's Office,2012-09-30,6,6,,21,21,
+Audit Commission,2012-09-30,,,,,,
+Biotechnology and Biological Sciences Research Council,2012-09-30,26,26,,334,334,
+Boundary Commission for England,2012-09-30,2,2,,9,9,
+British Transport Police Authority,2012-09-30,17,17,,7,7,
+Cabinet Office,2012-09-30,217,217,,626,626,
+Care Quality Commission,2012-09-30,50,50,,245,245,
+"Centre for Environment, Fisheries & Aquaculture Science",2012-09-30,3,3,,35,35,
+Civil Service Learning,2012-09-30,5,5,,28,28,
+Coal Authority,2012-09-30,7,7,,88,88,
+Committee on Climate Change,2012-09-30,,,,,,
+Competition Commission,2012-09-30,24,24,,83,83,
+Construction Industry Training Board,2012-09-30,7,7,,216,216,
+Consumer Futures,2012-09-30,6,6,,6,6,
+Criminal Cases Review Commission,2012-09-30,14,14,,22,22,
+Criminal Injuries Compensation Authority,2012-09-30,2,2,,70,70,
+Criminal Records Bureau,2012-09-30,3,3,,58,58,
+Crown Prosecution Service,2012-09-30,77,77,,1041,1041,
+Defence Support Group,2012-09-30,6,6,,24,24,
+"Department for Business, Innovation and Skills",2012-09-30,,196,,,779,
+Department for Communities and Local Government,2012-09-30,93,93,,491,485,6
+"Department for Culture, Media and Sport",2012-09-30,,,,,,
+"Department for Environment, Food and Rural Affairs",2012-09-30,102,102,,724,719,5
+Department for International Development,2012-09-30,,75,,,246,
+Department for Transport,2012-09-30,124,124,,538,540,
+Department for Work and Pensions,2012-09-30,230,230,,2352,2285,67
+Department of Education,2012-09-30,181,181,,1236,1236,
+Department of Energy and Climate Change,2012-09-30,101,101,,402,402,
+Department of Health,2012-09-30,272,272,,1100,1116,
+Driver and Vehicle Licensing Agency,2012-09-30,7,7,,87,87,
+Driving Standards Agency,2012-09-30,3,3,,130,130,
+Engineering Construction Industry Training Board,2012-09-30,,,,,,
+Engineering and Physical Sciences Research Council,2012-09-30,4,4,,72,72,
+English Heritage,2012-09-30,24,24,,243,243,
+Environment Agency,2012-09-30,149,149,,2270,2270,
+Equality and Human Rights Commission,2012-09-30,6,6,,156,156,
+FCO Services,2012-09-30,,9,,,132,
+Forestry Commission,2012-09-30,10,10,,221,221,
+Government Procurement Service,2012-09-30,5,5,,50,50,
+HM Crown Prosecution Service Inspectorate,2012-09-30,2,2,,18,18,
+HM Inspectorate of Constabulary,2012-09-30,16,16,,76,76,
+HM Inspectorate of Prisons,2012-09-30,2,2,,16,16,
+HM Inspectorate of Probation,2012-09-30,1,1,,7,7,
+HM Treasury,2012-09-30,93,93,,349,349,
+Health Protection Agency,2012-09-30,,,,,,
+Health and Safety Executive,2012-09-30,42,42,,731,731,
+Her Majesty's Revenue and Customs,2012-09-30,349,349,,4237,4237,
+Highways Agency,2012-09-30,30,30,,206,206,
+Home Office,2012-09-30,201,192,9,933,839,94
+Homes and Communities Agency,2012-09-30,9,9,,131,131,
+Horniman Public Museum & Public Park Trust,2012-09-30,1,1,,30,30,
+Human Fertilisation and Embryology Authority,2012-09-30,5,5,,13,13,
+Human Tissue Authority,2012-09-30,5,1,4,14,18,
+Identity & Passport Service,2012-09-30,16,16,,43,43,
+Imperial War Museum,2012-09-30,,,,,,
+Independent Housing Ombudsman,2012-09-30,3,3,,17,17,
+Independent Living Fund,2012-09-30,2,2,,47,47,
+Independent Offices,2012-09-30,,2,,,12,
+Independent Police Complaints Commission,2012-09-30,5,5,,109,109,
+Independent Safeguarding Authority,2012-09-30,3,3,,55,55,
+Information Commissioner's Office,2012-09-30,5,5,,87,87,
+Intellectual Property Office,2012-09-30,10,10,,137,137,
+Joint Nature Conservation Committee,2012-09-30,1,1,,72,72,
+Judicial Appointments Commission,2012-09-30,4,4,,30,30,
+Judicial Office,2012-09-30,5,5,,33,33,
+Land Registry,2012-09-30,,,,,,
+Learning and Skills Improvement Service,2012-09-30,5,5,,70,70,
+Leasehold Advisory Service,2012-09-30,1,1,,2,2,
+Legal Services Board,2012-09-30,5,5,,15,15,
+Legal Services Commission,2012-09-30,14,14,,114,114,
+London Thames Gateway Development Corporation,2012-09-30,4,4,,4,4,
+Marine Management Organisation,2012-09-30,5,5,,30,30,
+Maritime and Coastguard Agency,2012-09-30,4,4,,127,127,
+Medical Research Council,2012-09-30,,41,,,281,
+Medicines and Healthcare products Regulatory Agency,2012-09-30,,,,,,
+Met Office,2012-09-30,9,9,,224,224,
+Ministry of Defence,2012-09-30,535,868,,6453,6804,
+Ministry of Justice,2012-09-30,128,127,1,692,685,7
+Monitor,2012-09-30,10,10,,67,67,
+NHS Blood and Transplant,2012-09-30,52,51,1,92,92,
+NHS Business Services Authority,2012-09-30,5,5,,67,67,
+NHS Information Centre for Health and Social Care,2012-09-30,37,37,,112,112,
+NHS Litigation Authority,2012-09-30,6,6,,33,33,
+National Army Museum,2012-09-30,,,,,,
+National Fraud Authority,2012-09-30,4,4,,47,47,
+National Institute for Health and Care Excellence,2012-09-30,22,22,,314,314,
+National Measurement Office,2012-09-30,,,,,,
+National Offender Management Service,2012-09-30,75,75,,3811,3790,21
+National Treatment Agency for Substance Misuse,2012-09-30,7,7,,21,21,
+Natural England,2012-09-30,22,22,,187,187,
+Natural Environment Research Council,2012-09-30,23,23,,422,393,29
+Natural History Museum,2012-09-30,4,4,,122,122,
+Office for Budget Responsibility,2012-09-30,4,4,,3,3,
+"Office for Standards in Education, Children's Services and Skills",2012-09-30,32,36,,162,162,
+Office of Rail and Road,2012-09-30,18,17,1,282,282,
+Office of the Advocate General of Scotland,2012-09-30,5,5,,41,41,
+Office of the Immigration Services Commissioner,2012-09-30,2,2,,15,15,
+Olympic Delivery Authority,2012-09-30,,,,,,
+Ordnance Survey,2012-09-30,6,6,,203,203,
+Parole Board,2012-09-30,2,2,,43,43,
+Planning Inspectorate,2012-09-30,8,8,,87,87,
+Prisons and Probation Ombudsman,2012-09-30,4,4,,21,21,
+Public Lending Right,2012-09-30,1,,1,11,,11
+Queen Elizabeth II Conference Centre,2012-09-30,1,1,,0,28,
+Royal Air Force Museum,2012-09-30,3,3,,30,30,
+Royal Armouries,2012-09-30,7,7,,66,66,
+Science Museum Group,2012-09-30,12,12,,303,303,
+Scotland Office,2012-09-30,4,4,,47,47,
+Security Industry Authority,2012-09-30,4,4,,79,79,
+Serious Organised Crime Agency,2012-09-30,5,5,,56,56,
+Skills Funding Agency,2012-09-30,45,45,,259,259,
+Sport England,2012-09-30,7,7,,93,93,
+Student Loans Company Limited,2012-09-30,8,8,,381,381,
+Tate,2012-09-30,6,6,,28,28,
+The British Library,2012-09-30,,,,,,
+The British Museum,2012-09-30,6,6,,66,66,
+The Geffrye Museum,2012-09-30,1,1,,21,21,
+The National Museum of the Royal Navy,2012-09-30,5,5,,5,5,
+The Pensions Advisory Service,2012-09-30,1,1,,16,16,
+The Pensions Regulator,2012-09-30,107,107,,235,235,
+The Wallace Collection,2012-09-30,4,4,,44,44,
+Transport Focus,2012-09-30,3,3,,12,12,
+Treasury Solicitor's Department,2012-09-30,66,66,,246,246,
+Trinity House Lighthouse Service,2012-09-30,4,4,,129,129,
+UK Anti-Doping,2012-09-30,,,,,,
+UK Border Agency,2012-09-30,94,94,,351,351,
+UK Commission for Employment and Skills,2012-09-30,6,6,,51,51,
+UK Debt Management Office,2012-09-30,4,4,,81,81,
+UK Sport,2012-09-30,,,,,,
+UK Statistics Authority,2012-09-30,48,48,,470,470,
+United Kingdom Atomic Energy Authority,2012-09-30,10,10,,268,268,
+United Kingdom Hydrographic Office,2012-09-30,,,,,,
+Vehicle Certification Agency,2012-09-30,1,1,,7,7,
+Vehicle and Operator Services Agency,2012-09-30,3,3,,39,39,
+Veterinary Medicines Directorate,2012-09-30,3,3,,54,54,
+Victoria & Albert Museum,2012-09-30,5,5,,36,36,
+Visit England,2012-09-30,,,,,,
+Wales Office,2012-09-30,4,4,,38,38,
+West Northamptonshire Development Corporation,2012-09-30,3,3,,22,22,
+Youth Justice Board,2012-09-30,16,16,,182,182,
+Animal Health and Veterinary Laboratories Agency,2013-03-31,0,12,,0,184,
+Attorney General's Office,2013-03-31,,,,,,
+BIG Lottery Fund,2013-03-31,19,19,,28,28,
+Biotechnology and Biological Sciences Research Council,2013-03-31,,25,,,346,
+British Transport Police Authority,2013-03-31,17,17,,7,7,
+Cabinet Office,2013-03-31,,238,,,747,
+Capital For Enterprise Ltd,2013-03-31,11,11,,10,10,
+Care Quality Commission,2013-03-31,49,49,,310,292,18
+"Centre for Environment, Fisheries & Aquaculture Science",2013-03-31,3,3,,35,35,
+Civil Service Learning,2013-03-31,5,5,,33,33,
+Coal Authority,2013-03-31,6,6,,80,80,
+Competition Commission,2013-03-31,,26,,,75,
+Construction Industry Training Board,2013-03-31,,,,,,
+Consumer Council for Water,2013-03-31,,4,,,30,
+Consumer Futures,2013-03-31,5,5,,6,6,
+Criminal Cases Review Commission,2013-03-31,17,17,,23,23,
+Criminal Injuries Compensation Authority,2013-03-31,,2,,,114,
+Crown Prosecution Service,2013-03-31,,66,,,1034,
+Defence Support Group,2013-03-31,6,,6,26,,26
+Department for Communities and Local Government,2013-03-31,,91,,,474,
+"Department for Environment, Food and Rural Affairs",2013-03-31,,101,,,748,
+Department for International Development,2013-03-31,77,75,2,303,246,57
+Department for Work and Pensions,2013-03-31,,238,,,2337,
+Department of Energy and Climate Change,2013-03-31,105,104,1,419,419,
+Department of Health,2013-03-31,157,156,1,976,990,
+Driver and Vehicle Licensing Agency,2013-03-31,,8,,,93,
+Driving Standards Agency,2013-03-31,3,3,,132,132,
+Engineering Construction Industry Training Board,2013-03-31,8,8,,1,1,
+Engineering and Physical Sciences Research Council,2013-03-31,,4,,,69,
+English Heritage,2013-03-31,24,24,,240,240,
+Equality and Human Rights Commission,2013-03-31,5,5,,127,127,
+FCO Services,2013-03-31,,10,,,143,
+Foreign and Commonwealth Office,2013-03-31,139,139,,210,210,
+Forestry Commission,2013-03-31,,9,,,233,
+Gangmasters Licensing Authority,2013-03-31,,1,,,30,
+Government Procurement Service,2013-03-31,7,7,,53,53,
+HM Crown Prosecution Service Inspectorate,2013-03-31,,,,,,
+HM Inspectorate of Constabulary,2013-03-31,,15,,,82,
+HM Inspectorate of Prisons,2013-03-31,,2,,,16,
+HM Inspectorate of Probation,2013-03-31,1,1,,8,8,
+HM Treasury,2013-03-31,,95,,,321,
+Health Education England,2013-03-31,356,356,,704,858,
+Health and Safety Executive,2013-03-31,,42,,,752,
+Her Majesty's Revenue and Customs,2013-03-31,338,338,,4668,4668,
+High Speed 2 Limited,2013-03-31,,7,,,73,
+Higher Education Funding Council for England,2013-03-31,4,4,,89,89,
+Highways Agency,2013-03-31,30,30,,226,226,
+Home Office,2013-03-31,143,142,1,1084,1075,9
+Horniman Public Museum & Public Park Trust,2013-03-31,1,1,,31,31,
+Horserace Betting Levy Board,2013-03-31,,,,,,
+Human Fertilisation and Embryology Authority,2013-03-31,5,5,,11,11,
+Human Tissue Authority,2013-03-31,1,1,,18,18,
+Identity & Passport Service,2013-03-31,,16,,,73,
+Imperial War Museum,2013-03-31,,3,,,143,
+Independent Living Fund,2013-03-31,,2,,,47,
+Independent Police Complaints Commission,2013-03-31,,7,,,119,
+Information Commissioner's Office,2013-03-31,,5,,,171,
+Intellectual Property Office,2013-03-31,9,9,,152,152,
+Joint Nature Conservation Committee,2013-03-31,,,,,,
+Judicial Appointments Commission,2013-03-31,4,4,,30,30,
+Judicial Office,2013-03-31,,5,,,30,
+Land Registry,2013-03-31,22,22,,93,93,
+Legal Aid Agency,2013-03-31,11,11,,20,20,
+Legal Services Board,2013-03-31,,5,,,15,
+Marine Management Organisation,2013-03-31,,,,,,
+Maritime and Coastguard Agency,2013-03-31,4,4,,122,122,
+Medical Research Council,2013-03-31,,41,,,306,
+Met Office,2013-03-31,,10,,,238,
+Ministry of Defence,2013-03-31,189,294,,1493,2632,
+Ministry of Justice,2013-03-31,117,117,,981,892,89
+Monitor,2013-03-31,51,51,,110,110,
+NHS Blood and Transplant,2013-03-31,,50,,,93,
+NHS Business Services Authority,2013-03-31,,,,,,
+NHS England,2013-03-31,296,296,,1,1,
+NHS Litigation Authority,2013-03-31,13,13,,79,79,
+NHS Trust Development Authority,2013-03-31,85,85,,137,137,
+National Fraud Authority,2013-03-31,,4,,,53,
+National Institute for Health and Care Excellence,2013-03-31,,,,,,
+National Measurement Office,2013-03-31,,,,,,
+National Offender Management Service,2013-03-31,72,72,,4016,3756,260
+Natural England,2013-03-31,,22,,,171,
+Natural Environment Research Council,2013-03-31,,20,,,374,
+Office for Budget Responsibility,2013-03-31,,4,,,4,
+Office for Fair Access,2013-03-31,,1,,,5,
+Office of the Advocate General of Scotland,2013-03-31,5,5,,38,38,
+Office of the Immigration Services Commissioner,2013-03-31,2,2,,15,15,
+Ordnance Survey,2013-03-31,,6,,,212,
+Parole Board,2013-03-31,,2,,,79,
+Prisons and Probation Ombudsman,2013-03-31,4,4,,19,19,
+Public Health England,2013-03-31,68,68,,558,558,
+Public Lending Right,2013-03-31,,1,,,11,
+Royal Air Force Museum,2013-03-31,,2,,,30,
+Royal Armouries,2013-03-31,7,7,,71,71,
+"Royal Botanic Gardens, Kew",2013-03-31,,,,,,
+Science Museum Group,2013-03-31,12,12,,179,179,
+Scotland Office,2013-03-31,,4,,,55,
+Security Industry Authority,2013-03-31,,4,,,21,
+Serious Fraud Office,2013-03-31,12,12,,135,135,
+Serious Organised Crime Agency,2013-03-31,5,5,,58,58,
+Skills Funding Agency,2013-03-31,44,44,,279,279,
+Sport England,2013-03-31,,7,,,85,
+Standards and Testing Agency,2013-03-31,,173,,,809,
+Student Loans Company Limited,2013-03-31,,8,,,386,
+Tate,2013-03-31,5,5,,23,23,
+The British Library,2013-03-31,,,,,,
+The British Museum,2013-03-31,,6,,,69,
+The Disclosure and Barring Service,2013-03-31,,5,,,103,
+The Geffrye Museum,2013-03-31,1,1,,21,21,
+The Insolvency Service,2013-03-31,9,9,,109,109,
+The National Archives,2013-03-31,,7,,,209,
+The National Museum of the Royal Navy,2013-03-31,6,6,,5,5,
+The Pensions Advisory Service,2013-03-31,,1,,,13,
+The Pensions Regulator,2013-03-31,,128,,,108,
+The Wallace Collection,2013-03-31,,,,,,
+Transport Focus,2013-03-31,,3,,,12,
+UK Border Agency,2013-03-31,51,49,2,349,349,
+UK Commission for Employment and Skills,2013-03-31,,,,,,
+UK Debt Management Office,2013-03-31,,4,,,111,
+UK Statistics Authority,2013-03-31,,46,,,478,
+United Kingdom Atomic Energy Authority,2013-03-31,10,10,,293,293,
+United Kingdom Hydrographic Office,2013-03-31,5,5,,1086,1086,
+Vehicle Certification Agency,2013-03-31,1,1,,7,7,
+Vehicle and Operator Services Agency,2013-03-31,0,3,,0,39,
+Veterinary Medicines Directorate,2013-03-31,,3,,,76,
+Victoria & Albert Museum,2013-03-31,,,,,,
+Wales Office,2013-03-31,4,4,,34,34,
+Youth Justice Board,2013-03-31,,16,,,182,
+"Advisory, Conciliation and Arbitration Service",2013-09-30,,,,,,
+Animal Health and Veterinary Laboratories Agency,2013-09-30,9,9,,170,170,
+Arts and Humanities Research Council,2013-09-30,3,3,,24,24,
+Attorney General's Office,2013-09-30,5,5,,17,17,
+Biotechnology and Biological Sciences Research Council,2013-09-30,27,27,,359,359,
+British Transport Police Authority,2013-09-30,,,,,,
+Cabinet Office,2013-09-30,244,244,,763,763,
+Care Quality Commission,2013-09-30,51,51,,347,341,6
+"Centre for Environment, Fisheries & Aquaculture Science",2013-09-30,3,3,,35,35,
+Civil Service Learning,2013-09-30,5,5,,35,35,
+Competition Commission,2013-09-30,,,,,,
+Construction Industry Training Board,2013-09-30,7,7,,280,280,
+Consumer Council for Water,2013-09-30,4,4,,27,27,
+Criminal Injuries Compensation Authority,2013-09-30,2,2,,70,70,
+Crown Prosecution Service,2013-09-30,70,70,,991,991,
+Defence Support Group,2013-09-30,6,6,,26,26,
+Department for Communities and Local Government,2013-09-30,82,82,,1689,1657,32
+"Department for Culture, Media and Sport",2013-09-30,37,37,,31,31,
+"Department for Environment, Food and Rural Affairs",2013-09-30,107,107,,708,708,
+Department for International Development,2013-09-30,89,89,,371,371,
+Department for Work and Pensions,2013-09-30,229,229,,2240,2155,85
+Department of Energy and Climate Change,2013-09-30,113,113,,330,324,6
+Department of Health,2013-09-30,163,163,,970,976,
+Economic and Social Research Council,2013-09-30,3,3,,34,34,
+Engineering Construction Industry Training Board,2013-09-30,,,,,,
+Engineering and Physical Sciences Research Council,2013-09-30,4,4,,74,74,
+English Heritage,2013-09-30,24,24,,239,239,
+Environment Agency,2013-09-30,138,138,,1967,1967,
+Equality and Human Rights Commission,2013-09-30,5,5,,129,129,
+Foreign and Commonwealth Office,2013-09-30,133,133,,200,200,
+Forestry Commission,2013-09-30,9,,9,236,,236
+Gangmasters Licensing Authority,2013-09-30,,,,,,
+Government Procurement Service,2013-09-30,9,9,,61,61,
+HM Crown Prosecution Service Inspectorate,2013-09-30,2,2,,18,18,
+HM Inspectorate of Constabulary,2013-09-30,15,15,,87,87,
+HM Inspectorate of Prisons,2013-09-30,2,2,,16,16,
+HM Inspectorate of Probation,2013-09-30,1,1,,8,8,
+HM Passport Office,2013-09-30,16,16,,66,66,
+HM Treasury,2013-09-30,90,90,,315,315,
+Health Education England,2013-09-30,238,238,,442,1078,
+Health and Safety Executive,2013-09-30,40,40,,561,561,
+Her Majesty's Revenue and Customs,2013-09-30,332,331,1,5107,5107,
+High Speed 2 Limited,2013-09-30,8,8,,119,119,
+Higher Education Funding Council for England,2013-09-30,4,4,,94,94,
+Home Office,2013-09-30,203,203,,1385,1387,
+Horserace Betting Levy Board,2013-09-30,,,,,,
+Human Fertilisation and Embryology Authority,2013-09-30,,5,,,12,
+Independent Living Fund,2013-09-30,2,2,,52,52,
+Independent Police Complaints Commission,2013-09-30,8,8,,141,141,
+Joint Nature Conservation Committee,2013-09-30,,,,,,
+Judicial Appointments Commission,2013-09-30,3,3,,30,30,
+Judicial Office,2013-09-30,5,5,,40,40,
+Land Registry,2013-09-30,21,21,,99,99,
+Legal Services Board,2013-09-30,5,5,,15,15,
+Marine Management Organisation,2013-09-30,,,,,,
+Medical Research Council,2013-09-30,31,31,,223,223,
+Medicines and Healthcare products Regulatory Agency,2013-09-30,144,144,,233,1117,
+Ministry of Defence,2013-09-30,599,920,,4449,5160,
+Ministry of Justice,2013-09-30,136,136,,1092,1070,22
+Monitor,2013-09-30,53,53,,113,113,
+NHS Blood and Transplant,2013-09-30,51,51,,92,92,
+NHS Business Services Authority,2013-09-30,5,5,,126,126,
+NHS England,2013-09-30,293,293,,1,1,
+NHS Litigation Authority,2013-09-30,,,,,,
+National Army Museum,2013-09-30,,,,,,
+National Fraud Authority,2013-09-30,4,4,,53,53,
+National Institute for Health and Care Excellence,2013-09-30,19,19,,277,277,
+National Offender Management Service,2013-09-30,72,72,,3723,3723,
+Natural England,2013-09-30,23,23,,178,178,
+Natural Environment Research Council,2013-09-30,18,18,,334,334,
+Natural History Museum,2013-09-30,,,,,,
+Office for Budget Responsibility,2013-09-30,4,4,,5,5,
+Office for Fair Access,2013-09-30,1,1,,5,5,
+Office of the Immigration Services Commissioner,2013-09-30,2,2,,15,15,
+Olympic Delivery Authority,2013-09-30,9,9,,21,21,
+Ordnance Survey,2013-09-30,6,6,,235,235,
+Parole Board,2013-09-30,2,2,,79,79,
+Pensions Ombudsman,2013-09-30,2,2,,7,7,
+Prisons and Probation Ombudsman,2013-09-30,4,4,,19,19,
+Public Health England,2013-09-30,89,89,,688,688,
+Queen Elizabeth II Conference Centre,2013-09-30,,,,,,
+Royal Air Force Museum,2013-09-30,2,2,,30,30,
+Royal Museums Greenwich,2013-09-30,7,7,,96,96,
+Rural Payments Agency,2013-09-30,13,13,,243,243,
+Science Museum Group,2013-09-30,,,,,,
+Science and Technology Facilities Council,2013-09-30,31,31,,311,311,
+Security Industry Authority,2013-09-30,4,4,,82,82,
+Serious Organised Crime Agency,2013-09-30,5,5,,35,35,
+Sport England,2013-09-30,7,7,,81,81,
+Standards and Testing Agency,2013-09-30,145,145,,742,742,
+Student Loans Company Limited,2013-09-30,,,,,,
+The British Library,2013-09-30,37,35,2,143,143,
+The British Museum,2013-09-30,5,5,,68,68,
+The Disclosure and Barring Service,2013-09-30,5,5,,103,103,
+The Geffrye Museum,2013-09-30,1,1,,19,19,
+The National Gallery,2013-09-30,4,4,,102,102,
+The National Museum of the Royal Navy,2013-09-30,5,5,,4,4,
+The Wallace Collection,2013-09-30,,,,,,
+Transport Focus,2013-09-30,3,3,,13,13,
+Treasury Solicitor's Department,2013-09-30,94,94,,337,337,
+UK Anti-Doping,2013-09-30,5,5,,33,33,
+UK Commission for Employment and Skills,2013-09-30,,,,,,
+UK Debt Management Office,2013-09-30,4,4,,115,115,
+UK Space Agency,2013-09-30,,,,,,
+UK Statistics Authority,2013-09-30,46,46,,487,487,
+United Kingdom Atomic Energy Authority,2013-09-30,10,10,,348,348,
+United Kingdom Hydrographic Office,2013-09-30,6,6,,397,397,
+Veterinary Medicines Directorate,2013-09-30,3,3,,77,77,
+Wales Office,2013-09-30,4,4,,34,34,
+Youth Justice Board,2013-09-30,16,16,,182,182,
+Animal Health and Veterinary Laboratories Agency,2014-03-31,9,9,,187,187,
+Attorney General's Office,2014-03-31,5,5,,18,18,
+Biotechnology and Biological Sciences Research Council,2014-03-31,,,,,,
+Boundary Commission for England,2014-03-31,1,1,,1,1,
+British Transport Police Authority,2014-03-31,17,17,,9,9,
+Cabinet Office,2014-03-31,265,265,,804,804,
+Care Quality Commission,2014-03-31,99,99,,366,366,
+"Centre for Environment, Fisheries & Aquaculture Science",2014-03-31,3,3,,40,40,
+Civil Service Learning,2014-03-31,5,5,,44,44,
+Coal Authority,2014-03-31,,,,,,
+Consumer Council for Water,2014-03-31,4,4,,28,28,
+Criminal Injuries Compensation Authority,2014-03-31,2,2,,65,65,
+Crown Prosecution Service,2014-03-31,69,69,,1021,1021,
+Defence Support Group,2014-03-31,6,6,,26,26,
+Department for Communities and Local Government,2014-03-31,94,94,,1684,1636,48
+"Department for Culture, Media and Sport",2014-03-31,35,35,,42,42,
+"Department for Environment, Food and Rural Affairs",2014-03-31,107,107,,699,694,5
+Department for International Development,2014-03-31,29,29,,112,370,
+Department for Transport,2014-03-31,124,124,,551,551,
+Department for Work and Pensions,2014-03-31,237,237,,2190,2063,127
+Department of Education,2014-03-31,139,139,,683,683,
+Department of Energy and Climate Change,2014-03-31,,,,,,
+Department of Health,2014-03-31,161,161,,993,993,
+Driver & Vehicle Standards Agency,2014-03-31,4,4,,37,44,
+Driver and Vehicle Licensing Agency,2014-03-31,6,5,1,66,66,
+Driving Standards Agency,2014-03-31,5,5,,114,114,
+Equality and Human Rights Commission,2014-03-31,4,4,,132,132,
+Foreign and Commonwealth Office,2014-03-31,136,136,,200,200,
+Forestry Commission,2014-03-31,,,,,,
+Gangmasters Licensing Authority,2014-03-31,1,1,,35,35,
+Government Actuary's Department,2014-03-31,,,,,,
+HM Crown Prosecution Service Inspectorate,2014-03-31,2,2,,19,19,
+HM Inspectorate of Constabulary,2014-03-31,15,15,,98,98,
+HM Inspectorate of Prisons,2014-03-31,2,2,,16,16,
+HM Inspectorate of Probation,2014-03-31,1,1,,8,8,
+HM Passport Office,2014-03-31,16,16,,61,61,
+HM Treasury,2014-03-31,93,93,,308,308,
+Health Research Authority,2014-03-31,,,,,,
+Health and Safety Executive,2014-03-31,43,43,,557,557,
+Health and Social Care Information Centre,2014-03-31,,,,,,
+Her Majesty's Revenue and Customs,2014-03-31,324,324,,5474,5471,3
+Home Office,2014-03-31,198,194,4,1386,1398,
+Human Fertilisation and Embryology Authority,2014-03-31,6,6,,12,12,
+Independent Living Fund,2014-03-31,2,2,,52,52,
+Independent Police Complaints Commission,2014-03-31,6,6,,166,166,
+Joint Nature Conservation Committee,2014-03-31,1,1,,98,98,
+Judicial Office,2014-03-31,5,5,,41,41,
+Maritime and Coastguard Agency,2014-03-31,4,4,,122,122,
+Ministry of Defence,2014-03-31,518,282,236,3440,2520,920
+Ministry of Justice,2014-03-31,136,136,,897,893,4
+Monitor,2014-03-31,,,,,,
+NHS Arden CSU,2014-03-31,8,8,,91,91,
+NHS Blood and Transplant,2014-03-31,54,54,,93,93,
+NHS Business Services Authority,2014-03-31,5,5,,130,130,
+NHS Central Southern CSU,2014-03-31,38,38,,191,191,
+NHS Cheshire and Merseyside Commissioning Support Unit,2014-03-31,40,40,,157,157,
+NHS Greater East Midlands CSU,2014-03-31,6,6,,437,437,
+NHS Greater Manchester CSU,2014-03-31,21,21,,102,102,
+NHS Kent and Medway CSU,2014-03-31,,,,,,
+NHS North Yorkshire and Humber CSU,2014-03-31,19,19,,135,135,
+NHS North and East London CSU,2014-03-31,,,,,,
+NHS North of England CSU,2014-03-31,7,7,,113,113,
+NHS South West CSU,2014-03-31,19,19,,127,127,
+National Army Museum,2014-03-31,5,,5,29,,29
+National Institute for Health and Care Excellence,2014-03-31,18,18,,293,293,
+Natural England,2014-03-31,21,21,,258,258,
+Natural Environment Research Council,2014-03-31,19,19,,723,723,
+Office for Budget Responsibility,2014-03-31,4,4,,5,5,
+"Office for Standards in Education, Children's Services and Skills",2014-03-31,28,28,,130,130,
+Office of Rail and Road,2014-03-31,18,18,,295,295,
+Office of the Immigration Services Commissioner,2014-03-31,2,2,,15,15,
+Olympic Delivery Authority,2014-03-31,,,,,,
+Pensions Ombudsman,2014-03-31,,,,,,
+Royal Air Force Museum,2014-03-31,3,3,,24,24,
+Security Industry Authority,2014-03-31,4,4,,77,77,
+Serious Fraud Office,2014-03-31,12,12,,135,135,
+Student Loans Company Limited,2014-03-31,,,,,,
+The British Library,2014-03-31,,,,,,
+The Disclosure and Barring Service,2014-03-31,5,5,,0,78,
+The Food and Environment Research Agency,2014-03-31,6,6,,84,84,
+The National Museum of the Royal Navy,2014-03-31,,,,,,
+The Northern Lighthouse Board,2014-03-31,4,4,,82,82,
+The Pensions Advisory Service,2014-03-31,1,1,,14,14,
+Transport Focus,2014-03-31,3,3,,13,13,
+Treasury Solicitor's Department,2014-03-31,,,,,,
+Trinity House Lighthouse Service,2014-03-31,4,4,,129,129,
+UK Debt Management Office,2014-03-31,4,4,,112,112,
+United Kingdom Atomic Energy Authority,2014-03-31,10,10,,364,364,
+United Kingdom Hydrographic Office,2014-03-31,3,,3,583,,583
+Veterinary Medicines Directorate,2014-03-31,3,3,,78,78,
+Wales Office,2014-03-31,,,,,,
+West and South Yorkshire and Bassetlaw Commissioning Support Unit,2014-03-31,,,,,,
+Animal Health and Veterinary Laboratories Agency,2014-09-30,9,9,,187,187,
+Cabinet Office,2014-09-30,253,253,,816,816,
+"Centre for Environment, Fisheries & Aquaculture Science",2014-09-30,6,3,3,132,33,99
+Civil Service Learning,2014-09-30,6,6,,38,38,
+Consumer Council for Water,2014-09-30,4,4,,28,28,
+Criminal Cases Review Commission,2014-09-30,15,15,,24,24,
+Criminal Injuries Compensation Authority,2014-09-30,2,2,,72,72,
+Crown Prosecution Service,2014-09-30,68,68,,1002,1002,
+Defence Support Group,2014-09-30,6,6,,26,26,
+Department for Communities and Local Government,2014-09-30,95,95,,1650,1636,14
+"Department for Culture, Media and Sport",2014-09-30,35,35,,99,99,
+"Department for Environment, Food and Rural Affairs",2014-09-30,,104,,,715,
+Department for International Development,2014-09-30,92,92,,684,684,
+Department for Work and Pensions,2014-09-30,204,204,,1940,1932,8
+Department of Education,2014-09-30,139,139,,695,695,
+Department of Health,2014-09-30,164,164,,1089,1090,
+Equality and Human Rights Commission,2014-09-30,,,,,,
+Foreign and Commonwealth Office,2014-09-30,133,133,,201,200,1
+Gangmasters Licensing Authority,2014-09-30,1,1,,36,36,
+Government Actuary's Department,2014-09-30,4,4,,155,155,
+HM Inspectorate of Constabulary,2014-09-30,18,18,,119,119,
+HM Passport Office,2014-09-30,16,16,,34,34,
+HM Treasury,2014-09-30,89,89,,291,286,5
+Health Research Authority,2014-09-30,,,,,,
+Health and Safety Executive,2014-09-30,31,31,,484,484,
+Health and Social Care Information Centre,2014-09-30,37,37,,491,491,
+Her Majesty's Revenue and Customs,2014-09-30,335,335,,5312,5302,10
+Home Office,2014-09-30,210,206,4,1761,1751,10
+Human Fertilisation and Embryology Authority,2014-09-30,,,,,,
+Independent Living Fund,2014-09-30,2,2,,52,52,
+Independent Police Complaints Commission,2014-09-30,8,8,,188,188,
+Joint Nature Conservation Committee,2014-09-30,1,1,,98,98,
+Judicial Appointments Commission,2014-09-30,3,3,,29,29,
+Judicial Office,2014-09-30,5,5,,38,38,
+Ministry of Defence,2014-09-30,629,384,245,4580,3624,956
+Ministry of Justice,2014-09-30,215,212,3,2674,2643,31
+NHS Greater Manchester CSU,2014-09-30,,,,,,
+NHS Kent and Medway CSU,2014-09-30,,,,,,
+NHS Midlands and Lancashire CSU,2014-09-30,7,7,,270,270,
+NHS North Yorkshire and Humber CSU,2014-09-30,,,,,,
+NHS South CSU,2014-09-30,,8,,,129,
+National Army Museum,2014-09-30,5,5,,29,29,
+Natural England,2014-09-30,21,21,,239,239,
+Office for Budget Responsibility,2014-09-30,4,4,,5,5,
+Office of the Immigration Services Commissioner,2014-09-30,2,2,,15,15,
+Pensions Ombudsman,2014-09-30,2,2,,7,7,
+Prisons and Probation Ombudsman,2014-09-30,3,3,,12,12,
+Royal Air Force Museum,2014-09-30,3,3,,17,17,
+Security Industry Authority,2014-09-30,4,4,,87,87,
+The British Library,2014-09-30,,,,,,
+The Disclosure and Barring Service,2014-09-30,6,6,,71,71,
+The National Museum of the Royal Navy,2014-09-30,8,8,,16,16,
+The Pensions Regulator,2014-09-30,134,134,,106,106,
+UK Debt Management Office,2014-09-30,4,4,,113,113,
+UK Statistics Authority,2014-09-30,49,49,,506,506,
+United Kingdom Atomic Energy Authority,2014-09-30,10,10,,364,364,
+United Kingdom Hydrographic Office,2014-09-30,4,4,,462,462,
+Veterinary Medicines Directorate,2014-09-30,3,3,,80,80,
+Wales Office,2014-09-30,,,,,,
+Water Services Regulation Authority,2014-09-30,8,8,,54,54,
+West and South Yorkshire and Bassetlaw Commissioning Support Unit,2014-09-30,32,32,,368,368,
+Animal and Plant Health Agency,2015-03-31,9,9,,127,127,
+British Transport Police Authority,2015-03-31,17,17,,9,9,
+Cabinet Office,2015-03-31,252,252,,984,984,
+Civil Service Learning,2015-03-31,,,,,,
+Consumer Council for Water,2015-03-31,,,,,,
+Crown Prosecution Service,2015-03-31,,,,,,
+Department for Transport,2015-03-31,123,123,,530,530,
+Department for Work and Pensions,2015-03-31,204,204,,1962,1953,9
+Department of Education,2015-03-31,139,139,,744,732,12
+Department of Health,2015-03-31,170,170,,1037,1038,
+Driver & Vehicle Standards Agency,2015-03-31,6,6,,179,179,
+Driver and Vehicle Licensing Agency,2015-03-31,7,7,,75,75,
+Environment Agency,2015-03-31,117,117,,1736,1736,
+Foreign and Commonwealth Office,2015-03-31,135,135,,206,199,7
+Gangmasters Licensing Authority,2015-03-31,1,1,,38,38,
+HM Inspectorate of Constabulary,2015-03-31,,,,,,
+HM Treasury,2015-03-31,,,,,,
+Health Education England,2015-03-31,,,,,,
+Health Research Authority,2015-03-31,,,,,,
+Health and Social Care Information Centre,2015-03-31,,,,,,
+Her Majesty's Revenue and Customs,2015-03-31,354,354,,4406,4315,91
+Human Fertilisation and Embryology Authority,2015-03-31,5,5,,11,11,
+Human Tissue Authority,2015-03-31,5,5,,5,5,
+Independent Police Complaints Commission,2015-03-31,3,3,,65,187,
+Joint Nature Conservation Committee,2015-03-31,,,,,,
+Maritime and Coastguard Agency,2015-03-31,4,4,,123,123,
+Medicines and Healthcare products Regulatory Agency,2015-03-31,,,,,,
+Ministry of Defence,2015-03-31,626,364,262,4651,3192,1459
+Ministry of Justice,2015-03-31,181,181,,4760,4760,
+NHS Arden CSU,2015-03-31,5,5,,145,145,
+NHS Blood and Transplant,2015-03-31,60,60,,83,83,
+NHS Central Southern CSU,2015-03-31,6,6,,192,192,
+NHS Cheshire and Merseyside Commissioning Support Unit,2015-03-31,40,39,1,155,155,
+NHS Greater East Midlands CSU,2015-03-31,,8,,,504,
+NHS Midlands and Lancashire CSU,2015-03-31,8,8,,250,250,
+NHS North Yorkshire and Humber CSU,2015-03-31,,,,,,
+NHS North and East London CSU,2015-03-31,,,,,,
+NHS North of England CSU,2015-03-31,7,7,,126,126,
+NHS South CSU,2015-03-31,6,6,,161,161,
+NHS South West CSU,2015-03-31,19,19,,128,128,
+National Army Museum,2015-03-31,5,5,,29,29,
+National Institute for Health and Care Excellence,2015-03-31,18,18,,307,307,
+Natural England,2015-03-31,16,16,,236,236,
+Office for Budget Responsibility,2015-03-31,,,,,,
+Office of Rail and Road,2015-03-31,21,21,,283,283,
+Office of the Immigration Services Commissioner,2015-03-31,2,2,,17,17,
+Public Health England,2015-03-31,,,,,,
+Royal Air Force Museum,2015-03-31,5,5,,22,22,
+Science Museum Group,2015-03-31,,,,,,
+Security Industry Authority,2015-03-31,4,4,,110,110,
+Student Loans Company Limited,2015-03-31,6,6,,403,404,
+The British Library,2015-03-31,,,,,,
+The Disclosure and Barring Service,2015-03-31,7,7,,66,66,
+The National Museum of the Royal Navy,2015-03-31,5,5,,15,15,
+The Northern Lighthouse Board,2015-03-31,4,4,,80,80,
+Transport Focus,2015-03-31,3,3,,16,16,
+Trinity House Lighthouse Service,2015-03-31,4,4,,127,127,
+UK Debt Management Office,2015-03-31,,,,,,
+UK Export Finance,2015-03-31,,,,,,
+United Kingdom Atomic Energy Authority,2015-03-31,11,11,,349,349,
+United Kingdom Hydrographic Office,2015-03-31,4,,4,431,,431
+Vehicle Certification Agency,2015-03-31,1,1,,24,24,
+Veterinary Medicines Directorate,2015-03-31,3,3,,78,78,
+Animal and Plant Health Agency,2015-09-30,9,9,,139,139,
+Arts and Humanities Research Council,2015-09-30,,,,,,
+Cabinet Office,2015-09-30,221,221,,886,886,
+Crown Prosecution Service,2015-09-30,,,,,,
+Department for Transport,2015-09-30,,,,,,
+Department for Work and Pensions,2015-09-30,225,225,,2133,2036,97
+Department of Education,2015-09-30,145,145,,715,713,2
+Department of Health,2015-09-30,172,172,,1205,1187,18
+Driver & Vehicle Standards Agency,2015-09-30,6,6,,278,206,72
+Driver and Vehicle Licensing Agency,2015-09-30,9,9,,63,63,
+Gangmasters Licensing Authority,2015-09-30,,,,,,
+Her Majesty's Revenue and Customs,2015-09-30,359,359,,4722,4649,73
+Human Fertilisation and Embryology Authority,2015-09-30,,,,,,
+Independent Police Complaints Commission,2015-09-30,,,,,,
+Ministry of Defence,2015-09-30,654,10,644,4653,54,4599
+Ministry of Justice,2015-09-30,192,192,,4429,4428,1
+NHS Blood and Transplant,2015-09-30,57,57,,91,91,
+National Army Museum,2015-09-30,,5,,,27,
+Natural England,2015-09-30,17,17,,255,255,
+Office of Rail and Road,2015-09-30,15,15,,222,312,
+Office of the Immigration Services Commissioner,2015-09-30,,,,,,
+Science Museum Group,2015-09-30,13,13,,117,117,
+Security Industry Authority,2015-09-30,,,,,,
+Student Loans Company Limited,2015-09-30,6,6,,282,282,
+The British Library,2015-09-30,,23,,,105,
+The Disclosure and Barring Service,2015-09-30,,,,,,
+The Northern Lighthouse Board,2015-09-30,4,4,,81,81,
+Transport Focus,2015-09-30,4,4,,22,22,
+Trinity House Lighthouse Service,2015-09-30,4,4,,127,127,
+United Kingdom Atomic Energy Authority,2015-09-30,9,9,,158,158,
+United Kingdom Hydrographic Office,2015-09-30,,3,,,414,
+Valuation Office Agency,2015-09-30,19,19,,3846,3846,
+Vehicle Certification Agency,2015-09-30,1,1,,24,24,

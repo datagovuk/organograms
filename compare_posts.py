@@ -16,6 +16,7 @@ import unicodecsv
 
 from compare_departments import date_to_year_first
 from uploads_scrape import munge_org
+from csv2xls import int_if_possible
 
 requests_cache.install_cache('.compare_posts.cache')
 global args
@@ -30,19 +31,20 @@ def compare():
     # (body_title, graph): {'senior_posts_uploads': 3, ...}
     counts = defaultdict(dict)
 
-    all_value_names = set()
     for source, in_filename in (('uploads', in_filename_uploads),
                                 ('triplestore', in_filename_triplestore)):
         with open(in_filename, 'rb') as csv_read_file:
             csv_reader = csv.DictReader(csv_read_file)
             for row in csv_reader:
                 key = (row['body_title'], row['graph'])
-                for field in ('senior_posts',):
+                for field in ('senior_posts', 'junior_posts'):
                     value_name = '%s_%s' % (field, source)
-                    counts[key][value_name] = row[field]
-                    all_value_names.add(value_name)
+                    counts[key][value_name] = int_if_possible(row[field])
     # save
-    headers = ['body_title', 'graph'] + sorted(all_value_names)
+    headers = ['body_title', 'graph',
+               'senior_posts_triplestore', 'senior_posts_uploads', 'senior_diff',
+               'junior_posts_triplestore', 'junior_posts_uploads', 'junior_diff',
+               ]
     with open(out_filename_counts, 'wb') as csv_write_file:
         csv_writer = csv.DictWriter(csv_write_file,
                                     fieldnames=headers)
@@ -51,50 +53,64 @@ def compare():
                                   key=lambda x: x[0][1] + x[0][0]):
             values['body_title'] = key[0]
             values['graph'] = key[1]
+            for j_or_s in ('senior', 'junior'):
+                diff = \
+                    (values.get('%s_posts_triplestore' % j_or_s) or 0) - \
+                    (values.get('%s_posts_uploads' % j_or_s) or 0)
+                values['%s_diff' % j_or_s] = diff if diff > 0 else None
             csv_writer.writerow(values)
     print 'Written', out_filename_counts
 
 
 def uploads_posts_all_departments():
-    '''Gets a list of upload CSVs, counts the posts and saves to new files.'''
+    '''Gets a list of upload CSVs, counts the posts and saves the counts.'''
     in_filename = 'uploads_report_tidied.csv'
+    in_csv_path = 'data/dgu/tso-csv/'
     out_filename_counts = 'uploads_post_counts.csv'
     with open(in_filename, 'rb') as csv_read_file:
         csv_reader = csv.DictReader(csv_read_file)
         counts = []
         rows = [row for row in csv_reader]
         for row in Bar('Reading posts from organogram CSVs').iter(rows):
-            senior_csv_filename = row['senior-csv-filename']
-            if not senior_csv_filename:
-                continue
-            #print senior_csv_filename
-            senior_csv_filepath = 'data/dgu/tso-csv/' + senior_csv_filename
-            if not os.path.exists(senior_csv_filepath):
-                print '\nCSV is missing - skipping', senior_csv_filepath
-                continue
-            senior_posts = get_csv_posts(senior_csv_filepath)
+            posts = {}
+            for junior_or_senior in ('senior', 'junior'):
+                csv_filename = row['%s-csv-filename' % junior_or_senior]
+                if not csv_filename:
+                    continue
+                #print csv_filename
+                csv_filepath = in_csv_path + csv_filename
+                if not os.path.exists(csv_filepath):
+                    print '\nCSV is missing - skipping', csv_filepath
+                    continue
+                posts[junior_or_senior] = get_csv_posts(
+                    csv_filepath, junior_or_senior)
             counts.append(dict(
                 body_title=row['org_name'],
                 graph=date_to_year_first(row['version']),
-                senior_posts=len(senior_posts)))
+                senior_posts=len(posts['senior']) if 'senior' in posts else None,
+                junior_posts=len(posts['junior']) if 'junior' in posts else None,
+                ))
 
     # MOD fudge. Triplestore has MOD combined, but uploads it split up. So
     # combine counts here.
-    mod_counts = defaultdict(int)
+    mod_counts = defaultdict(lambda: [0, 0])
     counts_ = []
     for row in counts:
         if row['body_title'] in MOD_AGGREGATED_SUBPUBS:
-            mod_counts[row['graph']] += row['senior_posts']
+            mod_counts[row['graph']][0] += row['senior_posts'] or 0
+            mod_counts[row['graph']][1] += row['junior_posts'] or 0
         else:
             counts_.append(row)
-    for graph, senior_posts in mod_counts.items():
+    for graph, posts in mod_counts.items():
         counts_.append(dict(
             body_title='Ministry of Defence',
             graph=graph,
-            senior_posts=senior_posts))
+            senior_posts=posts[0],
+            junior_posts=posts[1],
+            ))
 
     # save
-    headers = ['body_title', 'graph', 'senior_posts']
+    headers = ['body_title', 'graph', 'senior_posts', 'junior_posts']
     with open(out_filename_counts, 'wb') as csv_write_file:
         csv_writer = csv.DictWriter(csv_write_file,
                                     fieldnames=headers)
@@ -120,15 +136,20 @@ MOD_AGGREGATED_SUBPUBS = (
     )
 
 
-def get_csv_posts(csv_filepath):
+def get_csv_posts(csv_filepath, junior_or_senior):
     with open(csv_filepath, 'rb') as csv_read_file:
         csv_reader = csv.DictReader(csv_read_file)
         try:
-            return [row for row in csv_reader
-                    if row['Name'].lower() not in ('eliminated', 'elimenated')]
+            if junior_or_senior == 'senior':
+                rows = [row for row in csv_reader
+                        if row['Name'].lower() not in ('eliminated',
+                                                       'elimenated')]
+            else:
+                rows = list(csv_reader)
         except Exception:
             traceback.print_exc()
             import pdb; pdb.set_trace()
+        return rows
 
 
 def triplestore_posts_to_csv(body_title, graph):
