@@ -5,18 +5,15 @@ triplestore data.
 '''
 import argparse
 import csv
-import os.path
 import traceback
-import time
 import sys
 
 import unicodecsv
 
 from compare_departments import date_to_year_first
-from csv2xls import csv2xls
-from uploads_scrape import munge_org
 from compare_posts import MOD_AGGREGATED_SUBPUBS
 from etl_to_csv import load_xls_and_get_errors
+from csv2xls import int_if_possible
 
 args = None
 
@@ -47,6 +44,14 @@ def combine():
         csv_reader = csv.DictReader(csv_read_file)
         post_counts = [row for row in csv_reader]
 
+    xls_index_filename = 'csv2xls-from-triplestore.csv'
+    def get_index_key(row):
+        return (row['body_title'], row['graph'])
+    with open(xls_index_filename, 'rb') as csv_read_file:
+        csv_reader = csv.DictReader(csv_read_file)
+        xls_index = dict((get_index_key(row), row)
+                         for row in csv_reader)
+
     out_rows = []
     for post_count in post_counts:
         if args.graph and post_count['graph'] != args.graph:
@@ -54,42 +59,28 @@ def combine():
         if args.body and post_count['body_title'] != args.body:
             continue
         print '\n' + post_count['body_title'], post_count['graph']
+
         senior_posts_triplestore = int(post_count['senior_posts_triplestore'] or 0)
         senior_posts_uploads = int(post_count['senior_posts_uploads'] or 0)
 
-        if post_count['body_title'] == 'Ministry of Defence' or \
-                 senior_posts_triplestore > senior_posts_uploads:
-            # generate an XLS from the triplestore data
+        out_row = {}
+        if senior_posts_triplestore == senior_posts_uploads == 0:
+            continue
+        elif senior_posts_triplestore and \
+                not can_we_use_the_upload_spreadsheet(
+                post_count['body_title'], post_count['graph']):
             print 'Triplestore'
-            xls_filepath = get_xls_filepath(
-                org_name=post_count['body_title'],
-                graph=post_count['graph'])
-            csv_filepath = get_csv_filepath(
-                org_name=post_count['body_title'],
-                graph=post_count['graph'],
-                junior_or_senior='junior')
-            csv2xls_filepath = os.path.join(sys.path[0],
-                                            'csv2xls.py')
-            if not os.path.exists(xls_filepath) or \
-                    (time.ctime(os.path.getmtime(xls_filepath)) <
-                     time.ctime(os.path.getmtime(csv_filepath))) or \
-                    (time.ctime(os.path.getmtime(xls_filepath)) <
-                     time.ctime(os.path.getmtime(csv2xls_filepath))):
-                print 'Converting CSV to XLS', csv_filepath
-                if not os.path.exists(csv_filepath):
-                    print 'CSV not found'
-                    import pdb; pdb.set_trace()
-                xls_filepath_ = csv2xls([csv_filepath])
-                assert xls_filepath
-                assert xls_filepath == xls_filepath_
+            out_row['source'] = 'triplestore'
+            xls_info = xls_index[get_index_key(post_count)]
+            xls_filepath = xls_info['xls_filepath']
             print xls_filepath
             upload = None
-            original_xls_filepath = None
-        elif senior_posts_triplestore == senior_posts_uploads == 0:
-            continue
+            out_row['senior_posts_xls'] = xls_info['senior_posts_count']
+            out_row['junior_posts_xls'] = xls_info['junior_posts_count']
         else:
-            print 'Upload'
             # XLS comes from the uploads
+            print 'Upload'
+            out_row['source'] = 'upload'
             try:
                 upload = uploads[(post_count['graph'], post_count['body_title'])]
             except KeyError:
@@ -101,27 +92,44 @@ def combine():
             xls_filepath = 'data/dgu/xls/' + upload['xls-filename']
             print xls_filepath
             original_xls_filepath = upload['xls_path']
+            out_row['senior_posts_xls']=post_count['senior_posts_uploads']
+            out_row['junior_posts_xls']=post_count['junior_posts_uploads']
 
         if args.check:
             errors, will_display = check(xls_filepath)
 
-        row = dict(
+        out_row.update(dict(
             body_title=post_count['body_title'],
             graph=post_count['graph'],
             xls_path=xls_filepath,
-            original_xls_filepath=original_xls_filepath,
+            original_xls_filepath=original_xls_filepath if upload else None,
             upload_date=upload['upload_date'] if upload else None,
             publish_date=upload['action_datetime'] if upload else None,
-            errors=errors,
-            will_display=will_display,
-        )
-        out_rows.append(row)
+            errors=errors if args.check else 'not checked',
+            will_display=will_display if args.check else 'not checked',
+            senior_posts_triplestore=post_count['senior_posts_triplestore'],
+            junior_posts_triplestore=post_count['junior_posts_triplestore'],
+            ))
+        for j_or_s in ('senior', 'junior'):
+            diff = \
+                (int_if_possible(out_row.get('%s_posts_triplestore' % j_or_s)) or 0) - \
+                (int_if_possible(out_row.get('%s_posts_xls' % j_or_s)) or 0)
+            out_row['%s_diff' % j_or_s] = diff if diff > 0 else None
+        out_rows.append(out_row)
 
     # save
     if args.graph or args.body:
         print 'Not writing output CSV as you specified only part of the data'
         sys.exit(0)
-    headers = ['body_title', 'graph', 'xls_path', 'original_xls_filepath', 'upload_date', 'publish_date', 'errors', 'will_display']
+    headers = [
+        'body_title', 'graph',
+        'xls_path', 'original_xls_filepath',
+        'source',
+        'upload_date', 'publish_date',
+        'errors', 'will_display',
+        'senior_posts_triplestore', 'senior_posts_xls', 'senior_diff',
+        'junior_posts_triplestore', 'junior_posts_xls', 'junior_diff',
+        ]
     out_filename = 'tso_combined.csv'
     with open(out_filename, 'wb') as csv_write_file:
         csv_writer = unicodecsv.DictWriter(csv_write_file,
@@ -147,29 +155,30 @@ def check(xls_filename):
     return '; '.join(errors), will_display
 
 
+def can_we_use_the_upload_spreadsheet(body_title, graph):
+    '''Uses hand-tailored logic.'''
+    # Early uploads are a mess
+    if graph in ('2011-03-31', '2011-09-30'):
+        return False
+    # Particular uploads don't seem to represent what's in the triplestore
+    if (graph, body_title) in (
+        ('2014-03-31', 'National Army Museum'),
+        ('2012-09-30', 'Human Tissue Authority'),
+        ('2014-03-31', 'United Kingdom Hydrographic Office'),
+        ('2015-03-31', 'United Kingdom Hydrographic Office'),
+        ('2012-03-31', 'Audit Commission'),
+            ):
+        return False
+    # MoD uploads would need combining and none of the years of uploads seem as
+    # complete as the triplestore
+    if body_title == 'Ministry of Defence' and graph < '2016':
+        return False
+    return True
+
+
 def date_to_day_first(date_year_first):
     return '/'.join(date_year_first.split('-')[::-1])
 
-
-def get_xls_filepath(org_name, graph):
-    '''How csv2xls writes them'''
-    path = 'data/dgu/xls-from-triplestore'
-    filename = '{org}-{date}-organogram.{format_}'.format(
-        org=munge_org(org_name),
-        date=graph,
-        format_='xls')
-    return os.path.join(path, filename)
-
-
-def get_csv_filepath(org_name, graph, junior_or_senior):
-    '''How compare_posts.py writes them'''
-    path = 'data/dgu/csv-from-triplestore'
-    filename = '{org}-{date}-{junior_or_senior}.{format_}'.format(
-        org=munge_org(org_name),
-        date=graph,
-        junior_or_senior=junior_or_senior,
-        format_='csv')
-    return os.path.join(path, filename)
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)

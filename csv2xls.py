@@ -7,6 +7,9 @@ xls.
 import unicodecsv
 import xlwt
 import argparse
+import csv
+import os
+import traceback
 
 args = None
 
@@ -26,49 +29,137 @@ XLS_COL_HEADERS = {
         'Number of Posts in FTE', 'Professional/Occupational Group', 'Valid?',
     )}
 
-def csv2xls(senior_or_junior_csv_filepaths):
+
+def csv2xls_multiple(senior_or_junior_csv_filepaths):
+    '''Converts the CSV pairs to XLS. Records the operation by updating an
+    index CSV.
+    '''
+    conversions = []
     for senior_or_junior_filepath in senior_or_junior_csv_filepaths:
-        assert 'senior' in senior_or_junior_filepath or \
-            'junior' in senior_or_junior_filepath, \
-            'filepath needs junior/senior in it'
-        csv_filepaths = dict(
-            senior=senior_or_junior_filepath.replace('junior', 'senior'),
-            junior=senior_or_junior_filepath.replace('senior', 'junior'))
-        xls_filepath = senior_or_junior_filepath.replace('junior', 'organogram').replace('senior', 'organogram').replace('csv', 'xls')
+        conversions += csv2xls(senior_or_junior_filepath)
+    return conversions
 
-        workbook = xlwt.Workbook()
-        for level, csv_filepath in csv_filepaths.items():
-            # Read CSV
-            with open(csv_filepath, 'rb') as csv_read_file:
-                csv_reader = unicodecsv.reader(csv_read_file)
-                csv_headers = csv_reader.next()
-                # Append None to each row, as a placeholder for 'Total Pay'/'Valid'
-                csv_rows = [row + [None, None] for row in csv_reader]
 
-            # Adjust CSV
-            if level == 'senior':
-                csv_headers[csv_headers.index('Grade')] = 'Grade (or equivalent)'
-            csv_headers.append(u'Total Pay (£)')
-            if level == 'junior':
-                csv_headers.append('Valid?')
-            # column mapping - for each of the XLS columns it gives the CSV column
-            cols_map = [csv_headers.index(xls_col)
-                        for xls_col in XLS_COL_HEADERS[level]]
-            out_rows = [XLS_COL_HEADERS[level]]
-            for row in sorted(csv_rows, key=lambda r: int_if_possible(r[0])):
-                out_row = [row[csv_col_index] for csv_col_index in cols_map]
-                out_rows.append(out_row)
+def csv2xls(senior_or_junior_csv_filepath):
+    '''Converts the CSV pairs to XLS. Records the operation by updating an
+    index CSV.
+    '''
+    assert 'senior' in senior_or_junior_csv_filepath or \
+        'junior' in senior_or_junior_csv_filepath, \
+        'filepath needs junior/senior in it'
+    csv_filepaths = dict(
+        senior=senior_or_junior_csv_filepath.replace('junior', 'senior'),
+        junior=senior_or_junior_csv_filepath.replace('senior', 'junior'))
+    xls_filepath = filepath_for_xls_from_triplestore_from_csv_filepath(
+        senior_or_junior_csv_filepath)
 
-            sheet = workbook.add_sheet('(final data) %s-staff' % level)
-            for r, row in enumerate(out_rows):
-                for c, value in enumerate(row):
-                    sheet.write(r, c, value)
-        workbook.save(xls_filepath)
-        print 'Written %s' % xls_filepath
+    workbook = xlwt.Workbook()
+    row_counts = {}
+    for level, csv_filepath in csv_filepaths.items():
+        # Read CSV
+        with open(csv_filepath, 'rb') as csv_read_file:
+            csv_reader = unicodecsv.reader(csv_read_file)
+            csv_headers = csv_reader.next()
+            # Append None to each row, as a placeholder for 'Total Pay'/'Valid'
+            csv_rows = [row + [None, None] for row in csv_reader]
 
-    if len(senior_or_junior_csv_filepaths) == 1:
-        # for when called by tso_combined.py
-        return xls_filepath
+        # Adjust CSV
+        if level == 'senior':
+            csv_headers[csv_headers.index('Grade')] = 'Grade (or equivalent)'
+        csv_headers.append(u'Total Pay (£)')
+        if level == 'junior':
+            csv_headers.append('Valid?')
+        # column mapping - for each of the XLS columns it gives the CSV column
+        cols_map = [csv_headers.index(xls_col)
+                    for xls_col in XLS_COL_HEADERS[level]]
+        out_rows = [XLS_COL_HEADERS[level]]
+        row_count = 0
+        for row in sorted(csv_rows, key=lambda r: int_if_possible(r[0])):
+            out_row = [row[csv_col_index] for csv_col_index in cols_map]
+            out_rows.append(out_row)
+            row_count += 1
+
+        sheet = workbook.add_sheet('(final data) %s-staff' % level)
+        for r, row in enumerate(out_rows):
+            for c, value in enumerate(row):
+                sheet.write(r, c, value)
+        row_counts[level] = row_count
+    workbook.save(xls_filepath)
+    print 'Written %s' % xls_filepath
+    conversion = dict(
+        senior_csv_filepath=csv_filepaths['junior'],
+        junior_csv_filepath=csv_filepaths['junior'],
+        xls_filepath=xls_filepath,
+        senior_posts_count=row_counts['senior'],
+        junior_posts_count=row_counts['junior'],
+        )
+    return conversion
+
+
+def convert_csvs_where_uploads_unreliable():
+    from compare_posts import filepath_for_csv_from_triplestore
+    from tso_combined import can_we_use_the_upload_spreadsheet
+
+    # read the index
+    def get_index_key(row):
+        return (row['body_title'], row['graph'])
+    xls_index_filename = 'csv2xls-from-triplestore.csv'
+    if os.path.exists(xls_index_filename):
+        with open(xls_index_filename, 'rb') as csv_read_file:
+            csv_reader = csv.DictReader(csv_read_file)
+            xls_index = dict((get_index_key(row), row)
+                             for row in csv_reader)
+    else:
+        print 'Index does not exist - creating %s' % xls_index_filename
+        xls_index = dict()
+
+    # convert the csvs to xls
+    in_filename = 'triplestore_departments_tidied.csv'
+    with open(in_filename, 'rb') as csv_read_file:
+        csv_reader = csv.DictReader(csv_read_file)
+        for row in csv_reader:
+            for graph in row['graphs'].split():
+                # check if upload is reliable or not
+                if can_we_use_the_upload_spreadsheet(
+                        row['title'], graph):
+                    continue
+                csv_filepath = filepath_for_csv_from_triplestore(
+                    row['title'], graph, 'senior')
+                conversion = csv2xls(csv_filepath)
+                # update the index
+                conversion['body_title'] = row['title']
+                conversion['graph'] = graph
+                xls_index[get_index_key(conversion)] = conversion
+
+    # save the index
+    headers = [
+        'body_title', 'graph',
+        'senior_csv_filepath', 'junior_csv_filepath',
+        'xls_filepath',
+        'senior_posts_count', 'junior_posts_count',
+        ]
+    try:
+        with open(xls_index_filename, 'wb') as csv_write_file:
+            csv_writer = unicodecsv.DictWriter(csv_write_file,
+                                               fieldnames=headers,
+                                               encoding='utf-8')
+            csv_writer.writeheader()
+            for key, row in sorted(xls_index.items(),
+                                   key=lambda x: x[0][1] + x[0][0]):
+                csv_writer.writerow(row)
+    except Exception:
+        print 'Index writing exception'
+        traceback.print_exc()
+        import pdb; pdb.set_trace()
+    print 'Written', xls_index_filename
+
+
+def filepath_for_xls_from_triplestore_from_csv_filepath(
+        senior_or_junior_filepath):
+    return senior_or_junior_filepath \
+        .replace('junior', 'organogram') \
+        .replace('senior', 'organogram') \
+        .replace('csv', 'xls')
 
 
 def int_if_possible(num_str):
@@ -80,7 +171,11 @@ def int_if_possible(num_str):
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
-    parser.add_argument('csvs', nargs='+',
+    parser.add_argument('csvs', nargs='*',
             help='filepaths of junior or senior CSVs (the pairs will be found automatically)')
+    parser.add_argument('--where-uploads-unreliable', action='store_true')
     args = parser.parse_args()
-    csv2xls(args.csvs)
+    if args.where_uploads_unreliable:
+        convert_csvs_where_uploads_unreliable()
+    else:
+        csv2xls_multiple(args.csvs)

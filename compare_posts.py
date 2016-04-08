@@ -152,30 +152,36 @@ def get_csv_posts(csv_filepath, junior_or_senior):
         return rows
 
 
-def triplestore_posts_to_csv(body_title, graph):
-    '''Saves posts from a particular triplestore departments/graph.
+def triplestore_posts_to_csv(body_title_filter, graph_filter, where_uploads_unreliable):
+    '''Saves posts as CSV, from a particular triplestore departments/graph,
+    optionally including junior posts.
     '''
+    from tso_combined import can_we_use_the_upload_spreadsheet
+
     in_filename = 'triplestore_departments_tidied.csv'
     done_anything = False
     with open(in_filename, 'rb') as csv_read_file:
         csv_reader = csv.DictReader(csv_read_file)
         for row in csv_reader:
             uris = row['uris'].split()
-            if body_title and body_title not in (row['title'], row['name']):
+            if body_title_filter and \
+                    body_title_filter not in (row['title'], row['name']):
                 continue
-            for i, graph_ in enumerate(row['graphs'].split()):
-                if graph and graph != graph_:
+            for i, graph in enumerate(row['graphs'].split()):
+                if graph_filter and graph_filter != graph:
+                    continue
+                if where_uploads_unreliable and \
+                        can_we_use_the_upload_spreadsheet(
+                            row['title'], graph):
                     continue
                 body_uri = uris[i]
                 senior_posts, junior_posts = \
                     get_triplestore_posts(body_uri, graph, print_urls=True)
-                print '%s %s Senior:%s' % (row['title'], graph_,
+                print '%s %s Senior:%s' % (row['title'], graph,
                                            len(senior_posts))
-                save_posts_csv(row['title'], graph_, 'senior',
-                               'data/dgu/csv-from-triplestore', senior_posts)
+                save_posts_csv(row['title'], graph, 'senior', senior_posts)
                 if junior_posts is not None:
-                    save_posts_csv(row['title'], graph_, 'junior',
-                                   'data/dgu/csv-from-triplestore',
+                    save_posts_csv(row['title'], graph, 'junior',
                                    junior_posts)
                 done_anything = True
     if not done_anything:
@@ -191,14 +197,28 @@ def get_id_from_uri(uri):
 payband_re = re.compile('http://reference.data.gov.uk/def/.+?/.+?/payband/')
 
 
-def save_posts_csv(body_title, graph, senior_or_junior, directory, posts):
-    '''Given a list of posts, saves them in the standard CSV format.
-    '''
+def filepath_for_csv_from_triplestore(body_title, graph, senior_or_junior):
+    directory = 'data/dgu/csv-from-triplestore'
     out_filename = '{org}-{graph}-{senior_or_junior}.csv'.format(
         org=munge_org(body_title),
         graph=graph.replace('/', '-'),
         senior_or_junior=senior_or_junior)
     out_filepath = os.path.join(directory, out_filename)
+    return out_filepath
+
+
+def filepath_for_xls_from_triplestore(body_title, graph):
+    from csv2xls import filepath_for_xls_from_triplestore_from_csv_filepath
+    csv_filepath = filepath_for_csv_from_triplestore(body_title, graph,
+                                                     'senior')
+    return filepath_for_xls_from_triplestore_from_csv_filepath(csv_filepath)
+
+
+def save_posts_csv(body_title, graph, senior_or_junior, posts):
+    '''Given a list of posts, saves them in the standard CSV format.
+    '''
+    out_filepath = filepath_for_csv_from_triplestore(
+        body_title, graph, senior_or_junior)
     if senior_or_junior == 'senior':
         headers = [
             'Post Unique Reference', 'Name', 'Grade', 'Job Title',
@@ -690,11 +710,12 @@ if __name__ == '__main__':
     #triplestore options
     parser.add_argument('--body')
     parser.add_argument('--graph')
+    parser.add_argument('--where-uploads-unreliable', action='store_true')
     parser.add_argument('--junior', action='store_true', help='Include junior posts too')
     args = parser.parse_args()
     if args.input == 'triplestore-to-csv':
-        assert (args.body or args.graph), 'Please supply a --body or --graph filter'
-        triplestore_posts_to_csv(args.body, args.graph)
+        assert (args.body or args.graph or args.where_uploads_unreliable), 'Please supply a --body or --graph filter or --where-uploads-unreliable'
+        triplestore_posts_to_csv(args.body, args.graph, args.where_uploads_unreliable)
     elif args.input == 'triplestore-counts':
         triplestore_post_counts(args.body, args.graph)
     elif args.input == 'uploads':
