@@ -528,11 +528,10 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
             try:
                 if not 'label' in item:
                     # this means the triplestore doesn't have the item
-                    # which can happen in 2011/2 when things weren't validated
-                    if '2011' in graph or '2012' in graph:
-                        continue
-                    assert 0, 'Missing post %s (boss of %s) is not in the triplestore '\
+                    # which can happen pre 2016 when things weren't validated
+                    print 'Warning: Missing post %s (boss of %s) is not in the triplestore '\
                         'either: %s' % (post_uri, boss_to_post_uri.get(post_uri), url)
+                    continue
                 posts = get_posts_from_triplestore_item(item)
                 # just check it is eliminated
                 for post in posts:
