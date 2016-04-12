@@ -295,23 +295,50 @@ def tidy_triplestore():
             if name in out_depts:
                 out_dept = out_depts[name]
             else:
-                out_dept = {'graphs': [], 'uris': []}
+                out_dept = {'graphs': [], 'uris': [], 'viz_urls': []}
                 out_depts[name] = out_dept
             out_dept['name'] = match['name']
             out_dept['title'] = match['title']
             #out_dept['top_level_department'] = match['top_level_department']
             out_dept['graphs'].append(dept['graph'])
             out_dept['uris'].append(dept['uri'])
+            out_dept['viz_urls'].append(get_viz_url(dept['uri']))
     with open(out_filename, 'wb') as csv_write_file:
         csv_writer = csv.writer(csv_write_file)
-        write_headers = ['name', 'title', 'graphs', 'uris'] #, 'top_level_department']
+        write_headers = ['name', 'title', 'graphs', 'uris', 'viz_urls'] #, 'top_level_department']
         csv_writer.writerow(write_headers)
         out_depts = sorted(out_depts.values(), key=lambda d: d['name'])
         for out_dept in out_depts:
             out_dept['graphs'] = ' '.join(out_dept['graphs'])
             out_dept['uris'] = ' '.join(out_dept['uris'])
+            out_dept['viz_urls'] = ' '.join(set(out_dept['viz_urls']))
             csv_writer.writerow([out_dept[header] for header in write_headers])
     print 'Written', out_filename
+
+
+def get_viz_url(body_uri):
+    ''' Returns a URL for the viz corresponding to the body URI provided.
+
+    e.g. department
+    http://reference.data.gov.uk/id/department/co
+    http://reference.data.gov.uk/gov-structure/organogram/?dept=co
+
+    e.g. public body
+    http://reference.data.gov.uk/id/public-body/boundary-commission
+    http://reference.data.gov.uk/gov-structure/organogram/?pubbod=boundary-commission
+    '''
+    uri_match = re.match('http://reference.data.gov.uk/id/([a-z\-]+)/([a-z\-]+)',
+                         body_uri)
+    if not uri_match:
+        import pdb; pdb.set_trace()
+    body_type_longhand, body_slug = uri_match.groups()
+    body_type_shorthand = {'department': 'dept',
+                           'public-body': 'pubbod'}[body_type_longhand]
+    viz_url = 'http://reference.data.gov.uk/gov-structure/organogram/?'\
+        '{type_shorthand}={slug}'.format(
+            type_shorthand=body_type_shorthand,
+            slug=body_slug)
+    return viz_url
 
 
 MOD_SUBPUBS = {
