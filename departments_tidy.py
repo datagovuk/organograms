@@ -353,6 +353,7 @@ MOD_SUBPUBS = {
     'Head Office and Corporate Services (MoD)': ('hocs', 'ho and cs'),
     'Joint Forces Command': ('joint forces command', 'jfc'),
     'National Army Museum': ('nam', 'national army museum'),
+    'Single Source Regulations Office': ('ssro',),
     }
 MOD_SUBPUBS_BY_ABBREV = None
 

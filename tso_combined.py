@@ -167,6 +167,8 @@ def can_we_use_the_upload_spreadsheet(body_title, graph):
         ('2014-03-31', 'United Kingdom Hydrographic Office'),
         ('2015-03-31', 'United Kingdom Hydrographic Office'),
         ('2012-03-31', 'Audit Commission'),
+        ('2012-03-31', 'Asset Protection Agency'),
+        
             ):
         return False
     # MoD uploads would need combining and none of the years of uploads seem as

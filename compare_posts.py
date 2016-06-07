@@ -132,6 +132,7 @@ MOD_AGGREGATED_SUBPUBS = (
     'Defence Science and Technology Laboratory',
     'Head Office and Corporate Services (MoD)',
     'Joint Forces Command',
+    'Single Source Regulations Office',
     #'National Army Museum',
     )
 
