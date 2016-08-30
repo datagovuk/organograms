@@ -222,13 +222,15 @@ def save_posts_csv(body_title, graph, senior_or_junior, posts):
         body_title, graph, senior_or_junior)
     if senior_or_junior == 'senior':
         headers = [
-            'Post Unique Reference', 'Name', 'Grade', 'Job Title',
+            'Post Unique Reference', 'Name', 'Grade (or equivalent)',
+            'Job Title',
             'Job/Team Function',
             'Parent Department', 'Organisation', 'Unit',
             'Contact Phone', 'Contact E-mail',
             'Reports to Senior Post',
             u'Salary Cost of Reports (£)',
             'FTE', u'Actual Pay Floor (£)', u'Actual Pay Ceiling (£)',
+            '',  # blank column
             'Professional/Occupational Group',
             'Notes', 'Valid?',
             'URI',
@@ -245,6 +247,8 @@ def save_posts_csv(body_title, graph, senior_or_junior, posts):
     with open(out_filepath, 'wb') as csv_write_file:
         csv_writer = unicodecsv.DictWriter(csv_write_file,
                                            fieldnames=headers,
+                                           dialect=csv.excel,
+                                           quoting=csv.QUOTE_ALL,
                                            encoding='utf-8')
         csv_writer.writeheader()
 
@@ -289,7 +293,7 @@ def save_posts_csv(body_title, graph, senior_or_junior, posts):
                     row = {}
                     row['Post Unique Reference'] = get_id_from_uri(post['uri'])
                     row['Name'] = post['name']
-                    row['Grade'] = post['grade']
+                    row['Grade (or equivalent)'] = post['grade']
                     row['Job Title'] = post['label']
                     row['Job/Team Function'] = post['comment']
                     row['Parent Department'] = ''
@@ -299,9 +303,14 @@ def save_posts_csv(body_title, graph, senior_or_junior, posts):
                     row['Contact E-mail'] = post['email']
                     row['Reports to Senior Post'] = \
                         get_id_from_uri(post['reports_to_uri']) or 'XX'
-                    row[u'Salary Cost of Reports (£)'] = ''
+                    row[u'Salary Cost of Reports (£)'] = \
+                        post.get('salary_cost_of_reports', '')
                     salary_range = parse_salary_range(post['salary_range'])
                     row['FTE'] = post['fte']
+                    if not salary_range[0] or not salary_range[1]:
+                        # simple correction
+                        if post['grade'] == 'SCS1':
+                            salary_range[0] = salary_range[1] = 'N/D'
                     row[u'Actual Pay Floor (£)'] = salary_range[0]
                     row[u'Actual Pay Ceiling (£)'] = salary_range[1]
                     row['Professional/Occupational Group'] = \
@@ -413,7 +422,7 @@ def triplestore_post_counts_all_departments():
     print 'Written', out_filename
 
 
-def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=False):
+def get_triplestore_posts(body_uri, graph, print_urls=False):
     # uri
     # http://reference.data.gov.uk/id/department/co
     # http://reference.data.gov.uk/id/public-body/consumer-focus
@@ -592,6 +601,45 @@ def get_triplestore_posts(body_uri, graph, print_urls=False, include_junior=Fals
                 traceback.print_exc()
                 import pdb; pdb.set_trace()
 
+    # include_salary_cost_of_reports
+    # http://reference.data.gov.uk/2012-09-30/doc/public-body/advisory-conciliation-and-arbitration-service/post/1/statistics.json
+    if args.include_salary_cost_of_reports:
+        url_base = 'http://reference.data.gov.uk/{graph}/doc/{body_type}/{body_name}/post/{post_id}/statistics.json?_page=1'
+        for senior_post in senior_posts:
+            senior_post_id = get_id_from_uri(senior_post['uri'])
+            url = url_base.format(
+                graph=graph,
+                body_type=body_type,
+                body_name=quote(body_name),
+                post_id=senior_post_id,
+                page=page)
+            if print_urls:
+                print 'Getting: ', url
+            # Retry if failure
+            for i in range(3):
+                response = requests.get(url)
+                if response.ok:
+                    break
+                else:
+                    print "Failed request: %s" % response.reason
+            items = response.json()['result']['items']
+            # expect 2 items - one has the salary and the other is something
+            # about 'total pay' but just seems to repeat basic info
+            post = {}
+            for item in items:
+                try:
+                    if 'salaryCostOfReports' not in item['_about']:
+                        continue
+                    post['salary_cost_of_reports'] = \
+                        item['salaryCostOfReports']
+                except Exception:
+                    traceback.print_exc()
+                    import pdb; pdb.set_trace()
+            if 'salary_cost_of_reports' not in post:
+                import pdb; pdb.set_trace()
+            senior_post['salary_cost_of_reports'] = \
+                post['salary_cost_of_reports']
+
     if not args.junior:
         return senior_posts, None
 
@@ -712,7 +760,8 @@ if __name__ == '__main__':
     parser.add_argument('--body')
     parser.add_argument('--graph')
     parser.add_argument('--where-uploads-unreliable', action='store_true')
-    parser.add_argument('--junior', action='store_true', help='Include junior posts too')
+    parser.add_argument('--junior', action='store_true', help='Include junior posts too (expensive op)')
+    parser.add_argument('--include-salary-cost-of-reports', action='store_true', help='Include the salary in the senior sheet (expensive op)')
     args = parser.parse_args()
     if args.input == 'triplestore-to-csv':
         assert (args.body or args.graph or args.where_uploads_unreliable), 'Please supply a --body or --graph filter or --where-uploads-unreliable'

@@ -60,7 +60,9 @@ def load_excel_store_errors(filename, sheet_name, errors, validation_errors, inp
     for i in range(len(df.columns)):
         # Check column names are as expected. Also allow them to be the renamed
         # version, since old XLS templates had "Grade" instead of "Grade (or
-        # equivalent)".
+        # equivalent)" for senior sheet. (And the CSVs follow the same pattern
+        # - during 2011 they had "Grade" and subsequently they were "Grade (or
+        # equivalent)")
         if df.columns[i] != input_columns[i] and \
                 df.columns[i] != output_columns[i]:
             from string import uppercase
@@ -139,8 +141,8 @@ def load_senior(excel_filename, errors, validation_errors):
       u'Notes',
       u'Valid?']
     rename_columns = {
-      u'Total Pay (£)' : u'',
-      u'Grade (or equivalent)' : u'Grade',
+      u'Total Pay (£)': u'',
+      u'Grade': u'Grade (or equivalent)',
     }
     blank_columns = {
       u'Total Pay (£)' : u'',
@@ -323,8 +325,12 @@ def get_verify_level(graph):
     # parse graph date
     graph_match = re.match(
         r'^(?P<year>\d{4})-(?P<month>\d{2})-(?P<day>\d{2})$',
+        graph) or \
+        re.match(
+        r'^(?P<day>\d{2})-(?P<month>\d{2})-(?P<year>\d{4})$',
         graph)
-    assert graph_match, 'Could not parse graph YYYY-MM-DD: %r' % graph
+    assert graph_match, \
+        'Could not parse graph YYYY-MM-DD / DD-MM-YYYY: %r' % graph
     graph = graph_match.groupdict()
     graph['year'] = int(graph['year'])
 
