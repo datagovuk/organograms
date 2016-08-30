@@ -629,6 +629,10 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
             for item in items:
                 try:
                     if 'salaryCostOfReports' not in item['_about']:
+                        # it must be the total pay item - ignore
+                        continue
+                    if 'salaryCostOfReports' not in item:
+                        post['salary_cost_of_reports'] = 'N/D'
                         continue
                     post['salary_cost_of_reports'] = \
                         item['salaryCostOfReports']
