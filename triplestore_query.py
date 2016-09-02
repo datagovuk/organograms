@@ -63,6 +63,8 @@ import csv
 
 import requests
 
+from uploads_scrape import VERSIONS
+
 args = None
 NEW_SPARQL_ENDPOINT = 'http://46.43.41.16/sparql/organogram/query'
 
@@ -253,19 +255,6 @@ def properties_cmd():
         for result in resp['results']['bindings']]
     pprint(properties)
 
-
-VERSIONS = [
-    '2011-03-31',
-    '2011-09-30',
-    '2012-03-31',
-    '2012-09-30',
-    '2013-03-31',
-    '2013-09-30',
-    '2014-03-31',
-    '2014-09-30',
-    '2015-03-31',
-    '2015-09-30',
-    ]
 
 def graph_counts_cmd():
     total_count = int(graph_counts('all'))

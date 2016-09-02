@@ -4,6 +4,7 @@ bodies against those on data.gov.uk and saves the tidied data.
 import argparse
 import re
 import csv
+import unicodecsv
 from collections import defaultdict
 import os.path
 import datetime
@@ -409,7 +410,7 @@ def tidy_uploads():
     in_filename = 'uploads_report.csv'
     out_filename = 'uploads_report_tidied.csv'
     with open(in_filename, 'rb') as csv_read_file:
-        csv_reader = csv.DictReader(csv_read_file)
+        csv_reader = unicodecsv.DictReader(csv_read_file, encoding='utf8')
         rows = []
         for row in csv_reader:
             if row['org_name'] == 'Ministry of Defence':

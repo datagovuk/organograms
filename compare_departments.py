@@ -13,6 +13,8 @@ from pprint import pprint
 import csv
 from collections import defaultdict
 
+from uploads_scrape import VERSIONS
+
 args = None
 
 
@@ -132,18 +134,6 @@ def print_difference(a, b, name_a, name_b):
 def date_to_year_first(date_day_first):
     return '-'.join(date_day_first.split('/')[::-1])
 
-VERSIONS = [
-    '2011-03-31',
-    '2011-09-30',
-    '2012-03-31',
-    '2012-09-30',
-    '2013-03-31',
-    '2013-09-30',
-    '2014-03-31',
-    '2014-09-30',
-    '2015-03-31',
-    '2015-09-30',
-    ]
 
 if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)

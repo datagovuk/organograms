@@ -5,7 +5,7 @@ import argparse
 import os
 import re
 import datetime
-import csv
+import unicodecsv
 
 from lxml import html
 import requests_cache
@@ -26,9 +26,23 @@ dates = (
     '30/09/2014',
     '31/03/2015',
     '30/09/2015',
-    #'31/03/2016',
+    '31/03/2016',
     #'30/09/2016',
     )
+
+VERSIONS = [
+    '2011-03-31',
+    '2011-09-30',
+    '2012-03-31',
+    '2012-09-30',
+    '2013-03-31',
+    '2013-09-30',
+    '2014-03-31',
+    '2014-09-30',
+    '2015-03-31',
+    '2015-09-30',
+    '2016-03-31',
+    ]
 
 states_by_action = {
     'sign-off': 'uploaded',
@@ -45,7 +59,8 @@ class ReportCsv(object):
             args.include_private_info else 'uploads_report_with_private.csv'
 
         self.csv_file = open(self.out_filename, 'wb')
-        self.csv_writer = csv.writer(self.csv_file, dialect='excel')
+        self.csv_writer = unicodecsv.writer(self.csv_file, dialect='excel',
+                                            encoding='utf8')
         self.row_headings = [
             'version',
             'org_name', 'xls_path', 'upload_date', 'state',
