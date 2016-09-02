@@ -151,7 +151,8 @@ def check(xls_filename):
         import pdb; pdb.set_trace()
     print '%s errors' % len(errors)
     if errors:
-        print 'Error 1 of %s: %s' % (errors[0], len(errors))
+        for i, error in enumerate(errors):
+            print 'Error %s of %s: %s' % (i, len(errors), errors[i])
     if not will_display:
         print 'WILL NOT DISPLAY'
     return '; '.join(errors), will_display
