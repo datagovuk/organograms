@@ -64,7 +64,7 @@ def load_excel_store_errors(filename, sheet_name, errors, validation_errors, inp
         # - during 2011 they had "Grade" and subsequently they were "Grade (or
         # equivalent)")
         if df.columns[i] != input_columns[i] and \
-                df.columns[i] != output_columns[i]:
+                output_columns[i] != input_columns[i]:
             from string import uppercase
             errors.append("Wrong column title. "
                           "Sheet '%s' column %s: Title='%s' Expected='%s'" %
