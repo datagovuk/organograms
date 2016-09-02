@@ -363,7 +363,7 @@ def get_verify_level(graph):
 
 def load_xls_and_get_errors(xls_filename):
     '''
-    Used by etl_to_csv.py
+    Used by tso_combined.py
     Returns: (senior, junior, errors, will_display)
     '''
     errors = []
@@ -371,9 +371,10 @@ def load_xls_and_get_errors(xls_filename):
     senior = load_senior(xls_filename, errors, validation_errors)
     junior = load_junior(xls_filename, errors, validation_errors)
 
-    if errors or validation_errors:
+    if errors:
         return None, None, errors + validation_errors, False
 
+    errors = validation_errors
     try:
         verify_graph(senior, junior, errors)
     except ValidationFatalError, e:
