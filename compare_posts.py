@@ -625,6 +625,10 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
             items = response.json()['result']['items']
             # expect 2 items - one has the salary and the other is something
             # about 'total pay' but just seems to repeat basic info
+            if not items:
+                # not sure why, but occasionally there are no items
+                # e.g. http://reference.data.gov.uk/2011-03-31/doc/department/dh/post/WFD005/statistics.json?_page=1
+                continue
             post = {}
             for item in items:
                 try:

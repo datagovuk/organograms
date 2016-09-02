@@ -28,6 +28,18 @@ XLS_COL_HEADERS = {
         'Grade', u'Payscale Minimum (£)', u'Payscale Maximum (£)', 'Generic Job Title',
         'Number of Posts in FTE', 'Professional/Occupational Group', 'Valid?',
     )}
+COLS_THAT_SHOULD_BE_NUMBERS = {
+    'senior': (u'Salary Cost of Reports (£)', 'FTE',
+               u'Actual Pay Floor (£)', u'Actual Pay Ceiling (£)'),
+    'junior': (u'Payscale Minimum (£)', u'Payscale Maximum (£)',
+               'Number of Posts in FTE')
+    }
+XLS_COLS_THAT_SHOULD_BE_NUMBERS = {
+    'senior': [XLS_COL_HEADERS['senior'].index(col_name)
+               for col_name in COLS_THAT_SHOULD_BE_NUMBERS['senior']],
+    'junior': [XLS_COL_HEADERS['junior'].index(col_name)
+               for col_name in COLS_THAT_SHOULD_BE_NUMBERS['junior']]
+}
 
 
 def csv2xls_multiple(senior_or_junior_csv_filepaths):
@@ -65,7 +77,9 @@ def csv2xls(senior_or_junior_csv_filepath):
 
         # Adjust CSV
         if level == 'senior':
-            csv_headers[csv_headers.index('Grade')] = 'Grade (or equivalent)'
+            if 'Grade' in csv_headers:
+                csv_headers[csv_headers.index('Grade')] = \
+                    'Grade (or equivalent)'
         csv_headers.append(u'Total Pay (£)')
         if level == 'junior':
             csv_headers.append('Valid?')
@@ -74,8 +88,10 @@ def csv2xls(senior_or_junior_csv_filepath):
                     for xls_col in XLS_COL_HEADERS[level]]
         out_rows = [XLS_COL_HEADERS[level]]
         row_count = 0
-        for row in sorted(csv_rows, key=lambda r: int_if_possible(r[0])):
+        for row in sorted(csv_rows, key=lambda r: number_if_possible(r[0])):
             out_row = [row[csv_col_index] for csv_col_index in cols_map]
+            for col_index in XLS_COLS_THAT_SHOULD_BE_NUMBERS[level]:
+                out_row[col_index] = number_if_possible(out_row[col_index])
             out_rows.append(out_row)
             row_count += 1
 
@@ -160,6 +176,16 @@ def filepath_for_xls_from_triplestore_from_csv_filepath(
         .replace('junior', 'organogram') \
         .replace('senior', 'organogram') \
         .replace('csv', 'xls')
+
+
+def number_if_possible(num_str):
+    try:
+        return int(num_str)
+    except ValueError:
+        try:
+            return float(num_str)
+        except ValueError:
+            return num_str
 
 
 def int_if_possible(num_str):
