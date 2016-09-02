@@ -150,6 +150,8 @@ def check(xls_filename):
         traceback.print_exc()
         import pdb; pdb.set_trace()
     print '%s errors' % len(errors)
+    if errors:
+        print 'Error 1 of %s: %s' % (errors[0], len(errors))
     if not will_display:
         print 'WILL NOT DISPLAY'
     return '; '.join(errors), will_display
@@ -168,7 +170,7 @@ def can_we_use_the_upload_spreadsheet(body_title, graph):
         ('2015-03-31', 'United Kingdom Hydrographic Office'),
         ('2012-03-31', 'Audit Commission'),
         ('2012-03-31', 'Asset Protection Agency'),
-        
+        ('2015-03-31', 'Student Loans Company Limited'),
             ):
         return False
     # MoD uploads would need combining and none of the years of uploads seem as
