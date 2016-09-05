@@ -333,6 +333,7 @@ def get_verify_level(graph):
         'Could not parse graph YYYY-MM-DD / DD-MM-YYYY: %r' % graph
     graph = graph_match.groupdict()
     graph['year'] = int(graph['year'])
+    graph['month'] = int(graph['month'])
 
     # verify level based on the date
     if graph['year'] == 2011:
@@ -344,8 +345,9 @@ def get_verify_level(graph):
         # * some job-shares are people of different grades so you get errors
         #   about duplicate post refs.
         return 'load'
-    elif graph['year'] <= 2015:
-        # Be quite lenient. During 2012 - 2015 TSO did only basic validation
+    elif graph['year'] <= 2015 or \
+            (graph['year'] == 2016 and graph['month'] == 3):
+        # Be quite lenient. During 2012 - 2016/03 TSO did only basic validation
         # and we see errors:
         # * 'Senior post "Post Unique Reference" is not unique'
         # * u'Expected numeric values in column "Actual Pay '
