@@ -11,6 +11,7 @@ $ python compare_departments.py -g all departments
 import argparse
 from pprint import pprint
 import csv
+import unicodecsv
 from collections import defaultdict
 
 from uploads_scrape import VERSIONS
@@ -70,7 +71,7 @@ class UploadsData(object):
         self.by_graph = defaultdict(list)
         self.by_title = defaultdict(list)
         with open('uploads_report_tidied.csv', 'rb') as f:
-            csv_reader = csv.DictReader(f)
+            csv_reader = unicodecsv.DictReader(f, encoding='utf8')
             for upload in csv_reader:
                 if upload['state'] != 'published':
                     continue

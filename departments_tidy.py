@@ -431,8 +431,10 @@ def tidy_uploads():
             row['org_name'] = match['title']
             rows.append(row)
     with open(out_filename, 'wb') as csv_write_file:
-        csv_writer = csv.DictWriter(csv_write_file,
-                                    fieldnames=csv_reader.fieldnames)
+        csv_writer = unicodecsv.DictWriter(
+            csv_write_file,
+            fieldnames=csv_reader.fieldnames,
+            encoding='utf8')
         csv_writer.writeheader()
         for row in rows:
             csv_writer.writerow(row)

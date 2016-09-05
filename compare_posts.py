@@ -209,13 +209,6 @@ def filepath_for_csv_from_triplestore(body_title, graph, senior_or_junior):
     return out_filepath
 
 
-def filepath_for_xls_from_triplestore(body_title, graph):
-    from csv2xls import filepath_for_xls_from_triplestore_from_csv_filepath
-    csv_filepath = filepath_for_csv_from_triplestore(body_title, graph,
-                                                     'senior')
-    return filepath_for_xls_from_triplestore_from_csv_filepath(csv_filepath)
-
-
 def save_posts_csv(body_title, graph, senior_or_junior, posts):
     '''Given a list of posts, saves them in the standard CSV format.
     '''

@@ -21,7 +21,7 @@ args = None
 def combine():
     in_filename = 'uploads_report_tidied.csv'
     with open(in_filename, 'rb') as csv_read_file:
-        csv_reader = csv.DictReader(csv_read_file)
+        csv_reader = unicodecsv.DictReader(csv_read_file, encoding='utf8')
 
         # ignore some rows that are duplicates
         ignore_xls = (
