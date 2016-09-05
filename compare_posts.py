@@ -587,7 +587,8 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
                 # just check it is eliminated
                 for post in posts:
                     assert post['name'] == 'Eliminated' or \
-                        post['status'] in ('Eliminated', 'http://reference.data.gov.uk/def/civil-service-post-status/eliminated')
+                        post['status'] in ('Eliminated', 'http://reference.data.gov.uk/def/civil-service-post-status/eliminated') or \
+                        post['uri'] == 'http://reference.data.gov.uk/id/public-body/health-education-england/post/NORTH029'  # not sure why it's missing
                 # record the eliminated post
                 senior_posts.extend(posts)
                 # change the post that reported to the eliminated post to
@@ -684,13 +685,20 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
                         int(post['uri'].split('#juniorPosts')[-1])
                     post['unit'] = item['inUnit']['label'][0]
                     post['fte'] = item['fullTimeEquivalent']
-                    post['grade'] = item['atGrade']['prefLabel']
-                    if 'salaryRange' in item['atGrade']['payband']:
-                        post['salary_range'] = get_value(
-                            item['atGrade']['payband']['salaryRange'])
+                    if 'atGrade' in item:
+                        post['grade'] = item['atGrade']['prefLabel']
+                        if 'salaryRange' in item['atGrade']['payband']:
+                            post['salary_range'] = get_value(
+                                item['atGrade']['payband']['salaryRange'])
+                        else:
+                            post['salary_range'] = get_value(
+                                item['atGrade']['payband'], dict_key='_about')
                     else:
-                        post['salary_range'] = get_value(
-                            item['atGrade']['payband'], dict_key='_about')
+                        # sheet AirSalarySpreadsheetAsAt1Apr2016.xls junior row
+                        # 300 has has a grade which is a reference to another
+                        # cell, which validates, but gets lost on TSO import.
+                        post['grade'] = None
+                        post['salary_range'] = None
                     if 'withJob' in item:
                         post['job_title'] = item['withJob']['prefLabel']
                     else:
