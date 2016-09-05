@@ -70,7 +70,8 @@ def uploads_posts_all_departments():
     with open(in_filename, 'rb') as csv_read_file:
         csv_reader = csv.DictReader(csv_read_file)
         counts = []
-        rows = [row for row in csv_reader]
+        rows = [row for row in csv_reader
+                if row['state'] == 'published']
         for row in Bar('Reading posts from organogram CSVs').iter(rows):
             posts = {}
             for junior_or_senior in ('senior', 'junior'):

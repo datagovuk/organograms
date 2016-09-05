@@ -72,6 +72,12 @@ class ReportCsv(object):
         self.csv_writer.writerow(self.row_headings)
         self.rows_written = 0
 
+        self._written_identities = dict()
+
+    def _identity(self, row_dict):
+        return (row_dict['version'],
+                row_dict['org_name'])
+
     def save_to_csv(self, row_dict):
         row = []
         for heading in self.row_headings:
@@ -82,6 +88,18 @@ class ReportCsv(object):
         #print row
         self.csv_writer.writerow(row)
         self.rows_written += 1
+
+        # duplicates check
+        if row_dict['state'] == 'published':
+            identity = self._identity(row_dict)
+            if identity in self._written_identities:
+                if row_dict['org_name'] == 'Ministry of Defence':
+                    # we have dealt with MOD
+                    pass
+                else:
+                    print 'WARNING: duplicate row: %r - %r same as %r' % (repr(identity).encode('latin7', 'replace'), row_dict['xls_path'], self._written_identities[identity]['xls_path'])
+            else:
+                self._written_identities[identity] = row_dict
 
 
 def main(xls_folder, csv_folder):
@@ -181,22 +199,20 @@ def main(xls_folder, csv_folder):
             if xls_path == '/data/dstl/2015-03-31/20150930-Final_ORGANOGRAM.xls':
                 row_info['version'] = '30/09/2015'
 
-            filename_base = '{org}-{date}'.format(
+            filename_base = '{org}__{date}__{xls_path}'.format(
                 org=munge_org(row_info['org_name']),
-                date=row_info['version'].replace('/', '-'))
+                date=row_info['version'].replace('/', '-'),
+                xls_path=munge_xls_path(xls_path))
 
-            if row_info['state'] == 'published':
-                row_info['xls-filename'] = filename_base + '.xls'
-                row_info['junior-csv-filename'] = filename_base + '-junior.csv'
-                row_info['senior-csv-filename'] = filename_base + '-senior.csv'
-                if args.download:
-                    download(xls_path, xls_folder, row_info['xls-filename'])
-                    download(csv_junior_path, csv_folder,
-                             row_info['junior-csv-filename'])
-                    download(csv_senior_path, csv_folder,
-                             row_info['senior-csv-filename'])
-
-
+            row_info['xls-filename'] = filename_base + '.xls'
+            row_info['junior-csv-filename'] = filename_base + '-junior.csv'
+            row_info['senior-csv-filename'] = filename_base + '-senior.csv'
+            if args.download:
+                download(xls_path, xls_folder, row_info['xls-filename'])
+                download(csv_junior_path, csv_folder,
+                         row_info['junior-csv-filename'])
+                download(csv_senior_path, csv_folder,
+                         row_info['senior-csv-filename'])
 
             report.save_to_csv(row_info)
 
@@ -214,7 +230,7 @@ def munge_org(name):
     '''Return the org name, suitable for a filename'''
     name = name.lower()
     # separators become underscores
-    name = re.sub('[ .:/&]', '_', name)
+    name = re.sub('[ .:/&]', '-', name)
     # take out not-allowed characters
     name = re.sub('[^a-z0-9-_]', '', name)
     # remove doubles
@@ -222,9 +238,33 @@ def munge_org(name):
     name = re.sub('_+', '_', name)
     return name
 
+def munge_xls_path(name):
+    '''Make the XLS path bits suitable to be part of the saved filename,
+    getting rid of the /data/ and /<date>/ bits as they are in the path.
+    /data/acas/2011-09-30/ACAS-SEPT-2011-TRANSPERANCYa.xls
+    ->
+    acas__ACAS-SEPT-2011-TRANSPERANCYa
+    '''
+    parts = name.split('/')
+    assert len(parts) == 5, name
+    name = '%s__%s' % (parts[2], parts[4])
+    name = '.'.join(name.split('.')[:-1])
+    # separators become underscores
+    name = re.sub('[ .:/&]', '-', name)
+    # take out not-allowed characters
+    name = re.sub('[^A-Za-z0-9-_]', '', name)
+    # remove doubles
+    name = re.sub('-+', '-', name)
+    name = re.sub('_+', '_', name)
+    return name
 
 def download(url_path, folder, filename):
-    url = DOWNLOAD_URL.format(path=url_path)
+    # this long dash gets encoded weirdly by TSO system - do it manually
+    url_path = url_path.replace(u'\u2013', '%c3%a2%e2%82%ac%e2%80%9c')
+    try:
+        url = DOWNLOAD_URL.format(path=url_path)
+    except:
+        import pdb; pdb.set_trace()
     filepath = os.path.join(folder, filename)
     if os.path.exists(filepath):
         print 'Skipping downloading existing file %s %s' % (url, filepath)
