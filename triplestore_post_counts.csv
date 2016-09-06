@@ -4,6 +4,7 @@ body_title,graph,senior_posts,junior_posts
 "Advisory, Conciliation and Arbitration Service",2012-09-30,6,28
 Animal and Plant Health Agency,2015-03-31,9,127
 Animal and Plant Health Agency,2015-09-30,9,139
+Animal and Plant Health Agency,2016-03-31,9,121
 Animal Health and Veterinary Laboratories Agency,2011-03-31,12,219
 Animal Health and Veterinary Laboratories Agency,2011-09-30,11,226
 Animal Health and Veterinary Laboratories Agency,2012-03-31,13,230
@@ -18,6 +19,7 @@ Arts and Humanities Research Council,2011-09-30,4,11
 Arts and Humanities Research Council,2012-03-31,3,12
 Arts and Humanities Research Council,2012-09-30,3,12
 Arts and Humanities Research Council,2013-09-30,3,24
+Arts and Humanities Research Council,2015-09-30,3,37
 Arts Council England,2012-03-31,9,291
 Asset Protection Agency,2011-03-31,18,8
 Asset Protection Agency,2011-09-30,17,8
@@ -53,6 +55,7 @@ British Transport Police Authority,2012-09-30,17,7
 British Transport Police Authority,2013-03-31,17,7
 British Transport Police Authority,2014-03-31,17,9
 British Transport Police Authority,2015-03-31,17,9
+British Transport Police Authority,2016-03-31,18,10
 Cabinet Office,2011-03-31,216,763
 Cabinet Office,2011-03-31,216,763
 Cabinet Office,2011-09-30,235,629
@@ -63,6 +66,7 @@ Cabinet Office,2014-03-31,265,804
 Cabinet Office,2014-09-30,253,816
 Cabinet Office,2015-03-31,252,984
 Cabinet Office,2015-09-30,221,886
+Cabinet Office,2016-03-31,210,763
 Capital For Enterprise Ltd,2011-09-30,7,9
 Capital For Enterprise Ltd,2012-03-31,9,10
 Capital For Enterprise Ltd,2013-03-31,11,10
@@ -73,6 +77,7 @@ Care Quality Commission,2012-09-30,50,245
 Care Quality Commission,2013-03-31,49,310
 Care Quality Commission,2013-09-30,51,347
 Care Quality Commission,2014-03-31,99,366
+Care Quality Commission,2015-09-30,106,419
 "Centre for Environment, Fisheries & Aquaculture Science",2011-09-30,4,35
 "Centre for Environment, Fisheries & Aquaculture Science",2012-03-31,4,35
 "Centre for Environment, Fisheries & Aquaculture Science",2012-09-30,3,35
@@ -80,6 +85,7 @@ Care Quality Commission,2014-03-31,99,366
 "Centre for Environment, Fisheries & Aquaculture Science",2013-09-30,3,35
 "Centre for Environment, Fisheries & Aquaculture Science",2014-03-31,3,40
 "Centre for Environment, Fisheries & Aquaculture Science",2014-09-30,6,132
+"Centre for Environment, Fisheries & Aquaculture Science",2016-03-31,3,35
 Child Maintenance and Enforcement Commission,2011-03-31,39,298
 Child Maintenance and Enforcement Commission,2011-09-30,36,307
 Child Maintenance and Enforcement Commission,2012-03-31,34,325
@@ -113,6 +119,7 @@ Consumer Council for Water,2012-03-31,4,21
 Consumer Council for Water,2013-09-30,4,27
 Consumer Council for Water,2014-03-31,4,28
 Consumer Council for Water,2014-09-30,4,28
+Consumer Council for Water,2016-03-31,5,28
 Consumer Futures,2011-09-30,7,6
 Consumer Futures,2012-03-31,6,6
 Consumer Futures,2012-09-30,6,6
@@ -143,6 +150,7 @@ Crown Prosecution Service,2012-09-30,77,1041
 Crown Prosecution Service,2013-09-30,70,991
 Crown Prosecution Service,2014-03-31,69,1021
 Crown Prosecution Service,2014-09-30,68,1002
+Crown Prosecution Service,2016-03-31,73,973
 Defence Support Group,2011-03-31,6,26
 Defence Support Group,2011-09-30,6,28
 Defence Support Group,2012-09-30,6,24
@@ -191,6 +199,7 @@ Department for Transport,2012-03-31,122,519
 Department for Transport,2012-09-30,124,538
 Department for Transport,2014-03-31,124,551
 Department for Transport,2015-03-31,123,530
+Department for Transport,2015-09-30,141,508
 Department for Work and Pensions,2011-03-31,270,2647
 Department for Work and Pensions,2011-03-31,270,2647
 Department for Work and Pensions,2011-09-30,209,2318
@@ -229,6 +238,7 @@ Department of Health,2014-03-31,161,993
 Department of Health,2014-09-30,164,1089
 Department of Health,2015-03-31,170,1037
 Department of Health,2015-09-30,172,1205
+Department of Health,2016-03-31,152,916
 Driver and Vehicle Licensing Agency,2011-03-31,7,57
 Driver and Vehicle Licensing Agency,2011-09-30,7,82
 Driver and Vehicle Licensing Agency,2012-03-31,7,84
@@ -246,11 +256,13 @@ Driving Standards Agency,2012-09-30,3,130
 Driving Standards Agency,2013-03-31,3,132
 Driving Standards Agency,2014-03-31,5,114
 Economic and Social Research Council,2013-09-30,3,34
+Economic and Social Research Council,2015-09-30,2,36
 Engineering and Physical Sciences Research Council,2011-03-31,4,53
 Engineering and Physical Sciences Research Council,2011-09-30,4,76
 Engineering and Physical Sciences Research Council,2012-03-31,4,73
 Engineering and Physical Sciences Research Council,2012-09-30,4,72
 Engineering and Physical Sciences Research Council,2013-09-30,4,74
+Engineering and Physical Sciences Research Council,2015-09-30,4,77
 Engineering Construction Industry Training Board,2011-09-30,7,10
 Engineering Construction Industry Training Board,2013-03-31,8,1
 English Heritage,2011-03-31,21,191
@@ -265,6 +277,7 @@ Environment Agency,2012-03-31,143,2295
 Environment Agency,2012-09-30,149,2270
 Environment Agency,2013-09-30,138,1967
 Environment Agency,2015-03-31,117,1736
+Environment Agency,2016-03-31,124,1396
 Equality and Human Rights Commission,2011-03-31,5,223
 Equality and Human Rights Commission,2011-09-30,10,744
 Equality and Human Rights Commission,2012-03-31,6,165
@@ -282,6 +295,7 @@ Foreign and Commonwealth Office,2013-09-30,133,200
 Foreign and Commonwealth Office,2014-03-31,136,200
 Foreign and Commonwealth Office,2014-09-30,133,201
 Foreign and Commonwealth Office,2015-03-31,135,206
+Foreign and Commonwealth Office,2016-03-31,132,194
 Forestry Commission,2011-09-30,11,228
 Forestry Commission,2012-03-31,11,221
 Forestry Commission,2012-09-30,10,221
@@ -313,6 +327,7 @@ Health and Social Care Information Centre,2012-03-31,34,126
 Health and Social Care Information Centre,2014-09-30,37,491
 Health Education England,2013-03-31,356,704
 Health Education England,2013-09-30,238,442
+Health Education England,2016-03-31,980,182
 Health Protection Agency,2011-03-31,51,207
 Health Protection Agency,2011-09-30,50,507
 Health Protection Agency,2012-03-31,48,498
@@ -325,6 +340,7 @@ Her Majesty's Revenue and Customs,2014-03-31,324,5474
 Her Majesty's Revenue and Customs,2014-09-30,335,5312
 Her Majesty's Revenue and Customs,2015-03-31,354,4406
 Her Majesty's Revenue and Customs,2015-09-30,359,4722
+Her Majesty's Revenue and Customs,2016-03-31,364,5122
 High Speed 2 Limited,2011-09-30,4,6
 High Speed 2 Limited,2012-03-31,7,50
 High Speed 2 Limited,2013-09-30,8,119
@@ -368,9 +384,11 @@ HM Treasury,2011-03-31,0,0
 HM Treasury,2011-09-30,115,407
 HM Treasury,2012-03-31,101,369
 HM Treasury,2012-09-30,93,349
+HM Treasury,2013-03-31,95,324
 HM Treasury,2013-09-30,90,315
 HM Treasury,2014-03-31,93,308
 HM Treasury,2014-09-30,89,291
+HM Treasury,2015-03-31,91,272
 Home Office,2011-03-31,125,706
 Home Office,2011-03-31,125,706
 Home Office,2011-09-30,151,734
@@ -417,6 +435,8 @@ Independent Living Fund,2012-09-30,2,47
 Independent Living Fund,2013-09-30,2,52
 Independent Living Fund,2014-03-31,2,52
 Independent Living Fund,2014-09-30,2,52
+Independent Offices,2012-03-31,2,7
+Independent Offices,2012-09-30,2,12
 Independent Police Complaints Commission,2011-03-31,6,120
 Independent Police Complaints Commission,2011-09-30,5,110
 Independent Police Complaints Commission,2012-03-31,5,109
@@ -488,6 +508,7 @@ Marine Management Organisation,2011-03-31,4,28
 Marine Management Organisation,2011-09-30,5,31
 Marine Management Organisation,2012-03-31,5,31
 Marine Management Organisation,2012-09-30,5,30
+Marine Management Organisation,2016-03-31,5,32
 Maritime and Coastguard Agency,2011-03-31,4,82
 Maritime and Coastguard Agency,2011-09-30,4,82
 Maritime and Coastguard Agency,2012-03-31,4,82
@@ -498,7 +519,9 @@ Maritime and Coastguard Agency,2015-03-31,4,123
 Medical Research Council,2011-03-31,42,307
 Medical Research Council,2011-09-30,41,307
 Medical Research Council,2013-09-30,31,223
+Medical Research Council,2016-03-31,26,229
 Medicines and Healthcare products Regulatory Agency,2013-09-30,144,233
+Medicines and Healthcare products Regulatory Agency,2016-03-31,136,193
 Met Office,2011-03-31,10,228
 Met Office,2011-09-30,10,229
 Met Office,2012-03-31,10,229
@@ -514,6 +537,7 @@ Ministry of Defence,2014-03-31,518,3440
 Ministry of Defence,2014-09-30,629,4580
 Ministry of Defence,2015-03-31,626,4651
 Ministry of Defence,2015-09-30,654,4653
+Ministry of Defence,2016-03-31,705,6350
 Ministry of Justice,2011-03-31,171,781
 Ministry of Justice,2011-03-31,171,781
 Ministry of Justice,2011-09-30,132,624
@@ -525,6 +549,7 @@ Ministry of Justice,2014-03-31,136,897
 Ministry of Justice,2014-09-30,215,2674
 Ministry of Justice,2015-03-31,181,4760
 Ministry of Justice,2015-09-30,192,4429
+Ministry of Justice,2016-03-31,222,4917
 Monitor,2011-03-31,9,26
 Monitor,2011-09-30,9,42
 Monitor,2012-03-31,9,55
@@ -552,6 +577,7 @@ National Institute for Health and Care Excellence,2012-09-30,22,314
 National Institute for Health and Care Excellence,2013-09-30,19,277
 National Institute for Health and Care Excellence,2014-03-31,18,293
 National Institute for Health and Care Excellence,2015-03-31,18,307
+National Institute for Health and Care Excellence,2016-03-31,18,304
 National Lottery Commission,2011-03-31,5,25
 National Lottery Commission,2011-09-30,5,24
 National Lottery Commission,2012-03-31,2,10
@@ -593,6 +619,7 @@ Natural History Museum,2011-03-31,4,157
 Natural History Museum,2011-09-30,4,129
 Natural History Museum,2012-03-31,4,140
 Natural History Museum,2012-09-30,4,122
+NHS Arden and Greater East Midlands CSU,2016-03-31,12,1375
 NHS Arden CSU,2014-03-31,8,91
 NHS Arden CSU,2015-03-31,5,145
 NHS Blood and Transplant,2011-03-31,54,94
@@ -603,6 +630,7 @@ NHS Blood and Transplant,2013-09-30,51,92
 NHS Blood and Transplant,2014-03-31,54,93
 NHS Blood and Transplant,2015-03-31,60,83
 NHS Blood and Transplant,2015-09-30,57,91
+NHS Blood and Transplant,2016-03-31,58,101
 NHS Business Services Authority,2011-09-30,5,71
 NHS Business Services Authority,2012-03-31,5,69
 NHS Business Services Authority,2012-09-30,5,67
@@ -615,6 +643,7 @@ NHS Cheshire and Merseyside Commissioning Support Unit,2015-03-31,40,155
 NHS England,2013-03-31,296,1
 NHS England,2013-09-30,293,1
 NHS Greater East Midlands CSU,2014-03-31,6,437
+NHS Greater East Midlands CSU,2015-03-31,8,504
 NHS Information Centre for Health and Social Care,2011-03-31,28,103
 NHS Information Centre for Health and Social Care,2011-09-30,35,126
 NHS Information Centre for Health and Social Care,2012-09-30,37,112
@@ -623,8 +652,10 @@ NHS Litigation Authority,2011-09-30,6,33
 NHS Litigation Authority,2012-03-31,6,32
 NHS Litigation Authority,2012-09-30,6,33
 NHS Litigation Authority,2013-03-31,13,79
+NHS Litigation Authority,2016-03-31,9,72
 NHS Midlands and Lancashire CSU,2014-09-30,7,270
 NHS Midlands and Lancashire CSU,2015-03-31,8,250
+NHS Midlands and Lancashire CSU,2016-03-31,13,269
 NHS North of England CSU,2014-03-31,7,113
 NHS North of England CSU,2015-03-31,7,126
 NHS North Yorkshire and Humber CSU,2014-03-31,19,135
@@ -642,12 +673,13 @@ Office for Budget Responsibility,2012-09-30,4,3
 Office for Budget Responsibility,2013-09-30,4,5
 Office for Budget Responsibility,2014-03-31,4,5
 Office for Budget Responsibility,2014-09-30,4,5
+Office for Budget Responsibility,2015-03-31,4,5
 Office for Fair Access,2013-09-30,1,5
 Office for National Statistics,2012-03-31,42,414
-"Office for Standards in Education, Children's Services and Skills",2011-03-31,37,171
-"Office for Standards in Education, Children's Services and Skills",2011-09-30,38,171
-"Office for Standards in Education, Children's Services and Skills",2012-09-30,32,162
-"Office for Standards in Education, Children's Services and Skills",2014-03-31,28,130
+Ofsted,2011-03-31,37,171
+Ofsted,2011-09-30,38,171
+Ofsted,2012-09-30,32,162
+Ofsted,2014-03-31,28,130
 Office of Qualifications and Examinations Regulation,2011-03-31,5,24
 Office of Qualifications and Examinations Regulation,2011-09-30,5,24
 Office of Rail and Road,2012-03-31,15,279
@@ -714,12 +746,14 @@ Royal Air Force Museum,2013-09-30,2,30
 Royal Air Force Museum,2014-03-31,3,24
 Royal Air Force Museum,2014-09-30,3,17
 Royal Air Force Museum,2015-03-31,5,22
+Royal Air Force Museum,2016-03-31,5,26
 Royal Armouries,2012-09-30,7,66
 Royal Armouries,2013-03-31,7,71
 Royal Museums Greenwich,2013-09-30,7,96
 Rural Payments Agency,2011-03-31,9,126
 Rural Payments Agency,2011-09-30,13,177
 Rural Payments Agency,2013-09-30,13,243
+Rural Payments Agency,2016-03-31,15,201
 Science and Technology Facilities Council,2011-03-31,39,347
 Science and Technology Facilities Council,2011-09-30,37,321
 Science and Technology Facilities Council,2013-09-30,31,311
@@ -756,6 +790,7 @@ Skills Funding Agency,2011-09-30,61,312
 Skills Funding Agency,2012-03-31,46,275
 Skills Funding Agency,2012-09-30,45,259
 Skills Funding Agency,2013-03-31,44,279
+"NHS South, Central and West CSU",2016-03-31,24,177
 Sport England,2011-03-31,8,83
 Sport England,2011-09-30,8,87
 Sport England,2012-03-31,8,89
@@ -768,6 +803,7 @@ Student Loans Company Limited,2011-09-30,8,328
 Student Loans Company Limited,2012-09-30,8,381
 Student Loans Company Limited,2015-03-31,6,403
 Student Loans Company Limited,2015-09-30,6,282
+Student Loans Company Limited,2016-03-31,5,280
 Tate,2011-03-31,6,28
 Tate,2011-09-30,6,28
 Tate,2012-03-31,6,28
@@ -779,6 +815,8 @@ The British Library,2011-03-31,45,153
 The British Library,2011-03-31,45,153
 The British Library,2012-03-31,35,153
 The British Library,2013-09-30,37,143
+The British Library,2015-09-30,46,420
+The British Library,2016-03-31,22,104
 The British Museum,2011-03-31,7,76
 The British Museum,2011-09-30,7,77
 The British Museum,2012-03-31,6,68
@@ -811,6 +849,8 @@ The National Museum of the Royal Navy,2013-03-31,6,5
 The National Museum of the Royal Navy,2013-09-30,5,4
 The National Museum of the Royal Navy,2014-09-30,8,16
 The National Museum of the Royal Navy,2015-03-31,5,15
+The National Museum of the Royal Navy,2015-09-30,4,15
+The National Museum of the Royal Navy,2016-03-31,4,15
 The Northern Lighthouse Board,2011-03-31,4,87
 The Northern Lighthouse Board,2011-09-30,4,86
 The Northern Lighthouse Board,2012-03-31,4,85
@@ -866,6 +906,7 @@ UK Debt Management Office,2012-09-30,4,81
 UK Debt Management Office,2013-09-30,4,115
 UK Debt Management Office,2014-03-31,4,112
 UK Debt Management Office,2014-09-30,4,113
+UK Debt Management Office,2015-03-31,4,117
 UK Sport,2011-03-31,6,48
 UK Sport,2011-09-30,7,52
 UK Sport,2012-03-31,7,56
@@ -883,12 +924,15 @@ United Kingdom Atomic Energy Authority,2014-03-31,10,364
 United Kingdom Atomic Energy Authority,2014-09-30,10,364
 United Kingdom Atomic Energy Authority,2015-03-31,11,349
 United Kingdom Atomic Energy Authority,2015-09-30,9,158
+United Kingdom Atomic Energy Authority,2016-03-31,9,167
 United Kingdom Hydrographic Office,2011-09-30,5,42
 United Kingdom Hydrographic Office,2013-03-31,5,1086
 United Kingdom Hydrographic Office,2013-09-30,6,397
 United Kingdom Hydrographic Office,2014-03-31,3,583
 United Kingdom Hydrographic Office,2014-09-30,4,462
 United Kingdom Hydrographic Office,2015-03-31,4,431
+United Kingdom Hydrographic Office,2015-09-30,3,414
+United Kingdom Hydrographic Office,2016-03-31,3,414
 Valuation Office Agency,2011-03-31,11,4104
 Valuation Office Agency,2011-09-30,12,3815
 Valuation Office Agency,2012-03-31,13,3786
@@ -927,6 +971,7 @@ Wales Office,2012-09-30,4,38
 Wales Office,2013-03-31,4,34
 Wales Office,2013-09-30,4,34
 Water Services Regulation Authority,2014-09-30,8,54
+Water Services Regulation Authority,2016-03-31,10,51
 West and South Yorkshire and Bassetlaw Commissioning Support Unit,2014-09-30,32,368
 West Northamptonshire Development Corporation,2011-03-31,5,29
 West Northamptonshire Development Corporation,2011-09-30,4,27
