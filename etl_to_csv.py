@@ -20,6 +20,7 @@ from xlrd import XLRDError
 import csv
 import re
 import argparse
+import string
 
 
 args = None
@@ -159,9 +160,11 @@ def load_senior(excel_filename, errors, validation_errors):
     n_a_for_blanks_columns = [
       u'Contact Phone',
     ]
-    df = load_excel_store_errors(excel_filename, '(final data) senior-staff', errors, validation_errors, input_columns, rename_columns, blank_columns, integer_columns, string_columns, n_a_for_blanks_columns)
+    sheet_name = '(final data) senior-staff'
+    df = load_excel_store_errors(excel_filename, sheet_name, errors, validation_errors, input_columns, rename_columns, blank_columns, integer_columns, string_columns, n_a_for_blanks_columns)
     if df.dtypes['Post Unique Reference']==numpy.float64:
         df['Post Unique Reference'] = df['Post Unique Reference'].astype('int')
+    in_sheet_validation(df, validation_errors, sheet_name, 'senior')
     return df
 
 
@@ -176,7 +179,8 @@ def load_junior(excel_filename, errors, validation_errors):
       u'Payscale Maximum (£)',
       u'Generic Job Title',
       u'Number of Posts in FTE',
-      u'Professional/Occupational Group']
+      u'Professional/Occupational Group',
+      u'Valid?']
     integer_columns = [
       u'Payscale Minimum (£)',
       u'Payscale Maximum (£)'
@@ -185,9 +189,13 @@ def load_junior(excel_filename, errors, validation_errors):
       u'Reporting Senior Post',
     ]
     n_a_for_blanks_columns = []
-    df = load_excel_store_errors(excel_filename, '(final data) junior-staff', errors, validation_errors, input_columns, {}, [], integer_columns, string_columns, n_a_for_blanks_columns)
+    sheet_name = '(final data) junior-staff'
+    df = load_excel_store_errors(excel_filename, sheet_name, errors, validation_errors, input_columns, {}, [], integer_columns, string_columns, n_a_for_blanks_columns)
     if df.dtypes['Reporting Senior Post']==numpy.float64:
         df['Reporting Senior Post'] = df['Reporting Senior Post'].fillna(-1).astype('int')
+    in_sheet_validation(df, validation_errors, sheet_name, 'junior')
+    # 'Valid?'' column doesn't get written in the junior sheet
+    df.drop('Valid?', axis=1, inplace=True)
     return df
 
 
@@ -312,6 +320,36 @@ def verify_graph(senior, junior, errors):
     for ref in bad_junior_refs:
         errors.append('Junior post reporting to unknown senior post "%s"'
                       % ref)
+
+def row_name(row_index):
+    '''
+    0 returns '2' (first value, after the header row)
+    '''
+    return row_index + 2
+
+def column_name(column_index):
+    '''
+    0 returns 'A' (left-most column)
+    '''
+    return string.ascii_uppercase[column_index]
+
+def cell_name(row_index, column_index):
+    '''
+    (0, 0) returns 'A2' (top-left value, after the header row)
+    (12, 2) returns 'B14'
+    '''
+    return '%s%d' % (column_name(column_index), row_name(row_index))
+
+def in_sheet_validation(df, validation_errors, sheet_name, junior_or_senior):
+    # Row validation indication
+    validation_column = df.columns.get_loc('Valid?') # equivalent to S
+    rows_marked_invalid = df[df['Valid?'] == 0]
+    if len(rows_marked_invalid):
+        row = rows_marked_invalid.head(1)
+        row_index = row.index[0]
+        err = 'Sheet "%s" has %d invalid row%s. The %sproblem is on row %d, as indicated by the red colour in cell %s.' % (sheet_name, len(rows_marked_invalid), 's' if len(rows_marked_invalid) > 1 else '', 'first ' if len(rows_marked_invalid) > 1 else '', row_name(row_index), cell_name(row_index, validation_column))
+        validation_errors.append(err)
+    #import pdb; pdb.set_trace()
 
 
 def get_date_from_filename(filename):
@@ -483,6 +521,8 @@ def main(input_xls_filepath, output_folder):
     with open(index_filename, 'w') as f:
         json.dump(index, f)
     print "Done."
+    # return values are only for the tests
+    return senior_filename, junior_filename, senior, junior
 
 
 def usage():
