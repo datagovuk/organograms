@@ -202,7 +202,7 @@ payband_re = re.compile('http://reference.data.gov.uk/def/.+?/.+?/payband/')
 def filepath_for_csv_from_triplestore(body_title, graph, senior_or_junior):
     directory = 'data/dgu/csv-from-triplestore'
     out_filename = '{org}-{graph}-{senior_or_junior}.csv'.format(
-        org=munge_org(body_title),
+        org=munge_org(body_title, separation_char='_'),
         graph=graph.replace('/', '-'),
         senior_or_junior=senior_or_junior)
     out_filepath = os.path.join(directory, out_filename)
