@@ -429,14 +429,25 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
     page = 1
     senior_posts = []
 
-    def get_value(value, dict_key='label', list_index=None):
-        options = {'dict_key': dict_key}
+    def canonize_value(value):
+        value = value.strip(' \'\"\.').lower()  # remove enclosing junk
+        value = re.sub('(and|the)', '', value)  # remove stop words
+        value = re.sub('[^a-z0-9]', '', value)  # leave only chars
+        value = re.sub('\s+', ' ', value)  # no double spaces
+        return value
+
+    def get_value(value, dict_key='label', list_index=None,
+                  multiple_ok=False):
+        options = dict(dict_key=dict_key, list_index=list_index,
+                       multiple_ok=multiple_ok)
         if isinstance(value, dict):
             value_ = value.get(dict_key)
             if value_:
                 return get_value(value_, **options)
             return value_
         elif isinstance(value, list):
+            if len(value) == 1:
+                return get_value(value[0], **options)
             if list_index is not None:
                 # hopefully there are enough items in the list to get the one
                 # we want, although the CSV->TSO linked data conversion was
@@ -446,7 +457,19 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
                 if len(value) <= list_index:
                     list_index = -1
                 return get_value(value[list_index], **options)
-            return '; '.join(get_value(val, **options) for val in value)
+            values = [get_value(val, **options) for val in value]
+            deduped_values = []
+            deduped_canonized_values = []
+            for value__ in values:
+                canonized_value = canonize_value(value__)
+                if canonized_value in deduped_canonized_values:
+                    continue
+                deduped_values.append(value__)
+                deduped_canonized_values.append(canonized_value)
+            if len(deduped_values) > 1 and not multiple_ok:
+                print 'Which value is it?', deduped_values
+                import pdb; pdb.set_trace()
+            return '; '.join(deduped_values)
         elif isinstance(value, (basestring, int, float)):
             return value
         elif value is None:
@@ -466,10 +489,11 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
         post['unit'] = unit_values[0]
         post['note'] = item.get('note')
         post['reports_to_uri'] = get_value(
-            item.get('reportsTo'), dict_key='_about')
+            item.get('reportsTo'), dict_key='_about', list_index=0)
         # postStatus might be Current or Eliminated (or equiv URIs)
         # e.g. http://reference.data.gov.uk/2011-03-31/doc/department/dh/post/WFD005.json
-        post['status'] = get_value(item.get('postStatus'), 'prefLabel')
+        post['status'] = get_value(item.get('postStatus'), 'prefLabel',
+                                   multiple_ok=True)
         if isinstance(post['reports_to_uri'], basestring) and \
                 ' ' in post['reports_to_uri']:
             print 'Warning - reporting to multiple posts: %s %r' % \
@@ -495,7 +519,7 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
             post_['fte'] = get_value(held_by.get('tenure'), 'workingTime', list_index=i)
 
             if 'profession' in held_by:
-                profession_values = held_by['profession']['prefLabel']
+                profession_values = get_value(held_by['profession'], dict_key='prefLabel')
                 profession = profession_values
             else:
                 profession = None
@@ -517,8 +541,11 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
             post_['profession'] = ''
             post_['email'] = ''
             post_['phone'] = ''
-            post_['salary_range'] = get_value(item.get('salaryRange'))
-            post_['grade'] = get_value(item.get('grade'))
+            # multiples usually mean 2 posts have the same ID but different
+            # values, which is a mistake in the spreadsheet
+            post_['salary_range'] = get_value(item.get('salaryRange'),
+                                              list_index=0)
+            post_['grade'] = get_value(item.get('grade'), list_index=0)
             posts.append(post_)
 
         return posts
@@ -677,16 +704,25 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
                     post['reports_to'] = senior_post_id
                     post['row_index'] = \
                         int(post['uri'].split('#juniorPosts')[-1])
-                    post['unit'] = item['inUnit']['label'][0]
+                    post['unit'] = get_value(item['inUnit'])
                     post['fte'] = item['fullTimeEquivalent']
                     if 'atGrade' in item:
-                        post['grade'] = item['atGrade']['prefLabel']
+                        post['grade'] = get_value(
+                            item['atGrade'], dict_key='prefLabel',
+                            list_index=0)
                         if 'salaryRange' in item['atGrade']['payband']:
+                            # Sometimes you see multiple salary ranges for a
+                            # payband. e.g. http://reference.data.gov.uk/2015-03-31/doc/department/mod/post/00001495/immediate-junior-staff.json?_page=1
+                            # juniorPosts30 due to the two XLSs being loaded
+                            # incorrectly for DSTL against one period - 09/2015
+                            # and 03/2015 for the 03/2015 period. Ignore one.
                             post['salary_range'] = get_value(
-                                item['atGrade']['payband']['salaryRange'])
+                                item['atGrade']['payband']['salaryRange'],
+                                list_index=0)
                         else:
                             post['salary_range'] = get_value(
-                                item['atGrade']['payband'], dict_key='_about')
+                                item['atGrade']['payband'], dict_key='_about',
+                                list_index=0)
                     else:
                         # sheet AirSalarySpreadsheetAsAt1Apr2016.xls junior row
                         # 300 has has a grade which is a reference to another
@@ -694,12 +730,15 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
                         post['grade'] = None
                         post['salary_range'] = None
                     if 'withJob' in item:
-                        post['job_title'] = item['withJob']['prefLabel']
+                        post['job_title'] = get_value(item[
+                            'withJob'], dict_key='prefLabel', list_index=0)
                     else:
                         post['job_title'] = item['label'][0]
 
                     if 'withProfession' in item:
-                        profession_values = item['withProfession']['prefLabel']
+                        profession_values = get_value(
+                            item['withProfession'], dict_key='prefLabel',
+                            list_index=0)
                         profession = profession_values
                     else:
                         profession = None
