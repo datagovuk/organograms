@@ -23,19 +23,10 @@ def combine():
     with open(in_filename, 'rb') as csv_read_file:
         csv_reader = unicodecsv.DictReader(csv_read_file, encoding='utf8')
 
-        # ignore some rows that are duplicates
-        ignore_xls = (
-            '/data/geo/2011-09-30/Copy-of-Final_20110930_08.11.xls',
-            '/data/apa/2012-03-31/APA-government-staff-and-salary-data-blank-template---Sept-2012-FINAL.xls',
-            '/data/hotmail/2012-03-31/DfT(C)-Transparency-Final-Return-31.03.12.xls',
-            '/data/plr/2012-09-30/300912-PublicLendingRight-OrganogramV1.xls',
-            )
-
         uploads = dict(
             ((date_to_year_first(row['version']), row['org_name']), row)
             for row in csv_reader
-            if row['xls_path'] not in ignore_xls
-            and row['state'] == 'published'
+            if row['state'] == 'published'
             and row['org_name'] not in MOD_AGGREGATED_SUBPUBS)
         # mod get added from triplestore
 
@@ -177,7 +168,7 @@ def can_we_use_the_upload_spreadsheet(body_title, graph):
         return False
     # MoD uploads would need combining and none of the years of uploads seem as
     # complete as the triplestore
-    if body_title == 'Ministry of Defence' and graph < '2016':
+    if body_title == 'Ministry of Defence' and graph < '2016-09':
         return False
     return True
 

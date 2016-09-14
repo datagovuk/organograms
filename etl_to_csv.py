@@ -349,8 +349,6 @@ def in_sheet_validation(df, validation_errors, sheet_name, junior_or_senior):
         row_index = row.index[0]
         err = 'Sheet "%s" has %d invalid row%s. The %sproblem is on row %d, as indicated by the red colour in cell %s.' % (sheet_name, len(rows_marked_invalid), 's' if len(rows_marked_invalid) > 1 else '', 'first ' if len(rows_marked_invalid) > 1 else '', row_name(row_index), cell_name(row_index, validation_column))
         validation_errors.append(err)
-    #import pdb; pdb.set_trace()
-
 
 def get_date_from_filename(filename):
     match = re.search(r'(\d{4}-\d{2}-\d{2})', filename) or \

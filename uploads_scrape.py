@@ -71,12 +71,6 @@ class ReportCsv(object):
         self.csv_writer.writerow(self.row_headings)
         self.rows_written = 0
 
-        self._written_identities = dict()
-
-    def _identity(self, row_dict):
-        return (row_dict['version'],
-                row_dict['org_name'])
-
     def save_to_csv(self, row_dict):
         row = []
         for heading in self.row_headings:
@@ -87,18 +81,6 @@ class ReportCsv(object):
         #print row
         self.csv_writer.writerow(row)
         self.rows_written += 1
-
-        # duplicates check
-        if row_dict['state'] == 'published':
-            identity = self._identity(row_dict)
-            if identity in self._written_identities:
-                if row_dict['org_name'] == 'Ministry of Defence':
-                    # we have dealt with MOD
-                    pass
-                else:
-                    print 'WARNING: duplicate row: %r - %r same as %r' % (repr(identity).encode('latin7', 'replace'), row_dict['xls_path'], self._written_identities[identity]['xls_path'])
-            else:
-                self._written_identities[identity] = row_dict
 
 
 def main():
