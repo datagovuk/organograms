@@ -333,6 +333,12 @@ def column_name(column_index):
     '''
     return string.ascii_uppercase[column_index]
 
+def column_index(column_name):
+    '''
+    'A' returns 0
+    '''
+    return string.ascii_uppercase.index(column_name.upper())
+
 def cell_name(row_index, column_index):
     '''
     (0, 0) returns 'A2' (top-left value, after the header row)
@@ -341,6 +347,94 @@ def cell_name(row_index, column_index):
     return '%s%d' % (column_name(column_index), row_name(row_index))
 
 def in_sheet_validation(df, validation_errors, sheet_name, junior_or_senior):
+    row_errors = []
+    in_sheet_validation_row_colours(df, row_errors, sheet_name)
+
+    cell_errors = []
+    if junior_or_senior == 'senior':
+        for row in df.iterrows():
+            in_sheet_validation_senior_columns(row, df, cell_errors, sheet_name)
+    else:
+        for row in df.iterrows():
+            in_sheet_validation_junior_columns(row, df, cell_errors, sheet_name)
+
+    if cell_errors and not row_errors:
+        log.error('Errors found by ETL were not picked up by spreadsheet: %r',
+                  cell_errors)
+    elif row_errors and not cell_errors:
+        log.error('Errors found by spreadsheet were not picked up by ETL: %r',
+                  row_errors)
+
+def in_sheet_validation_senior_columns(row, df, validation_errors, sheet_name):
+    # senior column A is invalid if:
+    # =IF(AND(ISBLANK($B2),ISBLANK($C2),ISBLANK($D2),ISBLANK($E2),ISBLANK($F2),ISBLANK($G2),ISBLANK($H2),ISBLANK($I2),ISBLANK($J2),ISBLANK($K2),ISBLANK($L2),ISBLANK($M2),ISBLANK($N2),ISBLANK($P2),ISBLANK($Q2)),
+    #     FALSE,
+    #     IF(OR(ISBLANK($A2),ISNUMBER(SEARCH(" ",$A2)),ISNUMBER(SEARCH("XX",$A2)),ISNUMBER(SEARCH("¬",$A2)),ISNUMBER(SEARCH("!",$A2)),ISNUMBER(SEARCH("""",$A2)),ISNUMBER(SEARCH("£",$A2)),ISNUMBER(SEARCH("$",$A2)),ISNUMBER(SEARCH("%",$A2)),ISNUMBER(SEARCH("^",$A2)),ISNUMBER(SEARCH("&",$A2)),ISNUMBER(SEARCH("(",$A2)),ISNUMBER(SEARCH(")",$A2)),ISNUMBER(SEARCH("+",$A2)),ISNUMBER(SEARCH("=",$A2)),ISNUMBER(SEARCH("{",$A2)),ISNUMBER(SEARCH("}",$A2)),ISNUMBER(SEARCH("[",$A2)),ISNUMBER(SEARCH("]",$A2)),ISNUMBER(SEARCH(":",$A2)),ISNUMBER(SEARCH(";",$A2)),ISNUMBER(SEARCH("@",$A2)),ISNUMBER(SEARCH("'",$A2)),ISNUMBER(SEARCH("#",$A2)),ISNUMBER(SEARCH("<",$A2)),ISNUMBER(SEARCH(">",$A2)),ISNUMBER(SEARCH(",",$A2)),ISNUMBER(SEARCH(".",$A2)),ISNUMBER(SEARCH("\",$A2)),ISNUMBER(SEARCH("/",$A2))),
+    #        TRUE,FALSE))
+    # i.e. valid if the rest of the row is blank
+    #      else invalid if it contains a space, XX or any of those symbols
+    is_blank_row = not bool(row.iloc[[1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 15, 16]].any())  # ignore 'O' which is row[14]
+    if not is_blank_row:
+        a = row[0] or ''
+        cell_ref = 'See sheet "%s" cell %s' % \
+            (sheet_name, cell_name(row.name, 0))
+        if 'XX' in a:
+            validation_errors.append('You cannot have "XX" in the "Post Unique Reference" column. %s' % cell_ref)
+        elif ' ' in a:
+            validation_errors.append('You cannot have spaces in the "Post Unique Reference" column. %s' % cell_ref)
+        elif re.search(r'[¬!\"£$%^&()+=\{\}\[\]:;@\'#<>,.\\/]', a):
+            validation_errors.append('You cannot have punctuation/symbols in the "Post Unique Reference" column. %s' % cell_ref)
+
+    # senior column B is invalid if:
+    # =NOT(
+    #   IF(ISBLANK($A2)
+    #      TRUE,
+    #      IF(OR($A2="0",$A2=0),
+    #         IF($B2="N/D",TRUE,FALSE),
+    #         IF(AND($P2>0,OR($B2="N/D",$B2="N/A")),
+    #            IF(AND($B2="N/D",OR($P2="N/D",$P2="N/A")),
+    #               TRUE,FALSE),
+    #            IF(ISBLANK($B2),FALSE,ISTEXT($B2))))))
+    a = row.iloc[0]
+    b = row.iloc[1]
+    p = row.iloc[column_index('P')]
+    def is_blank(value):
+        return value in (None, '')
+    # valid if A is blank (i.e. as if the row is empty)
+    if not is_blank(a):
+        cell_ref = 'See sheet "%s" cell %s' % \
+            (sheet_name, cell_name(row.name, 1))
+        # if A is "0" or 0 then B must be "N/D"
+        if a in ('0', 0):
+            if b != 'N/D':
+                validation_errors.append('Because the "Post Unique Reference" is "0" (individual is paid but not in post) the name must be "N/D". %s' % cell_ref)
+        else:
+            try:
+                p_is_greater_than_zero_or_a_string = int(p) > 0
+            except ValueError:
+                # i.e. p is a string
+                # =AND('N/D'>0, TRUE)  is TRUE
+                p_is_greater_than_zero_or_a_string = True
+            if p_is_greater_than_zero_or_a_string and b in ('N/D', 'N/A'):
+                # i.e. paid but the name is not disclosed
+                # not (b == 'N/D' and p in ('N/D', 'N/A'))  ===
+                # b != 'N/D' or p not in ('N/D', 'N/A')
+                if b != 'N/D':
+                    # i.e. b is N/A
+                    validation_errors.append(u'The "Name" cannot be "N/A" (unless "Total Pay (£)" is 0). %s' % cell_ref)  # unpaid people don't have to be disclosed?
+                elif p not in ('N/D', 'N/A'):
+                    # i.e. p is another string or a positive number (i.e. not 0 or N/D or N/A)
+                    validation_errors.append(u'The "Name" must be disclosed (cannot be "N/A" or "N/D") unless the "Total Pay (£)" is 0. %s' % cell_ref)  # ????
+            elif is_blank(b):
+                validation_errors.append(u'The "Name" cannot be blank. %s' % cell_ref)
+
+
+def in_sheet_validation_junior_columns(row, df, validation_errors, sheet_name):
+    # to do
+    pass
+
+
+def in_sheet_validation_row_colours(df, validation_errors, sheet_name):
     # Row validation indication
     validation_column = df.columns.get_loc('Valid?') # equivalent to S
     rows_marked_invalid = df[df['Valid?'] == 0]
