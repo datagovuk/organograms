@@ -459,7 +459,17 @@ def in_sheet_validation_senior_columns(row, df, validation_errors, sheet_name, r
     #            FALSE,
     #            IF(ISNA(MATCH($C2,listSeniorGrades,0)),
     #               FALSE,TRUE))))
-
+    def not_match(value, list_):
+        # Excel's MATCH is case insensitive and numbers are the same whether int or strings
+        # NB it also allows wildcards ?* and escape char ~ so it would be worth checking
+        # there are none of those
+        if value == '*' and list_.any():
+            return False
+        value_ = unicode(value).lower()
+        for item in list_:
+            if value_ == unicode(item).lower():
+                return False
+        return True
     c = row.iloc[column_index('C')]
     # valid if A is blank (i.e. as if the row is empty)
     if not is_blank(a):
@@ -470,7 +480,7 @@ def in_sheet_validation_senior_columns(row, df, validation_errors, sheet_name, r
             validation_errors.append(u'The "Grade (or equivalent)" cannot be blank. %s' % cell_ref)
         else:
             # invalid unless the value is in the listSeniorGrades
-            if c not in references['listSeniorGrades']:
+            if not_match(c, references['listSeniorGrades']):
                 validation_errors.append(u'The "Grade (or equivalent)" must be from the standard list: %s. %s' % (', '.join(['"%s"' % grade for grade in references['listSeniorGrades']]), cell_ref))
 
     # senior column D is invalid if:
@@ -545,7 +555,7 @@ def in_sheet_validation_senior_columns(row, df, validation_errors, sheet_name, r
     #         validation_errors.append(u'The "Parent Department" cannot be blank. %s' % cell_ref)
     #     else:
     #         # invalid unless the value is in core24
-    #         if c not in references['core24']:
+    #         if not_match(c, references['core24']):
     #             validation_errors.append(u'The "Parent Department" must be from the standard list: %s. %s' % (', '.join(['"%s"' % grade for grade in references['core24']]), cell_ref))
 
     # senior column G is invalid if:
@@ -590,7 +600,7 @@ def in_sheet_validation_senior_columns(row, df, validation_errors, sheet_name, r
                     validation_errors.append(u'The "Unit" can only be "N/A" if the "Post Unique Reference" is "0" (individual is paid but not in post). %s' % cell_ref)
                 else:
                     # invalid unless the value is in the list of units
-                    if h not in references['units']:
+                    if not_match(h, references['units']):
                         validation_errors.append(u'The "Unit" must be from the standard list: %s. %s' % (', '.join(['"%s"' % grade for grade in references['units']]), cell_ref))
 
     # senior column I is invalid if:
@@ -675,8 +685,31 @@ def in_sheet_validation_senior_columns(row, df, validation_errors, sheet_name, r
                                      '@' in j and '.' in j)):
                 validation_errors.append(u'The "Contact E-mail" must be a valid email address (containing "@" and "." characters) unless the "Name" is "Vacant" or "Eliminated", or the "Post Unique Reference" is "0" (the individual is paid but not in post). It cannot be blank. %s' % cell_ref)
 
-    # senior column J is invalid if:
-
+    # senior column K is invalid if:
+    # =NOT(IF(ISBLANK($A2),
+    #         TRUE,
+    #         IF(ISBLANK($K2),
+    #            FALSE,
+    #            IF($K2="XX",
+    #               TRUE,
+    #               IF(ISNA(MATCH($K2,seniorPostUniqueReference,0)),
+    #                  FALSE,TRUE)))))
+    # where: seniorPostUniqueReference is a formula:
+    #          ='(final data) senior-staff'!$A$2:$A$2000
+    k = row.iloc[column_index('K')]
+    # valid if A is blank (i.e. as if the row is empty)
+    if not is_blank(a):
+        cell_ref = 'See sheet "%s" cell %s' % \
+            (sheet_name, cell_name(row.name, column_index('K')))
+        # invalid if K is blank
+        if is_blank(k):
+            validation_errors.append(u'The "Reports to Senior Post" value must be supplied - it cannot be blank. %s' % cell_ref)
+        else:
+            if k != 'XX':  # what about lowercase?
+                seniorPostUniqueReference = df.ix[:, 0]
+                # invalid unless the value is in column A
+                if not_match(k, seniorPostUniqueReference):
+                    validation_errors.append(u'The "Reports to Senior Post" value must match one of the values in "Post Unique Reference" (column A) or be "XX" (which is a top level post - reports to no-one in this sheet). %s' % cell_ref)
 
 def in_sheet_validation_junior_columns(row, df, validation_errors, sheet_name):
     # to do

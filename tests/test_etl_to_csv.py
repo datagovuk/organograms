@@ -299,6 +299,32 @@ class TestInSheetValidationSeniorColumns():
         assert_equal(errors, [])
         # should really be an error like: u'Because the "Post Unique Reference" is "0" (individual is paid but not in post), the "Contact E-mail" must be "N/A". See sheet "sheet" cell J4'])
 
+    def test_k_is_blank(self):
+        errors = in_sheet_validate_senior_row_diff([('K', '')])
+        assert_equal(errors, [u'The "Reports to Senior Post" value must be supplied - it cannot be blank. See sheet "sheet" cell K4'])
+
+    def test_k_xx_correct(self):
+        errors = in_sheet_validate_senior_row_diff([('K', 'XX')])
+        assert_equal(errors, [])
+
+    def test_k_unknown(self):
+        errors = in_sheet_validate_senior_row_diff([('K', 'unknown')])
+        assert_equal(errors, [u'The "Reports to Senior Post" value must match one of the values in "Post Unique Reference" (column A) or be "XX" (which is a top level post - reports to no-one in this sheet). See sheet "sheet" cell K4'])
+
+    def test_k_known_correct(self):
+        errors = in_sheet_validate_senior_row_diff([('K', 'CEO')])
+        assert_equal(errors, [])
+
+    def test_k_known_but_wrong_case(self):
+        errors = in_sheet_validate_senior_row_diff([('K', 'ceo')])
+        assert_equal(errors, [])
+        # Should be an error!
+
+    def test_k_wildcard(self):
+        errors = in_sheet_validate_senior_row_diff([('K', '*')])
+        assert_equal(errors, [])
+        # Should be an error!
+
 def in_sheet_validate_senior_row_diff(row_updates, row_base=None):
     if row_base is None:
         row = senior_row()
