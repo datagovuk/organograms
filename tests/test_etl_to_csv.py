@@ -1,7 +1,7 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 import os.path
-from nose.tools import assert_equal, assert_raises
+from nose.tools import assert_equal, assert_raises, assert_in, assert_not_in
 import string
 
 import pandas as pd
@@ -9,6 +9,7 @@ import pandas as pd
 import etl_to_csv
 from etl_to_csv import (
     main, load_xls_and_get_errors, in_sheet_validation_senior_columns,
+    load_references,
     )
 
 assert_equal.im_class.maxDiff = None
@@ -56,18 +57,32 @@ class TestErrorMessages():
 
 SENIOR_COLUMN_HEADINGS = u'Post Unique Reference,Name,Grade (or equivalent),Job Title,Job/Team Function,Parent Department,Organisation,Unit,Contact Phone,Contact E-mail,Reports to Senior Post,Salary Cost of Reports (£),FTE,Actual Pay Floor (£),Actual Pay Ceiling (£),Total Pay (£),Professional/Occupational Group,Notes,Valid?'.split(',')
 
-def senior_row(updates):
+def senior_row():
     row = [
         'CEO', 'Bob Smith', 'SCS2', 'Chief Executive ',
         'Chief executive', 'Department for Culture Media and Sport',
         'Culture Agency', 'Culture Agency Unit', '0300 123 1234',
         'bob.smith@dau.org.uk', 'XX', '1000345', '1.00', '120000',
         '124999', 'N/A', None, None, None]
-    for col, value in updates:
-        col_index = string.ascii_uppercase.index(col.upper())
-        row[col_index] = value
     return row
 
+def senior_row_not_in_post():
+    row = [
+        0, 'N/D', 'SCS2', 'Not in post',
+        'N/A', 'Department for Culture Media and Sport',
+        'Culture Agency', 'N/A', 'N/A',
+        'N/A', 'XX', '1000345', '1.00', '120000',
+        '124999', 'N/A', None, None, None]
+    return row
+
+def senior_row_vacant():
+    row = [
+        'CEO', 'Vacant', 'SCS2', 'Chief Executive ',
+        'Chief executive', 'Department for Culture Media and Sport',
+        'Culture Agency', 'Culture Agency Unit', 'N/A',
+        'N/A', 'XX', '1000345', '1.00', '0',
+        '0', 'N/A', None, 'the post became vacant on dd/mm/yy', None]
+    return row
 
 class TestInSheetValidationSeniorColumns():
     # These tests should match the behaviour of the Excel sheet. Note any
@@ -102,14 +117,14 @@ class TestInSheetValidationSeniorColumns():
 
     def test_b_not_in_post_b_is_a_string(self):
         errors = in_sheet_validate_senior_row_diff([('A', '0'), ('B', 'Bob')])
-        assert_equal(errors, ['Because the "Post Unique Reference" is "0" (individual is paid but not in post) the name must be "N/D". See sheet "sheet" cell B4'])
+        assert_in('Because the "Post Unique Reference" is "0" (individual is paid but not in post) the name must be "N/D". See sheet "sheet" cell B4', errors)
 
     def test_b_not_in_post_b_is_blank(self):
         errors = in_sheet_validate_senior_row_diff([('A', '0'), ('B', '')])
-        assert_equal(errors, ['Because the "Post Unique Reference" is "0" (individual is paid but not in post) the name must be "N/D". See sheet "sheet" cell B4'])
+        assert_in('Because the "Post Unique Reference" is "0" (individual is paid but not in post) the name must be "N/D". See sheet "sheet" cell B4', errors)
 
     def test_b_not_in_post_correct(self):
-        errors = in_sheet_validate_senior_row_diff([('A', '0'), ('B', 'N/D')])
+        errors = in_sheet_validate_senior_row_diff([('A', 0), ('B', 'N/D')], row_base='not in post')
         assert_equal(errors, [])
 
     def test_b_is_n_a_and_pay_is_n_a(self):
@@ -160,16 +175,159 @@ class TestInSheetValidationSeniorColumns():
         errors = in_sheet_validate_senior_row_diff([('B', ''), ('P', 0)])
         assert_equal(errors, [u'The "Name" cannot be blank. See sheet "sheet" cell B4'])
 
+    def test_c_is_blank(self):
+        errors = in_sheet_validate_senior_row_diff([('C', '')])
+        assert_equal(errors, [u'The "Grade (or equivalent)" cannot be blank. See sheet "sheet" cell C4'])
 
-def in_sheet_validate_senior_row_diff(row_updates):
-    row = senior_row(row_updates)
+    def test_c_is_in_the_list(self):
+        errors = in_sheet_validate_senior_row_diff([('C', 'SCS1')])
+        assert_equal(errors, [])
+
+    def test_c_is_not_in_the_list(self):
+        errors = in_sheet_validate_senior_row_diff([('C', 'King')])
+        assert_equal(errors, [u'The "Grade (or equivalent)" must be from the standard list: "SCS4", "SCS3", "SCS2", "SCS1A", "SCS1", "OF-9", "OF-8", "OF-7", "OF-6". See sheet "sheet" cell C4'])
+
+    def test_d_is_blank(self):
+        errors = in_sheet_validate_senior_row_diff([('D', '')])
+        assert_equal(errors, [u'The "Job Title" cannot be blank. See sheet "sheet" cell D4'])
+
+    def test_d_is_not_in_post_correct(self):
+        errors = in_sheet_validate_senior_row_diff([('D', 'Not in post'), ('A', 0)], row_base='not in post')
+        assert_equal(errors, [])
+
+    def test_d_is_not_in_post_but_id_isnt_0(self):
+        errors = in_sheet_validate_senior_row_diff([('D', 'Not in post'), ('A', 'CEO')])
+        assert_in(u'The "Job Title" can only be "Not in post" if the "Post Unique Reference" is "0" (individual is paid but not in post). See sheet "sheet" cell D4', errors)
+
+    def test_d_is_in_post_but_id_is_0(self):
+        errors = in_sheet_validate_senior_row_diff([('D', 'Director'), ('A', 0)])
+        assert_in(u'Because the "Post Unique Reference" is "0" (individual is paid but not in post), the "Job Title" must be "Not in post". See sheet "sheet" cell D4', errors)
+
+    def test_d_is_in_post_but_id_is_string_0(self):
+        errors = in_sheet_validate_senior_row_diff([('D', 'Director'), ('A', '0')])
+        assert_in(u'Because the "Post Unique Reference" is "0" (individual is paid but not in post), the "Job Title" must be "Not in post". See sheet "sheet" cell D4', errors)
+
+    def test_e_is_blank(self):
+        errors = in_sheet_validate_senior_row_diff([('E', '')])
+        assert_equal(errors, [u'The "Job/Team Function" cannot be blank. See sheet "sheet" cell E4'])
+
+    def test_e_is_not_in_post_but_id_isnt_0(self):
+        errors = in_sheet_validate_senior_row_diff([('E', 'N/A'), ('A', 'CEO')])
+        assert_in(u'The "Job/Team Function" can only be "N/A" if the "Post Unique Reference" is "0" (individual is paid but not in post). See sheet "sheet" cell E4', errors)
+
+    def test_e_is_in_post_but_id_is_0(self):
+        errors = in_sheet_validate_senior_row_diff([('E', 'Director'), ('A', 0)])
+        assert_in(u'Because the "Post Unique Reference" is "0" (individual is paid but not in post), the "Job/Team Function" must be "N/A". See sheet "sheet" cell E4', errors)
+
+    def test_e_is_in_post_but_id_is_string_0(self):
+        errors = in_sheet_validate_senior_row_diff([('E', 'Director'), ('A', '0')])
+        # this should work the same as the int 0 - it is a failing of the spreadsheet
+        assert_not_in(u'Job/Team Function', '\n'.join(errors))
+
+    def test_g_is_blank(self):
+        errors = in_sheet_validate_senior_row_diff([('G', '')])
+        assert_equal(errors, [u'The "Organisation" must be disclosed - it cannot be blank or "N/D". See sheet "sheet" cell G4'])
+
+    def test_g_is_nd(self):
+        errors = in_sheet_validate_senior_row_diff([('G', 'N/D')])
+        assert_equal(errors, [u'The "Organisation" must be disclosed - it cannot be blank or "N/D". See sheet "sheet" cell G4'])
+
+    def test_h_is_blank(self):
+        errors = in_sheet_validate_senior_row_diff([('H', '')])
+        assert_equal(errors, [u'The "Unit" must be disclosed - it cannot be blank or "N/D". See sheet "sheet" cell H4'])
+
+    def test_h_is_in_post_but_id_is_0(self):
+        errors = in_sheet_validate_senior_row_diff([('H', 'Culture Agency Unit'), ('A', 0)])
+        assert_in(u'Because the "Post Unique Reference" is "0" (individual is paid but not in post), the "Unit" must be "N/A". See sheet "sheet" cell H4', errors)
+
+    def test_h_is_in_post_but_id_is_string_0(self):
+        errors = in_sheet_validate_senior_row_diff([('H', 'Culture Agency Unit'), ('A', '0')])
+        # this should work the same as the int 0 - it is a failing of the spreadsheet
+        assert_not_in(u'Unit', '\n'.join(errors))
+
+    def test_h_is_not_in_post_correct(self):
+        errors = in_sheet_validate_senior_row_diff([('H', 'N/A'), ('A', 0)], row_base='not in post')
+        assert_equal(errors, [])
+
+    def test_i_is_blank(self):
+        errors = in_sheet_validate_senior_row_diff([('I', '')])
+        assert_equal(errors, [u'The "Contact Phone" must be supplied - it cannot be blank. See sheet "sheet" cell I4'])
+
+    def test_i_is_not_in_post_correct(self):
+        errors = in_sheet_validate_senior_row_diff([('I', 'N/A'), ('A', 0)], row_base='not in post')
+        assert_equal(errors, [])
+
+    def test_i_is_in_post_but_id_is_0(self):
+        errors = in_sheet_validate_senior_row_diff([('I', 'Bob'), ('A', 0)], row_base='not in post')
+        assert_equal(errors, [u'Because the "Post Unique Reference" is "0" (individual is paid but not in post), the "Contact Phone" must be "N/A". See sheet "sheet" cell I4'])
+
+    def test_i_vacant_correct(self):
+        errors = in_sheet_validate_senior_row_diff([('I', 'N/A'), ('A', 'Vacant')], row_base='vacant')
+        assert_equal(errors, [])
+
+    def test_i_given_but_name_is_vacant(self):
+        errors = in_sheet_validate_senior_row_diff([('I', '012345'), ('B', 'Vacant')], row_base='vacant')
+        assert_equal(errors, [u'Because the "Name" is Vacant" or "Eliminated", the "Contact Phone" must be "N/A". See sheet "sheet" cell I4'])
+
+    def test_i_given_but_id_is_0(self):
+        errors = in_sheet_validate_senior_row_diff([('I', '012345')], row_base='not in post')
+        assert_equal(errors, [u'Because the "Post Unique Reference" is "0" (individual is paid but not in post), the "Contact Phone" must be "N/A". See sheet "sheet" cell I4'])
+
+    def test_i_na_but_id_is_normal(self):
+        errors = in_sheet_validate_senior_row_diff([('I', 'N/A')])
+        assert_equal(errors, [u'The "Contact Phone" can only be "N/A" if the "Post Unique Reference" is "0" (individual is paid but not in post) or the "Name" is "Vacant". See sheet "sheet" cell I4'])
+
+    def test_j_is_blank(self):
+        errors = in_sheet_validate_senior_row_diff([('J', '')])
+        assert_equal(errors, [u'The "Contact E-mail" must be supplied - it cannot be blank. See sheet "sheet" cell J4'])
+
+    def test_j_vacant_correct(self):
+        errors = in_sheet_validate_senior_row_diff([('J', 'N/A')], row_base='vacant')
+        assert_equal(errors, [])
+
+    def test_j_na_but_in_post(self):
+        errors = in_sheet_validate_senior_row_diff([('J', 'N/A')])
+        assert_equal(errors, [u'The "Contact E-mail" can only be "N/A" if the "Post Unique Reference" is "0" (individual is paid but not in post). See sheet "sheet" cell J4'])
+
+    def test_j_given_but_name_is_vacant(self):
+        errors = in_sheet_validate_senior_row_diff([('J', 'a@b.com')], row_base='vacant')
+        assert_equal(errors, [])
+        # should really be an error like: u'Because the "Post Unique Reference" is "0" (individual is paid but not in post), the "Contact E-mail" must be "N/A". See sheet "sheet" cell J4'])
+
+    def test_j_given_but_id_is_0(self):
+        errors = in_sheet_validate_senior_row_diff([('J', 'a@b.com')], row_base='not in post')
+        assert_equal(errors, [])
+        # should really be an error like: u'Because the "Post Unique Reference" is "0" (individual is paid but not in post), the "Contact E-mail" must be "N/A". See sheet "sheet" cell J4'])
+
+def in_sheet_validate_senior_row_diff(row_updates, row_base=None):
+    if row_base is None:
+        row = senior_row()
+    elif row_base == 'not in post':
+        row = senior_row_not_in_post()
+    elif row_base == 'vacant':
+        row = senior_row_vacant()
+    else:
+        raise NotImplementedError()
+
+    for col, value in row_updates:
+        col_index = string.ascii_uppercase.index(col.upper())
+        row[col_index] = value
     return in_sheet_validate_senior_row(row)
+
+references = None
 
 def in_sheet_validate_senior_row(row):
     df = pd.DataFrame([[''] * 19] + [[''] * 19] + [row],
                       columns=SENIOR_COLUMN_HEADINGS)
     errors = []
-    in_sheet_validation_senior_columns(df.loc[2], df, errors, 'sheet')
+    validation_errors = []
+    global references
+    if references is None:
+        references = load_references(TEST_XLS_DIR + '/sample-valid.xls',
+                                     errors, validation_errors)
+    assert not errors
+    assert not validation_errors
+    in_sheet_validation_senior_columns(df.loc[2], df, errors, 'sheet', references)
     return errors
 
 class MockArgs(object):
