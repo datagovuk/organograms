@@ -208,7 +208,7 @@ def diff_lists(a, b):
     if plus:
         output.append('+ %s' % ' '.join('"%s"' % p for p in plus))
     if minus:
-        output.append('- %s' % ' '.join('"%s"' % p for p in plus))
+        output.append('- %s' % ' '.join('"%s"' % m for m in minus))
     return '; '.join(output)
 
 
@@ -216,13 +216,15 @@ def get_references(xls_filename, errors, validation_errors, warnings):
     references = load_references(xls_filename, errors, validation_errors)
     standard_refs = standard_references()
     if 'listSeniorGrades' in references:
-        diff = diff_lists(references['listSeniorGrades'],
-                          standard_refs['listSeniorGrades'])
+        diff = diff_lists(standard_refs['listSeniorGrades'],
+                          references['listSeniorGrades']
+                          )
         if diff:
             warnings.append('Mismatch of the senior grades: %s' % diff)
     if 'professions' in references:
-        diff = diff_lists(references['professions'],
-                          standard_refs['professions'])
+        diff = diff_lists(standard_refs['professions'],
+                          references['professions']
+                          )
         if diff:
             warnings.append('Mismatch of the professions: %s' % diff)
     references.update(standard_refs)
