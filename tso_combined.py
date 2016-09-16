@@ -87,7 +87,7 @@ def combine():
             out_row['junior_posts_xls']=post_count['junior_posts_uploads']
 
         if args.check:
-            errors, will_display = check(xls_filepath)
+            errors, warnings, will_display = check(xls_filepath)
 
         out_row.update(dict(
             body_title=post_count['body_title'],
@@ -97,6 +97,7 @@ def combine():
             upload_date=upload['upload_date'] if upload else None,
             publish_date=upload['action_datetime'] if upload else None,
             errors=errors if args.check else 'not checked',
+            warnings=warnings if args.check else 'not checked',
             will_display=will_display if args.check else 'not checked',
             senior_posts_triplestore=post_count['senior_posts_triplestore'],
             junior_posts_triplestore=post_count['junior_posts_triplestore'],
@@ -117,7 +118,7 @@ def combine():
         'xls_path', 'original_xls_filepath',
         'source',
         'upload_date', 'publish_date',
-        'errors', 'will_display',
+        'errors', 'warnings', 'will_display',
         'senior_posts_triplestore', 'senior_posts_xls', 'senior_diff',
         'junior_posts_triplestore', 'junior_posts_xls', 'junior_diff',
         ]
@@ -134,7 +135,7 @@ def combine():
 
 def check(xls_filename):
     try:
-        senior, junior, errors, will_display = \
+        senior, junior, errors, warnings, will_display = \
             load_xls_and_get_errors(xls_filename)
     except Exception:
         print 'XLS VALIDATION EXCEPTION', xls_filename
@@ -143,10 +144,12 @@ def check(xls_filename):
     print '%s errors' % len(errors)
     if errors:
         for i, error in enumerate(errors):
-            print 'Error %s of %s: %s' % (i, len(errors), errors[i])
+            print 'Error %s of %s: %s' % (i + 1, len(errors), errors[i])
+    if warnings:
+        print 'Warnings: %r' % warnings
     if not will_display:
         print 'WILL NOT DISPLAY'
-    return '; '.join(errors), will_display
+    return '; '.join(errors), '; '.join(warnings), will_display
 
 
 def can_we_use_the_upload_spreadsheet(body_title, graph):

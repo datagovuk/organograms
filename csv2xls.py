@@ -67,6 +67,7 @@ def csv2xls(senior_or_junior_csv_filepath):
 
     workbook = xlwt.Workbook()
     row_counts = {}
+    units = set()
     for level, csv_filepath in csv_filepaths.items():
         # Read CSV
         with open(csv_filepath, 'rb') as csv_read_file:
@@ -100,6 +101,15 @@ def csv2xls(senior_or_junior_csv_filepath):
             for c, value in enumerate(row):
                 sheet.write(r, c, value)
         row_counts[level] = row_count
+
+        for row in csv_rows:
+            units.add(row[csv_headers.index('Unit')])
+
+    sheet = workbook.add_sheet('(reference) units')
+    sheet.write(0, 0, 'Units')
+    for r, unit in enumerate(units):
+        sheet.write(r + 1, 0, unit)
+
     workbook.save(xls_filepath)
     print 'Written %s' % xls_filepath
     conversion = dict(

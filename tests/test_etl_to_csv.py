@@ -45,12 +45,12 @@ class TestMain():
 
 class TestErrorMessages():
     def test_sample_senior_invalid(self):
-        senior, junior, errors, will_display = load_xls_and_get_errors(
+        senior, junior, errors, warnings, will_display = load_xls_and_get_errors(
             TEST_XLS_DIR + '/sample-invalid-senior.xls')
         assert_equal(['Sheet "(final data) senior-staff" has 1 invalid row. The problem is on row 4, as indicated by the red colour in cell S4.'], errors)
 
     def test_sample_junior_invalid(self):
-        senior, junior, errors, will_display = load_xls_and_get_errors(
+        senior, junior, errors, warnings, will_display = load_xls_and_get_errors(
             TEST_XLS_DIR + '/sample-invalid-junior.xls')
         assert_equal(['Sheet "(final data) junior-staff" has 1 invalid row. The problem is on row 12, as indicated by the red colour in cell K12.'], errors)
 

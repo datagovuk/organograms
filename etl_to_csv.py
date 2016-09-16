@@ -22,6 +22,7 @@ import re
 import argparse
 import string
 
+log = __import__('logging').getLogger(__name__)
 
 args = None
 
@@ -198,7 +199,40 @@ def load_junior(excel_filename, errors, validation_errors, references):
     df.drop('Valid?', axis=1, inplace=True)
     return df
 
+def diff_lists(a, b):
+    a_ = set(a)
+    b_ = set(b)
+    plus = b_ - a_
+    minus = a_ - b_
+    output = []
+    if plus:
+        output.append('+ %s' % ' '.join('"%s"' % p for p in plus))
+    if minus:
+        output.append('- %s' % ' '.join('"%s"' % p for p in plus))
+    return '; '.join(output)
 
+
+def get_references(xls_filename, errors, validation_errors, warnings):
+    references = load_references(xls_filename, errors, validation_errors)
+    standard_refs = standard_references()
+    if 'listSeniorGrades' in references:
+        diff = diff_lists(references['listSeniorGrades'],
+                          standard_refs['listSeniorGrades'])
+        if diff:
+            warnings.append('Mismatch of the senior grades: %s' % diff)
+    if 'professions' in references:
+        diff = diff_lists(references['professions'],
+                          standard_refs['professions'])
+        if diff:
+            warnings.append('Mismatch of the professions: %s' % diff)
+    references.update(standard_refs)
+
+def standard_references():
+    # references in the sheets may be out of date - we could better validate with these latest ones
+    references = {}
+    references['listSeniorGrades'] = [u'SCS4', u'SCS3', u'SCS2', u'SCS1A', u'SCS1', u'OF-9', u'OF-8', u'OF-7', u'OF-6']
+    references['professions'] = [u'Communications', u'Economics', u'Finance', u'Human Resources', u'Information Technology', u'Internal Audit', u'Knowledge and Information Management (KIM)', u'Law', u'Medicine', u'Military', u'Operational Delivery', u'Operational Research', u'Other', u'Planning', u'Policy', u'Procurement', u'Programme and Project Management (PPM)', u'Property and asset management', u'Psychology', u'Science and Engineering', u'Social Research', u'Statisticians', u'Tax Professionals', u'Vets']
+    return references
 
 def load_references(xls_filename, errors, validation_errors):
     # Output columns can be different. Update according to the rename_columns dict:
@@ -206,19 +240,37 @@ def load_references(xls_filename, errors, validation_errors):
         dfs = pandas.read_excel(xls_filename,
                                 [#'core-24-depts',
                                  '(reference) senior-staff-grades',
-                                 '(reference) units+NA',
                                  '(reference) professions',
+                                 '(reference) units',
                                  ])
     except XLRDError, e:
-        errors.append(str(e))
-        return {}
+        if str(e) == "No sheet named <'(reference) units'>":
+            validation_errors.append(str(e))
+            return {}
+        elif str(e) in ("No sheet named <'(reference) senior-staff-grades'>",
+                      "No sheet named <'(reference) professions'>"):
+            # this doesn't matter - we will use the standard_references
+            # anyway. Read it again, just for the units.
+            try:
+                dfs = pandas.read_excel(xls_filename, ['(reference) units'])
+            except XLRDError, e:
+                if str(e) == "No sheet named <'(reference) units'>":
+                    validation_errors.append(str(e))
+                else:
+                    errors.append(str(e))
+                return {}
+        else:
+            errors.append(str(e))
+            return {}
     references = {}
-    references['listSeniorGrades'] = \
-        dfs['(reference) senior-staff-grades'].iloc[:, 0].tolist()
-    references['professions'] = \
-        dfs['(reference) professions'].iloc[:, 0].tolist()
+    if '(reference) senior-staff-grades' in dfs:
+        references['listSeniorGrades'] = \
+            dfs['(reference) senior-staff-grades'].iloc[:, 0].tolist()
+    if '(reference) professions' in dfs:
+        references['professions'] = \
+            dfs['(reference) professions'].iloc[:, 0].tolist()
     references['units'] = \
-        dfs['(reference) units+NA'].iloc[:, 0].tolist()
+        dfs['(reference) units'].iloc[:, 0].tolist()
     return references
 
 
@@ -375,18 +427,32 @@ def in_sheet_validation(df, validation_errors, sheet_name, junior_or_senior, ref
 
     cell_errors = []
     if junior_or_senior == 'senior':
-        for row in df.iterrows():
-            in_sheet_validation_senior_columns(row, df, cell_errors, sheet_name, references)
+        for index, row in df.iterrows():
+            try:
+                in_sheet_validation_senior_columns(row, df, cell_errors, sheet_name, references)
+            except Exception:
+                log.exception('Exception during senior in-sheet validation, row %s' % row.name)
     else:
-        for row in df.iterrows():
-            in_sheet_validation_junior_columns(row, df, cell_errors, sheet_name, references)
+        for index, row in df.iterrows():
+            try:
+                in_sheet_validation_junior_columns(row, df, cell_errors, sheet_name, references)
+            except Exception:
+                log.exception('Exception during junior in-sheet validation, row %s' % row.name)
 
     if cell_errors and not row_errors:
         log.error('Errors found by ETL were not picked up by spreadsheet: %r',
                   cell_errors)
+        # trust the row_errors (for now) so discard the cell_errors which
+        # disagree
+        validation_errors = row_errors
     elif row_errors and not cell_errors:
         log.error('Errors found by spreadsheet were not picked up by ETL: %r',
                   row_errors)
+        validation_errors = row_errors
+    else:
+        # assume the row_errors are all covered (in more detail) by the
+        # cell_errors
+        validation_errors = cell_errors
 
 def in_sheet_validation_senior_columns(row, df, validation_errors, sheet_name, references):
     # senior column A is invalid if:
@@ -778,28 +844,29 @@ def get_verify_level(graph):
 def load_xls_and_get_errors(xls_filename):
     '''
     Used by tso_combined.py
-    Returns: (senior, junior, errors, will_display)
+    Returns: (senior, junior, errors, warnings, will_display)
     '''
     errors = []
     validation_errors = []
-    references = load_references(xls_filename, errors, validation_errors)
+    warnings = []
+    references = get_references(xls_filename, errors, validation_errors, warnings)
     senior = load_senior(xls_filename, errors, validation_errors, references)
     junior = load_junior(xls_filename, errors, validation_errors, references)
 
     if errors:
-        return None, None, errors + validation_errors, False
+        return None, None, errors + validation_errors, warnings, False
 
     errors = validation_errors
     try:
         verify_graph(senior, junior, errors)
     except ValidationFatalError, e:
         # display error - organogram is not displayable
-        return None, None, [unicode(e)], False
+        return None, None, [unicode(e)], warnings, False
 
     # If we get this far then it will display, although there might be problems
     # with some posts
     errors = dedupe_list(errors)
-    return senior, junior, errors, True
+    return senior, junior, errors, warnings, True
 
 
 def print_error(error_msg):
@@ -814,8 +881,10 @@ def load_xls_and_print_errors(xls_filename, verify_level):
     '''
     load_errors = []
     validation_errors = []
-    senior = load_senior(xls_filename, load_errors, validation_errors)
-    junior = load_junior(xls_filename, load_errors, validation_errors)
+    warnings = []
+    references = get_references(xls_filename, load_errors, validation_errors, warnings)
+    senior = load_senior(xls_filename, load_errors, validation_errors, references)
+    junior = load_junior(xls_filename, load_errors, validation_errors, references)
 
     if load_errors:
         print 'Critical error(s):'

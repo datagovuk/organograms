@@ -25,16 +25,6 @@ one_month = one_day * 30
 requests_cache.install_cache('.dgu_departments.cache', expire_after=one_month)
 
 
-department_corrections = {
-    '/data/dft/2015-09-30/300915-MCA-Organogram-ver-1.xls':
-    'Maritime and Coastguard Agency'
-    }
-version_corrections = {
-    '/data/nmsi/2015-03-31/300915-SMG-Organogram-Data-v1.xls':
-    '30/09/2015'
-}
-
-
 class DguOrgs(object):
     _instance = None
     pickle_filename = '.dgu_departments_pickle.cache'
@@ -425,12 +415,6 @@ def tidy_uploads():
         for row in csv_reader:
             if row['org_name'] == 'Ministry of Defence':
                 mod_subpublisher(row)
-
-            # Corrections
-            if row['xls_path'] in department_corrections:
-                row['org_name'] = department_corrections[row['xls_path']]
-            if row['xls_path'] in version_corrections:
-                row['version'] = version_corrections[row['xls_path']]
 
             title = canonize(row['org_name'])
 
