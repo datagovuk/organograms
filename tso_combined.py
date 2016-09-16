@@ -23,12 +23,17 @@ def combine():
     with open(in_filename, 'rb') as csv_read_file:
         csv_reader = unicodecsv.DictReader(csv_read_file, encoding='utf8')
 
-        uploads = dict(
+        published_uploads = dict(
             ((date_to_year_first(row['version']), row['org_name']), row)
             for row in csv_reader
             if row['state'] == 'published'
             and row['org_name'] not in MOD_AGGREGATED_SUBPUBS)
         # mod get added from triplestore
+
+    with open(in_filename, 'rb') as csv_read_file:
+        csv_reader = unicodecsv.DictReader(csv_read_file, encoding='utf8')
+
+        uploads = [row for row in csv_reader]
 
     in_filename = 'compare_post_counts.csv'
     with open(in_filename, 'rb') as csv_read_file:
@@ -50,6 +55,11 @@ def combine():
         if args.body and post_count['body_title'] != args.body:
             continue
         print '\n' + post_count['body_title'], post_count['graph']
+
+        # HACK - dunno where this data came from as there is no XLS upload
+        if post_count['body_title'] == 'The National Museum of the Royal Navy'\
+            and post_count['graph'] == '2016-03-31':
+            continue
 
         senior_posts_triplestore = int(post_count['senior_posts_triplestore'] or 0)
         senior_posts_uploads = int(post_count['senior_posts_uploads'] or 0)
@@ -73,10 +83,12 @@ def combine():
             print 'Upload'
             out_row['source'] = 'upload'
             try:
-                upload = uploads[(post_count['graph'], post_count['body_title'])]
+                upload = published_uploads[
+                    (post_count['graph'], post_count['body_title'])]
             except KeyError:
                 traceback.print_exc()
                 import pdb; pdb.set_trace()
+            uploads.remove(upload)  # we'll output it later
             if not upload['state'] == 'published':
                 print 'Not published'
                 import pdb; pdb.set_trace()
@@ -96,6 +108,7 @@ def combine():
             original_xls_filepath=original_xls_filepath if upload else None,
             upload_date=upload['upload_date'] if upload else None,
             publish_date=upload['action_datetime'] if upload else None,
+            state='published',
             errors=errors if args.check else 'not checked',
             warnings=warnings if args.check else 'not checked',
             will_display=will_display if args.check else 'not checked',
@@ -109,6 +122,26 @@ def combine():
             out_row['%s_diff' % j_or_s] = diff if diff > 0 else None
         out_rows.append(out_row)
 
+    # output the remainder of the files
+    for upload in uploads:
+        if upload['state'] == 'published':
+            # i.e. ones we chose to use the triplestore version instead
+            upload['state'] = 'signed off'
+        out_rows.append(dict(
+            body_title=upload['org_name'],
+            graph=date_to_year_first(upload['version']),
+            xls_path='data/dgu/xls/' + upload['xls-filename'],
+            original_xls_filepath=upload['xls_path'],
+            upload_date=upload['upload_date'],
+            publish_date=upload['action_datetime'],
+            state=upload['state'],
+            errors='not checked',
+            warnings='not checked',
+            will_display='not checked',
+            senior_posts_triplestore='n/a',
+            junior_posts_triplestore='n/a',
+            ))
+
     # save
     if args.graph or args.body:
         print 'Not writing output CSV as you specified only part of the data'
@@ -117,7 +150,7 @@ def combine():
         'body_title', 'graph',
         'xls_path', 'original_xls_filepath',
         'source',
-        'upload_date', 'publish_date',
+        'upload_date', 'publish_date', 'state',
         'errors', 'warnings', 'will_display',
         'senior_posts_triplestore', 'senior_posts_xls', 'senior_diff',
         'junior_posts_triplestore', 'junior_posts_xls', 'junior_diff',
