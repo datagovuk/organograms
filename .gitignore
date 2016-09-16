@@ -10,6 +10,7 @@ data/csv-generated
 data/pawel-examples
 data/tom-csv
 uploads_report_with_private.csv
+apikeys.cfg
 
 #vim
 *.sw?
