@@ -33,7 +33,9 @@ def combine():
     with open(in_filename, 'rb') as csv_read_file:
         csv_reader = unicodecsv.DictReader(csv_read_file, encoding='utf8')
 
-        uploads = [row for row in csv_reader]
+        uploads = dict(
+            ((date_to_year_first(row['version']), row['org_name']), row)
+            for row in csv_reader)
 
     in_filename = 'compare_post_counts.csv'
     with open(in_filename, 'rb') as csv_read_file:
@@ -88,7 +90,6 @@ def combine():
             except KeyError:
                 traceback.print_exc()
                 import pdb; pdb.set_trace()
-            uploads.remove(upload)  # we'll output it later
             if not upload['state'] == 'published':
                 print 'Not published'
                 import pdb; pdb.set_trace()
@@ -97,6 +98,10 @@ def combine():
             original_xls_filepath = upload['xls_path']
             out_row['senior_posts_xls']=post_count['senior_posts_uploads']
             out_row['junior_posts_xls']=post_count['junior_posts_uploads']
+
+        key = (post_count['graph'], post_count['body_title'])
+        if key in uploads:
+            del uploads[key]  # we'll output it later
 
         if args.check:
             errors, warnings, will_display = check(xls_filepath)
@@ -123,7 +128,7 @@ def combine():
         out_rows.append(out_row)
 
     # output the remainder of the files
-    for upload in uploads:
+    for upload in uploads.itervalues():
         if upload['state'] == 'published':
             # i.e. ones we chose to use the triplestore version instead
             upload['state'] = 'signed off'
