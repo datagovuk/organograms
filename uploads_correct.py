@@ -27,6 +27,7 @@ ignore_duplicates = (
     '/data/bl/2015-09-30/British-Library-Staff-and-Salary-Data---September-2015.xls',
  # another version comes a day later, so ignore this one
     '/data/chre/2011-09-30/111128-staff-organogram-spreadsheet.xls', # another version comes a few minutes later, so ignore this one
+    '/data/dft/2015-09-30/300915-MCA-Organogram-ver-1.xls', # file is corrupt
     )
 department_corrections = {
     '/data/dft/2015-09-30/300915-MCA-Organogram-ver-1.xls':'Maritime and Coastguard Agency',
