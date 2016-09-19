@@ -21,6 +21,7 @@ import csv
 import re
 import argparse
 import string
+import logging
 
 log = __import__('logging').getLogger(__name__)
 
@@ -47,11 +48,11 @@ def load_excel_store_errors(filename, sheet_name, errors, validation_errors, inp
                                parse_cols=len(input_columns)-1,
                                converters=string_converters)
     except XLRDError, e:
-        errors.append( str(e) )
+        errors.append(str(e))
         return pandas.DataFrame(columns=output_columns)
     # Verify number of columns
     if len(df.columns)!=len(input_columns):
-        errors.append("Sheet '%s' contains %d columns. I expect at least %d columns."%(sheet_name,len(df.columns),len(input_columns)))
+        errors.append("Sheet '%s' contains %d columns. I expect at least %d columns." % (sheet_name, len(df.columns), len(input_columns)))
         return pandas.DataFrame(columns=output_columns)
     # Blank out columns
     for column_name in blank_columns:
@@ -228,6 +229,7 @@ def get_references(xls_filename, errors, validation_errors, warnings):
         if diff:
             warnings.append('Mismatch of the professions: %s' % diff)
     references.update(standard_refs)
+    return references
 
 def standard_references():
     # references in the sheets may be out of date - we could better validate with these latest ones
@@ -446,15 +448,15 @@ def in_sheet_validation(df, validation_errors, sheet_name, junior_or_senior, ref
                   cell_errors)
         # trust the row_errors (for now) so discard the cell_errors which
         # disagree
-        validation_errors = row_errors
+        validation_errors.extend(row_errors)
     elif row_errors and not cell_errors:
         log.error('Errors found by spreadsheet were not picked up by ETL: %r',
                   row_errors)
-        validation_errors = row_errors
+        validation_errors.extend(row_errors)
     else:
         # assume the row_errors are all covered (in more detail) by the
         # cell_errors
-        validation_errors = cell_errors
+        validation_errors.extend(cell_errors)
 
 def in_sheet_validation_senior_columns(row, df, validation_errors, sheet_name, references):
     # senior column A is invalid if:
@@ -779,7 +781,7 @@ def in_sheet_validation_senior_columns(row, df, validation_errors, sheet_name, r
                 if not_match(k, seniorPostUniqueReference):
                     validation_errors.append(u'The "Reports to Senior Post" value must match one of the values in "Post Unique Reference" (column A) or be "XX" (which is a top level post - reports to no-one in this sheet). %s' % cell_ref)
 
-def in_sheet_validation_junior_columns(row, df, validation_errors, sheet_name):
+def in_sheet_validation_junior_columns(row, df, validation_errors, sheet_name, references):
     # to do
     pass
 
@@ -988,9 +990,12 @@ if __name__ == '__main__':
                              'filename (for manual tests only!)')
     parser.add_argument('input_xls_filepath')
     parser.add_argument('output_folder')
+    parser.add_argument('--verbose', '-v', action='store_true')
     args = parser.parse_args()
     if not os.path.isdir(args.output_folder):
         parser.error("Error: Not a directory: %s" % args.output_folder)
     if not os.path.exists(args.input_xls_filepath):
         parser.error("Error: File not found: %s" % args.input_xls_filepath)
+    if args.verbose:
+        logging.basicConfig()
     main(args.input_xls_filepath, args.output_folder)
