@@ -98,6 +98,11 @@ class TestInSheetValidationSeniorColumns():
         errors = in_sheet_validate_senior_row_diff([('A', 'RP$FD')])
         assert_equal(errors, ['You cannot have punctuation/symbols in the "Post Unique Reference" column. See sheet "sheet" cell A4'])
 
+    def test_a_dash(self):
+        # dash is the only symbol allowed
+        errors = in_sheet_validate_senior_row_diff([('A', 'R1-FD')])
+        assert_equal(errors, [])
+
     def test_a_xx(self):
         errors = in_sheet_validate_senior_row_diff([('A', 'AXXB')])
         assert_equal(errors, ['You cannot have "XX" in the "Post Unique Reference" column. See sheet "sheet" cell A4'])
@@ -107,7 +112,8 @@ class TestInSheetValidationSeniorColumns():
         assert_equal(errors, ['You cannot have spaces in the "Post Unique Reference" column. See sheet "sheet" cell A4'])
 
     def test_a_blank(self):
-        # blank value shouldn't be allowed but it is!
+        # blank value shouldn't be allowed but it is! (if there are other
+        # values on the row)
         errors = in_sheet_validate_senior_row_diff([('A', None)])
         assert_equal(errors, [])
 
@@ -131,6 +137,10 @@ class TestInSheetValidationSeniorColumns():
         errors = in_sheet_validate_senior_row_diff([('B', 'N/A'), ('P', 'N/A')])
         assert_equal(errors, [u'The "Name" cannot be "N/A" (unless "Total Pay (\xa3)" is 0). See sheet "sheet" cell B4'])
 
+    def test_b_is_n_a_and_pay_is_n_d(self):
+        errors = in_sheet_validate_senior_row_diff([('B', 'N/A'), ('P', 'N/D')])
+        assert_equal(errors, [u'The "Name" cannot be "N/A" (unless "Total Pay (\xa3)" is 0). See sheet "sheet" cell B4'])
+
     def test_b_is_n_a_and_pay_is_a_string(self):
         errors = in_sheet_validate_senior_row_diff([('B', 'N/A'), ('P', 'fff')])
         assert_equal(errors, [u'The "Name" cannot be "N/A" (unless "Total Pay (\xa3)" is 0). See sheet "sheet" cell B4'])
@@ -147,13 +157,17 @@ class TestInSheetValidationSeniorColumns():
         errors = in_sheet_validate_senior_row_diff([('B', 'N/D'), ('P', 'N/A')])
         assert_equal(errors, [])
 
+    def test_b_is_n_d_and_pay_is_n_d(self):
+        errors = in_sheet_validate_senior_row_diff([('B', 'N/D'), ('P', 'N/D')])
+        assert_equal(errors, [])
+
     def test_b_is_n_d_and_pay_is_a_string(self):
         errors = in_sheet_validate_senior_row_diff([('B', 'N/D'), ('P', 'fff')])
-        assert_equal(errors, [u'The "Name" must be disclosed (cannot be "N/A" or "N/D") unless the "Total Pay (\xa3)" is 0. See sheet "sheet" cell B4'])
+        assert_equal(errors, [u'The "Name" cannot be "N/D" unless the "Total Pay (\xa3)" is 0 or N/A or N/D. i.e. Someone whose pay must be disclosed must also have their name disclosed (unless they are unpaid). See sheet "sheet" cell B4'])
 
     def test_b_is_n_d_and_pay_is_1(self):
         errors = in_sheet_validate_senior_row_diff([('B', 'N/D'), ('P', 1)])
-        assert_equal(errors, [u'The "Name" must be disclosed (cannot be "N/A" or "N/D") unless the "Total Pay (\xa3)" is 0. See sheet "sheet" cell B4'])
+        assert_equal(errors, [u'The "Name" cannot be "N/D" unless the "Total Pay (\xa3)" is 0 or N/A or N/D. i.e. Someone whose pay must be disclosed must also have their name disclosed (unless they are unpaid). See sheet "sheet" cell B4'])
 
     def test_b_is_n_d_and_pay_is_0(self):
         errors = in_sheet_validate_senior_row_diff([('B', 'N/D'), ('P', 0)])

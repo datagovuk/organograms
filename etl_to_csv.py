@@ -427,7 +427,7 @@ def cell_name(row_index, column_index):
 
 def in_sheet_validation(df, validation_errors, sheet_name, junior_or_senior, references):
     row_errors = []
-    in_sheet_validation_row_colours(df, row_errors, sheet_name)
+    has_valid_column = in_sheet_validation_row_colours(df, row_errors, sheet_name)
 
     cell_errors = []
     if junior_or_senior == 'senior':
@@ -443,7 +443,7 @@ def in_sheet_validation(df, validation_errors, sheet_name, junior_or_senior, ref
             except Exception:
                 log.exception('Exception during junior in-sheet validation, row %s' % row.name)
 
-    if cell_errors and not row_errors:
+    if cell_errors and not row_errors and has_valid_column:
         log.error('Errors found by ETL were not picked up by spreadsheet: %r',
                   cell_errors)
         # trust the row_errors (for now) so discard the cell_errors which
@@ -517,7 +517,7 @@ def in_sheet_validation_senior_columns(row, df, validation_errors, sheet_name, r
                     validation_errors.append(u'The "Name" cannot be "N/A" (unless "Total Pay (£)" is 0). %s' % cell_ref)  # unpaid people don't have to be disclosed
                 elif p not in ('N/D', 'N/A'):
                     # i.e. p is another string or a positive number (i.e. not 0 or N/D or N/A)
-                    validation_errors.append(u'The "Name" must be disclosed (cannot be "N/A" or "N/D") unless the "Total Pay (£)" is 0. %s' % cell_ref)
+                    validation_errors.append(u'The "Name" cannot be "N/D" unless the "Total Pay (\xa3)" is 0 or N/A or N/D. i.e. Someone whose pay must be disclosed must also have their name disclosed (unless they are unpaid). %s' % cell_ref)
             elif is_blank(b):
                 # we know A is not 0 because then A would require B to be 'N/D'
                 validation_errors.append(u'The "Name" cannot be blank. %s' % cell_ref)
@@ -787,14 +787,22 @@ def in_sheet_validation_junior_columns(row, df, validation_errors, sheet_name, r
 
 
 def in_sheet_validation_row_colours(df, validation_errors, sheet_name):
+    '''
+    returns: success of finding a colour/value in the Valid? column
+    '''
     # Row validation indication
     validation_column = df.columns.get_loc('Valid?') # equivalent to S
+    if len(df) and len(df[df['Valid?'].notnull()]) == 0:
+        # there is no in-sheet validation - probably because it was generated
+        # from the triplestore
+        return False
     rows_marked_invalid = df[df['Valid?'] == 0]
     if len(rows_marked_invalid):
         row = rows_marked_invalid.head(1)
         row_index = row.index[0]
         err = 'Sheet "%s" has %d invalid row%s. The %sproblem is on row %d, as indicated by the red colour in cell %s.' % (sheet_name, len(rows_marked_invalid), 's' if len(rows_marked_invalid) > 1 else '', 'first ' if len(rows_marked_invalid) > 1 else '', row_name(row_index), cell_name(row_index, validation_column))
         validation_errors.append(err)
+    return True
 
 def get_date_from_filename(filename):
     match = re.search(r'(\d{4}-\d{2}-\d{2})', filename) or \
@@ -848,21 +856,21 @@ def get_verify_level(graph):
 def load_xls_and_get_errors(xls_filename):
     '''
     Used by tso_combined.py
-    Returns: (senior, junior, errors, warnings, will_display)
+    Returns: (senior_df, junior_df, errors, warnings, will_display)
     '''
     errors = []
     validation_errors = []
     warnings = []
     references = get_references(xls_filename, errors, validation_errors, warnings)
-    senior = load_senior(xls_filename, errors, validation_errors, references)
-    junior = load_junior(xls_filename, errors, validation_errors, references)
+    senior_df = load_senior(xls_filename, errors, validation_errors, references)
+    junior_df = load_junior(xls_filename, errors, validation_errors, references)
 
     if errors:
         return None, None, errors + validation_errors, warnings, False
 
     errors = validation_errors
     try:
-        verify_graph(senior, junior, errors)
+        verify_graph(senior_df, junior_df, errors)
     except ValidationFatalError, e:
         # display error - organogram is not displayable
         return None, None, [unicode(e)], warnings, False
@@ -870,7 +878,7 @@ def load_xls_and_get_errors(xls_filename):
     # If we get this far then it will display, although there might be problems
     # with some posts
     errors = dedupe_list(errors)
-    return senior, junior, errors, warnings, True
+    return senior_df, junior_df, errors, warnings, True
 
 
 def print_error(error_msg):
@@ -887,8 +895,8 @@ def load_xls_and_print_errors(xls_filename, verify_level):
     validation_errors = []
     warnings = []
     references = get_references(xls_filename, load_errors, validation_errors, warnings)
-    senior = load_senior(xls_filename, load_errors, validation_errors, references)
-    junior = load_junior(xls_filename, load_errors, validation_errors, references)
+    senior_df = load_senior(xls_filename, load_errors, validation_errors, references)
+    junior_df = load_junior(xls_filename, load_errors, validation_errors, references)
 
     if load_errors:
         print 'Critical error(s):'
@@ -905,7 +913,7 @@ def load_xls_and_print_errors(xls_filename, verify_level):
     if verify_level != 'load':
         validate_errors = []
         try:
-            verify_graph(senior, junior, validate_errors)
+            verify_graph(senior_df, junior_df, validate_errors)
         except ValidationFatalError, e:
             # display error - organogram is not displayable
             print_error(unicode(e))
@@ -916,7 +924,7 @@ def load_xls_and_print_errors(xls_filename, verify_level):
                 print_error(error)
             return
 
-    return senior, junior
+    return senior_df, junior_df
 
 
 def dedupe_list(things):
@@ -939,28 +947,24 @@ def main(input_xls_filepath, output_folder):
     if data is None:
         # fatal error has been printed
         return
-    senior, junior = data
+    senior_df, junior_df = data
 
     # Calculate Organogram name
-    _org = senior['Organisation']
+    _org = senior_df['Organisation']
     _org = _org[_org.notnull()].unique()
     name = " & ".join(_org)
     if name == u'Ministry of Defence':
-        _unit = senior['Unit']
+        _unit = senior_df['Unit']
         _unit = _unit[_unit.notnull()].unique()
         name += " - " + (" & ".join(_unit))
     # Write output files
     basename, extension = os.path.splitext(os.path.basename(input_xls_filepath))
     senior_filename = os.path.join(output_folder, basename + '-senior.csv')
     junior_filename = os.path.join(output_folder, basename + '-junior.csv')
-    print "Writing", senior_filename
-    csv_options = dict(encoding="utf-8",
-                       quoting=csv.QUOTE_ALL,
-                       float_format='%.2f',
-                       index=False)
-    senior.to_csv(senior_filename, **csv_options)
-    print "Writing", junior_filename
-    junior.to_csv(junior_filename, **csv_options)
+    print "Writing", senior_filename, junior_filename
+
+    save_csvs(senior_filename, junior_filename, senior_df, junior_df)
+
     # Write index file - used by Drupal
     index = [{'name': name, 'value': basename}]  # a list because of legacy
     index = sorted(index, key=lambda x: x['name'])
@@ -970,7 +974,15 @@ def main(input_xls_filepath, output_folder):
         json.dump(index, f)
     print "Done."
     # return values are only for the tests
-    return senior_filename, junior_filename, senior, junior
+    return senior_filename, junior_filename, senior_df, junior_df
+
+def save_csvs(senior_filename, junior_filename, senior_df, junior_df):
+    csv_options = dict(encoding="utf-8",
+                       quoting=csv.QUOTE_ALL,
+                       float_format='%.2f',
+                       index=False)
+    senior_df.to_csv(senior_filename, **csv_options)
+    junior_df.to_csv(junior_filename, **csv_options)
 
 
 def usage():
@@ -998,4 +1010,6 @@ if __name__ == '__main__':
         parser.error("Error: File not found: %s" % args.input_xls_filepath)
     if args.verbose:
         logging.basicConfig()
+    else:
+        logging.basicConfig(level=logging.CRITICAL)
     main(args.input_xls_filepath, args.output_folder)

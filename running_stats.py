@@ -32,7 +32,7 @@ class StatsCount(dict):
     def _init_category(self, category):
         if not self.has_key(category):
             self[category] = copy.deepcopy(self._init_value)
-        
+
     def report(self, indent=1, order_by_title=False, show_time_taken=True):
         lines = []
         indent_str = '\t' * indent
