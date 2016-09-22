@@ -57,7 +57,7 @@ def dgu_account(args):
         publishers[upload['submitter_email'].lower()].append(
             dict(email=upload['submitter_email'],
                  org_name=upload['org_name'],
-                 version=upload['version'])
+                 version=version)
             )
 
     print 'Email addresses:'
@@ -87,16 +87,15 @@ def dgu_account(args):
                 return users_by_email[email_variant]
 
     stats = Stats()
+    user_table = []
     for email_lower in publishers:
-        # see if they are a user on data.gov.uk
-        email_variants = set((upload['email']
-                              for upload in publishers[email_lower]))
-        user = get_user(email_variants)
-        emails_str = '/'.join(email_variants)
-        if not user:
-            print stats.add('Not registered', emails_str)
-            continue
-        # assume has confirmed email
+        user_row = dict(email=email_lower)
+
+        versions = (upload['version']
+                    for upload in publishers[email_lower])
+        latest_version = sorted(versions)[-1]
+        user_row['source of contact'] = '%s organogram published' \
+            % datetime.datetime.strftime(latest_version, '%Y-%m')
 
         # find the organization
         org_names_raw = set((upload['org_name']
@@ -110,15 +109,35 @@ def dgu_account(args):
                 match = DguOrgs.by_title()[match]
             if match not in orgs:
                 orgs.append(match)
+        user_row['organization'] = ' / '.join([org['title'] for org in orgs])
+
+        # see if they are a user on data.gov.uk
+        email_variants = set((upload['email']
+                              for upload in publishers[email_lower]))
+        user = get_user(email_variants)
+        user_table.append(user_row)
+
+        emails_str = '/'.join(email_variants)
+        if not user:
+            user_row['has dgu login'] = 'no'
+            print stats.add('Not registered', emails_str)
+            continue
+        # assume has confirmed email
+        user_row['has dgu login'] = 'yes'
+        user_row['name'] = user['fullname']
+        user_row['email'] = user['email']
 
         # see if this user is an editor/admin for the organization
+        user_permissions = []
         for org in orgs:
             editors_and_admins = (user['name'] for user in org['users'])
             if user['name'] in editors_and_admins:
+                user_permissions.append('yes')
                 print stats.add('Already an editor/admin',
                                 '%s %s' %
                                 (emails_str, org['title']))
             else:
+                user_permissions.append('no')
                 admins = (user['name'] for user in org['users']
                           if user['capacity'] == 'admin')
                 if admins:
@@ -130,12 +149,15 @@ def dgu_account(args):
                     print stats.add('Need to get permission. No admin',
                                     '%s %s' %
                                     (emails_str, org['title']))
+        user_row['editor or admin'] = ' / '.join(user_permissions)
 
     def extract_email(stat):
         emails = stat.split(' ')[0] # the first word
         email = emails.split('/')[0] # ignore variants
         return email
 
+    print '\nFor emailing:'
+    print '-------------'
     print '\nNot registered:'
     print ', '.join(stats['Not registered'])
     print '\nAlready an editor/admin:'
@@ -145,7 +167,15 @@ def dgu_account(args):
     print ', '.join([extract_email(email_and_org)
                      for email_and_org in stats['Need to get permission. Admin exists']])
 
+    print '\nTable:'
+    print '-------------'
+    headers = ('name', 'email', 'organization', 'has dgu login', 'editor or admin', 'source of contact')
+    print '\t'.join(headers)
+    for row in user_table:
+        print '\t'.join(row.get(header, '') for header in headers)
+
     print '\nPermissions'
+    print '-------------'
     print stats
 
 
