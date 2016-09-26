@@ -294,7 +294,7 @@ JUNIOR_SHEET_NAME = '(final data) junior-staff'
 
 def verify_graph(senior, junior, errors):
     '''Does checks on the senior and junior posts. Writes errors to supplied
-    empty list. Returns None.
+    list. Returns None.
 
     May raise ValidationFatalError if it is so bad that the organogram cannot
     be displayed (e.g. no "top post").
@@ -890,17 +890,18 @@ def get_verify_level(graph):
 def load_xls_and_get_errors(xls_filename):
     '''
     Used by tso_combined.py
+    Does all checks and returns all errors.
     Returns: (senior_df, junior_df, errors, warnings, will_display)
     '''
-    errors = []
+    load_errors = []
     validation_errors = []
     warnings = []
-    references = get_references(xls_filename, errors, validation_errors, warnings)
-    senior_df = load_senior(xls_filename, errors, validation_errors, references)
-    junior_df = load_junior(xls_filename, errors, validation_errors, references)
+    references = get_references(xls_filename, load_errors, validation_errors, warnings)
+    senior_df = load_senior(xls_filename, load_errors, validation_errors, references)
+    junior_df = load_junior(xls_filename, load_errors, validation_errors, references)
 
-    if errors:
-        return None, None, errors + validation_errors, warnings, False
+    if load_errors:
+        return None, None, load_errors + validation_errors, warnings, False
 
     errors = validation_errors
     try:
@@ -919,11 +920,12 @@ def print_error(error_msg):
     print 'ERROR:', error_msg.encode('utf8')  # encoding for Drupal exec()
 
 
-def load_xls_and_print_errors(xls_filename, verify_level):
+def load_xls_and_stop_on_errors(xls_filename, verify_level, print_errors=True):
     '''
     Loads the XLS, verifies it to an appropriate level and returns the data.
 
-    If errors are not acceptable, it prints them and returns None
+    If errors are not acceptable, it prints them and returns None.
+    Returns: failure_stage, senior_df, junior_df, errors, warnings
     '''
     load_errors = []
     validation_errors = []
@@ -934,15 +936,17 @@ def load_xls_and_print_errors(xls_filename, verify_level):
 
     if load_errors:
         print 'Critical error(s):'
-        for error in load_errors:
-            print_error(error)
+        if print_errors:
+            for error in load_errors:
+                print_error(error)
         # errors mean no rows can be got from the file, so can't do anything
-        return
+        return 'load', senior_df, junior_df, load_errors, warnings
     if validation_errors and verify_level == 'load, display and be valid':
         print 'Validation error(s) during load:'
-        for error in validation_errors:
-            print_error(error)
-        return
+        if print_errors:
+            for error in validation_errors:
+                print_error(error)
+        return 'validation', senior_df, junior_df, validation_errors, warnings
 
     if verify_level != 'load':
         validate_errors = []
@@ -950,15 +954,17 @@ def load_xls_and_print_errors(xls_filename, verify_level):
             verify_graph(senior_df, junior_df, validate_errors)
         except ValidationFatalError, e:
             # display error - organogram is not displayable
-            print_error(unicode(e))
-            return
+            if print_errors:
+                print_error(unicode(e))
+            return 'validating tree', senior_df, junior_df, validate_errors, warnings
 
         if verify_level == 'load, display and be valid' and validate_errors:
-            for error in dedupe_list(validate_errors):
-                print_error(error)
-            return
-
-    return senior_df, junior_df
+           validate_errors = dedupe_list(validate_errors)
+           if print_errors:
+                for error in validate_errors:
+                    print_error(error)
+           return 'validating tree', senior_df, junior_df, validate_errors, warnings
+    return None, senior_df, junior_df, validate_errors, warnings
 
 
 def dedupe_list(things):
@@ -977,11 +983,12 @@ def main(input_xls_filepath, output_folder):
         verify_level = get_verify_level(date_)
     else:
         verify_level = 'load, display and be valid'
-    data = load_xls_and_print_errors(input_xls_filepath, verify_level)
-    if data is None:
+    failure_stage, senior_df, junior_df, errors, warnings = \
+        load_xls_and_stop_on_errors(input_xls_filepath, verify_level,
+                                    print_errors=True)
+    if failure_stage != None:
         # fatal error has been printed
         return
-    senior_df, junior_df = data
 
     # Calculate Organogram name
     _org = senior_df['Organisation']
