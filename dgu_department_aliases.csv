@@ -75,6 +75,10 @@ UK Atomic Energy Authority,United Kingdom Atomic Energy Authority
 UK DMO,UK Debt Management Office
 VisitBritain,British Tourist Authority
 VisitEngland,Visit England
+http://reference.data.gov.uk/id/department/bis,"Department for Business, Innovation and Skills"
+http://reference.data.gov.uk/id/department/dfid,Department for International Development
+http://reference.data.gov.uk/id/department/fco,Foreign and Commonwealth Office
+http://reference.data.gov.uk/id/department/hmrc,Her Majesty's Revenue and Customs
 http://reference.data.gov.uk/id/department/hmt,HM Treasury
 http://reference.data.gov.uk/id/department/orr,Office of Rail and Road
 http://reference.data.gov.uk/id/department/the-supreme-court,UK Supreme Court

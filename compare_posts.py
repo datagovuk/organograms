@@ -13,10 +13,12 @@ from requests.utils import quote
 from progress.bar import Bar
 # pip install unicodecsv
 import unicodecsv
+from departments_tidy import match_to_dgu_dept
 
 from compare_departments import date_to_year_first
 from uploads_scrape import munge_org
 from csv2xls import int_if_possible
+
 
 requests_cache.install_cache('.compare_posts.cache')
 global args
@@ -100,8 +102,7 @@ def uploads_posts_all_departments():
         if row['body_title'] in MOD_AGGREGATED_SUBPUBS:
             mod_counts[row['graph']][0] += row['senior_posts'] or 0
             mod_counts[row['graph']][1] += row['junior_posts'] or 0
-        else:
-            counts_.append(row)
+        counts_.append(row)
     for graph, posts in mod_counts.items():
         counts_.append(dict(
             body_title='Ministry of Defence',
@@ -181,10 +182,13 @@ def triplestore_posts_to_csv(body_title_filter, graph_filter, where_uploads_unre
                     get_triplestore_posts(body_uri, graph, print_urls=True)
                 print '%s %s Senior:%s' % (row['title'], graph,
                                            len(senior_posts))
-                save_posts_csv(row['title'], graph, 'senior', senior_posts)
+                parent_department = \
+                    get_triplestore_parent_department(body_uri, graph, print_urls=True)
+                save_posts_csv(row['title'], graph, 'senior', senior_posts,
+                               parent_department)
                 if junior_posts is not None:
                     save_posts_csv(row['title'], graph, 'junior',
-                                   junior_posts)
+                                   junior_posts, parent_department)
                 done_anything = True
     if not done_anything:
         print 'Have not done anything - check arguments'
@@ -209,7 +213,8 @@ def filepath_for_csv_from_triplestore(body_title, graph, senior_or_junior):
     return out_filepath
 
 
-def save_posts_csv(body_title, graph, senior_or_junior, posts):
+def save_posts_csv(body_title, graph, senior_or_junior, posts,
+                   parent_department):
     '''Given a list of posts, saves them in the standard CSV format.
     '''
     out_filepath = filepath_for_csv_from_triplestore(
@@ -290,7 +295,7 @@ def save_posts_csv(body_title, graph, senior_or_junior, posts):
                     row['Grade (or equivalent)'] = post['grade']
                     row['Job Title'] = post['label']
                     row['Job/Team Function'] = post['comment']
-                    row['Parent Department'] = ''
+                    row['Parent Department'] = parent_department
                     row['Organisation'] = body_title
                     row['Unit'] = post['unit']
                     row['Contact Phone'] = post['phone']
@@ -325,7 +330,7 @@ def save_posts_csv(body_title, graph, senior_or_junior, posts):
             else:
                 for post in sorted(posts, key=lambda p: p['row_index']):
                     row = {}
-                    row['Parent Department'] = ''
+                    row['Parent Department'] = parent_department
                     row['Organisation'] = body_title
                     row['Unit'] = post['unit']
                     row['Reporting Senior Post'] = post['reports_to']
@@ -415,9 +420,98 @@ def triplestore_post_counts_all_departments():
             csv_writer.writerow(row)
     print 'Written', out_filename
 
+def get_triplestore_parent_department(body_uri, graph, print_urls=False):
+    # body_uri
+    # http://reference.data.gov.uk/id/department/co
+    # http://reference.data.gov.uk/id/public-body/consumer-focus
+    body_type, body_name = \
+        re.match('http://reference.data.gov.uk/id/(.*)/(.*)', body_uri).groups()
+    # get
+    # http://reference.data.gov.uk/2011-09-30/doc/public-body/appointments-commission.json
+    url_base = 'http://reference.data.gov.uk/{graph}/doc/{body_type}/{body_name}.json'
+    url = url_base.format(
+        graph=graph,
+        body_type=body_type,
+        body_name=quote(body_name))
+    if print_urls:
+        print 'Getting: ', url
+    response = requests.get(url)
+    primary_topic = response.json()['result']['primaryTopic']
+    if body_type == 'department':
+        # in the spreadsheet, a department's parent is itself
+        label = primary_topic['label'][0]
+    else:
+        parent_department = primary_topic['parentDepartment']
+        if isinstance(parent_department, basestring) and '/hta/' in parent_department:
+            # file:///cygdrive/c/temp/data/hta/2012-09-30/300912-HTA-Organogram-V1.ttl
+            label = 'Department of Health'
+        else:
+            label = get_value(parent_department, dict_key='label', list_index=0)
+        if 'http' in label:
+            match = match_to_dgu_dept(label)
+            label = match['title']
+    return label
+    # we want to store it as the triplestore did, so it matches the other CSVs
+    # of the time
+    #parent_department_uri = primary_topic['parentDepartment']['_about']
+    #match = match_to_dgu_dept(parent_department_uri, label)
+    #return match['title']
+
+def canonize_value(value):
+    value = value.strip(' \'\"\.').lower()  # remove enclosing junk
+    value = re.sub('(and|the)', '', value)  # remove stop words
+    value = re.sub('[^a-z0-9]', '', value)  # leave only chars
+    value = re.sub('\s+', ' ', value)  # no double spaces
+    return value
+
+def get_value(value, dict_key='label', list_index=None,
+              multiple_ok=False):
+    '''Gets a value from a json-like mess of dicts, lists and strings. Usually
+    it's just a dict with a 'label', but where it is more complicated, this
+    recurses.
+    '''
+    options = dict(dict_key=dict_key, list_index=list_index,
+                   multiple_ok=multiple_ok)
+    if isinstance(value, dict):
+        value_ = value.get(dict_key)
+        if value_:
+            return get_value(value_, **options)
+        return value_
+    elif isinstance(value, list):
+        if len(value) == 1:
+            return get_value(value[0], **options)
+        if list_index is not None:
+            # hopefully there are enough items in the list to get the one
+            # we want, although the CSV->TSO linked data conversion was
+            # lossy in this respect so if there are not enough, just assume
+            # it is the same as the last one e.g. 2012-03-31 HMRC post 0
+            # salary range
+            if len(value) <= list_index:
+                list_index = -1
+            return get_value(value[list_index], **options)
+        values = [get_value(val, **options) for val in value]
+        deduped_values = []
+        deduped_canonized_values = []
+        for value__ in values:
+            canonized_value = canonize_value(value__)
+            if canonized_value in deduped_canonized_values:
+                continue
+            deduped_values.append(value__)
+            deduped_canonized_values.append(canonized_value)
+        if len(deduped_values) > 1 and not multiple_ok:
+            print 'Which value is it?', deduped_values
+            import pdb; pdb.set_trace()
+        return '; '.join(deduped_values)
+    elif isinstance(value, (basestring, int, float)):
+        return value
+    elif value is None:
+        return None
+    else:
+        import pdb; pdb.set_trace()
+        raise NotImplementedError
 
 def get_triplestore_posts(body_uri, graph, print_urls=False):
-    # uri
+    # body_uri
     # http://reference.data.gov.uk/id/department/co
     # http://reference.data.gov.uk/id/public-body/consumer-focus
     body_type, body_name = \
@@ -428,55 +522,6 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
     url_base = 'http://reference.data.gov.uk/{graph}/doc/{body_type}/{body_name}/post.json?_page={page}'
     page = 1
     senior_posts = []
-
-    def canonize_value(value):
-        value = value.strip(' \'\"\.').lower()  # remove enclosing junk
-        value = re.sub('(and|the)', '', value)  # remove stop words
-        value = re.sub('[^a-z0-9]', '', value)  # leave only chars
-        value = re.sub('\s+', ' ', value)  # no double spaces
-        return value
-
-    def get_value(value, dict_key='label', list_index=None,
-                  multiple_ok=False):
-        options = dict(dict_key=dict_key, list_index=list_index,
-                       multiple_ok=multiple_ok)
-        if isinstance(value, dict):
-            value_ = value.get(dict_key)
-            if value_:
-                return get_value(value_, **options)
-            return value_
-        elif isinstance(value, list):
-            if len(value) == 1:
-                return get_value(value[0], **options)
-            if list_index is not None:
-                # hopefully there are enough items in the list to get the one
-                # we want, although the CSV->TSO linked data conversion was
-                # lossy in this respect so if there are not enough, just assume
-                # it is the same as the last one e.g. 2012-03-31 HMRC post 0
-                # salary range
-                if len(value) <= list_index:
-                    list_index = -1
-                return get_value(value[list_index], **options)
-            values = [get_value(val, **options) for val in value]
-            deduped_values = []
-            deduped_canonized_values = []
-            for value__ in values:
-                canonized_value = canonize_value(value__)
-                if canonized_value in deduped_canonized_values:
-                    continue
-                deduped_values.append(value__)
-                deduped_canonized_values.append(canonized_value)
-            if len(deduped_values) > 1 and not multiple_ok:
-                print 'Which value is it?', deduped_values
-                import pdb; pdb.set_trace()
-            return '; '.join(deduped_values)
-        elif isinstance(value, (basestring, int, float)):
-            return value
-        elif value is None:
-            return None
-        else:
-            import pdb; pdb.set_trace()
-            raise NotImplementedError
 
     def get_posts_from_triplestore_item(item):
         posts = []
