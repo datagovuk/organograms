@@ -26,8 +26,7 @@ def combine():
         published_uploads = dict(
             ((date_to_year_first(row['version']), row['org_name']), row)
             for row in csv_reader
-            if row['state'] == 'published'
-            and row['org_name'] not in MOD_AGGREGATED_SUBPUBS)
+            if row['state'] == 'published')
         # mod get added from triplestore
 
     with open(in_filename, 'rb') as csv_read_file:
@@ -129,8 +128,10 @@ def combine():
 
     # output the remainder of the files
     for upload in uploads.itervalues():
-        if upload['state'] == 'published':
-            # i.e. ones we chose to use the triplestore version instead
+        if upload['state'] == 'published' and \
+                upload['org_name'] not in MOD_AGGREGATED_SUBPUBS:
+            # i.e. these ones we chose to use the triplestore version instead.
+            # MOD ones we publish also the non-aggregrated ones too.
             upload['state'] = 'signed off'
         out_rows.append(dict(
             body_title=upload['org_name'],
