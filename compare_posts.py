@@ -6,6 +6,7 @@ from collections import defaultdict
 import os.path
 import traceback
 import copy
+from pprint import pprint
 
 import requests_cache
 import requests
@@ -178,13 +179,16 @@ def triplestore_posts_to_csv(body_title_filter, graph_filter, where_uploads_unre
                             row['title'], graph):
                     continue
                 body_uri = uris[i]
-                senior_posts, junior_posts, num_eliminated_senior_posts = \
-                    get_triplestore_posts(body_uri, graph, print_urls=True)
-                print '%s %s Senior:%s' % (
+                senior_posts, junior_posts, num_eliminated_senior_posts, source_files = \
+                    get_triplestore_posts(body_uri, graph, print_urls=args.verbose)
+                print '%s %s Senior:%s Junior:%s' % (
                     row['title'], graph,
-                    len(senior_posts) - num_eliminated_senior_posts)
+                    len(senior_posts) - num_eliminated_senior_posts,
+                    len(junior_posts) if args.junior else 'not checked'
+                    )
+                pprint(dict(source_files))
                 parent_department = \
-                    get_triplestore_parent_department(body_uri, graph, print_urls=True)
+                    get_triplestore_parent_department(body_uri, graph, print_urls=args.verbose)
                 save_posts_csv(row['title'], graph, 'senior', senior_posts,
                                parent_department)
                 if junior_posts is not None:
@@ -319,6 +323,8 @@ def save_posts_csv(body_title, graph, senior_or_junior, posts,
                     row['Valid?'] = ''
                     # linked data CSV only
                     row['URI'] = post['uri']
+                    row['source_file'] = post['source_file']
+                    row['source_line'] = post['source_line']
 
                     # MOD denotes heads of navy/army etc as reporting to
                     # themselves. Convert to the 'XX' convention
@@ -342,6 +348,11 @@ def save_posts_csv(body_title, graph, senior_or_junior, posts,
                     row['Generic Job Title'] = post['job_title']
                     row['Number of Posts in FTE'] = post['fte']
                     row['Professional/Occupational Group'] = post['profession']
+
+                    # linked data CSV only
+                    row['source_file'] = post['source_file']
+                    row['source_line'] = post['source_line']
+
                     csv_writer.writerow(row)
         except Exception:
             traceback.print_exc()
@@ -368,17 +379,20 @@ def triplestore_post_counts(body_title, graph):
                 if graph and graph != graph_:
                     continue
                 body_uri = uris[i]
-                senior_posts, junior_posts, num_eliminated_senior_posts = \
+                (senior_posts, junior_posts, num_eliminated_senior_posts,
+                    source_files) = \
                     get_triplestore_posts(body_uri, graph_)
                 counts.append(dict(
                     body_title=row['title'],
                     graph=graph_,
                     senior_posts=len(senior_posts) - num_eliminated_senior_posts,
                     junior_posts=len(junior_posts) if junior_posts is not None else None,
+                    source_files=repr(dict(source_files)),
+                    num_source_files=len(source_files),
                     ))
     # save
     if not (body_title or graph):
-        headers = ['body_title', 'graph', 'senior_posts', 'junior_posts']
+        headers = ['body_title', 'graph', 'senior_posts', 'junior_posts', 'source_files', 'num_source_files']
         with open(out_filename_counts, 'wb') as csv_write_file:
             csv_writer = csv.DictWriter(csv_write_file,
                                         fieldnames=headers)
@@ -528,6 +542,7 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
     url_base = 'http://reference.data.gov.uk/{graph}/doc/{body_type}/{body_name}/post.json?_page={page}'
     page = 1
     senior_posts = []
+    source_files = defaultdict(int)
 
     def get_posts_from_triplestore_item(item):
         posts = []
@@ -566,6 +581,9 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
                 # Some posts have a URI in the heldBy list, which is a duplicate we can ignore
                 # e.g. http://reference.data.gov.uk/2011-03-31/doc/public-body/ofqual/post.json?_page=1
                 continue
+            post_['source_file'], post_['source_line'] = \
+                parse_source(held_by['_about'])
+            source_files[post_['source_file']] += 1
             post_['name'] = held_by.get('name', '')
             post_['fte'] = get_value(held_by.get('tenure'), 'workingTime', list_index=i)
 
@@ -724,7 +742,7 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
                 post['salary_cost_of_reports']
 
     if not args.junior:
-        return senior_posts, None, num_eliminated_senior_posts
+        return senior_posts, None, num_eliminated_senior_posts, source_files
 
     # junior posts
     # https://secure-reference.data.gov.uk/2012-09-30/doc/public-body/consumer-focus/post/CE1/immediate-junior-staff
@@ -754,6 +772,9 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
                 try:
                     post = {}
                     post['uri'] = item['_about']
+                    post['source_file'], post['source_line'] = \
+                        parse_source(item['_about'])
+                    source_files[post['source_file']] += 1
                     post['reports_to'] = senior_post_id
                     post['row_index'] = \
                         int(post['uri'].split('#juniorPosts')[-1])
@@ -805,7 +826,17 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
             if len(items) < per_page:
                 break
             page += 1
-    return senior_posts, junior_posts, num_eliminated_senior_posts
+    return senior_posts, junior_posts, num_eliminated_senior_posts, source_files
+
+
+def parse_source(source_uri):
+    # http://organogram.data.gov.uk/data/cabinetoffice/2015-09-30/CO-Template-FINAL#person73
+    if '#' not in source_uri:
+        return source_uri, ''
+    splitted = source_uri.split('#')
+    source_file = splitted[0].replace('http://organogram.data.gov.uk', '') + '.xls'
+    source_line = splitted[-1]
+    return source_file, source_line
 
 
 PROFESSIONS = set('Communications, Economics, Finance, Human Resources, Information Technology, Internal Audit, Knowledge and Information Management (KIM), Law, Medicine, Military, Operational Delivery, Operational Research, Other, Planning, Policy, Procurement, Programme and Project Management (PPM), Property and asset management, Psychology, Science and Engineering, Social Research, Statisticians, Tax Professionals, Vets'.split(', '))
@@ -859,10 +890,13 @@ if __name__ == '__main__':
     parser.add_argument('input', choices=['triplestore-to-csv', 'triplestore-counts',
                                           'uploads', 'compare'])
     #triplestore options
+    parser.add_argument('--verbose', '-v', action='store_true',
+                        help='Print the urls requested')
     parser.add_argument('--body')
     parser.add_argument('--graph')
     parser.add_argument('--where-uploads-unreliable', action='store_true')
-    parser.add_argument('--junior', action='store_true', help='Include junior posts too (expensive op)')
+    parser.add_argument('--junior', action='store_true',
+                        help='Include junior posts too (expensive op)')
     parser.add_argument('--include-salary-cost-of-reports', action='store_true', help='Include the salary in the senior sheet (expensive op)')
     args = parser.parse_args()
     if args.input == 'triplestore-to-csv':

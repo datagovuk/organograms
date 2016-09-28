@@ -193,7 +193,16 @@ def check(xls_filename):
 
 def can_we_use_the_upload_spreadsheet(body_title, graph):
     '''Uses hand-tailored logic.'''
-    # Early uploads are a mess
+    # We do want to use particular uploads from 2011, due to multiple uploads
+    # to the triplestore poluting it
+    # https://github.com/datagovuk/ckanext-dgu/issues/508
+    if (graph, body_title) in (
+        ('2011-09-30', 'Council for Healthcare Regulatory Excellence 30/09/2011'),
+        ('2011-09-30', 'Equality and Human Rights Commission'),
+
+        )
+    return True
+    # Early uploads are a mess so default to triplestore
     if graph in ('2011-03-31', '2011-09-30'):
         return False
     # Particular uploads don't seem to represent what's in the triplestore
@@ -206,6 +215,7 @@ def can_we_use_the_upload_spreadsheet(body_title, graph):
         ('2012-03-31', 'Asset Protection Agency'),
         ('2015-03-31', 'Student Loans Company Limited'),
         ('2015-03-31', 'Maritime & Coastguard Agency'),  # xls corrupt
+        ('2012-09-30', 'Home Office'),  # merge of two xls files (GEO)
             ):
         return False
     # MoD uploads would need combining and none of the years of uploads seem as

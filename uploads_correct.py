@@ -7,9 +7,9 @@ from uploads_scrape import munge_org, munge_xls_path
 
 
 should_not_be_published = (
-    '/data/geo/2011-09-30/Copy-of-Final_20110930_08.11.xls',
     '/data/bl/2011-09-30/British-Library-Staff-and-Salary-Data---November-2011.xls',
     '/data/hmrc/2011-09-30/300911-HMRC-Organogram-final.xls',
+
     )
 should_be_published = (
     '/data/education/2012-03-31/310312-DfE-Organogram-ver2.xls',
@@ -28,12 +28,13 @@ ignore_duplicates = (
  # another version comes a day later, so ignore this one
     '/data/chre/2011-09-30/111128-staff-organogram-spreadsheet.xls', # another version comes a few minutes later, so ignore this one
     '/data/dft/2015-09-30/300915-MCA-Organogram-ver-1.xls', # file is corrupt
+    '/data/equalityhumanrights/2011-09-30/Final_20110930_21.11.xls', # replaced 3 mins later
+    '/data/homeoffice/2012-09-30/300912-GEO.xls', # this period Home Office is a merge of its own organogram and this one, so we just take the combined one from the triplestore
     )
 department_corrections = {
     '/data/dft/2015-09-30/300915-MCA-Organogram-ver-1.xls':'Maritime and Coastguard Agency',
     '/data/cabinet-office/2011-09-30/Independent-Office-staff-and-salary-data-FINAL-TEMPLATE.xls': 'Independent Offices',
     '/data/cabinet-office/2011-09-30/BCE-staff-and-salary-data-FINAL-TEMPLATE-v2.xls': 'Boundary Commission for England',
-    '/data/homeoffice/2012-09-30/300912-GEO.xls': 'Government Equalities Office',
     }
 version_corrections = {
     '/data/nmsi/2015-03-31/300915-SMG-Organogram-Data-v1.xls': '30/09/2015',
