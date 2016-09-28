@@ -237,7 +237,7 @@ def save_posts_csv(body_title, graph, senior_or_junior, posts,
             '',  # blank column
             'Professional/Occupational Group',
             'Notes', 'Valid?',
-            'URI',
+            'URI', 'source_file', 'source_line',
             ]
     else:
         headers = [
@@ -246,6 +246,7 @@ def save_posts_csv(body_title, graph, senior_or_junior, posts,
             u'Payscale Minimum (£)', u'Payscale Maximum (£)',
             'Generic Job Title', 'Number of Posts in FTE',
             'Professional/Occupational Group',
+            'source_file', 'source_line',
             ]
 
     with open(out_filepath, 'wb') as csv_write_file:
@@ -615,6 +616,8 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
             post_['salary_range'] = get_value(item.get('salaryRange'),
                                               list_index=0)
             post_['grade'] = get_value(item.get('grade'), list_index=0)
+            post_['source_file'] = ''
+            post_['source_line'] = ''
             posts.append(post_)
 
         return posts

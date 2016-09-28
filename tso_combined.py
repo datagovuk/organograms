@@ -199,9 +199,8 @@ def can_we_use_the_upload_spreadsheet(body_title, graph):
     if (graph, body_title) in (
         ('2011-09-30', 'Council for Healthcare Regulatory Excellence 30/09/2011'),
         ('2011-09-30', 'Equality and Human Rights Commission'),
-
-        )
-    return True
+            ):
+        return True
     # Early uploads are a mess so default to triplestore
     if graph in ('2011-03-31', '2011-09-30'):
         return False
