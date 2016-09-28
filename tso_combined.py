@@ -113,8 +113,8 @@ def combine():
             upload_date=upload['upload_date'] if upload else None,
             publish_date=upload['action_datetime'] if upload else None,
             state='published',
-            errors=errors if args.check else 'not checked',
-            warnings=warnings if args.check else 'not checked',
+            errors=truncate(errors) if args.check else 'not checked',
+            warnings=truncate(warnings) if args.check else 'not checked',
             will_display=will_display if args.check else 'not checked',
             senior_posts_triplestore=post_count['senior_posts_triplestore'],
             junior_posts_triplestore=post_count['junior_posts_triplestore'],
@@ -213,6 +213,13 @@ def can_we_use_the_upload_spreadsheet(body_title, graph):
     if body_title == 'Ministry of Defence' and graph < '2016-09':
         return False
     return True
+
+
+def truncate(txt, max_length=32000):
+    # Excel 2007 complains beyond 32,767 chars in a cell
+    if len(txt) > max_length:
+        txt = txt[:max_length] + '...'
+    return txt
 
 
 def date_to_day_first(date_year_first):

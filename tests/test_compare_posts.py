@@ -41,7 +41,7 @@ class TestTriplestorePostsToCsv(object):
         tso_row = unicode_dict(dict(zip(TSO_HEADER, ("5","N/D","SCS1","Chief Operating Officer","Provide good customer service, Collective conciliation, Helpline","Department for Business Innovation and Skills","Advisory, Conciliation and Arbitration Service","Delivery","N/D","pay_enquiries@acas.org.uk","1","191944227","1.00","N/A","","","Operational Delivery","","1"))))
 
         expected_row = tso_row
-        expected_row[u'Parent Department'] = u''  # org hierarchy not reliable in organograms
+        expected_row[u'Parent Department'] = u'parent dept'
         expected_row[u'Actual Pay Floor (£)'] = u'N/D'  # triplestore returns blank but is SCS1 so it should be N/D rather than N/A
         expected_row[u'Actual Pay Ceiling (£)'] = u'N/D'
         expected_row[u'FTE'] = u'1'  # without the decimal places is absolutely fine
@@ -58,14 +58,14 @@ def convert_to_csv(body_uri, body_title, graph, senior_or_junior,
         compare_posts.args.junior = True
     compare_posts.args.include_salary_cost_of_reports = \
         include_salary_cost_of_reports
-    senior_posts, junior_posts = \
+    senior_posts, junior_posts, num_eliminated_posts = \
         get_triplestore_posts(body_uri, graph, print_urls=True)
     posts = senior_posts if senior_or_junior == 'senior' else junior_posts
     print '%s posts %s %s ' % (len(posts), body_uri.split('/')[0], graph)
     return get_posts_csv(body_title, graph, senior_or_junior, posts)
 
 def get_posts_csv(body_title, graph, senior_or_junior, posts):
-    save_posts_csv(body_title, graph, senior_or_junior, posts)
+    save_posts_csv(body_title, graph, senior_or_junior, posts, 'parent dept')
     with open(CSV_FILEPATH, 'rb') as f:
         return f.read().strip().decode('utf8').split('\r\n')
 

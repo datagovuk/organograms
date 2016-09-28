@@ -178,10 +178,11 @@ def triplestore_posts_to_csv(body_title_filter, graph_filter, where_uploads_unre
                             row['title'], graph):
                     continue
                 body_uri = uris[i]
-                senior_posts, junior_posts = \
+                senior_posts, junior_posts, num_eliminated_senior_posts = \
                     get_triplestore_posts(body_uri, graph, print_urls=True)
-                print '%s %s Senior:%s' % (row['title'], graph,
-                                           len(senior_posts))
+                print '%s %s Senior:%s' % (
+                    row['title'], graph,
+                    len(senior_posts) - num_eliminated_senior_posts)
                 parent_department = \
                     get_triplestore_parent_department(body_uri, graph, print_urls=True)
                 save_posts_csv(row['title'], graph, 'senior', senior_posts,
@@ -367,12 +368,12 @@ def triplestore_post_counts(body_title, graph):
                 if graph and graph != graph_:
                     continue
                 body_uri = uris[i]
-                senior_posts, junior_posts = \
+                senior_posts, junior_posts, num_eliminated_senior_posts = \
                     get_triplestore_posts(body_uri, graph_)
                 counts.append(dict(
                     body_title=row['title'],
                     graph=graph_,
-                    senior_posts=len(senior_posts),
+                    senior_posts=len(senior_posts) - num_eliminated_senior_posts,
                     junior_posts=len(junior_posts) if junior_posts is not None else None,
                     ))
     # save
@@ -386,7 +387,11 @@ def triplestore_post_counts(body_title, graph):
                 csv_writer.writerow(row)
         print 'Written', out_filename_counts
     else:
+        if len(counts) == 1:
+            from pprint import pprint
+            pprint(counts[0])
         print 'Not written counts because of filters make them incomplete'
+
 
 
 def triplestore_post_counts_all_departments():
@@ -400,9 +405,10 @@ def triplestore_post_counts_all_departments():
         rows = []
         for row in csv_reader:
             print row['title']
-            senior_posts, junior_posts = \
+            senior_posts, junior_posts, num_eliminated_senior_posts = \
                 get_triplestore_posts(row['uri'], row['graph'])
-            row['num_senior_posts'] = len(senior_posts)
+            row['num_senior_posts'] = len(senior_posts) \
+                - num_eliminated_senior_posts
             if junior_posts is not None:
                 row['num_junior_posts'] = len(junior_posts)
             rows.append(row)
@@ -625,6 +631,7 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
     # will not validate, so change them to report to the boss of the Eliminated
     # post, so that they are not orphaned.
     # http://reference.data.gov.uk/2012-03-31/doc/department/mod/post/00109782.json
+    num_eliminated_senior_posts = 0
     boss_to_post_uri = dict((post['reports_to_uri'], post['uri'])
                             for post in senior_posts)
     post_uris = set(post['uri'] for post in senior_posts)
@@ -657,6 +664,7 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
                         post['uri'] == 'http://reference.data.gov.uk/id/public-body/health-education-england/post/NORTH029'  # not sure why it's missing
                 # record the eliminated post
                 senior_posts.extend(posts)
+                num_eliminated_senior_posts += len(posts)
                 # change the post that reported to the eliminated post to
                 # report to the eliminated post's boss
                 for eliminated_post in posts:
@@ -716,7 +724,7 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
                 post['salary_cost_of_reports']
 
     if not args.junior:
-        return senior_posts, None
+        return senior_posts, None, num_eliminated_senior_posts
 
     # junior posts
     # https://secure-reference.data.gov.uk/2012-09-30/doc/public-body/consumer-focus/post/CE1/immediate-junior-staff
@@ -797,7 +805,7 @@ def get_triplestore_posts(body_uri, graph, print_urls=False):
             if len(items) < per_page:
                 break
             page += 1
-    return senior_posts, junior_posts
+    return senior_posts, junior_posts, num_eliminated_senior_posts
 
 
 PROFESSIONS = set('Communications, Economics, Finance, Human Resources, Information Technology, Internal Audit, Knowledge and Information Management (KIM), Law, Medicine, Military, Operational Delivery, Operational Research, Other, Planning, Policy, Procurement, Programme and Project Management (PPM), Property and asset management, Psychology, Science and Engineering, Social Research, Statisticians, Tax Professionals, Vets'.split(', '))
