@@ -948,8 +948,8 @@ def load_xls_and_stop_on_errors(xls_filename, verify_level, print_errors=True):
                 print_error(error)
         return 'validation', senior_df, junior_df, validation_errors, warnings
 
+    validate_errors = []
     if verify_level != 'load':
-        validate_errors = []
         try:
             verify_graph(senior_df, junior_df, validate_errors)
         except ValidationFatalError, e:
