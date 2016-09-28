@@ -61,6 +61,12 @@ def combine():
         if post_count['body_title'] == 'The National Museum of the Royal Navy'\
             and post_count['graph'] == '2016-03-31':
             continue
+        # HACK - This GEO was just part of the Home Office one, which we get
+        # from the triplestore - no need for a separate one
+        if post_count['body_title'] == 'Government Equalities Office'\
+            and post_count['graph'] == '2012-09-30':
+            continue
+
 
         senior_posts_triplestore = int(post_count['senior_posts_triplestore'] or 0)
         senior_posts_uploads = int(post_count['senior_posts_uploads'] or 0)

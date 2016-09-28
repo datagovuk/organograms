@@ -43,12 +43,12 @@ Department of Education,2011-09-30,128,672
 English Heritage,2011-09-30,21,193
 Environment Agency,2011-09-30,153,2197
 Engineering and Physical Sciences Research Council,2011-09-30,4,76
-Equality and Human Rights Commission,2011-09-30,5,186
 Foreign and Commonwealth Office,2011-09-30,131,219
 The Food and Environment Research Agency,2011-09-30,6,125
 Forestry Commission,2011-09-30,11,228
 Gambling Commission,2011-09-30,13,46
 The Geffrye Museum,2011-09-30,1,21
+Equality and Human Rights Commission,2011-09-30,5,186
 Horserace Betting Levy Board,2011-09-30,3,11
 Medical Research Council,2011-09-30,41,307
 Human Fertilisation and Embryology Authority,2011-09-30,5,14
@@ -96,6 +96,13 @@ Olympic Delivery Authority,2011-09-30,29,141
 London Thames Gateway Development Corporation,2011-09-30,6,8
 Marine Management Organisation,2011-09-30,5,31
 Met Office,2011-09-30,10,229
+Permanent Joint Headquarters,2011-09-30,21,434
+Air Command,2011-09-30,44,1414
+MoD Central Top Level Budget,2011-09-30,218,1980
+Army Command,2011-09-30,119,2708
+Defence Infrastructure Organisation,2011-09-30,15,643
+Defence Equipment and Support,2011-09-30,141,4252
+Navy Command,2011-09-30,46,1113
 Monitor,2011-09-30,9,42
 Museum of Science and Industry,2011-09-30,4,34
 National Army Museum,2011-09-30,5,32
@@ -143,6 +150,7 @@ Sport England,2011-09-30,8,87
 Standards Board for England,2011-09-30,3,25
 Science and Technology Facilities Council,2011-09-30,37,321
 Tate,2011-09-30,6,28
+Defence Science and Technology Laboratory,2011-09-30,13,143
 Training and Development Agency for Schools,2011-09-30,13,47
 Committee on Climate Change,2011-09-30,4,29
 The Pensions Regulator,2011-09-30,89,92
@@ -252,8 +260,16 @@ Youth Justice Board,2012-03-31,16,163
 Land Registry,2012-03-31,22,103
 Learning and Skills Improvement Service,2012-03-31,4,76
 London Thames Gateway Development Corporation,2012-03-31,6,8
+Defence Science and Technology Laboratory,2012-03-31,11,136
 Marine Management Organisation,2012-03-31,5,31
 Met Office,2012-03-31,10,229
+Air Command,2012-03-31,42,1260
+Army Command,2012-03-31,115,898
+Defence Equipment and Support,2012-03-31,132,1096
+Defence Infrastructure Organisation,2012-03-31,17,656
+Head Office and Corporate Services (MoD),2012-03-31,165,1414
+Joint Forces Command,2012-03-31,69,1164
+Navy Command,2012-03-31,45,769
 Monitor,2012-03-31,9,55
 National Army Museum,2012-03-31,5,32
 National Lottery Commission,2012-03-31,2,10
@@ -350,7 +366,6 @@ Her Majesty's Revenue and Customs,2012-09-30,349,4237
 HM Treasury,2012-09-30,93,349
 Civil Service Learning,2012-09-30,5,28
 Criminal Records Bureau,2012-09-30,3,58
-Government Equalities Office,2012-09-30,8,42
 HM Inspectorate of Constabulary,2012-09-30,16,76
 Home Office,2012-09-30,192,839
 Identity & Passport Service,2012-09-30,16,43
@@ -386,6 +401,13 @@ Learning and Skills Improvement Service,2012-09-30,5,70
 London Thames Gateway Development Corporation,2012-09-30,4,4
 Marine Management Organisation,2012-09-30,5,30
 Met Office,2012-09-30,9,224
+Army Command,2012-09-30,113,1088
+Navy Command,2012-09-30,50,290
+Head Office and Corporate Services (MoD),2012-09-30,120,1374
+Joint Forces Command,2012-09-30,68,1184
+Defence Infrastructure Organisation,2012-09-30,19,721
+Air Command,2012-09-30,41,1260
+Defence Equipment and Support,2012-09-30,124,972
 Monitor,2012-09-30,10,67
 Natural England,2012-09-30,22,187
 Natural Environment Research Council,2012-09-30,23,393
@@ -507,6 +529,13 @@ Prisons and Probation Ombudsman,2013-03-31,4,19
 Youth Justice Board,2013-03-31,16,182
 Land Registry,2013-03-31,22,93
 Met Office,2013-03-31,10,238
+Defence Science and Technology Laboratory,2013-03-31,11,138
+Head Office and Corporate Services (MoD),2013-03-31,146,1313
+Defence Infrastructure Organisation,2013-03-31,22,330
+Navy Command,2013-03-31,43,450
+Army Command,2013-03-31,114,649
+Joint Forces Command,2013-03-31,80,1186
+Air Command,2013-03-31,42,376
 Royal Air Force Museum,2013-03-31,2,30
 Monitor,2013-03-31,51,110
 The National Archives,2013-03-31,7,209
@@ -559,6 +588,7 @@ Department for International Development,2013-09-30,89,371
 Transport Focus,2013-09-30,3,13
 Department of Health,2013-09-30,163,976
 UK Debt Management Office,2013-09-30,4,115
+Defence Science and Technology Laboratory,2013-09-30,11,136
 Department for Work and Pensions,2013-09-30,229,2155
 Standards and Testing Agency,2013-09-30,145,742
 English Heritage,2013-09-30,24,239
@@ -598,6 +628,13 @@ Youth Justice Board,2013-09-30,16,182
 Land Registry,2013-09-30,21,99
 Olympic Delivery Authority,2013-09-30,9,21
 Medicines and Healthcare products Regulatory Agency,2013-09-30,144,1117
+Air Command,2013-09-30,42,371
+Navy Command,2013-09-30,44,454
+Defence Infrastructure Organisation,2013-09-30,23,335
+Head Office and Corporate Services (MoD),2013-09-30,156,1330
+Defence Equipment and Support,2013-09-30,132,572
+Joint Forces Command,2013-09-30,74,606
+Army Command,2013-09-30,115,645
 Defence Support Group,2013-09-30,6,26
 Monitor,2013-09-30,53,113
 Natural England,2013-09-30,23,178
@@ -678,6 +715,12 @@ HM Inspectorate of Prisons,2014-03-31,2,16
 HM Inspectorate of Probation,2014-03-31,1,8
 Judicial Office,2014-03-31,5,41
 Ministry of Justice,2014-03-31,136,893
+Defence Infrastructure Organisation,2014-03-31,24,316
+Defence Equipment and Support,2014-03-31,135,510
+Army Command,2014-03-31,113,539
+Head Office and Corporate Services (MoD),2014-03-31,157,1276
+Air Command,2014-03-31,42,379
+Navy Command,2014-03-31,47,420
 Natural England,2014-03-31,21,258
 Natural Environment Research Council,2014-03-31,19,723
 NHS Business Services Authority,2014-03-31,5,130
@@ -714,6 +757,7 @@ Department for International Development,2014-09-30,92,684
 Department of Health,2014-09-30,164,1090
 UK Debt Management Office,2014-09-30,4,113
 Defence Support Group,2014-09-30,6,26
+Defence Science and Technology Laboratory,2014-09-30,10,121
 Department for Work and Pensions,2014-09-30,204,1932
 Department of Education,2014-09-30,139,695
 Foreign and Commonwealth Office,2014-09-30,133,200
@@ -736,6 +780,13 @@ Judicial Appointments Commission,2014-09-30,3,29
 Judicial Office,2014-09-30,5,38
 Prisons and Probation Ombudsman,2014-09-30,3,12
 Ministry of Justice,2014-09-30,212,2643
+Air Command,2014-09-30,42,315
+Army Command,2014-09-30,113,539
+Defence Equipment and Support,2014-09-30,112,518
+Defence Infrastructure Organisation,2014-09-30,44,321
+Head Office and Corporate Services (MoD),2014-09-30,150,1871
+Joint Forces Command,2014-09-30,102,764
+Navy Command,2014-09-30,48,453
 National Army Museum,2014-09-30,5,29
 Natural England,2014-09-30,21,239
 West and South Yorkshire and Bassetlaw Commissioning Support Unit,2014-09-30,32,368
@@ -770,6 +821,7 @@ Trinity House Lighthouse Service,2015-03-31,4,127
 Vehicle Certification Agency,2015-03-31,1,24
 Department of Health,2015-03-31,170,1038
 UK Debt Management Office,2015-03-31,4,117
+Defence Science and Technology Laboratory,2015-09-30,7,112
 Department for Work and Pensions,2015-03-31,204,1953
 Department of Education,2015-03-31,139,732
 Environment Agency,2015-03-31,117,1736
@@ -781,6 +833,13 @@ HM Treasury,2015-03-31,91,272
 Human Tissue Authority,2015-03-31,5,5
 Independent Police Complaints Commission,2015-03-31,3,187
 Ministry of Justice,2015-03-31,181,4760
+Air Command,2015-03-31,43,328
+Army Command,2015-03-31,110,537
+Defence Equipment and Support,2015-03-31,115,513
+Defence Infrastructure Organisation,2015-03-31,42,291
+Head Office and Corporate Services (MoD),2015-03-31,150,1916
+Joint Forces Command,2015-03-31,99,681
+Navy Command,2015-03-31,52,456
 The National Museum of the Royal Navy,2015-03-31,5,15
 National Army Museum,2015-03-31,5,29
 Natural England,2015-03-31,16,236
@@ -822,7 +881,14 @@ Gangmasters Licensing Authority,2015-09-30,1,37
 Her Majesty's Revenue and Customs,2015-09-30,359,4649
 Independent Police Complaints Commission,2015-09-30,7,191
 Ministry of Justice,2015-09-30,192,4428
+Air Command,2015-09-30,45,318
+Army Command,2015-09-30,110,529
+Defence Equipment and Support,2015-09-30,123,497
+Defence Infrastructure Organisation,2015-09-30,42,294
+Head Office and Corporate Services (MoD),2015-09-30,165,2010
+Joint Forces Command,2015-09-30,103,711
 National Army Museum,2015-09-30,5,27
+Navy Command,2015-09-30,52,449
 The National Museum of the Royal Navy,2015-09-30,4,15
 Natural England,2015-09-30,17,255
 NHS Blood and Transplant,2015-09-30,57,91
@@ -842,7 +908,15 @@ Consumer Council for Water,2016-03-31,5,28
 Crown Prosecution Service,2016-03-31,73,973
 Water Services Regulation Authority,2016-03-31,10,51
 Animal and Plant Health Agency,2016-03-31,9,121
+Department for Transport,2016-03-31,142,194
+Driver and Vehicle Licensing Agency,2016-03-31,9,68
+Driver & Vehicle Standards Agency,2016-03-31,12,189
+Office of Rail and Road,2016-03-31,5,312
+Trinity House Lighthouse Service,2016-03-31,4,132
+Transport Focus,2016-03-31,4,23
+Vehicle Certification Agency,2016-03-31,1,23
 Department of Health,2016-03-31,152,922
+Defence Science and Technology Laboratory,2016-03-31,8,113
 Environment Agency,2016-03-31,124,1316
 Foreign and Commonwealth Office,2016-03-31,132,192
 Medical Research Council,2016-03-31,26,229
@@ -850,6 +924,13 @@ Her Majesty's Revenue and Customs,2016-03-31,364,4981
 Ministry of Justice,2016-03-31,222,4912
 Marine Management Organisation,2016-03-31,5,32
 Medicines and Healthcare products Regulatory Agency,2016-03-31,136,1110
+Air Command,2016-03-31,45,312
+Army Command,2016-03-31,112,537
+Defence Equipment and Support,2016-03-31,164,535
+Defence Infrastructure Organisation,2016-03-31,46,298
+Head Office and Corporate Services (MoD),2016-03-31,158,3293
+Joint Forces Command,2016-03-31,110,710
+Navy Command,2016-03-31,52,491
 Royal Air Force Museum,2016-03-31,5,26
 National Army Museum,2016-03-31,5,27
 Health Education England,2016-03-31,979,462
