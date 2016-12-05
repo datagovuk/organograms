@@ -510,6 +510,7 @@ def in_sheet_validation_senior_columns(row, df, validation_errors, sheet_name, r
         elif ' ' in a:
             validation_errors.append('%s: You cannot have spaces in the "Post Unique Reference" column.' % cell_ref)
         elif re.search(r'[¬!\"£$%^&()+=\{\}\[\]:;@\'#<>,.\\/]', a):
+            # NB Should we disallow "_" though? The in-sheet validation message says it was allowed...
             validation_errors.append('%s: You cannot have punctuation/symbols in the "Post Unique Reference" column.' % cell_ref)
 
     # senior column B is invalid if:
