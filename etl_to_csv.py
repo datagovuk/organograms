@@ -430,12 +430,16 @@ def verify_graph(senior, junior, errors):
     eliminated_posts = set(senior[senior['Name'].astype(unicode) == "Eliminated"]['Post Unique Reference'])
     bad_junior_refs = junior_report_to_refs - senior_post_refs
     for ref in bad_junior_refs:
-        if ref in eliminated_posts:
-            errors.append('Junior post reporting to Eliminated senior post "%s"'
-                          % ref)
-        else:
-            errors.append('Junior post reporting to unknown senior post "%s"'
-                          % ref)
+        posts = junior[junior['Reporting Senior Post'].astype(unicode) == ref]
+        for post_index, post in posts.iterrows():
+            params = dict(
+                ref=ref,
+                post_type='Eliminated' if ref in eliminated_posts \
+                    else 'unknown',
+                cell=cell_name(post_index, column_index('d')),
+            )
+            # Sheet "(final data) junior-staff" cell D9: Post reporting to Eliminated senior post "OLD"
+            errors.append('Sheet "(final data) junior-staff" cell {cell}: Post reporting to {post_type} senior post "{ref}"'.format(**params))
 
 def row_name(row_index):
     '''
@@ -737,7 +741,7 @@ def in_sheet_validation_senior_columns(row, df, validation_errors, sheet_name, r
             if (is_number(i) or isinstance(i, basestring)) and \
                 (i != 'N/D' or j != 'N/D'):
                 if a in (0, '0') or b in ('Vacant', 'VACANT', 'vacant', 'Eliminated', 'ELIMINATED', 'eliminated'):
-                    ref_value = '"Post Unique Reference" is "0" (individual is paid but not in post)' if a in (0, '0') else '"Name" is Vacant" or "Eliminated"'
+                    ref_value = '"Post Unique Reference" is "0" (individual is paid but not in post)' if a in (0, '0') else '"Name" is "Vacant" or "Eliminated"'
                     if i != 'N/A':
                         validation_errors.append(u'%s: Because the %s, the "Contact Phone" must be "N/A".' % (cell_ref, ref_value))
                 else:
@@ -839,7 +843,19 @@ def in_sheet_validation_row_colours(df, validation_errors, sheet_name):
     if len(rows_marked_invalid):
         row = rows_marked_invalid.head(1)
         row_index = row.index[0]
-        err = 'Sheet "%s" has %d invalid row%s. The %sproblem is on row %d, as indicated by the red colour in cell %s.' % (sheet_name, len(rows_marked_invalid), 's' if len(rows_marked_invalid) > 1 else '', 'first ' if len(rows_marked_invalid) > 1 else '', row_name(row_index), cell_name(row_index, validation_column))
+        params = dict(
+            sheet=sheet_name,
+            first_cell=cell_name(row_index, validation_column),
+            first_row=row_name(row_index),
+            all_rows=', '.join(str(row_name(r))
+                              for r in rows_marked_invalid.index),
+            validation_column=column_name(validation_column),
+            num_rows=len(rows_marked_invalid),
+            )
+        if len(rows_marked_invalid) == 1:
+            err = 'Sheet "{sheet}" cell {first_cell}: Invalid row, as indicated by the red colour in cell {first_cell}.'.format(**params)
+        else:
+            err = 'Sheet "{sheet}" cell {first_cell} etc: Multiple invalid rows. They are indicated by the red colour in column {validation_column}. Rows affected: {all_rows}.'.format(**params)
         validation_errors.append(err)
     return True
 

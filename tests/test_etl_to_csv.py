@@ -49,12 +49,17 @@ class TestErrorMessages():
     def test_sample_senior_invalid(self):
         senior, junior, errors, warnings, will_display = load_xls_and_get_errors(
             TEST_XLS_DIR + '/sample-invalid-senior.xls')
-        assert_equal(['Sheet "(final data) senior-staff" has 1 invalid row. The problem is on row 4, as indicated by the red colour in cell S4.'], errors)
+        assert_equal(['Sheet "(final data) senior-staff" cell S4: Invalid row, as indicated by the red colour in cell S4.'],
+            errors)
 
     def test_sample_junior_invalid(self):
         senior, junior, errors, warnings, will_display = load_xls_and_get_errors(
             TEST_XLS_DIR + '/sample-invalid-junior.xls')
-        assert_equal(['Sheet "(final data) junior-staff" has 1 invalid row. The problem is on row 12, as indicated by the red colour in cell K12.'], errors)
+        assert_equal([
+            'Sheet "(final data) junior-staff" cell K3 etc: Multiple invalid rows. They are indicated by the red colour in column K. Rows affected: 3, 10.',
+            'Sheet "(final data) junior-staff" cell D9: Post reporting to Eliminated senior post "OLD"',
+            'Sheet "(final data) junior-staff" cell D10: Post reporting to unknown senior post "MADEUP"'
+            ], errors)
 
 
 SENIOR_COLUMN_HEADINGS = u'Post Unique Reference,Name,Grade (or equivalent),Job Title,Job/Team Function,Parent Department,Organisation,Unit,Contact Phone,Contact E-mail,Reports to Senior Post,Salary Cost of Reports (£),FTE,Actual Pay Floor (£),Actual Pay Ceiling (£),Total Pay (£),Professional/Occupational Group,Notes,Valid?'.split(',')
@@ -283,7 +288,7 @@ class TestInSheetValidationSeniorColumns():
 
     def test_i_given_but_name_is_vacant(self):
         errors = in_sheet_validate_senior_row_diff([('I', '012345'), ('B', 'Vacant')], row_base='vacant')
-        assert_equal(errors, [u'Sheet "sheet" cell I4: Because the "Name" is Vacant" or "Eliminated", the "Contact Phone" must be "N/A".'])
+        assert_equal(errors, [u'Sheet "sheet" cell I4: Because the "Name" is "Vacant" or "Eliminated", the "Contact Phone" must be "N/A".'])
 
     def test_i_given_but_id_is_0(self):
         errors = in_sheet_validate_senior_row_diff([('I', '012345')], row_base='not in post')
