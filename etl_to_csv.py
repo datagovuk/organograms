@@ -32,7 +32,7 @@ class ValidationFatalError(Exception):
     pass
 
 
-def load_excel_store_errors(filename, sheet_name, errors, validation_errors, input_columns, rename_columns, blank_columns, integer_columns, string_columns):
+def load_excel_store_errors(filename, sheet_name, errors, validation_errors, input_columns, rename_columns, integer_columns, string_columns):
     """Carefully load an Excel file, taking care to log errors and produce clean output.
     You'll always receive a dataframe with the expected columns, though it might contain 0 rows if
     there are errors. Strings will be stored in the 'errors' array.
@@ -57,11 +57,6 @@ def load_excel_store_errors(filename, sheet_name, errors, validation_errors, inp
     if len(df.columns)!=len(input_columns):
         errors.append("Sheet '%s' contains %d columns. I expect at least %d columns." % (sheet_name, len(df.columns), len(input_columns)))
         return pandas.DataFrame(columns=output_columns)
-    # Blank out columns
-    for column_name in blank_columns:
-        col_index = df.columns.tolist().index(column_name)
-        df.drop(df.columns[col_index], axis=1, inplace=True)
-        df.insert(col_index, column_name, '')
     # Softly correct column names
     for i in range(len(df.columns)):
         # Check column names are as expected. Also allow them to be the renamed
@@ -121,6 +116,14 @@ def load_excel_store_errors(filename, sheet_name, errors, validation_errors, inp
             df[column_name] = df[column_name].str.strip()
     return df
 
+def blank_out_columns(df, blank_columns):
+    # Blank out the given columns, given by name
+    for column_name in blank_columns:
+        col_index = df.columns.tolist().index(column_name)
+        df.drop(df.columns[col_index], axis=1, inplace=True)
+        df.insert(col_index, column_name, '')
+        df.rename(columns={column_name: ''}, inplace=True)
+    return df
 
 def load_senior(excel_filename, errors, validation_errors, references):
     input_columns = [
@@ -144,7 +147,6 @@ def load_senior(excel_filename, errors, validation_errors, references):
       u'Notes',
       u'Valid?']
     rename_columns = {
-      u'Total Pay (£)': u'',
       u'Grade': u'Grade (or equivalent)',
     }
     blank_columns = {
@@ -160,10 +162,11 @@ def load_senior(excel_filename, errors, validation_errors, references):
       u'Reports to Senior Post',
     ]
     sheet_name = SENIOR_SHEET_NAME
-    df = load_excel_store_errors(excel_filename, sheet_name, errors, validation_errors, input_columns, rename_columns, blank_columns, integer_columns, string_columns)
+    df = load_excel_store_errors(excel_filename, sheet_name, errors, validation_errors, input_columns, rename_columns, integer_columns, string_columns)
     if df.dtypes['Post Unique Reference']==numpy.float64:
         df['Post Unique Reference'] = df['Post Unique Reference'].astype('int')
     in_sheet_validation(df, validation_errors, sheet_name, 'senior', references)
+    df = blank_out_columns(df, blank_columns)
     return df
 
 
@@ -188,7 +191,7 @@ def load_junior(excel_filename, errors, validation_errors, references):
       u'Reporting Senior Post',
     ]
     sheet_name = JUNIOR_SHEET_NAME
-    df = load_excel_store_errors(excel_filename, sheet_name, errors, validation_errors, input_columns, {}, [], integer_columns, string_columns)
+    df = load_excel_store_errors(excel_filename, sheet_name, errors, validation_errors, input_columns, {}, integer_columns, string_columns)
     if df.dtypes['Reporting Senior Post']==numpy.float64:
         df['Reporting Senior Post'] = df['Reporting Senior Post'].fillna(-1).astype('int')
     in_sheet_validation(df, validation_errors, sheet_name, 'junior', references)
@@ -537,6 +540,7 @@ def in_sheet_validation_senior_columns(row, df, validation_errors, sheet_name, r
             if b != 'N/D':
                 validation_errors.append('%s: Because the "Post Unique Reference" is "0" (individual is paid but not in post) the name must be "N/D".' % cell_ref)
         else:
+            # NB seems a bit crazy to use "Total Pay" as it is only filled in if the total package is over £150k, and gets blanked out anyway? Should this test not be based on Actual Pay Floor instead?
             try:
                 p_is_greater_than_zero_or_a_string = int(p) > 0
             except ValueError:
