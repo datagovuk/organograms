@@ -9,6 +9,13 @@ data/dgu/*.xls
 data/csv-generated
 data/pawel-examples
 data/tom-csv
+data/dgu/csv-from-triplestore.old/
+data/dgu/csv-from-xls-from-triplestore/
+data/dgu/tso-csv.old/
+data/dgu/tso-csv/
+data/dgu/xls-dread/
+data/dgu/xls-from-triplestore.bak/
+data/dgu/xls-from-triplestore/
 uploads_report_with_private.csv
 uploads_report_raw_with_private.csv
 apikeys.cfg
