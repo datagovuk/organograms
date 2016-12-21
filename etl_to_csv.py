@@ -432,14 +432,18 @@ def verify_graph(senior, junior, errors):
     for ref in bad_junior_refs:
         posts = junior[junior['Reporting Senior Post'].astype(unicode) == ref]
         for post_index, post in posts.iterrows():
+            if ref == 'nan' or ref is None or pandas.isnull(ref):
+                problem = 'You must not leave this cell blank - all junior posts must report to a senior post.'
+            elif ref in eliminated_posts:
+                problem = 'Post reporting to senior post "{ref}" that is Eliminated'.format(ref=ref)
+            else:
+                problem = 'Post reporting to unknown senior post "{ref}"'.format(ref=ref)
             params = dict(
-                ref=ref,
-                post_type='Eliminated' if ref in eliminated_posts \
-                    else 'unknown',
                 cell=cell_name(post_index, column_index('d')),
+                problem=problem,
             )
             # Sheet "(final data) junior-staff" cell D9: Post reporting to Eliminated senior post "OLD"
-            errors.append('Sheet "(final data) junior-staff" cell {cell}: Post reporting to {post_type} senior post "{ref}"'.format(**params))
+            errors.append('Sheet "(final data) junior-staff" cell {cell}: {problem}'.format(**params))
 
 def row_name(row_index):
     '''

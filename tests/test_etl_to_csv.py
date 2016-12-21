@@ -56,8 +56,9 @@ class TestErrorMessages():
         senior, junior, errors, warnings, will_display = load_xls_and_get_errors(
             TEST_XLS_DIR + '/sample-invalid-junior.xls')
         assert_equal([
-            'Sheet "(final data) junior-staff" cell K3 etc: Multiple invalid rows. They are indicated by the red colour in column K. Rows affected: 3, 10.',
-            'Sheet "(final data) junior-staff" cell D9: Post reporting to Eliminated senior post "OLD"',
+            'Sheet "(final data) junior-staff" cell K3 etc: Multiple invalid rows. They are indicated by the red colour in column K. Rows affected: 3, 10, 15.',
+            'Sheet "(final data) junior-staff" cell D15: You must not leave this cell blank - all junior posts must report to a senior post.',
+            'Sheet "(final data) junior-staff" cell D9: Post reporting to senior post "OLD" that is Eliminated',
             'Sheet "(final data) junior-staff" cell D10: Post reporting to unknown senior post "MADEUP"'
             ], errors)
 
